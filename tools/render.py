@@ -39,7 +39,7 @@ for c in json.load(open(jobs)):
     out = os.path.join(outdir, c["name"] + ".mp4")
     vf = ("[0:v]split[a][b];"
           "[a]scale=270:480:force_original_aspect_ratio=increase,crop=270:480,boxblur=10:2,eq=brightness=-0.12,scale=1080:1920[bg];"
-          "[b]scale=1240:-2,crop=1080:ih[fg];"
+          f"[b]scale={c.get('scale', 1240)}:-2,crop=1080:ih[fg];"
           f"[bg][fg]overlay=0:(H-h)/2-70,fps=30,ass={ass}:fontsdir=fonts[v]")
     cmd = ["ffmpeg", "-y", "-loglevel", "error", "-ss", str(c["start"]), "-t", str(dur), "-i", src,
            "-filter_complex", vf, "-map", "[v]", "-map", "0:a:0",

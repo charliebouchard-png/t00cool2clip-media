@@ -57,7 +57,7 @@ function townBg(t, nf) {
   X.beginPath(); X.moveTo(0, 930); X.bezierCurveTo(600, 900, 1200, 980, W, 930); X.lineTo(W, 1000); X.bezierCurveTo(1200, 1050, 600, 970, 0, 1000); X.closePath(); inkPath(mix('#e9c98f', '#5d5a7a', nf), 4);
 }
 function bean(x, y, o, t) { // simple 2D cartoon person, feet at (x,y)
-  const s = o.size || 1, bob = Math.sin(t * 6 + x) * 3; X.save(); X.translate(x, y); X.scale(s, s);
+  const s = o.size || 1.3, bob = Math.sin(t * 6 + x) * 3; X.save(); X.translate(x, y); X.scale(s, s);
   X.fillStyle = 'rgba(0,0,0,.25)'; X.beginPath(); X.ellipse(0, 0, 60, 14, 0, 0, 7); X.fill();
   X.lineCap = 'round'; X.strokeStyle = '#1b1712'; X.lineWidth = 9; X.beginPath(); X.moveTo(-18, -70); X.lineTo(-22, 0); X.moveTo(18, -70); X.lineTo(22, 0); X.stroke();
   X.translate(0, bob); X.beginPath(); rr(-50, -200, 100, 140, 40); inkPath(o.shirt || '#4361ee', 5);
@@ -73,7 +73,7 @@ S.story = (v, lt, d) => { // cartoon characters with speech bubbles (storybook s
   const cs = v.cast || [{}]; const n = cs.length;
   if (v.title) { X.save(); X.globalAlpha = eo(lt / .4); X.beginPath(); X.font = F(700, 64); const w = X.measureText(v.title).width; rr(W / 2 - w / 2 - 40, 70, w + 80, 110, 30); inkPath('#fff8e6', 5); txt(v.title, W / 2, 125, F(700, 64), '#1b1712'); X.restore(); }
   cs.forEach((c, i) => { const x = n === 1 ? W / 2 : 420 + (W - 840) * i / (n - 1); const p = back((lt - i * .25) / .5); X.save(); X.globalAlpha = cl(p); bean(x, 900 + (1 - cl(p)) * 60, c, lt); X.restore();
-    if (c.say) { const bp = back((lt - .4 - i * .35) / .4); if (bp <= 0) return; const lines = wrap(c.say, 460, F(700, 40)); const bw = 520, bh = 60 + lines.length * 50, bx = x - bw / 2, by = 900 - 380 * (c.size || 1) - bh - 30;
+    if (c.say) { const bp = back((lt - .4 - i * .35) / .4); if (bp <= 0) return; const lines = wrap(c.say, 460, F(700, 40)); const bw = 520, bh = 60 + lines.length * 50, bx = x - bw / 2, by = 900 - 380 * (c.size || 1.3) - bh - 30;
       X.save(); X.translate(x, by + bh); X.scale(bp, bp); X.translate(-x, -(by + bh)); X.beginPath(); rr(bx, by, bw, bh, 34); X.moveTo(x - 20, by + bh); X.lineTo(x, by + bh + 34); X.lineTo(x + 20, by + bh); inkPath('#ffffff', 5);
       lines.forEach((l, j) => txt(l, x, by + 52 + j * 50, F(700, 40), '#1b1712')); X.restore(); } });
 };
@@ -128,7 +128,7 @@ const THEMES = {
     head: 'Fredoka', body: 'Fredoka', serif: 'Fredoka', num: 'Fredoka', glow: 0,
     bg: (t, a, i, thumb) => townBg(thumb ? 0 : t, thumb ? 0 : nightAt(t)),
     stage: () => {}, trans: (pb, b, lt, gt) => { const panel = b.vis.type !== 'story';
-      const draw = (bb, tt) => { if (bb.vis.type === 'story') return drawVis(bb, tt); X.save(); X.beginPath(); rr(150, 50, 1620, 760, 40); inkPath('rgba(255,248,230,.96)', 6); X.translate(W / 2, 430); X.scale(.74, .74); X.translate(-W / 2, -H / 2); drawVis(bb, tt); X.restore(); };
+      const draw = (bb, tt) => { if (bb.vis.type === 'story') return drawVis(bb, tt); X.save(); X.beginPath(); rr(90, 36, 1740, 800, 40); inkPath('rgba(255,248,230,.96)', 6); X.translate(W / 2, 436); X.scale(.8, .8); X.translate(-W / 2, -H / 2); drawVis(bb, tt); X.restore(); };
       const d = .7; if (!pb || lt >= d) return draw(b, gt); const e = eio(lt / d); X.save(); X.translate(0, -H * e); draw(pb, b.t0 - .001); X.restore(); X.save(); X.translate(0, H * (1 - e)); draw(b, gt); X.restore(); },
     post: () => {}, cap: { bg: 'rgba(27,23,18,.82)', fg: '#fff8e6', hl: '#ffd166', font: 'Fredoka' }, bar: '#ff8c00', thumbStroke: '#1b1712', thumbFg: '#fff8e6', thumbPost: () => {} },
 };

@@ -1,0 +1,665 @@
+{
+ "id": "MV001",
+ "style": "storybook",
+ "accent": "gold",
+ "title": "How Costco Makes Money (It's Not the Shopping)",
+ "beats": [
+  {
+   "say": "Costco sells a hot dog and a drink for one dollar fifty. It's charged that same price since nineteen eighty five, even when it was losing money on every one.",
+   "vis": {
+    "type": "story",
+    "title": "$1.50 since 1985",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "🌭",
+      "say": "Still one fifty?!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "When the boss once said they should raise the price, the co-founder reportedly told him: if you raise the hot dog, I will kill you. Figure it out.",
+   "vis": {
+    "type": "story",
+    "title": "The hot dog rule",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "We're losing money on it..."
+     },
+     {
+      "shirt": "#1b1712",
+      "mood": "shock",
+      "hat": "🎩",
+      "say": "Raise it and I'll kill you. Figure it out."
+     }
+    ]
+   }
+  },
+  {
+   "say": "And somehow, a shop that refuses to make money on its food court makes billions of dollars in profit every year. So how does that work?",
+   "vis": {
+    "type": "hook",
+    "text": "Losing money on hot dogs. Making billions.",
+    "emoji": "🤔",
+    "hot": [
+     "billions."
+    ]
+   }
+  },
+  {
+   "say": "Meet Dave. Dave has heard Costco is cheap, so on Saturday morning he drives to the giant warehouse on the edge of town with his mate Priya.",
+   "vis": {
+    "type": "story",
+    "title": "Saturday morning",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "prop": "🛒",
+      "say": "Bargain day!"
+     },
+     {
+      "shirt": "#f4a261",
+      "mood": "happy",
+      "say": "Let's go, Dave."
+     }
+    ]
+   }
+  },
+  {
+   "say": "But at the door, someone stops them. Before Dave can buy a single thing, he has to buy a membership card.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "I have to pay... to shop?"
+     },
+     {
+      "shirt": "#e63946",
+      "mood": "happy",
+      "prop": "💳",
+      "say": "Membership card, please."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Dave laughs. Paying a shop for the right to give it more money sounds ridiculous. But he signs up anyway, because Priya says the prices are worth it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "sad",
+      "prop": "💸",
+      "say": "Fine. But this better be good."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Inside, it doesn't look like a normal shop. Concrete floors. Metal racks up to the ceiling. Pallets of stock just sitting there, still wrapped in plastic.",
+   "vis": {
+    "type": "list",
+    "title": "Not a normal shop",
+    "items": [
+     [
+      "🧱",
+      "Concrete floors"
+     ],
+     [
+      "🏗️",
+      "Metal racks to the ceiling"
+     ],
+     [
+      "📦",
+      "Stock left on pallets"
+     ],
+     [
+      "🛍️",
+      "Bring your own bags"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And there's something else Dave notices. There isn't much choice. Instead of twenty kinds of ketchup, there's one or two. In giant bottles.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "prop": "🍅",
+      "say": "Where are the other ketchups?"
+     }
+    ]
+   }
+  },
+  {
+   "say": "That's on purpose. A typical Costco warehouse carries fewer than four thousand products. A big supermarket can carry tens of thousands.",
+   "vis": {
+    "type": "bars",
+    "title": "Products on the shelves",
+    "items": [
+     [
+      "Costco warehouse",
+      4000,
+      "gold"
+     ],
+     [
+      "Big supermarket",
+      30000,
+      "teal"
+     ]
+    ],
+    "max": 32000,
+    "source": "Costco annual report, 2025: fewer than 4,000 active products per warehouse. Supermarket figure illustrative."
+   }
+  },
+  {
+   "say": "Dave fills his trolley. Toilet roll for a year. A forty-eight pack of crisps. A tyre for his car. He gets to the till, and the total is surprisingly low.",
+   "vis": {
+    "type": "story",
+    "title": "The big shop",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "prop": "🧻",
+      "say": "That's... actually cheap."
+     },
+     {
+      "shirt": "#f4a261",
+      "mood": "happy",
+      "prop": "🌭",
+      "say": "Told you."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Wait. If everything is this cheap, and the hot dogs lose money, where does Costco's profit actually come from?",
+   "vis": {
+    "type": "hook",
+    "text": "So where does the profit come from?",
+    "emoji": "❓",
+    "hot": [
+     "profit"
+    ]
+   }
+  },
+  {
+   "say": "To understand the answer, you have to go back to the man who invented the idea. In nineteen seventy six, a businessman called Sol Price opened a warehouse store in San Diego called Price Club, selling to small businesses that paid a membership fee.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1976",
+      "Sol Price opens Price Club in San Diego"
+     ],
+     [
+      "1983",
+      "The first Costco opens in Seattle"
+     ],
+     [
+      "1993",
+      "Costco and Price Club merge"
+     ],
+     [
+      "Today",
+      "Over 900 warehouses worldwide",
+      "teal"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In nineteen eighty three, one of the people who had worked for him, Jim Sinegal, opened the first Costco in Seattle with a business partner. Ten years later, Costco and Price Club merged. Today there are more than nine hundred Costco warehouses around the world, including in Britain.",
+   "vis": {
+    "type": "num",
+    "value": 914,
+    "label": "Costco warehouses worldwide",
+    "color": "gold",
+    "emoji": "🏬",
+    "source": "Costco annual report, FY2025 (as of 31 August 2025)"
+   }
+  },
+  {
+   "say": "You see, Costco isn't really in the business of selling you things. It's in the business of selling you the card.",
+   "night": true,
+   "vis": {
+    "type": "icon",
+    "emoji": "💳",
+    "text": "The real product is the card",
+    "sub": "Not the stuff inside",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Think of it like a gym. The gym doesn't make money from the treadmill. It makes money from your monthly fee, whether you show up or not.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "Like a gym",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "🏋️",
+      "say": "The fee is the business."
+     }
+    ]
+   }
+  },
+  {
+   "say": "In its twenty twenty five financial year, Costco collected five point three billion dollars in membership fees alone.",
+   "night": true,
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 5.3,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "in membership fees in one year",
+    "color": "gold",
+    "emoji": "💳",
+    "source": "Costco annual report, fiscal year 2025"
+   }
+  },
+  {
+   "say": "Its total profit that year, after everything, was about eight point one billion dollars. So the fees on their own were worth around two thirds of the entire profit.",
+   "night": true,
+   "vis": {
+    "type": "bars",
+    "title": "Costco, fiscal year 2025",
+    "prefix": "$",
+    "suffix": "bn",
+    "dec": 1,
+    "items": [
+     [
+      "Membership fees",
+      5.3,
+      "gold"
+     ],
+     [
+      "Total profit",
+      8.1,
+      "teal"
+     ]
+    ],
+    "max": 9,
+    "source": "Costco annual report, FY2025: membership fees $5,323m, net income $8,099m"
+   }
+  },
+  {
+   "say": "Now compare that with what Costco makes on the actual shopping. For every pound or dollar you spend on goods, Costco keeps only about eleven pence of it before paying for staff, rent and running the warehouses.",
+   "night": true,
+   "vis": {
+    "type": "num",
+    "value": 11,
+    "suffix": "p",
+    "label": "kept from every £1 of goods, before running costs",
+    "color": "teal",
+    "emoji": "🪙",
+    "source": "Costco FY2025 gross margin on net sales: 11.1%"
+   }
+  },
+  {
+   "say": "Normal supermarkets make their money on the gap between what they pay for something and what they sell it for. Costco keeps that gap tiny on purpose. Reports say it limits its markups to around fourteen or fifteen percent.",
+   "night": true,
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal shop",
+     "emoji": "🏪",
+     "lines": [
+      "Profit from prices",
+      "Bigger markups"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Costco",
+     "emoji": "💳",
+     "lines": [
+      "Profit from members",
+      "Tiny markups"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "Because here's the clever bit. The lower the prices, the more people feel their membership is worth it. And the more people renew their card, year after year.",
+   "night": true,
+   "vis": {
+    "type": "flow",
+    "title": "The Costco loop",
+    "nodes": [
+     [
+      "🏷️",
+      "Very low prices"
+     ],
+     [
+      "😊",
+      "Members feel it's worth it"
+     ],
+     [
+      "🔁",
+      "They renew"
+     ],
+     [
+      "💳",
+      "Fees pay the bills"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "And they really do renew. In the US and Canada, more than ninety two percent of members renewed. Worldwide, it was almost ninety percent.",
+   "night": true,
+   "vis": {
+    "type": "grid",
+    "emoji": "🙂",
+    "on": "💳",
+    "total": 100,
+    "highlight": 92,
+    "title": "Out of every 100 US and Canada members…",
+    "label": "92 renewed",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "That's eighty one million paying members. Imagine a business that knows, before the year even starts, that billions of dollars are coming in.",
+   "night": true,
+   "vis": {
+    "type": "num",
+    "value": 81,
+    "suffix": " million",
+    "label": "paid Costco members worldwide",
+    "color": "gold",
+    "emoji": "👥",
+    "source": "Costco annual report, FY2025"
+   }
+  },
+  {
+   "say": "So what about the small choice? That's part of the plan too. Selling fewer products means Costco buys each one in enormous amounts. That gives it huge power to push suppliers for lower prices.",
+   "night": true,
+   "vis": {
+    "type": "flow",
+    "title": "Fewer products, bigger orders",
+    "nodes": [
+     [
+      "📦",
+      "Fewer products"
+     ],
+     [
+      "🚚",
+      "Massive orders"
+     ],
+     [
+      "🤝",
+      "Cheaper from suppliers"
+     ]
+    ],
+    "color": "teal",
+    "coin": "📦"
+   }
+  },
+  {
+   "say": "The warehouse look saves money as well. Stock goes straight from the lorry to the shelf on a pallet. Fewer people stacking shelves. No fancy shop fittings. Every saving goes back into lower prices.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "Why it looks like a warehouse",
+    "items": [
+     [
+      "🚚",
+      "Lorry to shelf, on the pallet"
+     ],
+     [
+      "👷",
+      "Less shelf-stacking"
+     ],
+     [
+      "💡",
+      "No fancy fittings"
+     ],
+     [
+      "🏷️",
+      "Savings go into prices"
+     ]
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "And the hot dog? It's not really food. It's a promise. Every time a member pays one fifty, it reminds them that Costco is the place where prices don't go up.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "The hot dog is a promise",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "🌭",
+      "say": "Still one fifty. I trust this place."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Costco also offers an upgraded membership that costs more, but pays you back a small reward on what you spend. So the people who pay the most for their card are encouraged to spend even more inside.",
+   "night": true,
+   "vis": {
+    "type": "flow",
+    "title": "The upgrade trick",
+    "nodes": [
+     [
+      "⭐",
+      "Pay more for a better card"
+     ],
+     [
+      "🛒",
+      "Get a reward on spending"
+     ],
+     [
+      "💰",
+      "So spend more"
+     ]
+    ],
+    "color": "gold",
+    "coin": "⭐"
+   }
+  },
+  {
+   "say": "There's one more trick hiding in the aisles. Costco keeps some products for a short time only. A fancy TV this week. A giant teddy bear next month. If you don't buy it now, it might be gone.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "The treasure hunt",
+    "items": [
+     [
+      "📺",
+      "Here this week"
+     ],
+     [
+      "🧸",
+      "Gone next month"
+     ],
+     [
+      "⏰",
+      "Buy it now, or miss it"
+     ],
+     [
+      "🔁",
+      "So you keep coming back"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Retail experts call it the treasure hunt. It gives members a reason to come back again and again, just to see what's new. And every visit makes the card feel more worth renewing.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "The treasure hunt",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "prop": "🧸",
+      "say": "I didn't need this. But it's only here this week!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Many warehouses also sell cheap petrol, often only to members. People join for the fuel, and while they're there, they pop inside.",
+   "night": true,
+   "vis": {
+    "type": "flow",
+    "title": "The petrol trick",
+    "nodes": [
+     [
+      "⛽",
+      "Cheap fuel for members"
+     ],
+     [
+      "🚗",
+      "Fill up"
+     ],
+     [
+      "🛒",
+      "Pop inside"
+     ]
+    ],
+    "color": "teal",
+    "coin": "⛽"
+   }
+  },
+  {
+   "say": "Other businesses have copied the idea. Amazon Prime is a membership that makes you more likely to shop on Amazon. In Britain, Tesco gives its best prices to Clubcard members.",
+   "vis": {
+    "type": "list",
+    "title": "Who else does it?",
+    "items": [
+     [
+      "📦",
+      "Amazon Prime"
+     ],
+     [
+      "🛒",
+      "Tesco Clubcard Prices"
+     ],
+     [
+      "☕",
+      "Coffee shop loyalty apps"
+     ],
+     [
+      "🏋️",
+      "Every gym in the country"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But Costco took it further than anyone, because it's willing to make almost nothing on the shopping itself.",
+   "vis": {
+    "type": "hook",
+    "text": "Almost nothing on the shopping. Billions on the card.",
+    "emoji": "💳",
+    "hot": [
+     "nothing",
+     "Billions"
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "So is it worth it for you? Only if you'd actually buy enough in bulk to save more than the cost of the card. If you'd just end up with a year's supply of crisps you didn't need, the warehouse wins.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Worth it",
+     "emoji": "👨‍👩‍👧‍👦",
+     "lines": [
+      "Big household",
+      "Buys in bulk anyway"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Not worth it",
+     "emoji": "🧍",
+     "lines": [
+      "Small household",
+      "Buys stuff you don't need"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Back at the car park, Dave is loading forty eight packets of crisps into his tiny hatchback, and feeling very pleased with himself.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "prop": "🍟",
+      "say": "I saved so much money!"
+     },
+     {
+      "shirt": "#f4a261",
+      "mood": "happy",
+      "prop": "🌭",
+      "say": "Same time next month?"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Luckily, the hot dog only cost him one fifty. Unluckily, the card cost him a lot more, and he's already planning his next trip.",
+   "vis": {
+    "type": "story",
+    "title": "The real product",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "prop": "💳",
+      "say": "Wait... I'm the customer AND the product?"
+     }
+    ]
+   }
+  },
+  {
+   "say": "If you want more videos on how businesses really make their money, subscribe. And tell me which company I should break down next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which company should I break down next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE SHOP|THAT DOESN'T|PROFIT",
+  "emoji": "🛒",
+  "color": "red",
+  "tag": "How it makes money"
+ },
+ "speed": 0.95
+}

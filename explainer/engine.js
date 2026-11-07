@@ -13,7 +13,7 @@ const col = c => C[c] || c || C.gold;
 function rr(x, y, w, h, r) { X.beginPath(); X.moveTo(x + r, y); X.arcTo(x + w, y, x + w, y + h, r); X.arcTo(x + w, y + h, x, y + h, r); X.arcTo(x, y + h, x, y, r); X.arcTo(x, y, x + w, y, r); X.closePath(); }
 function wrap(text, maxW, font) { X.font = font; const words = String(text).split(' '); const lines = []; let cur = ''; for (const w of words) { const t = cur ? cur + ' ' + w : w; if (X.measureText(t).width > maxW && cur) { lines.push(cur); cur = w; } else cur = t; } if (cur) lines.push(cur); return lines; }
 function txt(s, x, y, font, color, align = 'center', alpha = 1) { X.save(); X.globalAlpha *= alpha; X.font = font; X.fillStyle = color; X.textAlign = align; X.textBaseline = 'middle'; X.fillText(s, x, y); X.restore(); }
-function emo(e, x, y, size, alpha = 1, rot = 0) { X.save(); X.globalAlpha *= alpha; X.translate(x, y); X.rotate(rot); X.font = EMO(size); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(e, 0, size * .05); X.restore(); }
+function emo(e, x, y, size, alpha = 1, rot = 0) { X.save(); X.globalAlpha *= alpha; X.translate(x, y); X.rotate(rot); X.fillStyle = "#fff"; X.font = EMO(size); X.textAlign = 'center'; X.textBaseline = 'middle'; X.fillText(e, 0, size * .05); X.restore(); }
 function glow(color, blur) { X.shadowColor = color; X.shadowBlur = blur; }
 function noglow() { X.shadowBlur = 0; X.shadowColor = 'transparent'; }
 function rnd(i) { const s = Math.sin(i * 127.1 + 311.7) * 43758.5453; return s - Math.floor(s); }
@@ -89,9 +89,9 @@ S.list = (v, lt, d) => { const items = v.items; const step = Math.max(.5, Math.m
     X.fillStyle = 'rgba(255,255,255,.05)'; rr(330, y - gap * .4, 1260, gap * .8, 22); X.fill(); emo(it[0], 420, y, gap * .5);
     txt(it[1], 500, y, F(600, Math.min(50, gap * .36)), C.white, 'left'); X.restore(); }); };
 S.vs = (v, lt) => { const sides = [v.left, v.right]; sides.forEach((s, k) => { const p = eo((lt - k * .5) / .6); const cx = k ? 1440 : 480; const c = col(s.color || (k ? 'red' : 'teal'));
-  X.save(); X.globalAlpha = p; X.translate(0, (1 - p) * 50); X.fillStyle = 'rgba(255,255,255,.05)'; rr(cx - 400, 170, 800, 760, 30); X.fill(); X.strokeStyle = c; X.lineWidth = 4; rr(cx - 400, 170, 800, 760, 30); X.stroke();
-  txt(s.title, cx, 250, F(700, 58), c); emo(s.emoji, cx, 420, 150);
-  (s.lines || []).forEach((l, i) => txt(l, cx, 590 + i * 80, F(500, 44), C.white, 'center', eo((lt - .6 - k * .5 - i * .25) / .4))); X.restore(); });
+  X.save(); X.globalAlpha = p; X.translate(0, (1 - p) * 50); X.fillStyle = 'rgba(255,255,255,.05)'; rr(cx - 400, 150, 800, 720, 30); X.fill(); X.strokeStyle = c; X.lineWidth = 4; rr(cx - 400, 150, 800, 720, 30); X.stroke();
+  txt(s.title, cx, 230, F(700, 58), c); emo(s.emoji, cx, 400, 150);
+  (s.lines || []).forEach((l, i) => txt(l, cx, 570 + i * 80, F(500, 44), C.white, 'center', eo((lt - .6 - k * .5 - i * .25) / .4))); X.restore(); });
   txt('VS', W / 2, 550, F(700, 70), C.white, 'center', eo((lt - .4) / .4)); };
 S.flow = (v, lt, d) => { const n = v.nodes.length; const xs = v.nodes.map((_, i) => 260 + (W - 520) * (n === 1 ? .5 : i / (n - 1))); const y = H * .5;
   if (v.title) txt(v.title, W / 2, 170, F(700, 62), C.white, 'center', eo(lt / .4));
@@ -129,7 +129,7 @@ S.stack = (v, lt, d) => { const n = v.count || 30; const shown = Math.floor(n * 
     X.save(); X.translate(x, y - (1 - drop) * 80); X.fillStyle = v.color === 'red' ? '#a33' : '#2f8f5b'; rr(-100, -20, 200, 40, 6); X.fill(); X.fillStyle = v.color === 'red' ? '#d55' : '#4cc27f'; rr(-100, -20, 200, 14, 6); X.fill(); X.fillStyle = '#e9e2c8'; X.fillRect(-18, -20, 36, 40); X.restore(); }
   txt(v.label, W / 2, 170, F(700, 72), col(v.labelColor || 'gold'), 'center', eo(lt / .4)); if (v.sub) txt(v.sub, W / 2, 250, F(500, 40), C.white, 'center', eo((lt - .3) / .4)); };
 S.grid = (v, lt, d) => { // N icons, some highlighted: "1 in 5"
-  const n = v.total || 10, hl = v.highlight || 1; const per = Math.min(10, n); const rows = Math.ceil(n / per); const sz = Math.min(130, 1500 / per);
+  const n = v.total || 10, hl = v.highlight || 1; const per = Math.min(10, n); const rows = Math.ceil(n / per); const sz = Math.min(130, 1500 / per / 1.2, 560 / rows / 1.2);
   if (v.title) txt(v.title, W / 2, 170, F(700, 66), C.white, 'center', eo(lt / .4));
   for (let i = 0; i < n; i++) { const r = Math.floor(i / per), c = i % per; const x = W / 2 - (per - 1) * sz * .6 + c * sz * 1.2, y = H * .5 - (rows - 1) * sz * .6 + r * sz * 1.2;
     const p = back((lt - .2 - i * .05) / .4); const on = i < hl && lt > .2 + n * .05 + .4; X.save(); X.translate(x, y); X.scale(p * (on ? 1.15 : 1), p * (on ? 1.15 : 1)); X.globalAlpha = on ? 1 : .35; emo(on ? (v.on || v.emoji) : v.emoji, 0, 0, sz * .8); X.restore(); }
@@ -174,4 +174,11 @@ window.frame = (t, q = .86) => {
   X.fillStyle = 'rgba(255,255,255,.1)'; X.fillRect(0, 0, W, 6); X.fillStyle = C.gold; X.fillRect(0, 0, W * t / spec.dur, 6);
   return cv.toDataURL('image/jpeg', q);
 };
+window.thumb = v => { // 1920x1080 thumbnail, downscaled later
+  background(3, col(v.color || 'red')); const c = col(v.color || 'red');
+  X.save(); X.translate(1450, 480); X.rotate(-.08); glow(c, 80); emo(v.emoji, 0, 0, 520); noglow(); X.restore();
+  const lines = v.text.split('|'); let y = 300 - (lines.length - 1) * 30;
+  lines.forEach((l, i) => { X.save(); X.font = F(700, v.size || 170); X.textAlign = 'left'; X.textBaseline = 'middle'; X.lineWidth = 22; X.strokeStyle = '#000'; X.lineJoin = 'round'; X.strokeText(l, 90, y); X.fillStyle = i === (v.hl ?? lines.length - 1) ? (v.hlColor ? col(v.hlColor) : C.gold) : '#fff'; X.fillText(l, 90, y); X.restore(); y += (v.size || 170) * 1.08; });
+  if (v.tag) { X.save(); X.fillStyle = c; X.font = F(700, 64); const w = X.measureText(v.tag).width; rr(90, 850, w + 60, 110, 18); X.fill(); X.fillStyle = '#fff'; X.textBaseline = 'middle'; X.fillText(v.tag, 120, 908); X.restore(); }
+  vignette(); return cv.toDataURL('image/jpeg', .92); };
 window.init = spec => { window.SPEC = spec; prep(spec); return { dur: spec.dur }; };

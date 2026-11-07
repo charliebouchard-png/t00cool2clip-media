@@ -1,0 +1,67 @@
+name: explainer-videos
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'JSON list of spec ids, e.g. ["fake-rich"]'
+        required: true
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      matrix:
+        id: ${{ fromJSON(inputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: System packages
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+      - name: Python packages
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "kokoro>=0.9.4" soundfile numpy
+      - name: AI voiceover
+        working-directory: explainer
+        run: python tts.py specs/${{ matrix.id }}.json "$RUNNER_TEMP/voice.wav" "$RUNNER_TEMP/timing.json"
+      - name: Browser
+        working-directory: explainer
+        run: |
+          npm init -y >/dev/null
+          npm i --silent playwright@1.49.1
+          npx playwright install --with-deps chromium
+      - name: Render video and thumbnail
+        working-directory: explainer
+        run: |
+          node render.js specs/${{ matrix.id }}.json "$RUNNER_TEMP/timing.json" "$RUNNER_TEMP/video.mp4" 30
+          node thumb.js specs/${{ matrix.id }}.json "$RUNNER_TEMP/thumb.jpg"
+      - name: Music, mix and package
+        run: |
+          D=$(python -c "import json;print(sum(t['dur'] for t in json.load(open('$RUNNER_TEMP/timing.json')))+1)")
+          python explainer/music.py "$D" "${{ strategy.job-index }}" "$RUNNER_TEMP/music.wav"
+          mkdir -p out
+          ffmpeg -y -loglevel error -i "$RUNNER_TEMP/video.mp4" -i "$RUNNER_TEMP/voice.wav" -i "$RUNNER_TEMP/music.wav" \
+            -filter_complex "[1:a]aresample=48000[v];[2:a]aresample=48000,volume=0.16[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" \
+            -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -ar 48000 -shortest "out/${{ matrix.id }}.mp4"
+          S=$(stat -c%s "out/${{ matrix.id }}.mp4")
+          if [ "$S" -gt 95000000 ]; then ffmpeg -y -loglevel error -i "out/${{ matrix.id }}.mp4" -c:v libx264 -preset veryfast -crf 28 -c:a copy out/tmp.mp4 && mv out/tmp.mp4 "out/${{ matrix.id }}.mp4"; fi
+          ffmpeg -y -loglevel error -i "$RUNNER_TEMP/thumb.jpg" -vf scale=1280:720 -q:v 3 "out/${{ matrix.id }}.jpg"
+          cp "$RUNNER_TEMP/timing.json" "out/${{ matrix.id }}.timing.json"
+          ls -la out
+      - name: Push to a temporary branch
+        run: |
+          B="video-${{ matrix.id }}"
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout -b "$B"
+          git add -f out/
+          git commit -qm "Rendered ${{ matrix.id }} (temporary, deleted after posting)"
+          git push -f origin "$B"

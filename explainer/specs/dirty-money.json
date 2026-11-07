@@ -1,0 +1,484 @@
+{
+ "id": "dirty-money",
+ "accent": "teal",
+ "title": "How Dirty Money Gets Clean (And Why Big Banks Helped)",
+ "beats": [
+  {
+   "say": "Imagine you've made ten million pounds selling drugs. In cash. Sounds like a dream for a criminal. It's actually a nightmare.",
+   "vis": {
+    "type": "stack",
+    "count": 36,
+    "label": "£10,000,000 in cash",
+    "sub": "Now try spending it."
+   }
+  },
+  {
+   "say": "You can't put it in a bank. You can't buy a house with it. Try paying for a Lamborghini with bin bags of twenties, and someone is calling the police before you've left the showroom.",
+   "vis": {
+    "type": "list",
+    "title": "Things you can't do with dirty cash",
+    "items": [
+     [
+      "🏦",
+      "Pay it into a bank"
+     ],
+     [
+      "🏠",
+      "Buy a house"
+     ],
+     [
+      "🏎️",
+      "Buy a supercar"
+     ],
+     [
+      "🧾",
+      "Explain where it came from"
+     ]
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "Dirty money is useless until it's been cleaned. That process is called money laundering. And it's one of the biggest industries on Earth that nobody admits to working in.",
+   "vis": {
+    "type": "hook",
+    "text": "Dirty money is useless until it's cleaned",
+    "emoji": "🧼",
+    "hot": [
+     "useless",
+     "cleaned"
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "The United Nations has estimated that somewhere between two and five percent of the entire world's economy is laundered every single year.",
+   "vis": {
+    "type": "num",
+    "value": 5,
+    "from": 2,
+    "prefix": "2–",
+    "suffix": "%",
+    "label": "of the world's entire economy laundered every year",
+    "color": "teal",
+    "emoji": "🌍",
+    "source": "Source: UN Office on Drugs and Crime estimate"
+   }
+  },
+  {
+   "say": "That's hundreds of billions, possibly trillions of dollars. And according to the same research, less than one percent of it ever gets caught.",
+   "vis": {
+    "type": "grid",
+    "emoji": "💵",
+    "on": "🚔",
+    "total": 100,
+    "highlight": 1,
+    "title": "Out of every $100 laundered…",
+    "label": "less than $1 gets seized",
+    "color": "red"
+   }
+  },
+  {
+   "say": "So how does it actually work? Every laundering scheme, from a corner shop to a global bank, follows the same three steps.",
+   "vis": {
+    "type": "flow",
+    "title": "The 3 steps of money laundering",
+    "nodes": [
+     [
+      "📥",
+      "1. Placement",
+      "teal"
+     ],
+     [
+      "🌀",
+      "2. Layering",
+      "gold"
+     ],
+     [
+      "✨",
+      "3. Integration",
+      "teal"
+     ]
+    ],
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "Step one. Placement. Getting the cash into the system.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Placement: get the cash in",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "The classic trick is a cash business. A car wash, a nail bar, a takeaway, a barber shop. Real businesses, taking real cash, where nobody can easily check how many customers actually came in.",
+   "vis": {
+    "type": "list",
+    "title": "Perfect cash fronts",
+    "items": [
+     [
+      "🚗",
+      "Car washes"
+     ],
+     [
+      "💅",
+      "Nail bars"
+     ],
+     [
+      "🍕",
+      "Takeaways"
+     ],
+     [
+      "💈",
+      "Barber shops"
+     ]
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Say the car wash really takes two thousand pounds a week. On paper, it takes ten thousand. The extra eight thousand is drug money, mixed in and paid into the bank as normal takings.",
+   "vis": {
+    "type": "bars",
+    "title": "One car wash, one week",
+    "prefix": "£",
+    "items": [
+     [
+      "Real takings",
+      2000,
+      "teal"
+     ],
+     [
+      "Declared takings",
+      10000,
+      "red"
+     ]
+    ],
+    "source": "Illustrative example"
+   }
+  },
+  {
+   "say": "Another trick is called smurfing. Instead of one big deposit that sets off alarms, you send lots of people to deposit small amounts, in lots of different branches, again and again.",
+   "vis": {
+    "type": "grid",
+    "emoji": "🧍",
+    "on": "🏃",
+    "total": 30,
+    "highlight": 30,
+    "title": "Smurfing",
+    "label": "Lots of small deposits. No single big alarm.",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "And today, criminals recruit young people online to do this. They offer quick cash to let money pass through your bank account. These people are called money mules, and in the UK it's a crime that can get your account closed and lead to prosecution.",
+   "vis": {
+    "type": "icon",
+    "emoji": "⚠️",
+    "text": "Money mules",
+    "sub": "'Easy money' to use your account = a crime",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Step two. Layering. This is where it gets clever.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Layering: hide the trail",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "The goal is to move the money so many times, through so many places, that nobody can follow the trail back to the crime.",
+   "vis": {
+    "type": "map",
+    "title": "Follow the money… if you can",
+    "pins": [
+     [
+      "London",
+      0.47,
+      0.28,
+      "gold"
+     ],
+     [
+      "Cyprus",
+      0.57,
+      0.38,
+      "gold"
+     ],
+     [
+      "Dubai",
+      0.66,
+      0.46,
+      "gold"
+     ],
+     [
+      "Hong Kong",
+      0.83,
+      0.47,
+      "gold"
+     ],
+     [
+      "BVI",
+      0.27,
+      0.48,
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Money gets wired to a company in one country, which is owned by another company somewhere else, which is owned by a trust in a third country. Shell companies. Real on paper, with nothing inside.",
+   "vis": {
+    "type": "flow",
+    "title": "Shell companies",
+    "nodes": [
+     [
+      "🏢",
+      "Company A (UK)"
+     ],
+     [
+      "📦",
+      "Company B (Cyprus)"
+     ],
+     [
+      "🏝️",
+      "Trust C (offshore)"
+     ],
+     [
+      "❓",
+      "Real owner: hidden"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "There's also trade based laundering. A company sells a shipment of cheap goods, but invoices it as if it was worth millions. The extra money looks like a normal business payment.",
+   "vis": {
+    "type": "doc",
+    "title": "Invoice #4471",
+    "lines": [
+     [
+      "Goods",
+      "Used phone cases"
+     ],
+     [
+      "Quantity",
+      "5,000"
+     ],
+     [
+      "Real value",
+      "£10,000"
+     ],
+     [
+      "Invoiced at",
+      "£2,000,000"
+     ]
+    ],
+    "stamp": "LAUNDERED",
+    "stampAt": 6
+   }
+  },
+  {
+   "say": "Art, luxury watches, crypto, gambling chips. Anything with a value that's hard to check, or easy to move, can be part of the layers.",
+   "vis": {
+    "type": "list",
+    "title": "More hiding places",
+    "items": [
+     [
+      "🖼️",
+      "Art (price = whatever you say)"
+     ],
+     [
+      "⌚",
+      "Luxury watches"
+     ],
+     [
+      "🪙",
+      "Crypto"
+     ],
+     [
+      "🎰",
+      "Casino chips"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Step three. Integration. The money comes home, clean.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Integration: spend it, clean",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Now it looks like profit from a real business, or a loan from a foreign company, or an investment return. And it gets spent on things that hold value. Above all, property.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏙️",
+    "text": "Property",
+    "sub": "Where dirty money goes to look respectable",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "London has been called a laundromat for exactly this reason. Anti corruption campaigners like Transparency International have identified billions of pounds of UK property bought with suspicious wealth, often through anonymous offshore companies.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Investigation",
+    "text": "Billions in UK property bought with suspicious wealth, campaigners say",
+    "date": "Often owned through anonymous offshore companies"
+   }
+  },
+  {
+   "say": "But here's the part that should make you angry. For a lot of this, criminals didn't need to be geniuses. They just needed a bank that didn't look too hard.",
+   "vis": {
+    "type": "hook",
+    "text": "They just needed a bank that didn't look",
+    "emoji": "🏦",
+    "hot": [
+     "bank",
+     "didn't"
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "In twenty twelve, HSBC agreed to pay one point nine billion dollars to US authorities. Prosecutors said at least eight hundred and eighty one million dollars of drug cartel money had moved through its accounts.",
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 1.9,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "HSBC settlement with US authorities, 2012",
+    "color": "red",
+    "emoji": "🏦",
+    "source": "US Department of Justice, 2012"
+   }
+  },
+  {
+   "say": "According to US prosecutors, traffickers deposited huge amounts of cash using boxes designed to fit exactly through the bank's teller windows.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📦",
+    "text": "Boxes built to fit the teller window",
+    "sub": "According to US prosecutors",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Then there was Danske Bank, Denmark's biggest bank. Its small branch in Estonia handled around two hundred billion euros of suspicious payments, much of it from Russia and former Soviet countries, between two thousand and seven and twenty fifteen.",
+   "vis": {
+    "type": "num",
+    "prefix": "€",
+    "value": 200,
+    "suffix": " billion",
+    "label": "of suspicious payments through one small branch in Estonia",
+    "color": "red",
+    "emoji": "🇪🇪",
+    "source": "Danske Bank internal investigation, 2018"
+   }
+  },
+  {
+   "say": "And here in Britain, in twenty twenty one, NatWest became the first bank criminally convicted under the UK's money laundering rules. It was fined over two hundred and sixty four million pounds after a jewellery business deposited hundreds of millions through its accounts, much of it in cash.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 264.8,
+    "dec": 1,
+    "suffix": "m",
+    "label": "NatWest fine, 2021 — the first UK bank convicted under money laundering rules",
+    "color": "red",
+    "emoji": "⚖️",
+    "source": "Financial Conduct Authority, 2021"
+   }
+  },
+  {
+   "say": "Why would banks let this happen? Fees. Big clients. Targets. And the hope that nobody checks. Banks are legally required to report suspicious activity. Some of them, for years, simply didn't do it well enough.",
+   "vis": {
+    "type": "list",
+    "title": "Why banks looked away",
+    "items": [
+     [
+      "💰",
+      "Fees from big clients"
+     ],
+     [
+      "🎯",
+      "Sales targets"
+     ],
+     [
+      "🙈",
+      "Weak checks"
+     ],
+     [
+      "⏳",
+      "Fines came years later"
+     ]
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "So who pays for all this? We do. Laundered money funds drugs, trafficking and fraud. It pushes up property prices. And it's why your bank now asks you awkward questions about a transfer to your mate.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Criminals",
+     "emoji": "🕶️",
+     "lines": [
+      "Clean money",
+      "Big houses"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Everyone else",
+     "emoji": "🙋",
+     "lines": [
+      "Higher prices",
+      "More bank checks"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "The simple lesson? If anyone ever offers you easy money to use your bank account, it's not easy money. It's laundering, and you'd be the one left holding it.",
+   "vis": {
+    "type": "hook",
+    "text": "Easy money for your bank account? It's laundering.",
+    "emoji": "🚫",
+    "hot": [
+     "laundering."
+    ],
+    "color": "red",
+    "size": 96
+   }
+  },
+  {
+   "say": "Subscribe for more of the hidden side of money. Next up, the German tech giant that said it had one point nine billion euros in the bank, and it turned out the money never existed.",
+   "vis": {
+    "type": "outro",
+    "text": "Next: The €1.9 billion that never existed",
+    "sub": "The Wirecard story"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "DIRTY|MONEY",
+  "emoji": "🧼",
+  "tag": "How it gets clean",
+  "color": "teal",
+  "size": 220,
+  "hlColor": "teal"
+ }
+}

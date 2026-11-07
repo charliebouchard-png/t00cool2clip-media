@@ -1,0 +1,626 @@
+{
+ "id": "fake-rich",
+ "accent": "gold",
+ "title": "The Fake Rich Trap: How Is Everyone in Britain Affording This?",
+ "beats": [
+  {
+   "say": "Look around any car park in Britain. Brand new Range Rovers. Mercedes. BMWs with this year's plates.",
+   "vis": {
+    "type": "hook",
+    "text": "Brand new cars. Everywhere.",
+    "emoji": "🚙",
+    "hot": [
+     "new",
+     "Everywhere."
+    ]
+   }
+  },
+  {
+   "say": "Scroll Instagram and it's Dubai, Ibiza, designer bags and the latest iPhone. Every single week.",
+   "vis": {
+    "type": "list",
+    "title": "Your feed, every week",
+    "items": [
+     [
+      "✈️",
+      "Dubai. Ibiza. Again."
+     ],
+     [
+      "👜",
+      "Designer bags"
+     ],
+     [
+      "📱",
+      "The newest phone"
+     ],
+     [
+      "🍾",
+      "Bottomless brunch"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But wages haven't gone up that much. Rent has. Food has. Energy has. So here's the question nobody asks out loud.",
+   "vis": {
+    "type": "hook",
+    "text": "So how is everyone affording this?",
+    "emoji": "🤔",
+    "hot": [
+     "affording"
+    ]
+   }
+  },
+  {
+   "say": "The answer is simple, and a bit uncomfortable. Most of them aren't. They're renting a lifestyle, one monthly payment at a time.",
+   "vis": {
+    "type": "hook",
+    "text": "They're renting a lifestyle",
+    "hot": [
+     "renting"
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "In this video, I'll show you the three machines that make people look rich while making them poorer. And stick around for the end, because the people who are actually wealthy do the exact opposite.",
+   "vis": {
+    "type": "list",
+    "title": "The fake rich machine",
+    "items": [
+     [
+      "🚗",
+      "Car finance"
+     ],
+     [
+      "🛍️",
+      "Buy now, pay later"
+     ],
+     [
+      "📲",
+      "Contracts & subscriptions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Machine number one. The car.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The car you don't own"
+   }
+  },
+  {
+   "say": "Most new cars in Britain aren't bought. They're financed. And the most popular deal is called P C P, personal contract purchase.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🚗",
+    "text": "PCP",
+    "sub": "Personal Contract Purchase"
+   }
+  },
+  {
+   "say": "Here's how it works. You put down a deposit. Then you pay a monthly fee for three or four years. That monthly fee isn't paying for the car. It's mostly paying for the value the car loses while you drive it, plus interest.",
+   "vis": {
+    "type": "flow",
+    "title": "How PCP really works",
+    "nodes": [
+     [
+      "💷",
+      "Small deposit"
+     ],
+     [
+      "📅",
+      "Monthly payments"
+     ],
+     [
+      "📉",
+      "Covers the car's lost value + interest"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then, at the end, there's a big final payment called a balloon. Pay it, and the car is finally yours. Don't pay it, and you hand the keys back with nothing to show for it.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Pay the balloon",
+     "emoji": "🎈",
+     "lines": [
+      "Car is finally yours",
+      "Thousands more to find"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "Don't pay",
+     "emoji": "🔑",
+     "lines": [
+      "Hand the keys back",
+      "Own nothing"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Let's use a simple example. A forty thousand pound car. Four thousand down, about four hundred and fifty a month for four years. That's over twenty five thousand pounds paid, and you still owe a balloon of around eighteen thousand to keep it.",
+   "vis": {
+    "type": "doc",
+    "title": "Example PCP deal",
+    "lines": [
+     [
+      "Car price",
+      "£40,000"
+     ],
+     [
+      "Deposit",
+      "£4,000"
+     ],
+     [
+      "Monthly (48 months)",
+      "£450"
+     ],
+     [
+      "Total paid after 4 years",
+      "£25,600"
+     ],
+     [
+      "Balloon to own it",
+      "£18,000"
+     ],
+     [
+      "You own",
+      "Nothing yet"
+     ]
+    ],
+    "stamp": "STILL NOT YOURS",
+    "stampAt": 9
+   }
+  },
+  {
+   "say": "So what do most people do? They don't pay the balloon. They roll into a brand new deal, with a brand new car, and a brand new monthly payment. Forever.",
+   "vis": {
+    "type": "flow",
+    "title": "The loop",
+    "nodes": [
+     [
+      "🚗",
+      "New car"
+     ],
+     [
+      "📅",
+      "4 years of payments"
+     ],
+     [
+      "🔁",
+      "Hand back, sign again"
+     ]
+    ],
+    "color": "red",
+    "coin": "🔁"
+   }
+  },
+  {
+   "say": "And it got worse. For years, many dealers were paid hidden commission that went up when they set your interest rate higher. The regulator banned that in twenty twenty one.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Car finance scandal",
+    "text": "Hidden dealer commission pushed up interest rates for years",
+    "date": "Banned by the FCA in 2021"
+   }
+  },
+  {
+   "say": "The Financial Conduct Authority estimates around fourteen million car finance deals, from two thousand and seven to twenty twenty four, could be owed some compensation.",
+   "vis": {
+    "type": "num",
+    "value": 14,
+    "suffix": " million",
+    "label": "car finance deals that could be owed compensation",
+    "color": "red",
+    "emoji": "⚖️",
+    "source": "Source: Financial Conduct Authority estimate, 2007–2024 agreements"
+   }
+  },
+  {
+   "say": "So the shiny car on the driveway? It's often a four year rental, with a debt attached, that might have been mis-sold.",
+   "vis": {
+    "type": "hook",
+    "text": "A four year rental with a debt attached",
+    "emoji": "🚙",
+    "hot": [
+     "rental",
+     "debt"
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "Machine number two. Buy now, pay later.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Buy now, pay later"
+   }
+  },
+  {
+   "say": "Klarna, Clearpay, PayPal Pay in Three. Split it into three. Interest free. Feels like free money.",
+   "vis": {
+    "type": "list",
+    "title": "Split it into 3. Interest free.",
+    "items": [
+     [
+      "🛒",
+      "Click 'pay later'"
+     ],
+     [
+      "✂️",
+      "Split into 3 payments"
+     ],
+     [
+      "😌",
+      "Feels like free money"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And Britain loves it. According to Experian, in twenty twenty five, eight and a half million people used buy now pay later in the UK.",
+   "vis": {
+    "type": "num",
+    "value": 8.5,
+    "dec": 1,
+    "suffix": " million",
+    "label": "people in the UK used buy now, pay later in 2025",
+    "color": "gold",
+    "emoji": "🛍️",
+    "source": "Source: Experian, July 2026"
+   }
+  },
+  {
+   "say": "Together they made over one hundred million transactions, worth more than seven billion pounds.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 7,
+    "suffix": " billion+",
+    "label": "spent on buy now, pay later in one year",
+    "color": "gold",
+    "source": "Source: Experian, 2025 data"
+   }
+  },
+  {
+   "say": "Now, to be fair, the same data shows most people do pay on time. The problem isn't one payment. It's stacking.",
+   "vis": {
+    "type": "hook",
+    "text": "The problem isn't one payment. It's stacking.",
+    "hot": [
+     "stacking."
+    ]
+   }
+  },
+  {
+   "say": "Forty pounds here for trainers. Sixty there for a jacket. Thirty for a takeaway order. Each one feels tiny. But they all land in the same month.",
+   "vis": {
+    "type": "stack",
+    "count": 24,
+    "label": "£40 + £60 + £30 + £25 + …",
+    "sub": "Each one feels tiny. Together, they don't.",
+    "color": "red",
+    "labelColor": "red"
+   }
+  },
+  {
+   "say": "Until this year, buy now pay later wasn't even regulated in the UK. The F C A only started overseeing it in July twenty twenty six. For years, nobody was properly checking whether people could afford it.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2019",
+      "BNPL takes off in UK shops"
+     ],
+     [
+      "2020s",
+      "Millions using it, unregulated"
+     ],
+     [
+      "July 2026",
+      "FCA regulation finally begins",
+      "teal"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And here's the sneaky part. Buy now pay later is designed to make you spend more. Retailers pay for it because people put more in their basket when the price looks smaller.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "£120",
+     "emoji": "😬",
+     "lines": [
+      "Feels expensive",
+      "You think twice"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "3 x £40",
+     "emoji": "😌",
+     "lines": [
+      "Feels cheap",
+      "Add to basket"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "Machine number three. The contracts you forget you're paying.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The payments you forget"
+   }
+  },
+  {
+   "say": "The new iPhone isn't bought outright. It's a thirty six month contract. The gym, three streaming services, a food delivery pass, cloud storage, a music app.",
+   "vis": {
+    "type": "list",
+    "title": "Every month, automatically",
+    "items": [
+     [
+      "📱",
+      "Phone contract — 36 months"
+     ],
+     [
+      "🏋️",
+      "Gym"
+     ],
+     [
+      "📺",
+      "3 streaming services"
+     ],
+     [
+      "🍔",
+      "Delivery pass"
+     ],
+     [
+      "🎧",
+      "Music + cloud storage"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "None of it is a big decision. That's exactly why it works. Small, automatic, monthly. You stop noticing, but your bank account doesn't.",
+   "vis": {
+    "type": "bars",
+    "title": "Example monthly 'small stuff'",
+    "prefix": "£",
+    "items": [
+     [
+      "Phone",
+      65,
+      "gold"
+     ],
+     [
+      "Gym",
+      35,
+      "gold"
+     ],
+     [
+      "Streaming x3",
+      33,
+      "gold"
+     ],
+     [
+      "Delivery pass",
+      9,
+      "gold"
+     ],
+     [
+      "Apps & storage",
+      15,
+      "gold"
+     ]
+    ],
+    "max": 70,
+    "source": "Illustrative example"
+   }
+  },
+  {
+   "say": "Add it all up. A car payment, a pile of pay later plans, and a stack of contracts. It's very easy to have more than a thousand pounds leaving every month before you've paid rent or bought food.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 1000,
+    "suffix": "+",
+    "label": "a month gone before rent, bills or food",
+    "color": "red",
+    "emoji": "💸",
+    "source": "Illustrative example"
+   }
+  },
+  {
+   "say": "So why do people do it? Because we judge wealth by what we can see. And you can see a car. You can see a bag. You can't see a pension, or savings, or zero debt.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What you see",
+     "emoji": "👀",
+     "lines": [
+      "Car, bag, holiday",
+      "Looks rich"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "What you can't",
+     "emoji": "🏦",
+     "lines": [
+      "Savings, pension",
+      "Actually rich"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "Social media made it worse. You're not comparing yourself to your neighbours anymore. You're comparing yourself to the best day of thousands of strangers.",
+   "vis": {
+    "type": "grid",
+    "emoji": "🙂",
+    "on": "🤩",
+    "total": 20,
+    "highlight": 20,
+    "title": "Comparing to thousands of highlight reels",
+    "label": "Everyone's best day. Every day."
+   }
+  },
+  {
+   "say": "Being rich is having money. Looking rich is spending it. And the fake rich trap is when you spend money you don't have, to look like you have money you don't.",
+   "vis": {
+    "type": "quote",
+    "text": "Being rich is having money. Looking rich is spending it."
+   }
+  },
+  {
+   "say": "Now here's the twist I promised. A lot of genuinely wealthy people look surprisingly boring.",
+   "vis": {
+    "type": "hook",
+    "text": "The real rich look boring",
+    "emoji": "🧥",
+    "hot": [
+     "boring"
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "The famous book, The Millionaire Next Door, studied American millionaires and found many of them drove older cars, lived in ordinary houses, and spent well below what they earned.",
+   "vis": {
+    "type": "list",
+    "title": "What many millionaires actually do",
+    "items": [
+     [
+      "🚗",
+      "Drive older cars, paid for"
+     ],
+     [
+      "🏠",
+      "Live below their means"
+     ],
+     [
+      "📈",
+      "Invest the difference"
+     ],
+     [
+      "🤫",
+      "Don't advertise it"
+     ]
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Because the secret is boring maths. Money that isn't spent on a monthly payment can be invested. And invested money grows.",
+   "vis": {
+    "type": "line",
+    "title": "£450 a month invested instead of a car payment",
+    "points": [
+     0,
+     5.6,
+     11.6,
+     18.0,
+     24.8,
+     32.2,
+     40.1,
+     48.6,
+     57.7,
+     67.4,
+     77.9
+    ],
+    "labels": [
+     "Year 0",
+     "",
+     "2",
+     "",
+     "4",
+     "",
+     "6",
+     "",
+     "8",
+     "",
+     "10"
+    ],
+    "end": "≈ £78,000",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Four hundred and fifty pounds a month, invested for ten years at a seven percent average return, could grow to roughly seventy eight thousand pounds. That's the same money as the car payment. One makes you look rich. The other makes you rich.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Car payment",
+     "emoji": "🚗",
+     "lines": [
+      "£450 a month",
+      "After 10 years: a used car"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Invested",
+     "emoji": "📈",
+     "lines": [
+      "£450 a month",
+      "After 10 years: ≈ £78k*"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "Returns aren't guaranteed of course, investments go up and down, and this isn't financial advice. But the principle is the oldest one in money. Spend less than you earn, and let the gap work for you.",
+   "vis": {
+    "type": "hook",
+    "text": "Spend less than you earn. Let the gap work.",
+    "hot": [
+     "gap"
+    ],
+    "color": "teal",
+    "size": 96
+   }
+  },
+  {
+   "say": "So next time you see a brand new car on a twenty three year old's driveway, don't feel behind. You might be looking at a four year rental, three pay later plans, and a phone contract.",
+   "vis": {
+    "type": "hook",
+    "text": "Don't feel behind.",
+    "emoji": "😉",
+    "hot": [
+     "behind."
+    ]
+   }
+  },
+  {
+   "say": "If this changed how you see money, subscribe. Next, I'm breaking down how criminals turn dirty money into clean money, and why some of the world's biggest banks helped them do it.",
+   "vis": {
+    "type": "outro",
+    "text": "Next: How dirty money gets clean",
+    "sub": "And why big banks helped"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "FAKE|RICH",
+  "emoji": "🚙",
+  "tag": "How is everyone affording this?",
+  "color": "red",
+  "size": 230
+ }
+}

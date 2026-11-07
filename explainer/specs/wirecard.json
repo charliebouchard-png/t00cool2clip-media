@@ -1,0 +1,501 @@
+{
+ "id": "wirecard",
+ "accent": "red",
+ "title": "Wirecard: The €1.9 Billion That Never Existed",
+ "beats": [
+  {
+   "say": "In June twenty twenty, a German tech company told the world that one point nine billion euros was missing from its accounts.",
+   "vis": {
+    "type": "num",
+    "prefix": "€",
+    "value": 1.9,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "missing. Gone. Or… never there?",
+    "color": "red",
+    "emoji": "🕳️"
+   }
+  },
+  {
+   "say": "A week later, the company was bankrupt. Its chief executive was arrested. And its second in command had vanished, reportedly ending up in Russia.",
+   "vis": {
+    "type": "list",
+    "title": "Within days",
+    "items": [
+     [
+      "📉",
+      "Company collapses"
+     ],
+     [
+      "🚔",
+      "CEO arrested"
+     ],
+     [
+      "✈️",
+      "No. 2 vanishes"
+     ]
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "This wasn't some tiny startup. It was Wirecard. One of the biggest companies in Germany, worth more than Deutsche Bank at its peak. So how did a company that big fake that much money, for that long?",
+   "vis": {
+    "type": "hook",
+    "text": "How do you fake €1.9 billion?",
+    "emoji": "🎭",
+    "hot": [
+     "fake"
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "Let's go back to the start.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The rise",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Wirecard was founded in nineteen ninety nine, near Munich. It processed online card payments. When you pay a shop on the internet, someone has to move that money. Wirecard was one of those someones.",
+   "vis": {
+    "type": "flow",
+    "title": "What Wirecard said it did",
+    "nodes": [
+     [
+      "🛒",
+      "You pay online"
+     ],
+     [
+      "💳",
+      "Wirecard processes it"
+     ],
+     [
+      "🏪",
+      "Shop gets paid"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💶"
+   }
+  },
+  {
+   "say": "Early on, a lot of that business was in areas regular banks wanted to avoid, like online gambling and adult websites. But Wirecard grew fast. Very fast.",
+   "vis": {
+    "type": "line",
+    "title": "Wirecard's share price (illustrative shape)",
+    "points": [
+     3,
+     4,
+     6,
+     9,
+     13,
+     16,
+     28,
+     45,
+     70,
+     100,
+     92
+    ],
+    "labels": [
+     "2010",
+     "",
+     "2012",
+     "",
+     "2014",
+     "",
+     "2016",
+     "",
+     "2018",
+     "",
+     ""
+    ],
+    "end": "Peak",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In September twenty eighteen, Wirecard joined the DAX, Germany's top thirty companies list. It literally replaced Commerzbank, one of the country's oldest banks. It was Germany's tech success story. The answer to Silicon Valley.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Markets",
+    "text": "Payments firm Wirecard replaces Commerzbank in Germany's DAX",
+    "date": "September 2018"
+   }
+  },
+  {
+   "say": "Its boss, Markus Braun, wore black turtle necks, gave big speeches about the future of payments, and was worth well over a billion on paper.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🎤",
+    "text": "The tech visionary",
+    "sub": "Black turtleneck. Big speeches.",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "But there was a problem. Some people didn't believe the numbers.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The doubters",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Starting in twenty fifteen, the Financial Times, led by journalist Dan McCrum, published story after story questioning Wirecard's accounts. Short sellers, investors who bet a share price will fall, said the same.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Investigation",
+    "text": "Questions grow over Wirecard's accounts in Asia",
+    "date": "Reporting from 2015 to 2020"
+   }
+  },
+  {
+   "say": "The big claim was this. Much of Wirecard's profit supposedly came from third party partners in Asia and the Middle East. Wirecard sent customers to these partners, and they paid Wirecard a cut. The money sat in special trust accounts.",
+   "vis": {
+    "type": "flow",
+    "title": "The 'third-party' business",
+    "nodes": [
+     [
+      "🏢",
+      "Wirecard"
+     ],
+     [
+      "🤝",
+      "Partners in Asia"
+     ],
+     [
+      "🏦",
+      "Trust accounts"
+     ],
+     [
+      "❓",
+      "Billions in profit?"
+     ]
+    ],
+    "color": "red",
+    "coin": "❓"
+   }
+  },
+  {
+   "say": "But when journalists went to visit some of these partners, the addresses turned out to be things like a small family home, or an office that didn't seem to be doing much business at all.",
+   "vis": {
+    "type": "map",
+    "title": "Visiting the 'partners'",
+    "pins": [
+     [
+      "Dubai",
+      0.66,
+      0.46,
+      "red"
+     ],
+     [
+      "Manila",
+      0.86,
+      0.52,
+      "red"
+     ],
+     [
+      "Singapore",
+      0.8,
+      0.58,
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And here's where it gets truly strange. Germany didn't investigate Wirecard. It investigated the journalists.",
+   "vis": {
+    "type": "hook",
+    "text": "Germany investigated the journalists",
+    "emoji": "🔍",
+    "hot": [
+     "journalists"
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "In February twenty nineteen, Germany's financial regulator, BaFin, banned investors from betting against Wirecard's shares. It was an extraordinary move. Prosecutors in Munich also opened a case involving the reporters.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2015",
+      "FT starts questioning the accounts"
+     ],
+     [
+      "Jan 2019",
+      "FT reports on suspected fraud in Singapore"
+     ],
+     [
+      "Feb 2019",
+      "Regulator bans bets against Wirecard",
+      "red"
+     ],
+     [
+      "2019",
+      "Journalists face a criminal complaint",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The message to the world was clear. Wirecard is the victim. The critics are the problem. And the share price kept going.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Official story",
+     "emoji": "🛡️",
+     "lines": [
+      "Wirecard = victim",
+      "Critics = attackers"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "The truth",
+     "emoji": "🕳️",
+     "lines": [
+      "Critics were right",
+      "Money wasn't there"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Then came the audit.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The collapse",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Under pressure, Wirecard hired the accounting firm K P M G to do a special investigation. In April twenty twenty, KPMG said it couldn't verify the profits from the partner business. It simply couldn't find the evidence.",
+   "vis": {
+    "type": "doc",
+    "title": "Special audit — April 2020",
+    "lines": [
+     [
+      "Partner business revenue",
+      "Not verified"
+     ],
+     [
+      "Customer records",
+      "Not provided"
+     ],
+     [
+      "Trust account proof",
+      "Not provided"
+     ]
+    ],
+    "stamp": "CAN'T VERIFY",
+    "stampAt": 5
+   }
+  },
+  {
+   "say": "Then, in June twenty twenty, Wirecard's long time auditor, E Y, refused to sign off the accounts. One point nine billion euros, supposedly sitting in two banks in the Philippines, couldn't be found.",
+   "vis": {
+    "type": "num",
+    "prefix": "€",
+    "value": 1.9,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "supposedly in two banks in the Philippines",
+    "color": "red",
+    "emoji": "🇵🇭"
+   }
+  },
+  {
+   "say": "Both banks said the documents were fake. The account statements had never come from them.",
+   "vis": {
+    "type": "doc",
+    "title": "Bank confirmation",
+    "lines": [
+     [
+      "Account holder",
+      "Trustee for Wirecard"
+     ],
+     [
+      "Balance",
+      "€1,900,000,000"
+     ],
+     [
+      "Issued by",
+      "Bank (Philippines)"
+     ]
+    ],
+    "stamp": "FAKE",
+    "stampAt": 3
+   }
+  },
+  {
+   "say": "Days later, Wirecard admitted there was a prevailing likelihood the money did not exist. Markus Braun resigned and was arrested. On the twenty fifth of June, Wirecard filed for insolvency. The first member of the DAX ever to do so.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "18 June",
+      "Auditor refuses to sign",
+      "red"
+     ],
+     [
+      "19 June",
+      "CEO resigns"
+     ],
+     [
+      "22 June",
+      "Money 'likely doesn't exist'",
+      "red"
+     ],
+     [
+      "25 June",
+      "Insolvency",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A company once worth around twenty four billion euros collapsed in about a week. Thousands of ordinary investors lost their savings.",
+   "vis": {
+    "type": "line",
+    "title": "Share price, June 2020 (approx.)",
+    "points": [
+     100,
+     98,
+     97,
+     95,
+     30,
+     20,
+     8,
+     3,
+     2
+    ],
+    "labels": [
+     "",
+     "",
+     "",
+     "18 Jun",
+     "",
+     "",
+     "25 Jun",
+     "",
+     ""
+    ],
+    "end": "-98%",
+    "color": "red"
+   }
+  },
+  {
+   "say": "And the second in command, Jan Marsalek? He disappeared the day after he was suspended.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🕵️",
+    "text": "Jan Marsalek",
+    "sub": "Vanished in June 2020",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Investigators and journalists have since linked him to Russian intelligence. In twenty twenty five, a British court convicted a group of Bulgarians of spying for Russia, in a case where prosecutors said Marsalek was directing them from abroad. He's still wanted. He's never been caught.",
+   "vis": {
+    "type": "map",
+    "title": "Where did he go?",
+    "pins": [
+     [
+      "Munich",
+      0.44,
+      0.36,
+      "red"
+     ],
+     [
+      "Austria",
+      0.5,
+      0.44,
+      "red"
+     ],
+     [
+      "Belarus",
+      0.6,
+      0.26,
+      "red"
+     ],
+     [
+      "Russia?",
+      0.76,
+      0.16,
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Markus Braun has denied wrongdoing and says he was a victim of others' crimes. His trial in Munich started in December twenty twenty two. It has run for years, with hundreds of hearings, and at the time we made this video, there was still no verdict.",
+   "vis": {
+    "type": "icon",
+    "emoji": "⚖️",
+    "text": "Trial began December 2022",
+    "sub": "Braun denies wrongdoing. No verdict yet, as of late 2026.",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "So what's the lesson? Three things.",
+   "vis": {
+    "type": "hook",
+    "text": "The lesson",
+    "emoji": "💡",
+    "hot": [
+     "lesson"
+    ]
+   }
+  },
+  {
+   "say": "One. Big and famous doesn't mean safe. Two. When the numbers look too good, ask where the cash actually is. And three. The people asking awkward questions are sometimes the only ones telling the truth.",
+   "vis": {
+    "type": "list",
+    "title": "Remember this",
+    "items": [
+     [
+      "🏢",
+      "Big and famous ≠ safe"
+     ],
+     [
+      "💶",
+      "Too good? Find the cash"
+     ],
+     [
+      "🗣️",
+      "The awkward questions matter"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "If you want more true stories about money that went missing, subscribe. And tell me in the comments which financial scandal I should break down next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which scandal next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "€1.9 BILLION|NEVER|EXISTED",
+  "emoji": "🕳️",
+  "tag": "The Wirecard fraud",
+  "color": "red",
+  "size": 150,
+  "hlColor": "red"
+ }
+}

@@ -24,11 +24,12 @@ jobs:
         run: curl -sSfL --retry 3 -o "$RUNNER_TEMP/src.mp4" "$SRC_URL" && ls -la "$RUNNER_TEMP/src.mp4"
       - name: Render
         run: python3 tools/render.py "$RUNNER_TEMP/src.mp4" "jobs/${{ inputs.jobs }}" clips
-      - name: Commit clips
+      - name: Push clips to a temporary branch
         run: |
+          B="render-${{ inputs.jobs }}"; B="${B%.json}"
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add clips/*.mp4
-          git commit -m "Add rendered clips from ${{ inputs.jobs }}"
-          git pull --rebase origin main
-          git push
+          git checkout -b "$B"
+          git add -f clips/*.mp4
+          git commit -m "Rendered clips from ${{ inputs.jobs }} (temporary, deleted after delivery)"
+          git push -f origin "$B"

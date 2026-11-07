@@ -1,0 +1,45 @@
+{
+ "code": "MV071",
+ "title": "Why Houses Cost So Much in the UK",
+ "category": "How money works",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In the 1990s a typical house cost about four times a typical salary. Now it's far more.",
+ "outline": [
+  "House prices vs wages",
+  "Not enough homes built",
+  "Cheap mortgages",
+  "Planning rules",
+  "Buy-to-let",
+  "What could change"
+ ],
+ "facts_to_verify": [
+  "House price to earnings ratio then and now (ONS)",
+  "Housebuilding numbers"
+ ],
+ "description": "In the 1990s a typical house cost about four times a typical salary. Now it's far more.\n\nIn this video:\n- House prices vs wages\n- Not enough homes built\n- Cheap mortgages\n- Planning rules\n- Buy-to-let\n- What could change\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "why houses cost so much in the uk",
+  "houses",
+  "cost",
+  "much"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WHY CAN'T|ANYONE BUY|A HOUSE?",
+  "emoji": "🏠",
+  "color": "red",
+  "tag": "How money works",
+  "size": 185,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV071.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV071.md",
+ "paste_to_claude": "Make video MV071 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

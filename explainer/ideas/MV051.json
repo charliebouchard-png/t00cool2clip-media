@@ -1,0 +1,47 @@
+{
+ "code": "MV051",
+ "title": "John Law: The Gambler Who Ran France's Money",
+ "category": "Money history",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A Scottish gambler convinced France to let him run its money, and nearly broke the country.",
+ "outline": [
+  "Gambler and duellist",
+  "Paper money in France",
+  "The Mississippi Company",
+  "The bubble",
+  "The collapse",
+  "His legacy"
+ ],
+ "facts_to_verify": [
+  "Years (1716 to 1720)",
+  "Key events of the Mississippi bubble"
+ ],
+ "description": "A Scottish gambler convinced France to let him run its money, and nearly broke the country.\n\nIn this video:\n- Gambler and duellist\n- Paper money in France\n- The Mississippi Company\n- The bubble\n- The collapse\n- His legacy\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "john law",
+  "john",
+  "gambler",
+  "france's",
+  "money",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE GAMBLER|WHO RAN|FRANCE",
+  "emoji": "🎲",
+  "color": "teal",
+  "tag": "Money history",
+  "size": 168,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV051.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV051.md",
+ "paste_to_claude": "Make video MV051 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,46 @@
+{
+ "code": "MV096",
+ "title": "How Black Friday Deals Trick You",
+ "category": "Money psychology",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Some Black Friday deals are the same price, or more, than earlier in the year.",
+ "outline": [
+  "Where Black Friday came from",
+  "Fake was-prices",
+  "Countdown timers",
+  "What Which? found",
+  "Real bargains",
+  "How to check a deal"
+ ],
+ "facts_to_verify": [
+  "Which? Black Friday price-tracking findings"
+ ],
+ "description": "Some Black Friday deals are the same price, or more, than earlier in the year.\n\nIn this video:\n- Where Black Friday came from\n- Fake was-prices\n- Countdown timers\n- What Which? found\n- Real bargains\n- How to check a deal\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneypsychology #consumerpsychology",
+ "tags": [
+  "money psychology",
+  "consumer psychology",
+  "spending habits",
+  "how black friday deals trick you",
+  "black",
+  "friday",
+  "deals",
+  "trick",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "IS IT REALLY|A DEAL?",
+  "emoji": "🛍️",
+  "color": "red",
+  "tag": "Money psychology",
+  "size": 154,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV096.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV096.md",
+ "paste_to_claude": "Make video MV096 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

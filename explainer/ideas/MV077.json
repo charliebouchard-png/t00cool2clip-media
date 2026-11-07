@@ -1,0 +1,47 @@
+{
+ "code": "MV077",
+ "title": "Every Basic Thing Gen Z Got Priced Out Of",
+ "category": "Cost of living",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Things your parents took for granted at 25 are now out of reach for millions of young Brits.",
+ "outline": [
+  "Buying a house",
+  "Renting alone",
+  "Learning to drive",
+  "Going to university",
+  "Nights out",
+  "What's actually cheaper now"
+ ],
+ "facts_to_verify": [
+  "Average age of first-time buyers then and now",
+  "Driving lesson and insurance costs"
+ ],
+ "description": "Things your parents took for granted at 25 are now out of reach for millions of young Brits.\n\nIn this video:\n- Buying a house\n- Renting alone\n- Learning to drive\n- Going to university\n- Nights out\n- What's actually cheaper now\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "every basic thing gen z got priced out of",
+  "every",
+  "basic",
+  "thing",
+  "priced",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "PRICED OUT|OF EVERYTHING",
+  "emoji": "🧍",
+  "color": "red",
+  "tag": "Cost of living",
+  "size": 142,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV077.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV077.md",
+ "paste_to_claude": "Make video MV077 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

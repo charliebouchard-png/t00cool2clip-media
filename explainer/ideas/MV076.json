@@ -1,0 +1,44 @@
+{
+ "code": "MV076",
+ "title": "Why Is Gold So Valuable?",
+ "category": "How money works",
+ "style": "ledger",
+ "style_name": "Ledger",
+ "style_notes": "Dark motion graphics: glowing numbers, charts and icons, soft crossfades. Clean and data-led.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Gold is mostly useless for everyday life, yet people have treasured it for thousands of years.",
+ "outline": [
+  "Rare but not too rare",
+  "It never rusts",
+  "Money for millennia",
+  "Central banks still buy it",
+  "Gold in crises",
+  "Is it a good investment?"
+ ],
+ "facts_to_verify": [
+  "Total gold ever mined (estimate)",
+  "Recent central bank buying"
+ ],
+ "description": "Gold is mostly useless for everyday life, yet people have treasured it for thousands of years.\n\nIn this video:\n- Rare but not too rare\n- It never rusts\n- Money for millennia\n- Central banks still buy it\n- Gold in crises\n- Is it a good investment?\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "why is gold so valuable?",
+  "gold",
+  "valuable"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WHY GOLD?",
+  "emoji": "🥇",
+  "color": "gold",
+  "tag": "How money works",
+  "size": 200,
+  "style": "ledger"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV076.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV076.md",
+ "paste_to_claude": "Make video MV076 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,49 @@
+{
+ "code": "MV024",
+ "title": "The Great Train Robbery: What Really Happened",
+ "category": "Heists and cons",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 1963 a gang stopped a mail train with a fake signal and took £2.6 million in old notes.",
+ "outline": [
+  "The overnight mail train",
+  "The fake red light",
+  "The farmhouse hideout",
+  "The fingerprints on the Monopoly board",
+  "Ronnie Biggs and the escape",
+  "Money worth today"
+ ],
+ "facts_to_verify": [
+  "Amount (£2.6m)",
+  "Year (1963)",
+  "Today's equivalent value"
+ ],
+ "description": "In 1963 a gang stopped a mail train with a fake signal and took £2.6 million in old notes.\n\nIn this video:\n- The overnight mail train\n- The fake red light\n- The farmhouse hideout\n- The fingerprints on the Monopoly board\n- Ronnie Biggs and the escape\n- Money worth today\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "the great train robbery",
+  "great",
+  "train",
+  "robbery",
+  "what",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE £2.6M|TRAIN JOB",
+  "emoji": "🚂",
+  "color": "gold",
+  "tag": "Heists and cons",
+  "size": 200,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV024.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV024.md",
+ "paste_to_claude": "Make video MV024 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

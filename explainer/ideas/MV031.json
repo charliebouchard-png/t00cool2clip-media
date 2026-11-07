@@ -1,0 +1,48 @@
+{
+ "code": "MV031",
+ "title": "The Lufthansa Heist: The Job Behind Goodfellas",
+ "category": "Heists and cons",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "The biggest cash robbery in America at the time ended with almost everyone involved dead or in prison.",
+ "outline": [
+  "JFK airport, 1978",
+  "The inside tip",
+  "The cash and jewels",
+  "The wrong van left behind",
+  "What happened next",
+  "Goodfellas vs reality"
+ ],
+ "facts_to_verify": [
+  "Amount stolen",
+  "Year (1978)",
+  "Convictions"
+ ],
+ "description": "The biggest cash robbery in America at the time ended with almost everyone involved dead or in prison.\n\nIn this video:\n- JFK airport, 1978\n- The inside tip\n- The cash and jewels\n- The wrong van left behind\n- What happened next\n- Goodfellas vs reality\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "the lufthansa heist",
+  "lufthansa",
+  "behind",
+  "goodfellas",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE REAL|GOODFELLAS|JOB",
+  "emoji": "🛩️",
+  "color": "teal",
+  "tag": "Heists and cons",
+  "size": 185,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV031.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV031.md",
+ "paste_to_claude": "Make video MV031 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,46 @@
+{
+ "code": "MV070",
+ "title": "How Pensions Work and Why You Should Care at 18",
+ "category": "How money works",
+ "style": "ledger",
+ "style_name": "Ledger",
+ "style_notes": "Dark motion graphics: glowing numbers, charts and icons, soft crossfades. Clean and data-led.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Your employer may be putting free money into your pension, and most young people never look at it.",
+ "outline": [
+  "Auto-enrolment",
+  "Employer contributions",
+  "Tax relief",
+  "Compound growth over decades",
+  "The State Pension",
+  "What to check this week"
+ ],
+ "facts_to_verify": [
+  "Auto-enrolment minimum contributions",
+  "Current State Pension amount"
+ ],
+ "description": "Your employer may be putting free money into your pension, and most young people never look at it.\n\nIn this video:\n- Auto-enrolment\n- Employer contributions\n- Tax relief\n- Compound growth over decades\n- The State Pension\n- What to check this week\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "how pensions work and why you should care at 18",
+  "pensions",
+  "work",
+  "should",
+  "care"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "FREE MONEY|YOU'RE|IGNORING",
+  "emoji": "👴",
+  "color": "gold",
+  "tag": "How money works",
+  "size": 185,
+  "style": "ledger"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV070.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV070.md",
+ "paste_to_claude": "Make video MV070 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

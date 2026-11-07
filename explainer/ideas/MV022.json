@@ -1,0 +1,50 @@
+{
+ "code": "MV022",
+ "title": "The Bangladesh Bank Hack: $1 Billion and One Typo",
+ "category": "Heists and cons",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Hackers tried to steal nearly a billion dollars from a central bank, and a spelling mistake helped stop them.",
+ "outline": [
+  "How central banks move money",
+  "Getting inside the system",
+  "The weekend timing",
+  "The typo that raised the alarm",
+  "Where the money went",
+  "Who was blamed"
+ ],
+ "facts_to_verify": [
+  "Amount attempted vs amount stolen",
+  "The misspelling",
+  "Year (2016)",
+  "Who US authorities blamed"
+ ],
+ "description": "Hackers tried to steal nearly a billion dollars from a central bank, and a spelling mistake helped stop them.\n\nIn this video:\n- How central banks move money\n- Getting inside the system\n- The weekend timing\n- The typo that raised the alarm\n- Where the money went\n- Who was blamed\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "the bangladesh bank hack",
+  "bangladesh",
+  "bank",
+  "hack",
+  "billion",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "STOPPED BY|A TYPO",
+  "emoji": "💻",
+  "color": "red",
+  "tag": "Heists and cons",
+  "size": 185,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV022.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV022.md",
+ "paste_to_claude": "Make video MV022 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

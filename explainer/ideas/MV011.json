@@ -1,0 +1,47 @@
+{
+ "code": "MV011",
+ "title": "How Football Clubs Lose Money and Still Survive",
+ "category": "How it makes money",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Many football clubs lose money year after year, yet almost none of the big ones ever disappear.",
+ "outline": [
+  "Where clubs get their money",
+  "TV rights explained",
+  "Wages eat everything",
+  "Owners who cover the losses",
+  "Spending rules and what breaks them",
+  "When clubs actually go bust"
+ ],
+ "facts_to_verify": [
+  "Premier League TV deal value",
+  "Wage-to-revenue ratios of named clubs (latest accounts)"
+ ],
+ "description": "Many football clubs lose money year after year, yet almost none of the big ones ever disappear.\n\nIn this video:\n- Where clubs get their money\n- TV rights explained\n- Wages eat everything\n- Owners who cover the losses\n- Spending rules and what breaks them\n- When clubs actually go bust\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how football clubs lose money and still survive",
+  "football",
+  "clubs",
+  "lose",
+  "money",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "LOSING|MILLIONS.|STILL ALIVE.",
+  "emoji": "⚽",
+  "color": "red",
+  "tag": "How it makes money",
+  "size": 154,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV011.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV011.md",
+ "paste_to_claude": "Make video MV011 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,47 @@
+{
+ "code": "MV078",
+ "title": "What £1 Bought You in 1970 vs Today",
+ "category": "Cost of living",
+ "style": "ledger",
+ "style_name": "Ledger",
+ "style_notes": "Dark motion graphics: glowing numbers, charts and icons, soft crossfades. Clean and data-led.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 1970 a pound could buy you a decent lunch out. Today it might buy a chocolate bar.",
+ "outline": [
+  "The 1970 shopping basket",
+  "Bread, milk and beer",
+  "Cinema and bus fares",
+  "Houses then and now",
+  "Wages then and now",
+  "Are we really worse off?"
+ ],
+ "facts_to_verify": [
+  "ONS/historic prices for each item",
+  "Inflation-adjusted values"
+ ],
+ "description": "In 1970 a pound could buy you a decent lunch out. Today it might buy a chocolate bar.\n\nIn this video:\n- The 1970 shopping basket\n- Bread, milk and beer\n- Cinema and bus fares\n- Houses then and now\n- Wages then and now\n- Are we really worse off?\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "what £1 bought you in 1970 vs today",
+  "what",
+  "bought",
+  "1970",
+  "today",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "£1 IN 1970|VS TODAY",
+  "emoji": "🪙",
+  "color": "gold",
+  "tag": "Cost of living",
+  "size": 185,
+  "style": "ledger"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV078.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV078.md",
+ "paste_to_claude": "Make video MV078 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

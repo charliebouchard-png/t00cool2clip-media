@@ -1,0 +1,48 @@
+{
+ "code": "MV055",
+ "title": "Black Wednesday: The Day One Man Beat the Bank of England",
+ "category": "Money history",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 1992 an investor bet billions against the pound and the Bank of England lost.",
+ "outline": [
+  "The European exchange rate system",
+  "Why the pound was too high",
+  "Interest rates raised twice in a day",
+  "The bet against the pound",
+  "Britain crashes out",
+  "Who won and who lost"
+ ],
+ "facts_to_verify": [
+  "Date (16 September 1992)",
+  "Estimated profit made",
+  "Interest rate moves that day"
+ ],
+ "description": "In 1992 an investor bet billions against the pound and the Bank of England lost.\n\nIn this video:\n- The European exchange rate system\n- Why the pound was too high\n- Interest rates raised twice in a day\n- The bet against the pound\n- Britain crashes out\n- Who won and who lost\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "black wednesday",
+  "black",
+  "wednesday",
+  "beat",
+  "bank",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "HE BROKE|THE BANK",
+  "emoji": "🇬🇧",
+  "color": "gold",
+  "tag": "Money history",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV055.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV055.md",
+ "paste_to_claude": "Make video MV055 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

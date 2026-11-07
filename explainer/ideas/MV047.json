@@ -1,0 +1,48 @@
+{
+ "code": "MV047",
+ "title": "The Post Office Scandal: How Faulty Software Ruined Lives",
+ "category": "Collapses and frauds",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Hundreds of postmasters were blamed for missing money that a computer system had wrongly shown.",
+ "outline": [
+  "What Horizon was",
+  "Shortfalls that weren't real",
+  "Prosecutions",
+  "The fight for the truth",
+  "The court ruling",
+  "Compensation and the inquiry"
+ ],
+ "facts_to_verify": [
+  "Number of convictions",
+  "Key court judgment year",
+  "Compensation status (check latest)"
+ ],
+ "description": "Hundreds of postmasters were blamed for missing money that a computer system had wrongly shown.\n\nIn this video:\n- What Horizon was\n- Shortfalls that weren't real\n- Prosecutions\n- The fight for the truth\n- The court ruling\n- Compensation and the inquiry\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "the post office scandal",
+  "post",
+  "office",
+  "scandal",
+  "faulty",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE MONEY|WAS NEVER|MISSING",
+  "emoji": "📬",
+  "color": "red",
+  "tag": "Collapses and frauds",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV047.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV047.md",
+ "paste_to_claude": "Make video MV047 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

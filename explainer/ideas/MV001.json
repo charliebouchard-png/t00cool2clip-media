@@ -1,0 +1,48 @@
+{
+ "code": "MV001",
+ "title": "How Costco Makes Money (It's Not the Shopping)",
+ "category": "How it makes money",
+ "style": "storybook",
+ "style_name": "Cartoon town",
+ "style_notes": "Flat 2D cartoon characters in a colourful painted town with ink outlines and speech bubbles. Daylight while the story is set up, then night-blue lighting for the explanation.",
+ "script_formula": "Story formula: open on a paradox stated as fact (no intro), set the scene with a named everyday character, escalate in 3 to 5 beats with short dialogue in speech bubbles, then pivot with 'You see,' into the real explanation (lighting turns night-blue) and land on an ironic last line.",
+ "hook": "Costco barely profits from the things it sells, and that's exactly why it's one of the most successful shops on Earth.",
+ "outline": [
+  "The membership fee is the real product",
+  "Why margins on goods are kept tiny on purpose",
+  "The hot dog price that hasn't changed in decades",
+  "Bulk buying, few products, warehouse shelves",
+  "Why members keep renewing",
+  "What UK shops could learn"
+ ],
+ "facts_to_verify": [
+  "Share of Costco operating income from membership fees",
+  "Hot dog combo price and how long it's been unchanged",
+  "Membership renewal rate"
+ ],
+ "description": "Costco barely profits from the things it sells, and that's exactly why it's one of the most successful shops on Earth.\n\nIn this video:\n- The membership fee is the real product\n- Why margins on goods are kept tiny on purpose\n- The hot dog price that hasn't changed in decades\n- Bulk buying, few products, warehouse shelves\n- Why members keep renewing\n- What UK shops could learn\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how costco makes money (it's not the shopping)",
+  "costco",
+  "makes",
+  "money",
+  "it's",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE SHOP|THAT DOESN'T|PROFIT",
+  "emoji": "🛒",
+  "color": "red",
+  "tag": "How it makes money",
+  "size": 154,
+  "style": "storybook"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV001.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV001.md",
+ "paste_to_claude": "Make video MV001 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

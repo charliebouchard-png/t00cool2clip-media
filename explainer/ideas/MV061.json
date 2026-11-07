@@ -1,0 +1,47 @@
+{
+ "code": "MV061",
+ "title": "The 2008 Crash Explained Simply",
+ "category": "Money history",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 2008 the world nearly ran out of money because of mortgages in America that should never have been sold.",
+ "outline": [
+  "Easy mortgages",
+  "Bundling loans together",
+  "Ratings that were wrong",
+  "When house prices fell",
+  "Banks frozen",
+  "What it cost ordinary people"
+ ],
+ "facts_to_verify": [
+  "Key facts on subprime lending",
+  "UK bank bailout figures"
+ ],
+ "description": "In 2008 the world nearly ran out of money because of mortgages in America that should never have been sold.\n\nIn this video:\n- Easy mortgages\n- Bundling loans together\n- Ratings that were wrong\n- When house prices fell\n- Banks frozen\n- What it cost ordinary people\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "the 2008 crash explained simply",
+  "2008",
+  "crash",
+  "explained",
+  "simply",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WHY THE WORLD|NEARLY|BROKE",
+  "emoji": "🏠",
+  "color": "red",
+  "tag": "Money history",
+  "size": 142,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV061.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV061.md",
+ "paste_to_claude": "Make video MV061 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

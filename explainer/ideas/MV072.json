@@ -1,0 +1,44 @@
+{
+ "code": "MV072",
+ "title": "How UK Tax Actually Works",
+ "category": "How money works",
+ "style": "chalk",
+ "style_name": "Blackboard",
+ "style_notes": "A chalkboard in a wooden frame with handwritten text. Scenes change with an eraser wipe, like a teacher explaining on the board.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Most people think a pay rise can leave you worse off because of tax. That's almost never true.",
+ "outline": [
+  "Personal allowance",
+  "Tax bands",
+  "National Insurance",
+  "Why a pay rise is still a rise",
+  "The odd traps (the £100k problem)",
+  "Where the money goes"
+ ],
+ "facts_to_verify": [
+  "Current tax bands and allowance",
+  "Personal allowance taper over £100k"
+ ],
+ "description": "Most people think a pay rise can leave you worse off because of tax. That's almost never true.\n\nIn this video:\n- Personal allowance\n- Tax bands\n- National Insurance\n- Why a pay rise is still a rise\n- The odd traps (the £100k problem)\n- Where the money goes\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "how uk tax actually works",
+  "actually",
+  "works"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE TAX|MYTH",
+  "emoji": "🧾",
+  "color": "teal",
+  "tag": "How money works",
+  "size": 200,
+  "style": "chalk"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV072.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV072.md",
+ "paste_to_claude": "Make video MV072 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

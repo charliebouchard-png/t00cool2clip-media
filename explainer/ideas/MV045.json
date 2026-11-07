@@ -1,0 +1,46 @@
+{
+ "code": "MV045",
+ "title": "BHS: The Shop Sold for £1",
+ "category": "Collapses and frauds",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A famous British department store chain was sold for a single pound, and collapsed a year later.",
+ "outline": [
+  "BHS in its prime",
+  "The £1 sale",
+  "The pension hole",
+  "Collapse in 2016",
+  "Thousands of jobs lost",
+  "What MPs concluded"
+ ],
+ "facts_to_verify": [
+  "Sale price and date",
+  "Pension deficit figure",
+  "Jobs lost"
+ ],
+ "description": "A famous British department store chain was sold for a single pound, and collapsed a year later.\n\nIn this video:\n- BHS in its prime\n- The £1 sale\n- The pension hole\n- Collapse in 2016\n- Thousands of jobs lost\n- What MPs concluded\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "bhs",
+  "shop",
+  "sold",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "SOLD FOR|£1",
+  "emoji": "🏬",
+  "color": "red",
+  "tag": "Collapses and frauds",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV045.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV045.md",
+ "paste_to_claude": "Make video MV045 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

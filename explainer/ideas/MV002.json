@@ -1,0 +1,48 @@
+{
+ "code": "MV002",
+ "title": "How Ryanair Makes Money on £15 Flights",
+ "category": "How it makes money",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Ryanair sells some seats for less than a taxi to the airport, and still makes hundreds of millions in profit.",
+ "outline": [
+  "The ticket is the bait",
+  "Bags, seats, priority and the extras",
+  "Fast turnarounds and one type of plane",
+  "Cheap airports and airport deals",
+  "Fuel hedging and buying planes in bulk",
+  "Is it a good deal for you?"
+ ],
+ "facts_to_verify": [
+  "Latest annual profit",
+  "Share of revenue from ancillaries",
+  "Typical turnaround time"
+ ],
+ "description": "Ryanair sells some seats for less than a taxi to the airport, and still makes hundreds of millions in profit.\n\nIn this video:\n- The ticket is the bait\n- Bags, seats, priority and the extras\n- Fast turnarounds and one type of plane\n- Cheap airports and airport deals\n- Fuel hedging and buying planes in bulk\n- Is it a good deal for you?\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how ryanair makes money on £15 flights",
+  "ryanair",
+  "makes",
+  "money",
+  "flights",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "£15|FLIGHTS?",
+  "emoji": "✈️",
+  "color": "gold",
+  "tag": "How it makes money",
+  "size": 200,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV002.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV002.md",
+ "paste_to_claude": "Make video MV002 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

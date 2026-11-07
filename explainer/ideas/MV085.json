@@ -1,0 +1,45 @@
+{
+ "code": "MV085",
+ "title": "The Real Cost of Running a Car in the UK",
+ "category": "Cost of living",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "The price of a car is just the start. Running it can cost thousands more every year.",
+ "outline": [
+  "Insurance",
+  "Fuel or charging",
+  "Tax and MOT",
+  "Repairs and tyres",
+  "Depreciation",
+  "The total yearly cost"
+ ],
+ "facts_to_verify": [
+  "Average annual running costs from RAC/AA"
+ ],
+ "description": "The price of a car is just the start. Running it can cost thousands more every year.\n\nIn this video:\n- Insurance\n- Fuel or charging\n- Tax and MOT\n- Repairs and tyres\n- Depreciation\n- The total yearly cost\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "the real cost of running a car in the uk",
+  "real",
+  "cost",
+  "running",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE HIDDEN|COST OF|A CAR",
+  "emoji": "🚗",
+  "color": "teal",
+  "tag": "Cost of living",
+  "size": 185,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV085.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV085.md",
+ "paste_to_claude": "Make video MV085 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

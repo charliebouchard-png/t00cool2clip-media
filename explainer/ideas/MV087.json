@@ -1,0 +1,47 @@
+{
+ "code": "MV087",
+ "title": "Why Concert Tickets Cost So Much Now",
+ "category": "Cost of living",
+ "style": "ledger",
+ "style_name": "Ledger",
+ "style_notes": "Dark motion graphics: glowing numbers, charts and icons, soft crossfades. Clean and data-led.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Tickets that used to cost £50 now go for hundreds, and the price can change while you're in the queue.",
+ "outline": [
+  "Dynamic pricing",
+  "Booking fees",
+  "Resale and touts",
+  "Why artists earn from touring",
+  "The fan backlash",
+  "Tips for getting tickets"
+ ],
+ "facts_to_verify": [
+  "Named examples and official responses",
+  "UK rules on resale (check latest)"
+ ],
+ "description": "Tickets that used to cost £50 now go for hundreds, and the price can change while you're in the queue.\n\nIn this video:\n- Dynamic pricing\n- Booking fees\n- Resale and touts\n- Why artists earn from touring\n- The fan backlash\n- Tips for getting tickets\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "why concert tickets cost so much now",
+  "concert",
+  "tickets",
+  "cost",
+  "much",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "£50 TO|£500?",
+  "emoji": "🎤",
+  "color": "red",
+  "tag": "Cost of living",
+  "size": 200,
+  "style": "ledger"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV087.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV087.md",
+ "paste_to_claude": "Make video MV087 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,46 @@
+{
+ "code": "MV059",
+ "title": "The History of the Credit Card",
+ "category": "Money history",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "The credit card started because a man forgot his wallet at dinner, or so the story goes.",
+ "outline": [
+  "Store cards and charge plates",
+  "Diners Club",
+  "Barclaycard, Britain's first",
+  "Interest and minimum payments",
+  "Contactless",
+  "Why they're designed to keep you paying"
+ ],
+ "facts_to_verify": [
+  "Barclaycard launch year (1966)",
+  "Diners Club origin story (and whether it's true)"
+ ],
+ "description": "The credit card started because a man forgot his wallet at dinner, or so the story goes.\n\nIn this video:\n- Store cards and charge plates\n- Diners Club\n- Barclaycard, Britain's first\n- Interest and minimum payments\n- Contactless\n- Why they're designed to keep you paying\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "the history of the credit card",
+  "history",
+  "credit",
+  "card",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE CARD|THAT CHANGED|EVERYTHING",
+  "emoji": "💳",
+  "color": "teal",
+  "tag": "Money history",
+  "size": 154,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV059.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV059.md",
+ "paste_to_claude": "Make video MV059 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

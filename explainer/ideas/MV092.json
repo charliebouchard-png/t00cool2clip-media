@@ -1,0 +1,46 @@
+{
+ "code": "MV092",
+ "title": "The Lottery Winners Who Went Broke",
+ "category": "Money psychology",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Winning millions sounds like the end of money problems. For some winners, it was the start.",
+ "outline": [
+  "Sudden wealth",
+  "Friends and family",
+  "Big spending",
+  "Bad investments",
+  "The ones who did it right",
+  "What experts advise"
+ ],
+ "facts_to_verify": [
+  "Only use well-documented, public cases with sources"
+ ],
+ "description": "Winning millions sounds like the end of money problems. For some winners, it was the start.\n\nIn this video:\n- Sudden wealth\n- Friends and family\n- Big spending\n- Bad investments\n- The ones who did it right\n- What experts advise\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneypsychology #consumerpsychology",
+ "tags": [
+  "money psychology",
+  "consumer psychology",
+  "spending habits",
+  "the lottery winners who went broke",
+  "lottery",
+  "winners",
+  "went",
+  "broke",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WON MILLIONS.|LOST IT ALL.",
+  "emoji": "🎟️",
+  "color": "gold",
+  "tag": "Money psychology",
+  "size": 142,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV092.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV092.md",
+ "paste_to_claude": "Make video MV092 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

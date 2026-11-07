@@ -1,0 +1,47 @@
+{
+ "code": "MV060",
+ "title": "Decimal Day: When Britain Changed Its Money Overnight",
+ "category": "Money history",
+ "style": "chalk",
+ "style_name": "Blackboard",
+ "style_notes": "A chalkboard in a wooden frame with handwritten text. Scenes change with an eraser wipe, like a teacher explaining on the board.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Until 1971 a British pound was 240 pennies, and then one day it was 100.",
+ "outline": [
+  "Pounds, shillings and pence",
+  "Why change",
+  "Decimal Day",
+  "Prices rounded up?",
+  "The old coins that survived",
+  "Could it happen again?"
+ ],
+ "facts_to_verify": [
+  "Date (15 February 1971)",
+  "Old system details"
+ ],
+ "description": "Until 1971 a British pound was 240 pennies, and then one day it was 100.\n\nIn this video:\n- Pounds, shillings and pence\n- Why change\n- Decimal Day\n- Prices rounded up?\n- The old coins that survived\n- Could it happen again?\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "decimal day",
+  "decimal",
+  "when",
+  "britain",
+  "changed",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "240 PENNIES|IN A POUND",
+  "emoji": "🪙",
+  "color": "gold",
+  "tag": "Money history",
+  "size": 168,
+  "style": "chalk"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV060.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV060.md",
+ "paste_to_claude": "Make video MV060 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

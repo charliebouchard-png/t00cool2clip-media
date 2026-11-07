@@ -1,0 +1,47 @@
+{
+ "code": "MV053",
+ "title": "Weimar Germany: When Money Was Cheaper Than Wallpaper",
+ "category": "Money history",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 1923 German prices doubled every few days, and people burned money because it was cheaper than wood.",
+ "outline": [
+  "War debts and reparations",
+  "Printing money",
+  "Prices out of control",
+  "Wheelbarrows of cash",
+  "The new currency",
+  "What it led to"
+ ],
+ "facts_to_verify": [
+  "Peak inflation figure",
+  "Exchange rate to the dollar in late 1923"
+ ],
+ "description": "In 1923 German prices doubled every few days, and people burned money because it was cheaper than wood.\n\nIn this video:\n- War debts and reparations\n- Printing money\n- Prices out of control\n- Wheelbarrows of cash\n- The new currency\n- What it led to\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "weimar germany",
+  "weimar",
+  "germany",
+  "when",
+  "money",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "MONEY|WORTH|NOTHING",
+  "emoji": "💸",
+  "color": "gold",
+  "tag": "Money history",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV053.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV053.md",
+ "paste_to_claude": "Make video MV053 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

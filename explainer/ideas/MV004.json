@@ -1,0 +1,47 @@
+{
+ "code": "MV004",
+ "title": "How Gyms Make Money From People Who Never Go",
+ "category": "How it makes money",
+ "style": "storybook",
+ "style_name": "Cartoon town",
+ "style_notes": "Flat 2D cartoon characters in a colourful painted town with ink outlines and speech bubbles. Daylight while the story is set up, then night-blue lighting for the explanation.",
+ "script_formula": "Story formula: open on a paradox stated as fact (no intro), set the scene with a named everyday character, escalate in 3 to 5 beats with short dialogue in speech bubbles, then pivot with 'You see,' into the real explanation (lighting turns night-blue) and land on an ironic last line.",
+ "hook": "Your gym makes the most money from you if you never turn up.",
+ "outline": [
+  "The membership model explained",
+  "Why gyms sign up far more people than fit inside",
+  "January sign-ups and the long tail",
+  "Cancellation friction",
+  "Budget gyms vs boutique studios",
+  "How to use it in your favour"
+ ],
+ "facts_to_verify": [
+  "Typical members per gym vs capacity",
+  "Share of members who rarely attend (cite a study)"
+ ],
+ "description": "Your gym makes the most money from you if you never turn up.\n\nIn this video:\n- The membership model explained\n- Why gyms sign up far more people than fit inside\n- January sign-ups and the long tail\n- Cancellation friction\n- Budget gyms vs boutique studios\n- How to use it in your favour\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how gyms make money from people who never go",
+  "gyms",
+  "make",
+  "money",
+  "from",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THEY WANT|YOU TO|SKIP IT",
+  "emoji": "🏋️",
+  "color": "red",
+  "tag": "How it makes money",
+  "size": 200,
+  "style": "storybook"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV004.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV004.md",
+ "paste_to_claude": "Make video MV004 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

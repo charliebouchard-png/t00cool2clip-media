@@ -1,0 +1,48 @@
+{
+ "code": "MV044",
+ "title": "Thomas Cook: How a 178-Year-Old Travel Giant Went Bust",
+ "category": "Collapses and frauds",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "The company that invented the package holiday collapsed overnight, leaving 150,000 people abroad.",
+ "outline": [
+  "Thomas Cook's first trip",
+  "Debts from old deals",
+  "High-street shops in an online world",
+  "The final rescue talks",
+  "Bringing everyone home",
+  "Lessons"
+ ],
+ "facts_to_verify": [
+  "Year (2019)",
+  "Number of customers repatriated",
+  "Founding year (1841)"
+ ],
+ "description": "The company that invented the package holiday collapsed overnight, leaving 150,000 people abroad.\n\nIn this video:\n- Thomas Cook's first trip\n- Debts from old deals\n- High-street shops in an online world\n- The final rescue talks\n- Bringing everyone home\n- Lessons\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "thomas cook",
+  "thomas",
+  "cook",
+  "year",
+  "travel",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "150,000|STUCK ABROAD",
+  "emoji": "🧳",
+  "color": "teal",
+  "tag": "Collapses and frauds",
+  "size": 154,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV044.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV044.md",
+ "paste_to_claude": "Make video MV044 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

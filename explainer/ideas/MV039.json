@@ -1,0 +1,48 @@
+{
+ "code": "MV039",
+ "title": "Lehman Brothers: The Weekend That Broke the World",
+ "category": "Collapses and frauds",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In September 2008 a 158-year-old bank failed in a weekend, and the world economy nearly went with it.",
+ "outline": [
+  "Mortgages nobody could repay",
+  "Borrowing 30 times its money",
+  "The weekend talks",
+  "Why no one saved Lehman",
+  "The global panic",
+  "What changed afterwards"
+ ],
+ "facts_to_verify": [
+  "Bank age at collapse",
+  "Size of bankruptcy",
+  "Leverage ratio"
+ ],
+ "description": "In September 2008 a 158-year-old bank failed in a weekend, and the world economy nearly went with it.\n\nIn this video:\n- Mortgages nobody could repay\n- Borrowing 30 times its money\n- The weekend talks\n- Why no one saved Lehman\n- The global panic\n- What changed afterwards\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "lehman brothers",
+  "lehman",
+  "brothers",
+  "weekend",
+  "that",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE WEEKEND|IT ALL BROKE",
+  "emoji": "🏛️",
+  "color": "red",
+  "tag": "Collapses and frauds",
+  "size": 154,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV039.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV039.md",
+ "paste_to_claude": "Make video MV039 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

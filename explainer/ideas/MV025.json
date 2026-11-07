@@ -1,0 +1,47 @@
+{
+ "code": "MV025",
+ "title": "Frank Abagnale: The Con Man Whose Story Might Be a Con",
+ "category": "Heists and cons",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "The world's most famous con man may have pulled his biggest trick on all of us.",
+ "outline": [
+  "The 'Catch Me If You Can' legend",
+  "What he claimed",
+  "What records show",
+  "Researchers who checked his story",
+  "Why the myth survived",
+  "What's actually true"
+ ],
+ "facts_to_verify": [
+  "Which claims are disputed and by whom (books, journalism)"
+ ],
+ "description": "The world's most famous con man may have pulled his biggest trick on all of us.\n\nIn this video:\n- The 'Catch Me If You Can' legend\n- What he claimed\n- What records show\n- Researchers who checked his story\n- Why the myth survived\n- What's actually true\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "frank abagnale",
+  "frank",
+  "abagnale",
+  "whose",
+  "story",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WAS THE|STORY THE|REAL CON?",
+  "emoji": "🎭",
+  "color": "red",
+  "tag": "Heists and cons",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV025.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV025.md",
+ "paste_to_claude": "Make video MV025 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

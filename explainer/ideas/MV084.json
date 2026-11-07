@@ -1,0 +1,47 @@
+{
+ "code": "MV084",
+ "title": "Why Your Energy Bill Doubled",
+ "category": "Cost of living",
+ "style": "ledger",
+ "style_name": "Ledger",
+ "style_notes": "Dark motion graphics: glowing numbers, charts and icons, soft crossfades. Clean and data-led.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In two years UK energy bills went from about £1,200 to over £2,000 a year for a typical home.",
+ "outline": [
+  "How the price cap works",
+  "Gas prices and the war in Ukraine",
+  "Standing charges",
+  "The government support",
+  "Where bills are now",
+  "Cutting your bill"
+ ],
+ "facts_to_verify": [
+  "Price cap history with dates",
+  "Energy Price Guarantee details"
+ ],
+ "description": "In two years UK energy bills went from about £1,200 to over £2,000 a year for a typical home.\n\nIn this video:\n- How the price cap works\n- Gas prices and the war in Ukraine\n- Standing charges\n- The government support\n- Where bills are now\n- Cutting your bill\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "why your energy bill doubled",
+  "your",
+  "energy",
+  "bill",
+  "doubled",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WHY DID IT|DOUBLE?",
+  "emoji": "⚡",
+  "color": "red",
+  "tag": "Cost of living",
+  "size": 185,
+  "style": "ledger"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV084.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV084.md",
+ "paste_to_claude": "Make video MV084 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

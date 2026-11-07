@@ -1,0 +1,48 @@
+{
+ "code": "MV027",
+ "title": "The Fake Heiress Who Fooled New York",
+ "category": "Heists and cons",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "She said she was a German heiress. She was actually spending other people's money.",
+ "outline": [
+  "Arriving in New York",
+  "Hotels, dinners and unpaid bills",
+  "The private members' club plan",
+  "The trip to Morocco",
+  "Arrest and trial",
+  "Fame after prison"
+ ],
+ "facts_to_verify": [
+  "Conviction year and charges",
+  "Amount obtained per court records"
+ ],
+ "description": "She said she was a German heiress. She was actually spending other people's money.\n\nIn this video:\n- Arriving in New York\n- Hotels, dinners and unpaid bills\n- The private members' club plan\n- The trip to Morocco\n- Arrest and trial\n- Fame after prison\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "the fake heiress who fooled new york",
+  "fake",
+  "heiress",
+  "fooled",
+  "york",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE FAKE|HEIRESS",
+  "emoji": "👜",
+  "color": "red",
+  "tag": "Heists and cons",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV027.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV027.md",
+ "paste_to_claude": "Make video MV027 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

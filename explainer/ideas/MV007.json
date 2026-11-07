@@ -1,0 +1,47 @@
+{
+ "code": "MV007",
+ "title": "How Primark Makes Money Without Selling Online",
+ "category": "How it makes money",
+ "style": "storybook",
+ "style_name": "Cartoon town",
+ "style_notes": "Flat 2D cartoon characters in a colourful painted town with ink outlines and speech bubbles. Daylight while the story is set up, then night-blue lighting for the explanation.",
+ "script_formula": "Story formula: open on a paradox stated as fact (no intro), set the scene with a named everyday character, escalate in 3 to 5 beats with short dialogue in speech bubbles, then pivot with 'You see,' into the real explanation (lighting turns night-blue) and land on an ironic last line.",
+ "hook": "Primark spends almost nothing on adverts, barely sells online, and still fills its shops every weekend.",
+ "outline": [
+  "Low prices, huge volume",
+  "No big ad campaigns",
+  "Massive shops in busy places",
+  "Copying trends fast",
+  "Click and collect, not delivery",
+  "The ethics question"
+ ],
+ "facts_to_verify": [
+  "Primark annual sales",
+  "Online sales approach (click and collect trial)"
+ ],
+ "description": "Primark spends almost nothing on adverts, barely sells online, and still fills its shops every weekend.\n\nIn this video:\n- Low prices, huge volume\n- No big ad campaigns\n- Massive shops in busy places\n- Copying trends fast\n- Click and collect, not delivery\n- The ethics question\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how primark makes money without selling online",
+  "primark",
+  "makes",
+  "money",
+  "without",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "NO ADS.|NO WEBSITE.|BILLIONS.",
+  "emoji": "👕",
+  "color": "teal",
+  "tag": "How it makes money",
+  "size": 168,
+  "style": "storybook"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV007.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV007.md",
+ "paste_to_claude": "Make video MV007 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

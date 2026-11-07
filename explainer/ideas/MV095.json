@@ -1,0 +1,45 @@
+{
+ "code": "MV095",
+ "title": "Why We Pay £4 for Coffee but Hate Paying £4 for an App",
+ "category": "Money psychology",
+ "style": "storybook",
+ "style_name": "Cartoon town",
+ "style_notes": "Flat 2D cartoon characters in a colourful painted town with ink outlines and speech bubbles. Daylight while the story is set up, then night-blue lighting for the explanation.",
+ "script_formula": "Story formula: open on a paradox stated as fact (no intro), set the scene with a named everyday character, escalate in 3 to 5 beats with short dialogue in speech bubbles, then pivot with 'You see,' into the real explanation (lighting turns night-blue) and land on an ironic last line.",
+ "hook": "We'll happily buy a coffee gone in ten minutes, but think twice about an app we use every day.",
+ "outline": [
+  "Mental accounting",
+  "Anchoring",
+  "The zero price effect",
+  "Free apps and adverts",
+  "Habit vs value",
+  "Spending on purpose"
+ ],
+ "facts_to_verify": [
+  "Research on the zero price effect"
+ ],
+ "description": "We'll happily buy a coffee gone in ten minutes, but think twice about an app we use every day.\n\nIn this video:\n- Mental accounting\n- Anchoring\n- The zero price effect\n- Free apps and adverts\n- Habit vs value\n- Spending on purpose\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneypsychology #consumerpsychology",
+ "tags": [
+  "money psychology",
+  "consumer psychology",
+  "spending habits",
+  "why we pay £4 for coffee but hate paying £4 for an app",
+  "coffee",
+  "hate",
+  "paying",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WHY ARE WE|LIKE THIS?",
+  "emoji": "📱",
+  "color": "gold",
+  "tag": "Money psychology",
+  "size": 185,
+  "style": "storybook"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV095.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV095.md",
+ "paste_to_claude": "Make video MV095 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

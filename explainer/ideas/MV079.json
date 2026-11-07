@@ -1,0 +1,45 @@
+{
+ "code": "MV079",
+ "title": "Why Fast Food Got So Expensive",
+ "category": "Cost of living",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Fast food used to be the cheap option. Now a meal can cost the same as a sit-down restaurant.",
+ "outline": [
+  "Price rises vs inflation",
+  "Wages, rent and energy",
+  "App-only deals",
+  "Delivery fees",
+  "Smaller portions",
+  "How to eat out cheaper"
+ ],
+ "facts_to_verify": [
+  "Price examples over time from reliable sources"
+ ],
+ "description": "Fast food used to be the cheap option. Now a meal can cost the same as a sit-down restaurant.\n\nIn this video:\n- Price rises vs inflation\n- Wages, rent and energy\n- App-only deals\n- Delivery fees\n- Smaller portions\n- How to eat out cheaper\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "why fast food got so expensive",
+  "fast",
+  "food",
+  "expensive",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WHEN DID|IT GET SO|EXPENSIVE?",
+  "emoji": "🍔",
+  "color": "red",
+  "tag": "Cost of living",
+  "size": 185,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV079.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV079.md",
+ "paste_to_claude": "Make video MV079 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

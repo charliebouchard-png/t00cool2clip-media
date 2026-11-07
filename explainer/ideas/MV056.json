@@ -1,0 +1,47 @@
+{
+ "code": "MV056",
+ "title": "The Island Where Money Is Giant Stones",
+ "category": "Money history",
+ "style": "chalk",
+ "style_name": "Blackboard",
+ "style_notes": "A chalkboard in a wooden frame with handwritten text. Scenes change with an eraser wipe, like a teacher explaining on the board.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "On the island of Yap, money can be a stone too heavy to move, and it still works.",
+ "outline": [
+  "The rai stones",
+  "Sailing to quarry them",
+  "Ownership without moving them",
+  "The stone at the bottom of the sea",
+  "What it teaches us about money",
+  "Bitcoin comparisons"
+ ],
+ "facts_to_verify": [
+  "Stone sizes",
+  "Where they were quarried (Palau)"
+ ],
+ "description": "On the island of Yap, money can be a stone too heavy to move, and it still works.\n\nIn this video:\n- The rai stones\n- Sailing to quarry them\n- Ownership without moving them\n- The stone at the bottom of the sea\n- What it teaches us about money\n- Bitcoin comparisons\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "the island where money is giant stones",
+  "island",
+  "where",
+  "money",
+  "giant",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "MONEY YOU|CAN'T LIFT",
+  "emoji": "🪨",
+  "color": "teal",
+  "tag": "Money history",
+  "size": 185,
+  "style": "chalk"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV056.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV056.md",
+ "paste_to_claude": "Make video MV056 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

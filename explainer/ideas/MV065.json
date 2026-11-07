@@ -1,0 +1,46 @@
+{
+ "code": "MV065",
+ "title": "How Inflation Quietly Steals Your Savings",
+ "category": "How money works",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "If your savings earn less than inflation, you're getting poorer without spending a penny.",
+ "outline": [
+  "What inflation is",
+  "How it's measured",
+  "Real vs nominal",
+  "Who wins and who loses",
+  "Protecting your money",
+  "The Bank of England's target"
+ ],
+ "facts_to_verify": [
+  "Current UK inflation rate",
+  "Bank of England target (2%)"
+ ],
+ "description": "If your savings earn less than inflation, you're getting poorer without spending a penny.\n\nIn this video:\n- What inflation is\n- How it's measured\n- Real vs nominal\n- Who wins and who loses\n- Protecting your money\n- The Bank of England's target\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "how inflation quietly steals your savings",
+  "inflation",
+  "quietly",
+  "steals",
+  "your"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "YOUR SAVINGS|ARE SHRINKING",
+  "emoji": "🔥",
+  "color": "red",
+  "tag": "How money works",
+  "size": 142,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV065.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV065.md",
+ "paste_to_claude": "Make video MV065 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,49 @@
+{
+ "code": "MV023",
+ "title": "The Northern Bank Robbery: £26 Million From Belfast",
+ "category": "Heists and cons",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 2004, robbers took more cash from one Belfast bank than any heist in UK history before it.",
+ "outline": [
+  "Two families held hostage",
+  "The bank vault in the city centre",
+  "Who was blamed",
+  "Why Northern Bank reissued its notes",
+  "Where the money went",
+  "Unanswered questions"
+ ],
+ "facts_to_verify": [
+  "Amount (£26.5m)",
+  "Banknote recall details",
+  "Official attribution and denials"
+ ],
+ "description": "In 2004, robbers took more cash from one Belfast bank than any heist in UK history before it.\n\nIn this video:\n- Two families held hostage\n- The bank vault in the city centre\n- Who was blamed\n- Why Northern Bank reissued its notes\n- Where the money went\n- Unanswered questions\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "the northern bank robbery",
+  "northern",
+  "bank",
+  "robbery",
+  "million",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "£26 MILLION|GONE",
+  "emoji": "🏦",
+  "color": "teal",
+  "tag": "Heists and cons",
+  "size": 168,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV023.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV023.md",
+ "paste_to_claude": "Make video MV023 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

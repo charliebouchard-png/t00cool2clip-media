@@ -1,0 +1,48 @@
+{
+ "code": "MV019",
+ "title": "The Hatton Garden Heist: The Pensioners Who Robbed London",
+ "category": "Heists and cons",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "The biggest burglary in English history was carried out by a gang whose ringleader was in his seventies.",
+ "outline": [
+  "Easter weekend, 2015",
+  "Drilling through a vault wall",
+  "The mistakes that caught them",
+  "The police who were listening",
+  "The missing loot",
+  "Why Britain loved and hated the story"
+ ],
+ "facts_to_verify": [
+  "Ages of the gang members",
+  "Estimated value stolen",
+  "Year of convictions"
+ ],
+ "description": "The biggest burglary in English history was carried out by a gang whose ringleader was in his seventies.\n\nIn this video:\n- Easter weekend, 2015\n- Drilling through a vault wall\n- The mistakes that caught them\n- The police who were listening\n- The missing loot\n- Why Britain loved and hated the story\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "the hatton garden heist",
+  "hatton",
+  "garden",
+  "pensioners",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE PENSIONER|ROBBERS",
+  "emoji": "💎",
+  "color": "gold",
+  "tag": "Heists and cons",
+  "size": 142,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV019.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV019.md",
+ "paste_to_claude": "Make video MV019 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,46 @@
+{
+ "code": "MV017",
+ "title": "How Theme Parks Make Money (It's Not the Tickets)",
+ "category": "How it makes money",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A theme park ticket gets you through the gate. Everything after that is where the money's made.",
+ "outline": [
+  "Gate price vs spend inside",
+  "Fast passes and queue skipping",
+  "Food and photo sales",
+  "Hotels and season passes",
+  "Why parks keep building new rides",
+  "The British theme park story"
+ ],
+ "facts_to_verify": [
+  "Average spend per visitor from an operator report"
+ ],
+ "description": "A theme park ticket gets you through the gate. Everything after that is where the money's made.\n\nIn this video:\n- Gate price vs spend inside\n- Fast passes and queue skipping\n- Food and photo sales\n- Hotels and season passes\n- Why parks keep building new rides\n- The British theme park story\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how theme parks make money (it's not the tickets)",
+  "theme",
+  "parks",
+  "make",
+  "money",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE TICKET|IS JUST THE|START",
+  "emoji": "🎢",
+  "color": "gold",
+  "tag": "How it makes money",
+  "size": 168,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV017.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV017.md",
+ "paste_to_claude": "Make video MV017 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

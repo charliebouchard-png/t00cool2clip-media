@@ -1,0 +1,47 @@
+{
+ "code": "MV049",
+ "title": "Tulip Mania: Did People Really Pay a House for a Flower?",
+ "category": "Money history",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 1637 a single tulip bulb was said to be worth as much as a house. The truth is stranger.",
+ "outline": [
+  "Tulips arrive in the Netherlands",
+  "Broken tulips and rare colours",
+  "Trading in taverns",
+  "The crash",
+  "The myth vs the evidence",
+  "Why we still tell the story"
+ ],
+ "facts_to_verify": [
+  "Prices quoted for rare bulbs",
+  "What historians say about how bad the crash was"
+ ],
+ "description": "In 1637 a single tulip bulb was said to be worth as much as a house. The truth is stranger.\n\nIn this video:\n- Tulips arrive in the Netherlands\n- Broken tulips and rare colours\n- Trading in taverns\n- The crash\n- The myth vs the evidence\n- Why we still tell the story\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "tulip mania",
+  "tulip",
+  "mania",
+  "people",
+  "really",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "A HOUSE|FOR A|FLOWER?",
+  "emoji": "🌷",
+  "color": "red",
+  "tag": "Money history",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV049.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV049.md",
+ "paste_to_claude": "Make video MV049 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

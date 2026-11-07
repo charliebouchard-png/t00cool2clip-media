@@ -1,0 +1,47 @@
+{
+ "code": "MV041",
+ "title": "Northern Rock: Britain's First Bank Run in 150 Years",
+ "category": "Collapses and frauds",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "In 2007 people queued outside a British bank to take their money out, for the first time in over a century.",
+ "outline": [
+  "Borrowing short to lend long",
+  "The 125% mortgage",
+  "Money markets freeze",
+  "The queues",
+  "Nationalisation",
+  "How your savings are protected now"
+ ],
+ "facts_to_verify": [
+  "Last UK bank run before it",
+  "Deposit protection limit now (FSCS)"
+ ],
+ "description": "In 2007 people queued outside a British bank to take their money out, for the first time in over a century.\n\nIn this video:\n- Borrowing short to lend long\n- The 125% mortgage\n- Money markets freeze\n- The queues\n- Nationalisation\n- How your savings are protected now\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "northern rock",
+  "northern",
+  "rock",
+  "britain's",
+  "first",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE QUEUE|AT THE BANK",
+  "emoji": "🏃",
+  "color": "teal",
+  "tag": "Collapses and frauds",
+  "size": 168,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV041.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV041.md",
+ "paste_to_claude": "Make video MV041 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

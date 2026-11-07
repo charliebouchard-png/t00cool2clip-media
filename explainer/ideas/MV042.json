@@ -1,0 +1,47 @@
+{
+ "code": "MV042",
+ "title": "Carillion: The Company That Ran Britain, Then Collapsed",
+ "category": "Collapses and frauds",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "It built hospitals and cleaned schools, and in 2018 it went bust owing well over a billion pounds.",
+ "outline": [
+  "What Carillion did",
+  "Winning contracts at low prices",
+  "Paying suppliers late",
+  "Dividends and bonuses",
+  "The collapse",
+  "Who picked up the bill"
+ ],
+ "facts_to_verify": [
+  "Debts at collapse",
+  "Number of jobs",
+  "Parliament report findings"
+ ],
+ "description": "It built hospitals and cleaned schools, and in 2018 it went bust owing well over a billion pounds.\n\nIn this video:\n- What Carillion did\n- Winning contracts at low prices\n- Paying suppliers late\n- Dividends and bonuses\n- The collapse\n- Who picked up the bill\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "carillion",
+  "company",
+  "that",
+  "britain",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "BRITAIN'S|BUILDER|WENT BUST",
+  "emoji": "🏗️",
+  "color": "red",
+  "tag": "Collapses and frauds",
+  "size": 200,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV042.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV042.md",
+ "paste_to_claude": "Make video MV042 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

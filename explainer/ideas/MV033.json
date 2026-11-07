@@ -1,0 +1,49 @@
+{
+ "code": "MV033",
+ "title": "Charles Ponzi: The Man Behind the Name",
+ "category": "Heists and cons",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Before every Ponzi scheme, there was Charles Ponzi, and his plan started with postage stamps.",
+ "outline": [
+  "International reply coupons",
+  "The 50% in 45 days promise",
+  "Paying old investors with new money",
+  "The newspaper that exposed him",
+  "Collapse and prison",
+  "Why it still works today"
+ ],
+ "facts_to_verify": [
+  "Year (1920)",
+  "Promised returns",
+  "Estimated losses"
+ ],
+ "description": "Before every Ponzi scheme, there was Charles Ponzi, and his plan started with postage stamps.\n\nIn this video:\n- International reply coupons\n- The 50% in 45 days promise\n- Paying old investors with new money\n- The newspaper that exposed him\n- Collapse and prison\n- Why it still works today\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "charles ponzi",
+  "charles",
+  "ponzi",
+  "behind",
+  "name",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE FIRST|PONZI",
+  "emoji": "📮",
+  "color": "gold",
+  "tag": "Heists and cons",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV033.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV033.md",
+ "paste_to_claude": "Make video MV033 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

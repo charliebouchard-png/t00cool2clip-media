@@ -1,0 +1,46 @@
+{
+ "code": "MV074",
+ "title": "How Banks Make Money From Your Current Account",
+ "category": "How money works",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Your free bank account isn't free. You're just not the one paying for it directly.",
+ "outline": [
+  "Lending your deposits",
+  "Interest margins",
+  "Overdraft fees",
+  "Card fees paid by shops",
+  "Selling you other products",
+  "How to make it work for you"
+ ],
+ "facts_to_verify": [
+  "Interchange fee caps in the UK",
+  "Typical overdraft rates"
+ ],
+ "description": "Your free bank account isn't free. You're just not the one paying for it directly.\n\nIn this video:\n- Lending your deposits\n- Interest margins\n- Overdraft fees\n- Card fees paid by shops\n- Selling you other products\n- How to make it work for you\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "how banks make money from your current account",
+  "banks",
+  "make",
+  "money",
+  "from"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "YOUR FREE|ACCOUNT ISN'T|FREE",
+  "emoji": "💳",
+  "color": "red",
+  "tag": "How money works",
+  "size": 142,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV074.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV074.md",
+ "paste_to_claude": "Make video MV074 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

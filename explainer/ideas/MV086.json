@@ -1,0 +1,47 @@
+{
+ "code": "MV086",
+ "title": "Student Loans Explained: Most People Will Never Pay It Off",
+ "category": "Cost of living",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Most English graduates will never pay back their full student loan, and that's by design.",
+ "outline": [
+  "How the loan works",
+  "Repayment thresholds",
+  "Interest",
+  "Write-off after decades",
+  "Is it really a tax?",
+  "What it means for you"
+ ],
+ "facts_to_verify": [
+  "Plan 5 threshold and write-off term",
+  "Government forecast of share repaid in full"
+ ],
+ "description": "Most English graduates will never pay back their full student loan, and that's by design.\n\nIn this video:\n- How the loan works\n- Repayment thresholds\n- Interest\n- Write-off after decades\n- Is it really a tax?\n- What it means for you\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "student loans explained",
+  "student",
+  "loans",
+  "explained",
+  "most",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "YOU'LL NEVER|PAY IT OFF",
+  "emoji": "🎓",
+  "color": "gold",
+  "tag": "Cost of living",
+  "size": 154,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV086.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV086.md",
+ "paste_to_claude": "Make video MV086 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

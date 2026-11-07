@@ -1,0 +1,47 @@
+{
+ "code": "MV093",
+ "title": "How Games Make You Spend Real Money",
+ "category": "Money psychology",
+ "style": "storybook",
+ "style_name": "Cartoon town",
+ "style_notes": "Flat 2D cartoon characters in a colourful painted town with ink outlines and speech bubbles. Daylight while the story is set up, then night-blue lighting for the explanation.",
+ "script_formula": "Story formula: open on a paradox stated as fact (no intro), set the scene with a named everyday character, escalate in 3 to 5 beats with short dialogue in speech bubbles, then pivot with 'You see,' into the real explanation (lighting turns night-blue) and land on an ironic last line.",
+ "hook": "In-game coins exist so you stop thinking about how much real money you're spending.",
+ "outline": [
+  "Virtual currencies",
+  "Odd bundle sizes",
+  "Loot boxes",
+  "Limited-time offers",
+  "Whales and free players",
+  "Spotting the tricks"
+ ],
+ "facts_to_verify": [
+  "UK position on loot boxes",
+  "Revenue share from top spenders (research)"
+ ],
+ "description": "In-game coins exist so you stop thinking about how much real money you're spending.\n\nIn this video:\n- Virtual currencies\n- Odd bundle sizes\n- Loot boxes\n- Limited-time offers\n- Whales and free players\n- Spotting the tricks\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneypsychology #consumerpsychology",
+ "tags": [
+  "money psychology",
+  "consumer psychology",
+  "spending habits",
+  "how games make you spend real money",
+  "games",
+  "make",
+  "spend",
+  "real",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "COINS ARE|A TRICK",
+  "emoji": "🎮",
+  "color": "teal",
+  "tag": "Money psychology",
+  "size": 200,
+  "style": "storybook"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV093.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV093.md",
+ "paste_to_claude": "Make video MV093 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

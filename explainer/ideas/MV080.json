@@ -1,0 +1,45 @@
+{
+ "code": "MV080",
+ "title": "Shrinkflation: Why Your Snacks Got Smaller",
+ "category": "Cost of living",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Your favourite chocolate bar may cost the same, but there's a good chance there's less of it.",
+ "outline": [
+  "What shrinkflation is",
+  "Famous examples",
+  "Why brands do it",
+  "Unit pricing",
+  "The rules in the UK",
+  "How to spot it"
+ ],
+ "facts_to_verify": [
+  "Named product size changes with dates and sources"
+ ],
+ "description": "Your favourite chocolate bar may cost the same, but there's a good chance there's less of it.\n\nIn this video:\n- What shrinkflation is\n- Famous examples\n- Why brands do it\n- Unit pricing\n- The rules in the UK\n- How to spot it\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "shrinkflation",
+  "your",
+  "snacks",
+  "smaller",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "SAME PRICE.|LESS FOOD.",
+  "emoji": "🍫",
+  "color": "gold",
+  "tag": "Cost of living",
+  "size": 168,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV080.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV080.md",
+ "paste_to_claude": "Make video MV080 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

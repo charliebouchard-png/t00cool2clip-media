@@ -1,0 +1,46 @@
+{
+ "code": "MV094",
+ "title": "The Decoy Effect: Why Medium Popcorn Exists",
+ "category": "Money psychology",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "The medium popcorn isn't there for you to buy. It's there to make the large look like a bargain.",
+ "outline": [
+  "The decoy effect",
+  "Cinema popcorn",
+  "Subscriptions with three tiers",
+  "Coffee sizes",
+  "Studies that proved it",
+  "How to spot a decoy"
+ ],
+ "facts_to_verify": [
+  "Dan Ariely/Economist subscription example (note controversies)"
+ ],
+ "description": "The medium popcorn isn't there for you to buy. It's there to make the large look like a bargain.\n\nIn this video:\n- The decoy effect\n- Cinema popcorn\n- Subscriptions with three tiers\n- Coffee sizes\n- Studies that proved it\n- How to spot a decoy\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneypsychology #consumerpsychology",
+ "tags": [
+  "money psychology",
+  "consumer psychology",
+  "spending habits",
+  "the decoy effect",
+  "decoy",
+  "effect",
+  "medium",
+  "popcorn",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE MEDIUM|IS A TRAP",
+  "emoji": "🍿",
+  "color": "red",
+  "tag": "Money psychology",
+  "size": 185,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV094.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV094.md",
+ "paste_to_claude": "Make video MV094 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

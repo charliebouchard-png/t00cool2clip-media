@@ -1,0 +1,46 @@
+{
+ "code": "MV066",
+ "title": "How Your Credit Score Really Works",
+ "category": "How money works",
+ "style": "chalk",
+ "style_name": "Blackboard",
+ "style_notes": "A chalkboard in a wooden frame with handwritten text. Scenes change with an eraser wipe, like a teacher explaining on the board.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "There isn't one credit score in the UK, and lenders don't even see the number you see.",
+ "outline": [
+  "The three agencies",
+  "What goes into your file",
+  "What lenders actually check",
+  "Things that help",
+  "Myths that don't",
+  "How young people can build one"
+ ],
+ "facts_to_verify": [
+  "UK credit reference agencies",
+  "What lenders see vs consumer scores"
+ ],
+ "description": "There isn't one credit score in the UK, and lenders don't even see the number you see.\n\nIn this video:\n- The three agencies\n- What goes into your file\n- What lenders actually check\n- Things that help\n- Myths that don't\n- How young people can build one\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "how your credit score really works",
+  "your",
+  "credit",
+  "score",
+  "really"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE NUMBER|THAT RUNS|YOUR LIFE",
+  "emoji": "📊",
+  "color": "teal",
+  "tag": "How money works",
+  "size": 185,
+  "style": "chalk"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV066.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV066.md",
+ "paste_to_claude": "Make video MV066 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

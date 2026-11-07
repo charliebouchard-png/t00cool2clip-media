@@ -1,0 +1,46 @@
+{
+ "code": "MV048",
+ "title": "Greensill: The Billion-Pound Bet That Collapsed",
+ "category": "Collapses and frauds",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A finance firm that lent against future invoices collapsed in 2021, and pulled big names into the story.",
+ "outline": [
+  "Supply chain finance explained",
+  "Fast growth",
+  "Insurance that ran out",
+  "Collapse",
+  "The fallout",
+  "What went wrong"
+ ],
+ "facts_to_verify": [
+  "Year (2021)",
+  "Key facts from official reports (stay factual and neutral)"
+ ],
+ "description": "A finance firm that lent against future invoices collapsed in 2021, and pulled big names into the story.\n\nIn this video:\n- Supply chain finance explained\n- Fast growth\n- Insurance that ran out\n- Collapse\n- The fallout\n- What went wrong\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "greensill",
+  "billion",
+  "pound",
+  "that",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE INVOICE|BET",
+  "emoji": "📄",
+  "color": "teal",
+  "tag": "Collapses and frauds",
+  "size": 168,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV048.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV048.md",
+ "paste_to_claude": "Make video MV048 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

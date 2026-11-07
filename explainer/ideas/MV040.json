@@ -1,0 +1,47 @@
+{
+ "code": "MV040",
+ "title": "Barings: The Trader Who Sank a 233-Year-Old Bank",
+ "category": "Collapses and frauds",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "One trader in Singapore hid losses so big they destroyed Britain's oldest merchant bank.",
+ "outline": [
+  "Barings' history",
+  "Nick Leeson's job",
+  "Error account 88888",
+  "The Kobe earthquake",
+  "The note: I'm sorry",
+  "Sold for £1"
+ ],
+ "facts_to_verify": [
+  "Losses (£827m)",
+  "Year (1995)",
+  "Sale price to ING"
+ ],
+ "description": "One trader in Singapore hid losses so big they destroyed Britain's oldest merchant bank.\n\nIn this video:\n- Barings' history\n- Nick Leeson's job\n- Error account 88888\n- The Kobe earthquake\n- The note: I'm sorry\n- Sold for £1\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "barings",
+  "trader",
+  "sank",
+  "year",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "ONE TRADER.|ONE BANK.|GONE.",
+  "emoji": "📈",
+  "color": "gold",
+  "tag": "Collapses and frauds",
+  "size": 168,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV040.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV040.md",
+ "paste_to_claude": "Make video MV040 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

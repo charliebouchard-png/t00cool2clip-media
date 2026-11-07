@@ -1,0 +1,47 @@
+{
+ "code": "MV035",
+ "title": "Enron: The Smartest Guys in the Room Weren't",
+ "category": "Collapses and frauds",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "America's seventh-largest company turned out to be built on profits that didn't exist.",
+ "outline": [
+  "From pipelines to trading",
+  "Mark-to-market accounting",
+  "Hidden debts in side companies",
+  "Rolling blackouts in California",
+  "The collapse",
+  "Why auditors changed forever"
+ ],
+ "facts_to_verify": [
+  "Year of bankruptcy (2001)",
+  "Ranking and revenue figures",
+  "Arthur Andersen outcome"
+ ],
+ "description": "America's seventh-largest company turned out to be built on profits that didn't exist.\n\nIn this video:\n- From pipelines to trading\n- Mark-to-market accounting\n- Hidden debts in side companies\n- Rolling blackouts in California\n- The collapse\n- Why auditors changed forever\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #corporatefraud #companycollapse",
+ "tags": [
+  "corporate fraud",
+  "company collapse",
+  "finance documentary",
+  "enron",
+  "smartest",
+  "guys",
+  "room",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE FAKE|GIANT",
+  "emoji": "⚡",
+  "color": "red",
+  "tag": "Collapses and frauds",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV035.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV035.md",
+ "paste_to_claude": "Make video MV035 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

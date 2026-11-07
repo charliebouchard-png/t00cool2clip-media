@@ -1,0 +1,43 @@
+{
+ "code": "MV090",
+ "title": "Why Prices End in 99p",
+ "category": "Money psychology",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "£4.99 feels much cheaper than £5, even though it's just one penny less.",
+ "outline": [
+  "Left-digit effect",
+  "Where 99p pricing came from",
+  "Round prices for luxury",
+  "Charm pricing online",
+  "Does it still work?",
+  "How to beat it"
+ ],
+ "facts_to_verify": [
+  "Studies on left-digit bias"
+ ],
+ "description": "£4.99 feels much cheaper than £5, even though it's just one penny less.\n\nIn this video:\n- Left-digit effect\n- Where 99p pricing came from\n- Round prices for luxury\n- Charm pricing online\n- Does it still work?\n- How to beat it\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneypsychology #consumerpsychology",
+ "tags": [
+  "money psychology",
+  "consumer psychology",
+  "spending habits",
+  "why prices end in 99p",
+  "prices",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE 99P|TRICK",
+  "emoji": "🏷️",
+  "color": "gold",
+  "tag": "Money psychology",
+  "size": 200,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV090.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV090.md",
+ "paste_to_claude": "Make video MV090 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

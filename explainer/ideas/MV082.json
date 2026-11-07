@@ -1,0 +1,47 @@
+{
+ "code": "MV082",
+ "title": "Why Car Insurance for Young Drivers Is So Expensive",
+ "category": "Cost of living",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A 17-year-old can pay more to insure a car than the car is worth.",
+ "outline": [
+  "How insurers price risk",
+  "Why young drivers cost more",
+  "Postcodes and car types",
+  "Black box policies",
+  "Ways to cut the price",
+  "What's changing"
+ ],
+ "facts_to_verify": [
+  "Average premiums for 17-20 year olds",
+  "Crash statistics for young drivers"
+ ],
+ "description": "A 17-year-old can pay more to insure a car than the car is worth.\n\nIn this video:\n- How insurers price risk\n- Why young drivers cost more\n- Postcodes and car types\n- Black box policies\n- Ways to cut the price\n- What's changing\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "why car insurance for young drivers is so expensive",
+  "insurance",
+  "young",
+  "drivers",
+  "expensive",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "MORE THAN|THE CAR!",
+  "emoji": "🚙",
+  "color": "red",
+  "tag": "Cost of living",
+  "size": 200,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV082.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV082.md",
+ "paste_to_claude": "Make video MV082 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

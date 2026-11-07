@@ -1,0 +1,47 @@
+{
+ "code": "MV088",
+ "title": "Payday Loans: The 1,000% Interest Trap",
+ "category": "Cost of living",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Before new rules in 2015, some payday loans charged over 1,000% a year in interest.",
+ "outline": [
+  "How payday loans work",
+  "APR explained",
+  "The rollover trap",
+  "The 2015 price cap",
+  "Where people turn now",
+  "Better options"
+ ],
+ "facts_to_verify": [
+  "FCA price cap details (0.8% per day, total cost cap)",
+  "Typical APRs before 2015"
+ ],
+ "description": "Before new rules in 2015, some payday loans charged over 1,000% a year in interest.\n\nIn this video:\n- How payday loans work\n- APR explained\n- The rollover trap\n- The 2015 price cap\n- Where people turn now\n- Better options\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #costofliving #ukmoney",
+ "tags": [
+  "cost of living",
+  "uk money",
+  "personal finance uk",
+  "payday loans",
+  "payday",
+  "loans",
+  "interest",
+  "trap",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "1,000%|INTEREST",
+  "emoji": "💀",
+  "color": "gold",
+  "tag": "Cost of living",
+  "size": 200,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV088.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV088.md",
+ "paste_to_claude": "Make video MV088 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

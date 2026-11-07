@@ -1,0 +1,47 @@
+{
+ "code": "MV009",
+ "title": "How Netflix Makes Money Now Everyone Shares Passwords",
+ "category": "How it makes money",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Netflix let people share passwords for years, then made billions by stopping it.",
+ "outline": [
+  "The subscription model",
+  "Why sharing was allowed at first",
+  "The crackdown and extra member fees",
+  "Adverts on cheaper plans",
+  "Spending billions on shows",
+  "Is streaming getting worse?"
+ ],
+ "facts_to_verify": [
+  "Subscriber numbers before and after the crackdown",
+  "Year of paid sharing rollout"
+ ],
+ "description": "Netflix let people share passwords for years, then made billions by stopping it.\n\nIn this video:\n- The subscription model\n- Why sharing was allowed at first\n- The crackdown and extra member fees\n- Adverts on cheaper plans\n- Spending billions on shows\n- Is streaming getting worse?\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how netflix makes money now everyone shares passwords",
+  "netflix",
+  "makes",
+  "money",
+  "everyone",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THEY LET|YOU SHARE|ON PURPOSE",
+  "emoji": "🍿",
+  "color": "red",
+  "tag": "How it makes money",
+  "size": 185,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV009.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV009.md",
+ "paste_to_claude": "Make video MV009 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,46 @@
+{
+ "code": "MV063",
+ "title": "Where Does Money Actually Come From?",
+ "category": "How money works",
+ "style": "chalk",
+ "style_name": "Blackboard",
+ "style_notes": "A chalkboard in a wooden frame with handwritten text. Scenes change with an eraser wipe, like a teacher explaining on the board.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Most new money in Britain isn't printed by the government. It's created when banks make loans.",
+ "outline": [
+  "The myth of the money printer",
+  "What the Bank of England says",
+  "Loans create deposits",
+  "What limits banks",
+  "Where cash fits in",
+  "Why it matters to you"
+ ],
+ "facts_to_verify": [
+  "Bank of England 2014 'Money creation in the modern economy' paper",
+  "Share of money that is bank deposits"
+ ],
+ "description": "Most new money in Britain isn't printed by the government. It's created when banks make loans.\n\nIn this video:\n- The myth of the money printer\n- What the Bank of England says\n- Loans create deposits\n- What limits banks\n- Where cash fits in\n- Why it matters to you\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneyexplained #economics",
+ "tags": [
+  "money explained",
+  "economics",
+  "personal finance uk",
+  "where does money actually come from?",
+  "where",
+  "does",
+  "money",
+  "actually"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "WHO MAKES|THE MONEY?",
+  "emoji": "🏦",
+  "color": "gold",
+  "tag": "How money works",
+  "size": 185,
+  "style": "chalk"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV063.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV063.md",
+ "paste_to_claude": "Make video MV063 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

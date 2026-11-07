@@ -1,0 +1,47 @@
+{
+ "code": "MV015",
+ "title": "How Car Parks Make Money (The Most Boring Business)",
+ "category": "How it makes money",
+ "style": "collage",
+ "style_name": "Paper collage",
+ "style_notes": "Cream paper, torn cut-outs, red marker colours and heavy type. Each new scene slaps down like a card on a table.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Some of the most reliable money in Britain comes from rectangles of tarmac.",
+ "outline": [
+  "Why parking is a great business",
+  "Private parking charges explained",
+  "Automatic number plate cameras",
+  "The rules on fines and appeals",
+  "Who owns the car parks",
+  "How to avoid getting caught out"
+ ],
+ "facts_to_verify": [
+  "Rules on private parking charges and appeals in England",
+  "Number of tickets issued (DVLA data)"
+ ],
+ "description": "Some of the most reliable money in Britain comes from rectangles of tarmac.\n\nIn this video:\n- Why parking is a great business\n- Private parking charges explained\n- Automatic number plate cameras\n- The rules on fines and appeals\n- Who owns the car parks\n- How to avoid getting caught out\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how car parks make money (the most boring business)",
+  "parks",
+  "make",
+  "money",
+  "most",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "TARMAC|= MONEY",
+  "emoji": "🅿️",
+  "color": "red",
+  "tag": "How it makes money",
+  "size": 200,
+  "style": "collage"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV015.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV015.md",
+ "paste_to_claude": "Make video MV015 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,48 @@
+{
+ "code": "MV020",
+ "title": "The Antwerp Diamond Heist: The Vault That Couldn't Be Broken",
+ "category": "Heists and cons",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "Ten layers of security, a vault deep underground, and a gang still got in.",
+ "outline": [
+  "The diamond capital of the world",
+  "Ten layers of security",
+  "Planning for years",
+  "The night of the heist",
+  "The half-eaten sandwich",
+  "The diamonds never found"
+ ],
+ "facts_to_verify": [
+  "Year (2003)",
+  "Estimated value",
+  "How the gang was traced"
+ ],
+ "description": "Ten layers of security, a vault deep underground, and a gang still got in.\n\nIn this video:\n- The diamond capital of the world\n- Ten layers of security\n- Planning for years\n- The night of the heist\n- The half-eaten sandwich\n- The diamonds never found\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "the antwerp diamond heist",
+  "antwerp",
+  "diamond",
+  "vault",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE VAULT|NOBODY|COULD BREAK",
+  "emoji": "💍",
+  "color": "teal",
+  "tag": "Heists and cons",
+  "size": 168,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV020.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV020.md",
+ "paste_to_claude": "Make video MV020 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

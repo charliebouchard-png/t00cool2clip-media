@@ -1,0 +1,46 @@
+{
+ "code": "MV098",
+ "title": "The Marshmallow Test and Your Bank Account",
+ "category": "Money psychology",
+ "style": "neon",
+ "style_name": "Synthwave neon",
+ "style_notes": "Purple night sky, glowing grid floor and neon type. Scenes change with a quick glitch.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A famous experiment with kids and marshmallows says a lot about money, but not what you were told.",
+ "outline": [
+  "The original study",
+  "The big claims",
+  "What newer research found",
+  "Delayed gratification and saving",
+  "Making waiting easier",
+  "Automatic saving"
+ ],
+ "facts_to_verify": [
+  "Original Mischel studies and the 2018 replication findings"
+ ],
+ "description": "A famous experiment with kids and marshmallows says a lot about money, but not what you were told.\n\nIn this video:\n- The original study\n- The big claims\n- What newer research found\n- Delayed gratification and saving\n- Making waiting easier\n- Automatic saving\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #moneypsychology #consumerpsychology",
+ "tags": [
+  "money psychology",
+  "consumer psychology",
+  "spending habits",
+  "the marshmallow test and your bank account",
+  "marshmallow",
+  "test",
+  "your",
+  "bank",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "ONE NOW|OR TWO LATER?",
+  "emoji": "🍬",
+  "color": "gold",
+  "tag": "Money psychology",
+  "size": 142,
+  "style": "neon"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV098.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV098.md",
+ "paste_to_claude": "Make video MV098 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,49 @@
+{
+ "code": "MV021",
+ "title": "Brink's-Mat: The Robbery That Found £26 Million in Gold",
+ "category": "Heists and cons",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A gang went looking for cash and accidentally stole one of the biggest gold hauls in British history.",
+ "outline": [
+  "Heathrow, 1983",
+  "Expecting cash, finding gold",
+  "Melting it down",
+  "The money that spread into property",
+  "The curse of Brink's-Mat",
+  "Where is the gold now?"
+ ],
+ "facts_to_verify": [
+  "Value at the time (£26m)",
+  "Year (1983)",
+  "How much gold was recovered"
+ ],
+ "description": "A gang went looking for cash and accidentally stole one of the biggest gold hauls in British history.\n\nIn this video:\n- Heathrow, 1983\n- Expecting cash, finding gold\n- Melting it down\n- The money that spread into property\n- The curse of Brink's-Mat\n- Where is the gold now?\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #truecrime #heist",
+ "tags": [
+  "true crime",
+  "heist",
+  "scam",
+  "con artist",
+  "brink's-mat",
+  "brink's",
+  "robbery",
+  "that",
+  "found",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THEY CAME|FOR CASH.|FOUND GOLD.",
+  "emoji": "🥇",
+  "color": "gold",
+  "tag": "Heists and cons",
+  "size": 168,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV021.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV021.md",
+ "paste_to_claude": "Make video MV021 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

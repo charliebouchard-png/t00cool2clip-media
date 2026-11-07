@@ -1,0 +1,46 @@
+{
+ "code": "MV014",
+ "title": "How Vending Machines Quietly Make Money",
+ "category": "How it makes money",
+ "style": "bold",
+ "style_name": "Bold minimal",
+ "style_notes": "Off-white page, giant condensed capitals, black and red only. Hard, punchy cuts on the beat.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "A metal box in a hallway can make money while its owner sleeps. But it's not as easy as it sounds.",
+ "outline": [
+  "How a vending business works",
+  "Buying a machine and stock",
+  "Finding locations",
+  "Card readers changed everything",
+  "The real margins",
+  "Why most people fail"
+ ],
+ "facts_to_verify": [
+  "Typical machine price and margins from industry sources"
+ ],
+ "description": "A metal box in a hallway can make money while its owner sleeps. But it's not as easy as it sounds.\n\nIn this video:\n- How a vending business works\n- Buying a machine and stock\n- Finding locations\n- Card readers changed everything\n- The real margins\n- Why most people fail\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #businessmodel #howitmakesmoney",
+ "tags": [
+  "business model",
+  "how it makes money",
+  "business explained",
+  "how vending machines quietly make money",
+  "vending",
+  "machines",
+  "quietly",
+  "make",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "THE BOX|THAT PAYS",
+  "emoji": "🥤",
+  "color": "teal",
+  "tag": "How it makes money",
+  "size": 200,
+  "style": "bold"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV014.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV014.md",
+ "paste_to_claude": "Make video MV014 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

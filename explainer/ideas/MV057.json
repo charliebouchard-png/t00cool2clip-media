@@ -1,0 +1,46 @@
+{
+ "code": "MV057",
+ "title": "Were Roman Soldiers Really Paid in Salt?",
+ "category": "Money history",
+ "style": "documentary",
+ "style_name": "Archive documentary",
+ "style_notes": "Film grain, letterbox bars, serif type, newspaper cuttings and maps. The camera pans sideways from one moment to the next instead of cutting.",
+ "script_formula": "Script formula: the hook is the first sentence (no intro), then 4 to 6 chapters, each opening with a question the viewer wants answered. Keep sentences short and spoken. Close every chapter with a mini-cliffhanger into the next, and end on a one-line takeaway.",
+ "hook": "You've probably heard that 'salary' comes from Romans being paid in salt. The real story is messier.",
+ "outline": [
+  "The salary story",
+  "Why salt was valuable",
+  "What historians actually say",
+  "How Roman soldiers were paid",
+  "Other myths about money",
+  "Why myths stick"
+ ],
+ "facts_to_verify": [
+  "Historians' view on the salarium myth"
+ ],
+ "description": "You've probably heard that 'salary' comes from Romans being paid in salt. The real story is messier.\n\nIn this video:\n- The salary story\n- Why salt was valuable\n- What historians actually say\n- How Roman soldiers were paid\n- Other myths about money\n- Why myths stick\n\nSources are listed here once the script has been fact-checked.\nThis video is for education and entertainment only and is not financial advice.\n\n#money #historyofmoney #economichistory",
+ "tags": [
+  "history of money",
+  "economic history",
+  "financial history",
+  "were roman soldiers really paid in salt?",
+  "were",
+  "roman",
+  "soldiers",
+  "really",
+  "money explained"
+ ],
+ "target_length": "6 to 8 minutes (about 1,000 to 1,300 words)",
+ "thumbnail": {
+  "text": "PAID IN|SALT?",
+  "emoji": "🧂",
+  "color": "gold",
+  "tag": "Money history",
+  "size": 200,
+  "style": "documentary"
+ },
+ "thumbnail_url": "https://raw.githubusercontent.com/charliebouchard-png/t00cool2clip-media/main/explainer/ideas/thumbs/MV057.jpg",
+ "page_url": "https://github.com/charliebouchard-png/t00cool2clip-media/blob/main/explainer/ideas/MV057.md",
+ "paste_to_claude": "Make video MV057 from my idea bank: write and fact-check the full 5+ minute script, render it in its style, and send it to me.",
+ "status": "idea"
+}

@@ -1,0 +1,468 @@
+{
+ "id": "MV045",
+ "style": "documentary",
+ "voice": "af_aoede",
+ "speed": 0.83,
+ "title": "BHS: The Shop Sold for £1",
+ "beats": [
+  {
+   "say": "In March twenty fifteen, one of Britain's best known department store chains was sold for one pound. Just over a year later, it collapsed, eleven thousand people lost their jobs, and its pension scheme had a hole of hundreds of millions of pounds.",
+   "vis": {
+    "type": "hook",
+    "text": "Sold for £1. Collapsed a year later.",
+    "emoji": "🛍️",
+    "hot": [
+     "£1."
+    ]
+   }
+  },
+  {
+   "say": "The story of BHS became one of the biggest business scandals in modern Britain. MPs called it the unacceptable face of capitalism. Here's how it happened.",
+   "vis": {
+    "type": "list",
+    "title": "The BHS story",
+    "items": [
+     [
+      "🏬",
+      "A high street favourite"
+     ],
+     [
+      "💷",
+      "Big payouts to owners"
+     ],
+     [
+      "🪙",
+      "Sold for £1"
+     ],
+     [
+      "👵",
+      "A pension black hole"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. A high street name.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "A high street name"
+   }
+  },
+  {
+   "say": "British Home Stores, later known as BHS, opened in nineteen twenty eight. For decades it sold clothes, homeware and lighting from stores across the country. For generations of shoppers, it was a familiar part of the high street.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏬",
+    "text": "British Home Stores",
+    "sub": "Founded in 1928",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Part two. The Green years.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The Green years"
+   }
+  },
+  {
+   "say": "In two thousand, BHS was bought by the retail tycoon Philip Green, who also controlled Topshop. He paid around two hundred million pounds.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🕴️",
+    "text": "Sir Philip Green",
+    "sub": "Bought BHS in 2000",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Green was one of Britain's most famous businessmen, and he had been knighted for services to retail. To many people, he was a retail genius.",
+   "vis": {
+    "type": "hook",
+    "text": "A knighted retail genius.",
+    "emoji": "🎖️",
+    "hot": [
+     "genius."
+    ]
+   }
+  },
+  {
+   "say": "At first, the business was profitable. And large amounts of money flowed out of it to its owners, through dividends and other payments. MPs later estimated the total taken out was in the hundreds of millions.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Money out",
+     "emoji": "💷",
+     "lines": [
+      "Large dividends",
+      "Payments to owners"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Money left in",
+     "emoji": "🏬",
+     "lines": [
+      "Ageing stores",
+      "Little investment"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Meanwhile, the stores looked increasingly tired. Shoppers were moving online, and to cheaper and trendier rivals. BHS started losing money.",
+   "vis": {
+    "type": "hook",
+    "text": "Tired stores. Falling sales.",
+    "emoji": "🏚️",
+    "hot": [
+     "Tired"
+    ]
+   }
+  },
+  {
+   "say": "The bigger the pension deficit grew, the harder BHS was to sell. Any buyer would inherit not just the shops, but the promise to pay thousands of people's pensions.",
+   "vis": {
+    "type": "list",
+    "title": "The problem with selling BHS",
+    "items": [
+     [
+      "🏚️",
+      "Loss-making stores"
+     ],
+     [
+      "👵",
+      "A huge pension promise"
+     ],
+     [
+      "💷",
+      "Little investment"
+     ],
+     [
+      "🤷",
+      "Few serious buyers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. The pension hole.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The pension hole"
+   }
+  },
+  {
+   "say": "BHS had a pension scheme for its workers, promising them a certain income in retirement. But the scheme didn't have enough money to pay everything it had promised. The gap, called a deficit, kept growing.",
+   "vis": {
+    "type": "flow",
+    "title": "How a pension deficit grows",
+    "nodes": [
+     [
+      "👷",
+      "Workers promised pensions"
+     ],
+     [
+      "💷",
+      "Money paid into a fund"
+     ],
+     [
+      "📉",
+      "Fund falls short"
+     ],
+     [
+      "🕳️",
+      "A growing deficit"
+     ]
+    ],
+    "color": "gold",
+    "coin": "👵"
+   }
+  },
+  {
+   "say": "By the time BHS collapsed, the pension deficit was around five hundred and seventy one million pounds.",
+   "vis": {
+    "type": "num",
+    "value": 571,
+    "label": "pension deficit when BHS collapsed",
+    "color": "red",
+    "emoji": "👵",
+    "prefix": "£",
+    "suffix": " million",
+    "source": "Parliamentary committees' report, 2016"
+   }
+  },
+  {
+   "say": "Part four. The one pound sale.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The one pound sale"
+   }
+  },
+  {
+   "say": "In March twenty fifteen, Green's group sold BHS for one pound, to a consortium led by Dominic Chappell. Chappell had no retail experience, and had been declared bankrupt twice.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1928",
+      "BHS founded"
+     ],
+     [
+      "2000",
+      "Bought by Philip Green"
+     ],
+     [
+      "Mar 2015",
+      "Sold for £1"
+     ],
+     [
+      "Apr 2016",
+      "Administration",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Selling a struggling business for a pound isn't unusual by itself. The buyer takes on the debts and problems. But who you sell it to really matters.",
+   "vis": {
+    "type": "hook",
+    "text": "Who you sell it to really matters.",
+    "emoji": "🤝",
+    "hot": [
+     "Who"
+    ]
+   }
+  },
+  {
+   "say": "And within that year, money continued to flow out. The MPs' investigation found that the new owners took millions of pounds out of the business while it was failing.",
+   "vis": {
+    "type": "hook",
+    "text": "Even more money flowed out.",
+    "emoji": "💸",
+    "hot": [
+     "flowed"
+    ]
+   }
+  },
+  {
+   "say": "MPs later concluded that Chappell was totally unsuitable to run the company. And they said Green should have known that.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What BHS needed",
+     "emoji": "🧭",
+     "lines": [
+      "Experienced retailers",
+      "Investment"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What it got",
+     "emoji": "❓",
+     "lines": [
+      "No retail experience",
+      "Twice bankrupt"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. The collapse.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The collapse"
+   }
+  },
+  {
+   "say": "Just over a year after the sale, in April twenty sixteen, BHS went into administration. Efforts to find a buyer failed. By the end of August, all of its one hundred and sixty four stores had closed.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Apr 2016",
+      "Administration"
+     ],
+     [
+      "June 2016",
+      "No buyer found"
+     ],
+     [
+      "Aug 2016",
+      "Last stores close"
+     ],
+     [
+      "2016",
+      "MPs investigate",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Around eleven thousand people lost their jobs. And around twenty thousand current and former workers faced cuts to their pensions.",
+   "vis": {
+    "type": "num",
+    "value": 11000,
+    "label": "jobs lost",
+    "color": "red",
+    "emoji": "👷",
+    "prefix": "Around ",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "The pension scheme was expected to fall into the Pension Protection Fund, a lifeboat that pays reduced pensions when a company goes bust. That meant many workers would get less than they'd been promised.",
+   "vis": {
+    "type": "hook",
+    "text": "Workers faced getting less than promised.",
+    "emoji": "🛟",
+    "hot": [
+     "less"
+    ]
+   }
+  },
+  {
+   "say": "Two committees of MPs investigated. Their report said Philip Green, Dominic Chappell and their advisers all bore responsibility. And they used a famous phrase to describe what had happened.",
+   "vis": {
+    "type": "quote",
+    "text": "The unacceptable face of capitalism.",
+    "who": "MPs' report on the collapse of BHS, 2016"
+   }
+  },
+  {
+   "say": "Part six. The aftermath.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The aftermath"
+   }
+  },
+  {
+   "say": "The pressure on Green was enormous. MPs voted in favour of a motion calling for his knighthood to be removed, though he kept it. The Pensions Regulator launched action against him.",
+   "vis": {
+    "type": "list",
+    "title": "The pressure",
+    "items": [
+     [
+      "🏛️",
+      "MPs' damning report"
+     ],
+     [
+      "🎖️",
+      "Calls to remove his knighthood"
+     ],
+     [
+      "⚖️",
+      "Pensions Regulator action"
+     ],
+     [
+      "📰",
+      "Headlines everywhere"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In twenty seventeen, Green agreed to pay three hundred and sixty three million pounds to help fund the pension scheme. It meant pensioners got better pensions than they would have otherwise, though the deal was still debated.",
+   "vis": {
+    "type": "num",
+    "value": 363,
+    "label": "paid by Green into the BHS pension scheme",
+    "color": "teal",
+    "emoji": "✅",
+    "prefix": "£",
+    "suffix": " million"
+   }
+  },
+  {
+   "say": "Dominic Chappell faced his own legal problems. He was later convicted of failing to give information to the Pensions Regulator, and was separately jailed for tax evasion.",
+   "vis": {
+    "type": "hook",
+    "text": "The buyer ended up in prison.",
+    "emoji": "⛓️",
+    "hot": [
+     "prison."
+    ]
+   }
+  },
+  {
+   "say": "Part seven. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "BHS changed the rules. The government gave the Pensions Regulator tougher powers, including the ability to prosecute bosses who put pension schemes at risk.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "⚖️",
+      "Tougher pension rules"
+     ],
+     [
+      "🚔",
+      "Criminal penalties for bosses"
+     ],
+     [
+      "🔍",
+      "More scrutiny of company sales"
+     ],
+     [
+      "👵",
+      "More focus on workers' pensions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And for anyone with a workplace pension, it's a reminder to understand what kind of pension you have, and that the company behind it matters.",
+   "vis": {
+    "type": "hook",
+    "text": "Know what kind of pension you have.",
+    "emoji": "👵",
+    "hot": [
+     "pension"
+    ]
+   }
+  },
+  {
+   "say": "A shop that served Britain for nearly ninety years was sold for the price of a chocolate bar. The money had already gone. And the people left to pay the price were the ones who'd worked there.",
+   "vis": {
+    "type": "hook",
+    "text": "The workers paid the price.",
+    "emoji": "💔",
+    "hot": [
+     "workers"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest collapses in British business, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "SOLD FOR|£1",
+  "emoji": "🛍️",
+  "color": "red",
+  "tag": "Collapses"
+ }
+}

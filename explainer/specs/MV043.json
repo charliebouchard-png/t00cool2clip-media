@@ -1,0 +1,474 @@
+{
+ "id": "MV043",
+ "style": "chalk",
+ "variant": 2,
+ "voice": "bf_emma",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "Patisserie Valerie: The Cake Shop With a Hidden Hole",
+ "beats": [
+  {
+   "say": "Patisserie Valerie was the café chain where Britain went for cream cakes and a cup of tea. Then, in October twenty eighteen, the company announced it had found something alarming in its accounts.",
+   "vis": {
+    "type": "hook",
+    "text": "Cream cakes. And a hole in the accounts.",
+    "emoji": "🍰",
+    "hot": [
+     "hole"
+    ]
+   }
+  },
+  {
+   "say": "Within months, the business was in administration, about seventy cafés had closed, and the Serious Fraud Office was investigating. Today's lesson is how a cake shop's books can hide a black hole.",
+   "vis": {
+    "type": "list",
+    "title": "What happened",
+    "items": [
+     [
+      "🍰",
+      "A much-loved café chain"
+     ],
+     [
+      "🧾",
+      "Accounting irregularities"
+     ],
+     [
+      "🏦",
+      "Secret overdrafts"
+     ],
+     [
+      "⚖️",
+      "Fraud charges"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. The famous café.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The famous café"
+   }
+  },
+  {
+   "say": "The first Patisserie Valerie opened in Soho, London, in nineteen twenty six, founded by a Belgian woman, Esther van Gyseghem, who became known as Madame Valerie. For decades, it was a small, much loved Soho institution.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🥐",
+    "text": "Patisserie Valerie, Soho",
+    "sub": "Opened in 1926",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In two thousand and six, the entrepreneur Luke Johnson's investment firm bought a controlling stake. The chain grew fast, from eight shops to around two hundred.",
+   "vis": {
+    "type": "num",
+    "value": 192,
+    "label": "cafés by 2017, up from 8 in 2006",
+    "color": "teal",
+    "emoji": "🏪",
+    "prefix": "",
+    "suffix": "",
+    "source": "Patisserie Valerie, Wikipedia"
+   }
+  },
+  {
+   "say": "The company was listed on the stock market and, on paper, it looked like a brilliant business. Steady sales, growing profits, and plenty of cash in the bank.",
+   "vis": {
+    "type": "hook",
+    "text": "On paper, a brilliant business.",
+    "emoji": "📈",
+    "hot": [
+     "paper,"
+    ]
+   }
+  },
+  {
+   "say": "Investors loved it. Unlike many restaurant chains, it seemed to have very healthy profit margins and lots of cash. That made the shares look like a safe, tasty investment.",
+   "vis": {
+    "type": "list",
+    "title": "Why investors loved it",
+    "items": [
+     [
+      "📈",
+      "Steady growth"
+     ],
+     [
+      "💰",
+      "Lots of cash"
+     ],
+     [
+      "🍰",
+      "A beloved brand"
+     ],
+     [
+      "😌",
+      "Seemed low risk"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. The discovery.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The discovery"
+   }
+  },
+  {
+   "say": "On the tenth of October, twenty eighteen, the company suddenly announced it had found significant and potentially fraudulent accounting irregularities. Trading in its shares was suspended immediately.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "10 Oct 2018",
+      "Irregularities announced"
+     ],
+     [
+      "Same day",
+      "Shares suspended"
+     ],
+     [
+      "Days later",
+      "Secret overdrafts found"
+     ],
+     [
+      "Jan 2019",
+      "Administration",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Days later, it emerged that the company had two bank overdrafts worth almost ten million pounds that the board said it hadn't known about. They weren't in the accounts.",
+   "vis": {
+    "type": "doc",
+    "title": "What the board found",
+    "lines": [
+     [
+      "Overdraft 1",
+      "Not reported"
+     ],
+     [
+      "Overdraft 2",
+      "Not reported"
+     ],
+     [
+      "Total",
+      "Almost £10m"
+     ],
+     [
+      "Board knew?",
+      "Said it didn't"
+     ]
+    ],
+    "stamp": "SECRET",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Investigators later alleged that the company's cash had been inflated for years. The accounts showed far more money than really existed.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What the accounts showed",
+     "emoji": "💰",
+     "lines": [
+      "Plenty of cash",
+      "Growing profits"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What was alleged",
+     "emoji": "🕳️",
+     "lines": [
+      "Far less cash",
+      "Hidden debts"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Think about how serious that is. Cash is supposed to be the simplest number in any business. Either the money is in the bank, or it isn't.",
+   "vis": {
+    "type": "hook",
+    "text": "Cash should be the simplest number of all.",
+    "emoji": "🏦",
+    "hot": [
+     "simplest"
+    ]
+   }
+  },
+  {
+   "say": "And it wasn't only overdrafts. There were also reports of problems with tax payments. The tax authority had even filed a petition to wind up the company over unpaid tax, which the company paid. A strange thing for a firm supposedly sitting on lots of cash.",
+   "vis": {
+    "type": "hook",
+    "text": "Lots of cash. So why the unpaid tax?",
+    "emoji": "❓",
+    "hot": [
+     "unpaid"
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. How do you hide a hole?",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "How do you hide a hole?"
+   }
+  },
+  {
+   "say": "The Serious Fraud Office later charged four people, including the former finance director, Chris Marsh. It alleged they conspired to inflate the company's cash balances between twenty fifteen and twenty eighteen, including by giving false documents to auditors.",
+   "vis": {
+    "type": "flow",
+    "title": "The allegations",
+    "nodes": [
+     [
+      "💷",
+      "Cash balances inflated"
+     ],
+     [
+      "📄",
+      "False documents"
+     ],
+     [
+      "🔍",
+      "Given to auditors"
+     ],
+     [
+      "📈",
+      "Profits looked better"
+     ]
+    ],
+    "color": "gold",
+    "coin": "📄"
+   }
+  },
+  {
+   "say": "All four deny the charges and have pleaded not guilty. Their trial has been scheduled for twenty twenty eight. So for now, these are allegations, not proven facts.",
+   "vis": {
+    "type": "hook",
+    "text": "They deny it. The trial is set for 2028.",
+    "emoji": "⚖️",
+    "hot": [
+     "deny"
+    ]
+   }
+  },
+  {
+   "say": "The company's auditor, Grant Thornton, was fined by the accounting regulator, which said it had missed red flags in its audit work.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🚩",
+    "text": "Missed red flags",
+    "sub": "Auditor Grant Thornton was fined",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Liquidators later took legal action against the auditor too, arguing that a proper audit should have spotted what was going on.",
+   "vis": {
+    "type": "list",
+    "title": "Who faced questions",
+    "items": [
+     [
+      "🧾",
+      "The finance team"
+     ],
+     [
+      "🔍",
+      "The auditor"
+     ],
+     [
+      "👔",
+      "The board"
+     ],
+     [
+      "🏦",
+      "The banks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. The rescue that wasn't.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The rescue that wasn't"
+   }
+  },
+  {
+   "say": "To keep the business going, Luke Johnson provided a twenty million pound loan, and the company raised more money by selling new shares. For a moment, it seemed it might survive.",
+   "vis": {
+    "type": "list",
+    "title": "The rescue plan",
+    "items": [
+     [
+      "💷",
+      "£20m loan from Luke Johnson"
+     ],
+     [
+      "📈",
+      "New shares sold"
+     ],
+     [
+      "🏦",
+      "Talks with banks"
+     ],
+     [
+      "🤞",
+      "Hope to survive"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But when the real state of the finances became clear, the banks wouldn't keep supporting it. In January twenty nineteen, Patisserie Valerie went into administration.",
+   "vis": {
+    "type": "hook",
+    "text": "In January 2019, it went into administration.",
+    "emoji": "🚪",
+    "hot": [
+     "administration."
+    ]
+   }
+  },
+  {
+   "say": "Around seventy cafés closed, including both shops in Soho where it had all started. Around nine hundred jobs were lost.",
+   "vis": {
+    "type": "num",
+    "value": 900,
+    "label": "jobs lost",
+    "color": "red",
+    "emoji": "👩‍🍳",
+    "prefix": "Around ",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "Staff at closing cafés found out with little warning. Some turned up for work to find their café was shutting for good.",
+   "vis": {
+    "type": "hook",
+    "text": "Staff found out with little warning.",
+    "emoji": "🚪",
+    "hot": [
+     "little",
+     "warning."
+    ]
+   }
+  },
+  {
+   "say": "Most of the remaining cafés were bought by a private equity firm for a small sum, and the brand carried on. But shareholders who'd invested in the listed company saw their shares become almost worthless.",
+   "vis": {
+    "type": "hook",
+    "text": "Shareholders were left with almost nothing.",
+    "emoji": "📉",
+    "hot": [
+     "nothing."
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. Who was watching?",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Who was watching?"
+   }
+  },
+  {
+   "say": "The question everyone asked was, how did nobody notice? A listed company has a board, auditors, banks and investors. All of them are supposed to check the numbers.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Who should check",
+     "emoji": "👀",
+     "lines": [
+      "Board",
+      "Auditors"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Who else",
+     "emoji": "🏦",
+     "lines": [
+      "Banks",
+      "Investors"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The answer is that checks only work when someone actually confirms the basics, like calling the bank to see if the cash is really there. When everyone assumes someone else has done it, a hole can grow for years.",
+   "vis": {
+    "type": "hook",
+    "text": "Everyone assumed someone else had checked.",
+    "emoji": "🙈",
+    "hot": [
+     "someone",
+     "else"
+    ]
+   }
+  },
+  {
+   "say": "So what can ordinary investors learn? Even a friendly brand on your high street can have problems you can't see from the outside.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Patisserie Valerie",
+    "items": [
+     [
+      "💷",
+      "Cash should match reality"
+     ],
+     [
+      "🔍",
+      "Confirm the basics"
+     ],
+     [
+      "🧺",
+      "Don't put all your money in one share"
+     ],
+     [
+      "🚩",
+      "Watch for sudden suspensions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Patisserie Valerie still sells cakes today. But its story is a reminder that the sweetest looking accounts can hide a very bitter surprise.",
+   "vis": {
+    "type": "hook",
+    "text": "Sweet on the outside. Bitter surprise inside.",
+    "emoji": "🍰",
+    "hot": [
+     "Bitter"
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more true stories behind famous collapses, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE CAKE|SHOP'S|SECRET HOLE",
+  "emoji": "🍰",
+  "color": "gold",
+  "tag": "Collapses"
+ }
+}

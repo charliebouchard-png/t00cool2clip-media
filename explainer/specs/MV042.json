@@ -1,0 +1,481 @@
+{
+ "id": "MV042",
+ "style": "collage",
+ "variant": 0,
+ "voice": "bm_george",
+ "speed": 0.84,
+ "trans": "slap",
+ "title": "Carillion: The Company That Ran Britain, Then Collapsed",
+ "beats": [
+  {
+   "say": "If you lived in Britain in twenty seventeen, there's a good chance Carillion touched your life. It built hospitals and roads, maintained prisons and army bases, and served school meals. Then, in January twenty eighteen, it collapsed almost overnight.",
+   "vis": {
+    "type": "hook",
+    "text": "It ran half of Britain. Then it vanished.",
+    "emoji": "🏗️",
+    "hot": [
+     "vanished."
+    ]
+   }
+  },
+  {
+   "say": "When it went into liquidation, Carillion had liabilities of almost seven billion pounds. It was one of the biggest corporate collapses in modern British history.",
+   "vis": {
+    "type": "num",
+    "value": 7,
+    "label": "in liabilities, almost",
+    "color": "red",
+    "emoji": "💷",
+    "prefix": "£",
+    "suffix": " billion",
+    "source": "Official Receiver figures"
+   }
+  },
+  {
+   "say": "Around forty three thousand people worked for it worldwide, including nearly twenty thousand in Britain. Thousands of small firms were waiting to be paid. And taxpayers were left with part of the bill.",
+   "vis": {
+    "type": "list",
+    "title": "Who was affected",
+    "items": [
+     [
+      "👷",
+      "~43,000 staff worldwide"
+     ],
+     [
+      "🧱",
+      "~30,000 suppliers owed"
+     ],
+     [
+      "👵",
+      "~27,000 pension scheme members"
+     ],
+     [
+      "🏛️",
+      "Taxpayers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The giant.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The giant"
+   }
+  },
+  {
+   "say": "Carillion was formed in nineteen ninety nine, spun out of the building firm Tarmac. It grew by winning huge contracts, many of them from the government. Schools, hospitals, railways, defence sites, even the new high speed railway, HS2.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏗️",
+    "text": "Carillion",
+    "sub": "Construction and services giant",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "It was what's called a strategic supplier to the government. In other words, so big and so involved in public services that people assumed it couldn't be allowed to fail.",
+   "vis": {
+    "type": "hook",
+    "text": "Too big to fail. Or so people assumed.",
+    "emoji": "🏛️",
+    "hot": [
+     "assumed."
+    ]
+   }
+  },
+  {
+   "say": "Even after warning signs appeared, the government kept awarding Carillion big contracts, including part of HS2. That decision was heavily criticised after the collapse.",
+   "vis": {
+    "type": "hook",
+    "text": "Contracts kept coming, even after warnings.",
+    "emoji": "📝",
+    "hot": [
+     "warnings."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Winning at any price.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Winning at any price"
+   }
+  },
+  {
+   "say": "The problem started with how Carillion won its work. To beat rivals, it often bid low. Very low. Sometimes so low that the contracts would only make money if absolutely everything went perfectly.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "A careful bid",
+     "emoji": "🧮",
+     "lines": [
+      "Realistic price",
+      "Room for problems"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Carillion's bids",
+     "emoji": "🎲",
+     "lines": [
+      "Very low prices",
+      "Everything had to go right"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And in construction, things rarely go perfectly. Projects run late. Costs rise. Surprises appear when you dig into the ground. Every problem ate into thin profits.",
+   "vis": {
+    "type": "hook",
+    "text": "In construction, things rarely go perfectly.",
+    "emoji": "🚧",
+    "hot": [
+     "rarely"
+    ]
+   }
+  },
+  {
+   "say": "Two giant hospital projects became disasters. The Royal Liverpool University Hospital and the Midland Metropolitan Hospital near Birmingham ran badly late, with serious construction problems, and costs spiralling.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏥",
+    "text": "The hospital projects",
+    "sub": "Late, over budget, problem-hit",
+    "color": "red"
+   }
+  },
+  {
+   "say": "The Royal Liverpool hospital was eventually finished years late, by other builders, at extra public cost. Patients and staff waited far longer than planned for their new hospital.",
+   "vis": {
+    "type": "hook",
+    "text": "Years late, at extra public cost.",
+    "emoji": "⏳",
+    "hot": [
+     "late,"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Counting money early.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Counting money early"
+   }
+  },
+  {
+   "say": "Carillion's accounts were optimistic. It often recognised revenue on contracts based on what it expected to earn, including payments it hoped to win from customers, before the money arrived.",
+   "vis": {
+    "type": "flow",
+    "title": "Optimistic accounting",
+    "nodes": [
+     [
+      "📝",
+      "Sign a contract"
+     ],
+     [
+      "🔮",
+      "Expect future payments"
+     ],
+     [
+      "📈",
+      "Count them as revenue"
+     ],
+     [
+      "😬",
+      "Hope the cash arrives"
+     ]
+    ],
+    "color": "red",
+    "coin": "📈"
+   }
+  },
+  {
+   "say": "On paper, it looked healthy. But cash was a different story. And for a business, cash is what pays the wages and the bills.",
+   "vis": {
+    "type": "hook",
+    "text": "On paper, healthy. In cash, not.",
+    "emoji": "💧",
+    "hot": [
+     "cash,"
+    ]
+   }
+  },
+  {
+   "say": "Carillion also bought other companies, and recorded large amounts of goodwill on its books. Goodwill is the extra value you claim a business has, beyond its physical assets. If that value isn't real, the company is weaker than it looks.",
+   "vis": {
+    "type": "list",
+    "title": "Signs of trouble",
+    "items": [
+     [
+      "🧾",
+      "Optimistic revenue"
+     ],
+     [
+      "🏢",
+      "Big goodwill from takeovers"
+     ],
+     [
+      "💷",
+      "Rising debt"
+     ],
+     [
+      "💧",
+      "Weak cash"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. Squeezing the small firms.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Squeezing the small firms"
+   }
+  },
+  {
+   "say": "To keep cash flowing, Carillion leaned on its suppliers. It could take up to a hundred and twenty days to pay small businesses for work they'd already done. Effectively, small firms were lending money to a giant.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What suppliers did",
+     "emoji": "🧱",
+     "lines": [
+      "Did the work",
+      "Paid their staff"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What Carillion did",
+     "emoji": "⏳",
+     "lines": [
+      "Paid up to 120 days later",
+      "Kept the cash meanwhile"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "When Carillion collapsed, around thirty thousand suppliers and subcontractors were owed roughly a billion pounds. For many small firms, that was devastating.",
+   "vis": {
+    "type": "hook",
+    "text": "Small firms owed around £1 billion.",
+    "emoji": "💔",
+    "hot": [
+     "£1",
+     "billion."
+    ]
+   }
+  },
+  {
+   "say": "Some small businesses had to lay off staff or close altogether. They'd done the work, in good faith, and never got paid.",
+   "vis": {
+    "type": "hook",
+    "text": "They did the work, and never got paid.",
+    "emoji": "🧱",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Dividends and debt.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Dividends and debt"
+   }
+  },
+  {
+   "say": "Meanwhile, Carillion kept rewarding shareholders. A later parliamentary report found it raised its dividend every year, regardless of how the business was really doing. Debt kept growing. And the pension scheme had a large deficit.",
+   "vis": {
+    "type": "list",
+    "title": "Where the money went",
+    "items": [
+     [
+      "💷",
+      "Rising dividends"
+     ],
+     [
+      "📈",
+      "Executive bonuses"
+     ],
+     [
+      "🏦",
+      "Growing debt"
+     ],
+     [
+      "👵",
+      "A big pension shortfall"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The report said the board seemed more focused on protecting dividends and bonuses than on the long term health of the company and its pension scheme.",
+   "vis": {
+    "type": "hook",
+    "text": "Dividends first. Pensions later.",
+    "emoji": "⚖️",
+    "hot": [
+     "first."
+    ]
+   }
+  },
+  {
+   "say": "Part six. The collapse.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The collapse"
+   }
+  },
+  {
+   "say": "In July twenty seventeen, Carillion issued a profit warning, announcing an eight hundred and forty five million pound write down on its contracts. Its shares crashed. More warnings followed. Talks with banks and the government failed.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "July 2017",
+      "£845m write-down"
+     ],
+     [
+      "Autumn 2017",
+      "More warnings"
+     ],
+     [
+      "Jan 2018",
+      "Rescue talks fail"
+     ],
+     [
+      "15 Jan 2018",
+      "Liquidation",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "On the fifteenth of January twenty eighteen, Carillion went into compulsory liquidation. Because it ran so many public services, the government had to step in to keep them going.",
+   "vis": {
+    "type": "num",
+    "value": 15,
+    "label": "January 2018, the day Carillion collapsed",
+    "color": "red",
+    "emoji": "📅",
+    "prefix": "",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "Hospital construction stopped. Prisons, schools and military contracts had to be taken over or moved to other firms. The cost to taxpayers of handling the collapse was estimated at around a hundred and fifty million pounds or more.",
+   "vis": {
+    "type": "list",
+    "title": "The fallout",
+    "items": [
+     [
+      "🏥",
+      "Hospital projects halted"
+     ],
+     [
+      "🏫",
+      "Services moved to other firms"
+     ],
+     [
+      "💷",
+      "£150m+ cost to taxpayers"
+     ],
+     [
+      "👷",
+      "Thousands of jobs lost"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A report by two committees of MPs didn't hold back. It described Carillion's collapse in four words.",
+   "vis": {
+    "type": "quote",
+    "text": "Recklessness, hubris and greed.",
+    "who": "Parliamentary report on Carillion, 2018"
+   }
+  },
+  {
+   "say": "The auditors were criticised too. The MPs accused the auditor KPMG of signing off what they called increasingly fantastical figures. KPMG was later fined by the regulator over its work.",
+   "vis": {
+    "type": "hook",
+    "text": "The auditor signed it all off.",
+    "emoji": "🧾",
+    "hot": [
+     "signed"
+    ]
+   }
+  },
+  {
+   "say": "Part seven. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "Carillion's story is a warning about chasing growth at any cost, and about governments relying too heavily on a few giant contractors.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Carillion",
+    "items": [
+     [
+      "🎲",
+      "Winning work too cheaply is a trap"
+     ],
+     [
+      "💧",
+      "Watch cash, not just profit"
+     ],
+     [
+      "💷",
+      "Dividends paid from debt are a warning"
+     ],
+     [
+      "🧱",
+      "Small suppliers carry big risks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A company can look enormous, important and permanent. But if the cash doesn't add up, size won't save it. It just means more people get hurt when it falls.",
+   "vis": {
+    "type": "hook",
+    "text": "Size won't save you if the cash doesn't add up.",
+    "emoji": "📉",
+    "hot": [
+     "cash"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest collapses in British business, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "IT RAN|BRITAIN.|THEN BUST.",
+  "emoji": "🏗️",
+  "color": "red",
+  "tag": "Collapses"
+ }
+}

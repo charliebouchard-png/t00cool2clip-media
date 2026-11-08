@@ -1,0 +1,442 @@
+{
+ "id": "MV046",
+ "style": "bold",
+ "variant": 1,
+ "voice": "am_michael",
+ "speed": 0.82,
+ "trans": "cut",
+ "title": "Woolworths: Why Britain's Favourite Shop Disappeared",
+ "beats": [
+  {
+   "say": "Pick and mix. Cheap toys. Christmas singles. School stationery. For a hundred years, Woolworths was on almost every high street in Britain. Then, in just a few weeks, it was gone.",
+   "vis": {
+    "type": "hook",
+    "text": "On every high street. Gone in weeks.",
+    "emoji": "🍬",
+    "hot": [
+     "Gone"
+    ]
+   }
+  },
+  {
+   "say": "When it collapsed, Woolworths had eight hundred and seven stores and around twenty seven thousand staff. All of them closed between late December twenty eight and early January twenty oh nine.",
+   "vis": {
+    "type": "num",
+    "value": 807,
+    "label": "stores closed in a few weeks",
+    "color": "red",
+    "emoji": "🏪",
+    "prefix": "",
+    "suffix": "",
+    "source": "Woolworths (United Kingdom), Wikipedia"
+   }
+  },
+  {
+   "say": "So how does a shop that everyone knows, and everyone has been to, just vanish? Let's break it down.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "🏪",
+      "The rise"
+     ],
+     [
+      "🏠",
+      "The property sale"
+     ],
+     [
+      "💻",
+      "The new competition"
+     ],
+     [
+      "💥",
+      "The collapse"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Threepence and sixpence.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Threepence and sixpence"
+   }
+  },
+  {
+   "say": "The first British Woolworths opened in Liverpool on the fifth of November, nineteen oh nine. It was part of the American five and dime chain. In Britain, most items were priced at threepence or sixpence.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🪙",
+    "text": "Liverpool, 1909",
+    "sub": "Most items threepence or sixpence",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "It was a massive success. By the late nineteen sixties, there were more than a thousand Woolworths shops in Britain.",
+   "vis": {
+    "type": "num",
+    "value": 1141,
+    "label": "branches at its peak, in the late 1960s",
+    "color": "teal",
+    "emoji": "🏪",
+    "prefix": "",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "For many British people, a trip to Woolies was part of childhood. Pick and mix by the scoop. Toys at Christmas. Your first record. The Woolworths brand was everywhere, and everyone knew it.",
+   "vis": {
+    "type": "list",
+    "title": "Woolies memories",
+    "items": [
+     [
+      "🍬",
+      "Pick and mix"
+     ],
+     [
+      "🧸",
+      "Christmas toys"
+     ],
+     [
+      "💿",
+      "Singles and albums"
+     ],
+     [
+      "✏️",
+      "School supplies"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. Everything shop.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Everything shop"
+   }
+  },
+  {
+   "say": "Woolworths sold a bit of everything. Sweets, toys, music, clothes, kitchenware, stationery. That was its strength. But over time, it became its weakness.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The strength",
+     "emoji": "🛍️",
+     "lines": [
+      "Everything in one place",
+      "Cheap and handy"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The weakness",
+     "emoji": "😕",
+     "lines": [
+      "Not the best at anything",
+      "Easy to beat"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Supermarkets started selling toys, sweets and DVDs, often cheaper. Specialist shops were better at clothes. And online stores were better at music and films.",
+   "vis": {
+    "type": "hook",
+    "text": "Everyone else got better at its best bits.",
+    "emoji": "🥊",
+    "hot": [
+     "better"
+    ]
+   }
+  },
+  {
+   "say": "The rise of big out of town supermarkets also pulled shoppers away from the high street. People did one big shop by car, instead of popping into town.",
+   "vis": {
+    "type": "hook",
+    "text": "Shoppers left the high street.",
+    "emoji": "🚗",
+    "hot": [
+     "left"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Selling the shops.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Selling the shops"
+   }
+  },
+  {
+   "say": "In nineteen eighty two, Woolworths was taken over by a group that later became Kingfisher, which also owned B and Q. In two thousand and one, Woolworths was split off again, and became its own company on the stock market.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🔀",
+    "text": "Kingfisher years",
+    "sub": "Taken over in 1982, split off in 2001",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Around that time, much of the property that Woolworths owned was sold off, and the stores were rented back. That raised money at the time. But it meant Woolworths had to pay rent on its own shops, year after year.",
+   "vis": {
+    "type": "flow",
+    "title": "Sale and leaseback",
+    "nodes": [
+     [
+      "🏠",
+      "Sell the shop buildings"
+     ],
+     [
+      "💷",
+      "Get cash now"
+     ],
+     [
+      "🔑",
+      "Rent them back"
+     ],
+     [
+      "📆",
+      "Pay rent forever"
+     ]
+    ],
+    "color": "red",
+    "coin": "🔑"
+   }
+  },
+  {
+   "say": "It's like selling your house to pay off some bills, then renting it back from the new owner. You get cash today, but your costs go up for good.",
+   "vis": {
+    "type": "hook",
+    "text": "Cash today. Higher costs forever.",
+    "emoji": "🏠",
+    "hot": [
+     "forever."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The squeeze.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The squeeze"
+   }
+  },
+  {
+   "say": "Through the two thousands, Woolworths struggled. Profits were thin. It had debts. And its music and entertainment business was hit hard as people moved to downloads.",
+   "vis": {
+    "type": "list",
+    "title": "The pressures",
+    "items": [
+     [
+      "🛒",
+      "Supermarket competition"
+     ],
+     [
+      "💻",
+      "Online shopping"
+     ],
+     [
+      "🎵",
+      "Music going digital"
+     ],
+     [
+      "🔑",
+      "Rising rents"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Woolworths also relied heavily on Christmas. Like many shops, a huge part of its yearly sales came in the run up to the holidays. It needed suppliers to give it stock on credit to fill the shelves.",
+   "vis": {
+    "type": "hook",
+    "text": "Everything depended on Christmas.",
+    "emoji": "🎄",
+    "hot": [
+     "Christmas."
+    ]
+   }
+  },
+  {
+   "say": "When a shop is doing well, suppliers happily send stock and wait to be paid. When it looks shaky, they want cash up front, which is exactly what a struggling shop doesn't have.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Healthy shop",
+     "emoji": "😊",
+     "lines": [
+      "Stock on credit",
+      "Pay later"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Struggling shop",
+     "emoji": "😰",
+     "lines": [
+      "Pay up front",
+      "Shelves go empty"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. The crash.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The crash"
+   }
+  },
+  {
+   "say": "Then came the financial crisis of twenty eight. Banks became nervous about lending. Credit insurers, who protect suppliers if a shop doesn't pay, reportedly cut their cover. Suppliers started to worry about sending stock.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Autumn 2008",
+      "Financial crisis"
+     ],
+     [
+      "Nov 2008",
+      "Funding dries up"
+     ],
+     [
+      "26 Nov 2008",
+      "Administration"
+     ],
+     [
+      "6 Jan 2009",
+      "Last stores close",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A deal was reported to sell the shops to a restructuring firm for just one pound, taking on the debts. But the banks rejected it. On the twenty sixth of November, twenty eight, Woolworths went into administration with around three hundred and eighty five million pounds of debt.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The £1 deal",
+     "emoji": "🪙",
+     "lines": [
+      "Proposed",
+      "Banks said no"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The result",
+     "emoji": "🚪",
+     "lines": [
+      "Administration",
+      "£385m debt"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Administrators tried to find a buyer. Nobody wanted to take on the whole chain. So they held a closing down sale, right through Christmas.",
+   "vis": {
+    "type": "hook",
+    "text": "A closing down sale, right through Christmas.",
+    "emoji": "🏷️",
+    "hot": [
+     "Christmas."
+    ]
+   }
+  },
+  {
+   "say": "Between the twenty seventh of December and the sixth of January, every one of the eight hundred and seven stores closed. Around twenty seven thousand people lost their jobs.",
+   "vis": {
+    "type": "num",
+    "value": 27000,
+    "label": "jobs lost",
+    "color": "red",
+    "emoji": "👷",
+    "prefix": "Around ",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "People queued for the closing down sales, and many said goodbye to a shop they'd visited since childhood. Even the shop fittings and signs were sold off.",
+   "vis": {
+    "type": "hook",
+    "text": "Even the signs were sold off.",
+    "emoji": "🪧",
+    "hot": [
+     "signs"
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "The Woolworths brand was later bought and relaunched online, but that closed too, in twenty fifteen. In Britain, the shops never came back.",
+   "vis": {
+    "type": "list",
+    "title": "What killed Woolies",
+    "items": [
+     [
+      "🛍️",
+      "Not the best at anything"
+     ],
+     [
+      "🔑",
+      "Rent on its own shops"
+     ],
+     [
+      "🏦",
+      "Debt and no cushion"
+     ],
+     [
+      "💥",
+      "A crisis at the worst time"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Woolworths shows that being familiar isn't the same as being needed. When customers can get everything you sell somewhere better or cheaper, nostalgia won't pay the rent.",
+   "vis": {
+    "type": "hook",
+    "text": "Nostalgia won't pay the rent.",
+    "emoji": "🔑",
+    "hot": [
+     "rent."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind famous collapses, and tell me in the comments what you miss most about Woolworths.",
+   "vis": {
+    "type": "outro",
+    "text": "What do you miss most about Woolies?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHERE DID|WOOLIES GO?",
+  "emoji": "🍬",
+  "color": "red",
+  "tag": "Collapses"
+ }
+}

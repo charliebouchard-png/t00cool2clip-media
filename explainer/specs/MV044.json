@@ -1,0 +1,450 @@
+{
+ "id": "MV044",
+ "style": "storybook",
+ "voice": "am_puck",
+ "speed": 0.83,
+ "title": "Thomas Cook: How a 178-Year-Old Travel Giant Went Bust",
+ "beats": [
+  {
+   "say": "Imagine you're on holiday, lying by a pool in Spain. You check your phone, and find out the company that flew you there no longer exists. That's what happened to hundreds of thousands of people in September twenty nineteen.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "Wait, how do I get home?",
+      "prop": "📱"
+     }
+    ],
+    "title": "The pool"
+   }
+  },
+  {
+   "say": "When Thomas Cook collapsed, around six hundred thousand customers were abroad. More than a hundred and fifty thousand of them needed to get home to Britain.",
+   "vis": {
+    "type": "num",
+    "value": 150000,
+    "label": "people flown home to the UK",
+    "color": "teal",
+    "emoji": "✈️",
+    "prefix": "Over ",
+    "suffix": "",
+    "source": "UK Civil Aviation Authority, Operation Matterhorn"
+   }
+  },
+  {
+   "say": "Thomas Cook was a hundred and seventy eight years old. It practically invented the package holiday. So how did it go bust overnight?",
+   "vis": {
+    "type": "hook",
+    "text": "178 years old. Gone overnight.",
+    "emoji": "📆",
+    "hot": [
+     "overnight."
+    ]
+   }
+  },
+  {
+   "say": "Meet Thomas Cook, the man. In eighteen forty one, he organised a train trip for around five hundred people, from Leicester to a temperance meeting in Loughborough. Tickets included the train, and food.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "All aboard! Food included.",
+      "prop": "🚂",
+      "hat": "🎩"
+     }
+    ],
+    "title": "1841"
+   }
+  },
+  {
+   "say": "It was the start of something huge. Organised group travel. Then trips abroad, hotel vouchers, and eventually the package holiday, where your flight, hotel and transfers come in one booking.",
+   "vis": {
+    "type": "list",
+    "title": "What Thomas Cook pioneered",
+    "items": [
+     [
+      "🚂",
+      "Organised excursions"
+     ],
+     [
+      "🌍",
+      "Trips abroad"
+     ],
+     [
+      "🏨",
+      "Hotel vouchers"
+     ],
+     [
+      "🏖️",
+      "The package holiday"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "By the two thousands, Thomas Cook had its own airline, hotels and high street shops. Millions of families booked their summer holiday with it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Two weeks in Majorca, please!",
+      "prop": "🏖️"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Lovely, all booked!",
+      "prop": "🧾"
+     }
+    ],
+    "title": "The giant"
+   }
+  },
+  {
+   "say": "For many British families, booking with Thomas Cook felt safe. It had been around for so long, it seemed impossible that it could disappear.",
+   "vis": {
+    "type": "hook",
+    "text": "It felt too old to fail.",
+    "emoji": "🏛️",
+    "hot": [
+     "too",
+     "old"
+    ]
+   }
+  },
+  {
+   "say": "You see, in two thousand and seven, Thomas Cook merged with another big holiday company, MyTravel. It was meant to make it stronger. Instead, it brought a lot of debt, and problems that would last for years.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "sad",
+      "say": "What have we done?",
+      "prop": "📄"
+     }
+    ],
+    "title": "The merger"
+   },
+   "night": true
+  },
+  {
+   "say": "In twenty nineteen, the company wrote down more than a billion pounds of value linked to that merger. In other words, it admitted the deal had been worth far less than it had paid.",
+   "vis": {
+    "type": "hook",
+    "text": "A billion-pound write-down from one merger.",
+    "emoji": "📉",
+    "hot": [
+     "billion-pound"
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "Meanwhile, the world was changing. People started booking their own flights and hotels online, cheaply and easily. Thomas Cook still had hundreds of high street shops, with rent and staff to pay.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The old way",
+     "emoji": "🏪",
+     "lines": [
+      "High street shops",
+      "Expensive to run"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The new way",
+     "emoji": "💻",
+     "lines": [
+      "Book it yourself online",
+      "Cheap and easy"
+     ],
+     "color": "red"
+    }
+   },
+   "night": true
+  },
+  {
+   "say": "Then came more bad luck. The hot summer of twenty eighteen meant many British people stayed home. And uncertainty about Brexit made some people delay booking holidays.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Why go abroad? It's sunny here!",
+      "prop": "☀️"
+     }
+    ],
+    "title": "Bad timing"
+   },
+   "night": true
+  },
+  {
+   "say": "The company tried to change. It closed some shops, sold parts of the business and focused on its own hotels. But with heavy debts, there wasn't much money to invest in the future.",
+   "vis": {
+    "type": "list",
+    "title": "Trying to change",
+    "items": [
+     [
+      "🏪",
+      "Closed some shops"
+     ],
+     [
+      "🏨",
+      "Focused on own hotels"
+     ],
+     [
+      "💷",
+      "Sold off assets"
+     ],
+     [
+      "⛓️",
+      "Still weighed down by debt"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But the big problem was debt. Interest payments ate up money every year. The company had almost no room for anything to go wrong.",
+   "vis": {
+    "type": "hook",
+    "text": "Debt was the real problem.",
+    "emoji": "⛓️",
+    "hot": [
+     "Debt"
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "In twenty nineteen, Thomas Cook tried to agree a rescue deal. Its biggest shareholder, the Chinese company Fosun, banks and lenders worked on a package worth around nine hundred million pounds.",
+   "vis": {
+    "type": "list",
+    "title": "The rescue plan",
+    "items": [
+     [
+      "🇨🇳",
+      "Fosun, biggest shareholder"
+     ],
+     [
+      "🏦",
+      "Banks and lenders"
+     ],
+     [
+      "💷",
+      "A ~£900m rescue"
+     ],
+     [
+      "⏰",
+      "Racing against time"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then, at the last minute, the banks demanded an extra two hundred million pounds as a safety cushion. Thomas Cook couldn't find it. It asked the government for help, and the government said no.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "shock",
+      "say": "Another £200 million?",
+      "prop": "📞"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "sad",
+      "say": "Sorry. We can't help.",
+      "prop": "🏛️"
+     }
+    ],
+    "title": "The last weekend"
+   },
+   "night": true
+  },
+  {
+   "say": "In the early hours of Monday the twenty third of September, twenty nineteen, Thomas Cook went into compulsory liquidation. Its planes were grounded. Its shops didn't open.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Sunday",
+      "Final talks fail"
+     ],
+     [
+      "Early Monday",
+      "Liquidation"
+     ],
+     [
+      "Monday",
+      "Planes grounded"
+     ],
+     [
+      "2 weeks",
+      "Repatriation flights",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Holidaymakers around the world woke up to the news. Some were in the middle of their trip. Some were at the airport. Some had been saving for years for this holiday.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "Our flight's cancelled?",
+      "prop": "🧳"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "What about our hotel?",
+      "prop": "🏨"
+     }
+    ],
+    "title": "Stranded"
+   }
+  },
+  {
+   "say": "Some hotels, worried they wouldn't be paid, asked guests to pay again for rooms they'd already paid for. Families were caught in the middle.",
+   "vis": {
+    "type": "hook",
+    "text": "Some guests were asked to pay twice.",
+    "emoji": "🏨",
+    "hot": [
+     "twice."
+    ]
+   }
+  },
+  {
+   "say": "The government launched Operation Matterhorn, run by the Civil Aviation Authority. It was described as the largest peacetime repatriation in British history.",
+   "vis": {
+    "type": "hook",
+    "text": "The biggest peacetime repatriation in UK history.",
+    "emoji": "✈️",
+    "hot": [
+     "biggest"
+    ]
+   }
+  },
+  {
+   "say": "The authority hired planes from airlines around the world, and flew people home, free, over about two weeks. Customers whose trips were protected by the ATOL scheme could also claim refunds.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "This flight is taking you home.",
+      "prop": "✈️",
+      "hat": "🧢"
+     }
+    ],
+    "title": "Operation Matterhorn"
+   }
+  },
+  {
+   "say": "Behind the scenes, it was a huge operation. Dozens of aircraft, flying to dozens of airports, with staff working around the clock to get people home.",
+   "vis": {
+    "type": "hook",
+    "text": "Dozens of planes, working around the clock.",
+    "emoji": "🛫",
+    "hot": [
+     "around",
+     "the",
+     "clock."
+    ]
+   }
+  },
+  {
+   "say": "Around twenty one thousand Thomas Cook employees around the world lost their jobs, including around nine thousand in Britain.",
+   "vis": {
+    "type": "num",
+    "value": 21000,
+    "label": "jobs lost worldwide",
+    "color": "red",
+    "emoji": "👩‍✈️",
+    "prefix": "Around ",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "There was anger too. Reports showed that top executives had been paid millions of pounds in the years before the collapse, while the company was struggling with its debts.",
+   "vis": {
+    "type": "hook",
+    "text": "Millions for bosses. Then collapse.",
+    "emoji": "😠",
+    "hot": [
+     "Millions"
+    ]
+   }
+  },
+  {
+   "say": "So what can we learn? Thomas Cook didn't fail because people stopped going on holiday. It failed because of debt from a bad deal, slow change, and no cushion when things went wrong.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Thomas Cook",
+    "items": [
+     [
+      "⛓️",
+      "Too much debt leaves no room for error"
+     ],
+     [
+      "🤝",
+      "A bad merger can haunt you for years"
+     ],
+     [
+      "💻",
+      "Adapt before customers move on"
+     ],
+     [
+      "🛡️",
+      "Check your holiday is ATOL protected"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Today, the Thomas Cook name lives on as an online travel brand, under new owners. But the original company, which started with one train trip in eighteen forty one, is gone.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "From one train trip to the world.",
+      "prop": "🚂",
+      "hat": "🎩"
+     }
+    ],
+    "title": "The legacy"
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind famous collapses, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "178 YEARS.|GONE|OVERNIGHT.",
+  "emoji": "✈️",
+  "color": "teal",
+  "tag": "Collapses"
+ }
+}

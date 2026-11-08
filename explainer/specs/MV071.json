@@ -1,0 +1,433 @@
+{
+ "id": "MV071",
+ "style": "documentary",
+ "voice": "bm_fable",
+ "speed": 0.82,
+ "title": "Why Houses Cost So Much in the UK",
+ "beats": [
+  {
+   "say": "In the late nineteen nineties, a typical home in England cost around four times a typical full time salary. Today, it's closer to eight times. In London, it's over ten. So what happened?",
+   "vis": {
+    "type": "hook",
+    "text": "From about 4x salary to nearly 8x.",
+    "emoji": "🏠",
+    "hot": [
+     "8x."
+    ]
+   }
+  },
+  {
+   "say": "According to the Office for National Statistics, the median home in England cost about seven point six times median annual earnings in twenty twenty five. In London, it was about ten point six.",
+   "vis": {
+    "type": "num",
+    "value": 7.6,
+    "label": "times earnings for a typical home in England, 2025",
+    "color": "red",
+    "emoji": "🏠",
+    "prefix": "",
+    "suffix": "x",
+    "dec": 1,
+    "source": "ONS, Housing affordability 2025"
+   }
+  },
+  {
+   "say": "There's no single reason. It's a mix of things that have built up over decades. Let's go through the main ones.",
+   "vis": {
+    "type": "hook",
+    "text": "No single reason. A mix of many.",
+    "emoji": "🧩",
+    "hot": [
+     "many."
+    ]
+   }
+  },
+  {
+   "say": "Part one. Not enough homes.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Not enough homes"
+   }
+  },
+  {
+   "say": "The first reason most people point to is supply. For decades, Britain hasn't built as many homes as it needs. Meanwhile, the population has grown, people live longer, and more people live alone.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Demand for homes",
+     "emoji": "📈",
+     "lines": [
+      "Growing population",
+      "Smaller households"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "New homes built",
+     "emoji": "🏗️",
+     "lines": [
+      "Often below targets",
+      "Slow planning"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Governments have set targets, like three hundred thousand homes a year in England. Those targets have often been missed.",
+   "vis": {
+    "type": "hook",
+    "text": "Building targets, often missed.",
+    "emoji": "🎯",
+    "hot": [
+     "missed."
+    ]
+   }
+  },
+  {
+   "say": "Why is building slow? Planning rules can be complex. Local opposition can block new developments. Land in popular areas is expensive. And housebuilders tend to build at a pace that protects their prices.",
+   "vis": {
+    "type": "list",
+    "title": "Why building is slow",
+    "items": [
+     [
+      "📋",
+      "Complex planning"
+     ],
+     [
+      "🙅",
+      "Local objections"
+     ],
+     [
+      "💷",
+      "Expensive land"
+     ],
+     [
+      "🏗️",
+      "Builders pace sales"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Britain also has lots of empty space between towns protected as green belt, to stop cities sprawling. Supporters say it protects the countryside. Critics say it limits building near where people want to live.",
+   "vis": {
+    "type": "hook",
+    "text": "The green belt debate.",
+    "emoji": "🌳",
+    "hot": [
+     "green",
+     "belt"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Cheap money.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Cheap money"
+   }
+  },
+  {
+   "say": "The second big reason is the cost of borrowing. For most of the period from two thousand and nine to twenty twenty one, interest rates were extremely low. Cheap mortgages meant people could borrow more.",
+   "vis": {
+    "type": "hook",
+    "text": "Cheap mortgages, bigger loans.",
+    "emoji": "🏦",
+    "hot": [
+     "bigger"
+    ]
+   }
+  },
+  {
+   "say": "When people can borrow more, they can bid more for the same houses. If the number of homes doesn't rise much, prices go up. Cheaper borrowing gets built into higher prices.",
+   "vis": {
+    "type": "flow",
+    "title": "How cheap credit pushes prices",
+    "nodes": [
+     [
+      "📉",
+      "Interest rates fall"
+     ],
+     [
+      "🏦",
+      "People can borrow more"
+     ],
+     [
+      "💷",
+      "Buyers bid more"
+     ],
+     [
+      "🏠",
+      "House prices rise"
+     ]
+    ],
+    "color": "red",
+    "coin": "🏠"
+   }
+  },
+  {
+   "say": "This is why monthly payments can feel affordable even as prices soar. But it also means when interest rates rise, as they did from twenty twenty two, many buyers suddenly find they can borrow less.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Low rates",
+     "emoji": "😀",
+     "lines": [
+      "Bigger loans",
+      "Higher prices"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Rising rates",
+     "emoji": "😰",
+     "lines": [
+      "Smaller loans",
+      "Prices under pressure"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Government schemes to help buyers, like Help to Buy, helped many people buy homes. But critics argued some of these schemes also helped push prices up, by boosting demand without enough new supply.",
+   "vis": {
+    "type": "hook",
+    "text": "Help to Buy: help, or higher prices?",
+    "emoji": "🤔",
+    "hot": [
+     "higher"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Houses as investments.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Houses as investments"
+   }
+  },
+  {
+   "say": "Homes in Britain have also become investments, not just places to live. Buy to let landlords grew in number, helped by special mortgages. Some homes were bought by investors from abroad. And many owners saw property as their retirement plan.",
+   "vis": {
+    "type": "hook",
+    "text": "Homes became investments.",
+    "emoji": "📈",
+    "hot": [
+     "investments."
+    ]
+   }
+  },
+  {
+   "say": "Those who already owned property often did very well, as prices rose. That wealth could then be passed down, helping their children buy. The result is a growing gap between those with family money and those without.",
+   "vis": {
+    "type": "list",
+    "title": "Who's done well",
+    "items": [
+     [
+      "🏠",
+      "Existing owners"
+     ],
+     [
+      "👪",
+      "Families who can help their kids"
+     ],
+     [
+      "🧓",
+      "Older generations"
+     ],
+     [
+      "🏙️",
+      "Owners in high-growth areas"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Today, a large share of first time buyers get help from family to pay for a deposit. That's often called the bank of mum and dad.",
+   "vis": {
+    "type": "hook",
+    "text": "The bank of mum and dad.",
+    "emoji": "👪",
+    "hot": [
+     "mum",
+     "and",
+     "dad."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Wages fell behind.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Wages fell behind"
+   }
+  },
+  {
+   "say": "At the same time, wages haven't kept pace. Over the long run, house prices in many areas grew much faster than earnings. The ratio of prices to earnings roughly doubled in England between the late nineties and the twenty twenties.",
+   "vis": {
+    "type": "bars",
+    "title": "House price to earnings ratio, England",
+    "items": [
+     [
+      "Late 1990s",
+      3.6,
+      "teal"
+     ],
+     [
+      "2025",
+      7.6,
+      "red"
+     ]
+    ],
+    "max": 8.5,
+    "prefix": "",
+    "suffix": "x",
+    "source": "ONS (approximate for late 1990s)",
+    "dec": 1
+   }
+  },
+  {
+   "say": "That's why saving for a deposit is so much harder now. A ten percent deposit on a typical home today is a much bigger share of a typical salary than it was for many of today's parents.",
+   "vis": {
+    "type": "hook",
+    "text": "The deposit is the biggest hurdle.",
+    "emoji": "🧱",
+    "hot": [
+     "deposit"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The impact.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The impact"
+   }
+  },
+  {
+   "say": "The effects are huge. Young people are buying later, or renting for longer. Rents have risen in many places. Some people stay in jobs or areas they'd rather leave, because moving is too expensive.",
+   "vis": {
+    "type": "list",
+    "title": "The impact",
+    "items": [
+     [
+      "⏳",
+      "Buying later in life"
+     ],
+     [
+      "🏘️",
+      "More renting"
+     ],
+     [
+      "💸",
+      "Higher rents in many areas"
+     ],
+     [
+      "👪",
+      "Starting families later"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Higher housing costs also mean less money for everything else. When rent or a mortgage takes a big chunk of your pay, there's less left to save, spend or invest.",
+   "vis": {
+    "type": "hook",
+    "text": "Housing costs squeeze everything else.",
+    "emoji": "🧃",
+    "hot": [
+     "squeeze"
+    ]
+   }
+  },
+  {
+   "say": "But it varies hugely by place. In ONS figures for twenty twenty five, some areas in the north of England were around four times earnings. Kensington and Chelsea in London was over twenty five times.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Most affordable areas",
+     "emoji": "🏡",
+     "lines": [
+      "Around 4x earnings",
+      "e.g. Hull, Hyndburn"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Least affordable",
+     "emoji": "🏙️",
+     "lines": [
+      "Over 25x earnings",
+      "Kensington and Chelsea"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part six. What might help?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What might help?"
+   }
+  },
+  {
+   "say": "There's no easy fix, and people disagree about the best approach. Ideas include building many more homes, reforming planning, building more social housing, changing taxes on property, and supporting first time buyers. Each has supporters and critics.",
+   "vis": {
+    "type": "list",
+    "title": "Ideas that are debated",
+    "items": [
+     [
+      "🏗️",
+      "Build more homes"
+     ],
+     [
+      "📋",
+      "Planning reform"
+     ],
+     [
+      "🏘️",
+      "More social housing"
+     ],
+     [
+      "🧾",
+      "Property tax changes"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "UK house prices aren't high because of one villain. They're the result of not enough building, cheap borrowing, homes becoming investments, and wages falling behind, all adding up over thirty years.",
+   "vis": {
+    "type": "hook",
+    "text": "Thirty years of causes, adding up.",
+    "emoji": "🧩",
+    "hot": [
+     "adding",
+     "up."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what you think would fix the housing crisis.",
+   "vis": {
+    "type": "outro",
+    "text": "What would fix the housing crisis?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "4X SALARY|TO 8X",
+  "emoji": "🏠",
+  "color": "red",
+  "tag": "Living"
+ }
+}

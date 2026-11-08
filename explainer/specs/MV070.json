@@ -1,0 +1,442 @@
+{
+ "id": "MV070",
+ "style": "bold",
+ "variant": 1,
+ "voice": "bf_emma",
+ "speed": 0.82,
+ "trans": "cut",
+ "title": "How Pensions Work and Why You Should Care at 18",
+ "beats": [
+  {
+   "say": "If you're young and working in the UK, there may be free money going into a pot with your name on it, every single month. Most young people never look at it. It's your pension.",
+   "vis": {
+    "type": "hook",
+    "text": "Free money you've never looked at.",
+    "emoji": "👵",
+    "hot": [
+     "Free"
+    ]
+   }
+  },
+  {
+   "say": "Pensions sound boring and far away. But understanding them early can be worth tens of thousands of pounds. Let's break it down simply.",
+   "vis": {
+    "type": "list",
+    "title": "Today",
+    "items": [
+     [
+      "🏛️",
+      "The State Pension"
+     ],
+     [
+      "🏢",
+      "Workplace pensions"
+     ],
+     [
+      "🎁",
+      "The free money"
+     ],
+     [
+      "⏳",
+      "Why starting young matters"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. What is a pension?",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What is a pension?"
+   }
+  },
+  {
+   "say": "A pension is simply a way of saving for when you stop working. You put money in now, it's usually invested, and it grows over decades, so you have an income when you're older.",
+   "vis": {
+    "type": "hook",
+    "text": "Saving now, for an income later.",
+    "emoji": "🌱",
+    "hot": [
+     "later."
+    ]
+   }
+  },
+  {
+   "say": "In the UK, there are two main kinds. The State Pension, paid by the government once you reach State Pension age, if you've built up enough National Insurance years. And private pensions, including workplace pensions.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "State Pension",
+     "emoji": "🏛️",
+     "lines": [
+      "Paid by the government",
+      "Based on National Insurance"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Workplace pension",
+     "emoji": "🏢",
+     "lines": [
+      "You and your employer pay in",
+      "Invested for you"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The State Pension helps, but on its own, it's a fairly modest income. Most people will want more to live comfortably in retirement.",
+   "vis": {
+    "type": "hook",
+    "text": "The State Pension alone is modest.",
+    "emoji": "📉",
+    "hot": [
+     "modest."
+    ]
+   }
+  },
+  {
+   "say": "And the State Pension age is rising. For people who are young today, it's likely to be later than sixty six or sixty seven, and the rules could change again before you get there.",
+   "vis": {
+    "type": "hook",
+    "text": "The State Pension age keeps rising.",
+    "emoji": "📅",
+    "hot": [
+     "rising."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Auto-enrolment.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Auto-enrolment"
+   }
+  },
+  {
+   "say": "Since twenty twelve, UK employers have had to automatically put eligible workers into a workplace pension. It's called auto enrolment.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏢",
+    "text": "Auto-enrolment",
+    "sub": "Your employer must enrol you",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Right now, you're automatically enrolled if you're aged at least twenty two, under State Pension age, earn over ten thousand pounds a year, and work in the UK. If you're younger or earn less, you can often ask to join.",
+   "vis": {
+    "type": "list",
+    "title": "Who gets auto-enrolled",
+    "items": [
+     [
+      "🎂",
+      "Aged 22 or over"
+     ],
+     [
+      "💷",
+      "Earning over £10,000 a year"
+     ],
+     [
+      "🇬🇧",
+      "Working in the UK"
+     ],
+     [
+      "🙋",
+      "Others can often opt in"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. The free money.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The free money"
+   }
+  },
+  {
+   "say": "Here's the important bit. The minimum total contribution is eight percent of your qualifying earnings. At least three percent must come from your employer. The rest comes from you, and part of your share is tax relief from the government.",
+   "vis": {
+    "type": "bars",
+    "title": "Minimum contributions",
+    "items": [
+     [
+      "Your employer",
+      3,
+      "gold"
+     ],
+     [
+      "You, including tax relief",
+      5,
+      "teal"
+     ],
+     [
+      "Total",
+      8,
+      "red"
+     ]
+    ],
+    "max": 9,
+    "prefix": "",
+    "suffix": "%",
+    "source": "UK auto-enrolment rules, 2026-27"
+   }
+  },
+  {
+   "say": "So for every pound you put in, your employer and the government add more on top. That's part of your pay you only get if you stay in.",
+   "vis": {
+    "type": "hook",
+    "text": "Your employer adds money only if you stay in.",
+    "emoji": "🎁",
+    "hot": [
+     "only"
+    ]
+   }
+  },
+  {
+   "say": "You can opt out. But if you do, you usually lose your employer's contribution. It's like turning down a pay rise.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Stay in",
+     "emoji": "✅",
+     "lines": [
+      "Employer pays in",
+      "Tax relief added"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Opt out",
+     "emoji": "❌",
+     "lines": [
+      "Lose employer money",
+      "Like refusing a pay rise"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "If you opt out, your employer must re enrol you every three years, giving you another chance to stay in.",
+   "vis": {
+    "type": "hook",
+    "text": "Opted out? You'll be re-enrolled every three years.",
+    "emoji": "🔁",
+    "hot": [
+     "three"
+    ]
+   }
+  },
+  {
+   "say": "Some employers will even match higher contributions. If yours offers to match extra payments, that can be one of the best returns you'll ever get.",
+   "vis": {
+    "type": "hook",
+    "text": "Matching can be one of the best deals going.",
+    "emoji": "🤝",
+    "hot": [
+     "best"
+    ]
+   }
+  },
+  {
+   "say": "Part four. Why starting young matters.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why starting young matters"
+   }
+  },
+  {
+   "say": "Money paid in at eighteen or twenty two has more than forty years to grow before you can take it. Thanks to compound growth, those early pounds can do a huge amount of the work.",
+   "vis": {
+    "type": "hook",
+    "text": "Early pounds have decades to grow.",
+    "emoji": "⏳",
+    "hot": [
+     "decades"
+    ]
+   }
+  },
+  {
+   "say": "There's also tax relief. When you pay into a pension, the government effectively adds back the income tax you'd have paid on that money. For a basic rate taxpayer, eighty pounds paid in becomes one hundred.",
+   "vis": {
+    "type": "list",
+    "title": "Tax relief",
+    "items": [
+     [
+      "💷",
+      "You pay £80"
+     ],
+     [
+      "🏛️",
+      "Government adds £20"
+     ],
+     [
+      "📈",
+      "£100 goes in"
+     ],
+     [
+      "⏳",
+      "Then it's invested"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Here's an illustration. Imagine one hundred pounds a month going in, including employer and tax relief, growing at five percent a year. From twenty two to sixty eight, that could grow to around two hundred and fifteen thousand pounds. Start at thirty five instead, and it could be around one hundred thousand.",
+   "vis": {
+    "type": "bars",
+    "title": "£100 a month at 5%, to age 68",
+    "items": [
+     [
+      "Start at 22",
+      215,
+      "gold"
+     ],
+     [
+      "Start at 35",
+      100,
+      "red"
+     ]
+    ],
+    "max": 240,
+    "prefix": "£",
+    "suffix": "k",
+    "source": "Illustrative calculation, 5% assumed"
+   }
+  },
+  {
+   "say": "These numbers are just examples. Investments can fall as well as rise, and nothing is guaranteed. But the earlier you start, the more time your money has.",
+   "vis": {
+    "type": "hook",
+    "text": "Examples, not promises.",
+    "emoji": "ℹ️",
+    "hot": [
+     "Examples,"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Things to check.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Things to check"
+   }
+  },
+  {
+   "say": "So, what should you actually do? Find out who your pension provider is. Download their app or log in. Check what you and your employer are paying. And see what it's invested in.",
+   "vis": {
+    "type": "list",
+    "title": "Your pension checklist",
+    "items": [
+     [
+      "🔍",
+      "Find your provider"
+     ],
+     [
+      "📱",
+      "Log in or get the app"
+     ],
+     [
+      "💷",
+      "Check contributions"
+     ],
+     [
+      "📊",
+      "Check the investments"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Many workplace pensions let you choose how your money is invested. Younger people often have decades ahead, so some choose funds with more shares, which tend to grow more over long periods, though with bigger ups and downs.",
+   "vis": {
+    "type": "hook",
+    "text": "You can often choose how it's invested.",
+    "emoji": "🎛️",
+    "hot": [
+     "choose"
+    ]
+   }
+  },
+  {
+   "say": "Also, keep track of old pensions when you change jobs. Millions of pension pots in the UK are thought to be lost or forgotten. The government's Pension Tracing Service can help you find them.",
+   "vis": {
+    "type": "list",
+    "title": "Don't lose old pots",
+    "items": [
+     [
+      "🗂️",
+      "Keep records from each job"
+     ],
+     [
+      "📬",
+      "Update your address"
+     ],
+     [
+      "🔎",
+      "Use the Pension Tracing Service"
+     ],
+     [
+      "🔗",
+      "Consider combining pots carefully"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And be very careful of pension scams. Never move your pension because of a cold call, a too good to be true offer, or someone promising early access before age fifty five.",
+   "vis": {
+    "type": "hook",
+    "text": "Beware pension scams.",
+    "emoji": "🚨",
+    "hot": [
+     "scams."
+    ]
+   }
+  },
+  {
+   "say": "Remember, you usually can't touch a private pension until your late fifties. The minimum age is due to rise to fifty seven in twenty twenty eight. That lock is partly what makes it work.",
+   "vis": {
+    "type": "hook",
+    "text": "Locked away until your late fifties.",
+    "emoji": "🔒",
+    "hot": [
+     "Locked"
+    ]
+   }
+  },
+  {
+   "say": "This is general information, not personal advice. But the basic message is simple. Your pension is part of your pay. Look at it, understand it, and don't throw away free money.",
+   "vis": {
+    "type": "hook",
+    "text": "Your pension is part of your pay.",
+    "emoji": "💷",
+    "hot": [
+     "pay."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "FREE MONEY|YOU'RE|IGNORING",
+  "emoji": "👵",
+  "color": "red",
+  "tag": "Living"
+ }
+}

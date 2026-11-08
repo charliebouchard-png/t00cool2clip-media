@@ -1,0 +1,436 @@
+{
+ "id": "MV068",
+ "style": "chalk",
+ "variant": 0,
+ "voice": "af_bella",
+ "speed": 0.82,
+ "trans": "fade",
+ "title": "How Compound Interest Turns Small Money Into a Fortune",
+ "beats": [
+  {
+   "say": "Here's a strange fact. Someone who saves a little from age eighteen, then stops at twenty eight, can end up with more money at sixty five than someone who saves from forty all the way to sixty five. The secret is compound interest.",
+   "vis": {
+    "type": "hook",
+    "text": "Start small and early. Beat big and late.",
+    "emoji": "🌱",
+    "hot": [
+     "early."
+    ]
+   }
+  },
+  {
+   "say": "Albert Einstein supposedly called compound interest the eighth wonder of the world. There's no good evidence he ever said it. But the idea is real, and it's one of the most powerful forces in personal finance.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "🧮",
+      "Simple vs compound interest"
+     ],
+     [
+      "❄️",
+      "The snowball effect"
+     ],
+     [
+      "⏳",
+      "Why time matters most"
+     ],
+     [
+      "⚠️",
+      "Compounding debt"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. Simple interest.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Simple interest"
+   }
+  },
+  {
+   "say": "Let's start simple. Say you put one thousand pounds somewhere that pays five percent a year. After one year, you've earned fifty pounds. You now have one thousand and fifty.",
+   "vis": {
+    "type": "hook",
+    "text": "£1,000 at 5% earns £50 in year one.",
+    "emoji": "💷",
+    "hot": [
+     "£50"
+    ]
+   }
+  },
+  {
+   "say": "With simple interest, you'd earn fifty pounds every year, on your original thousand. With compound interest, you earn interest on your interest too. So in year two, you earn five percent on one thousand and fifty, which is fifty two pounds fifty.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Simple interest",
+     "emoji": "➖",
+     "lines": [
+      "£50 every year",
+      "Only on the original"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Compound interest",
+     "emoji": "📈",
+     "lines": [
+      "Interest on interest",
+      "Grows every year"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Two pounds fifty extra doesn't sound like much. But keep going, and something amazing happens.",
+   "vis": {
+    "type": "hook",
+    "text": "It starts slowly. Then it speeds up.",
+    "emoji": "🐢",
+    "hot": [
+     "speeds"
+    ]
+   }
+  },
+  {
+   "say": "By year ten, you'd be earning around seventy seven pounds a year in interest, instead of fifty. The interest itself keeps growing, every single year.",
+   "vis": {
+    "type": "hook",
+    "text": "The interest itself keeps growing.",
+    "emoji": "📈",
+    "hot": [
+     "growing."
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. The snowball.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The snowball"
+   }
+  },
+  {
+   "say": "Leave one thousand pounds at five percent for long enough, and it grows like this. About sixteen hundred after ten years. About two thousand six hundred and fifty after twenty. About four thousand three hundred after thirty. And about seven thousand after forty.",
+   "vis": {
+    "type": "bars",
+    "title": "£1,000 at 5% a year, compounded",
+    "items": [
+     [
+      "Start",
+      1000,
+      "teal"
+     ],
+     [
+      "10 years",
+      1629,
+      "teal"
+     ],
+     [
+      "20 years",
+      2653,
+      "gold"
+     ],
+     [
+      "30 years",
+      4322,
+      "gold"
+     ],
+     [
+      "40 years",
+      7040,
+      "red"
+     ]
+    ],
+    "max": 7500,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Illustrative calculation"
+   }
+  },
+  {
+   "say": "Notice that it grew more in the last ten years than in the first thirty years put together. That's compounding. It's like a snowball rolling downhill, picking up more snow the bigger it gets.",
+   "vis": {
+    "type": "hook",
+    "text": "Like a snowball rolling downhill.",
+    "emoji": "❄️",
+    "hot": [
+     "snowball"
+    ]
+   }
+  },
+  {
+   "say": "The longer the time, the steeper the curve. In the early years, it feels like nothing is happening. That's exactly when most people give up.",
+   "vis": {
+    "type": "hook",
+    "text": "Early on, it feels like nothing's happening.",
+    "emoji": "😴",
+    "hot": [
+     "nothing's"
+    ]
+   }
+  },
+  {
+   "say": "There's a handy shortcut called the rule of seventy two. Divide seventy two by the interest rate, and you get roughly how many years it takes to double your money. At six percent, about twelve years. At three percent, about twenty four.",
+   "vis": {
+    "type": "icon",
+    "emoji": "7️⃣",
+    "text": "The rule of 72",
+    "sub": "72 ÷ rate = years to double",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Lesson three. Time beats amount.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Time beats amount"
+   }
+  },
+  {
+   "say": "Now the big one. Meet two savers. Early Emma saves one hundred pounds a month from eighteen to twenty eight, then stops completely. Late Leo saves one hundred pounds a month from forty all the way to sixty five.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Early Emma",
+     "emoji": "🌱",
+     "lines": [
+      "£100 a month, age 18 to 28",
+      "Then stops"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Late Leo",
+     "emoji": "⏰",
+     "lines": [
+      "£100 a month, age 40 to 65",
+      "Never stops"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Emma puts in twelve thousand pounds in total. Leo puts in thirty thousand. Assuming a steady six percent return a year, at sixty five, Emma ends up with around one hundred and fifty thousand. Leo ends up with around sixty nine thousand.",
+   "vis": {
+    "type": "bars",
+    "title": "Pot at 65, assuming 6% a year",
+    "items": [
+     [
+      "Emma pays in",
+      12,
+      "teal"
+     ],
+     [
+      "Leo pays in",
+      30,
+      "teal"
+     ],
+     [
+      "Emma ends with",
+      150,
+      "gold"
+     ],
+     [
+      "Leo ends with",
+      69,
+      "red"
+     ]
+    ],
+    "max": 160,
+    "prefix": "£",
+    "suffix": "k",
+    "source": "Illustrative calculation, 6% assumed"
+   }
+  },
+  {
+   "say": "Emma paid in less than half as much, and ended up with more than twice as much. Why? Because her money had decades longer to compound.",
+   "vis": {
+    "type": "hook",
+    "text": "Less money in. Over twice as much out.",
+    "emoji": "🏆",
+    "hot": [
+     "twice"
+    ]
+   }
+  },
+  {
+   "say": "And imagine if Emma had simply kept going all the way to sixty five. She'd have far more than either of them. Starting early and staying consistent is the most powerful combination of all.",
+   "vis": {
+    "type": "list",
+    "title": "The winning formula",
+    "items": [
+     [
+      "🌱",
+      "Start early"
+     ],
+     [
+      "🔁",
+      "Keep going"
+     ],
+     [
+      "💸",
+      "Keep costs low"
+     ],
+     [
+      "⏳",
+      "Give it time"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "These numbers are illustrations, not promises. Real investments go up and down, and returns aren't guaranteed. But the principle holds. Time is the most powerful ingredient.",
+   "vis": {
+    "type": "hook",
+    "text": "Time is the most powerful ingredient.",
+    "emoji": "⏳",
+    "hot": [
+     "Time"
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. The dark side.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The dark side"
+   }
+  },
+  {
+   "say": "Compounding works against you too. Debt compounds. If you don't pay off a credit card, interest is charged on your balance, then on the interest, and the debt can snowball the wrong way.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Compounding savings",
+     "emoji": "📈",
+     "lines": [
+      "Works for you",
+      "Grows over time"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Compounding debt",
+     "emoji": "📉",
+     "lines": [
+      "Works against you",
+      "Grows over time"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "A credit card charging twenty five percent a year can roughly triple a debt in about five years if nothing is paid. That's the rule of seventy two working against you.",
+   "vis": {
+    "type": "hook",
+    "text": "Debt can snowball the wrong way.",
+    "emoji": "⚠️",
+    "hot": [
+     "wrong"
+    ]
+   }
+  },
+  {
+   "say": "That's why paying off expensive debt is often one of the best returns you can get. Every pound of credit card debt you clear stops compounding against you.",
+   "vis": {
+    "type": "hook",
+    "text": "Clearing debt is a guaranteed return.",
+    "emoji": "✂️",
+    "hot": [
+     "guaranteed"
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. What to do.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "What to do"
+   }
+  },
+  {
+   "say": "So how do you make compounding work for you? Start as early as you can, even with small amounts. Keep going consistently. Reinvest any returns. Keep fees low, because fees compound too. And clear expensive debt first.",
+   "vis": {
+    "type": "list",
+    "title": "Making compounding work for you",
+    "items": [
+     [
+      "🌱",
+      "Start early, even small"
+     ],
+     [
+      "🔁",
+      "Be consistent"
+     ],
+     [
+      "💸",
+      "Keep fees low"
+     ],
+     [
+      "💳",
+      "Clear expensive debt first"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the UK, things like ISAs and workplace pensions let your money compound without being taxed along the way, and workplace pensions often come with extra money from your employer.",
+   "vis": {
+    "type": "hook",
+    "text": "Tax-free compounding helps even more.",
+    "emoji": "🛡️",
+    "hot": [
+     "Tax-free"
+    ]
+   }
+  },
+  {
+   "say": "And watch out for inflation. If your money grows at five percent but prices rise at three, your real growth is only about two percent. Compounding still works, it's just slower.",
+   "vis": {
+    "type": "hook",
+    "text": "Remember inflation eats into growth.",
+    "emoji": "🫥",
+    "hot": [
+     "inflation"
+    ]
+   }
+  },
+  {
+   "say": "The best time to start was years ago. The second best time is today. Small amounts, given enough time, can grow into something genuinely life changing.",
+   "vis": {
+    "type": "hook",
+    "text": "The second best time to start is today.",
+    "emoji": "📅",
+    "hot": [
+     "today."
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "START AT 18|BEAT START|AT 40",
+  "emoji": "🌱",
+  "color": "gold",
+  "tag": "Systems"
+ }
+}

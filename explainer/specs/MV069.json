@@ -1,0 +1,440 @@
+{
+ "id": "MV069",
+ "style": "storybook",
+ "voice": "af_aoede",
+ "speed": 0.82,
+ "title": "How the Stock Market Actually Works",
+ "beats": [
+  {
+   "say": "Meet Maya. She makes amazing cakes, and she wants to open a bakery. But she needs fifty thousand pounds to get started, and she doesn't have it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "I want to open a bakery!",
+      "prop": "🎂"
+     }
+    ],
+    "title": "Maya's bakery"
+   }
+  },
+  {
+   "say": "So she has an idea. She'll split the bakery into one hundred equal pieces, and sell some of them to friends. Each piece is called a share. If you own a share, you own a tiny part of the bakery.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Buy a piece of my bakery!",
+      "prop": "🍰"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "I'll take two shares!",
+      "prop": "💷"
+     }
+    ],
+    "title": "Shares"
+   }
+  },
+  {
+   "say": "That's really all a share is. A small piece of ownership in a real company. And the stock market is just a big, organised place where people buy and sell those pieces.",
+   "vis": {
+    "type": "hook",
+    "text": "A share is a piece of a real company.",
+    "emoji": "🧩",
+    "hot": [
+     "piece"
+    ]
+   }
+  },
+  {
+   "say": "Shareholders often get a vote on big decisions too, like who runs the company. Owning shares really does mean being a part owner, even if it's a tiny part.",
+   "vis": {
+    "type": "hook",
+    "text": "Shareholders are part owners.",
+    "emoji": "🗳️",
+    "hot": [
+     "owners."
+    ]
+   }
+  },
+  {
+   "say": "If Maya's bakery makes a profit, she might share some of it with her shareholders. That payment is called a dividend. And if the bakery grows, each share becomes worth more.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "My share paid me a dividend!",
+      "prop": "🪙"
+     }
+    ],
+    "title": "Dividends"
+   }
+  },
+  {
+   "say": "So there are two ways shareholders can make money. Dividends, which are a share of the profits. And capital growth, when the share price goes up and you can sell for more than you paid.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Dividends",
+     "emoji": "🪙",
+     "lines": [
+      "A share of profits",
+      "Paid out regularly"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Capital growth",
+     "emoji": "📈",
+     "lines": [
+      "Share price rises",
+      "Sell for more"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part two. Going public.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Going public"
+   }
+  },
+  {
+   "say": "Now imagine Maya's bakery becomes a huge chain. To raise even more money, she lists the company on a stock exchange, like the London Stock Exchange. This is called an IPO, an initial public offering. Now anyone can buy shares.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "We're on the stock exchange!",
+      "prop": "🏛️"
+     }
+    ],
+    "title": "The IPO"
+   }
+  },
+  {
+   "say": "Once shares are listed, most trading is between investors. When you buy a share on the stock market, you're usually buying it from another investor, not from the company itself.",
+   "vis": {
+    "type": "hook",
+    "text": "You usually buy from other investors.",
+    "emoji": "🔁",
+    "hot": [
+     "investors."
+    ]
+   }
+  },
+  {
+   "say": "Behind the scenes, brokers and market makers connect buyers and sellers in a fraction of a second. Prices change constantly through the trading day as orders come in.",
+   "vis": {
+    "type": "list",
+    "title": "How trading works",
+    "items": [
+     [
+      "📱",
+      "You place an order"
+     ],
+     [
+      "🔀",
+      "A broker sends it to the market"
+     ],
+     [
+      "🤝",
+      "Matched with a seller"
+     ],
+     [
+      "⚡",
+      "Done in seconds"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. Why prices move.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Why prices move"
+   }
+  },
+  {
+   "say": "So why do share prices go up and down every day? Because of supply and demand. If more people want to buy than sell, the price goes up. If more want to sell, it goes down.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Everyone wants bakery shares!",
+      "prop": "📈"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "Prices are rising!",
+      "prop": "💷"
+     }
+    ],
+    "title": "Supply and demand"
+   }
+  },
+  {
+   "say": "And what makes people want to buy or sell? Company profits. News. Interest rates. The economy. And plain old emotion, like excitement and fear.",
+   "vis": {
+    "type": "list",
+    "title": "What moves prices",
+    "items": [
+     [
+      "📊",
+      "Company results"
+     ],
+     [
+      "📰",
+      "News and rumours"
+     ],
+     [
+      "🏛️",
+      "Interest rates and the economy"
+     ],
+     [
+      "😱",
+      "Excitement and fear"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "You'll often hear about indexes like the FTSE one hundred. That's simply a measure of how the shares of the hundred biggest companies on the London Stock Exchange are doing overall.",
+   "vis": {
+    "type": "hook",
+    "text": "The FTSE 100 measures the biggest UK companies.",
+    "emoji": "📊",
+    "hot": [
+     "FTSE"
+    ]
+   }
+  },
+  {
+   "say": "You see, one day there's a rumour that sugar prices will double. Investors worry bakery profits will fall. Lots of people sell, and the share price drops, even though nothing has actually changed in the bakery yet.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "Sell! Sell!",
+      "prop": "📉"
+     }
+    ],
+    "title": "The panic"
+   },
+   "night": true
+  },
+  {
+   "say": "That's an important lesson. In the short term, share prices can swing wildly on emotion and news. In the long term, they tend to follow how much money the company actually makes.",
+   "vis": {
+    "type": "hook",
+    "text": "Short term: emotion. Long term: profits.",
+    "emoji": "⚖️",
+    "hot": [
+     "profits."
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "Part four. The risks.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The risks"
+   }
+  },
+  {
+   "say": "Investing in shares isn't safe like a savings account. If Maya's bakery goes bust, her shares could become worthless. Shareholders are usually last in line when a company fails.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "sad",
+      "say": "The bakery closed. My shares are worth nothing.",
+      "prop": "📉"
+     }
+    ],
+    "title": "The risk"
+   }
+  },
+  {
+   "say": "And even good companies can see their share prices fall a lot in a market crash. In two thousand and eight, and again in early twenty twenty, markets fell sharply in a matter of weeks.",
+   "vis": {
+    "type": "hook",
+    "text": "Even good companies can fall in a crash.",
+    "emoji": "📉",
+    "hot": [
+     "crash."
+    ]
+   }
+  },
+  {
+   "say": "That's why many people don't pick individual companies. Instead, they buy funds that hold lots of companies at once. One popular type is an index fund, which simply tracks a whole market, like the hundred biggest UK companies.",
+   "vis": {
+    "type": "list",
+    "title": "Spreading the risk",
+    "items": [
+     [
+      "🧺",
+      "Funds hold many companies"
+     ],
+     [
+      "📊",
+      "Index funds track a whole market"
+     ],
+     [
+      "💸",
+      "Usually low fees"
+     ],
+     [
+      "🛡️",
+      "One failure hurts less"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Spreading your money is called diversification. If one company does badly, others may do well. You're not betting everything on one bakery.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "One company",
+     "emoji": "🎂",
+     "lines": [
+      "All eggs in one basket",
+      "High risk"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Many companies",
+     "emoji": "🧺",
+     "lines": [
+      "Spread out",
+      "Lower risk"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. How people invest.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "How people invest"
+   }
+  },
+  {
+   "say": "In the UK, ordinary people can buy shares and funds through an investment platform or app. Many use a stocks and shares ISA, so they don't pay tax on the gains. Workplace pensions also invest in the stock market for you.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "My pension owns shares too?",
+      "prop": "📱"
+     }
+    ],
+    "title": "Getting started"
+   }
+  },
+  {
+   "say": "Over long periods, stock markets have historically grown, though there have been big crashes along the way. That's why investing is usually recommended for money you won't need for at least five years.",
+   "vis": {
+    "type": "hook",
+    "text": "For money you can leave for years.",
+    "emoji": "⏳",
+    "hot": [
+     "years."
+    ]
+   }
+  },
+  {
+   "say": "If you're thinking about investing, a few principles help. Understand what you're buying. Spread your risk. Watch your fees. Think long term. And never invest money you can't afford to lose. This isn't personal advice, just the basics.",
+   "vis": {
+    "type": "list",
+    "title": "The basics",
+    "items": [
+     [
+      "🔍",
+      "Know what you own"
+     ],
+     [
+      "🧺",
+      "Diversify"
+     ],
+     [
+      "💸",
+      "Watch fees"
+     ],
+     [
+      "⏳",
+      "Think long term"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Fees matter more than most people think. A fee of one percent a year might sound small, but over decades it can eat a large chunk of your returns.",
+   "vis": {
+    "type": "hook",
+    "text": "Small fees, big impact over time.",
+    "emoji": "💸",
+    "hot": [
+     "big"
+    ]
+   }
+  },
+  {
+   "say": "So the stock market isn't a casino, and it isn't magic. It's millions of people buying and selling small pieces of real businesses, like Maya's bakery. And when those businesses grow, so can their owners.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "When my bakery grows, so do my shareholders!",
+      "prop": "🎂"
+     }
+    ],
+    "title": "The big picture"
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHAT IS A|SHARE,|REALLY?",
+  "emoji": "📈",
+  "color": "teal",
+  "tag": "Systems"
+ }
+}

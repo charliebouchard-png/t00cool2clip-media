@@ -1,0 +1,474 @@
+{
+ "id": "MV067",
+ "style": "neon",
+ "variant": 2,
+ "voice": "am_michael",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "Why Interest Rates Change Everything",
+ "beats": [
+  {
+   "say": "There's one number, set by nine people in London, that affects your mortgage, your rent, your savings, your job, and even the price of your shopping. It's the Bank of England's interest rate.",
+   "vis": {
+    "type": "hook",
+    "text": "One number. Nine people. Your whole financial life.",
+    "emoji": "🎚️",
+    "hot": [
+     "One",
+     "number."
+    ]
+   }
+  },
+  {
+   "say": "If you understand this one number, you'll understand a huge amount about money. Let's break down what it is, who sets it, and how it reaches your pocket.",
+   "vis": {
+    "type": "list",
+    "title": "Today",
+    "items": [
+     [
+      "🏛️",
+      "What Bank Rate is"
+     ],
+     [
+      "👥",
+      "Who sets it"
+     ],
+     [
+      "🔗",
+      "How it reaches you"
+     ],
+     [
+      "⚖️",
+      "Winners and losers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. What is Bank Rate?",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What is Bank Rate?"
+   }
+  },
+  {
+   "say": "Bank Rate, often called the base rate, is the interest rate the Bank of England pays to commercial banks on money they hold with it. It's the foundation that most other interest rates in the UK are built on.",
+   "vis": {
+    "type": "hook",
+    "text": "The foundation of every other rate.",
+    "emoji": "🧱",
+    "hot": [
+     "foundation"
+    ]
+   }
+  },
+  {
+   "say": "It's set by the Monetary Policy Committee, a group of nine people, including the Governor of the Bank of England and independent experts. They meet eight times a year and vote.",
+   "vis": {
+    "type": "icon",
+    "emoji": "👥",
+    "text": "The Monetary Policy Committee",
+    "sub": "Nine members, eight meetings a year",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Their main job is to keep inflation close to the government's target of two percent. When inflation is too high, they tend to raise rates. When the economy is weak and inflation is low, they tend to cut them.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Inflation too high",
+     "emoji": "🔥",
+     "lines": [
+      "Raise rates",
+      "Cool things down"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Economy too weak",
+     "emoji": "🧊",
+     "lines": [
+      "Cut rates",
+      "Warm things up"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Since nineteen ninety seven, the Bank of England has been independent in setting interest rates. Before that, the Chancellor of the Exchequer made the final decision, which meant politics could get mixed in.",
+   "vis": {
+    "type": "hook",
+    "text": "Independent since 1997.",
+    "emoji": "🏛️",
+    "hot": [
+     "1997."
+    ]
+   }
+  },
+  {
+   "say": "Part two. How it reaches you.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "How it reaches you"
+   }
+  },
+  {
+   "say": "When Bank Rate changes, banks change the rates they charge borrowers and pay savers. That changes how much people borrow and spend, which changes prices and jobs across the whole economy.",
+   "vis": {
+    "type": "flow",
+    "title": "How a rate change spreads",
+    "nodes": [
+     [
+      "🏛️",
+      "Bank Rate changes"
+     ],
+     [
+      "🏦",
+      "Banks change their rates"
+     ],
+     [
+      "🛍️",
+      "People spend or save differently"
+     ],
+     [
+      "📊",
+      "Prices and jobs respond"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "Think of it like a thermostat for the economy. Higher rates make borrowing expensive and saving more rewarding, so people spend less. Lower rates do the opposite.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Higher rates",
+     "emoji": "⬆️",
+     "lines": [
+      "Borrowing costs more",
+      "Saving pays more"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Lower rates",
+     "emoji": "⬇️",
+     "lines": [
+      "Borrowing is cheaper",
+      "Saving pays less"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Rate changes also affect the value of the pound. Higher rates can attract money from abroad, pushing the pound up, which makes imports cheaper and can help bring inflation down.",
+   "vis": {
+    "type": "hook",
+    "text": "Rates move the pound too.",
+    "emoji": "💱",
+    "hot": [
+     "pound"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Your mortgage.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Your mortgage"
+   }
+  },
+  {
+   "say": "For many people, the biggest impact is their mortgage. On a tracker or variable mortgage, payments can change soon after Bank Rate changes. On a fixed rate, nothing changes until the deal ends. But then it can be a shock.",
+   "vis": {
+    "type": "hook",
+    "text": "Fixed deals end. Then comes the shock.",
+    "emoji": "🏠",
+    "hot": [
+     "shock."
+    ]
+   }
+  },
+  {
+   "say": "Here's an example. On a two hundred thousand pound repayment mortgage over twenty five years, monthly payments are roughly eight hundred and fifty pounds at two percent interest, and roughly one thousand one hundred and seventy pounds at five percent.",
+   "vis": {
+    "type": "bars",
+    "title": "Monthly payment on £200,000 over 25 years",
+    "items": [
+     [
+      "At 2%",
+      848,
+      "teal"
+     ],
+     [
+      "At 5%",
+      1169,
+      "red"
+     ]
+    ],
+    "max": 1300,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Illustrative repayment calculation"
+   }
+  },
+  {
+   "say": "That's hundreds of pounds a month, just from a change in interest rates. That's why rate decisions make headlines.",
+   "vis": {
+    "type": "hook",
+    "text": "Hundreds of pounds a month.",
+    "emoji": "💸",
+    "hot": [
+     "Hundreds"
+    ]
+   }
+  },
+  {
+   "say": "Mortgage lenders also stress test borrowers, checking whether they could still afford payments if rates rose. So higher rates can also reduce how much people are allowed to borrow.",
+   "vis": {
+    "type": "hook",
+    "text": "Higher rates can shrink how much you can borrow.",
+    "emoji": "📏",
+    "hot": [
+     "shrink"
+    ]
+   }
+  },
+  {
+   "say": "Part four. Your rent, savings and job.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Rent, savings and jobs"
+   }
+  },
+  {
+   "say": "Even if you don't have a mortgage, rates still affect you. Landlords with mortgages may pass higher costs on through rent. Credit cards and loans get more expensive. And when businesses borrow less, they may hire less.",
+   "vis": {
+    "type": "list",
+    "title": "How rates reach everyone",
+    "items": [
+     [
+      "🏘️",
+      "Rents can rise"
+     ],
+     [
+      "💳",
+      "Loans and cards cost more"
+     ],
+     [
+      "🏭",
+      "Businesses invest less"
+     ],
+     [
+      "👷",
+      "Hiring can slow"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But higher rates are good news for savers. Banks usually pay more interest on savings accounts. After years of tiny returns, many savers saw much better rates when Bank Rate rose.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Borrowers",
+     "emoji": "😰",
+     "lines": [
+      "Higher repayments",
+      "Tighter budgets"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Savers",
+     "emoji": "😀",
+     "lines": [
+      "Better interest",
+      "Cash grows faster"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. A rollercoaster.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "A rollercoaster"
+   }
+  },
+  {
+   "say": "Bank Rate has moved a lot in recent history. After the two thousand and eight crash, it was cut to record lows, and stayed low for years. In twenty twenty, during the pandemic, it fell to just zero point one percent. Then inflation surged, and rates rose quickly, reaching five point two five percent in twenty twenty three.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2008",
+      "Cut sharply after the crash"
+     ],
+     [
+      "2020",
+      "Down to 0.1%"
+     ],
+     [
+      "2022",
+      "Inflation surges, rates rise"
+     ],
+     [
+      "2023",
+      "Peak of 5.25%",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "For people who'd only ever known very low rates, that rise was a big shock. Mortgage payments jumped for many families as their fixed deals ended.",
+   "vis": {
+    "type": "hook",
+    "text": "A generation used to cheap money got a shock.",
+    "emoji": "😮",
+    "hot": [
+     "shock."
+    ]
+   }
+  },
+  {
+   "say": "Since that peak, rates have moved again as inflation has changed. Because rates keep changing, it's always worth checking the current Bank Rate rather than relying on an old number.",
+   "vis": {
+    "type": "list",
+    "title": "Keep up to date",
+    "items": [
+     [
+      "📅",
+      "Rates change often"
+     ],
+     [
+      "🔍",
+      "Check the latest decision"
+     ],
+     [
+      "📰",
+      "Announced after each meeting"
+     ],
+     [
+      "📊",
+      "Watch the inflation figures"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. Why not keep rates low forever?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Why not keep rates low?"
+   }
+  },
+  {
+   "say": "If low rates make borrowing cheap, why not keep them low forever? Because cheap money can push up prices, including house prices, and fuel inflation. And very low rates punish savers.",
+   "vis": {
+    "type": "hook",
+    "text": "Cheap money has a price too.",
+    "emoji": "⚖️",
+    "hot": [
+     "price"
+    ]
+   }
+  },
+  {
+   "say": "Setting rates is a balancing act. Too high, and you risk a recession and job losses. Too low, and you risk inflation getting out of control. And changes take time to work, often a year or two.",
+   "vis": {
+    "type": "list",
+    "title": "The balancing act",
+    "items": [
+     [
+      "🔥",
+      "Too low: inflation risk"
+     ],
+     [
+      "🧊",
+      "Too high: recession risk"
+     ],
+     [
+      "⏳",
+      "Effects take 1 to 2 years"
+     ],
+     [
+      "🎯",
+      "Target: 2% inflation"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part seven. What you can do.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "What you can do"
+   }
+  },
+  {
+   "say": "You can't control interest rates. But you can prepare for them. Know whether your mortgage is fixed or variable, and when your deal ends. Shop around for savings rates. And avoid debts that could become unaffordable if rates rise.",
+   "vis": {
+    "type": "list",
+    "title": "Be ready",
+    "items": [
+     [
+      "📅",
+      "Know when your fixed deal ends"
+     ],
+     [
+      "🔍",
+      "Compare savings rates"
+     ],
+     [
+      "💳",
+      "Watch variable-rate debt"
+     ],
+     [
+      "🛟",
+      "Keep a buffer for rate rises"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Interest rates are the price of money. And when the price of money changes, everything else changes with it.",
+   "vis": {
+    "type": "hook",
+    "text": "Interest rates are the price of money.",
+    "emoji": "🏷️",
+    "hot": [
+     "price"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "ONE NUMBER|RUNS YOUR|MONEY",
+  "emoji": "🎚️",
+  "color": "teal",
+  "tag": "Systems"
+ }
+}

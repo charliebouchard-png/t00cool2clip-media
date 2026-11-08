@@ -1,0 +1,397 @@
+{
+ "id": "MV049",
+ "style": "storybook",
+ "voice": "af_heart",
+ "speed": 0.83,
+ "title": "Tulip Mania: Did People Really Pay a House for a Flower?",
+ "beats": [
+  {
+   "say": "Here's a story you might have heard. In sixteen thirty seven, people in the Netherlands went so crazy for tulips that a single bulb could cost as much as a house. Then prices crashed, and the country was ruined.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "One bulb, please. Here's my house!",
+      "prop": "🌷"
+     }
+    ],
+    "title": "The legend"
+   }
+  },
+  {
+   "say": "It's often called the first financial bubble in history. But modern historians say the real story is different, and in some ways, more interesting.",
+   "vis": {
+    "type": "hook",
+    "text": "The first bubble? It's complicated.",
+    "emoji": "🌷",
+    "hot": [
+     "complicated."
+    ]
+   }
+  },
+  {
+   "say": "Tulips came to Europe in the late fifteen hundreds, probably from the Ottoman Empire. A botanist called Carolus Clusius showed they could grow well in the Dutch soil. Wealthy people fell in love with them.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Look at these beautiful flowers!",
+      "prop": "🌷"
+     }
+    ],
+    "title": "The arrival"
+   }
+  },
+  {
+   "say": "Some tulips had amazing streaks and flames of colour. They were rare and very hard to reproduce. We now know the patterns were caused by a virus, but at the time, nobody understood why some bulbs produced these special flowers.",
+   "vis": {
+    "type": "list",
+    "title": "Why some tulips were special",
+    "items": [
+     [
+      "🎨",
+      "Stunning streaked patterns"
+     ],
+     [
+      "💎",
+      "Very rare"
+     ],
+     [
+      "🐢",
+      "Slow to reproduce"
+     ],
+     [
+      "🦠",
+      "Caused by a virus, we now know"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Owning rare tulips became a status symbol, a bit like owning expensive art or a luxury watch today. They showed the world you had taste, and money.",
+   "vis": {
+    "type": "hook",
+    "text": "Tulips were the luxury watches of their day.",
+    "emoji": "⌚",
+    "hot": [
+     "luxury"
+    ]
+   }
+  },
+  {
+   "say": "The most famous was called Semper Augustus. Red and white, like flames. At the peak, a single bulb was reportedly valued at around ten thousand guilders. That was a fortune. Enough, it's said, to buy a fine house in Amsterdam.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "The Semper Augustus. Priceless.",
+      "prop": "🌷",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Semper Augustus"
+   }
+  },
+  {
+   "say": "For comparison, a few years later, Rembrandt was paid around one thousand six hundred guilders for his famous painting, The Night Watch.",
+   "vis": {
+    "type": "num",
+    "value": 1600,
+    "label": "guilders paid for Rembrandt's The Night Watch",
+    "color": "teal",
+    "emoji": "🖼️",
+    "prefix": "",
+    "suffix": "",
+    "source": "City AM"
+   }
+  },
+  {
+   "say": "In the sixteen thirties, the Dutch Republic was one of the richest places in the world. Merchants were doing well, and some were looking for new ways to make money. Tulips became a hot thing to trade.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "I bought tulips. You should too!",
+      "prop": "💰"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Tell me more!"
+     }
+    ],
+    "title": "Rich times"
+   }
+  },
+  {
+   "say": "But here's the twist. People weren't really trading flowers. Tulips bloom for a short time in spring. For the rest of the year, the bulbs sit in the ground. So people traded contracts, promises to buy bulbs in the future.",
+   "vis": {
+    "type": "hook",
+    "text": "They weren't trading flowers. They were trading promises.",
+    "emoji": "📜",
+    "hot": [
+     "promises."
+    ]
+   }
+  },
+  {
+   "say": "These contracts were traded in taverns, often with little money changing hands. A contract could be sold on again and again, sometimes many times a day, each time at a higher price. The Dutch called it the wind trade, because nothing real was moving.",
+   "vis": {
+    "type": "flow",
+    "title": "The wind trade",
+    "nodes": [
+     [
+      "📜",
+      "A promise to buy a bulb"
+     ],
+     [
+      "🍺",
+      "Traded in a tavern"
+     ],
+     [
+      "🔁",
+      "Sold on again and again"
+     ],
+     [
+      "📈",
+      "Price keeps rising"
+     ]
+    ],
+    "color": "red",
+    "coin": "📜"
+   }
+  },
+  {
+   "say": "Prices rose fast, through the winter of sixteen thirty six. People bought contracts not because they wanted tulips, but because they expected to sell them for more.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Buy it now, sell it tomorrow!",
+      "prop": "📜"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Easy money!",
+      "prop": "💰"
+     }
+    ],
+    "title": "The boom"
+   }
+  },
+  {
+   "say": "You see, in early February sixteen thirty seven, at a tavern in the town of Haarlem, an auction was held. And for the first time, nobody wanted to buy.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "shock",
+      "say": "Anyone? Anyone at all?",
+      "prop": "🔨"
+     }
+    ],
+    "title": "The auction"
+   },
+   "night": true
+  },
+  {
+   "say": "The seller lowered the price, again and again. Still nobody. Word spread fast. Within days, the market had collapsed. Contracts that had been worth fortunes were suddenly worth very little.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "My contract's worth nothing?",
+      "prop": "📜"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "sad",
+      "say": "Nobody will buy!",
+      "prop": "📉"
+     }
+    ],
+    "title": "The crash"
+   },
+   "night": true
+  },
+  {
+   "say": "Many buyers simply refused to pay what they'd promised. Arguments went on for months. In the end, many contracts were settled for a small fraction of their price, or not at all.",
+   "vis": {
+    "type": "hook",
+    "text": "Many buyers just refused to pay.",
+    "emoji": "🙅",
+    "hot": [
+     "refused"
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "The courts didn't want to get involved, and many treated the contracts as more like gambling debts. In the end, the towns encouraged buyers and sellers to settle among themselves.",
+   "vis": {
+    "type": "hook",
+    "text": "The courts treated it like gambling.",
+    "emoji": "🎲",
+    "hot": [
+     "gambling."
+    ]
+   }
+  },
+  {
+   "say": "So that's the legend. Now for the reality check.",
+   "vis": {
+    "type": "hook",
+    "text": "Now, the reality check.",
+    "emoji": "🔍",
+    "hot": [
+     "reality"
+    ]
+   }
+  },
+  {
+   "say": "Much of the famous story comes from a book written two hundred years later, in eighteen forty one, by a Scottish writer called Charles Mackay. It was a bestseller, and it made tulip mania famous. But historians say he exaggerated a lot.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Great story. But is it accurate?",
+      "prop": "📖"
+     }
+    ],
+    "title": "Charles Mackay"
+   }
+  },
+  {
+   "say": "The historian Anne Goldgar studied records from the time. She found that the trade involved a fairly small group of wealthy merchants and craftsmen. And she found no bankruptcies she could clearly link to the tulip crash.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The legend",
+     "emoji": "📖",
+     "lines": [
+      "Whole country obsessed",
+      "Nation ruined"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The records",
+     "emoji": "🗂️",
+     "lines": [
+      "Small group of traders",
+      "No clear bankruptcies"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Many losses were only on paper, from contracts that were never paid. The Dutch economy carried on, and the Netherlands stayed one of the richest countries in the world.",
+   "vis": {
+    "type": "hook",
+    "text": "The Dutch economy carried on.",
+    "emoji": "⛵",
+    "hot": [
+     "carried",
+     "on."
+    ]
+   }
+  },
+  {
+   "say": "So were people really mad? Some prices really were extraordinary. But there were also rational reasons. Rare bulbs really were rare, and could be multiplied over time. Some buyers thought they were investing in something that would produce more valuable bulbs.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "This bulb will make more bulbs!",
+      "prop": "🌷"
+     }
+    ],
+    "title": "Mad or rational?"
+   }
+  },
+  {
+   "say": "So what can tulip mania teach us? Even if the story's exaggerated, the pattern is real. And it shows up again and again, in everything from shares to houses to crypto.",
+   "vis": {
+    "type": "list",
+    "title": "The bubble pattern",
+    "items": [
+     [
+      "✨",
+      "Something new and exciting"
+     ],
+     [
+      "📈",
+      "Prices rise fast"
+     ],
+     [
+      "🔁",
+      "People buy to sell, not to use"
+     ],
+     [
+      "💥",
+      "Buyers suddenly vanish"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The real lesson might be this. A price is only what the next person is willing to pay. And when nobody turns up at the auction, you find out what something's really worth.",
+   "vis": {
+    "type": "hook",
+    "text": "It's only worth what the next person will pay.",
+    "emoji": "🔨",
+    "hot": [
+     "next"
+    ]
+   }
+  },
+  {
+   "say": "And maybe there's a second lesson. Be careful with stories that sound too perfect. Even the most famous story about a bubble may have been a bit of a bubble itself.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Always check the source!",
+      "prop": "🔍"
+     }
+    ],
+    "title": "The twist"
+   }
+  },
+  {
+   "say": "Subscribe for more true stories from the history of money, and tell me in the comments which bubble I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which bubble should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "A HOUSE|FOR A|FLOWER?",
+  "emoji": "🌷",
+  "color": "red",
+  "tag": "History"
+ }
+}

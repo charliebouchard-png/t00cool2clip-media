@@ -1,0 +1,443 @@
+{
+ "id": "MV047",
+ "style": "documentary",
+ "voice": "bm_fable",
+ "speed": 0.83,
+ "title": "The Post Office Scandal: How Faulty Software Ruined Lives",
+ "beats": [
+  {
+   "say": "Imagine running your local post office. One day, the computer says thousands of pounds are missing. You know you haven't taken a penny. But nobody believes you. Instead, you're prosecuted, and maybe sent to prison.",
+   "vis": {
+    "type": "hook",
+    "text": "The computer said the money was missing.",
+    "emoji": "🖥️",
+    "hot": [
+     "missing."
+    ]
+   }
+  },
+  {
+   "say": "That happened to hundreds of people in Britain. Between nineteen ninety nine and twenty fifteen, more than nine hundred subpostmasters were prosecuted, based on figures from a computer system called Horizon.",
+   "vis": {
+    "type": "num",
+    "value": 900,
+    "label": "subpostmasters prosecuted, 1999 to 2015",
+    "color": "red",
+    "emoji": "⚖️",
+    "prefix": "More than ",
+    "suffix": "",
+    "source": "British Post Office scandal records"
+   }
+  },
+  {
+   "say": "It has been called the most widespread miscarriage of justice in British history. And it started with a simple belief. The computer can't be wrong.",
+   "vis": {
+    "type": "hook",
+    "text": "'The computer can't be wrong.'",
+    "emoji": "💻",
+    "hot": [
+     "can't"
+    ]
+   }
+  },
+  {
+   "say": "Part one. Horizon.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Horizon"
+   }
+  },
+  {
+   "say": "In nineteen ninety nine, the Post Office began installing a new accounting system called Horizon in its branches, built by the company ICL, which became part of Fujitsu. It recorded every sale, every payment and every pound in the till.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🖥️",
+    "text": "Horizon",
+    "sub": "Installed in branches from 1999",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Many branches are run by subpostmasters. They're not employees. They run the branch under contract, and they're responsible for making up any shortfall in the cash. If the computer says money is missing, they have to pay it back.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The subpostmaster's job",
+     "emoji": "🏤",
+     "lines": [
+      "Runs the branch",
+      "Responsible for shortfalls"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The problem",
+     "emoji": "⚠️",
+     "lines": [
+      "If Horizon says money's missing",
+      "They must pay it"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Soon after Horizon arrived, subpostmasters began reporting strange shortfalls. Hundreds of pounds, then thousands, that seemed to appear from nowhere.",
+   "vis": {
+    "type": "hook",
+    "text": "Shortfalls appeared from nowhere.",
+    "emoji": "❓",
+    "hot": [
+     "nowhere."
+    ]
+   }
+  },
+  {
+   "say": "Subpostmasters often had no way to see what was going on inside the system. They could only see the total, and the total said they were short.",
+   "vis": {
+    "type": "hook",
+    "text": "They could only see the total.",
+    "emoji": "🔒",
+    "hot": [
+     "total"
+    ]
+   }
+  },
+  {
+   "say": "Part two. You're the only one.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "You're the only one"
+   }
+  },
+  {
+   "say": "When they called the helpline, many were told the same thing. That nobody else was having problems. They were the only one.",
+   "vis": {
+    "type": "quote",
+    "text": "You're the only one having this problem.",
+    "who": "what many subpostmasters say they were told"
+   }
+  },
+  {
+   "say": "Many paid the shortfalls from their own savings, sometimes remortgaging their homes. Others were accused of stealing, sacked, or taken to court.",
+   "vis": {
+    "type": "flow",
+    "title": "What happened to them",
+    "nodes": [
+     [
+      "🖥️",
+      "Horizon shows a shortfall"
+     ],
+     [
+      "💷",
+      "Pay it from savings"
+     ],
+     [
+      "📄",
+      "Accused of theft"
+     ],
+     [
+      "⚖️",
+      "Prosecuted"
+     ]
+    ],
+    "color": "red",
+    "coin": "📄"
+   }
+  },
+  {
+   "say": "Of those prosecuted, two hundred and thirty six went to prison. Many more were convicted, lost their businesses, their homes and their reputations.",
+   "vis": {
+    "type": "num",
+    "value": 236,
+    "label": "people sent to prison",
+    "color": "red",
+    "emoji": "⛓️",
+    "prefix": "",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "The Post Office could bring prosecutions itself, without the police or the usual prosecutors. And it treated Horizon's figures as proof.",
+   "vis": {
+    "type": "hook",
+    "text": "Horizon's figures were treated as proof.",
+    "emoji": "📊",
+    "hot": [
+     "proof."
+    ]
+   }
+  },
+  {
+   "say": "In court, it was often the word of a local shopkeeper against a large national institution and its computer. Juries tended to believe the computer.",
+   "vis": {
+    "type": "hook",
+    "text": "A shopkeeper's word against the computer.",
+    "emoji": "⚖️",
+    "hot": [
+     "computer."
+    ]
+   }
+  },
+  {
+   "say": "One case shows how devastating it was. Seema Misra was jailed in twenty ten, while pregnant, over a shortfall of more than seventy thousand pounds that Horizon had shown. Her conviction was later quashed.",
+   "vis": {
+    "type": "doc",
+    "title": "The case of Seema Misra",
+    "lines": [
+     [
+      "Year",
+      "2010"
+     ],
+     [
+      "Shortfall shown",
+      "Over £70,000"
+     ],
+     [
+      "Sentence",
+      "15 months, while pregnant"
+     ],
+     [
+      "Later",
+      "Conviction quashed"
+     ]
+    ],
+    "stamp": "QUASHED",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Part three. What was known.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "What was known"
+   }
+  },
+  {
+   "say": "Here's what makes it a scandal, not just a mistake. It later emerged that bugs, errors and defects in Horizon had been known about, and weren't properly disclosed to the people being accused or to the courts.",
+   "vis": {
+    "type": "hook",
+    "text": "The bugs were known about.",
+    "emoji": "🐛",
+    "hot": [
+     "known"
+    ]
+   }
+  },
+  {
+   "say": "For years, the Post Office also insisted that branch accounts couldn't be changed remotely. A whistleblower who had worked at Fujitsu later said that it was possible.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What the Post Office said",
+     "emoji": "🙅",
+     "lines": [
+      "No remote access",
+      "Figures are reliable"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What emerged",
+     "emoji": "🔓",
+     "lines": [
+      "Accounts could be altered remotely",
+      "Bugs existed"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part four. Mr Bates.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Mr Bates"
+   }
+  },
+  {
+   "say": "Alan Bates had run a post office in North Wales. He'd refused to accept shortfalls he knew weren't real, and lost his contract. He then spent years bringing subpostmasters together, forming the Justice for Subpostmasters Alliance.",
+   "vis": {
+    "type": "icon",
+    "emoji": "✊",
+    "text": "Alan Bates",
+    "sub": "Founded the Justice for Subpostmasters Alliance",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In twenty nineteen, five hundred and fifty five subpostmasters won a landmark High Court case. The judge found that Horizon contained bugs, errors and defects, and that it was possible for them to cause shortfalls.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2019",
+    "paper": "THE HIGH COURT REPORTER",
+    "text": "Judge rules Horizon contained 'bugs, errors and defects'",
+    "date": "555 subpostmasters win landmark case"
+   }
+  },
+  {
+   "say": "The Post Office settled for fifty eight million pounds. But after legal costs, the claimants shared only about twelve million. And many still had criminal records.",
+   "vis": {
+    "type": "hook",
+    "text": "£58m settlement. About £12m left for victims.",
+    "emoji": "💷",
+    "hot": [
+     "£12m"
+    ]
+   }
+  },
+  {
+   "say": "Alan Bates and others kept pushing, for years, through campaigns, the media and Parliament. Journalists such as Nick Wallis and the magazine Computer Weekly helped keep the story alive when few others were paying attention.",
+   "vis": {
+    "type": "hook",
+    "text": "They kept pushing, for years.",
+    "emoji": "✊",
+    "hot": [
+     "years."
+    ]
+   }
+  },
+  {
+   "say": "Part five. Justice, slowly.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Justice, slowly"
+   }
+  },
+  {
+   "say": "In April twenty twenty one, the Court of Appeal quashed the convictions of thirty nine former subpostmasters. But many others were still waiting, and some had died before they could clear their names.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2019",
+      "High Court victory"
+     ],
+     [
+      "Apr 2021",
+      "39 convictions quashed"
+     ],
+     [
+      "Jan 2024",
+      "ITV drama airs"
+     ],
+     [
+      "2024",
+      "Law quashes convictions",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then, in January twenty twenty four, ITV broadcast a drama, Mr Bates versus the Post Office. Millions watched. The public reaction was enormous, and suddenly the scandal was at the top of the political agenda.",
+   "vis": {
+    "type": "hook",
+    "text": "One TV drama changed everything.",
+    "emoji": "📺",
+    "hot": [
+     "changed"
+    ]
+   }
+  },
+  {
+   "say": "Within months, Parliament passed a law to quash Horizon related convictions in England, Wales and Northern Ireland, and Scotland passed its own law. Compensation schemes were expanded, with the total cost expected to be well over a billion pounds.",
+   "vis": {
+    "type": "list",
+    "title": "What followed",
+    "items": [
+     [
+      "⚖️",
+      "Convictions quashed by law"
+     ],
+     [
+      "💷",
+      "Compensation schemes"
+     ],
+     [
+      "🏛️",
+      "A public inquiry"
+     ],
+     [
+      "🚔",
+      "A police investigation"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The scandal has also been linked to a number of suicides. Behind every number in this story is a person and a family whose life was turned upside down.",
+   "vis": {
+    "type": "hook",
+    "text": "Behind every number, a family.",
+    "emoji": "💔",
+    "hot": [
+     "family."
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "The Post Office scandal is about money, but it's really about power, and about trusting computers more than people.",
+   "vis": {
+    "type": "list",
+    "title": "The lessons",
+    "items": [
+     [
+      "💻",
+      "Computers can be wrong"
+     ],
+     [
+      "📢",
+      "Listen when many people report the same problem"
+     ],
+     [
+      "🔍",
+      "Disclose what you know"
+     ],
+     [
+      "✊",
+      "Ordinary people can win"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And for anyone who's ever been told the system says you owe money, it's a reminder. Ask for the evidence. Keep your own records. And don't assume the computer is always right.",
+   "vis": {
+    "type": "hook",
+    "text": "Don't assume the computer is always right.",
+    "emoji": "🧾",
+    "hot": [
+     "always"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories about money and the systems that control it, and tell me in the comments which story I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which story should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE COMPUTER|WAS WRONG",
+  "emoji": "🖥️",
+  "color": "red",
+  "tag": "Systems"
+ }
+}

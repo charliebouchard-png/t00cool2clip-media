@@ -1,0 +1,462 @@
+{
+ "id": "MV048",
+ "style": "neon",
+ "variant": 2,
+ "voice": "af_bella",
+ "speed": 0.82,
+ "trans": "glitch",
+ "title": "Greensill: The Billion-Dollar Bet That Collapsed",
+ "beats": [
+  {
+   "say": "In early twenty twenty one, Greensill Capital looked like a finance superstar. Backed by SoftBank. Working with Credit Suisse. Advised by a former British prime minister. By March, it had collapsed.",
+   "vis": {
+    "type": "hook",
+    "text": "A finance superstar. Then collapse.",
+    "emoji": "🧾",
+    "hot": [
+     "collapse."
+    ]
+   }
+  },
+  {
+   "say": "When the funds linked to Greensill were frozen, around ten billion dollars of investors' money was suddenly stuck.",
+   "vis": {
+    "type": "num",
+    "value": 10,
+    "label": "in Credit Suisse funds frozen",
+    "color": "red",
+    "emoji": "🧊",
+    "prefix": "$",
+    "suffix": " billion",
+    "source": "MoneyWeek, 2021"
+   }
+  },
+  {
+   "say": "The collapse dragged in big names. A Swiss bank. A Japanese tech giant. A steel tycoon. German towns. And David Cameron. To understand why, you need to understand a type of finance most people have never heard of.",
+   "vis": {
+    "type": "list",
+    "title": "Who got caught up",
+    "items": [
+     [
+      "🏦",
+      "Credit Suisse"
+     ],
+     [
+      "📱",
+      "SoftBank"
+     ],
+     [
+      "🏭",
+      "Steel tycoon Sanjeev Gupta"
+     ],
+     [
+      "🏛️",
+      "Former PM David Cameron"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Paying suppliers early.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Paying suppliers early"
+   }
+  },
+  {
+   "say": "Greensill was founded by Lex Greensill, an Australian who had worked at big banks. His idea was called supply chain finance.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧑‍💼",
+    "text": "Lex Greensill",
+    "sub": "Founder of Greensill Capital",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Here's how it works. A big company buys goods from a small supplier. Normally, the big company might take months to pay. With supply chain finance, a lender pays the supplier quickly, for a small fee, and the big company pays the lender back later.",
+   "vis": {
+    "type": "flow",
+    "title": "Supply chain finance",
+    "nodes": [
+     [
+      "🏭",
+      "Supplier sends an invoice"
+     ],
+     [
+      "💸",
+      "Lender pays supplier early"
+     ],
+     [
+      "⏳",
+      "Big company pays later"
+     ],
+     [
+      "💰",
+      "Lender earns a fee"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🧾"
+   }
+  },
+  {
+   "say": "Done properly, that's useful and fairly safe. The supplier gets cash fast, and the lender is owed money by a big, reliable company for real goods that have been delivered.",
+   "vis": {
+    "type": "hook",
+    "text": "Done properly, it's useful and fairly safe.",
+    "emoji": "✅",
+    "hot": [
+     "properly,"
+    ]
+   }
+  },
+  {
+   "say": "Why would a big company want this? Because it can keep its cash longer before paying. And why would a supplier agree? Because getting paid quickly can be the difference between surviving and going bust.",
+   "vis": {
+    "type": "list",
+    "title": "Why everyone liked it",
+    "items": [
+     [
+      "🏢",
+      "Big firms keep cash longer"
+     ],
+     [
+      "🏭",
+      "Suppliers get paid fast"
+     ],
+     [
+      "💰",
+      "Lenders earn fees"
+     ],
+     [
+      "📈",
+      "Investors get steady returns"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. Turning loans into investments.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Loans into investments"
+   }
+  },
+  {
+   "say": "Greensill packaged these short term loans into investments, and sold them to investors through funds run by Credit Suisse. The funds were marketed as low risk, partly because the loans were insured.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "How investors saw it",
+     "emoji": "🛡️",
+     "lines": [
+      "Short-term loans",
+      "Insured, low risk"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The hidden risk",
+     "emoji": "🎲",
+     "lines": [
+      "Some loans were risky",
+      "Insurance could end"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Investors put billions in. SoftBank, the giant Japanese tech investor, put in around one and a half billion dollars in twenty nineteen, and more later. At one point, Greensill was valued at several billion dollars.",
+   "vis": {
+    "type": "hook",
+    "text": "Billions poured in.",
+    "emoji": "📈",
+    "hot": [
+     "Billions"
+    ]
+   }
+  },
+  {
+   "say": "Lex Greensill became a celebrity in the finance world. Private jets, big deals, and a reputation as a disruptor who was going to change banking.",
+   "vis": {
+    "type": "hook",
+    "text": "A finance celebrity, with private jets.",
+    "emoji": "✈️",
+    "hot": [
+     "jets."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The risky bits.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The risky bits"
+   }
+  },
+  {
+   "say": "But not all the lending was the simple kind. Greensill increasingly lent money based on future invoices, money it expected customers to owe, in some cases from sales that hadn't happened yet.",
+   "vis": {
+    "type": "hook",
+    "text": "Lending against invoices that didn't exist yet.",
+    "emoji": "🔮",
+    "hot": [
+     "didn't",
+     "exist"
+    ]
+   }
+  },
+  {
+   "say": "And a lot of its lending was concentrated on a few clients. The biggest was GFG Alliance, the steel and metals group controlled by the businessman Sanjeev Gupta. GFG owed Credit Suisse's funds over a billion dollars.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏭",
+    "text": "GFG Alliance",
+    "sub": "Sanjeev Gupta's steel group, a huge borrower",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Concentration is dangerous. If one big borrower can't pay, the whole fund is in trouble. It's the opposite of what investors thought they were buying.",
+   "vis": {
+    "type": "list",
+    "title": "Why concentration matters",
+    "items": [
+     [
+      "🧺",
+      "Too many eggs in one basket"
+     ],
+     [
+      "🏭",
+      "One big borrower struggles"
+     ],
+     [
+      "📉",
+      "The whole fund suffers"
+     ],
+     [
+      "😟",
+      "Investors weren't expecting it"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some of the borrowers were also connected to Greensill's own investors, and some were struggling businesses. That raised serious questions about whether the risks were being properly judged.",
+   "vis": {
+    "type": "hook",
+    "text": "Were the risks being properly judged?",
+    "emoji": "⚖️",
+    "hot": [
+     "risks"
+    ]
+   }
+  },
+  {
+   "say": "Part four. The insurance ends.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The insurance ends"
+   }
+  },
+  {
+   "say": "Then came the trigger. Greensill's insurance cover on billions of dollars of loans wasn't renewed. Without that insurance, the funds couldn't keep operating as before.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Early 2021",
+      "Insurance not renewed"
+     ],
+     [
+      "1 Mar 2021",
+      "Credit Suisse freezes funds"
+     ],
+     [
+      "Days later",
+      "Lenders pull back"
+     ],
+     [
+      "Mar 2021",
+      "Greensill administration",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "On the first of March twenty twenty one, Credit Suisse froze four funds linked to Greensill, worth around ten billion dollars. Days later, Greensill filed for administration.",
+   "vis": {
+    "type": "headline",
+    "kicker": "March 2021",
+    "paper": "THE CITY WIRE",
+    "text": "Greensill Capital collapses into administration",
+    "date": "Credit Suisse freezes $10bn of linked funds"
+   }
+  },
+  {
+   "say": "In Germany, regulators shut down Greensill's bank in Bremen. Several German towns and cities had deposited money there, and were at risk of losing it.",
+   "vis": {
+    "type": "hook",
+    "text": "German towns had money in its bank.",
+    "emoji": "🏛️",
+    "hot": [
+     "towns"
+    ]
+   }
+  },
+  {
+   "say": "Around three thousand jobs at Liberty Steel plants in Britain, part of Gupta's group, were suddenly at risk too. The government refused a request for emergency funding.",
+   "vis": {
+    "type": "hook",
+    "text": "Thousands of steel jobs were at risk.",
+    "emoji": "🏭",
+    "hot": [
+     "jobs"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The lobbying.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The lobbying"
+   }
+  },
+  {
+   "say": "Then the story got political. After leaving office, David Cameron had worked as an adviser to Greensill. He contacted ministers and officials, including by text message, trying to help Greensill access a government backed coronavirus loan scheme.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📱",
+    "text": "The texts",
+    "sub": "Cameron lobbied ministers for Greensill",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Greensill didn't get the access it wanted. But the revelations led to inquiries into lobbying, and a wider debate about former politicians working for private companies.",
+   "vis": {
+    "type": "hook",
+    "text": "The texts sparked inquiries into lobbying.",
+    "emoji": "🏛️",
+    "hot": [
+     "lobbying."
+    ]
+   }
+  },
+  {
+   "say": "Investigators and the courts later looked at what had gone wrong. In twenty twenty four, the UK financial regulator said it intended to ban Lex Greensill from senior roles in financial services, saying he had given misleading information. He disputed it.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The regulator's view",
+     "emoji": "⚖️",
+     "lines": [
+      "Misleading information",
+      "Proposed ban"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Greensill's view",
+     "emoji": "🙅",
+     "lines": [
+      "Disputed the findings",
+      "Contested it"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part six. The fallout.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The fallout"
+   }
+  },
+  {
+   "say": "Credit Suisse spent years recovering money for its investors, and later collapsed itself into a rescue takeover by UBS in twenty twenty three, after a series of scandals. Greensill was one of them.",
+   "vis": {
+    "type": "list",
+    "title": "The fallout",
+    "items": [
+     [
+      "🏦",
+      "Credit Suisse damaged"
+     ],
+     [
+      "📱",
+      "SoftBank wrote off billions"
+     ],
+     [
+      "🏭",
+      "Gupta's steel empire under pressure"
+     ],
+     [
+      "🏛️",
+      "Lobbying rules debated"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Greensill's story is a warning about clever finance. A simple, safe idea was stretched into something much riskier. And investors who thought they were buying something boring discovered they weren't.",
+   "vis": {
+    "type": "hook",
+    "text": "A safe idea, stretched into a risky one.",
+    "emoji": "🧷",
+    "hot": [
+     "risky"
+    ]
+   }
+  },
+  {
+   "say": "The lessons are simple. Low risk products should be simple to understand. Check who the money is actually lent to. And remember that insurance only protects you while it lasts.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Greensill",
+    "items": [
+     [
+      "🔍",
+      "Know who the money is lent to"
+     ],
+     [
+      "🧺",
+      "Beware concentration"
+     ],
+     [
+      "🛡️",
+      "Insurance can end"
+     ],
+     [
+      "🏛️",
+      "Famous backers aren't proof"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest collapses in finance, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE $10BN|BET THAT|BROKE",
+  "emoji": "🧾",
+  "color": "teal",
+  "tag": "Collapses"
+ }
+}

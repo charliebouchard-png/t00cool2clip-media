@@ -1,0 +1,441 @@
+{
+ "id": "MV050",
+ "style": "chalk",
+ "variant": 0,
+ "voice": "bf_isabella",
+ "speed": 0.82,
+ "trans": "fade",
+ "title": "The South Sea Bubble: How Isaac Newton Lost a Fortune",
+ "beats": [
+  {
+   "say": "Isaac Newton discovered the laws of motion and gravity. He was one of the smartest people who ever lived. And in seventeen twenty, according to the famous story, he lost a fortune on the stock market.",
+   "vis": {
+    "type": "hook",
+    "text": "Even Newton got burned.",
+    "emoji": "🍎",
+    "hot": [
+     "Newton"
+    ]
+   }
+  },
+  {
+   "say": "The story goes that he lost around twenty thousand pounds. That would be millions in today's money. Historians debate the exact figure, but there's evidence he had a large stake.",
+   "vis": {
+    "type": "num",
+    "value": 20000,
+    "label": "Newton's reported loss, often quoted",
+    "color": "red",
+    "emoji": "💷",
+    "prefix": "£",
+    "suffix": "",
+    "source": "Newton and the Mint, University of Oxford (figure debated)"
+   }
+  },
+  {
+   "say": "So how did one of history's greatest minds get caught? Today's lesson is the South Sea Bubble, one of the first great stock market crashes.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "🚢",
+      "The South Sea Company"
+     ],
+     [
+      "📈",
+      "The bubble"
+     ],
+     [
+      "🍎",
+      "Newton's mistake"
+     ],
+     [
+      "💥",
+      "The crash"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. A company with a promise.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "A company with a promise"
+   }
+  },
+  {
+   "say": "The South Sea Company was set up in seventeen eleven. It was given the right to trade with Spain's colonies in South America. That trade included the shipping of enslaved African people, a dark part of its history.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🚢",
+    "text": "The South Sea Company",
+    "sub": "Founded in 1711",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "But the trade never made much money. Britain and Spain were often at war, and the trade was limited. The company's real business turned out to be something else. Government debt.",
+   "vis": {
+    "type": "hook",
+    "text": "Its real business was government debt.",
+    "emoji": "🧾",
+    "hot": [
+     "debt."
+    ]
+   }
+  },
+  {
+   "say": "The company's directors were well connected, with friends in government and Parliament. That would matter a lot.",
+   "vis": {
+    "type": "hook",
+    "text": "The directors had friends in high places.",
+    "emoji": "🎩",
+    "hot": [
+     "friends"
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. The debt swap.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The debt swap"
+   }
+  },
+  {
+   "say": "In seventeen twenty, the company made the government an offer. It would take over a huge chunk of the national debt. People who were owed money by the government could swap their debt for shares in the South Sea Company.",
+   "vis": {
+    "type": "flow",
+    "title": "The debt-for-shares swap",
+    "nodes": [
+     [
+      "🏛️",
+      "Government owes money"
+     ],
+     [
+      "🧾",
+      "Lenders hold government debt"
+     ],
+     [
+      "🔄",
+      "Swap debt for company shares"
+     ],
+     [
+      "📈",
+      "Company shares in demand"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🧾"
+   }
+  },
+  {
+   "say": "The higher the share price, the fewer shares the company needed to give for each pound of debt, and the more it could profit. So the company had a huge incentive to push its share price up.",
+   "vis": {
+    "type": "hook",
+    "text": "It had every reason to push the price up.",
+    "emoji": "⬆️",
+    "hot": [
+     "push"
+    ]
+   }
+  },
+  {
+   "say": "And it did. Rumours spread about fabulous riches from South America. The company let people buy shares in instalments, and even lent them money to buy more shares.",
+   "vis": {
+    "type": "list",
+    "title": "How the price was pumped",
+    "items": [
+     [
+      "🗣️",
+      "Rumours of riches"
+     ],
+     [
+      "💳",
+      "Buy now, pay later"
+     ],
+     [
+      "🏦",
+      "Loans to buy shares"
+     ],
+     [
+      "🤝",
+      "Shares given to influential people"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. The bubble.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The bubble"
+   }
+  },
+  {
+   "say": "The share price soared. From a few hundred pounds early in the year, to around a thousand pounds by the summer of seventeen twenty.",
+   "vis": {
+    "type": "bars",
+    "title": "South Sea share price, 1720",
+    "items": [
+     [
+      "Early 1720",
+      130,
+      "teal"
+     ],
+     [
+      "May",
+      600,
+      "gold"
+     ],
+     [
+      "June",
+      950,
+      "gold"
+     ],
+     [
+      "Peak",
+      1050,
+      "red"
+     ]
+    ],
+    "max": 1100,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Approximate figures, University of Oxford"
+   }
+  },
+  {
+   "say": "Everyone wanted in. Aristocrats, merchants, servants. And because shares were going up, other new companies appeared, some with ridiculous plans, hoping to catch the same wave.",
+   "vis": {
+    "type": "hook",
+    "text": "Everyone wanted in.",
+    "emoji": "🌊",
+    "hot": [
+     "Everyone"
+    ]
+   }
+  },
+  {
+   "say": "In June seventeen twenty, Parliament passed a law, later called the Bubble Act, to restrict new companies being set up without permission. Many historians think it was meant partly to protect the South Sea Company from competition for investors' money.",
+   "vis": {
+    "type": "hook",
+    "text": "A law that helped the bubble's biggest company.",
+    "emoji": "📜",
+    "hot": [
+     "law"
+    ]
+   }
+  },
+  {
+   "say": "One famous example, often quoted, was a company said to be for carrying on an undertaking of great advantage, but nobody to know what it is. Historians aren't sure it really existed. But the fact the story spread says a lot about the mood.",
+   "vis": {
+    "type": "quote",
+    "text": "A company for carrying on an undertaking of great advantage, but nobody to know what it is.",
+    "who": "a famous, possibly legendary, bubble company"
+   }
+  },
+  {
+   "say": "Lesson four. Newton's mistake.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Newton's mistake"
+   }
+  },
+  {
+   "say": "According to the most common version of the story, Newton bought shares early, and sold them for a good profit. Then he watched the price keep rising, and his friends getting richer.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Early Newton",
+     "emoji": "😌",
+     "lines": [
+      "Bought low",
+      "Sold for a profit"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Later Newton",
+     "emoji": "😰",
+     "lines": [
+      "Watched it keep rising",
+      "Bought back in, near the top"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So he bought back in. Much higher this time. Close to the top. And then the price collapsed.",
+   "vis": {
+    "type": "hook",
+    "text": "He bought back in near the top.",
+    "emoji": "📈",
+    "hot": [
+     "top."
+    ]
+   }
+  },
+  {
+   "say": "He's said to have remarked that he could calculate the motions of the heavenly bodies, but not the madness of people. It's a great line, though historians aren't certain he ever said it.",
+   "vis": {
+    "type": "quote",
+    "text": "I can calculate the motions of the heavenly bodies, but not the madness of people.",
+    "who": "attributed to Isaac Newton"
+   }
+  },
+  {
+   "say": "Newton's mistake is one of the most common in investing. Selling too early, feeling foolish as prices keep climbing, then jumping back in at the worst possible moment.",
+   "vis": {
+    "type": "list",
+    "title": "The classic trap",
+    "items": [
+     [
+      "💰",
+      "Take a profit"
+     ],
+     [
+      "😣",
+      "Watch prices keep rising"
+     ],
+     [
+      "🏃",
+      "Jump back in late"
+     ],
+     [
+      "💥",
+      "Get caught in the crash"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. The crash.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The crash"
+   }
+  },
+  {
+   "say": "In the autumn of seventeen twenty, the price crashed. By December, it was around a hundred and twenty pounds. People who'd bought near the top lost almost everything. Some who'd borrowed to buy were ruined.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "June 1720",
+      "Around £1,000"
+     ],
+     [
+      "Late summer",
+      "Falling fast"
+     ],
+     [
+      "Autumn",
+      "Crash"
+     ],
+     [
+      "Dec 1720",
+      "Around £124",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The crash hit people across society. Lords and ladies, merchants, shopkeepers and servants. Some had borrowed money to buy shares. When the price fell, they were left owing far more than they owned.",
+   "vis": {
+    "type": "hook",
+    "text": "Borrowers were left owing more than they owned.",
+    "emoji": "🧾",
+    "hot": [
+     "owing"
+    ]
+   }
+  },
+  {
+   "say": "Parliament investigated. It found bribery and insider dealing. Some company directors were punished, and the Chancellor of the Exchequer, John Aislabie, was sent to the Tower of London.",
+   "vis": {
+    "type": "hook",
+    "text": "The Chancellor was sent to the Tower.",
+    "emoji": "🏰",
+    "hot": [
+     "Tower"
+    ]
+   }
+  },
+  {
+   "say": "Robert Walpole, who became Britain's first prime minister in all but name, helped calm the crisis and restore confidence. The South Sea Company itself carried on for more than a century, mainly managing government debt.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏛️",
+    "text": "Robert Walpole",
+    "sub": "Helped clean up the mess",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Lesson six. What we learned.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What we learned"
+   }
+  },
+  {
+   "say": "Newton's story is the perfect warning about FOMO, the fear of missing out. It isn't about intelligence. It's about emotion.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from the South Sea Bubble",
+    "items": [
+     [
+      "😰",
+      "FOMO beats intelligence"
+     ],
+     [
+      "📈",
+      "Rising prices aren't proof of value"
+     ],
+     [
+      "🏦",
+      "Borrowing to buy makes crashes worse"
+     ],
+     [
+      "🧾",
+      "Ask what the company really earns"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "If Newton could get caught up in a bubble, anyone can. The best protection isn't being clever. It's having a plan, and sticking to it, especially when everyone around you seems to be getting rich.",
+   "vis": {
+    "type": "hook",
+    "text": "Have a plan. Stick to it.",
+    "emoji": "🧭",
+    "hot": [
+     "plan."
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more stories from the history of money, and tell me in the comments which bubble I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which bubble should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "EVEN NEWTON|GOT BURNED",
+  "emoji": "🍎",
+  "color": "gold",
+  "tag": "History"
+ }
+}

@@ -1,0 +1,446 @@
+{
+ "id": "MV051",
+ "style": "collage",
+ "variant": 1,
+ "voice": "am_fenrir",
+ "speed": 0.82,
+ "trans": "slap",
+ "title": "John Law: The Gambler Who Ran France's Money",
+ "beats": [
+  {
+   "say": "Three hundred years ago, a Scottish gambler who'd been sentenced to death for killing a man in a duel ended up in charge of the finances of France, the richest kingdom in Europe. And he nearly broke it.",
+   "vis": {
+    "type": "hook",
+    "text": "A convicted gambler ran France's money.",
+    "emoji": "🎲",
+    "hot": [
+     "gambler"
+    ]
+   }
+  },
+  {
+   "say": "His name was John Law. He invented ideas about money that we still use today. He made people so rich that a new word became popular, millionaire. And then it all came crashing down.",
+   "vis": {
+    "type": "list",
+    "title": "John Law's story",
+    "items": [
+     [
+      "⚔️",
+      "A deadly duel"
+     ],
+     [
+      "🎲",
+      "A professional gambler"
+     ],
+     [
+      "💵",
+      "Paper money for France"
+     ],
+     [
+      "💥",
+      "The Mississippi Bubble"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The gambler.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The gambler"
+   }
+  },
+  {
+   "say": "John Law was born in Edinburgh in sixteen seventy one, the son of a goldsmith and banker. He was brilliant with numbers, and loved gambling, which he was very good at, because he understood probability.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🃏",
+    "text": "John Law",
+    "sub": "Born in Edinburgh, 1671",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In London in the sixteen nineties, he killed a man in a duel. He was sentenced to death. But he escaped from prison and fled to Europe.",
+   "vis": {
+    "type": "hook",
+    "text": "Sentenced to death. Then escaped.",
+    "emoji": "⚔️",
+    "hot": [
+     "escaped."
+    ]
+   }
+  },
+  {
+   "say": "For years, he travelled Europe, gambling and studying how banks and money worked. He came up with a radical idea. Countries didn't need gold and silver coins. They could use paper money instead.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The old way",
+     "emoji": "🪙",
+     "lines": [
+      "Gold and silver coins",
+      "Limited supply"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Law's idea",
+     "emoji": "💵",
+     "lines": [
+      "Paper money",
+      "Backed by a bank"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "He believed that more money in circulation would mean more trade, more business and more wealth. If the government controlled a bank that issued paper notes, the economy could grow.",
+   "vis": {
+    "type": "hook",
+    "text": "More money, more trade. In theory.",
+    "emoji": "📈",
+    "hot": [
+     "theory."
+    ]
+   }
+  },
+  {
+   "say": "Part two. France in trouble.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "France in trouble"
+   }
+  },
+  {
+   "say": "In seventeen fifteen, King Louis the fourteenth died. He left France with enormous debts from decades of wars. The new king was a child, so France was run by a regent, the Duke of Orléans.",
+   "vis": {
+    "type": "icon",
+    "emoji": "👑",
+    "text": "France, 1715",
+    "sub": "Huge debts and a child king",
+    "color": "red"
+   }
+  },
+  {
+   "say": "The Duke needed a miracle. And John Law, a charming Scottish gambler with a plan to fix France's money, offered him one.",
+   "vis": {
+    "type": "hook",
+    "text": "France needed a miracle.",
+    "emoji": "✨",
+    "hot": [
+     "miracle."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The bank.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The bank"
+   }
+  },
+  {
+   "say": "In seventeen sixteen, Law was allowed to set up a bank, the Banque Générale, which issued paper notes. At first it worked well. Paper money was convenient, trade picked up, and confidence grew. In seventeen eighteen, it became the Royal Bank.",
+   "vis": {
+    "type": "flow",
+    "title": "Law's bank",
+    "nodes": [
+     [
+      "🏦",
+      "Banque Générale, 1716"
+     ],
+     [
+      "💵",
+      "Issues paper notes"
+     ],
+     [
+      "📈",
+      "Trade grows"
+     ],
+     [
+      "👑",
+      "Becomes the Royal Bank"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "Part four. The Mississippi Company.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The Mississippi Company"
+   }
+  },
+  {
+   "say": "Next, Law took control of a company with the right to trade with France's huge territory in North America, called Louisiana, around the Mississippi River. It became known as the Mississippi Company.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🗺️",
+    "text": "The Mississippi Company",
+    "sub": "Rights to French Louisiana",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Law even had people recruited, and sometimes forced, to go to Louisiana as settlers, to help make the colony look like a thriving business. The city of New Orleans was founded during this period.",
+   "vis": {
+    "type": "hook",
+    "text": "New Orleans was founded during his scheme.",
+    "emoji": "⚜️",
+    "hot": [
+     "New",
+     "Orleans"
+    ]
+   }
+  },
+  {
+   "say": "Law promised enormous riches from Louisiana. Gold, silver, trade. In reality, much of the territory was swamp and wilderness. But in Paris, people were dreaming.",
+   "vis": {
+    "type": "hook",
+    "text": "Promises of gold. Reality of swamp.",
+    "emoji": "🐊",
+    "hot": [
+     "swamp."
+    ]
+   }
+  },
+  {
+   "say": "Law's company grew and grew. It took over other trading companies, collecting taxes, minting coins, and even France's national debt. People could swap government debt for shares in the company.",
+   "vis": {
+    "type": "list",
+    "title": "The company took over everything",
+    "items": [
+     [
+      "🚢",
+      "Overseas trading companies"
+     ],
+     [
+      "🪙",
+      "The coin mint"
+     ],
+     [
+      "🧾",
+      "Tax collection"
+     ],
+     [
+      "🏛️",
+      "The national debt"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The bubble.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The bubble"
+   }
+  },
+  {
+   "say": "And the shares went wild. They started at around five hundred livres. By early seventeen twenty, they reached around ten thousand.",
+   "vis": {
+    "type": "bars",
+    "title": "Mississippi Company share price",
+    "items": [
+     [
+      "1719 start",
+      500,
+      "teal"
+     ],
+     [
+      "Mid 1719",
+      5000,
+      "gold"
+     ],
+     [
+      "Early 1720",
+      10000,
+      "red"
+     ]
+    ],
+    "max": 11000,
+    "prefix": "",
+    "suffix": " livres",
+    "source": "Approximate historical figures"
+   }
+  },
+  {
+   "say": "Crowds packed into a narrow Paris street, the Rue Quincampoix, to trade shares. Ordinary people became rich overnight. The word millionaire became popular around this time.",
+   "vis": {
+    "type": "hook",
+    "text": "The word 'millionaire' took off.",
+    "emoji": "💰",
+    "hot": [
+     "millionaire"
+    ]
+   }
+  },
+  {
+   "say": "There are stories of a hunchback who rented out his back as a desk for people signing share deals, and of servants who got rich and bought carriages. Whether every story is true or not, Paris had gone wild.",
+   "vis": {
+    "type": "hook",
+    "text": "Paris had gone wild.",
+    "emoji": "🎭",
+    "hot": [
+     "wild."
+    ]
+   }
+  },
+  {
+   "say": "But here's the catch. To keep share prices rising, Law's bank printed more and more paper money, which people used to buy more shares. The money and the shares were feeding each other.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Printing money",
+     "emoji": "🖨️",
+     "lines": [
+      "More paper notes",
+      "Used to buy shares"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Share prices",
+     "emoji": "📈",
+     "lines": [
+      "Rise higher",
+      "Need more money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In January seventeen twenty, Law was made Controller General of Finances, the most powerful money job in France. He was at the very top.",
+   "vis": {
+    "type": "hook",
+    "text": "From death row to the top job.",
+    "emoji": "👑",
+    "hot": [
+     "top"
+    ]
+   }
+  },
+  {
+   "say": "Part six. The crash.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The crash"
+   }
+  },
+  {
+   "say": "Then people started to cash out. They wanted their profits in gold and silver, not paper. Law tried everything. He limited gold. He cut the value of shares and notes. Prices rocketed, and panic spread.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Early 1720",
+      "Shares peak"
+     ],
+     [
+      "Spring 1720",
+      "People want gold"
+     ],
+     [
+      "May 1720",
+      "Notes and shares cut"
+     ],
+     [
+      "Late 1720",
+      "Law flees France",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "By the end of seventeen twenty, the system had collapsed. Paper money lost most of its value. Many people who'd got rich were ruined. Law was dismissed, and fled France.",
+   "vis": {
+    "type": "hook",
+    "text": "The system collapsed.",
+    "emoji": "💥",
+    "hot": [
+     "collapsed."
+    ]
+   }
+  },
+  {
+   "say": "John Law, once one of the richest men in Europe, died in Venice in seventeen twenty nine, poor and mostly forgotten.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🕯️",
+    "text": "Venice, 1729",
+    "sub": "Died poor and largely forgotten",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part seven. The legacy.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "The legacy"
+   }
+  },
+  {
+   "say": "And yet, many of Law's ideas live on. Today, almost every country uses paper and digital money not backed by gold. Central banks manage how much money there is. Law was early, and reckless, but not entirely wrong.",
+   "vis": {
+    "type": "list",
+    "title": "Law's legacy",
+    "items": [
+     [
+      "💵",
+      "Paper money is normal now"
+     ],
+     [
+      "🏦",
+      "Central banks manage money"
+     ],
+     [
+      "🖨️",
+      "Printing too much causes inflation"
+     ],
+     [
+      "📈",
+      "Bubbles can ruin a country"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "His story shows the power of money, and the danger of printing too much of it. When money is created just to keep prices rising, it eventually stops being worth anything at all.",
+   "vis": {
+    "type": "hook",
+    "text": "Print too much, and money stops meaning anything.",
+    "emoji": "🖨️",
+    "hot": [
+     "stops"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories from the history of money, and tell me in the comments who I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Who should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "A GAMBLER|RAN FRANCE'S|MONEY",
+  "emoji": "🎲",
+  "color": "gold",
+  "tag": "History"
+ }
+}

@@ -1,0 +1,431 @@
+{
+ "id": "MV078",
+ "style": "storybook",
+ "voice": "bm_fable",
+ "speed": 0.82,
+ "title": "What £1 Bought You in 1970 vs Today",
+ "beats": [
+  {
+   "say": "Meet Grandad Ron. In nineteen seventy, he was twenty years old. A pound note in his pocket felt like real money. It could buy him a decent night out, or a lunch out with change to spare.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "A whole pound? I'm rich!",
+      "prop": "💷",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Ron in 1970"
+   }
+  },
+  {
+   "say": "So how much would that pound be worth today? According to inflation calculators based on official price data, around twenty pounds.",
+   "vis": {
+    "type": "hook",
+    "text": "£1 in 1970 is about £20 today.",
+    "emoji": "🪙",
+    "hot": [
+     "£20"
+    ]
+   }
+  },
+  {
+   "say": "That's using the Consumer Prices Index as a measure. Different measures give slightly different answers, but they all tell the same story. Prices are many times higher.",
+   "vis": {
+    "type": "hook",
+    "text": "Different measures, the same story.",
+    "emoji": "📊",
+    "hot": [
+     "same"
+    ]
+   }
+  },
+  {
+   "say": "That means prices, on average, are around twenty times higher than they were in nineteen seventy. Average inflation of about five and a half percent a year, compounded over more than fifty years.",
+   "vis": {
+    "type": "num",
+    "value": 20,
+    "label": "times higher prices since 1970, on average",
+    "color": "gold",
+    "emoji": "📈",
+    "prefix": "About ",
+    "suffix": "x",
+    "source": "officialdata.org, based on UK CPI data"
+   }
+  },
+  {
+   "say": "Part one. A different kind of money.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "A different kind of money"
+   }
+  },
+  {
+   "say": "In early nineteen seventy, Ron was still using old money. Pounds, shillings and pence. Twenty shillings in a pound. Decimal money didn't arrive until February nineteen seventy one.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "That's ten bob, please.",
+      "prop": "🪙",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Old money"
+   }
+  },
+  {
+   "say": "There were half crowns, florins, shillings, sixpences and threepenny bits. And people added up prices in their heads, in twelves and twenties.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Two and six, plus a tanner...",
+      "prop": "🧮",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Mental maths"
+   }
+  },
+  {
+   "say": "And the pound note itself was a real note. The pound coin didn't arrive until nineteen eighty three.",
+   "vis": {
+    "type": "hook",
+    "text": "The £1 coin didn't arrive until 1983.",
+    "emoji": "💷",
+    "hot": [
+     "1983."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Why prices rose so much.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why prices rose so much"
+   }
+  },
+  {
+   "say": "You see, the nineteen seventies were a decade of very high inflation in Britain. Oil prices shot up. Wages and prices chased each other upwards. In nineteen seventy five, inflation reached over twenty percent.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "Prices have gone up again?!",
+      "prop": "🛒"
+     }
+    ],
+    "title": "The seventies"
+   },
+   "night": true
+  },
+  {
+   "say": "Prices kept rising, more slowly in later decades. In the nineteen eighties, inflation came down. From the late nineties, the Bank of England targeted low, steady inflation. Then in twenty twenty two, it jumped above ten percent again.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1970s",
+      "Very high inflation"
+     ],
+     [
+      "1975",
+      "Over 20%"
+     ],
+     [
+      "1990s onwards",
+      "Lower, steadier inflation"
+     ],
+     [
+      "2022",
+      "Above 10% again",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Even at a gentle two percent a year, prices double in about thirty five years. At five percent, they double in about fourteen. That's why long periods of inflation have such a big effect.",
+   "vis": {
+    "type": "hook",
+    "text": "At 5%, prices double in about 14 years.",
+    "emoji": "📈",
+    "hot": [
+     "double"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Then and now.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Then and now"
+   }
+  },
+  {
+   "say": "So if prices are twenty times higher, are we all poorer? Not quite. Because wages have gone up too. In fact, over the long run, wages have risen faster than general prices.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "My pay's gone up too!",
+      "prop": "💼"
+     }
+    ],
+    "title": "Wages rose too"
+   }
+  },
+  {
+   "say": "So in many ways, Ron's grandchildren can afford more than Ron could. More clothes, more electronics, cheaper flights, a phone more powerful than the computers that sent people to the moon.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cheaper today (relatively)",
+     "emoji": "📱",
+     "lines": [
+      "Electronics",
+      "Clothes and flights"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Dearer today (relatively)",
+     "emoji": "🏠",
+     "lines": [
+      "Housing",
+      "Childcare and education"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Ron remembers when a colour television was a luxury that families rented, and a phone call abroad was a big expense. Today, both feel almost free.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "We rented our first colour telly!",
+      "prop": "📺",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Luxuries"
+   }
+  },
+  {
+   "say": "But not everything rose at the same speed. Some things have become much more expensive compared with wages. The biggest one is housing.",
+   "vis": {
+    "type": "hook",
+    "text": "Not everything rose at the same speed.",
+    "emoji": "🏠",
+    "hot": [
+     "same"
+    ]
+   }
+  },
+  {
+   "say": "When Ron bought his first house in the early nineteen seventies, it cost a few thousand pounds. A few times his salary. Today, his grandson needs a house costing more than seven times his salary.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "My house cost a few thousand!",
+      "prop": "🏠",
+      "hat": "🎩"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "Mine costs a quarter of a million!",
+      "prop": "🏠"
+     }
+    ],
+    "title": "Housing"
+   }
+  },
+  {
+   "say": "Childcare, university and rent have also risen faster than general prices for many families. These are some of the biggest costs for young people today.",
+   "vis": {
+    "type": "hook",
+    "text": "Childcare and rent rose faster too.",
+    "emoji": "👶",
+    "hot": [
+     "faster"
+    ]
+   }
+  },
+  {
+   "say": "Part four. Why it matters.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why it matters"
+   }
+  },
+  {
+   "say": "If Ron had kept a pound under his mattress since nineteen seventy, today it would still be just one pound. But it would buy only about a twentieth of what it once did.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "sad",
+      "say": "My pound under the mattress lost its value!",
+      "prop": "🛏️",
+      "hat": "🎩"
+     }
+    ],
+    "title": "The mattress"
+   }
+  },
+  {
+   "say": "That's the quiet power of inflation. Money that sits still loses value over time. That's why savings need to earn interest, and long term money is often invested.",
+   "vis": {
+    "type": "hook",
+    "text": "Money that sits still loses value.",
+    "emoji": "🫥",
+    "hot": [
+     "loses"
+    ]
+   }
+  },
+  {
+   "say": "On the other hand, if Ron had borrowed money in nineteen seventy, inflation would have shrunk his debt. A mortgage that felt huge back then would feel small decades later, as his wages grew.",
+   "vis": {
+    "type": "list",
+    "title": "Inflation's winners and losers",
+    "items": [
+     [
+      "😢",
+      "Cash savers lose"
+     ],
+     [
+      "😀",
+      "Borrowers can gain"
+     ],
+     [
+      "🏠",
+      "Homeowners often gained"
+     ],
+     [
+      "👵",
+      "Fixed incomes suffer"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The lesson.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The lesson"
+   }
+  },
+  {
+   "say": "So what would Ron tell his grandchildren? Don't judge prices by how many pounds they cost. Judge them by how many hours of work they cost.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Count in hours, not pounds.",
+      "prop": "⏰",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Ron's advice"
+   }
+  },
+  {
+   "say": "Thinking in hours of work is a powerful way to compare prices across time. It shows why some things feel cheaper now, and why some things, like housing, feel so much harder.",
+   "vis": {
+    "type": "hook",
+    "text": "Measure prices in hours of work.",
+    "emoji": "⏰",
+    "hot": [
+     "hours"
+    ]
+   }
+  },
+  {
+   "say": "Ron's granddaughter worked out that a pint at her local costs her more than half an hour's work. Ron reckons it took him less in nineteen seventy. But her phone costs fewer hours than his first record player did.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Some things cost me more hours. Some less.",
+      "prop": "⏰"
+     },
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Swings and roundabouts.",
+      "prop": "🎡",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Comparing hours"
+   }
+  },
+  {
+   "say": "And remember, the pound in your pocket today will probably buy less in twenty years too. So the earlier you understand inflation, the better you can protect yourself from it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Got it, Grandad!",
+      "prop": "🪙"
+     },
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Good lad.",
+      "prop": "💷",
+      "hat": "🎩"
+     }
+    ],
+    "title": "The lesson"
+   }
+  },
+  {
+   "say": "Subscribe for more stories from the history of money, and tell me in the comments what you remember costing much less.",
+   "vis": {
+    "type": "outro",
+    "text": "What do you remember costing less?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£1 IN 1970|= £20 TODAY",
+  "emoji": "🪙",
+  "color": "gold",
+  "tag": "History"
+ }
+}

@@ -1,0 +1,389 @@
+{
+ "id": "MV081",
+ "style": "neon",
+ "variant": 0,
+ "voice": "bf_isabella",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "The Rent Trap: Why Renting Can Cost More Than a Mortgage",
+ "beats": [
+  {
+   "say": "Millions of renters in Britain pay more each month in rent than a mortgage on the same home would cost. They've proven they can pay. And yet they still can't buy. It's called the rent trap.",
+   "vis": {
+    "type": "hook",
+    "text": "Paying more than a mortgage. Still can't buy.",
+    "emoji": "🔑",
+    "hot": [
+     "Still"
+    ]
+   }
+  },
+  {
+   "say": "In September twenty twenty six, the average private rent in the UK was around one thousand four hundred pounds a month, according to the Office for National Statistics. In England, it was nearly one thousand five hundred.",
+   "vis": {
+    "type": "num",
+    "value": 1406,
+    "label": "average UK private rent per month, Sept 2026",
+    "color": "red",
+    "emoji": "🏘️",
+    "prefix": "£",
+    "suffix": "",
+    "source": "ONS, Price Index of Private Rents"
+   }
+  },
+  {
+   "say": "Part one. Rent versus mortgage.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Rent versus mortgage"
+   }
+  },
+  {
+   "say": "Here's an illustration. Take a home costing two hundred and fifty thousand pounds. With a ten percent deposit and a mortgage at around four and a half percent over thirty years, repayments would be roughly one thousand one hundred and forty pounds a month. Renting a similar home could easily cost more.",
+   "vis": {
+    "type": "bars",
+    "title": "Monthly cost, illustrative",
+    "items": [
+     [
+      "Mortgage repayment",
+      1140,
+      "teal"
+     ],
+     [
+      "Typical rent",
+      1406,
+      "red"
+     ]
+    ],
+    "max": 1500,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Illustrative mortgage calculation; ONS average rent"
+   }
+  },
+  {
+   "say": "And with a repayment mortgage, part of every payment builds up ownership of the home. With rent, it's gone forever.",
+   "vis": {
+    "type": "hook",
+    "text": "Mortgage payments build ownership. Rent doesn't.",
+    "emoji": "🧱",
+    "hot": [
+     "ownership."
+    ]
+   }
+  },
+  {
+   "say": "Owners also gain if house prices rise over time, while renters' payments go entirely to the landlord. On the other hand, owners pay for repairs, insurance and maintenance.",
+   "vis": {
+    "type": "hook",
+    "text": "Owners pay for repairs too.",
+    "emoji": "🔧",
+    "hot": [
+     "repairs"
+    ]
+   }
+  },
+  {
+   "say": "Part two. The deposit wall.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The deposit wall"
+   }
+  },
+  {
+   "say": "So why can't renters just switch? The biggest barrier is the deposit. Even a ten percent deposit on a two hundred and fifty thousand pound home is twenty five thousand pounds, plus fees and moving costs.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What's needed",
+     "emoji": "🧱",
+     "lines": [
+      "£25,000 deposit",
+      "Plus fees"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What renters have",
+     "emoji": "🫥",
+     "lines": [
+      "Little left to save",
+      "After rent and bills"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Here's the trap. High rent makes it hard to save. Without savings, you can't get a deposit. Without a deposit, you keep renting. And rent keeps rising.",
+   "vis": {
+    "type": "flow",
+    "title": "The rent trap",
+    "nodes": [
+     [
+      "🏘️",
+      "High rent"
+     ],
+     [
+      "💸",
+      "Little left to save"
+     ],
+     [
+      "🧱",
+      "No deposit"
+     ],
+     [
+      "🔁",
+      "Keep renting"
+     ]
+    ],
+    "color": "red",
+    "coin": "🔑"
+   }
+  },
+  {
+   "say": "Saving even two hundred pounds a month would take over ten years to reach a twenty five thousand pound deposit, without interest. And by then, prices may have risen again.",
+   "vis": {
+    "type": "hook",
+    "text": "£200 a month takes over ten years.",
+    "emoji": "⏳",
+    "hot": [
+     "ten",
+     "years."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The affordability test.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The affordability test"
+   }
+  },
+  {
+   "say": "There's another problem. Lenders check whether you can afford the mortgage, including whether you could still pay if interest rates rose. They usually limit how much you can borrow to a multiple of your income, often around four and a half times.",
+   "vis": {
+    "type": "hook",
+    "text": "Lenders limit borrowing to a multiple of income.",
+    "emoji": "📏",
+    "hot": [
+     "multiple"
+    ]
+   }
+  },
+  {
+   "say": "So someone earning thirty thousand pounds could typically borrow around one hundred and thirty five thousand. That may not be enough to buy a home in many areas, even if they could afford the monthly payments.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "They could pay",
+     "emoji": "✅",
+     "lines": [
+      "The monthly cost",
+      "As proven by rent"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "They can't borrow",
+     "emoji": "❌",
+     "lines": [
+      "Enough for a home",
+      "Because of income limits"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Strangely, your years of paying high rent on time haven't always counted in the way you'd expect. That's why some campaigners and lenders have pushed for rent payment history to count more, and some lenders now offer mortgages that take it into account.",
+   "vis": {
+    "type": "list",
+    "title": "Changes in the market",
+    "items": [
+     [
+      "🧾",
+      "Rent history can count more"
+     ],
+     [
+      "🏦",
+      "Some low deposit mortgages"
+     ],
+     [
+      "🏛️",
+      "Government-backed schemes"
+     ],
+     [
+      "👥",
+      "Joint and family mortgages"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. Why rents are so high.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why rents are so high"
+   }
+  },
+  {
+   "say": "Rents have been pushed up by high demand and limited supply. Not enough homes being built. Some landlords selling up. Higher mortgage rates for landlords being passed on. And strong demand in cities.",
+   "vis": {
+    "type": "list",
+    "title": "Why rents rose",
+    "items": [
+     [
+      "🏗️",
+      "Not enough homes"
+     ],
+     [
+      "🏘️",
+      "Some landlords leaving"
+     ],
+     [
+      "🏦",
+      "Higher landlord costs"
+     ],
+     [
+      "🏙️",
+      "Strong city demand"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In England, new rules for renters are also changing the market, including ending no fault evictions. Supporters say it gives tenants more security. Some landlords say it may push them to sell up.",
+   "vis": {
+    "type": "hook",
+    "text": "New renters' rights are changing the market.",
+    "emoji": "📜",
+    "hot": [
+     "rights"
+    ]
+   }
+  },
+  {
+   "say": "In London, the average rent was over two thousand three hundred pounds a month in twenty twenty six. For many young Londoners, that's more than half their take home pay.",
+   "vis": {
+    "type": "hook",
+    "text": "London: over £2,300 a month.",
+    "emoji": "🏙️",
+    "hot": [
+     "£2,300"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Ways out of the trap.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Ways out of the trap"
+   }
+  },
+  {
+   "say": "It's hard, but there are some routes people use. This is general information, not personal advice. A Lifetime ISA adds a twenty five percent government bonus to savings for a first home, up to a yearly limit. Shared ownership lets you buy part of a home. And some lenders offer five percent deposit mortgages.",
+   "vis": {
+    "type": "list",
+    "title": "Possible routes",
+    "items": [
+     [
+      "🏠",
+      "Lifetime ISA bonus"
+     ],
+     [
+      "🧩",
+      "Shared ownership"
+     ],
+     [
+      "🏦",
+      "5% deposit mortgages"
+     ],
+     [
+      "📍",
+      "Buying in cheaper areas"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Each route has trade offs. Shared ownership comes with rent on the part you don't own, and service charges. Small deposits mean bigger loans and higher interest. And a Lifetime ISA has a penalty if you withdraw for other reasons.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The help",
+     "emoji": "🛟",
+     "lines": [
+      "Bonus or lower deposit",
+      "A way in"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The catch",
+     "emoji": "⚠️",
+     "lines": [
+      "Extra costs or rules",
+      "Read the small print"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Small things help too. Living with friends to cut rent. Being on the electoral roll and building a clean credit history. Saving automatically on payday. And making sure you understand your rights as a tenant.",
+   "vis": {
+    "type": "list",
+    "title": "Small steps",
+    "items": [
+     [
+      "👥",
+      "Share to cut costs"
+     ],
+     [
+      "📊",
+      "Build your credit file"
+     ],
+     [
+      "🤖",
+      "Automate saving"
+     ],
+     [
+      "📜",
+      "Know your tenant rights"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The rent trap is real, and it's not about people being bad with money. But understanding how it works is the first step to finding a way out.",
+   "vis": {
+    "type": "hook",
+    "text": "It's not about being bad with money.",
+    "emoji": "🔑",
+    "hot": [
+     "not"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments whether you're renting, saving, or already out of the rent trap.",
+   "vis": {
+    "type": "outro",
+    "text": "Are you stuck in the rent trap?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "RENT MORE.|STILL CAN'T|BUY.",
+  "emoji": "🔑",
+  "color": "red",
+  "tag": "Living"
+ }
+}

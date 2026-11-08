@@ -1,0 +1,468 @@
+{
+ "id": "MV077",
+ "style": "bold",
+ "variant": 2,
+ "voice": "af_bella",
+ "speed": 0.82,
+ "trans": "cut",
+ "title": "Every Basic Thing Gen Z Got Priced Out Of",
+ "beats": [
+  {
+   "say": "Buying a home in your twenties. Renting somewhere on your own. Learning to drive. Going to university without a giant debt. For many of your parents, these were normal parts of growing up. For millions of young Brits today, they feel out of reach.",
+   "vis": {
+    "type": "hook",
+    "text": "The normal milestones, now out of reach.",
+    "emoji": "😩",
+    "hot": [
+     "out",
+     "of",
+     "reach."
+    ]
+   }
+  },
+  {
+   "say": "This isn't about avocado toast or too many coffees. Let's look at the actual numbers, and how much harder the basics have become.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll look at",
+    "items": [
+     [
+      "🏠",
+      "Buying a home"
+     ],
+     [
+      "🏘️",
+      "Renting"
+     ],
+     [
+      "🎓",
+      "University"
+     ],
+     [
+      "🚗",
+      "Driving"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Number one. Buying a home.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Buying a home"
+   }
+  },
+  {
+   "say": "In the late nineteen nineties, a typical home in England cost around three and a half to four times a typical salary. By twenty twenty five, it was around seven point six times.",
+   "vis": {
+    "type": "bars",
+    "title": "House price to earnings, England",
+    "items": [
+     [
+      "Late 1990s",
+      3.6,
+      "teal"
+     ],
+     [
+      "2025",
+      7.6,
+      "red"
+     ]
+    ],
+    "max": 8.5,
+    "prefix": "",
+    "suffix": "x",
+    "source": "ONS (late 1990s approximate)",
+    "dec": 1
+   }
+  },
+  {
+   "say": "The average age of a first time buyer in England has risen from about twenty nine in the mid nineteen nineties, to about thirty four today.",
+   "vis": {
+    "type": "num",
+    "value": 34,
+    "label": "average age of a first-time buyer in England",
+    "color": "red",
+    "emoji": "🏠",
+    "prefix": "",
+    "suffix": "",
+    "source": "Skipton Group analysis, via GB News"
+   }
+  },
+  {
+   "say": "Back in the nineties, nearly a quarter of first time buyers were under twenty five. Today, it's around six percent.",
+   "vis": {
+    "type": "hook",
+    "text": "Under-25 buyers: from a quarter to 6%.",
+    "emoji": "📉",
+    "hot": [
+     "6%."
+    ]
+   }
+  },
+  {
+   "say": "And the deposit is a mountain. On average, first time buyers now need a deposit worth more than a whole year's salary. Nearly one in three get help from family.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Then",
+     "emoji": "🏡",
+     "lines": [
+      "Smaller deposits",
+      "One salary often enough"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Now",
+     "emoji": "🧗",
+     "lines": [
+      "Deposit > a year's pay",
+      "Often two incomes needed"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "More than half of buyers now rely on two full time salaries to get a mortgage. And more than half take mortgages lasting thirty years or more, meaning many will still be paying in their sixties.",
+   "vis": {
+    "type": "hook",
+    "text": "Two incomes and thirty-year mortgages.",
+    "emoji": "👫",
+    "hot": [
+     "thirty-year"
+    ]
+   }
+  },
+  {
+   "say": "Number two. Renting.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Renting"
+   }
+  },
+  {
+   "say": "If you can't buy, you rent. The average private rent in the UK reached around one thousand four hundred pounds a month in twenty twenty six. In London, it was over two thousand three hundred.",
+   "vis": {
+    "type": "num",
+    "value": 1406,
+    "label": "average UK private rent per month, Sept 2026",
+    "color": "red",
+    "emoji": "🏘️",
+    "prefix": "£",
+    "suffix": "",
+    "source": "ONS, Price Index of Private Rents"
+   }
+  },
+  {
+   "say": "For a young person earning an average starting salary, rent alone can eat up close to half of their take home pay. That leaves very little to save for a deposit.",
+   "vis": {
+    "type": "hook",
+    "text": "Rent can swallow half your pay.",
+    "emoji": "🍽️",
+    "hot": [
+     "half"
+    ]
+   }
+  },
+  {
+   "say": "And renting comes with less security. Moves can be forced by landlords selling up, and every move means new deposits, fees and costs.",
+   "vis": {
+    "type": "hook",
+    "text": "Renting often means less security.",
+    "emoji": "📦",
+    "hot": [
+     "security."
+    ]
+   }
+  },
+  {
+   "say": "So many young adults are living with their parents for longer, house sharing into their thirties, or spending far more of their income on housing than previous generations did at the same age.",
+   "vis": {
+    "type": "list",
+    "title": "How people are coping",
+    "items": [
+     [
+      "🏠",
+      "Living with parents longer"
+     ],
+     [
+      "👥",
+      "House-sharing into their 30s"
+     ],
+     [
+      "💸",
+      "Paying more of their income"
+     ],
+     [
+      "⏳",
+      "Delaying families"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Number three. University.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "University"
+   }
+  },
+  {
+   "say": "Before nineteen ninety eight, university tuition in England was free. Fees were introduced at one thousand pounds a year, then rose to three thousand, then nine thousand. Today they're over nine and a half thousand pounds a year.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Before 1998",
+     "emoji": "🎓",
+     "lines": [
+      "No tuition fees",
+      "Maintenance grants"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Today",
+     "emoji": "🧾",
+     "lines": [
+      "Over £9,500 a year",
+      "Loans for living costs"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Many graduates finish with student loan balances of forty to fifty thousand pounds or more. It works more like a graduate tax than a normal debt, but it still takes a slice of every pay packet above the threshold for decades.",
+   "vis": {
+    "type": "hook",
+    "text": "A slice of your pay, for decades.",
+    "emoji": "🍰",
+    "hot": [
+     "decades."
+    ]
+   }
+  },
+  {
+   "say": "For students starting from twenty twenty three in England, repayments are nine percent of earnings above the threshold, and the loan is written off after forty years. That means many will be repaying for most of their working lives.",
+   "vis": {
+    "type": "list",
+    "title": "Plan 5 student loans",
+    "items": [
+     [
+      "💷",
+      "9% above the threshold"
+     ],
+     [
+      "📅",
+      "Written off after 40 years"
+     ],
+     [
+      "⏳",
+      "Repaying for decades"
+     ],
+     [
+      "🧾",
+      "Works like a graduate tax"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Number four. Driving.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Driving"
+   }
+  },
+  {
+   "say": "Learning to drive has become expensive too. Lessons, the theory and practical tests, long waiting lists for tests, then the car itself. And car insurance for young drivers can cost thousands of pounds a year.",
+   "vis": {
+    "type": "list",
+    "title": "The cost of driving",
+    "items": [
+     [
+      "🚗",
+      "Lessons and tests"
+     ],
+     [
+      "⏳",
+      "Long test waits"
+     ],
+     [
+      "🛡️",
+      "Insurance in the thousands"
+     ],
+     [
+      "⛽",
+      "Fuel and running costs"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "As a result, fewer young people are learning to drive than in the past. For those outside big cities, that can limit where they can work.",
+   "vis": {
+    "type": "hook",
+    "text": "No car can mean fewer job options.",
+    "emoji": "🚌",
+    "hot": [
+     "fewer"
+    ]
+   }
+  },
+  {
+   "say": "For young drivers, insurance often costs more than the car is worth, especially in the first year after passing the test.",
+   "vis": {
+    "type": "hook",
+    "text": "Insurance can cost more than the car.",
+    "emoji": "🛡️",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "Number five. Everything else.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Everything else"
+   }
+  },
+  {
+   "say": "Then there's everything else. Energy bills jumped sharply in twenty twenty two. Food prices rose at the fastest rate in decades. And childcare in the UK is among the most expensive in the developed world.",
+   "vis": {
+    "type": "list",
+    "title": "The cost of living",
+    "items": [
+     [
+      "⚡",
+      "Energy bills"
+     ],
+     [
+      "🛒",
+      "Food prices"
+     ],
+     [
+      "👶",
+      "Childcare"
+     ],
+     [
+      "📱",
+      "Bills and subscriptions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Meanwhile, wages have grown more slowly than in previous generations. After the two thousand and eight crash, real wages in the UK took many years just to get back to where they were.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Costs",
+     "emoji": "📈",
+     "lines": [
+      "Housing up sharply",
+      "Bills up sharply"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Wages",
+     "emoji": "🐢",
+     "lines": [
+      "Slow growth",
+      "Years of stagnation"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Economists at the Resolution Foundation and elsewhere have warned that, for the first time in a long while, many young people may not end up better off than their parents were at the same age.",
+   "vis": {
+    "type": "hook",
+    "text": "Not better off than their parents?",
+    "emoji": "🤔",
+    "hot": [
+     "parents?"
+    ]
+   }
+  },
+  {
+   "say": "So what can you do?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What can you do?"
+   }
+  },
+  {
+   "say": "None of this is your fault. But some things can help. Using a Lifetime ISA if you're saving for a first home, which comes with a government bonus. Making sure you're in your workplace pension. Building skills that raise your earning power. And avoiding high interest debt.",
+   "vis": {
+    "type": "list",
+    "title": "Things that can help",
+    "items": [
+     [
+      "🏠",
+      "Lifetime ISA for a first home"
+     ],
+     [
+      "👵",
+      "Stay in your workplace pension"
+     ],
+     [
+      "📈",
+      "Grow your skills and pay"
+     ],
+     [
+      "💳",
+      "Avoid expensive debt"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "There are reasons for hope, too. Young people today often have more education, more digital skills, and more ways to earn online than any generation before.",
+   "vis": {
+    "type": "hook",
+    "text": "More skills and more ways to earn.",
+    "emoji": "💡",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "The basics really have become harder to reach. But understanding the numbers is the first step to building a plan, and to having an informed opinion about how things could change.",
+   "vis": {
+    "type": "hook",
+    "text": "Understand the numbers. Then make a plan.",
+    "emoji": "🧭",
+    "hot": [
+     "plan."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments which milestone feels furthest away for you.",
+   "vis": {
+    "type": "outro",
+    "text": "Which milestone feels furthest away?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "PRICED|OUT",
+  "emoji": "😩",
+  "color": "red",
+  "tag": "Living"
+ }
+}

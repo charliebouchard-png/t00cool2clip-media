@@ -1,0 +1,439 @@
+{
+ "id": "MV080",
+ "style": "chalk",
+ "variant": 1,
+ "voice": "af_sarah",
+ "speed": 0.82,
+ "trans": "fade",
+ "title": "Shrinkflation: Why Your Snacks Got Smaller",
+ "beats": [
+  {
+   "say": "Have you ever opened a multipack and thought, wasn't there one more in here? You're probably right. It's called shrinkflation. The price stays the same, or even goes up, but you get less.",
+   "vis": {
+    "type": "hook",
+    "text": "Same price. Less snack.",
+    "emoji": "🍫",
+    "hot": [
+     "Less"
+    ]
+   }
+  },
+  {
+   "say": "Today's lesson is how shrinkflation works, why companies do it, some real examples, and how to spot it before you pay.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "📏",
+      "What shrinkflation is"
+     ],
+     [
+      "🤔",
+      "Why companies do it"
+     ],
+     [
+      "🧾",
+      "Real examples"
+     ],
+     [
+      "🔍",
+      "How to spot it"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. What is shrinkflation?",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What is shrinkflation?"
+   }
+  },
+  {
+   "say": "Shrinkflation is when a product gets smaller, but the price doesn't fall to match. So you're paying more per gram, per biscuit or per millilitre, even though the price tag looks the same.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What you see",
+     "emoji": "🏷️",
+     "lines": [
+      "Same price tag",
+      "Same packaging"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What you get",
+     "emoji": "📉",
+     "lines": [
+      "Fewer grams",
+      "Higher price per gram"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It's a hidden price rise. And it works, because most of us notice the price far more than the size.",
+   "vis": {
+    "type": "hook",
+    "text": "A hidden price rise.",
+    "emoji": "🕵️",
+    "hot": [
+     "hidden"
+    ]
+   }
+  },
+  {
+   "say": "The Office for National Statistics has studied shrinkflation before. In one analysis, it found that thousands of products had shrunk over a few years, with sweets, crisps and toilet roll among the examples.",
+   "vis": {
+    "type": "list",
+    "title": "Shrinkflation is widespread",
+    "items": [
+     [
+      "🍬",
+      "Sweets and chocolate"
+     ],
+     [
+      "🥔",
+      "Crisps"
+     ],
+     [
+      "🧻",
+      "Toilet roll"
+     ],
+     [
+      "🧴",
+      "Toiletries"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. Why do companies do it?",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why companies do it"
+   }
+  },
+  {
+   "say": "When costs go up, like ingredients, packaging, energy and wages, companies have a few choices. Raise the price. Make the product cheaper to make. Or make the pack smaller. Shrinking is often the least noticeable option.",
+   "vis": {
+    "type": "list",
+    "title": "A company's choices",
+    "items": [
+     [
+      "🏷️",
+      "Raise the price"
+     ],
+     [
+      "🧪",
+      "Use cheaper ingredients"
+     ],
+     [
+      "📏",
+      "Make it smaller"
+     ],
+     [
+      "📉",
+      "Accept lower profits"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "There's also psychology. Prices like one pound, or two pounds, feel important. Companies may prefer to keep a familiar price point and shrink what's inside.",
+   "vis": {
+    "type": "hook",
+    "text": "Familiar price points feel safe.",
+    "emoji": "🧠",
+    "hot": [
+     "safe."
+    ]
+   }
+  },
+  {
+   "say": "Companies also know that small changes are hard to spot. Taking a few grams off a bar, or one biscuit out of a pack, rarely makes the news, unless someone is checking.",
+   "vis": {
+    "type": "hook",
+    "text": "Small changes are hard to spot.",
+    "emoji": "🔎",
+    "hot": [
+     "hard"
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. Real examples.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Real examples"
+   }
+  },
+  {
+   "say": "The consumer group Which? has tracked many examples. In twenty twenty five, it reported that a tub of Quality Street shrank from six hundred grams to five hundred and fifty. And some Cadbury Freddo and Fudge multipacks went from five bars to four.",
+   "vis": {
+    "type": "doc",
+    "title": "Shrinkflation spotted by Which?, 2025",
+    "lines": [
+     [
+      "Quality Street tub",
+      "600g to 550g"
+     ],
+     [
+      "Freddo multipack",
+      "5 to 4 bars"
+     ],
+     [
+      "Fudge multipack",
+      "5 to 4 bars"
+     ],
+     [
+      "Kit Kat multipack",
+      "21 to 18 bars"
+     ]
+    ],
+    "stamp": "SHRUNK",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "It isn't just snacks. Which? also reported a popular toothpaste going from one hundred millilitres to seventy five, and a supermarket's own brand oats halving in size from one kilo to five hundred grams.",
+   "vis": {
+    "type": "hook",
+    "text": "Toothpaste and oats shrank too.",
+    "emoji": "🪥",
+    "hot": [
+     "shrank"
+    ]
+   }
+  },
+  {
+   "say": "One of the most famous examples was Toblerone. In twenty sixteen, some bars in the UK were changed to have bigger gaps between the triangles, using less chocolate. It caused a huge public reaction.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🔺",
+    "text": "The Toblerone gaps",
+    "sub": "Fewer triangles, bigger gaps, 2016",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Years later, the bar's design changed again, and the full triangles came back for some sizes, but at a different weight and price. Shrinkflation stories often have a few twists.",
+   "vis": {
+    "type": "hook",
+    "text": "The triangles came back, eventually.",
+    "emoji": "🔺",
+    "hot": [
+     "back,"
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. Skimpflation.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Skimpflation"
+   }
+  },
+  {
+   "say": "There's a cousin of shrinkflation, sometimes called skimpflation. That's when the size stays the same, but the ingredients get cheaper.",
+   "vis": {
+    "type": "hook",
+    "text": "Skimpflation: same size, cheaper recipe.",
+    "emoji": "🧪",
+    "hot": [
+     "cheaper"
+    ]
+   }
+  },
+  {
+   "say": "Which? found that some well known biscuits changed their recipes to use less cocoa and more vegetable oils, so they could no longer legally be called chocolate biscuits. They were described as chocolate flavour instead.",
+   "vis": {
+    "type": "list",
+    "title": "Signs of skimpflation",
+    "items": [
+     [
+      "🍫",
+      "'Chocolate' becomes 'chocolate flavour'"
+     ],
+     [
+      "🧈",
+      "More vegetable oil, less cocoa"
+     ],
+     [
+      "📜",
+      "Changes in the ingredients list"
+     ],
+     [
+      "😕",
+      "Tastes slightly different"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Companies say these changes are needed to keep products affordable when costs rise. Critics say shoppers deserve to be told clearly when a product changes.",
+   "vis": {
+    "type": "hook",
+    "text": "Shoppers deserve to be told.",
+    "emoji": "📢",
+    "hot": [
+     "told."
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. How to spot it.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "How to spot it"
+   }
+  },
+  {
+   "say": "The best weapon is the unit price. Supermarket shelf labels usually show the price per hundred grams, per kilo or per item. That tells you what you're really paying, whatever the pack size.",
+   "vis": {
+    "type": "flow",
+    "title": "Using the unit price",
+    "nodes": [
+     [
+      "🏷️",
+      "Find the shelf label"
+     ],
+     [
+      "🔍",
+      "Look for price per 100g"
+     ],
+     [
+      "⚖️",
+      "Compare products and sizes"
+     ],
+     [
+      "✅",
+      "Buy the best value"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🏷️"
+   }
+  },
+  {
+   "say": "Bigger packs aren't always cheaper per gram, either. Sometimes multipacks or deals cost more per unit than buying a single larger item. The unit price cuts through the marketing.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The marketing",
+     "emoji": "📣",
+     "lines": [
+      "Big pack",
+      "Special offer"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The unit price",
+     "emoji": "🧮",
+     "lines": [
+      "Real cost per gram",
+      "No tricks"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Here's an example. A single big bar might cost two pounds for two hundred grams, which is a pound per hundred grams. A multipack might cost the same two pounds for one hundred and fifty grams. That's about one pound thirty three per hundred grams. The multipack is a third more expensive.",
+   "vis": {
+    "type": "doc",
+    "title": "Comparing value",
+    "lines": [
+     [
+      "Big bar",
+      "£2 for 200g"
+     ],
+     [
+      "Per 100g",
+      "£1.00"
+     ],
+     [
+      "Multipack",
+      "£2 for 150g"
+     ],
+     [
+      "Per 100g",
+      "£1.33"
+     ]
+    ],
+    "stamp": "COMPARE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Other tips. Check the weight on the pack when you buy something regularly. Compare supermarket own brands, which are often cheaper per gram. And use price comparison apps or websites.",
+   "vis": {
+    "type": "list",
+    "title": "More tips",
+    "items": [
+     [
+      "⚖️",
+      "Check the weight"
+     ],
+     [
+      "🏪",
+      "Try own brands"
+     ],
+     [
+      "📱",
+      "Use comparison tools"
+     ],
+     [
+      "📝",
+      "Notice what you buy often"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Shrinkflation isn't illegal, as long as the pack shows the correct size. But many people think it should be made more obvious, and some countries have introduced rules requiring shops to flag it.",
+   "vis": {
+    "type": "hook",
+    "text": "Legal, but often hard to notice.",
+    "emoji": "⚖️",
+    "hot": [
+     "Legal,"
+    ]
+   }
+  },
+  {
+   "say": "So next time your favourite snack seems to disappear faster than it used to, check the label. It might not be your imagination. It might be shrinkflation.",
+   "vis": {
+    "type": "hook",
+    "text": "Check the label. It might be shrinkflation.",
+    "emoji": "🔍",
+    "hot": [
+     "shrinkflation."
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more money explained simply, and tell me in the comments which product you think has shrunk the most.",
+   "vis": {
+    "type": "outro",
+    "text": "Which product shrank the most?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "SAME PRICE.|LESS SNACK.",
+  "emoji": "🍫",
+  "color": "gold",
+  "tag": "Living"
+ }
+}

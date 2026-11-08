@@ -1,0 +1,419 @@
+{
+ "id": "MV079",
+ "style": "collage",
+ "variant": 0,
+ "voice": "am_michael",
+ "speed": 0.82,
+ "trans": "slap",
+ "title": "Why Fast Food Got So Expensive",
+ "beats": [
+  {
+   "say": "Fast food used to be the cheap option. A burger and chips for a few quid. Today, a meal for two at a fast food chain can cost about the same as a sit down restaurant once did. So what happened?",
+   "vis": {
+    "type": "hook",
+    "text": "Fast food isn't cheap anymore.",
+    "emoji": "🍔",
+    "hot": [
+     "isn't"
+    ]
+   }
+  },
+  {
+   "say": "It's not just greed, and it's not just one thing. Let's break down what goes into the price of your burger, and why each part got more expensive.",
+   "vis": {
+    "type": "list",
+    "title": "What's in the price",
+    "items": [
+     [
+      "🥩",
+      "Ingredients"
+     ],
+     [
+      "👷",
+      "Wages"
+     ],
+     [
+      "⚡",
+      "Energy"
+     ],
+     [
+      "🏢",
+      "Rent and taxes"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The cheeseburger test.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The cheeseburger test"
+   }
+  },
+  {
+   "say": "For years, McDonald's in the UK sold a cheeseburger for ninety nine pence. In twenty twenty two, that changed for the first time in around fourteen years, rising to one pound nineteen. It became a symbol of the cost of living crisis.",
+   "vis": {
+    "type": "hook",
+    "text": "The 99p cheeseburger era ended in 2022.",
+    "emoji": "🧀",
+    "hot": [
+     "ended"
+    ]
+   }
+  },
+  {
+   "say": "Other chains raised prices too. Meal deals crept up, and the cheapest menu items disappeared or shrank. Value menus became less valuable.",
+   "vis": {
+    "type": "hook",
+    "text": "Value menus became less valuable.",
+    "emoji": "🏷️",
+    "hot": [
+     "less"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Ingredients.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Ingredients"
+   }
+  },
+  {
+   "say": "First, food itself got much more expensive. In March twenty twenty three, UK food price inflation hit around nineteen percent, the highest in about forty five years.",
+   "vis": {
+    "type": "num",
+    "value": 19.2,
+    "label": "UK food inflation, March 2023",
+    "color": "red",
+    "emoji": "🛒",
+    "prefix": "",
+    "suffix": "%",
+    "dec": 1,
+    "source": "ONS, via news reports, 2023"
+   }
+  },
+  {
+   "say": "Why? The war in Ukraine pushed up prices of wheat, cooking oil and fertiliser. Energy costs for farmers and food factories rose. Bad harvests and bird flu hit supplies. And the weak pound made imports more expensive.",
+   "vis": {
+    "type": "list",
+    "title": "Why food got pricier",
+    "items": [
+     [
+      "🌾",
+      "Wheat and oil prices"
+     ],
+     [
+      "🧪",
+      "Fertiliser costs"
+     ],
+     [
+      "⚡",
+      "Energy for farms and factories"
+     ],
+     [
+      "💷",
+      "A weaker pound"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Even after food inflation slowed, prices didn't fall back. Slower inflation means prices rise more slowly, not that they go back down.",
+   "vis": {
+    "type": "hook",
+    "text": "Slower inflation doesn't mean lower prices.",
+    "emoji": "📈",
+    "hot": [
+     "lower"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Wages.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Wages"
+   }
+  },
+  {
+   "say": "Fast food restaurants employ lots of staff, often on or near the minimum wage. The National Living Wage has risen sharply in recent years. That's good news for workers, but it raises costs for restaurants.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "For workers",
+     "emoji": "😀",
+     "lines": [
+      "Higher minimum pay",
+      "Better living standards"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "For restaurants",
+     "emoji": "😬",
+     "lines": [
+      "Higher wage bills",
+      "Passed on in prices"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The National Living Wage for adults rose to over twelve pounds an hour in twenty twenty five, a big jump from under nine pounds just a few years earlier.",
+   "vis": {
+    "type": "num",
+    "value": 12.21,
+    "label": "National Living Wage per hour, April 2025",
+    "color": "gold",
+    "emoji": "👷",
+    "prefix": "£",
+    "suffix": "",
+    "dec": 2,
+    "source": "UK government"
+   }
+  },
+  {
+   "say": "Employers' National Insurance contributions also went up in twenty twenty five. For businesses with many staff, those changes added up to a big extra cost.",
+   "vis": {
+    "type": "hook",
+    "text": "Higher employer taxes added to costs.",
+    "emoji": "🧾",
+    "hot": [
+     "costs."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Energy and rent.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Energy and rent"
+   }
+  },
+  {
+   "say": "Fryers, grills, fridges and freezers use huge amounts of energy, all day, every day. When business energy prices soared in twenty twenty two, kitchens were hit hard. And high street rents and business rates add more.",
+   "vis": {
+    "type": "list",
+    "title": "Running costs",
+    "items": [
+     [
+      "🔥",
+      "Fryers and grills"
+     ],
+     [
+      "❄️",
+      "Fridges and freezers"
+     ],
+     [
+      "🏢",
+      "Rent"
+     ],
+     [
+      "🧾",
+      "Business rates"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Packaging got more expensive too. Paper bags, cups and boxes all rose in price, and rules to cut plastic meant switching to alternatives that sometimes cost more.",
+   "vis": {
+    "type": "hook",
+    "text": "Even packaging got pricier.",
+    "emoji": "🥤",
+    "hot": [
+     "packaging"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The delivery effect.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The delivery effect"
+   }
+  },
+  {
+   "say": "Then there's delivery. When you order through an app, the restaurant typically pays the platform a commission, which can be a big percentage of the order. Many restaurants charge more on apps to cover it. Then you often pay delivery and service fees on top.",
+   "vis": {
+    "type": "flow",
+    "title": "Where delivery money goes",
+    "nodes": [
+     [
+      "📱",
+      "You order on an app"
+     ],
+     [
+      "🏪",
+      "Restaurant pays commission"
+     ],
+     [
+      "🛵",
+      "Delivery and service fees"
+     ],
+     [
+      "💸",
+      "You pay more"
+     ]
+    ],
+    "color": "red",
+    "coin": "🍔"
+   }
+  },
+  {
+   "say": "That's why the same meal can cost noticeably more on a delivery app than at the counter. Convenience has a price.",
+   "vis": {
+    "type": "hook",
+    "text": "Convenience has a price.",
+    "emoji": "🛵",
+    "hot": [
+     "price."
+    ]
+   }
+  },
+  {
+   "say": "Delivery apps have also changed habits. People order more often, from more places, with fees added each time. A few takeaways a week can add up to thousands of pounds a year.",
+   "vis": {
+    "type": "list",
+    "title": "The hidden cost of habit",
+    "items": [
+     [
+      "📱",
+      "Easy ordering"
+     ],
+     [
+      "🛵",
+      "Fees every time"
+     ],
+     [
+      "🔁",
+      "More frequent orders"
+     ],
+     [
+      "💸",
+      "Thousands a year"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. Is it just greed?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Is it just greed?"
+   }
+  },
+  {
+   "say": "Some people argue big companies used rising costs as cover to push prices up more than necessary. There's been debate about this, sometimes called greedflation. Others point out that many restaurants' profit margins are thin, and many have closed.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Greedflation view",
+     "emoji": "😠",
+     "lines": [
+      "Prices rose more than costs",
+      "Profits protected"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Cost view",
+     "emoji": "📊",
+     "lines": [
+      "Costs genuinely rose",
+      "Thin margins, closures"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The honest answer is it varies by company. But the cost pressures were real, and they hit almost every part of the business at once.",
+   "vis": {
+    "type": "hook",
+    "text": "The cost pressures were real.",
+    "emoji": "🧾",
+    "hot": [
+     "real."
+    ]
+   }
+  },
+  {
+   "say": "Many independent takeaways and restaurants have closed in recent years, squeezed by the same costs, without the buying power of the big chains.",
+   "vis": {
+    "type": "hook",
+    "text": "Many independents have closed.",
+    "emoji": "🚪",
+    "hot": [
+     "closed."
+    ]
+   }
+  },
+  {
+   "say": "Part seven. How to save.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "How to save"
+   }
+  },
+  {
+   "say": "If you still love fast food, a few things can help. Use the chain's own app for deals and rewards. Collect it yourself instead of delivery. Compare app prices with in-store prices. And keep it as a treat rather than a habit.",
+   "vis": {
+    "type": "list",
+    "title": "Saving on fast food",
+    "items": [
+     [
+      "📱",
+      "Use the chain's own app deals"
+     ],
+     [
+      "🚶",
+      "Collect instead of delivery"
+     ],
+     [
+      "🔍",
+      "Compare app and in-store prices"
+     ],
+     [
+      "🍳",
+      "Cook more at home"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Fast food got expensive because almost everything that goes into it got expensive at once. Ingredients, wages, energy, rent and delivery. The cheap burger was a product of cheap costs. And those days are gone.",
+   "vis": {
+    "type": "hook",
+    "text": "The cheap burger came from cheap costs.",
+    "emoji": "🍔",
+    "hot": [
+     "cheap"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments which fast food price shocked you most.",
+   "vis": {
+    "type": "outro",
+    "text": "Which price shocked you most?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHEN DID|FAST FOOD|GET SO DEAR?",
+  "emoji": "🍔",
+  "color": "red",
+  "tag": "Living"
+ }
+}

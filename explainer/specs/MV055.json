@@ -1,0 +1,478 @@
+{
+ "id": "MV055",
+ "style": "neon",
+ "variant": 1,
+ "voice": "bf_emma",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "Black Wednesday: The Day One Man Beat the Bank of England",
+ "beats": [
+  {
+   "say": "On Wednesday the sixteenth of September, nineteen ninety two, Britain's government fought a battle against the financial markets. It raised interest rates twice in a single day. It spent billions. And it lost.",
+   "vis": {
+    "type": "hook",
+    "text": "One day. Two rate rises. A total defeat.",
+    "emoji": "💷",
+    "hot": [
+     "defeat."
+    ]
+   }
+  },
+  {
+   "say": "The Treasury later estimated the day cost Britain around three point three billion pounds. And one investor, George Soros, reportedly made around a billion dollars betting against the pound.",
+   "vis": {
+    "type": "num",
+    "value": 3.3,
+    "label": "estimated cost to the Treasury",
+    "color": "red",
+    "emoji": "🏛️",
+    "prefix": "£",
+    "suffix": " billion",
+    "dec": 1,
+    "source": "HM Treasury estimate, via MoneyWeek"
+   }
+  },
+  {
+   "say": "He became known as the man who broke the Bank of England. So what actually happened?",
+   "vis": {
+    "type": "hook",
+    "text": "The man who broke the Bank of England.",
+    "emoji": "🏦",
+    "hot": [
+     "broke"
+    ]
+   }
+  },
+  {
+   "say": "Part one. The ERM.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The ERM"
+   }
+  },
+  {
+   "say": "In nineteen ninety, Britain joined something called the Exchange Rate Mechanism, or ERM. It was a system that tied European currencies together, to keep exchange rates stable, as a step towards a single currency.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🇪🇺",
+    "text": "The Exchange Rate Mechanism",
+    "sub": "Britain joined in 1990",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Britain promised to keep the pound within a narrow range against the German mark. If the pound got too weak, Britain had to defend it, by buying pounds or raising interest rates.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The promise",
+     "emoji": "🤝",
+     "lines": [
+      "Keep the pound in a band",
+      "Against the German mark"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The tools",
+     "emoji": "🧰",
+     "lines": [
+      "Buy pounds",
+      "Raise interest rates"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The idea was that tying the pound to Germany's strong currency would bring low inflation. But it also meant Britain couldn't freely set its own interest rates.",
+   "vis": {
+    "type": "hook",
+    "text": "Stability, at the cost of control.",
+    "emoji": "🔗",
+    "hot": [
+     "control."
+    ]
+   }
+  },
+  {
+   "say": "Many economists believed the pound had joined at too high a rate. That made British exports expensive and put extra strain on the economy from the start.",
+   "vis": {
+    "type": "hook",
+    "text": "Many thought the pound joined too high.",
+    "emoji": "📈",
+    "hot": [
+     "too",
+     "high."
+    ]
+   }
+  },
+  {
+   "say": "Part two. The problem.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The problem"
+   }
+  },
+  {
+   "say": "Then came a clash. After German reunification, Germany kept interest rates high to control inflation. Britain was in a recession, and needed lower rates. But to keep the pound in its band, it had to keep rates high too.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Germany needed",
+     "emoji": "🇩🇪",
+     "lines": [
+      "High rates",
+      "To fight inflation"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Britain needed",
+     "emoji": "🇬🇧",
+     "lines": [
+      "Lower rates",
+      "To fight recession"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Traders started to believe Britain couldn't keep this up. The pound looked overvalued. Sooner or later, they thought, it would have to fall.",
+   "vis": {
+    "type": "hook",
+    "text": "Traders smelled weakness.",
+    "emoji": "👃",
+    "hot": [
+     "weakness."
+    ]
+   }
+  },
+  {
+   "say": "In the summer of nineteen ninety two, other European currencies came under pressure too, including the Italian lira. Every day, more traders joined the bet that the system would crack.",
+   "vis": {
+    "type": "list",
+    "title": "Pressure building",
+    "items": [
+     [
+      "🇮🇹",
+      "The Italian lira under attack"
+     ],
+     [
+      "🇬🇧",
+      "The pound near the bottom of its band"
+     ],
+     [
+      "📢",
+      "Government promises to defend it"
+     ],
+     [
+      "💼",
+      "Traders lining up bets"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. The bet.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The bet"
+   }
+  },
+  {
+   "say": "George Soros's Quantum Fund built a huge bet against the pound. The idea is called shorting. You borrow pounds, sell them, and if the pound falls, you buy them back cheaper and pocket the difference.",
+   "vis": {
+    "type": "flow",
+    "title": "Shorting the pound",
+    "nodes": [
+     [
+      "💷",
+      "Borrow pounds"
+     ],
+     [
+      "💱",
+      "Sell them for marks"
+     ],
+     [
+      "📉",
+      "Pound falls"
+     ],
+     [
+      "💰",
+      "Buy back cheaper, keep the profit"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "And the bet was lopsided. If the pound stayed in its band, he'd lose a little. If it crashed out, he'd make a fortune. Other traders were betting the same way.",
+   "vis": {
+    "type": "hook",
+    "text": "Small risk. Huge potential reward.",
+    "emoji": "⚖️",
+    "hot": [
+     "Huge"
+    ]
+   }
+  },
+  {
+   "say": "Soros wasn't alone. Banks, hedge funds and companies all sold pounds. But his bet, reported at around ten billion dollars, became the most famous.",
+   "vis": {
+    "type": "hook",
+    "text": "Everyone was selling. Soros sold the most.",
+    "emoji": "💼",
+    "hot": [
+     "most."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Black Wednesday.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Black Wednesday"
+   }
+  },
+  {
+   "say": "On the morning of the sixteenth of September, the selling became a flood. The Bank of England bought billions of pounds to support the price. It wasn't enough.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Morning",
+      "Bank buys pounds"
+     ],
+     [
+      "11am",
+      "Rates raised to 12%"
+     ],
+     [
+      "Afternoon",
+      "Rates to 15% announced"
+     ],
+     [
+      "Evening",
+      "Britain leaves the ERM",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The government had promised it would do whatever it took to defend the pound. But every pound the Bank bought was met by more traders selling.",
+   "vis": {
+    "type": "hook",
+    "text": "Every pound bought was met with more selling.",
+    "emoji": "🌊",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "So the government raised interest rates, from ten percent to twelve percent. Still the selling went on. Then it announced a further rise, to fifteen percent. Still the pound fell.",
+   "vis": {
+    "type": "bars",
+    "title": "UK interest rate, 16 September 1992",
+    "items": [
+     [
+      "Morning",
+      10,
+      "teal"
+     ],
+     [
+      "Late morning",
+      12,
+      "gold"
+     ],
+     [
+      "Afternoon, announced",
+      15,
+      "red"
+     ]
+    ],
+    "max": 16,
+    "prefix": "",
+    "suffix": "%"
+   }
+  },
+  {
+   "say": "Think about that. Fifteen percent interest rates in a recession would have been crushing for homeowners and businesses. And the markets simply didn't believe Britain would go through with it.",
+   "vis": {
+    "type": "hook",
+    "text": "The markets didn't believe it.",
+    "emoji": "🙅",
+    "hot": [
+     "didn't"
+    ]
+   }
+  },
+  {
+   "say": "That evening, the Chancellor, Norman Lamont, announced that Britain was suspending its membership of the ERM. Interest rates went back to twelve percent, and soon fell further.",
+   "vis": {
+    "type": "headline",
+    "kicker": "16 September 1992",
+    "paper": "THE EVENING STANDARD",
+    "text": "Britain crashes out of the ERM",
+    "date": "Chancellor suspends membership after day of turmoil"
+   }
+  },
+  {
+   "say": "Next to him in the famous photographs was a young adviser named David Cameron, who would later become prime minister.",
+   "vis": {
+    "type": "hook",
+    "text": "A future prime minister stood beside him.",
+    "emoji": "📸",
+    "hot": [
+     "prime",
+     "minister"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The aftermath.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The aftermath"
+   }
+  },
+  {
+   "say": "The pound fell sharply. Soros reportedly made more than a billion dollars. The government had spent billions defending a rate it couldn't hold.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Soros",
+     "emoji": "💰",
+     "lines": [
+      "About $1bn profit",
+      "The famous trade"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The government",
+     "emoji": "🏛️",
+     "lines": [
+      "About £3.3bn cost",
+      "Political humiliation"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Politically, it was a disaster for the Conservative government. Its reputation for managing the economy was badly damaged, and that damage lasted for years.",
+   "vis": {
+    "type": "hook",
+    "text": "A political disaster.",
+    "emoji": "📉",
+    "hot": [
+     "disaster."
+    ]
+   }
+  },
+  {
+   "say": "But here's the twist. Freed from the ERM, Britain could cut interest rates. The economy began to recover. Some people even started calling it White Wednesday.",
+   "vis": {
+    "type": "hook",
+    "text": "Some called it White Wednesday.",
+    "emoji": "🤍",
+    "hot": [
+     "White"
+    ]
+   }
+  },
+  {
+   "say": "After leaving the ERM, Britain adopted inflation targeting, and later made the Bank of England independent to set interest rates. Inflation stayed fairly low and the economy grew for years afterwards.",
+   "vis": {
+    "type": "list",
+    "title": "What came next",
+    "items": [
+     [
+      "📉",
+      "Lower interest rates"
+     ],
+     [
+      "🎯",
+      "Inflation targets"
+     ],
+     [
+      "🏦",
+      "An independent Bank of England"
+     ],
+     [
+      "📈",
+      "Years of growth"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "Black Wednesday shows that even a central bank has limits. If markets believe a currency is overvalued, and they have enough money, they can overwhelm a government's defences.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Black Wednesday",
+    "items": [
+     [
+      "🏦",
+      "Central banks have limits"
+     ],
+     [
+      "⚖️",
+      "Lopsided bets attract speculators"
+     ],
+     [
+      "🔗",
+      "Fixed exchange rates can break"
+     ],
+     [
+      "🔄",
+      "A defeat can lead to recovery"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And it played a part in Britain's later decision not to join the euro. One very expensive Wednesday helped shape Britain's relationship with Europe for decades.",
+   "vis": {
+    "type": "hook",
+    "text": "One Wednesday shaped decades of history.",
+    "emoji": "🇪🇺",
+    "hot": [
+     "decades"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories about how money really works, and tell me in the comments which story I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which story should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "HE BEAT|THE BANK OF|ENGLAND",
+  "emoji": "💷",
+  "color": "teal",
+  "tag": "Systems"
+ }
+}

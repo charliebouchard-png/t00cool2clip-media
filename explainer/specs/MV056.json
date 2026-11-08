@@ -1,0 +1,398 @@
+{
+ "id": "MV056",
+ "style": "storybook",
+ "voice": "af_kore",
+ "speed": 0.82,
+ "title": "The Island Where Money Is Giant Stones",
+ "beats": [
+  {
+   "say": "On a small island in the Pacific Ocean, there's money you can't put in your pocket. Some of it is taller than a person. Some of it weighs as much as a car. And some of it is lying at the bottom of the sea, and still counts.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "This is my money!",
+      "prop": "🪨"
+     }
+    ],
+    "title": "The island"
+   }
+  },
+  {
+   "say": "Welcome to Yap, in Micronesia, home of the rai stones. Giant stone discs with a hole in the middle. And they teach us something surprising about what money really is.",
+   "vis": {
+    "type": "hook",
+    "text": "Money made of stone.",
+    "emoji": "🪨",
+    "hot": [
+     "stone."
+    ]
+   }
+  },
+  {
+   "say": "The largest known rai stone is about three point six metres across, and weighs around four tonnes. Most are much smaller, around thirty to fifty centimetres.",
+   "vis": {
+    "type": "num",
+    "value": 3.6,
+    "label": "metres across, the largest known stone",
+    "color": "teal",
+    "emoji": "🪨",
+    "prefix": "",
+    "suffix": " m",
+    "dec": 1,
+    "source": "Rai stones, Wikipedia"
+   }
+  },
+  {
+   "say": "Here's the strange part. There's no stone on Yap to make them from. The Yapese had to sail around four hundred kilometres to the islands of Palau, quarry the stone, carve it, and bring it home by canoe and raft.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Four hundred kilometres? Let's go!",
+      "prop": "🛶"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Bring the big one!",
+      "prop": "🪨"
+     }
+    ],
+    "title": "The journey"
+   }
+  },
+  {
+   "say": "Palau's leaders gave permission for the Yapese to quarry there, in exchange for goods and work. Quarrying a single big stone could take months, using simple tools.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Months of work for one stone.",
+      "prop": "⛏️"
+     }
+    ],
+    "title": "The quarry"
+   }
+  },
+  {
+   "say": "That journey was dangerous. Storms, heavy loads, open ocean. Some people died bringing stones back. And that's exactly part of what made them valuable.",
+   "vis": {
+    "type": "hook",
+    "text": "The danger made them valuable.",
+    "emoji": "🌊",
+    "hot": [
+     "danger"
+    ]
+   }
+  },
+  {
+   "say": "A stone's value depended on its size, how well it was carved, and its history. Who brought it, how hard the journey was, and whether lives were lost along the way.",
+   "vis": {
+    "type": "list",
+    "title": "What made a stone valuable",
+    "items": [
+     [
+      "📏",
+      "Size"
+     ],
+     [
+      "🎨",
+      "Craftsmanship"
+     ],
+     [
+      "📜",
+      "Its history"
+     ],
+     [
+      "🌊",
+      "How hard the journey was"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Now, imagine you want to pay someone with a stone that weighs a tonne. You're not going to roll it to their house. So the Yapese came up with something clever.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "I'm not carrying that!",
+      "prop": "🪨"
+     }
+    ],
+    "title": "The problem"
+   }
+  },
+  {
+   "say": "The stone stays where it is. Everyone in the community simply agrees that it now belongs to someone else. Ownership is remembered and passed on by word of mouth.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "This stone is yours now.",
+      "prop": "🤝"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Everyone knows it's mine!"
+     }
+    ],
+    "title": "The solution"
+   }
+  },
+  {
+   "say": "So the money doesn't move. Only the record of who owns it changes. And that record lives in people's shared memory.",
+   "vis": {
+    "type": "hook",
+    "text": "The money doesn't move. The record does.",
+    "emoji": "🧠",
+    "hot": [
+     "record"
+    ]
+   }
+  },
+  {
+   "say": "If a stone was too big to move, it might sit outside a village meeting house or along a path. Everyone walking past would know whose stone it was, and its story.",
+   "vis": {
+    "type": "hook",
+    "text": "Everyone knew whose stone it was.",
+    "emoji": "🏘️",
+    "hot": [
+     "Everyone"
+    ]
+   }
+  },
+  {
+   "say": "You see, there's a famous story about one particular stone. It was being carried back from Palau when a storm hit, and it sank to the bottom of the sea.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "shock",
+      "say": "The stone! It's sinking!",
+      "prop": "🌊"
+     }
+    ],
+    "title": "The lost stone"
+   },
+   "night": true
+  },
+  {
+   "say": "But everyone agreed it was a good stone, and that it was still down there. So it kept its value. Its owner could still spend it, even though nobody alive had ever seen it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "It's still my stone. Everyone agrees!",
+      "prop": "🌊"
+     }
+    ],
+    "title": "Still counts"
+   },
+   "night": true
+  },
+  {
+   "say": "Think about that. Money that nobody can see, touch or move, but that still works, because everyone agrees it exists and who owns it.",
+   "vis": {
+    "type": "hook",
+    "text": "Money that works because everyone agrees.",
+    "emoji": "🤝",
+    "hot": [
+     "agrees."
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "Sound familiar? It should. That's basically how most of our money works today. Your bank balance is just a number on a computer. You never see the money. You trust the record.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Yap",
+     "emoji": "🪨",
+     "lines": [
+      "Stone doesn't move",
+      "Shared memory records owner"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Today",
+     "emoji": "📱",
+     "lines": [
+      "Money doesn't move",
+      "Bank computers record owner"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The famous economist Milton Friedman wrote about Yap in nineteen ninety one. He compared it to gold held in vaults in New York, where gold bars belonging to different countries could change owners without ever leaving the room.",
+   "vis": {
+    "type": "list",
+    "title": "Friedman's comparison",
+    "items": [
+     [
+      "🪨",
+      "Yap stones stay put"
+     ],
+     [
+      "🏦",
+      "Gold in a New York vault"
+     ],
+     [
+      "📝",
+      "Only the owner changes"
+     ],
+     [
+      "🤝",
+      "It all runs on trust"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Friedman's point was that a lot of what we call money is really an agreement about who owns what. The physical object matters much less than the trust behind it.",
+   "vis": {
+    "type": "hook",
+    "text": "Money is an agreement about who owns what.",
+    "emoji": "📝",
+    "hot": [
+     "agreement"
+    ]
+   }
+  },
+  {
+   "say": "Some people today compare Yap to blockchains and cryptocurrency, where a shared public record tracks who owns what, without a central bank.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "It's like a stone age blockchain!",
+      "prop": "💻"
+     }
+    ],
+    "title": "Ancient blockchain?"
+   }
+  },
+  {
+   "say": "In the eighteen seventies, an Irish American sea captain named David O'Keefe arrived on Yap after a shipwreck. He realised the Yapese would trade valuable goods for stones, and used his ship and iron tools to help bring stones from Palau, in exchange for coconut products to sell.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "I'll bring you stones. You give me coconuts.",
+      "prop": "⛵",
+      "hat": "🧢"
+     }
+    ],
+    "title": "Captain O'Keefe"
+   }
+  },
+  {
+   "say": "Stones brought the easy way, with modern ships and tools, were often seen as less valuable than those brought by traditional voyages. The story behind the money mattered, not just the stone.",
+   "vis": {
+    "type": "hook",
+    "text": "The story behind the money mattered.",
+    "emoji": "📜",
+    "hot": [
+     "story"
+    ]
+   }
+  },
+  {
+   "say": "According to an early account, when Germany controlled the island, officials wanted the Yapese chiefs to repair roads. To fine them, they painted black crosses on their stones, claiming them. The roads were fixed, and the crosses were removed.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "They painted my stone!",
+      "prop": "✖️"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Fix the road, get it back."
+     }
+    ],
+    "title": "The painted crosses"
+   }
+  },
+  {
+   "say": "Today, everyday shopping on Yap is done with US dollars. But rai stones are still exchanged for important traditional occasions, like marriages and settling agreements. And they're even shown on local car licence plates.",
+   "vis": {
+    "type": "list",
+    "title": "Rai stones today",
+    "items": [
+     [
+      "💵",
+      "US dollars for shopping"
+     ],
+     [
+      "💍",
+      "Stones for important occasions"
+     ],
+     [
+      "🤝",
+      "Used to settle agreements"
+     ],
+     [
+      "🚗",
+      "On local licence plates"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So what is money, really? Yap gives us a beautiful answer. Money isn't the stone, the paper, or the number on a screen. Money is a shared story that everyone agrees to believe.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Money is a story we all agree on.",
+      "prop": "🪨"
+     }
+    ],
+    "title": "The lesson"
+   }
+  },
+  {
+   "say": "Subscribe for more surprising stories about how money really works, and tell me in the comments which kind of money I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "What strange money should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "MONEY YOU|CAN'T LIFT",
+  "emoji": "🪨",
+  "color": "teal",
+  "tag": "Systems"
+ }
+}

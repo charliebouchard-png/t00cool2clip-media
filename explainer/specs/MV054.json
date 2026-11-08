@@ -1,0 +1,477 @@
+{
+ "id": "MV054",
+ "style": "bold",
+ "variant": 0,
+ "voice": "am_puck",
+ "speed": 0.82,
+ "trans": "cut",
+ "title": "Zimbabwe's 100 Trillion Dollar Note",
+ "beats": [
+  {
+   "say": "This is a real banknote. One hundred trillion Zimbabwean dollars. One followed by fourteen zeros. And when it came out, it wasn't enough to buy much at all.",
+   "vis": {
+    "type": "hook",
+    "text": "100 trillion dollars. Almost worthless.",
+    "emoji": "💵",
+    "hot": [
+     "100",
+     "trillion"
+    ]
+   }
+  },
+  {
+   "say": "In November twenty eight, the economist Steve Hanke estimated Zimbabwe's monthly inflation rate at seventy nine point six billion percent. Prices were roughly doubling every day.",
+   "vis": {
+    "type": "num",
+    "value": 79.6,
+    "label": "billion percent monthly inflation, Nov 2008",
+    "color": "red",
+    "emoji": "📈",
+    "prefix": "",
+    "suffix": "",
+    "dec": 1,
+    "source": "Steve Hanke, Johns Hopkins University"
+   }
+  },
+  {
+   "say": "It's one of the worst cases of hyperinflation ever recorded. So how does a country go from a working currency to one hundred trillion dollar notes?",
+   "vis": {
+    "type": "hook",
+    "text": "How does that even happen?",
+    "emoji": "❓",
+    "hot": [
+     "happen?"
+    ]
+   }
+  },
+  {
+   "say": "Part one. A country with promise.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "A country with promise"
+   }
+  },
+  {
+   "say": "Zimbabwe became independent in nineteen eighty. It had good farmland, mines and an educated population. For years, it was known as a breadbasket of the region, growing food and exporting tobacco.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🌾",
+    "text": "Zimbabwe",
+    "sub": "Once known as a regional breadbasket",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In the early years, the Zimbabwe dollar was actually worth more than the US dollar. That's how far it would fall.",
+   "vis": {
+    "type": "hook",
+    "text": "Once worth more than the US dollar.",
+    "emoji": "💪",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "Part two. The collapse of farming.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The collapse of farming"
+   }
+  },
+  {
+   "say": "From around two thousand, the government of Robert Mugabe began seizing large commercial farms, many owned by white farmers, and redistributing the land. The aim was to address historic injustices in land ownership. But the way it was done caused chaos.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The aim",
+     "emoji": "⚖️",
+     "lines": [
+      "Redistribute land",
+      "Address historic injustice"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What happened",
+     "emoji": "🌾",
+     "lines": [
+      "Farms disrupted",
+      "Food production collapsed"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Many farms stopped producing. Exports fell, which meant less foreign currency coming in. Food shortages followed. And the economy shrank sharply.",
+   "vis": {
+    "type": "hook",
+    "text": "Less food. Fewer exports. A shrinking economy.",
+    "emoji": "📉",
+    "hot": [
+     "shrinking"
+    ]
+   }
+  },
+  {
+   "say": "There were other pressures too. Expensive involvement in a war in the Democratic Republic of Congo, payouts to war veterans, droughts, and international sanctions on the government's leaders.",
+   "vis": {
+    "type": "list",
+    "title": "Other pressures",
+    "items": [
+     [
+      "⚔️",
+      "Costly military spending"
+     ],
+     [
+      "💸",
+      "Big unplanned payouts"
+     ],
+     [
+      "🌵",
+      "Droughts"
+     ],
+     [
+      "🚫",
+      "International sanctions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. Printing money.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Printing money"
+   }
+  },
+  {
+   "say": "With the economy shrinking and the government still needing to pay its bills, the central bank printed more and more money. More money chasing fewer goods. That's the recipe for inflation.",
+   "vis": {
+    "type": "flow",
+    "title": "The inflation recipe",
+    "nodes": [
+     [
+      "🖨️",
+      "Print more money"
+     ],
+     [
+      "🌾",
+      "Fewer goods to buy"
+     ],
+     [
+      "📈",
+      "Prices soar"
+     ],
+     [
+      "🔁",
+      "Print even more"
+     ]
+    ],
+    "color": "red",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "It's the same basic mistake as Germany in nineteen twenty three. When money is printed faster than the economy produces things, money loses its value.",
+   "vis": {
+    "type": "hook",
+    "text": "Same mistake as Weimar Germany.",
+    "emoji": "🔁",
+    "hot": [
+     "Same"
+    ]
+   }
+  },
+  {
+   "say": "The government blamed businesses for rising prices, and at one point ordered shops to cut their prices. Shops couldn't restock at the lower prices, so shelves emptied even faster.",
+   "vis": {
+    "type": "hook",
+    "text": "Price controls emptied the shelves.",
+    "emoji": "🛒",
+    "hot": [
+     "emptied"
+    ]
+   }
+  },
+  {
+   "say": "Part four. Life with billions.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Life with billions"
+   }
+  },
+  {
+   "say": "Daily life became exhausting. Prices in shops changed during the day. People queued at banks for hours, only to find withdrawal limits that barely bought a loaf of bread. Shops had empty shelves.",
+   "vis": {
+    "type": "list",
+    "title": "Daily life",
+    "items": [
+     [
+      "🏷️",
+      "Prices changing by the hour"
+     ],
+     [
+      "🏦",
+      "Hours in bank queues"
+     ],
+     [
+      "🛒",
+      "Empty shelves"
+     ],
+     [
+      "🧮",
+      "Calculators running out of digits"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A meal could cost more by the time you finished it. People carried bricks of notes to buy basic groceries. And many people simply left the country, to work in South Africa and elsewhere, sending money home.",
+   "vis": {
+    "type": "hook",
+    "text": "Millions of notes for basic groceries.",
+    "emoji": "🧱",
+    "hot": [
+     "groceries."
+    ]
+   }
+  },
+  {
+   "say": "People stopped trusting the Zimbabwe dollar. Instead, they used US dollars, South African rand, or swapped goods directly. Anything except the official currency.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Zimbabwe dollar",
+     "emoji": "💸",
+     "lines": [
+      "Losing value daily",
+      "Nobody wants it"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What people used",
+     "emoji": "💵",
+     "lines": [
+      "US dollars and rand",
+      "Bartering goods"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In shops, some prices were quoted in eggs, fuel coupons or phone credit. People found ways to keep trading, using anything that held its value better than the official money.",
+   "vis": {
+    "type": "hook",
+    "text": "Prices quoted in eggs and phone credit.",
+    "emoji": "🥚",
+    "hot": [
+     "eggs"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Cutting zeros.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Cutting zeros"
+   }
+  },
+  {
+   "say": "The government tried to fix things by removing zeros from the currency. It did this several times, between two thousand and six and two thousand and nine. But removing zeros doesn't fix inflation. The zeros just came back.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2006",
+      "Zeros removed"
+     ],
+     [
+      "2008",
+      "More zeros removed"
+     ],
+     [
+      "Jan 2009",
+      "100 trillion note"
+     ],
+     [
+      "2009",
+      "More zeros removed",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In January two thousand and nine, the central bank issued the one hundred trillion dollar note. It was the highest denomination banknote of its time.",
+   "vis": {
+    "type": "num",
+    "value": 100000000000000,
+    "label": "Zimbabwe dollars on a single note",
+    "color": "gold",
+    "emoji": "💵",
+    "prefix": "",
+    "suffix": "",
+    "source": "Reserve Bank of Zimbabwe, 2009"
+   }
+  },
+  {
+   "say": "Imagine trying to do maths with these numbers. Hundreds of thousands, millions, billions, trillions. Shops struggled to update prices, and ordinary calculators couldn't display the totals.",
+   "vis": {
+    "type": "list",
+    "title": "The number problem",
+    "items": [
+     [
+      "🧮",
+      "Calculators ran out of digits"
+     ],
+     [
+      "🏷️",
+      "Price tags constantly changed"
+     ],
+     [
+      "🏦",
+      "Bank systems struggled"
+     ],
+     [
+      "😵",
+      "People lost track"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. Giving up the currency.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Giving up the currency"
+   }
+  },
+  {
+   "say": "In twenty oh nine, Zimbabwe effectively gave up. It allowed foreign currencies, mainly the US dollar, to be used officially. Prices stabilised almost immediately.",
+   "vis": {
+    "type": "hook",
+    "text": "The cure? Stop using the currency.",
+    "emoji": "💵",
+    "hot": [
+     "Stop"
+    ]
+   }
+  },
+  {
+   "say": "But savers had lost everything held in Zimbabwe dollars. Pensions became worthless. Bank accounts, wiped out.",
+   "vis": {
+    "type": "hook",
+    "text": "Pensions and savings were wiped out.",
+    "emoji": "💔",
+    "hot": [
+     "wiped",
+     "out."
+    ]
+   }
+  },
+  {
+   "say": "Some people said their lifetime savings couldn't buy a loaf of bread. A retired teacher or nurse could find their pension worth almost nothing.",
+   "vis": {
+    "type": "hook",
+    "text": "A lifetime of savings, worth almost nothing.",
+    "emoji": "👵",
+    "hot": [
+     "nothing."
+    ]
+   }
+  },
+  {
+   "say": "And the story didn't end there. In later years, Zimbabwe introduced new local currencies again, and has faced further bouts of high inflation. Rebuilding trust in money takes a very long time.",
+   "vis": {
+    "type": "list",
+    "title": "After 2009",
+    "items": [
+     [
+      "💵",
+      "US dollar used widely"
+     ],
+     [
+      "🆕",
+      "New local currencies tried"
+     ],
+     [
+      "📈",
+      "More inflation episodes"
+     ],
+     [
+      "🤝",
+      "Trust slow to rebuild"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part seven. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "Zimbabwe's hundred trillion dollar note is a reminder of how fragile money can be. Money works because people trust it. Break that trust, and no number of zeros can save it.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Zimbabwe",
+    "items": [
+     [
+      "🖨️",
+      "Printing money doesn't create wealth"
+     ],
+     [
+      "🌾",
+      "Real production matters"
+     ],
+     [
+      "🤝",
+      "Money runs on trust"
+     ],
+     [
+      "🧺",
+      "Savers need protection from inflation"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Today, the hundred trillion dollar notes are sold online as souvenirs. In a strange twist, they're now worth more to collectors than they ever were as money.",
+   "vis": {
+    "type": "hook",
+    "text": "Worth more as a souvenir than as money.",
+    "emoji": "🧾",
+    "hot": [
+     "souvenir"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories about how money really works, and tell me in the comments which currency I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which currency should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "100 TRILLION|DOLLARS",
+  "emoji": "💵",
+  "color": "gold",
+  "tag": "Systems"
+ }
+}

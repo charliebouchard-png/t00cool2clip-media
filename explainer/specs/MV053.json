@@ -1,0 +1,512 @@
+{
+ "id": "MV053",
+ "style": "collage",
+ "variant": 2,
+ "voice": "bm_george",
+ "speed": 0.82,
+ "trans": "slap",
+ "title": "Weimar Germany: When Money Was Cheaper Than Wallpaper",
+ "beats": [
+  {
+   "say": "In nineteen twenty three, in Germany, a loaf of bread that once cost a few marks cost two hundred billion marks. Children played with bundles of banknotes. People used money as wallpaper, and burned it to keep warm.",
+   "vis": {
+    "type": "hook",
+    "text": "Money was cheaper than wallpaper.",
+    "emoji": "💸",
+    "hot": [
+     "cheaper"
+    ]
+   }
+  },
+  {
+   "say": "Before the First World War, one US dollar was worth about four point two German marks. By November nineteen twenty three, one dollar was worth about four point two trillion marks.",
+   "vis": {
+    "type": "bars",
+    "title": "Marks per US dollar",
+    "items": [
+     [
+      "1914",
+      4.2,
+      "teal"
+     ],
+     [
+      "Early 1921",
+      90,
+      "gold"
+     ],
+     [
+      "Dec 1922",
+      7400,
+      "gold"
+     ],
+     [
+      "Nov 1923",
+      4200000000000,
+      "red"
+     ]
+    ],
+    "max": 4200000000000,
+    "prefix": "",
+    "suffix": "",
+    "source": "Hyperinflation in the Weimar Republic, Wikipedia"
+   }
+  },
+  {
+   "say": "It's one of the most extreme examples of hyperinflation in history. So how does a country's money become almost worthless?",
+   "vis": {
+    "type": "hook",
+    "text": "How does money become worthless?",
+    "emoji": "❓",
+    "hot": [
+     "worthless?"
+    ]
+   }
+  },
+  {
+   "say": "Part one. Paying for the war.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Paying for the war"
+   }
+  },
+  {
+   "say": "It starts with the First World War. Germany didn't pay for the war mainly with taxes. It borrowed, expecting to win and make the losers pay. Instead, it lost.",
+   "vis": {
+    "type": "icon",
+    "emoji": "⚔️",
+    "text": "The First World War",
+    "sub": "Paid for mostly with borrowing",
+    "color": "red"
+   }
+  },
+  {
+   "say": "The plan was to pay the war loans back after victory, using money taken from the defeated countries. It was a huge gamble on winning.",
+   "vis": {
+    "type": "hook",
+    "text": "A huge gamble on winning.",
+    "emoji": "🎲",
+    "hot": [
+     "gamble"
+    ]
+   }
+  },
+  {
+   "say": "After the war, Germany was left with huge debts at home. And under the Treaty of Versailles, it was ordered to pay reparations, compensation to the countries it had fought, in gold or foreign currency.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Debts at home",
+     "emoji": "🧾",
+     "lines": [
+      "War loans",
+      "Owed to Germans"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Reparations abroad",
+     "emoji": "🌍",
+     "lines": [
+      "Owed to the Allies",
+      "In gold or foreign money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The government had a choice. Raise taxes, cut spending, or print money. Printing money was the easiest option in the short term.",
+   "vis": {
+    "type": "hook",
+    "text": "Printing was the easy option.",
+    "emoji": "🖨️",
+    "hot": [
+     "easy"
+    ]
+   }
+  },
+  {
+   "say": "There were other pressures too. The new Weimar Republic was fragile. There were uprisings, political murders and strikes. Raising taxes or cutting spending risked even more unrest.",
+   "vis": {
+    "type": "list",
+    "title": "A fragile new republic",
+    "items": [
+     [
+      "🏛️",
+      "A new, weak democracy"
+     ],
+     [
+      "✊",
+      "Strikes and uprisings"
+     ],
+     [
+      "💸",
+      "Huge war debts"
+     ],
+     [
+      "🌍",
+      "Reparations demands"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. The printing presses.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The printing presses"
+   }
+  },
+  {
+   "say": "Here's the basic problem. If you print more money but the country doesn't produce more goods, each mark buys less. Prices rise. So the government needs even more money to pay its bills, and prints more.",
+   "vis": {
+    "type": "flow",
+    "title": "The inflation spiral",
+    "nodes": [
+     [
+      "🖨️",
+      "Print more money"
+     ],
+     [
+      "📈",
+      "Prices rise"
+     ],
+     [
+      "🏛️",
+      "Government needs more"
+     ],
+     [
+      "🔁",
+      "Print even more"
+     ]
+    ],
+    "color": "red",
+    "coin": "💸"
+   }
+  },
+  {
+   "say": "By the end of nineteen twenty two, prices were already rising very fast. But the worst was still to come.",
+   "vis": {
+    "type": "bars",
+    "title": "Cost of living index, 1922",
+    "items": [
+     [
+      "June 1922",
+      41,
+      "teal"
+     ],
+     [
+      "Dec 1922",
+      685,
+      "red"
+     ]
+    ],
+    "max": 750,
+    "prefix": "",
+    "suffix": "",
+    "source": "Hyperinflation in the Weimar Republic, Wikipedia"
+   }
+  },
+  {
+   "say": "At first, some people actually benefited. Exports became cheap for foreigners, so German factories stayed busy. Unemployment was low. Inflation looked almost helpful, for a while.",
+   "vis": {
+    "type": "hook",
+    "text": "At first, inflation even looked helpful.",
+    "emoji": "🏭",
+    "hot": [
+     "helpful,"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The Ruhr.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The Ruhr"
+   }
+  },
+  {
+   "say": "In January nineteen twenty three, Germany fell behind on reparations deliveries. French and Belgian troops occupied the Ruhr, Germany's industrial heartland, to take coal and goods directly.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1919",
+      "Treaty of Versailles"
+     ],
+     [
+      "1921",
+      "Reparations bill set"
+     ],
+     [
+      "Jan 1923",
+      "Ruhr occupied"
+     ],
+     [
+      "1923",
+      "Hyperinflation explodes",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The German government told workers in the Ruhr to go on strike, a policy called passive resistance. And it paid them, by printing even more money. That's when inflation went completely out of control.",
+   "vis": {
+    "type": "hook",
+    "text": "Paying strikers with printed money.",
+    "emoji": "🖨️",
+    "hot": [
+     "printed"
+    ]
+   }
+  },
+  {
+   "say": "By late nineteen twenty three, prices were doubling in just a few days. The central bank was using hundreds of printing presses, plus outside print works, just to keep up with demand for new notes.",
+   "vis": {
+    "type": "hook",
+    "text": "Printing presses running day and night.",
+    "emoji": "🖨️",
+    "hot": [
+     "day",
+     "and",
+     "night."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Life in hyperinflation.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Life in hyperinflation"
+   }
+  },
+  {
+   "say": "By late nineteen twenty three, a loaf of bread in Berlin cost around two hundred billion marks. At the end of nineteen twenty two, it had cost about one hundred and sixty marks.",
+   "vis": {
+    "type": "num",
+    "value": 200000000000,
+    "label": "marks for a loaf of bread, late 1923",
+    "color": "red",
+    "emoji": "🍞",
+    "prefix": "",
+    "suffix": "",
+    "source": "Hyperinflation in the Weimar Republic, Wikipedia"
+   }
+  },
+  {
+   "say": "Daily life became chaos. Workers were paid more and more often, and rushed to spend their wages before prices rose again. Shops changed prices during the day. People carried money in baskets and bags.",
+   "vis": {
+    "type": "list",
+    "title": "Daily life",
+    "items": [
+     [
+      "💼",
+      "Wages spent immediately"
+     ],
+     [
+      "🏷️",
+      "Prices changed by the hour"
+     ],
+     [
+      "🧺",
+      "Money carried in baskets"
+     ],
+     [
+      "🔥",
+      "Notes burned as fuel"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Restaurant meals reportedly cost more by the time you finished eating than when you ordered. The price on the menu was out of date by dessert.",
+   "vis": {
+    "type": "hook",
+    "text": "The bill went up while you ate.",
+    "emoji": "🍽️",
+    "hot": [
+     "while"
+    ]
+   }
+  },
+  {
+   "say": "There are famous photographs of children building towers with bundles of notes, and making kites from them. Money had become cheaper than paper itself.",
+   "vis": {
+    "type": "hook",
+    "text": "Children made kites from banknotes.",
+    "emoji": "🪁",
+    "hot": [
+     "kites"
+    ]
+   }
+  },
+  {
+   "say": "Some people swapped money for anything real. Food, coal, cigarettes, foreign currency. Things that held their value.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Paper marks",
+     "emoji": "💸",
+     "lines": [
+      "Losing value by the hour",
+      "Worth less every day"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Real things",
+     "emoji": "🥔",
+     "lines": [
+      "Food, coal, dollars",
+      "Kept their value"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. Winners and losers.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Winners and losers"
+   }
+  },
+  {
+   "say": "Hyperinflation didn't hurt everyone equally. People with savings in the bank were wiped out. A lifetime of savings could buy a stamp. But people with debts, including the government, saw them effectively disappear.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Losers",
+     "emoji": "😢",
+     "lines": [
+      "Savers",
+      "Pensioners and people on fixed incomes"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Winners",
+     "emoji": "😏",
+     "lines": [
+      "Borrowers",
+      "Owners of property and goods"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Many middle class families, who had done everything right and saved carefully, lost almost everything. That loss of trust would have long lasting political consequences.",
+   "vis": {
+    "type": "hook",
+    "text": "Careful savers lost almost everything.",
+    "emoji": "💔",
+    "hot": [
+     "savers"
+    ]
+   }
+  },
+  {
+   "say": "Historians argue the anger and humiliation of nineteen twenty three, followed by the Great Depression a few years later, helped extremist parties gain support, including the Nazis.",
+   "vis": {
+    "type": "hook",
+    "text": "The anger helped extremists rise.",
+    "emoji": "⚠️",
+    "hot": [
+     "extremists"
+    ]
+   }
+  },
+  {
+   "say": "Part six. The fix.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The fix"
+   }
+  },
+  {
+   "say": "In November nineteen twenty three, Germany introduced a new currency, the Rentenmark. It removed twelve zeros. One trillion old marks became one new mark. And crucially, the government stopped printing money to pay its bills.",
+   "vis": {
+    "type": "flow",
+    "title": "The Rentenmark",
+    "nodes": [
+     [
+      "🆕",
+      "New currency"
+     ],
+     [
+      "✂️",
+      "Twelve zeros removed"
+     ],
+     [
+      "🛑",
+      "Printing stopped"
+     ],
+     [
+      "📉",
+      "Prices stabilise"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "Amazingly, it worked. Prices stabilised quickly. And in nineteen twenty four, a new plan restructured Germany's reparations payments.",
+   "vis": {
+    "type": "hook",
+    "text": "Stop printing, and it stopped.",
+    "emoji": "✅",
+    "hot": [
+     "stopped."
+    ]
+   }
+  },
+  {
+   "say": "Weimar shows what happens when money stops being trusted. It's why many central banks today aim for low, steady inflation, and why Germany in particular has long feared inflation.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Weimar",
+    "items": [
+     [
+      "🖨️",
+      "Printing to pay bills is dangerous"
+     ],
+     [
+      "🏦",
+      "Savers suffer most in high inflation"
+     ],
+     [
+      "🛡️",
+      "Real assets can protect value"
+     ],
+     [
+      "🤝",
+      "Money only works if people trust it"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories from the history of money, and tell me in the comments which country I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which country should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "4.2 TRILLION|MARKS = $1",
+  "emoji": "💸",
+  "color": "red",
+  "tag": "History"
+ }
+}

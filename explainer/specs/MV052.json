@@ -1,0 +1,486 @@
+{
+ "id": "MV052",
+ "style": "documentary",
+ "voice": "af_sarah",
+ "speed": 0.83,
+ "title": "The 1929 Crash: When Everyone Thought Stocks Only Went Up",
+ "beats": [
+  {
+   "say": "In the summer of nineteen twenty nine, Americans believed the stock market could only go up. Shoeshine boys gave share tips. People borrowed money to buy shares. Three years later, the market had lost almost ninety percent of its value.",
+   "vis": {
+    "type": "hook",
+    "text": "Everyone thought stocks only went up.",
+    "emoji": "📈",
+    "hot": [
+     "only"
+    ]
+   }
+  },
+  {
+   "say": "The Dow Jones index peaked at about three hundred and eighty one points in September nineteen twenty nine. In July nineteen thirty two, it closed at around forty one.",
+   "vis": {
+    "type": "num",
+    "value": 89,
+    "label": "fall in the Dow from peak to bottom",
+    "color": "red",
+    "emoji": "📉",
+    "prefix": "",
+    "suffix": "%",
+    "source": "Federal Reserve History"
+   }
+  },
+  {
+   "say": "It didn't get back to its nineteen twenty nine peak until nineteen fifty four. Twenty five years later. So how did it happen?",
+   "vis": {
+    "type": "hook",
+    "text": "25 years to recover.",
+    "emoji": "⏳",
+    "hot": [
+     "25"
+    ]
+   }
+  },
+  {
+   "say": "Part one. The Roaring Twenties.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The Roaring Twenties"
+   }
+  },
+  {
+   "say": "The nineteen twenties were a boom time in America. New inventions were changing life. Cars, radios, electric fridges. Companies were growing, and their shares went up and up.",
+   "vis": {
+    "type": "list",
+    "title": "The Roaring Twenties",
+    "items": [
+     [
+      "🚗",
+      "Cars for the masses"
+     ],
+     [
+      "📻",
+      "Radio in every home"
+     ],
+     [
+      "⚡",
+      "Electricity everywhere"
+     ],
+     [
+      "🏙️",
+      "Booming cities"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "From nineteen twenty one to nineteen twenty nine, the Dow rose around six times over. People who'd invested early had made fortunes. And everyone else wanted in.",
+   "vis": {
+    "type": "num",
+    "value": 6,
+    "label": "times higher, 1921 to 1929",
+    "color": "gold",
+    "emoji": "🚀",
+    "prefix": "",
+    "suffix": "x"
+   }
+  },
+  {
+   "say": "Investment trusts, companies that existed just to buy shares in other companies, became hugely popular. Some borrowed heavily themselves. Layers of borrowing were stacked on top of each other.",
+   "vis": {
+    "type": "list",
+    "title": "Fuel for the boom",
+    "items": [
+     [
+      "🏦",
+      "Easy borrowing"
+     ],
+     [
+      "🏢",
+      "Investment trusts"
+     ],
+     [
+      "📰",
+      "Stories of quick fortunes"
+     ],
+     [
+      "🧱",
+      "Debt stacked on debt"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "For the first time, millions of ordinary Americans were buying shares. Not just bankers and the wealthy, but clerks, teachers and factory workers. Stories of quick fortunes spread fast.",
+   "vis": {
+    "type": "hook",
+    "text": "For the first time, ordinary people were buying shares.",
+    "emoji": "👥",
+    "hot": [
+     "ordinary"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Buying on margin.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Buying on margin"
+   }
+  },
+  {
+   "say": "Here's the dangerous part. Many people bought shares on margin. That meant paying a small part of the price yourself, often around ten percent, and borrowing the rest from your broker.",
+   "vis": {
+    "type": "flow",
+    "title": "Buying on margin",
+    "nodes": [
+     [
+      "💵",
+      "Pay 10% yourself"
+     ],
+     [
+      "🏦",
+      "Borrow the other 90%"
+     ],
+     [
+      "📈",
+      "Shares go up, big profit"
+     ],
+     [
+      "📉",
+      "Shares fall, big trouble"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "When prices rise, margin makes you rich fast. If you put in a hundred dollars and borrowed nine hundred, a ten percent rise doubles your money. But a ten percent fall wipes you out completely.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Prices up 10%",
+     "emoji": "😁",
+     "lines": [
+      "You double your money",
+      "Borrow more, buy more"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Prices down 10%",
+     "emoji": "😱",
+     "lines": [
+      "You lose everything",
+      "Broker wants cash now"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "By the late nineteen twenties, loans to stock brokers had grown enormously. Banks and companies were lending into the market because the interest rates were so attractive.",
+   "vis": {
+    "type": "num",
+    "value": 8.5,
+    "label": "in brokers' loans by 1929, roughly",
+    "color": "red",
+    "emoji": "🏦",
+    "prefix": "$",
+    "suffix": " billion",
+    "dec": 1,
+    "source": "Commonly cited historical estimate"
+   }
+  },
+  {
+   "say": "And when prices fell, brokers made a margin call. Pay up now, or we sell your shares. Forced selling pushes prices down further, which triggers more margin calls. A vicious circle.",
+   "vis": {
+    "type": "hook",
+    "text": "Forced selling triggers more forced selling.",
+    "emoji": "🔁",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The warnings.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The warnings"
+   }
+  },
+  {
+   "say": "In nineteen twenty nine, the Federal Reserve was worried that money was going into speculation instead of real businesses. In August, it raised interest rates, making borrowing more expensive.",
+   "vis": {
+    "type": "hook",
+    "text": "The Fed tried to cool things down.",
+    "emoji": "🏛️",
+    "hot": [
+     "cool"
+    ]
+   }
+  },
+  {
+   "say": "But many experts remained confident. In October nineteen twenty nine, the famous economist Irving Fisher said stock prices had reached what looked like a permanently high plateau.",
+   "vis": {
+    "type": "quote",
+    "text": "Stock prices have reached what looks like a permanently high plateau.",
+    "who": "economist Irving Fisher, October 1929"
+   }
+  },
+  {
+   "say": "There's a famous story that the businessman Joseph Kennedy decided to sell when even a shoeshine boy started giving him share tips. True or not, it captures the mood. When everyone's an expert, be careful.",
+   "vis": {
+    "type": "hook",
+    "text": "When the shoeshine boy gives tips, sell.",
+    "emoji": "👞",
+    "hot": [
+     "sell."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The crash.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The crash"
+   }
+  },
+  {
+   "say": "On Thursday the twenty fourth of October, panic selling hit the market. It became known as Black Thursday. Leading bankers stepped in and bought shares publicly to calm things. It worked, briefly.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "3 Sept",
+      "Market peaks"
+     ],
+     [
+      "24 Oct",
+      "Black Thursday"
+     ],
+     [
+      "28 Oct",
+      "Black Monday, down ~13%"
+     ],
+     [
+      "29 Oct",
+      "Black Tuesday, down ~12%",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then came the following week. On Black Monday, the twenty eighth of October, the Dow fell nearly thirteen percent. On Black Tuesday, it fell nearly twelve percent more. Billions of dollars of wealth disappeared.",
+   "vis": {
+    "type": "headline",
+    "kicker": "October 1929",
+    "paper": "THE DAILY TICKER",
+    "text": "Stocks collapse in record selling",
+    "date": "Black Monday and Black Tuesday wipe out billions"
+   }
+  },
+  {
+   "say": "Crowds gathered outside the New York Stock Exchange. The ticker machines that printed prices fell hours behind, so investors didn't even know how much they'd lost until long after.",
+   "vis": {
+    "type": "hook",
+    "text": "The ticker machines fell hours behind.",
+    "emoji": "📠",
+    "hot": [
+     "hours"
+    ]
+   }
+  },
+  {
+   "say": "And that wasn't even the bottom. The market kept sliding, with rallies along the way, for almost three years.",
+   "vis": {
+    "type": "hook",
+    "text": "And it kept on falling.",
+    "emoji": "📉",
+    "hot": [
+     "kept"
+    ]
+   }
+  },
+  {
+   "say": "Between nineteen thirty and nineteen thirty two, there were several rallies, when prices rose for a while and people thought the worst was over. Each time, they were wrong.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What people hoped",
+     "emoji": "🙏",
+     "lines": [
+      "The worst is over",
+      "Time to buy back in"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What happened",
+     "emoji": "📉",
+     "lines": [
+      "Another fall",
+      "Lower and lower"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. The Great Depression.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The Great Depression"
+   }
+  },
+  {
+   "say": "The crash didn't cause the Great Depression on its own. But it helped trigger it. People who'd lost money stopped spending. Companies cut production and laid off workers. Then thousands of banks failed.",
+   "vis": {
+    "type": "list",
+    "title": "How the crash spread",
+    "items": [
+     [
+      "🛍️",
+      "People stopped spending"
+     ],
+     [
+      "🏭",
+      "Factories cut back"
+     ],
+     [
+      "👷",
+      "Workers laid off"
+     ],
+     [
+      "🏦",
+      "Banks failed"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "At its worst, around a quarter of American workers were unemployed. Families lost homes, farms and savings.",
+   "vis": {
+    "type": "num",
+    "value": 25,
+    "label": "of US workers unemployed at the worst point",
+    "color": "red",
+    "emoji": "👷",
+    "prefix": "Around ",
+    "suffix": "%"
+   }
+  },
+  {
+   "say": "Thousands of American banks failed in the early nineteen thirties. Back then, there was no deposit insurance. If your bank went bust, your savings could simply disappear.",
+   "vis": {
+    "type": "hook",
+    "text": "If your bank failed, your savings could vanish.",
+    "emoji": "🏦",
+    "hot": [
+     "vanish."
+    ]
+   }
+  },
+  {
+   "say": "And because the world was linked through trade and the gold standard, the depression spread to Britain, Germany and around the globe.",
+   "vis": {
+    "type": "hook",
+    "text": "The depression went global.",
+    "emoji": "🌍",
+    "hot": [
+     "global."
+    ]
+   }
+  },
+  {
+   "say": "Part six. What changed.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What changed"
+   }
+  },
+  {
+   "say": "The crash changed the rules. In the US, the government created the Securities and Exchange Commission to police the markets. Rules on borrowing to buy shares were tightened. Bank deposits became insured.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "🏛️",
+      "A stock market regulator"
+     ],
+     [
+      "💳",
+      "Limits on margin borrowing"
+     ],
+     [
+      "🛡️",
+      "Insured bank deposits"
+     ],
+     [
+      "📄",
+      "Companies must publish more information"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So what's the lesson for us today? Markets do go up over the long run. But borrowed money, and the belief that prices can only rise, can turn a fall into a disaster.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from 1929",
+    "items": [
+     [
+      "📈",
+      "Nothing only goes up"
+     ],
+     [
+      "🏦",
+      "Borrowing to invest magnifies losses"
+     ],
+     [
+      "⏳",
+      "Recovery can take a long time"
+     ],
+     [
+      "🧺",
+      "Spread your risk"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "When everyone, from bankers to shoeshine boys, is sure prices can only go up, that might be exactly the moment to be careful.",
+   "vis": {
+    "type": "hook",
+    "text": "When everyone's certain, be careful.",
+    "emoji": "⚠️",
+    "hot": [
+     "careful."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories from the history of money, and tell me in the comments which crash I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which crash should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "−89%",
+  "emoji": "📉",
+  "color": "red",
+  "tag": "History"
+ }
+}

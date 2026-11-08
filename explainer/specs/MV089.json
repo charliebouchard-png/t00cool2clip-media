@@ -2,7 +2,7 @@
  "id": "MV089",
  "style": "storybook",
  "voice": "bf_emma",
- "speed": 0.82,
+ "speed": 0.8,
  "title": "Why Supermarkets Put Milk at the Back",
  "beats": [
   {
@@ -113,6 +113,31 @@
    }
   },
   {
+   "say": "Basket building isn't just about distance. It's also about timing. Shoppers often slow down in the first part of a store, so retailers put tempting, higher margin products there, while you're still fresh and in the mood to browse.",
+   "vis": {
+    "type": "list",
+    "title": "Where tempting products go",
+    "items": [
+     [
+      "🚪",
+      "Near the entrance"
+     ],
+     [
+      "🐢",
+      "Where people slow down"
+     ],
+     [
+      "🔚",
+      "At aisle ends"
+     ],
+     [
+      "🧾",
+      "By the tills"
+     ]
+    ]
+   }
+  },
+  {
    "say": "Milk is one of the most frequently bought items. People pop in for it several times a week. That makes it a powerful draw, wherever it's placed.",
    "vis": {
     "type": "hook",
@@ -161,6 +186,17 @@
       "🚪",
       "Near the entrance"
      ]
+    ]
+   }
+  },
+  {
+   "say": "And special offers aren't always as special as they look. A multibuy deal might save money per item, but only if you'd have used all of it. Otherwise, it's just extra spending.",
+   "vis": {
+    "type": "hook",
+    "text": "A deal only saves money if you'd use it.",
+    "emoji": "🏷️",
+    "hot": [
+     "use"
     ]
    }
   },
@@ -238,6 +274,21 @@
    }
   },
   {
+   "say": "Sam noticed the supermarket's own brand cereal on the bottom shelf was almost half the price of the big brand at eye level. Same kind of cereal. Very different price.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "Half the price, on the bottom shelf!",
+      "prop": "🥣"
+     }
+    ],
+    "title": "The bottom shelf"
+   }
+  },
+  {
    "say": "Other common tactics include changing the layout every so often, so you have to search, playing music that sets a relaxed pace, and big trolleys that make a normal shop look small.",
    "vis": {
     "type": "list",
@@ -270,6 +321,17 @@
     "emoji": "📜",
     "hot": [
      "regulate."
+    ]
+   }
+  },
+  {
+   "say": "Loyalty cards and apps are another tool. They give you discounts, but they also tell the supermarket exactly what you buy, so it can send you personalised offers designed to get you spending more.",
+   "vis": {
+    "type": "hook",
+    "text": "Loyalty cards trade discounts for your data.",
+    "emoji": "💳",
+    "hot": [
+     "data."
     ]
    }
   },
@@ -318,6 +380,17 @@
       "⬆️⬇️",
       "Check top and bottom shelves"
      ]
+    ]
+   }
+  },
+  {
+   "say": "Even small changes add up. Saving five pounds a week on impulse buys is over two hundred and fifty pounds a year.",
+   "vis": {
+    "type": "hook",
+    "text": "£5 a week is over £250 a year.",
+    "emoji": "💷",
+    "hot": [
+     "£250"
     ]
    }
   },

@@ -3,7 +3,7 @@
  "style": "neon",
  "variant": 0,
  "voice": "bf_isabella",
- "speed": 0.82,
+ "speed": 0.8,
  "trans": "wipe",
  "title": "The Rent Trap: Why Renting Can Cost More Than a Mortgage",
  "beats": [
@@ -114,6 +114,17 @@
      ],
      "color": "red"
     }
+   }
+  },
+  {
+   "say": "On top of the deposit, buyers need money for legal fees, surveys and moving costs, which can add a few thousand pounds more. First time buyers in England pay no stamp duty on homes up to a set limit, which helps.",
+   "vis": {
+    "type": "hook",
+    "text": "Fees and moving costs add thousands more.",
+    "emoji": "🧾",
+    "hot": [
+     "thousands"
+    ]
    }
   },
   {
@@ -275,6 +286,17 @@
     "emoji": "🏙️",
     "hot": [
      "£2,300"
+    ]
+   }
+  },
+  {
+   "say": "Outside London, the gap between renting and buying can be even more striking, because house prices are lower but rents have still risen strongly.",
+   "vis": {
+    "type": "hook",
+    "text": "Outside London, the gap can be even bigger.",
+    "emoji": "🏘️",
+    "hot": [
+     "bigger."
     ]
    }
   },

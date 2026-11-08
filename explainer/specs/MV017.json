@@ -3,7 +3,7 @@
  "style": "collage",
  "variant": 2,
  "voice": "af_sarah",
- "speed": 0.88,
+ "speed": 0.86,
  "trans": "slap",
  "title": "How Theme Parks Make Money (It's Not the Tickets)",
  "beats": [
@@ -289,6 +289,33 @@
      "fast",
      "passes"
     ]
+   }
+  },
+  {
+   "say": "Some parks even sell different levels of fast pass. One ride at a time, all the big rides once, or unlimited queue jumping for the whole day. Each step up costs more, and on the busiest days they can sell out completely.",
+   "vis": {
+    "type": "bars",
+    "title": "Fast pass levels (illustrative)",
+    "prefix": "£",
+    "items": [
+     [
+      "One ride",
+      10,
+      "teal"
+     ],
+     [
+      "Big rides once",
+      40,
+      "gold"
+     ],
+     [
+      "Unlimited",
+      90,
+      "red"
+     ]
+    ],
+    "max": 95,
+    "source": "Illustrative prices; they vary by park and day"
    }
   },
   {

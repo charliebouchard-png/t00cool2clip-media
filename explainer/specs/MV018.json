@@ -3,7 +3,7 @@
  "style": "chalk",
  "variant": 0,
  "voice": "am_puck",
- "speed": 0.88,
+ "speed": 0.86,
  "title": "How the National Lottery Actually Makes Money",
  "beats": [
   {
@@ -199,6 +199,18 @@
      ],
      "color": "red"
     }
+   }
+  },
+  {
+   "say": "And with EuroMillions, the odds of the jackpot are even longer, at around one in a hundred and forty million per ticket. That's why the jackpots can grow so huge before anyone wins.",
+   "vis": {
+    "type": "num",
+    "value": 140,
+    "suffix": " million",
+    "label": "to one: the odds of the EuroMillions jackpot",
+    "color": "red",
+    "emoji": "🇪🇺",
+    "source": "About 1 in 139,838,160"
    }
   },
   {

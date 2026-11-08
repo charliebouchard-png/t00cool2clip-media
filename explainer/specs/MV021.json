@@ -3,7 +3,7 @@
  "style": "ledger",
  "variant": 2,
  "voice": "bm_fable",
- "speed": 0.88,
+ "speed": 0.86,
  "trans": "pan",
  "title": "Brink's-Mat: The Robbery That Found £26 Million in Gold",
  "beats": [
@@ -110,6 +110,42 @@
      "terrifying"
     ],
     "color": "red"
+   }
+  },
+  {
+   "say": "The whole raid inside the warehouse took less than two hours. By the time the alarm was raised, the gold and the gang were gone.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "6:40am",
+      "Gang enters the warehouse"
+     ],
+     [
+      "Inside",
+      "Guards tied up"
+     ],
+     [
+      "Vault",
+      "Gold loaded into a van"
+     ],
+     [
+      "Under 2 hours",
+      "Gang is gone",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Police quickly realised it was one of the biggest robberies the world had ever seen. A huge investigation began, and it would go on for years.",
+   "vis": {
+    "type": "hook",
+    "text": "One of the biggest robberies ever.",
+    "emoji": "🚨",
+    "hot": [
+     "biggest"
+    ]
    }
   },
   {

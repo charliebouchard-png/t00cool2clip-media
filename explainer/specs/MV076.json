@@ -1,0 +1,425 @@
+{
+ "id": "MV076",
+ "style": "bold",
+ "variant": 0,
+ "voice": "am_puck",
+ "speed": 0.82,
+ "trans": "slap",
+ "title": "Why Is Gold So Valuable?",
+ "beats": [
+  {
+   "say": "Gold is mostly useless in everyday life. You can't eat it. It's too soft to make tools. And yet, for thousands of years, people have treasured it, fought over it, and used it as money. Why?",
+   "vis": {
+    "type": "hook",
+    "text": "Mostly useless. Endlessly valuable. Why?",
+    "emoji": "🥇",
+    "hot": [
+     "Why?"
+    ]
+   }
+  },
+  {
+   "say": "According to the World Gold Council, all the gold ever mined would form a cube only about twenty two metres on each side. That's about two hundred and twenty thousand tonnes in total.",
+   "vis": {
+    "type": "num",
+    "value": 22.6,
+    "label": "metres: the side of a cube of all gold ever mined",
+    "color": "gold",
+    "emoji": "🧊",
+    "prefix": "",
+    "suffix": " m",
+    "dec": 1,
+    "source": "World Gold Council"
+   }
+  },
+  {
+   "say": "Part one. The perfect money metal.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The perfect money metal"
+   }
+  },
+  {
+   "say": "To understand why gold became money, look at the periodic table. Of all the elements, very few are any good for money. Gases blow away. Many metals rust, react, or are dangerous. Some are far too common. Others are far too rare.",
+   "vis": {
+    "type": "list",
+    "title": "What makes good money?",
+    "items": [
+     [
+      "🛡️",
+      "Doesn't rust or rot"
+     ],
+     [
+      "💎",
+      "Rare, but not too rare"
+     ],
+     [
+      "✋",
+      "Easy to shape and divide"
+     ],
+     [
+      "✨",
+      "Easy to recognise"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Gold ticks almost every box. It doesn't rust or tarnish, so it lasts forever. It's rare, but there's enough of it to use. It's soft enough to make into coins. And its colour makes it easy to recognise.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Iron",
+     "emoji": "🔩",
+     "lines": [
+      "Rusts",
+      "Too common"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Gold",
+     "emoji": "🥇",
+     "lines": [
+      "Never rusts",
+      "Rare but usable"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Gold is also incredibly easy to work with. A single gram can be beaten into a sheet so thin you can almost see through it. That's how gold leaf is made.",
+   "vis": {
+    "type": "hook",
+    "text": "One gram can cover a huge area.",
+    "emoji": "✨",
+    "hot": [
+     "huge"
+    ]
+   }
+  },
+  {
+   "say": "Silver was used as money too, and for centuries was even more common for everyday coins. But silver tarnishes, and is less rare. Gold became the ultimate store of value.",
+   "vis": {
+    "type": "hook",
+    "text": "Silver for everyday. Gold for wealth.",
+    "emoji": "🥈",
+    "hot": [
+     "Gold"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Gold lasts forever.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Gold lasts forever"
+   }
+  },
+  {
+   "say": "Because gold doesn't corrode, almost all the gold ever mined still exists. The gold in your ring might once have been an ancient coin, or part of a pharaoh's treasure.",
+   "vis": {
+    "type": "hook",
+    "text": "Your ring could contain ancient gold.",
+    "emoji": "💍",
+    "hot": [
+     "ancient"
+    ]
+   }
+  },
+  {
+   "say": "Gold does have real uses too. It conducts electricity well and doesn't corrode, so tiny amounts are used in phones, computers and spacecraft. Dentists have used it for centuries.",
+   "vis": {
+    "type": "hook",
+    "text": "Tiny amounts are in your phone.",
+    "emoji": "📱",
+    "hot": [
+     "phone."
+    ]
+   }
+  },
+  {
+   "say": "Today, around forty four percent of all above ground gold is jewellery. About a fifth is in bars and coins. And around eighteen percent is held by central banks.",
+   "vis": {
+    "type": "bars",
+    "title": "Where the world's gold is",
+    "items": [
+     [
+      "Jewellery",
+      44,
+      "gold"
+     ],
+     [
+      "Bars and coins",
+      21,
+      "teal"
+     ],
+     [
+      "Central banks",
+      18,
+      "red"
+     ],
+     [
+      "Other",
+      17,
+      "teal"
+     ]
+    ],
+    "max": 50,
+    "prefix": "",
+    "suffix": "%",
+    "source": "World Gold Council, 2026"
+   }
+  },
+  {
+   "say": "Part three. Gold as money.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Gold as money"
+   }
+  },
+  {
+   "say": "Gold has been used as money and treasure for thousands of years. Some of the earliest known coins, from the kingdom of Lydia in what's now Turkey, were made from electrum, a natural mix of gold and silver. Later, many countries tied their currencies to gold under the gold standard.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Ancient times",
+      "Gold as treasure"
+     ],
+     [
+      "~600 BC",
+      "Early coins in Lydia"
+     ],
+     [
+      "1800s",
+      "The gold standard spreads"
+     ],
+     [
+      "1971",
+      "The dollar's gold link ends",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The Bank of England holds hundreds of thousands of gold bars in its vaults in London, many on behalf of other countries' central banks. It's one of the largest stores of gold in the world.",
+   "vis": {
+    "type": "hook",
+    "text": "Huge gold vaults lie under London.",
+    "emoji": "🏛️",
+    "hot": [
+     "London."
+    ]
+   }
+  },
+  {
+   "say": "Today, no major currency is backed by gold. But central banks still hold huge amounts as part of their reserves. In recent years, many have been buying more.",
+   "vis": {
+    "type": "hook",
+    "text": "Central banks are still buying gold.",
+    "emoji": "🏛️",
+    "hot": [
+     "buying"
+    ]
+   }
+  },
+  {
+   "say": "Part four. Why people buy it now.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why people buy it now"
+   }
+  },
+  {
+   "say": "People today buy gold for a few reasons. As a safe haven in times of crisis. As protection against inflation or currency collapse. Because it isn't anyone's debt. And because of tradition, especially for weddings and festivals in many cultures.",
+   "vis": {
+    "type": "list",
+    "title": "Why people buy gold",
+    "items": [
+     [
+      "🛟",
+      "A safe haven in crises"
+     ],
+     [
+      "📈",
+      "A hedge against inflation"
+     ],
+     [
+      "🧾",
+      "Not anyone's IOU"
+     ],
+     [
+      "💍",
+      "Tradition and jewellery"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Gold has done well in many crises. Its price often rises when people are scared about banks, wars or inflation, because they want something that can't be printed.",
+   "vis": {
+    "type": "hook",
+    "text": "Gold can't be printed.",
+    "emoji": "🖨️",
+    "hot": [
+     "can't"
+    ]
+   }
+  },
+  {
+   "say": "Gold is priced in US dollars per troy ounce, a special unit of about thirty one grams. When you hear the gold price on the news, that's usually what's being quoted.",
+   "vis": {
+    "type": "hook",
+    "text": "Priced per troy ounce, about 31 grams.",
+    "emoji": "⚖️",
+    "hot": [
+     "troy"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The downsides.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The downsides"
+   }
+  },
+  {
+   "say": "But gold has drawbacks as an investment. It doesn't pay interest or dividends. Its price can swing wildly, and has fallen for years at a time. And storing and insuring physical gold costs money.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Gold",
+     "emoji": "🥇",
+     "lines": [
+      "No income",
+      "Can swing wildly"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Shares",
+     "emoji": "📈",
+     "lines": [
+      "Can pay dividends",
+      "Linked to company profits"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In the UK, some gold coins, like Sovereigns and Britannias, are free from capital gains tax, because they're legal tender. That's one reason they're popular with British buyers.",
+   "vis": {
+    "type": "hook",
+    "text": "Some UK gold coins are free from CGT.",
+    "emoji": "🪙",
+    "hot": [
+     "free"
+    ]
+   }
+  },
+  {
+   "say": "Gold's value comes largely from belief. People value it because people have always valued it. That's not so different from paper money. It's just a belief that's lasted thousands of years.",
+   "vis": {
+    "type": "hook",
+    "text": "Its value rests on a very old belief.",
+    "emoji": "🤝",
+    "hot": [
+     "belief."
+    ]
+   }
+  },
+  {
+   "say": "Mining gold is also hard and expensive. New supply each year only adds a small amount to the total. That slow supply is part of why gold holds its value better than paper money that can be printed.",
+   "vis": {
+    "type": "list",
+    "title": "Why supply stays tight",
+    "items": [
+     [
+      "⛏️",
+      "Hard and costly to mine"
+     ],
+     [
+      "🐢",
+      "New supply is small each year"
+     ],
+     [
+      "🌍",
+      "Found in limited places"
+     ],
+     [
+      "♻️",
+      "Most old gold is still around"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lesson.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lesson"
+   }
+  },
+  {
+   "say": "If you're thinking about gold, a few points to remember. This is general information, not personal advice. Gold can play a role in diversifying, but it's not guaranteed to rise. And beware of scams selling overpriced coins.",
+   "vis": {
+    "type": "list",
+    "title": "If you're considering gold",
+    "items": [
+     [
+      "🧺",
+      "It can help diversify"
+     ],
+     [
+      "📉",
+      "Prices can fall for years"
+     ],
+     [
+      "💸",
+      "Watch dealer markups"
+     ],
+     [
+      "🚨",
+      "Beware gold scams"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Gold is valuable because it's rare, it lasts forever, and humans have trusted it for longer than any currency in history. A tiny cube of metal that has outlived every empire that used it.",
+   "vis": {
+    "type": "hook",
+    "text": "Gold has outlived every empire.",
+    "emoji": "👑",
+    "hot": [
+     "every"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHY GOLD?",
+  "emoji": "🥇",
+  "color": "gold",
+  "tag": "Systems"
+ }
+}

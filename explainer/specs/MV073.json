@@ -1,0 +1,469 @@
+{
+ "id": "MV073",
+ "style": "collage",
+ "variant": 1,
+ "voice": "af_heart",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "What Is a Recession, Really?",
+ "beats": [
+  {
+   "say": "You hear the word all the time. Recession. It sounds terrifying. But what does it actually mean? And what happens to ordinary people when a country goes into one?",
+   "vis": {
+    "type": "hook",
+    "text": "Recession. What does it actually mean?",
+    "emoji": "📉",
+    "hot": [
+     "mean?"
+    ]
+   }
+  },
+  {
+   "say": "Let's break it down simply. What a recession is, why they happen, how they affect you, and what you can do to be ready.",
+   "vis": {
+    "type": "list",
+    "title": "Today",
+    "items": [
+     [
+      "📏",
+      "The definition"
+     ],
+     [
+      "🔍",
+      "Why they happen"
+     ],
+     [
+      "👷",
+      "Who gets hit"
+     ],
+     [
+      "🛟",
+      "How to prepare"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Measuring the economy.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Measuring the economy"
+   }
+  },
+  {
+   "say": "To understand a recession, you need to understand GDP. Gross Domestic Product. It's the total value of all the goods and services a country produces. Think of it as the size of the economy.",
+   "vis": {
+    "type": "hook",
+    "text": "GDP: the size of the economy.",
+    "emoji": "📏",
+    "hot": [
+     "GDP:"
+    ]
+   }
+  },
+  {
+   "say": "When GDP grows, the economy is producing more. Businesses sell more, hire more, and wages tend to rise. When GDP shrinks, the opposite starts to happen.",
+   "vis": {
+    "type": "flow",
+    "title": "Growth vs shrinking",
+    "nodes": [
+     [
+      "📈",
+      "GDP grows"
+     ],
+     [
+      "🏭",
+      "Businesses expand"
+     ],
+     [
+      "👷",
+      "More jobs"
+     ],
+     [
+      "💷",
+      "Rising incomes"
+     ]
+    ],
+    "color": "red",
+    "coin": "📈"
+   }
+  },
+  {
+   "say": "GDP is measured by the Office for National Statistics. The first estimates come out a few weeks after each quarter, and are often revised later as more data arrives. So a recession can be announced, and later un-announced.",
+   "vis": {
+    "type": "hook",
+    "text": "Recessions can be revised away.",
+    "emoji": "🔄",
+    "hot": [
+     "revised"
+    ]
+   }
+  },
+  {
+   "say": "Part two. The definition.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The definition"
+   }
+  },
+  {
+   "say": "In the UK, a recession is usually defined as two quarters in a row when GDP falls. A quarter is three months. So, six months of the economy shrinking.",
+   "vis": {
+    "type": "hook",
+    "text": "Two quarters of falling GDP.",
+    "emoji": "📆",
+    "hot": [
+     "Two"
+    ]
+   }
+  },
+  {
+   "say": "Some economists prefer a broader view. In the United States, an official committee looks at many things, like jobs, income and spending, before declaring a recession. Because a short, small dip can be called a recession, while a long slump that just avoids two negative quarters might not be.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "UK rule of thumb",
+     "emoji": "📆",
+     "lines": [
+      "Two falling quarters",
+      "Simple"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Broader view",
+     "emoji": "🔍",
+     "lines": [
+      "Jobs, income, spending",
+      "More judgement"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "A very deep, long recession is sometimes called a depression. The most famous was the Great Depression of the nineteen thirties.",
+   "vis": {
+    "type": "hook",
+    "text": "A deep, long recession is a depression.",
+    "emoji": "🕳️",
+    "hot": [
+     "depression."
+    ]
+   }
+  },
+  {
+   "say": "There's also something called a technical recession. That's when GDP falls slightly for two quarters, but the impact on jobs and incomes is small. Headlines can make these sound scarier than they are.",
+   "vis": {
+    "type": "list",
+    "title": "Types of downturn",
+    "items": [
+     [
+      "📉",
+      "Technical recession: small dips"
+     ],
+     [
+      "🏚️",
+      "Deep recession: big job losses"
+     ],
+     [
+      "🕳️",
+      "Depression: long and severe"
+     ],
+     [
+      "📊",
+      "Per person GDP matters too"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. Why they happen.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Why they happen"
+   }
+  },
+  {
+   "say": "Recessions can be caused by many things. A financial crisis, like in twenty oh eight. A sudden shock, like the pandemic in twenty twenty. High interest rates that cool the economy too much. Or a big jump in prices, like energy.",
+   "vis": {
+    "type": "list",
+    "title": "Common causes",
+    "items": [
+     [
+      "🏦",
+      "Financial crises"
+     ],
+     [
+      "🦠",
+      "Sudden shocks"
+     ],
+     [
+      "📈",
+      "High interest rates"
+     ],
+     [
+      "⛽",
+      "Energy price spikes"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "They often spread through a chain reaction. People get worried and spend less. Businesses sell less, so they cut costs and jobs. People who lose jobs spend even less. And so on.",
+   "vis": {
+    "type": "flow",
+    "title": "The downward spiral",
+    "nodes": [
+     [
+      "😟",
+      "People spend less"
+     ],
+     [
+      "🏪",
+      "Businesses sell less"
+     ],
+     [
+      "✂️",
+      "Jobs are cut"
+     ],
+     [
+      "🔁",
+      "Spending falls further"
+     ]
+    ],
+    "color": "red",
+    "coin": "📉"
+   }
+  },
+  {
+   "say": "Confidence plays a big part. If people and businesses expect bad times, they hold back, which can help bring the bad times about. Economists call this a self fulfilling prophecy.",
+   "vis": {
+    "type": "hook",
+    "text": "Fear can become self-fulfilling.",
+    "emoji": "😨",
+    "hot": [
+     "self-fulfilling."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Real recessions.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Real recessions"
+   }
+  },
+  {
+   "say": "Britain has had several recessions in recent decades. In the early nineteen nineties. In twenty oh eight and oh nine, after the financial crisis. And in twenty twenty, when the pandemic caused the sharpest fall in output in modern times.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1990-91",
+      "Early 90s recession"
+     ],
+     [
+      "2008-09",
+      "Financial crisis"
+     ],
+     [
+      "2020",
+      "Pandemic shock"
+     ],
+     [
+      "Late 2023",
+      "A shallow recession",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the spring of twenty twenty, UK GDP fell by around a fifth in just three months, as lockdowns shut much of the economy. It then bounced back faster than most recessions, because the cause was temporary.",
+   "vis": {
+    "type": "hook",
+    "text": "In 2020, GDP fell about a fifth in three months.",
+    "emoji": "🦠",
+    "hot": [
+     "a",
+     "fifth"
+    ]
+   }
+  },
+  {
+   "say": "The twenty oh eight recession was very different. It was caused by a banking crisis, and the recovery was slow. It took years for output and wages to recover.",
+   "vis": {
+    "type": "hook",
+    "text": "After 2008, recovery took years.",
+    "emoji": "🐢",
+    "hot": [
+     "years."
+    ]
+   }
+  },
+  {
+   "say": "Part five. Who gets hit.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Who gets hit"
+   }
+  },
+  {
+   "say": "Recessions don't hit everyone equally. For many people, life carries on fairly normally. But for those who lose their jobs, a recession can be devastating.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "For many",
+     "emoji": "🙂",
+     "lines": [
+      "Job continues",
+      "Some belt-tightening"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "For some",
+     "emoji": "😢",
+     "lines": [
+      "Job lost",
+      "Struggle to pay bills"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Young people and new graduates often find it harder to get jobs. Sectors like retail, hospitality and construction can be hit hard. Small businesses may struggle. And unemployment usually rises, often lagging behind the recession itself.",
+   "vis": {
+    "type": "list",
+    "title": "Often hit hardest",
+    "items": [
+     [
+      "🎓",
+      "Young people and graduates"
+     ],
+     [
+      "🛍️",
+      "Retail and hospitality"
+     ],
+     [
+      "🏗️",
+      "Construction"
+     ],
+     [
+      "🏪",
+      "Small businesses"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Even people who keep their jobs can feel it. Pay rises may be smaller, overtime may disappear, and fewer new jobs are advertised, making it harder to change jobs.",
+   "vis": {
+    "type": "hook",
+    "text": "Even those in work can feel the squeeze.",
+    "emoji": "🧃",
+    "hot": [
+     "squeeze."
+    ]
+   }
+  },
+  {
+   "say": "Governments and central banks usually respond. Central banks may cut interest rates. Governments may spend more, or cut taxes, to support the economy. These are tools to soften the fall.",
+   "vis": {
+    "type": "hook",
+    "text": "Rate cuts and government support soften the fall.",
+    "emoji": "🛟",
+    "hot": [
+     "soften"
+    ]
+   }
+  },
+  {
+   "say": "During the pandemic, the UK government's furlough scheme paid a large part of the wages of millions of workers, which helped keep unemployment far lower than many had feared.",
+   "vis": {
+    "type": "hook",
+    "text": "Furlough kept millions in work.",
+    "emoji": "🛟",
+    "hot": [
+     "millions"
+    ]
+   }
+  },
+  {
+   "say": "Part six. How to prepare.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "How to prepare"
+   }
+  },
+  {
+   "say": "You can't stop a recession. But you can make yourself more resilient. Build an emergency fund, ideally a few months of essential costs. Keep debts manageable. Keep your skills up to date. And avoid panicking if investments fall.",
+   "vis": {
+    "type": "list",
+    "title": "Recession-proofing yourself",
+    "items": [
+     [
+      "🛟",
+      "Emergency fund"
+     ],
+     [
+      "💳",
+      "Manageable debts"
+     ],
+     [
+      "🎓",
+      "Up-to-date skills"
+     ],
+     [
+      "🧘",
+      "Don't panic-sell investments"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And remember, if you invest for the long term, recessions have often been followed by recoveries. Selling in a panic can turn a temporary fall into a permanent loss.",
+   "vis": {
+    "type": "hook",
+    "text": "Panic selling can lock in losses.",
+    "emoji": "🔒",
+    "hot": [
+     "lock"
+    ]
+   }
+  },
+  {
+   "say": "Recessions are a normal, if painful, part of the economic cycle. Economies have always recovered, though it can take time. Being prepared means a recession is a tough period, not a disaster.",
+   "vis": {
+    "type": "hook",
+    "text": "Prepared means tough, not disastrous.",
+    "emoji": "💪",
+    "hot": [
+     "Prepared"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHAT IS A|RECESSION?",
+  "emoji": "📉",
+  "color": "red",
+  "tag": "Systems"
+ }
+}

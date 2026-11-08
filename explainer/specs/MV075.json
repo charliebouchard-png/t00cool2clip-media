@@ -1,0 +1,391 @@
+{
+ "id": "MV075",
+ "style": "documentary",
+ "voice": "af_kore",
+ "speed": 0.82,
+ "title": "Who Owns the National Debt?",
+ "beats": [
+  {
+   "say": "The UK government owes nearly three trillion pounds. That's more than one hundred thousand pounds for every household in the country. So who exactly is it owed to? The answer might surprise you. A lot of it, in one way or another, is owed to ourselves.",
+   "vis": {
+    "type": "hook",
+    "text": "Nearly £3 trillion. Owed to who?",
+    "emoji": "🏛️",
+    "hot": [
+     "who?"
+    ]
+   }
+  },
+  {
+   "say": "In early twenty twenty six, UK public sector net debt was around two point eight seven trillion pounds, equal to roughly ninety three percent of the size of the whole economy.",
+   "vis": {
+    "type": "num",
+    "value": 2.87,
+    "label": "UK public sector net debt, early 2026",
+    "color": "gold",
+    "emoji": "🏛️",
+    "prefix": "£",
+    "suffix": " trillion",
+    "dec": 2,
+    "source": "ONS figures, via tutor2u, 2026"
+   }
+  },
+  {
+   "say": "Part one. How the government borrows.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "How the government borrows"
+   }
+  },
+  {
+   "say": "When the government spends more than it raises in taxes, it has to borrow the difference. The gap each year is called the deficit. The total built up over time is the debt.",
+   "vis": {
+    "type": "hook",
+    "text": "Deficit: yearly gap. Debt: the total.",
+    "emoji": "🧾",
+    "hot": [
+     "Deficit:"
+    ]
+   }
+  },
+  {
+   "say": "Governments almost never pay off their debt completely. Instead, as old gilts are repaid, new ones are sold. What matters most is whether the debt is manageable compared with the size of the economy.",
+   "vis": {
+    "type": "hook",
+    "text": "Debt is rolled over, not paid off.",
+    "emoji": "🔁",
+    "hot": [
+     "rolled"
+    ]
+   }
+  },
+  {
+   "say": "Mostly, the government borrows by selling bonds called gilts. An investor pays, say, one hundred pounds for a gilt. The government pays them interest every year, then pays back the one hundred pounds on a set date.",
+   "vis": {
+    "type": "flow",
+    "title": "How a gilt works",
+    "nodes": [
+     [
+      "💷",
+      "Investor buys a gilt"
+     ],
+     [
+      "🏛️",
+      "Government gets cash"
+     ],
+     [
+      "📅",
+      "Pays interest each year"
+     ],
+     [
+      "🔁",
+      "Repays at the end"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🧾"
+   }
+  },
+  {
+   "say": "Gilts are sold by an agency called the Debt Management Office. The name comes from old certificates that had gilded, or gold, edges.",
+   "vis": {
+    "type": "hook",
+    "text": "Gilts: named after gold-edged certificates.",
+    "emoji": "📜",
+    "hot": [
+     "gold-edged"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Who holds the debt?",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Who holds the debt?"
+   }
+  },
+  {
+   "say": "So who buys gilts? Roughly speaking, about a quarter to a third is held by overseas investors. A similar share has been held by the Bank of England. And around a quarter by UK pension funds and insurance companies.",
+   "vis": {
+    "type": "bars",
+    "title": "Who holds UK government gilts (approx.)",
+    "items": [
+     [
+      "Overseas investors",
+      30,
+      "teal"
+     ],
+     [
+      "Bank of England",
+      30,
+      "gold"
+     ],
+     [
+      "UK pensions and insurers",
+      25,
+      "red"
+     ],
+     [
+      "Others",
+      15,
+      "teal"
+     ]
+    ],
+    "max": 35,
+    "prefix": "",
+    "suffix": "%",
+    "source": "Approximate shares, tutor2u 2026"
+   }
+  },
+  {
+   "say": "Here's why it's partly owed to ourselves. Pension funds and insurers invest money on behalf of millions of ordinary people. If you have a workplace pension, some of your money may well be lent to the government through gilts.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "You",
+     "emoji": "🙋",
+     "lines": [
+      "Pay into a pension",
+      "Pension buys gilts"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The government",
+     "emoji": "🏛️",
+     "lines": [
+      "Borrows from your pension",
+      "Pays it interest"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Overseas investors include foreign central banks and big international funds. Their willingness to buy gilts helps keep borrowing costs down, but means the UK relies partly on foreign confidence.",
+   "vis": {
+    "type": "hook",
+    "text": "Foreign investors matter too.",
+    "emoji": "🌍",
+    "hot": [
+     "Foreign"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The Bank of England.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The Bank of England"
+   }
+  },
+  {
+   "say": "The Bank of England became a huge holder of gilts through quantitative easing. After two thousand and eight, and during the pandemic, it created new money and used it to buy government bonds, to keep borrowing costs low.",
+   "vis": {
+    "type": "hook",
+    "text": "The central bank bought hundreds of billions.",
+    "emoji": "🏛️",
+    "hot": [
+     "hundreds"
+    ]
+   }
+  },
+  {
+   "say": "In recent years, the Bank has been reducing those holdings, a process called quantitative tightening. That means more gilts need to be bought by other investors.",
+   "vis": {
+    "type": "list",
+    "title": "QE and QT",
+    "items": [
+     [
+      "🖨️",
+      "QE: Bank creates money, buys gilts"
+     ],
+     [
+      "📉",
+      "Keeps borrowing costs low"
+     ],
+     [
+      "🔄",
+      "QT: Bank reduces its holdings"
+     ],
+     [
+      "🏦",
+      "Others must buy more"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. The interest bill.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The interest bill"
+   }
+  },
+  {
+   "say": "All that debt costs money. The UK now spends over one hundred billion pounds a year on debt interest. That's more than it spends on defence.",
+   "vis": {
+    "type": "num",
+    "value": 111,
+    "label": "in debt interest a year, projected",
+    "color": "red",
+    "emoji": "💸",
+    "prefix": "£",
+    "suffix": " billion+",
+    "source": "tutor2u, 2026"
+   }
+  },
+  {
+   "say": "The interest rate on new gilts, called the yield, rises and falls with markets. When yields rise, new borrowing becomes more expensive, and that cost feeds through over time as old debt is replaced.",
+   "vis": {
+    "type": "hook",
+    "text": "Higher yields mean higher future costs.",
+    "emoji": "📈",
+    "hot": [
+     "yields"
+    ]
+   }
+  },
+  {
+   "say": "About a quarter of UK government debt is index linked, meaning the payments rise with inflation. When inflation jumped in twenty twenty two, the interest bill shot up too.",
+   "vis": {
+    "type": "hook",
+    "text": "A quarter of the debt is linked to inflation.",
+    "emoji": "📈",
+    "hot": [
+     "inflation."
+    ]
+   }
+  },
+  {
+   "say": "Part five. Is the debt a problem?",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Is the debt a problem?"
+   }
+  },
+  {
+   "say": "People disagree about how worried to be. Some argue the debt is too high, that interest costs crowd out spending on public services, and that borrowing costs could rise if investors lose confidence. Others argue that a country with its own currency and long dated debt can manage a high debt level, and that borrowing to invest can pay for itself.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "More worried",
+     "emoji": "😟",
+     "lines": [
+      "Rising interest costs",
+      "Investor confidence"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Less worried",
+     "emoji": "😌",
+     "lines": [
+      "Own currency",
+      "Long-dated debt"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The debt has grown a lot in recent decades. It jumped after the two thousand and eight crisis, and again during the pandemic, when the government spent hundreds of billions supporting the economy.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Early 2000s",
+      "Debt around a third of GDP"
+     ],
+     [
+      "2008-09",
+      "Financial crisis"
+     ],
+     [
+      "2020",
+      "Pandemic support"
+     ],
+     [
+      "2026",
+      "Around 93% of GDP",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A reminder of how sensitive markets can be came in September twenty twenty two. After the mini budget, gilt prices fell sharply and borrowing costs jumped, and the Bank of England had to step in to calm the market.",
+   "vis": {
+    "type": "hook",
+    "text": "2022 showed how sensitive markets can be.",
+    "emoji": "⚠️",
+    "hot": [
+     "sensitive"
+    ]
+   }
+  },
+  {
+   "say": "Part six. What it means for you.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What it means for you"
+   }
+  },
+  {
+   "say": "The national debt affects you in a few ways. Higher interest bills can mean less money for public services or higher taxes. Gilt yields influence mortgage rates. And if you have a pension, you may own a small piece of the debt yourself.",
+   "vis": {
+    "type": "list",
+    "title": "Why it matters to you",
+    "items": [
+     [
+      "🏥",
+      "Public spending choices"
+     ],
+     [
+      "🧾",
+      "Taxes"
+     ],
+     [
+      "🏠",
+      "Mortgage rates"
+     ],
+     [
+      "👵",
+      "Your pension"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So the national debt isn't one big loan from a foreign bank. It's millions of IOUs, held by pension funds, insurers, the central bank and investors at home and abroad. And quite possibly, by you.",
+   "vis": {
+    "type": "hook",
+    "text": "Millions of IOUs. Possibly including yours.",
+    "emoji": "🧾",
+    "hot": [
+     "yours."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£2.9 TRILLION.|OWED TO|WHO?",
+  "emoji": "🏛️",
+  "color": "gold",
+  "tag": "Systems"
+ }
+}

@@ -1,0 +1,418 @@
+{
+ "id": "MV072",
+ "style": "ledger",
+ "variant": 0,
+ "voice": "bm_george",
+ "speed": 0.82,
+ "trans": "pan",
+ "title": "How UK Tax Actually Works",
+ "beats": [
+  {
+   "say": "Have you ever heard someone say, I turned down a pay rise because it would put me in a higher tax bracket, and I'd take home less? In almost every case, that's simply not true. And understanding why can save you a lot of worry.",
+   "vis": {
+    "type": "hook",
+    "text": "A pay rise won't make you poorer. Almost never.",
+    "emoji": "🧾",
+    "hot": [
+     "Almost"
+    ]
+   }
+  },
+  {
+   "say": "Today, let's break down how income tax and National Insurance actually work in the UK, using the rates for England for the twenty twenty six to twenty seven tax year. Scotland has its own income tax bands.",
+   "vis": {
+    "type": "list",
+    "title": "Today",
+    "items": [
+     [
+      "🪜",
+      "How tax bands work"
+     ],
+     [
+      "🧮",
+      "A worked example"
+     ],
+     [
+      "🕳️",
+      "The £100,000 trap"
+     ],
+     [
+      "🏛️",
+      "Where National Insurance fits"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The personal allowance.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The personal allowance"
+   }
+  },
+  {
+   "say": "Most people get a personal allowance. That's the amount you can earn each year without paying any income tax at all. Right now it's twelve thousand five hundred and seventy pounds.",
+   "vis": {
+    "type": "hook",
+    "text": "The first £12,570 is tax free.",
+    "emoji": "🆓",
+    "hot": [
+     "tax",
+     "free."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Tax bands are like buckets.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Tax bands are like buckets"
+   }
+  },
+  {
+   "say": "Above that, income is taxed in bands. Twenty percent on income from twelve thousand five hundred and seventy one up to fifty thousand two hundred and seventy. Forty percent from there up to one hundred and twenty five thousand one hundred and forty. And forty five percent above that.",
+   "vis": {
+    "type": "bars",
+    "title": "Income tax rates, England 2026/27",
+    "items": [
+     [
+      "Up to £12,570",
+      0,
+      "teal"
+     ],
+     [
+      "£12,571 to £50,270",
+      20,
+      "teal"
+     ],
+     [
+      "£50,271 to £125,140",
+      40,
+      "gold"
+     ],
+     [
+      "Over £125,140",
+      45,
+      "red"
+     ]
+    ],
+    "max": 50,
+    "prefix": "",
+    "suffix": "%",
+    "source": "HMRC rates for 2026/27"
+   }
+  },
+  {
+   "say": "Here's the key bit. Each rate only applies to the slice of income inside that band. Think of it like filling buckets. You fill the tax free bucket first, then the twenty percent bucket, then the forty percent bucket.",
+   "vis": {
+    "type": "flow",
+    "title": "Filling the buckets",
+    "nodes": [
+     [
+      "🆓",
+      "First bucket: 0%"
+     ],
+     [
+      "🪣",
+      "Second bucket: 20%"
+     ],
+     [
+      "🪣",
+      "Third bucket: 40%"
+     ],
+     [
+      "🪣",
+      "Fourth bucket: 45%"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "So going into the higher rate band doesn't mean all your income is taxed at forty percent. Only the pounds above fifty thousand two hundred and seventy are.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The myth",
+     "emoji": "🙅",
+     "lines": [
+      "All income taxed at 40%",
+      "Pay rise = less money"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The reality",
+     "emoji": "✅",
+     "lines": [
+      "Only the extra slice at 40%",
+      "Pay rise = more money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part three. A worked example.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "A worked example"
+   }
+  },
+  {
+   "say": "Let's say you earn fifty five thousand pounds. The first twelve thousand five hundred and seventy is tax free. The next thirty seven thousand seven hundred is taxed at twenty percent, which is seven thousand five hundred and forty. The last four thousand seven hundred and thirty is taxed at forty percent, which is about one thousand eight hundred and ninety two.",
+   "vis": {
+    "type": "doc",
+    "title": "Income tax on £55,000",
+    "lines": [
+     [
+      "£12,570",
+      "0% = £0"
+     ],
+     [
+      "£37,700",
+      "20% = £7,540"
+     ],
+     [
+      "£4,730",
+      "40% = £1,892"
+     ],
+     [
+      "Total",
+      "£9,432"
+     ]
+    ],
+    "stamp": "WORKED",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "So your total income tax is about nine thousand four hundred and thirty two pounds. That's around seventeen percent of your income overall, not forty percent.",
+   "vis": {
+    "type": "hook",
+    "text": "About 17% overall. Not 40%.",
+    "emoji": "🧮",
+    "hot": [
+     "17%"
+    ]
+   }
+  },
+  {
+   "say": "This is the difference between your marginal rate, the rate on your next pound, and your average rate, the share of all your income that goes in tax. Your average rate is usually much lower.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Marginal rate",
+     "emoji": "📈",
+     "lines": [
+      "Tax on your next £1",
+      "e.g. 40%"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Average rate",
+     "emoji": "📊",
+     "lines": [
+      "Tax on everything",
+      "e.g. 17%"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part four. National Insurance.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "National Insurance"
+   }
+  },
+  {
+   "say": "On top of income tax, employees pay National Insurance. The main rate is eight percent on earnings between the lower threshold and about fifty thousand pounds a year, and two percent above that.",
+   "vis": {
+    "type": "hook",
+    "text": "NI: 8%, then 2% on higher earnings.",
+    "emoji": "🏛️",
+    "hot": [
+     "8%,"
+    ]
+   }
+  },
+  {
+   "say": "National Insurance helps you build up entitlement to the State Pension and some benefits. You usually need thirty five qualifying years for the full new State Pension.",
+   "vis": {
+    "type": "list",
+    "title": "What NI does",
+    "items": [
+     [
+      "👵",
+      "Builds State Pension entitlement"
+     ],
+     [
+      "📅",
+      "35 years for the full amount"
+     ],
+     [
+      "🏥",
+      "Linked to some benefits"
+     ],
+     [
+      "💼",
+      "Employers pay it too"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The hundred thousand pound trap.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The £100,000 trap"
+   }
+  },
+  {
+   "say": "Now, there is one genuine trap. Once your income goes over one hundred thousand pounds, you start losing your personal allowance. You lose one pound of allowance for every two pounds you earn above one hundred thousand.",
+   "vis": {
+    "type": "hook",
+    "text": "Over £100,000, your allowance shrinks.",
+    "emoji": "🕳️",
+    "hot": [
+     "shrinks."
+    ]
+   }
+  },
+  {
+   "say": "That creates an effective tax rate of sixty percent on income between one hundred thousand and one hundred and twenty five thousand one hundred and forty pounds. Even then, you still take home more after a pay rise, just much less of it.",
+   "vis": {
+    "type": "num",
+    "value": 60,
+    "label": "effective income tax rate between £100,000 and £125,140",
+    "color": "red",
+    "emoji": "🕳️",
+    "prefix": "",
+    "suffix": "%",
+    "source": "HMRC personal allowance taper"
+   }
+  },
+  {
+   "say": "Some people in this band pay extra into their pension to reduce their taxable income and keep their allowance. Others with young children may also lose help with childcare costs above one hundred thousand.",
+   "vis": {
+    "type": "hook",
+    "text": "Pension contributions can soften the trap.",
+    "emoji": "🛟",
+    "hot": [
+     "soften"
+    ]
+   }
+  },
+  {
+   "say": "Part six. When could a rise really hurt?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "When could a rise hurt?"
+   }
+  },
+  {
+   "say": "There are rare cases where earning a bit more can leave you worse off overall, usually because you lose a benefit or support that's means tested. For example, losing some tax free childcare, or certain benefits that reduce as income rises.",
+   "vis": {
+    "type": "list",
+    "title": "Rare situations to check",
+    "items": [
+     [
+      "👶",
+      "Childcare support limits"
+     ],
+     [
+      "📉",
+      "Means-tested benefits"
+     ],
+     [
+      "🎓",
+      "Student loan repayments"
+     ],
+     [
+      "👨‍👩‍👧",
+      "Child Benefit charge"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But that's caused by losing support, not by tax bands. A tax band on its own never makes you worse off overall from a pay rise.",
+   "vis": {
+    "type": "hook",
+    "text": "Tax bands alone never make you worse off.",
+    "emoji": "✅",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Part seven. Frozen thresholds.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "Frozen thresholds"
+   }
+  },
+  {
+   "say": "One more thing. The personal allowance and higher rate threshold have been frozen since twenty twenty one, and are set to stay frozen for years. As wages rise with inflation, more people get pulled into paying tax, or into the higher band. It's called fiscal drag.",
+   "vis": {
+    "type": "hook",
+    "text": "Frozen thresholds pull more people in.",
+    "emoji": "🧊",
+    "hot": [
+     "Frozen"
+    ]
+   }
+  },
+  {
+   "say": "So, the key takeaways. Tax bands work like buckets. Only the extra slice is taxed at the higher rate. Your average rate is lower than you think. And always check your payslip and tax code are right.",
+   "vis": {
+    "type": "list",
+    "title": "Takeaways",
+    "items": [
+     [
+      "🪣",
+      "Bands work like buckets"
+     ],
+     [
+      "📈",
+      "Only the slice above is taxed higher"
+     ],
+     [
+      "📊",
+      "Average rate is lower"
+     ],
+     [
+      "🔍",
+      "Check your tax code"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "A PAY RISE|CAN'T MAKE|YOU POORER*",
+  "emoji": "🧾",
+  "color": "gold",
+  "tag": "Living"
+ }
+}

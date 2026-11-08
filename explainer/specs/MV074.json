@@ -1,0 +1,418 @@
+{
+ "id": "MV074",
+ "style": "neon",
+ "variant": 1,
+ "voice": "am_fenrir",
+ "speed": 0.82,
+ "trans": "cut",
+ "title": "How Banks Make Money From Your Current Account",
+ "beats": [
+  {
+   "say": "In the UK, most current accounts are free, as long as you stay in credit. No monthly fee. Free cards, free transfers, a free app. So how do banks make money from you? Because they definitely do.",
+   "vis": {
+    "type": "hook",
+    "text": "Free bank accounts aren't really free.",
+    "emoji": "🏦",
+    "hot": [
+     "aren't"
+    ]
+   }
+  },
+  {
+   "say": "Let's break down the main ways banks earn money from everyday accounts. Once you see it, you'll understand why they want your account so badly.",
+   "vis": {
+    "type": "list",
+    "title": "How banks earn",
+    "items": [
+     [
+      "💷",
+      "Lending your money"
+     ],
+     [
+      "💳",
+      "Card fees"
+     ],
+     [
+      "📉",
+      "Overdrafts"
+     ],
+     [
+      "🛍️",
+      "Selling you other products"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The interest gap.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The interest gap"
+   }
+  },
+  {
+   "say": "The biggest one is simple. Banks pay you little or no interest on money in your current account. But they earn interest by lending and investing money across the bank. The difference is called the net interest margin.",
+   "vis": {
+    "type": "flow",
+    "title": "The interest gap",
+    "nodes": [
+     [
+      "💷",
+      "Your balance: little or no interest"
+     ],
+     [
+      "🏦",
+      "Bank's deposits fund lending"
+     ],
+     [
+      "🏠",
+      "Mortgages and loans earn interest"
+     ],
+     [
+      "💰",
+      "The bank keeps the gap"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "Imagine a bank pays zero percent on your current account balance, but earns four percent on mortgages and loans. That gap, across millions of customers, adds up to billions of pounds.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What you earn",
+     "emoji": "🫥",
+     "lines": [
+      "Often 0%",
+      "On current accounts"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What the bank earns",
+     "emoji": "💰",
+     "lines": [
+      "Interest on loans",
+      "And its reserves"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In the UK, banks also earn interest on the reserves they keep at the Bank of England, which is linked to Bank Rate. So when rates are higher, that's another source of income.",
+   "vis": {
+    "type": "hook",
+    "text": "Banks earn interest on reserves too.",
+    "emoji": "🏛️",
+    "hot": [
+     "reserves"
+    ]
+   }
+  },
+  {
+   "say": "When interest rates rose sharply from twenty twenty two, many banks' profits jumped, partly because they earned more on loans and reserves faster than they raised rates for savers.",
+   "vis": {
+    "type": "hook",
+    "text": "When rates rose, many bank profits jumped.",
+    "emoji": "📈",
+    "hot": [
+     "jumped."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Card fees.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Card fees"
+   }
+  },
+  {
+   "say": "Every time you pay by card, the shop pays a small fee. Part of that, called an interchange fee, goes to the bank that issued your card. In the UK, these fees on everyday debit cards are capped at a tiny percentage, but billions of payments add up.",
+   "vis": {
+    "type": "hook",
+    "text": "Every tap earns your bank a tiny fee.",
+    "emoji": "📶",
+    "hot": [
+     "tiny"
+    ]
+   }
+  },
+  {
+   "say": "Here's how a card payment splits. The shop pays a fee to its payment provider. Part goes to the card network, like Visa or Mastercard. And part goes to your bank. Credit cards usually earn banks more than debit cards.",
+   "vis": {
+    "type": "list",
+    "title": "Where a card fee goes",
+    "items": [
+     [
+      "🏪",
+      "Shop pays a fee"
+     ],
+     [
+      "🔀",
+      "Card network takes a slice"
+     ],
+     [
+      "🏦",
+      "Your bank gets a slice"
+     ],
+     [
+      "💳",
+      "Credit earns more than debit"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. Overdrafts.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Overdrafts"
+   }
+  },
+  {
+   "say": "Overdrafts are another big earner. If you go into an arranged overdraft, you'll usually pay interest. Since twenty twenty, UK banks have had to charge a single simple interest rate, and many charge around forty percent a year.",
+   "vis": {
+    "type": "hook",
+    "text": "Overdrafts can cost around 40% a year.",
+    "emoji": "📉",
+    "hot": [
+     "40%"
+    ]
+   }
+  },
+  {
+   "say": "That's far more than most personal loans. People who regularly use their overdraft can end up paying a lot without realising, because it feels like part of their own money.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Overdraft",
+     "emoji": "💸",
+     "lines": [
+      "Often ~40% a year",
+      "Feels like your money"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Personal loan",
+     "emoji": "🧾",
+     "lines": [
+      "Often much cheaper",
+      "Fixed repayments"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Unarranged overdrafts, going over your limit without permission, can lead to payments being refused. Banks have to warn you before charging, but it's still worth turning on alerts.",
+   "vis": {
+    "type": "hook",
+    "text": "Turn on balance alerts.",
+    "emoji": "🔔",
+    "hot": [
+     "alerts."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Selling you more.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Selling you more"
+   }
+  },
+  {
+   "say": "Once you're a customer, the bank can offer you other products. Credit cards. Loans. Mortgages. Insurance. Savings accounts. Each of those can make the bank money. Your current account is the front door.",
+   "vis": {
+    "type": "list",
+    "title": "The front door",
+    "items": [
+     [
+      "💳",
+      "Credit cards"
+     ],
+     [
+      "🏠",
+      "Mortgages"
+     ],
+     [
+      "🧾",
+      "Loans"
+     ],
+     [
+      "🛡️",
+      "Insurance"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Banks know most people rarely switch accounts. Many people stay with the same bank for decades, even when better deals are available. That loyalty is very valuable to banks.",
+   "vis": {
+    "type": "hook",
+    "text": "Loyalty is valuable. To the bank.",
+    "emoji": "🔒",
+    "hot": [
+     "bank."
+    ]
+   }
+  },
+  {
+   "say": "That's why banks sometimes pay you to switch. A cash bonus for moving your current account isn't charity. It's an investment, because they expect to earn far more from you over the years.",
+   "vis": {
+    "type": "hook",
+    "text": "Switching bonuses are an investment in you.",
+    "emoji": "🎁",
+    "hot": [
+     "investment"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Your data and habits.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Your data and habits"
+   }
+  },
+  {
+   "say": "Banks also learn a lot from how you spend. They use that to decide what to offer you, and to judge whether to lend to you. Some accounts offer cashback deals with retailers, who pay to reach you.",
+   "vis": {
+    "type": "hook",
+    "text": "Your spending habits are valuable too.",
+    "emoji": "📊",
+    "hot": [
+     "valuable"
+    ]
+   }
+  },
+  {
+   "say": "Traditional high street banks have expensive branches and staff. Newer app based banks have lower costs, which is one reason some can offer better features or rates.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "High street banks",
+     "emoji": "🏛️",
+     "lines": [
+      "Branches and staff",
+      "Higher costs"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "App-based banks",
+     "emoji": "📱",
+     "lines": [
+      "No branches",
+      "Lower costs"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And then there are fees. Fees for things like sending money abroad, using your card overseas, or paid accounts with extra perks like travel insurance.",
+   "vis": {
+    "type": "list",
+    "title": "Other fees",
+    "items": [
+     [
+      "🌍",
+      "Foreign transactions"
+     ],
+     [
+      "✈️",
+      "Using cards abroad"
+     ],
+     [
+      "⭐",
+      "Packaged accounts"
+     ],
+     [
+      "📬",
+      "Some special services"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. Making it work for you.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Making it work for you"
+   }
+  },
+  {
+   "say": "Now you know the game, you can play it better. Don't keep large amounts sitting in a current account earning nothing. Move savings to accounts that pay interest. Avoid relying on overdrafts. And consider switching bonuses if they suit you.",
+   "vis": {
+    "type": "list",
+    "title": "Playing the game",
+    "items": [
+     [
+      "💷",
+      "Move spare cash to savings"
+     ],
+     [
+      "📉",
+      "Avoid regular overdraft use"
+     ],
+     [
+      "🎁",
+      "Consider switching offers"
+     ],
+     [
+      "🔍",
+      "Check fees before travelling"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the UK, the Current Account Switch Service lets you move your account in seven working days, with payments redirected automatically. So switching is much easier than it used to be.",
+   "vis": {
+    "type": "hook",
+    "text": "Switching takes seven working days.",
+    "emoji": "🔄",
+    "hot": [
+     "seven"
+    ]
+   }
+  },
+  {
+   "say": "Your current account isn't free. You pay for it with the interest you don't earn, the fees you might pay, and the products you might buy. The smart move is to make sure you get more out of it than the bank does.",
+   "vis": {
+    "type": "hook",
+    "text": "Make sure you get more out of it than they do.",
+    "emoji": "😎",
+    "hot": [
+     "you"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "YOUR 'FREE'|BANK|ACCOUNT",
+  "emoji": "🏦",
+  "color": "teal",
+  "tag": "Systems"
+ }
+}

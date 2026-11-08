@@ -1,0 +1,442 @@
+{
+ "id": "MV023",
+ "style": "documentary",
+ "voice": "bf_emma",
+ "speed": 0.86,
+ "title": "The Northern Bank Robbery: £26 Million From Belfast",
+ "beats": [
+  {
+   "say": "Five days before Christmas, two thousand and four, a gang walked out of a bank in the centre of Belfast with twenty six and a half million pounds in cash. It was one of the biggest bank robberies in British and Irish history.",
+   "vis": {
+    "type": "hook",
+    "text": "£26.5 million. Five days before Christmas.",
+    "emoji": "🏦",
+    "hot": [
+     "£26.5",
+     "million."
+    ]
+   }
+  },
+  {
+   "say": "No one blew open a vault. No one tunnelled in. The money was carried out through the bank's own loading bay, in boxes, by the bank's own staff.",
+   "vis": {
+    "type": "hook",
+    "text": "Carried out by the bank's own staff.",
+    "hot": [
+     "own",
+     "staff."
+    ]
+   }
+  },
+  {
+   "say": "And to this day, no one has been convicted of the robbery itself.",
+   "vis": {
+    "type": "headline",
+    "kicker": "December 2004",
+    "paper": "THE BELFAST EVENING POST",
+    "text": "£26.5m stolen from Northern Bank headquarters",
+    "date": "One of the largest bank robberies in the UK and Ireland"
+   }
+  },
+  {
+   "say": "Part one. The hostages.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The hostages"
+   }
+  },
+  {
+   "say": "On Sunday the nineteenth of December, armed men went to the homes of two Northern Bank employees, one in Belfast and one in County Down. They took their families hostage.",
+   "vis": {
+    "type": "map",
+    "title": "Northern Ireland",
+    "pins": [
+     [
+      "Belfast",
+      0.55,
+      0.4,
+      "gold"
+     ],
+     [
+      "County Down",
+      0.6,
+      0.55,
+      "gold"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "The two men were told that if they wanted to see their families again, they would go to work the next day as normal, and do exactly as they were told.",
+   "vis": {
+    "type": "quote",
+    "text": "Go to work as normal. Do exactly as you're told.",
+    "who": "the gang's instruction to the two bank workers"
+   }
+  },
+  {
+   "say": "It was a terrifying form of robbery sometimes called a tiger kidnapping. Instead of breaking into the bank, the criminals force the people who already have the keys to do it for them.",
+   "vis": {
+    "type": "flow",
+    "title": "How a tiger kidnapping works",
+    "nodes": [
+     [
+      "🏠",
+      "Take a worker's family"
+     ],
+     [
+      "😨",
+      "Worker goes to work"
+     ],
+     [
+      "🏦",
+      "Worker opens the vault"
+     ],
+     [
+      "🚐",
+      "Gang takes the money"
+     ]
+    ],
+    "color": "red",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "Part two. The day of the robbery.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The day of the robbery"
+   }
+  },
+  {
+   "say": "On Monday the twentieth of December, the two employees went to Northern Bank's headquarters in Donegall Square West, right in the centre of Belfast.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Sun 19 Dec",
+      "Families taken hostage"
+     ],
+     [
+      "Mon 20 Dec",
+      "Workers go to the bank"
+     ],
+     [
+      "Evening",
+      "Cash loaded into a van"
+     ],
+     [
+      "Later",
+      "Hostages released",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "During the day, one of them took a first load of cash out in a sports bag, as a kind of test run. Later, after the bank closed, a van pulled up at the loading bay. The workers loaded boxes of cash into it. The van left, came back, and was loaded again.",
+   "vis": {
+    "type": "doc",
+    "title": "The loading bay",
+    "lines": [
+     [
+      "Daytime",
+      "A test run with a holdall"
+     ],
+     [
+      "Evening",
+      "Van arrives"
+     ],
+     [
+      "Trip one",
+      "Boxes of cash"
+     ],
+     [
+      "Trip two",
+      "More boxes"
+     ]
+    ],
+    "stamp": "GONE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "By the time it was over, twenty six and a half million pounds had gone. The families were released, frightened but alive, and the alarm was raised.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 26.5,
+    "dec": 1,
+    "suffix": " million",
+    "label": "in cash, taken from one bank",
+    "color": "gold",
+    "emoji": "💷"
+   }
+  },
+  {
+   "say": "Part three. Who was blamed.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Who was blamed"
+   }
+  },
+  {
+   "say": "In January two thousand and five, the Chief Constable of the Police Service of Northern Ireland, Hugh Orde, said police believed the Provisional IRA was responsible.",
+   "vis": {
+    "type": "headline",
+    "kicker": "January 2005",
+    "paper": "THE BELFAST EVENING POST",
+    "text": "Police chief says IRA was behind the Northern Bank robbery",
+    "date": "The IRA and Sinn Féin deny involvement"
+   }
+  },
+  {
+   "say": "The British government, the Irish government and an independent monitoring body agreed. The IRA and Sinn Féin denied any involvement. The row came at a sensitive time in the Northern Ireland peace process, and it caused a major political storm.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The accusation",
+     "emoji": "📢",
+     "lines": [
+      "Police and governments",
+      "Blame the IRA"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "The denial",
+     "emoji": "🙅",
+     "lines": [
+      "IRA and Sinn Féin",
+      "Deny involvement"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part four. The bank's clever response.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The bank's response"
+   }
+  },
+  {
+   "say": "Much of the stolen cash was in Northern Bank's own banknotes. In Northern Ireland, several banks print their own notes. So the bank did something remarkable. It replaced its notes.",
+   "vis": {
+    "type": "icon",
+    "emoji": "💷",
+    "text": "Recall the money",
+    "sub": "Northern Bank reissued its own banknotes",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Northern Bank withdrew its old notes and issued new ones, with new colours, a new logo and new serial numbers. The job was completed by March two thousand and five. Suddenly, anyone holding large amounts of the old notes would struggle to spend them without attracting attention.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Old notes",
+     "emoji": "🧾",
+     "lines": [
+      "Withdrawn",
+      "Suspicious in bulk"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "New notes",
+     "emoji": "💷",
+     "lines": [
+      "New colours and logo",
+      "New serial numbers"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "It was a clever move. The robbers had taken twenty six million pounds, but a big chunk of it had just become very risky to use.",
+   "vis": {
+    "type": "hook",
+    "text": "They stole millions. The bank changed the money.",
+    "emoji": "🔄",
+    "hot": [
+     "changed"
+    ]
+   }
+  },
+  {
+   "say": "It cost the bank a lot of money and effort to replace millions of notes. But it sent a clear message. Stolen cash is only valuable if you can spend it.",
+   "vis": {
+    "type": "hook",
+    "text": "Stolen cash is only worth something if you can spend it.",
+    "emoji": "💡",
+    "hot": [
+     "spend"
+    ]
+   }
+  },
+  {
+   "say": "The rest of the stolen money was in other banks' notes and in older notes, which couldn't be cancelled the same way. That's one reason some of the cash may have been easier to hide, and why police kept searching for years.",
+   "vis": {
+    "type": "list",
+    "title": "The money that couldn't be cancelled",
+    "items": [
+     [
+      "🏦",
+      "Other banks' notes"
+     ],
+     [
+      "🇬🇧",
+      "Bank of England notes"
+     ],
+     [
+      "🕵️",
+      "Harder to trace"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The money that turned up.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The money that turned up"
+   }
+  },
+  {
+   "say": "In the months that followed, some of the cash started to appear. Police in the Republic of Ireland raided properties in Cork and Dublin, and recovered more than two million pounds. Some of it was found hidden in a garden.",
+   "vis": {
+    "type": "flow",
+    "title": "The cash trail",
+    "nodes": [
+     [
+      "🏦",
+      "Belfast robbery"
+     ],
+     [
+      "🚔",
+      "Raids in Cork and Dublin"
+     ],
+     [
+      "🌱",
+      "Cash hidden in compost"
+     ],
+     [
+      "⚖️",
+      "Laundering charges"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "A businessman in Cork was later convicted of laundering money linked to the robbery, though his first conviction was overturned and the case went through a retrial. In Belfast, fifty thousand pounds in Northern Bank notes was even found hidden in the toilets of a sports club.",
+   "vis": {
+    "type": "list",
+    "title": "Strange discoveries",
+    "items": [
+     [
+      "🌱",
+      "Cash in compost in Cork"
+     ],
+     [
+      "🧾",
+      "Millions in Garda raids"
+     ],
+     [
+      "🚽",
+      "£50,000 in a club's toilets"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. The unanswered questions.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Unanswered questions"
+   }
+  },
+  {
+   "say": "One of the bank workers who had been forced to help was later charged with the robbery himself. But in two thousand and eight, the prosecution offered no evidence, and he was found not guilty.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2004",
+      "The robbery"
+     ],
+     [
+      "2005",
+      "Notes replaced, raids in Cork"
+     ],
+     [
+      "2008",
+      "Worker cleared in court"
+     ],
+     [
+      "Today",
+      "No one convicted of the robbery",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So more than twenty years later, the biggest question is still open. Most of the twenty six and a half million pounds has never been found, and no one has been convicted of the robbery itself.",
+   "vis": {
+    "type": "hook",
+    "text": "Most of the money has never been found.",
+    "emoji": "❓",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "The Northern Bank robbery changed how banks protect their staff and families, and showed the terrible pressure that ordinary employees can be put under. It also proved that sometimes, the smartest defence isn't a thicker vault. It's making the stolen money worthless.",
+   "vis": {
+    "type": "list",
+    "title": "The lessons",
+    "items": [
+     [
+      "👪",
+      "Staff and families need protecting"
+     ],
+     [
+      "🗝️",
+      "Keys are only as safe as people"
+     ],
+     [
+      "💷",
+      "Sometimes the best move is to change the money"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest heists, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which heist should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£26 MILLION|GONE",
+  "emoji": "🏦",
+  "color": "teal",
+  "tag": "Heists and cons"
+ }
+}

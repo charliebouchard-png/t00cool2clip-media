@@ -1,0 +1,453 @@
+{
+ "id": "MV022",
+ "style": "bold",
+ "variant": 1,
+ "voice": "am_michael",
+ "speed": 0.86,
+ "trans": "cut",
+ "title": "The Bangladesh Bank Hack: $1 Billion and One Typo",
+ "beats": [
+  {
+   "say": "In February twenty sixteen, hackers tried to steal nearly one billion dollars from the central bank of Bangladesh. They almost got away with all of it. What helped stop them was a spelling mistake.",
+   "vis": {
+    "type": "hook",
+    "text": "Nearly $1 billion. Stopped by a typo.",
+    "emoji": "💻",
+    "hot": [
+     "typo."
+    ]
+   }
+  },
+  {
+   "say": "The hackers sent payment orders worth nine hundred and fifty one million dollars, almost everything Bangladesh Bank held at the Federal Reserve Bank of New York.",
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 951,
+    "suffix": " million",
+    "label": "in fake payment orders, nearly the whole account",
+    "color": "red",
+    "emoji": "🏦",
+    "source": "Reporting on the 2016 Bangladesh Bank heist (The Daily Star, BBC)"
+   }
+  },
+  {
+   "say": "Most of it was blocked. But eighty one million dollars vanished, and much of it has never come back. US investigators later blamed hackers working for North Korea.",
+   "vis": {
+    "type": "bars",
+    "title": "What happened to the money",
+    "prefix": "$",
+    "suffix": "m",
+    "items": [
+     [
+      "Attempted",
+      951,
+      "teal"
+     ],
+     [
+      "Got through, then reversed (Sri Lanka)",
+      20,
+      "gold"
+     ],
+     [
+      "Got away (Philippines)",
+      81,
+      "red"
+     ]
+    ],
+    "max": 1000,
+    "source": "The Daily Star, 2016 heist reporting"
+   }
+  },
+  {
+   "say": "Part one. How central banks move money.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "How banks move money"
+   }
+  },
+  {
+   "say": "Banks around the world send money to each other using a messaging system called SWIFT. A bank sends a coded instruction, saying pay this much, from this account, to that one. The receiving bank trusts the message, because it comes through a secure network.",
+   "vis": {
+    "type": "flow",
+    "title": "How a SWIFT payment works",
+    "nodes": [
+     [
+      "🏦",
+      "Bank sends a message"
+     ],
+     [
+      "🔐",
+      "Secure SWIFT network"
+     ],
+     [
+      "🏛️",
+      "Receiving bank checks it"
+     ],
+     [
+      "💵",
+      "Money moves"
+     ]
+    ],
+    "color": "red",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "The hackers didn't break SWIFT itself. Instead, they broke into Bangladesh Bank's own computers, and used its genuine access to send messages that looked completely real.",
+   "vis": {
+    "type": "hook",
+    "text": "They didn't break the lock. They stole the key.",
+    "emoji": "🗝️",
+    "hot": [
+     "key."
+    ]
+   }
+  },
+  {
+   "say": "Think of it like a thief who doesn't pick the lock on your front door, but steals your keys and walks in like they live there. Every message the hackers sent came from the right place, with the right codes. To the system, it looked like Bangladesh Bank was asking for its own money.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal hacker",
+     "emoji": "🔨",
+     "lines": [
+      "Breaks in",
+      "Easy to spot"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "These hackers",
+     "emoji": "🗝️",
+     "lines": [
+      "Used real access",
+      "Looked legitimate"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In total, they sent dozens of payment requests. The plan was to empty the account in one go, before anyone in Dhaka or New York realised what was happening.",
+   "vis": {
+    "type": "hook",
+    "text": "Empty the account before anyone noticed.",
+    "emoji": "⏳",
+    "hot": [
+     "before"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Getting inside.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Getting inside"
+   }
+  },
+  {
+   "say": "Investigators believe the attackers got in long before the theft, possibly through emails carrying malware. For months they quietly explored the bank's systems, learning how payments worked and stealing the passwords they needed.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Months before",
+      "Malware gets inside"
+     ],
+     [
+      "Quietly",
+      "Hackers study the systems"
+     ],
+     [
+      "Feb 2016",
+      "Fake payments sent"
+     ],
+     [
+      "Weekend",
+      "Nobody notices",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "They also installed software to hide their tracks. The bank kept a printed paper record of its transfers, and the hackers disabled the software that controlled it, so nothing would come out of the printer.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🖨️",
+    "text": "The silent printer",
+    "sub": "Hackers stopped the paper record from printing",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part three. The perfect timing.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The perfect timing"
+   }
+  },
+  {
+   "say": "The hackers sent their orders on the evening of Thursday the fourth of February. In Bangladesh, the weekend falls on Friday and Saturday. In New York, it's Saturday and Sunday.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Bangladesh weekend",
+     "emoji": "🇧🇩",
+     "lines": [
+      "Friday and Saturday",
+      "Bank staff away"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "New York weekend",
+     "emoji": "🇺🇸",
+     "lines": [
+      "Saturday and Sunday",
+      "Fed staff away"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "That gap meant nearly three days when one side or the other wasn't working. And the money was heading to the Philippines, where the following Monday was the Lunar New Year holiday. Every hour of delay made the money harder to stop.",
+   "vis": {
+    "type": "map",
+    "title": "Three countries, three different calendars",
+    "pins": [
+     [
+      "New York",
+      0.26,
+      0.33,
+      "red"
+     ],
+     [
+      "Dhaka",
+      0.72,
+      0.45,
+      "red"
+     ],
+     [
+      "Manila",
+      0.86,
+      0.52,
+      "red"
+     ]
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part four. The typo.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The typo"
+   }
+  },
+  {
+   "say": "One of the payments, twenty million dollars, was sent to a bank account in Sri Lanka in the name of a charity called the Shalika Foundation. But in the payment order, foundation was spelled wrong. Fandation.",
+   "vis": {
+    "type": "doc",
+    "title": "Payment order",
+    "lines": [
+     [
+      "Amount",
+      "$20,000,000"
+     ],
+     [
+      "Destination",
+      "Sri Lanka"
+     ],
+     [
+      "Beneficiary",
+      "Shalika Fandation"
+     ]
+    ],
+    "stamp": "TYPO",
+    "stampAt": 6
+   }
+  },
+  {
+   "say": "The spelling mistake raised questions. A bank along the chain queried the payment, and that twenty million dollars was stopped and reversed.",
+   "vis": {
+    "type": "hook",
+    "text": "One wrong letter saved $20 million.",
+    "emoji": "🔤",
+    "hot": [
+     "$20",
+     "million."
+    ]
+   }
+  },
+  {
+   "say": "Meanwhile, the Federal Reserve in New York had already become suspicious of many of the other payments, and blocked most of them. One reason reported later was that some orders mentioned a bank branch on a street called Jupiter, a name that also appeared on a sanctions list. It triggered extra checks.",
+   "vis": {
+    "type": "list",
+    "title": "What tripped the alarms",
+    "items": [
+     [
+      "🔤",
+      "A misspelled 'Fandation'"
+     ],
+     [
+      "🪐",
+      "A 'Jupiter' address matching a sanctions list"
+     ],
+     [
+      "💵",
+      "Huge, unusual payments"
+     ],
+     [
+      "🔍",
+      "Staff who looked twice"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. Where the money went.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Where the money went"
+   }
+  },
+  {
+   "say": "Eighty one million dollars did get through, into accounts in the Philippines. From there it was quickly withdrawn and moved, much of it into casinos in Manila.",
+   "vis": {
+    "type": "flow",
+    "title": "Following the $81 million",
+    "nodes": [
+     [
+      "🏦",
+      "Philippine bank accounts"
+     ],
+     [
+      "💸",
+      "Withdrawn fast"
+     ],
+     [
+      "🎰",
+      "Casinos in Manila"
+     ],
+     [
+      "❓",
+      "Trail goes cold"
+     ]
+    ],
+    "color": "red",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "Casinos were the perfect hiding place. Money can be turned into chips, gambled, and cashed out again, and at the time, casinos in the Philippines weren't covered by the country's main anti money laundering law. Around sixteen million dollars was later recovered from one businessman. Most of the rest is still missing.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Recovered",
+     "emoji": "✅",
+     "lines": [
+      "About $16 million",
+      "From one businessman"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Still missing",
+     "emoji": "❓",
+     "lines": [
+      "About $65 million",
+      "Years later"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part six. Who did it?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Who did it?"
+   }
+  },
+  {
+   "say": "The FBI traced the attack to a group of hackers known as the Lazarus Group, which US authorities say works for North Korea. In twenty eighteen, the US charged a North Korean man with taking part in the hack. North Korea denies any involvement.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2018",
+    "paper": "THE DIGITAL TIMES",
+    "text": "US charges North Korean programmer over Bangladesh Bank hack",
+    "date": "North Korea denies involvement"
+   }
+  },
+  {
+   "say": "Security experts say the same group has since been linked to other huge thefts, especially from cryptocurrency companies. Stealing money online can be much safer than robbing a bank in person, if you're working from the other side of the world.",
+   "vis": {
+    "type": "hook",
+    "text": "The new bank robbers never leave their desks.",
+    "emoji": "🖥️",
+    "hot": [
+     "desks."
+    ]
+   }
+  },
+  {
+   "say": "The heist changed banking security worldwide. SWIFT introduced new security rules for banks connected to its network, and central banks everywhere checked their own systems.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "🔐",
+      "New SWIFT security rules"
+     ],
+     [
+      "🏦",
+      "Banks checked their systems"
+     ],
+     [
+      "👀",
+      "More checks on unusual payments"
+     ],
+     [
+      "🧑‍💻",
+      "Cyber teams hired"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So the lesson? The most secure network in the world is only as safe as the computer connected to it. And sometimes, the thing that saves a fortune isn't a firewall. It's someone noticing that a word is spelled wrong.",
+   "vis": {
+    "type": "hook",
+    "text": "Sometimes the best security is someone paying attention.",
+    "emoji": "👀",
+    "hot": [
+     "attention."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more of the world's biggest heists, online and off. And tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which heist should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "STOPPED BY|A TYPO",
+  "emoji": "💻",
+  "color": "red",
+  "tag": "Heists and cons"
+ }
+}

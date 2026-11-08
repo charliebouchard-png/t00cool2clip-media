@@ -1,0 +1,462 @@
+{
+ "id": "MV024",
+ "style": "collage",
+ "variant": 0,
+ "voice": "bm_george",
+ "speed": 0.86,
+ "trans": "slap",
+ "title": "The Great Train Robbery: What Really Happened",
+ "beats": [
+  {
+   "say": "In the early hours of the eighth of August nineteen sixty three, a gang stopped a Royal Mail train in the Buckinghamshire countryside with a glove and a battery. Fifteen minutes later, they had two point six million pounds.",
+   "vis": {
+    "type": "hook",
+    "text": "A glove, a battery, and £2.6 million.",
+    "emoji": "🚂",
+    "hot": [
+     "£2.6",
+     "million."
+    ]
+   }
+  },
+  {
+   "say": "That's around forty eight million pounds in today's money. It became known as the Great Train Robbery, and some of the men who did it became household names.",
+   "vis": {
+    "type": "bars",
+    "title": "The haul",
+    "prefix": "£",
+    "suffix": "m",
+    "dec": 1,
+    "items": [
+     [
+      "In 1963",
+      2.6,
+      "red"
+     ],
+     [
+      "In today's money (approx.)",
+      48,
+      "teal"
+     ]
+    ],
+    "max": 52,
+    "source": "Inflation-adjusted estimate"
+   }
+  },
+  {
+   "say": "But the legend leaves out a lot. A train driver who was badly hurt. A hideout full of fingerprints. And a famous game of Monopoly that helped send the gang to prison.",
+   "vis": {
+    "type": "list",
+    "title": "What the legend leaves out",
+    "items": [
+     [
+      "🤕",
+      "A driver badly hurt"
+     ],
+     [
+      "🏚️",
+      "A hideout full of evidence"
+     ],
+     [
+      "🎲",
+      "A game of Monopoly"
+     ],
+     [
+      "⛓️",
+      "Thirty year sentences"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The mail train.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The mail train"
+   }
+  },
+  {
+   "say": "Every night, a travelling post office train ran from Glasgow to London. In one carriage, called the high value packages coach, it carried used banknotes being sent back to London to be destroyed.",
+   "vis": {
+    "type": "flow",
+    "title": "The night mail",
+    "nodes": [
+     [
+      "🏴",
+      "Glasgow"
+     ],
+     [
+      "🚂",
+      "Overnight mail train"
+     ],
+     [
+      "💷",
+      "Bags of used notes"
+     ],
+     [
+      "🏙️",
+      "London"
+     ]
+    ],
+    "color": "red",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "After a bank holiday weekend, there was even more cash on board than usual. The gang had been tipped off. They knew exactly which coach to target, and roughly how much would be inside.",
+   "vis": {
+    "type": "hook",
+    "text": "They knew which coach. And how much.",
+    "emoji": "🕵️",
+    "hot": [
+     "which",
+     "coach."
+    ]
+   }
+  },
+  {
+   "say": "The gang was large, around fifteen men, and many had criminal records. Some were experienced robbers from south London. They planned for months, studying the route, the timings, and the quiet stretch of railway where they'd strike.",
+   "vis": {
+    "type": "list",
+    "title": "The planning",
+    "items": [
+     [
+      "👥",
+      "Around fifteen men"
+     ],
+     [
+      "🗺️",
+      "Studied the route"
+     ],
+     [
+      "⏰",
+      "Learned the timings"
+     ],
+     [
+      "🌙",
+      "Chose a quiet stretch of line"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "They even brought along someone they thought could drive the train, so they could move it to the bridge where their lorries were waiting. But on the night, he couldn't operate it, so they forced Jack Mills to drive instead.",
+   "vis": {
+    "type": "hook",
+    "text": "Their 'train driver' couldn't drive the train.",
+    "emoji": "🚂",
+    "hot": [
+     "couldn't"
+    ]
+   }
+  },
+  {
+   "say": "Part two. The fake red light.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The fake red light"
+   }
+  },
+  {
+   "say": "At Sears Crossing in Buckinghamshire, the gang tampered with a railway signal. They covered the green light with a glove, and used a battery to light up the red one.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Green light",
+     "emoji": "🧤",
+     "lines": [
+      "Covered with a glove",
+      "Driver can't see it"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Red light",
+     "emoji": "🔋",
+     "lines": [
+      "Powered by a battery",
+      "Driver stops"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The driver, Jack Mills, did exactly what he was trained to do. He stopped. When his co-driver climbed down to phone the signal box, he found the line had been cut.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Just after 3am",
+      "Train stops at the red light"
+     ],
+     [
+      "Minutes later",
+      "Phone line found cut"
+     ],
+     [
+      "Then",
+      "Gang storms the cab"
+     ],
+     [
+      "Bridego Bridge",
+      "Money unloaded",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then the gang attacked. Jack Mills was hit over the head and badly injured. He never fully recovered from what happened that night.",
+   "vis": {
+    "type": "headline",
+    "kicker": "August 1963",
+    "paper": "THE NATIONAL HERALD",
+    "text": "Train driver injured as gang raids mail train",
+    "date": "Jack Mills never fully recovered from the attack"
+   }
+  },
+  {
+   "say": "The robbers forced the train forward to Bridego Bridge, where their vehicles were waiting. They formed a human chain and passed down more than a hundred mail bags. The whole thing took around fifteen minutes.",
+   "vis": {
+    "type": "num",
+    "value": 15,
+    "suffix": " minutes",
+    "label": "to empty the high value coach",
+    "color": "red",
+    "emoji": "⏱️"
+   }
+  },
+  {
+   "say": "Part three. The farm.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The farm"
+   }
+  },
+  {
+   "say": "The gang drove to Leatherslade Farm, a run-down farmhouse around twenty seven miles away, which they'd bought as a hideout. There they counted the money and shared it out.",
+   "vis": {
+    "type": "map",
+    "title": "Buckinghamshire, 1963",
+    "pins": [
+     [
+      "Sears Crossing",
+      0.45,
+      0.4,
+      "red"
+     ],
+     [
+      "Bridego Bridge",
+      0.5,
+      0.42,
+      "red"
+     ],
+     [
+      "Leatherslade Farm",
+      0.3,
+      0.55,
+      "red"
+     ]
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "While they waited for things to calm down, some of them played Monopoly. With the real money, according to some versions of the story.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🎲",
+    "text": "The Monopoly board",
+    "sub": "Played at the hideout",
+    "color": "red"
+   }
+  },
+  {
+   "say": "But they left the farm in a hurry when they heard police were searching the area. And the plan to clean the place up, or burn it down, never happened properly.",
+   "vis": {
+    "type": "hook",
+    "text": "The clean-up never happened.",
+    "emoji": "🧹",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Part four. The fingerprints.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The fingerprints"
+   }
+  },
+  {
+   "say": "On the thirteenth of August, police found Leatherslade Farm. Inside were empty mail bags, food, vehicles, and that Monopoly board. Fingerprints on the board, on a sauce bottle and on other items helped identify most of the gang.",
+   "vis": {
+    "type": "doc",
+    "title": "Evidence at Leatherslade Farm",
+    "lines": [
+     [
+      "Mail bags",
+      "Empty"
+     ],
+     [
+      "Vehicles",
+      "Left behind"
+     ],
+     [
+      "Monopoly board",
+      "Fingerprints"
+     ],
+     [
+      "Food and bottles",
+      "Fingerprints"
+     ]
+    ],
+    "stamp": "EVIDENCE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Arrests followed fast. In nineteen sixty four, the main robbers were sentenced to thirty years in prison. That shocked many people at the time. It was longer than the sentences given for some murders.",
+   "vis": {
+    "type": "num",
+    "value": 30,
+    "suffix": " years",
+    "label": "the sentence given to the main robbers",
+    "color": "red",
+    "emoji": "⛓️"
+   }
+  },
+  {
+   "say": "Part five. The escapes.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The escapes"
+   }
+  },
+  {
+   "say": "Then came the escapes. In August nineteen sixty four, Charlie Wilson was broken out of Winson Green prison in Birmingham. In July nineteen sixty five, Ronnie Biggs escaped from Wandsworth prison over the wall.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1964",
+      "Charlie Wilson broken out of prison"
+     ],
+     [
+      "1965",
+      "Ronnie Biggs escapes from Wandsworth"
+     ],
+     [
+      "1968",
+      "Leader Bruce Reynolds arrested"
+     ],
+     [
+      "2001",
+      "Biggs returns to Britain",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Biggs became the most famous of them all. He lived abroad for decades, much of it in Brazil, taunting British authorities. In two thousand and one, old and ill, he came back to Britain voluntarily and was sent back to prison.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The fame",
+     "emoji": "📸",
+     "lines": [
+      "Decades on the run",
+      "Interviews and headlines"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The ending",
+     "emoji": "🏥",
+     "lines": [
+      "Came home ill in 2001",
+      "Back to prison"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part six. Where did the money go?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Where did the money go?"
+   }
+  },
+  {
+   "say": "Most of the two point six million pounds was never recovered. The notes were used, and only a small number had their serial numbers recorded, so the cash was very hard to trace.",
+   "vis": {
+    "type": "hook",
+    "text": "Most of the money was never found.",
+    "emoji": "❓",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "And for many of the robbers, it didn't buy a happy ending. Much of it went on lawyers, hiding, and people who helped them, or took a cut for keeping quiet. Several spent most of their remaining lives either in prison or looking over their shoulders.",
+   "vis": {
+    "type": "list",
+    "title": "Where the money went",
+    "items": [
+     [
+      "⚖️",
+      "Lawyers"
+     ],
+     [
+      "🫣",
+      "Hiding and running"
+     ],
+     [
+      "🤝",
+      "People who took a cut"
+     ],
+     [
+      "❓",
+      "Still unknown"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The Great Train Robbery is often told as a cheeky British caper. But it began with a man being hit over the head in the dark, and ended with long sentences and lives spent running. The money disappeared. The consequences didn't.",
+   "vis": {
+    "type": "hook",
+    "text": "The money disappeared. The consequences didn't.",
+    "emoji": "⚖️",
+    "hot": [
+     "consequences"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind famous crimes and the money involved, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which story should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE £2.6M|TRAIN JOB",
+  "emoji": "🚂",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

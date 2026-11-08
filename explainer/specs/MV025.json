@@ -1,0 +1,443 @@
+{
+ "id": "MV025",
+ "style": "storybook",
+ "voice": "am_puck",
+ "speed": 0.86,
+ "title": "Frank Abagnale: The Con Man Whose Story Might Be a Con",
+ "beats": [
+  {
+   "say": "The world's most famous con man may have pulled his greatest trick on all of us. His own life story.",
+   "vis": {
+    "type": "story",
+    "title": "The greatest con?",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "hat": "🧢",
+      "prop": "✈️",
+      "say": "Trust me, I'm a pilot."
+     }
+    ]
+   }
+  },
+  {
+   "say": "You've probably heard of Frank Abagnale. In the film Catch Me If You Can, Leonardo DiCaprio played him as a teenage genius who posed as a pilot, a doctor and a lawyer, and cashed millions of dollars in fake cheques while the FBI chased him around the world.",
+   "vis": {
+    "type": "list",
+    "title": "The legend",
+    "items": [
+     [
+      "✈️",
+      "Posed as an airline pilot"
+     ],
+     [
+      "🩺",
+      "Posed as a doctor"
+     ],
+     [
+      "⚖️",
+      "Posed as a lawyer"
+     ],
+     [
+      "💸",
+      "Millions in fake cheques"
+     ],
+     [
+      "🌍",
+      "Chased around the world"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It's an incredible story. The problem is, a researcher went looking for the records, and found that much of it may never have happened.",
+   "vis": {
+    "type": "hook",
+    "text": "What if the story was the con?",
+    "emoji": "🎭",
+    "hot": [
+     "con?"
+    ]
+   }
+  },
+  {
+   "say": "Meet young Frank, as he described himself. Sixteen years old, smart, charming, and running away from home in New York.",
+   "vis": {
+    "type": "story",
+    "title": "The story he told",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "🎒",
+      "say": "I'm going to see the world."
+     }
+    ]
+   }
+  },
+  {
+   "say": "In his book and speeches, Frank said he got hold of an airline pilot's uniform, faked an ID, and flew for free around the world, hitching rides in the cockpit. He claimed he'd travelled more than a million miles.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "hat": "🧢",
+      "prop": "✈️",
+      "say": "Captain Frank, at your service."
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Welcome aboard, Captain!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "He said he then spent nearly a year pretending to be a children's doctor at a hospital in Georgia. Then he passed the bar exam and worked for the attorney general of Louisiana. Then he taught at a university.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Pilot",
+      "Flies around the world, he said"
+     ],
+     [
+      "Doctor",
+      "Almost a year in a hospital, he said"
+     ],
+     [
+      "Lawyer",
+      "Passes the bar exam, he said"
+     ],
+     [
+      "Professor",
+      "Teaches at a university, he said",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And he said that, between the ages of sixteen and twenty one, he cashed around two and a half million dollars in fake cheques in twenty six countries. Eventually, he said, he was caught in France, and later became a trusted adviser to the FBI.",
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 2.5,
+    "dec": 1,
+    "suffix": " million",
+    "label": "in fake cheques, according to his own story",
+    "color": "red",
+    "emoji": "🧾",
+    "source": "Abagnale's own claims (disputed)"
+   }
+  },
+  {
+   "say": "It's a fantastic tale. It became a bestselling book, a Steven Spielberg film and a Broadway musical. Frank became a famous speaker, paid well to tell it on stage. But there was always one question. Was any of it checked?",
+   "vis": {
+    "type": "story",
+    "title": "Famous",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "prop": "🎤",
+      "say": "And that's how I fooled the world!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "The film became a global hit. Most viewers assumed it was mostly true, because it was based on a true story. And for decades, very few journalists asked to see the evidence.",
+   "vis": {
+    "type": "story",
+    "title": "Based on a true story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "🍿",
+      "say": "It's a true story, you know."
+     }
+    ]
+   }
+  },
+  {
+   "say": "You see, in twenty twenty, a writer called Alan Logan published a book called The Greatest Hoax on Earth. He'd spent years digging through public records.",
+   "night": true,
+   "vis": {
+    "type": "headline",
+    "kicker": "2020",
+    "paper": "THE RECORD KEEPER",
+    "text": "The Greatest Hoax on Earth",
+    "date": "Alan C. Logan investigates Abagnale's story"
+   }
+  },
+  {
+   "say": "Logan found New York State prison records showing Frank Abagnale was locked up at a prison called Great Meadow, from July nineteen sixty five to Christmas Eve nineteen sixty eight.",
+   "night": true,
+   "vis": {
+    "type": "doc",
+    "title": "New York State prison record",
+    "lines": [
+     [
+      "Inmate",
+      "Frank Abagnale"
+     ],
+     [
+      "Prison",
+      "Great Meadow"
+     ],
+     [
+      "From",
+      "26 July 1965"
+     ],
+     [
+      "To",
+      "24 December 1968"
+     ]
+    ],
+    "stamp": "LOCKED UP",
+    "stampAt": 6
+   }
+  },
+  {
+   "say": "That's a huge problem for the legend. Those were the very years Frank said he was flying around the world as a pilot and working as a doctor. According to the records, he spent most of that time in prison.",
+   "night": true,
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What he said",
+     "emoji": "✈️",
+     "lines": [
+      "Flying the world",
+      "Working as a doctor"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What records show",
+     "emoji": "⛓️",
+     "lines": [
+      "Mostly in prison",
+      "1965 to 1968"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Other researchers and journalists checked too. A spokesperson for Pan Am, the airline he claimed to have fooled, denied that the money he described was ever stolen. And his name was not in an FBI history book where he'd said it would be.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "Claims that didn't check out",
+    "items": [
+     [
+      "✈️",
+      "Pan Am denied the losses"
+     ],
+     [
+      "📘",
+      "Not in the FBI book he cited"
+     ],
+     [
+      "⚖️",
+      "No record he was ever a member of the bar"
+     ],
+     [
+      "🌍",
+      "Little time free to do it all"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Abagnale himself admitted in a newspaper interview in two thousand and two that he'd exaggerated parts of the story, saying he'd pretended to be a doctor for only a few days. Even so, the bigger version kept being told on stage for years afterwards.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "A few days?",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "sad",
+      "prop": "🩺",
+      "say": "Maybe it was just a few days..."
+     }
+    ]
+   }
+  },
+  {
+   "say": "So what is true? Quite a lot of real crime, just smaller and less glamorous. Records show he was arrested for theft and fraud as a teenager, convicted in France and Sweden, and jailed in the United States for forging cheques.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1965",
+      "Arrested for theft and other offences"
+     ],
+     [
+      "1969",
+      "Convicted of theft and forgery in Louisiana"
+     ],
+     [
+      "1970",
+      "Jailed in France and Sweden"
+     ],
+     [
+      "1971",
+      "Sentenced in the US for forgery",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "He also used other people's trust in uniforms and titles. That part of his story is real. People really do tend to believe someone who looks official, which is exactly why scammers still dress the part today.",
+   "vis": {
+    "type": "list",
+    "title": "Why uniforms work",
+    "items": [
+     [
+      "🧢",
+      "We trust a uniform"
+     ],
+     [
+      "📛",
+      "We trust a title"
+     ],
+     [
+      "🗣️",
+      "We trust confidence"
+     ],
+     [
+      "🔍",
+      "We rarely check"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "University officials confirmed that in nineteen seventy he did pose as a pilot and a doctor at a university in Arizona. But that's a long way from years of flying the world.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Confirmed",
+     "emoji": "✅",
+     "lines": [
+      "Real arrests",
+      "Real forgery"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Disputed",
+     "emoji": "❓",
+     "lines": [
+      "Years as a pilot",
+      "Millions from airlines"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "When asked about the book, Abagnale said it wasn't worthy of a comment. He has continued to stand by his story.",
+   "vis": {
+    "type": "quote",
+    "text": "Not worthy of a comment.",
+    "who": "Frank Abagnale, on the book that challenged his story"
+   }
+  },
+  {
+   "say": "Here's the strange twist. After prison, Abagnale built a career as a fraud prevention expert, warning people how con artists trick them. And in a way, his story proves his own point.",
+   "vis": {
+    "type": "hook",
+    "text": "A fraud expert. With a disputed story.",
+    "emoji": "🤔",
+    "hot": [
+     "disputed"
+    ]
+   }
+  },
+  {
+   "say": "Think about how the legend spread. It was charming, it was exciting, and everyone wanted it to be true. Publishers, film makers and audiences repeated it for decades without checking the records. That's exactly how a good con works.",
+   "vis": {
+    "type": "list",
+    "title": "Why the story spread",
+    "items": [
+     [
+      "😍",
+      "Everyone wanted it to be true"
+     ],
+     [
+      "🎬",
+      "A Hollywood film made it 'real'"
+     ],
+     [
+      "🔁",
+      "Repeated for decades"
+     ],
+     [
+      "🔍",
+      "Few people checked the records"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So the next time you hear an amazing true story about money, success or a get-rich-quick trick, ask the simple question that almost nobody asked Frank. Where's the proof?",
+   "vis": {
+    "type": "story",
+    "title": "The question to ask",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "prop": "🔍",
+      "say": "Great story. Where's the proof?"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Luckily, Frank Abagnale became famous for teaching people how not to be conned. Unluckily, it seems millions of us were conned by the story itself.",
+   "vis": {
+    "type": "story",
+    "title": "The twist",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "hat": "🧢",
+      "say": "Catch me if you can!"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "prop": "🧾",
+      "say": "We just did. It's in the records."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories about cons and the money behind them, and tell me in the comments which famous story I should fact-check next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which story should I fact-check next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WAS THE|STORY THE|REAL CON?",
+  "emoji": "🎭",
+  "color": "red",
+  "tag": "Heists and cons"
+ }
+}

@@ -1,0 +1,443 @@
+{
+ "id": "MV026",
+ "style": "chalk",
+ "variant": 1,
+ "voice": "af_heart",
+ "speed": 0.86,
+ "title": "The Man Who Sold the Eiffel Tower",
+ "beats": [
+  {
+   "say": "In nineteen twenty five, a con man convinced a businessman that the French government was secretly selling the Eiffel Tower for scrap metal. And the businessman paid him for it.",
+   "vis": {
+    "type": "hook",
+    "text": "He sold the Eiffel Tower. It wasn't his.",
+    "emoji": "🗼",
+    "hot": [
+     "wasn't",
+     "his."
+    ]
+   }
+  },
+  {
+   "say": "His name was Victor Lustig. Over his career, he's said to have fooled scrap dealers, bankers, a Texas sheriff, and even the gangster Al Capone. So how do you sell something as famous as the Eiffel Tower? Let's break it down.",
+   "vis": {
+    "type": "list",
+    "title": "Who he fooled",
+    "items": [
+     [
+      "🗼",
+      "A Paris scrap dealer"
+     ],
+     [
+      "🏦",
+      "Bankers and businessmen"
+     ],
+     [
+      "🤠",
+      "A Texas sheriff"
+     ],
+     [
+      "🎩",
+      "Al Capone, it's said"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. Read the newspaper.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Read the newspaper"
+   }
+  },
+  {
+   "say": "In nineteen twenty five, Paris newspapers were writing about how expensive the Eiffel Tower was to maintain. It needed constant repairs and painting. Some people even wondered whether it should come down.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Paris, 1925",
+    "paper": "LE JOURNAL DE PARIS",
+    "text": "The Eiffel Tower is costing a fortune to maintain",
+    "date": "Some ask whether it should come down"
+   }
+  },
+  {
+   "say": "For most readers, that was just a news story. For Lustig, it was an opportunity. The tower had been built for an exhibition in eighteen eighty nine and was never meant to stand forever. A story about selling it would sound believable.",
+   "vis": {
+    "type": "hook",
+    "text": "A con works best when it sounds believable.",
+    "emoji": "📰",
+    "hot": [
+     "believable."
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. Look official.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Look official"
+   }
+  },
+  {
+   "say": "Lustig posed as a senior official from a French government ministry. He had fake official paper made, booked a meeting at a grand hotel, and invited several scrap metal dealers.",
+   "vis": {
+    "type": "flow",
+    "title": "Building the illusion",
+    "nodes": [
+     [
+      "📄",
+      "Fake official paper"
+     ],
+     [
+      "🏨",
+      "Meeting at a grand hotel"
+     ],
+     [
+      "🎩",
+      "Poses as a minister's deputy"
+     ],
+     [
+      "🤝",
+      "Invites scrap dealers"
+     ]
+    ],
+    "color": "gold",
+    "coin": "📄"
+   }
+  },
+  {
+   "say": "He told them the government had decided to sell the tower for scrap. But it had to be kept secret, he said, because the public would be outraged. That secrecy was clever. It stopped the dealers from checking with anyone.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What he said",
+     "emoji": "🤫",
+     "lines": [
+      "It's top secret",
+      "Tell no one"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What it did",
+     "emoji": "🚫",
+     "lines": [
+      "Nobody checks",
+      "Nobody asks questions"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Lesson three. Pick the right target.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Pick the right target"
+   }
+  },
+  {
+   "say": "Lustig chose one dealer in particular, a man called André Poisson. According to the story, Poisson was keen to move up in Paris society, and buying the Eiffel Tower would make him an important man.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧑‍💼",
+    "text": "André Poisson",
+    "sub": "Eager to be important",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "When Poisson started to have doubts, Lustig made a brilliant move. He hinted that, as a poorly paid government official, he'd appreciate a little something extra to make sure the deal went through. In other words, a bribe.",
+   "vis": {
+    "type": "hook",
+    "text": "The bribe made it feel real.",
+    "emoji": "💰",
+    "hot": [
+     "real."
+    ]
+   }
+  },
+  {
+   "say": "That convinced Poisson. Real government officials asking for bribes was exactly the kind of thing he expected. So the con didn't just make him pay. It made him feel smart for paying.",
+   "vis": {
+    "type": "flow",
+    "title": "Why the bribe worked",
+    "nodes": [
+     [
+      "🤔",
+      "Poisson has doubts"
+     ],
+     [
+      "💰",
+      "Lustig asks for a bribe"
+     ],
+     [
+      "😏",
+      "'He must be a real official'"
+     ],
+     [
+      "💸",
+      "Poisson pays up"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💸"
+   }
+  },
+  {
+   "say": "Poisson reportedly handed over the money, including the bribe, around seventy thousand francs. Lustig took it and left for Austria.",
+   "vis": {
+    "type": "num",
+    "value": 70000,
+    "suffix": " francs",
+    "label": "paid to Lustig, by most accounts",
+    "color": "gold",
+    "emoji": "💶",
+    "source": "Accounts of the 1925 scam; details vary"
+   }
+  },
+  {
+   "say": "Lustig is also said to have followed a set of rules for con men. Be a patient listener. Never look bored. Never boast. Let the other person reveal their opinions, then agree with them. Whether he wrote them or not, they describe his style perfectly.",
+   "vis": {
+    "type": "list",
+    "title": "The con man's rules (attributed to Lustig)",
+    "items": [
+     [
+      "👂",
+      "Be a patient listener"
+     ],
+     [
+      "🙂",
+      "Never look bored"
+     ],
+     [
+      "🤐",
+      "Never boast"
+     ],
+     [
+      "🤝",
+      "Agree with their opinions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. Rely on shame.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Rely on shame"
+   }
+  },
+  {
+   "say": "Here's the darkest genius of the plan. Lustig bet that Poisson would be too embarrassed to go to the police. Who wants to admit they tried to buy the Eiffel Tower, and paid a bribe to do it?",
+   "vis": {
+    "type": "hook",
+    "text": "Too embarrassed to report it.",
+    "emoji": "😳",
+    "hot": [
+     "embarrassed"
+    ]
+   }
+  },
+  {
+   "say": "Lustig checked the newspapers from Austria. Nothing. No story about the con. So, the legend goes, he went back to Paris and tried the whole thing again with a new group of dealers.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1925",
+      "First 'sale' of the tower"
+     ],
+     [
+      "After",
+      "Hides in Austria"
+     ],
+     [
+      "Later",
+      "Tries it again in Paris"
+     ],
+     [
+      "Then",
+      "Police tipped off, he flees to the US",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "This time, one of the dealers went to the police. Lustig escaped just in time, and fled to the United States.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🚢",
+    "text": "Off to America",
+    "sub": "He escaped before he was caught",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Lesson five. The money machine.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The money machine"
+   }
+  },
+  {
+   "say": "In America, Lustig became famous for another trick, the Romanian box. He showed people a wooden box that he said could copy banknotes. You put in a real note, waited hours, and out came two.",
+   "vis": {
+    "type": "doc",
+    "title": "The 'money copying' box",
+    "lines": [
+     [
+      "Put in",
+      "One real $100 note"
+     ],
+     [
+      "Wait",
+      "About six hours"
+     ],
+     [
+      "Out comes",
+      "Two notes"
+     ],
+     [
+      "Secret",
+      "He'd hidden one inside"
+     ]
+    ],
+    "stamp": "FAKE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Of course, he'd hidden a real note inside beforehand. The buyer would see it work once or twice, pay a fortune for the box, and only find out later that it produced nothing at all. By then, Lustig was long gone.",
+   "vis": {
+    "type": "flow",
+    "title": "The box trick",
+    "nodes": [
+     [
+      "🎁",
+      "Demo with a hidden note"
+     ],
+     [
+      "😍",
+      "Buyer is amazed"
+     ],
+     [
+      "💰",
+      "Pays a fortune"
+     ],
+     [
+      "📦",
+      "Box makes nothing"
+     ]
+    ],
+    "color": "red",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "There's also a famous story that he persuaded Al Capone to give him fifty thousand dollars to invest, kept it in a safe for two months, then handed it back saying the deal had failed. Capone was so impressed by his honesty that he gave Lustig a few thousand dollars. Accounts of this one differ, but it's a perfect example of his style.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What Capone saw",
+     "emoji": "🎩",
+     "lines": [
+      "An honest man",
+      "Gives his money back"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What Lustig wanted",
+     "emoji": "🎭",
+     "lines": [
+      "Capone's trust",
+      "A gift of cash"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So how did it end? Lustig moved into counterfeiting, printing fake money. In nineteen thirty five he was arrested in New York. He escaped from jail the day before his trial using a rope, but was caught again weeks later in Pittsburgh.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1935",
+      "Arrested for counterfeiting"
+     ],
+     [
+      "Day before trial",
+      "Escapes with a rope"
+     ],
+     [
+      "Weeks later",
+      "Caught in Pittsburgh"
+     ],
+     [
+      "1947",
+      "Dies in federal custody",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "He was sent to Alcatraz, the famous island prison, and died in federal custody in nineteen forty seven. The man who sold the Eiffel Tower spent his last years with nothing at all.",
+   "vis": {
+    "type": "hook",
+    "text": "The man who sold the Eiffel Tower ended with nothing.",
+    "emoji": "⛓️",
+    "hot": [
+     "nothing."
+    ]
+   }
+  },
+  {
+   "say": "His tricks still work today. Fake officials. Secret deals. A sense of urgency. And victims too embarrassed to report it. Those are the same tools used in modern scams by phone, text and email.",
+   "vis": {
+    "type": "list",
+    "title": "Spot a Lustig-style scam",
+    "items": [
+     [
+      "🎩",
+      "Someone claims to be official"
+     ],
+     [
+      "🤫",
+      "It's 'secret' or 'exclusive'"
+     ],
+     [
+      "⏰",
+      "You must act now"
+     ],
+     [
+      "😳",
+      "You'd be embarrassed to tell anyone"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more stories of history's greatest cons, and tell me in the comments which con man I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which con man should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "SOLD:|THE EIFFEL|TOWER",
+  "emoji": "🗼",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

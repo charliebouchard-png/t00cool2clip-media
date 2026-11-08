@@ -1,0 +1,401 @@
+{
+ "id": "MV032",
+ "style": "neon",
+ "variant": 1,
+ "voice": "af_aoede",
+ "speed": 0.85,
+ "trans": "fade",
+ "title": "The $500 Million Art Heist Still Unsolved",
+ "beats": [
+  {
+   "say": "In a museum in Boston, there are empty picture frames hanging on the walls. They've been empty for more than thirty five years. The paintings that belong in them were stolen in one night, and nobody has ever found them.",
+   "vis": {
+    "type": "hook",
+    "text": "Empty frames. Still waiting.",
+    "emoji": "🖼️",
+    "hot": [
+     "Empty"
+    ]
+   }
+  },
+  {
+   "say": "The thirteen stolen works are worth an estimated five hundred million dollars. It's often called the biggest art theft in history, and the most valuable unsolved property crime in the United States.",
+   "vis": {
+    "type": "num",
+    "value": 500,
+    "label": "estimated value of the stolen works",
+    "color": "teal",
+    "emoji": "🖼️",
+    "prefix": "$",
+    "suffix": " million",
+    "source": "Estimates of the 1990 Gardner Museum theft"
+   }
+  },
+  {
+   "say": "And there's a reward of ten million dollars for information that leads to the art coming home. Still unclaimed.",
+   "vis": {
+    "type": "num",
+    "value": 10,
+    "label": "reward for information, still unclaimed",
+    "color": "red",
+    "emoji": "💰",
+    "prefix": "$",
+    "suffix": " million"
+   }
+  },
+  {
+   "say": "Part one. The museum.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The museum"
+   }
+  },
+  {
+   "say": "The Isabella Stewart Gardner Museum was created by a wealthy collector, Isabella Stewart Gardner, who filled a Venetian style palace in Boston with art from around the world. It opened to the public in nineteen oh three.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏛️",
+    "text": "Isabella Stewart Gardner Museum",
+    "sub": "A palace of art in Boston",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Her will is said to have set a strict rule: the collection should stay arranged the way she left it. Which is one reason why, after the theft, the museum left the empty frames hanging. Waiting.",
+   "vis": {
+    "type": "hook",
+    "text": "The frames stay. Waiting for the paintings.",
+    "emoji": "⏳",
+    "hot": [
+     "Waiting."
+    ]
+   }
+  },
+  {
+   "say": "Part two. The knock at the door.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The knock at the door"
+   }
+  },
+  {
+   "say": "In the early hours of the eighteenth of March, nineteen ninety, it was the night after St Patrick's Day in Boston. At about one twenty four in the morning, two men dressed as police officers came to the museum's side door.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "17 March",
+      "St Patrick's Day in Boston"
+     ],
+     [
+      "1:24am",
+      "'Police' at the door"
+     ],
+     [
+      "Inside",
+      "Guards handcuffed"
+     ],
+     [
+      "81 mins later",
+      "Thieves leave",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "They told the guard on duty that they were responding to a disturbance. And he buzzed them in. That broke the museum's rule never to let anyone in at night.",
+   "vis": {
+    "type": "quote",
+    "text": "We're responding to a disturbance.",
+    "who": "the fake police officers at the museum door"
+   }
+  },
+  {
+   "say": "Once inside, the fake officers said they recognised one of the guards and had a warrant for his arrest. They handcuffed both guards, took them to the basement, and tied them up with tape.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What the guards saw",
+     "emoji": "👮",
+     "lines": [
+      "Two police officers",
+      "A routine call"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What it really was",
+     "emoji": "🎭",
+     "lines": [
+      "Two thieves",
+      "In costume"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part three. Eighty one minutes.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Eighty one minutes"
+   }
+  },
+  {
+   "say": "Then the thieves had the museum to themselves. They spent around eighty one minutes inside.",
+   "vis": {
+    "type": "num",
+    "value": 81,
+    "label": "minutes inside the museum",
+    "color": "teal",
+    "emoji": "⏱️",
+    "prefix": "",
+    "suffix": " minutes"
+   }
+  },
+  {
+   "say": "They took a Vermeer, The Concert, one of only around three dozen paintings by Vermeer known in the world. They took Rembrandt's only known seascape, The Storm on the Sea of Galilee. They took a Manet, and works by Degas.",
+   "vis": {
+    "type": "list",
+    "title": "What they took",
+    "items": [
+     [
+      "🎻",
+      "Vermeer, The Concert"
+     ],
+     [
+      "🌊",
+      "Rembrandt, The Storm on the Sea of Galilee"
+     ],
+     [
+      "🎩",
+      "Manet, Chez Tortoni"
+     ],
+     [
+      "🩰",
+      "Five works by Degas"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some of the paintings were cut roughly out of their frames with a blade. For art experts, that was heartbreaking. Masterpieces hundreds of years old were treated like posters.",
+   "vis": {
+    "type": "hook",
+    "text": "Cut out of their frames.",
+    "emoji": "🔪",
+    "hot": [
+     "Cut"
+    ]
+   }
+  },
+  {
+   "say": "The choices were strange, too. The thieves walked past some of the most valuable works in the building, including a famous Titian. And they took odd items, like a bronze eagle from the top of a flagpole, and an ancient Chinese bronze cup.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What they left",
+     "emoji": "🖼️",
+     "lines": [
+      "A famous Titian",
+      "Other masterpieces"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What they took",
+     "emoji": "🦅",
+     "lines": [
+      "A flagpole eagle",
+      "An ancient bronze cup"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Motion detectors in the museum recorded their footsteps, room by room. But oddly, the sensors showed no movement in one room where a stolen item had been. Mysteries like that have kept investigators guessing for decades.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📡",
+    "text": "The motion sensors",
+    "sub": "Tracked them room by room, with gaps",
+    "color": "red"
+   }
+  },
+  {
+   "say": "At around two forty five in the morning, the thieves left, in two trips, carrying hundreds of millions of dollars of art. The guards were found the next morning.",
+   "vis": {
+    "type": "hook",
+    "text": "Gone before dawn.",
+    "emoji": "🌅",
+    "hot": [
+     "Gone"
+    ]
+   }
+  },
+  {
+   "say": "Think about that night from the guards' point of view. Two men in uniform arrive. You do what police tell you. That instinct to obey authority was the thieves' real key to the building.",
+   "vis": {
+    "type": "hook",
+    "text": "Their real key was a uniform.",
+    "emoji": "👮",
+    "hot": [
+     "uniform."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The investigation.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The investigation"
+   }
+  },
+  {
+   "say": "The FBI has followed thousands of leads. Theories have included local organised crime, the Irish Republican Army, and international art thieves. Even the guard who opened the door has faced questions, though he was never charged.",
+   "vis": {
+    "type": "list",
+    "title": "Theories",
+    "items": [
+     [
+      "🕴️",
+      "Boston organised crime"
+     ],
+     [
+      "☘️",
+      "The IRA"
+     ],
+     [
+      "🌍",
+      "International art thieves"
+     ],
+     [
+      "🚪",
+      "Someone on the inside?"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In twenty thirteen, the FBI said it believed it knew who the thieves were, members of a criminal organisation based in the eastern United States, and that both were dead. But it didn't name them publicly. And the art wasn't found.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2013",
+    "paper": "THE BOSTON BEACON",
+    "text": "FBI says it believes it knows who stole the Gardner art",
+    "date": "But the paintings are still missing"
+   }
+  },
+  {
+   "say": "Over the years, investigators focused on people linked to organised crime, including an elderly mobster who denied knowing anything. The trail has led to dead ends again and again.",
+   "vis": {
+    "type": "hook",
+    "text": "Lead after lead. Dead end after dead end.",
+    "emoji": "🧩",
+    "hot": [
+     "Dead",
+     "end"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Why steal art you can't sell?",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Why steal art you can't sell?"
+   }
+  },
+  {
+   "say": "Here's the money puzzle. Famous paintings are almost impossible to sell. Every museum, auction house and serious collector knows they're stolen. So why take them?",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Ordinary loot",
+     "emoji": "💵",
+     "lines": [
+      "Easy to spend",
+      "Hard to trace"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Famous art",
+     "emoji": "🖼️",
+     "lines": [
+      "Instantly recognised",
+      "Impossible to sell openly"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Experts think stolen art is sometimes used like a bargaining chip. Criminals may hold it as collateral in deals, or hope to trade it for a lighter prison sentence one day. In the criminal world, a masterpiece can be worth more as leverage than as art.",
+   "vis": {
+    "type": "list",
+    "title": "What stolen art is used for",
+    "items": [
+     [
+      "🤝",
+      "Collateral in criminal deals"
+     ],
+     [
+      "⚖️",
+      "A bargaining chip with police"
+     ],
+     [
+      "🔒",
+      "Hidden for years"
+     ],
+     [
+      "💸",
+      "A reward to cash in"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And that's the strangest part of art theft. The thing that makes these paintings so valuable, the fact that everyone knows them, is exactly what makes them almost worthless to the people who stole them.",
+   "vis": {
+    "type": "hook",
+    "text": "Too famous to sell.",
+    "emoji": "🎭",
+    "hot": [
+     "famous"
+    ]
+   }
+  },
+  {
+   "say": "Somewhere, possibly, The Concert is sitting in a closet, an attic, or a crate. And in Boston, the frame is still on the wall, waiting for it to come home.",
+   "vis": {
+    "type": "hook",
+    "text": "The frame is still waiting.",
+    "emoji": "🖼️",
+    "hot": [
+     "waiting"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories of the world's biggest heists, and tell me in the comments where you think the paintings are.",
+   "vis": {
+    "type": "outro",
+    "text": "Where do you think the paintings are?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "$500M|STILL MISSING",
+  "emoji": "🖼️",
+  "color": "teal",
+  "tag": "Heists and cons"
+ }
+}

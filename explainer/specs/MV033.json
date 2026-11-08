@@ -1,0 +1,471 @@
+{
+ "id": "MV033",
+ "style": "chalk",
+ "variant": 2,
+ "voice": "am_michael",
+ "speed": 0.85,
+ "trans": "wipe",
+ "title": "Charles Ponzi: The Man Behind the Name",
+ "beats": [
+  {
+   "say": "Every Ponzi scheme in history is named after one man. And his scheme started with something tiny, a postage coupon worth a few cents.",
+   "vis": {
+    "type": "hook",
+    "text": "It started with a postage coupon.",
+    "emoji": "📮",
+    "hot": [
+     "postage"
+    ]
+   }
+  },
+  {
+   "say": "His name was Charles Ponzi. In nineteen twenty, in Boston, he promised people they could double their money in ninety days. Tens of thousands believed him. Today's lesson is how he did it, and why the same trick still works.",
+   "vis": {
+    "type": "list",
+    "title": "The Ponzi story",
+    "items": [
+     [
+      "🇮🇹",
+      "Italian immigrant"
+     ],
+     [
+      "📮",
+      "A postage idea"
+     ],
+     [
+      "💸",
+      "Double your money"
+     ],
+     [
+      "💥",
+      "Collapse in 1920"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. Where he came from.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Where he came from"
+   }
+  },
+  {
+   "say": "Ponzi arrived in Boston from Italy in nineteen oh three. By his own account, he had just two dollars and fifty cents in his pocket. He worked as a dishwasher, a waiter and a clerk, and was often in trouble.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🚢",
+    "text": "Arrived with $2.50",
+    "sub": "By his own account, in 1903",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In Montreal, he worked at a bank that paid high interest using money from new depositors. It collapsed. Ponzi later went to prison in Canada for forging a cheque, and in the US for smuggling migrants. He was learning, the hard way.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1903",
+      "Arrives in Boston"
+     ],
+     [
+      "Montreal",
+      "Works at a shaky bank"
+     ],
+     [
+      "1908",
+      "Jailed for forgery"
+     ],
+     [
+      "1919",
+      "Back in Boston",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. The coupon idea.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The coupon idea"
+   }
+  },
+  {
+   "say": "In nineteen nineteen, Ponzi received a letter from abroad containing an international reply coupon. These coupons let someone in one country pay for the return postage of a reply from another country.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📮",
+    "text": "International reply coupon",
+    "sub": "Pre-paid return postage, across borders",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Ponzi noticed something. Coupons bought cheaply in a country like Italy, where money was worth less after the war, could be swapped for more valuable stamps in America. On paper, that was a profit.",
+   "vis": {
+    "type": "flow",
+    "title": "The idea on paper",
+    "nodes": [
+     [
+      "🇮🇹",
+      "Buy coupons cheaply abroad"
+     ],
+     [
+      "✉️",
+      "Ship them to the US"
+     ],
+     [
+      "📮",
+      "Swap for US stamps"
+     ],
+     [
+      "💵",
+      "Sell for a profit"
+     ]
+    ],
+    "color": "gold",
+    "coin": "📮"
+   }
+  },
+  {
+   "say": "This kind of trade is called arbitrage. Buying something cheap in one place and selling it for more somewhere else. In theory, the idea was real. In practice, it was almost impossible to do at any scale.",
+   "vis": {
+    "type": "hook",
+    "text": "A real idea. Impossible at scale.",
+    "emoji": "🧮",
+    "hot": [
+     "Impossible"
+    ]
+   }
+  },
+  {
+   "say": "The problem was the practical side. Each coupon was worth only a few cents. To make serious money, you'd need to buy, ship and redeem vast numbers of them, and post offices weren't set up to swap coupons in bulk for cash. The costs and paperwork would eat the profit.",
+   "vis": {
+    "type": "list",
+    "title": "Why it couldn't work",
+    "items": [
+     [
+      "🪙",
+      "Each coupon worth cents"
+     ],
+     [
+      "📦",
+      "Would need millions of them"
+     ],
+     [
+      "🏤",
+      "Hard to redeem in bulk"
+     ],
+     [
+      "🧾",
+      "Costs eat the profit"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. The promise.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The promise"
+   }
+  },
+  {
+   "say": "In January nineteen twenty, Ponzi set up the Securities Exchange Company. He promised investors fifty percent profit in forty five days, or one hundred percent in ninety days.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "A normal bank",
+     "emoji": "🏦",
+     "lines": [
+      "About 5% a year",
+      "Slow and safe"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Ponzi's promise",
+     "emoji": "🚀",
+     "lines": [
+      "50% in 45 days",
+      "Double in 90 days"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And at first, he paid. Early investors got their money back with huge profits. But Ponzi wasn't really trading coupons. He was paying old investors with money from new ones.",
+   "vis": {
+    "type": "flow",
+    "title": "How it really worked",
+    "nodes": [
+     [
+      "🙋",
+      "New investors pay in"
+     ],
+     [
+      "💵",
+      "Money goes to old investors"
+     ],
+     [
+      "😍",
+      "Old investors tell friends"
+     ],
+     [
+      "🔁",
+      "More new investors"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "That's the definition of a Ponzi scheme. No real profits. Just a chain of new money flowing upwards to pay earlier people, for as long as the new money keeps coming.",
+   "vis": {
+    "type": "hook",
+    "text": "Old investors paid with new investors' money.",
+    "emoji": "🔁",
+    "hot": [
+     "new"
+    ]
+   }
+  },
+  {
+   "say": "And most investors didn't take their profits out. They were so happy with the returns that they reinvested. On paper, they were getting rich. In reality, their money was simply being used to pay someone else.",
+   "vis": {
+    "type": "hook",
+    "text": "On paper, rich. In reality, paying someone else.",
+    "emoji": "📝",
+    "hot": [
+     "paper,"
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. The frenzy.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The frenzy"
+   }
+  },
+  {
+   "say": "Word spread through Boston. Crowds queued outside his office. By the summer of nineteen twenty, he was taking in money at a staggering pace, reportedly around a million dollars a week at the peak.",
+   "vis": {
+    "type": "num",
+    "value": 1,
+    "label": "reportedly taken in per week at the peak",
+    "color": "red",
+    "emoji": "💰",
+    "prefix": "$",
+    "suffix": " million"
+   }
+  },
+  {
+   "say": "Ponzi lived like a millionaire. A mansion. Fine clothes. He even took control of a bank, the Hanover Trust. To many people, he was a hero, an immigrant who had cracked the code of money.",
+   "vis": {
+    "type": "list",
+    "title": "The good life",
+    "items": [
+     [
+      "🏠",
+      "A mansion"
+     ],
+     [
+      "🎩",
+      "Fine clothes"
+     ],
+     [
+      "🏦",
+      "Control of a bank"
+     ],
+     [
+      "👏",
+      "Public adoration"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Even when questions started, many people defended him. When a man is paying you fifty percent profit, you don't want to hear that he's a fraud.",
+   "vis": {
+    "type": "hook",
+    "text": "Nobody wants to hear it's too good to be true.",
+    "emoji": "🙉",
+    "hot": [
+     "too",
+     "good"
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. The maths.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The maths"
+   }
+  },
+  {
+   "say": "Then a financial journalist, Clarence Barron, did the maths. To back the money Ponzi had taken in, around one hundred and sixty million coupons would need to be in circulation.",
+   "vis": {
+    "type": "num",
+    "value": 160000000,
+    "label": "coupons needed to back the scheme",
+    "color": "red",
+    "emoji": "📮",
+    "prefix": "",
+    "suffix": "",
+    "source": "Clarence Barron's calculation, 1920"
+   }
+  },
+  {
+   "say": "The real number in circulation was about twenty seven thousand. It wasn't even close.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Coupons needed",
+     "emoji": "📈",
+     "lines": [
+      "About 160 million",
+      "To back the money"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Coupons that existed",
+     "emoji": "📉",
+     "lines": [
+      "About 27,000",
+      "In circulation"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The Boston Post began asking questions in July nineteen twenty. Then it reported that Ponzi was deeply in debt. Investors panicked and rushed to get their money out.",
+   "vis": {
+    "type": "headline",
+    "kicker": "August 1920",
+    "paper": "THE BOSTON POST",
+    "text": "Ponzi is hopelessly insolvent",
+    "date": "Investors rush to withdraw their money"
+   }
+  },
+  {
+   "say": "A Ponzi scheme only survives while money keeps coming in. The moment everyone wants to get out at once, it falls apart.",
+   "vis": {
+    "type": "hook",
+    "text": "It only works until everyone wants out.",
+    "emoji": "🏃",
+    "hot": [
+     "everyone"
+    ]
+   }
+  },
+  {
+   "say": "Lesson six. The collapse.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The collapse"
+   }
+  },
+  {
+   "say": "In August nineteen twenty, the scheme collapsed. Investors lost around twenty million dollars, a huge sum at the time, and got back less than thirty cents on the dollar. Six banks went down with it.",
+   "vis": {
+    "type": "num",
+    "value": 20,
+    "label": "lost by investors, in 1920 dollars",
+    "color": "red",
+    "emoji": "💸",
+    "prefix": "$",
+    "suffix": " million",
+    "source": "Charles Ponzi, Wikipedia"
+   }
+  },
+  {
+   "say": "Ponzi went to federal prison for mail fraud, then faced more charges in Massachusetts. In nineteen thirty four, he was deported to Italy. He died in nineteen forty nine, in a charity hospital in Rio de Janeiro, with almost nothing.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1920",
+      "Scheme collapses"
+     ],
+     [
+      "1920s",
+      "Prison"
+     ],
+     [
+      "1934",
+      "Deported to Italy"
+     ],
+     [
+      "1949",
+      "Dies in Rio, almost penniless",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "His name lives on, because the same trick keeps coming back. Investment clubs, crypto schemes, and online platforms that promise huge, guaranteed returns and pay early investors with new money.",
+   "vis": {
+    "type": "list",
+    "title": "Spot a Ponzi scheme",
+    "items": [
+     [
+      "🚀",
+      "Guaranteed high returns"
+     ],
+     [
+      "🤷",
+      "Vague about how it works"
+     ],
+     [
+      "🗣️",
+      "Early investors rave about it"
+     ],
+     [
+      "🏃",
+      "Hard to withdraw your money"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So remember the coupon. When someone promises you huge, fast, guaranteed returns, ask the Clarence Barron question. Does the maths actually work?",
+   "vis": {
+    "type": "hook",
+    "text": "Does the maths actually work?",
+    "emoji": "🧮",
+    "hot": [
+     "maths"
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more true stories behind famous frauds, and tell me in the comments which scam I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which scam should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE ORIGINAL|PONZI",
+  "emoji": "📮",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

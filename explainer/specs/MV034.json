@@ -1,0 +1,536 @@
+{
+ "id": "MV034",
+ "style": "bold",
+ "variant": 2,
+ "voice": "af_bella",
+ "speed": 0.84,
+ "trans": "cut",
+ "title": "The Real Wolf of Wall Street Scam",
+ "beats": [
+  {
+   "say": "The film made it look like one long party. Yachts, money, chaos. But behind the real Wolf of Wall Street was a scheme that cost ordinary investors around two hundred million dollars.",
+   "vis": {
+    "type": "hook",
+    "text": "The party had victims.",
+    "emoji": "🐺",
+    "hot": [
+     "victims."
+    ]
+   }
+  },
+  {
+   "say": "That's the figure from Jordan Belfort's own plea agreement. Losses of around two hundred million dollars, taken from investors who trusted his brokers.",
+   "vis": {
+    "type": "num",
+    "value": 200,
+    "label": "investor losses, per the plea agreement",
+    "color": "red",
+    "emoji": "📉",
+    "prefix": "$",
+    "suffix": " million",
+    "source": "Jordan Belfort plea arrangement"
+   }
+  },
+  {
+   "say": "So how did it actually work? Let's break down the real scheme, step by step, and why the same playbook is still used today.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "📞",
+      "The boiler room"
+     ],
+     [
+      "📈",
+      "The pump"
+     ],
+     [
+      "💥",
+      "The dump"
+     ],
+     [
+      "⚖️",
+      "The fall"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Stratton Oakmont.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Stratton Oakmont"
+   }
+  },
+  {
+   "say": "Jordan Belfort ran a brokerage firm on Long Island called Stratton Oakmont. At one point it employed more than a thousand stockbrokers.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏢",
+    "text": "Stratton Oakmont",
+    "sub": "1,000+ brokers on Long Island",
+    "color": "red"
+   }
+  },
+  {
+   "say": "It was what's called a boiler room. A packed office of young salespeople, cold calling people all day with scripted pitches and enormous pressure to close.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "A normal broker",
+     "emoji": "🧑‍💼",
+     "lines": [
+      "Advises clients",
+      "Suggests options"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "A boiler room",
+     "emoji": "📞",
+     "lines": [
+      "Scripted pitches",
+      "Pressure to buy now"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The brokers followed carefully written scripts. Build rapport. Create excitement. Overcome every objection. And never let the customer off the phone without a sale. Many of the brokers were young, with little financial training, but they were taught to sound like experts.",
+   "vis": {
+    "type": "list",
+    "title": "The sales script",
+    "items": [
+     [
+      "🤝",
+      "Build trust fast"
+     ],
+     [
+      "🔥",
+      "Create excitement"
+     ],
+     [
+      "🛡️",
+      "Beat every objection"
+     ],
+     [
+      "✅",
+      "Never hang up without a sale"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The brokers weren't selling the stocks of big famous companies. They were mainly selling penny stocks. Tiny, little known companies, with shares that cost very little and were rarely traded.",
+   "vis": {
+    "type": "hook",
+    "text": "Tiny stocks. Big promises.",
+    "emoji": "🪙",
+    "hot": [
+     "Tiny"
+    ]
+   }
+  },
+  {
+   "say": "Part two. The pump.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The pump"
+   }
+  },
+  {
+   "say": "Here's the scheme. It's called a pump and dump. First, insiders quietly get hold of lots of shares in a small company, often very cheaply.",
+   "vis": {
+    "type": "flow",
+    "title": "Step one",
+    "nodes": [
+     [
+      "🤫",
+      "Insiders buy cheap shares"
+     ],
+     [
+      "🗄️",
+      "Hide who owns them"
+     ],
+     [
+      "📞",
+      "Brokers start calling"
+     ],
+     [
+      "📈",
+      "Price starts rising"
+     ]
+    ],
+    "color": "red",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "Then come the phone calls. Thousands of them. Brokers tell investors about an amazing small company that's about to take off. Buy now, before everyone else does.",
+   "vis": {
+    "type": "hook",
+    "text": "Buy now, before everyone else does.",
+    "emoji": "📞",
+    "hot": [
+     "now,"
+    ]
+   }
+  },
+  {
+   "say": "Often, the brokers would first win a customer's trust by recommending solid, well known stocks that made a little money. Once the customer trusted them, the brokers would push the risky penny stocks.",
+   "vis": {
+    "type": "hook",
+    "text": "First earn trust. Then push the risky stuff.",
+    "emoji": "🎣",
+    "hot": [
+     "trust."
+    ]
+   }
+  },
+  {
+   "say": "As investors buy in, demand pushes the price up. The share price rises, which makes the pitch even easier. Look, it's already going up.",
+   "vis": {
+    "type": "bars",
+    "title": "The pump",
+    "items": [
+     [
+      "Insiders' price",
+      1,
+      "teal"
+     ],
+     [
+      "After the calls",
+      6,
+      "gold"
+     ],
+     [
+      "At the peak",
+      10,
+      "red"
+     ]
+    ],
+    "max": 11,
+    "prefix": "$",
+    "suffix": "",
+    "source": "Illustrative example"
+   }
+  },
+  {
+   "say": "Part three. The dump.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The dump"
+   }
+  },
+  {
+   "say": "Then, at the top, the insiders sell. They dump their cheap shares onto the investors who've just bought in at high prices.",
+   "vis": {
+    "type": "flow",
+    "title": "The dump",
+    "nodes": [
+     [
+      "📈",
+      "Price at the peak"
+     ],
+     [
+      "💸",
+      "Insiders sell everything"
+     ],
+     [
+      "📉",
+      "Price collapses"
+     ],
+     [
+      "😢",
+      "Investors hold the losses"
+     ]
+    ],
+    "color": "red",
+    "coin": "💸"
+   }
+  },
+  {
+   "say": "Without fake demand holding it up, the price collapses. The insiders walk away with huge profits. The ordinary investors are left holding shares worth a fraction of what they paid.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The insiders",
+     "emoji": "😎",
+     "lines": [
+      "Bought cheap",
+      "Sold at the top"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The investors",
+     "emoji": "😢",
+     "lines": [
+      "Bought at the top",
+      "Left with losses"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Why does this hurt so much? Because penny stocks have very few buyers. When the insiders sell big blocks, there's almost nobody on the other side to buy. The price can fall incredibly fast, and ordinary investors can't get out.",
+   "vis": {
+    "type": "list",
+    "title": "Why the crash is so fast",
+    "items": [
+     [
+      "🪙",
+      "Few buyers for tiny stocks"
+     ],
+     [
+      "📦",
+      "Insiders sell huge blocks"
+     ],
+     [
+      "📉",
+      "Price falls fast"
+     ],
+     [
+      "🔒",
+      "Investors are stuck"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And the brokers would often discourage clients from selling, so the insiders could get out first. That's the dark heart of a pump and dump.",
+   "vis": {
+    "type": "hook",
+    "text": "Don't sell. Not yet.",
+    "emoji": "🛑",
+    "hot": [
+     "Don't",
+     "sell."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The lifestyle.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The lifestyle"
+   }
+  },
+  {
+   "say": "The money funded an extraordinary lifestyle. Mansions, cars, wild parties, and a huge yacht called Nadine, which sank off the coast of Sardinia in nineteen ninety six.",
+   "vis": {
+    "type": "list",
+    "title": "Where the money went",
+    "items": [
+     [
+      "🏠",
+      "Mansions"
+     ],
+     [
+      "🏎️",
+      "Cars"
+     ],
+     [
+      "🎉",
+      "Parties"
+     ],
+     [
+      "🛥️",
+      "A yacht that sank"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Inside the office, the culture was famously wild. But the real engine was simple. Every sale meant commission for the brokers, and every pump meant profits for the people at the top.",
+   "vis": {
+    "type": "hook",
+    "text": "Every sale meant commission.",
+    "emoji": "💵",
+    "hot": [
+     "commission."
+    ]
+   }
+  },
+  {
+   "say": "Stratton also helped bring real companies to the stock market, including the shoe brand Steve Madden. But regulators had been watching the firm for years.",
+   "vis": {
+    "type": "hook",
+    "text": "Regulators were watching.",
+    "emoji": "👀",
+    "hot": [
+     "watching."
+    ]
+   }
+  },
+  {
+   "say": "Part five. The fall.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The fall"
+   }
+  },
+  {
+   "say": "In nineteen ninety six, Stratton Oakmont was expelled by the industry regulator, the NASD. In nineteen ninety nine, Belfort was indicted for securities fraud and money laundering.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1996",
+      "Firm expelled by regulators"
+     ],
+     [
+      "1999",
+      "Belfort indicted"
+     ],
+     [
+      "2003",
+      "Sentenced to 4 years"
+     ],
+     [
+      "Later",
+      "Restitution battles",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "He pleaded guilty and cooperated with the FBI, even wearing a wire against former associates. In exchange, he got a lighter sentence. Four years, of which he served about twenty two months.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The sentence",
+     "emoji": "⚖️",
+     "lines": [
+      "4 years",
+      "About 22 months served"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The cooperation",
+     "emoji": "🎙️",
+     "lines": [
+      "Wore a wire",
+      "Testified against others"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "He was also ordered to repay more than one hundred and ten million dollars to victims. For years, prosecutors and his lawyers argued about how much he'd actually paid back.",
+   "vis": {
+    "type": "num",
+    "value": 110.4,
+    "label": "restitution ordered",
+    "color": "red",
+    "emoji": "⚖️",
+    "prefix": "$",
+    "suffix": " million",
+    "dec": 1
+   }
+  },
+  {
+   "say": "Years later, reports said the restitution obligation had finally been completed. But for many victims, decades had passed since they lost their money.",
+   "vis": {
+    "type": "hook",
+    "text": "Decades later, the bill was finally paid.",
+    "emoji": "🧾",
+    "hot": [
+     "Decades"
+    ]
+   }
+  },
+  {
+   "say": "Part six. The movie.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The movie"
+   }
+  },
+  {
+   "say": "In twenty thirteen, Martin Scorsese turned Belfort's memoir into The Wolf of Wall Street, with Leonardo DiCaprio. It was a huge hit. And Belfort became a famous sales speaker.",
+   "vis": {
+    "type": "hook",
+    "text": "The scam became a blockbuster.",
+    "emoji": "🎬",
+    "hot": [
+     "blockbuster."
+    ]
+   }
+  },
+  {
+   "say": "Critics argued that the film showed the party, but barely showed the victims. Ordinary people who lost savings never got their own movie.",
+   "vis": {
+    "type": "hook",
+    "text": "The victims never got a movie.",
+    "emoji": "🎥",
+    "hot": [
+     "victims"
+    ]
+   }
+  },
+  {
+   "say": "And pump and dump schemes haven't gone away. Today, they often happen with small stocks and crypto coins promoted on social media, in group chats and by influencers.",
+   "vis": {
+    "type": "list",
+    "title": "Spot a modern pump and dump",
+    "items": [
+     [
+      "📱",
+      "Hype in chats and social media"
+     ],
+     [
+      "⏰",
+      "'Buy now before it moons'"
+     ],
+     [
+      "🪙",
+      "Tiny, little-known coins or stocks"
+     ],
+     [
+      "🤐",
+      "Promoters who don't say they own it"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So when someone you don't know is desperate for you to buy something right now, ask yourself one question. If it's such a great deal, why do they need my money?",
+   "vis": {
+    "type": "hook",
+    "text": "Why do they need my money?",
+    "emoji": "🤔",
+    "hot": [
+     "my",
+     "money?"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind famous frauds, and tell me in the comments which scam I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which scam should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE REAL|WOLF SCAM",
+  "emoji": "🐺",
+  "color": "red",
+  "tag": "Heists and cons"
+ }
+}

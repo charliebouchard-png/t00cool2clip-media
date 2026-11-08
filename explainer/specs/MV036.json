@@ -1,0 +1,496 @@
+{
+ "id": "MV036",
+ "style": "storybook",
+ "voice": "bm_george",
+ "speed": 0.84,
+ "title": "Theranos: The Blood Test That Didn't Work",
+ "beats": [
+  {
+   "say": "Imagine a machine that could run hundreds of medical tests from one tiny drop of blood, taken from your fingertip. No needles in your arm. Fast, cheap results. That was the promise of a company called Theranos.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "One drop. Hundreds of tests.",
+      "prop": "🩸"
+     }
+    ],
+    "title": "The big promise"
+   }
+  },
+  {
+   "say": "Investors loved it. Theranos raised at least seven hundred million dollars, and by twenty fourteen it was valued at around nine billion dollars.",
+   "vis": {
+    "type": "num",
+    "value": 9,
+    "label": "Theranos's valuation in 2014",
+    "color": "red",
+    "emoji": "🩸",
+    "prefix": "$",
+    "suffix": " billion",
+    "source": "Reporting on Theranos, 2014"
+   }
+  },
+  {
+   "say": "Many of the investors were wealthy families and famous business figures, not specialist healthcare investors. They trusted the story, the founder and each other, more than independent scientific evidence.",
+   "vis": {
+    "type": "list",
+    "title": "Who invested",
+    "items": [
+     [
+      "💼",
+      "Wealthy families"
+     ],
+     [
+      "🌟",
+      "Famous business figures"
+     ],
+     [
+      "🤝",
+      "Trusting each other"
+     ],
+     [
+      "🔬",
+      "Few independent checks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "There was just one problem. The technology didn't work the way the company said it did.",
+   "vis": {
+    "type": "hook",
+    "text": "The machines couldn't do it.",
+    "emoji": "🧪",
+    "hot": [
+     "couldn't"
+    ]
+   }
+  },
+  {
+   "say": "Meet Elizabeth Holmes. In two thousand and three, at just nineteen, she dropped out of Stanford University to start Theranos. Her dream was to change healthcare forever.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "This will change the world.",
+      "prop": "💡"
+     }
+    ],
+    "title": "The founder"
+   }
+  },
+  {
+   "say": "She became one of the most famous founders in Silicon Valley. Black turtlenecks, like Steve Jobs. Magazine covers. And for a while, she was called the youngest self made female billionaire in the world.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Smile for the cameras!",
+      "prop": "📸"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "She's the next Steve Jobs!"
+     }
+    ],
+    "title": "The star"
+   }
+  },
+  {
+   "say": "She spoke in a deep voice, rarely blinked in interviews, and told a moving story about her fear of needles. Investors and journalists were captivated.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "I've always been scared of needles.",
+      "prop": "🎤"
+     }
+    ],
+    "title": "The pitch"
+   }
+  },
+  {
+   "say": "She also built an incredibly powerful board of directors. Former US Secretaries of State, including Henry Kissinger and George Shultz, and a former general, James Mattis.",
+   "vis": {
+    "type": "list",
+    "title": "The famous board",
+    "items": [
+     [
+      "🎖️",
+      "A former general"
+     ],
+     [
+      "🌍",
+      "Former Secretaries of State"
+     ],
+     [
+      "🏛️",
+      "Senior political figures"
+     ],
+     [
+      "🧪",
+      "Few medical experts"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Having powerful people on your board makes everyone else assume the checks have been done. That's a powerful kind of trust.",
+   "vis": {
+    "type": "hook",
+    "text": "Famous names felt like proof.",
+    "emoji": "🏅",
+    "hot": [
+     "proof."
+    ]
+   }
+  },
+  {
+   "say": "Theranos signed a deal with Walgreens, one of America's biggest pharmacy chains, to offer its blood tests in stores. Real patients started using it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Just a finger prick? Great!",
+      "prop": "💉"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Results soon!",
+      "prop": "🏪"
+     }
+    ],
+    "title": "In the shops"
+   }
+  },
+  {
+   "say": "At its peak, Theranos had wellness centres in many Walgreens stores, mostly in Arizona. Thousands of real people's blood was tested. And many of them made health decisions based on the results.",
+   "vis": {
+    "type": "hook",
+    "text": "Real people. Real results. Real risk.",
+    "emoji": "🏥",
+    "hot": [
+     "Real"
+    ]
+   }
+  },
+  {
+   "say": "You see, behind the scenes, things were very different.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "sad",
+      "say": "Keep it secret.",
+      "prop": "🤫"
+     }
+    ],
+    "title": "Behind the scenes"
+   },
+   "night": true
+  },
+  {
+   "say": "The company's own device, which it called the Edison, could only run a small number of tests. And employees worried about how accurate its results were.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "These results don't look right...",
+      "prop": "🧪"
+     }
+    ],
+    "title": "The Edison"
+   },
+   "night": true
+  },
+  {
+   "say": "For many tests, Theranos quietly used conventional blood testing machines made by other companies, sometimes with modifications. But the public and investors were told its own technology was revolutionary.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What people were told",
+     "emoji": "🚀",
+     "lines": [
+      "Our own breakthrough machine",
+      "Hundreds of tests"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What was happening",
+     "emoji": "🔧",
+     "lines": [
+      "Many tests on other machines",
+      "Accuracy problems"
+     ],
+     "color": "red"
+    }
+   },
+   "night": true
+  },
+  {
+   "say": "Staff who raised concerns faced pressure. The company was famous for secrecy, and for being very aggressive with anyone who questioned it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "sad",
+      "say": "Should we tell someone?",
+      "prop": "📝"
+     },
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "You signed an agreement.",
+      "prop": "📄"
+     }
+    ],
+    "title": "The pressure"
+   },
+   "night": true
+  },
+  {
+   "say": "One young employee, Tyler Shultz, the grandson of board member George Shultz, raised concerns and later became a key source for the reporting. Another former employee, Erika Cheung, also spoke out. Both later testified about what they had seen.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Someone has to say something.",
+      "prop": "📝"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "I'll tell the truth."
+     }
+    ],
+    "title": "The whistleblowers"
+   },
+   "night": true
+  },
+  {
+   "say": "Then in October twenty fifteen, a Wall Street Journal reporter called John Carreyrou published an investigation. Inside sources told him the Edison was being used for only a small number of tests, and raised doubts about the technology.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Where's the evidence?",
+      "prop": "📰"
+     }
+    ],
+    "title": "The reporter"
+   },
+   "night": true
+  },
+  {
+   "say": "Theranos denied the reporting and fought back hard. But regulators began to look closely. Inspectors found serious problems in its lab.",
+   "vis": {
+    "type": "headline",
+    "kicker": "October 2015",
+    "paper": "THE MORNING LEDGER",
+    "text": "Hot startup Theranos has struggled with its blood-test technology",
+    "date": "Theranos disputes the reporting"
+   }
+  },
+  {
+   "say": "In twenty sixteen, Walgreens ended its partnership. Theranos voided years of test results. Holmes settled civil fraud charges with the US regulator, paying a fine and giving up control. By twenty eighteen, the company had shut down.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Oct 2015",
+      "WSJ investigation"
+     ],
+     [
+      "2016",
+      "Walgreens pulls out"
+     ],
+     [
+      "2016",
+      "Test results voided"
+     ],
+     [
+      "2018",
+      "Theranos shuts down",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Think about what that meant. Patients had received blood results that may have been wrong. Doctors had made decisions based on them.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "Was my result even real?",
+      "prop": "📄"
+     }
+    ],
+    "title": "The patients"
+   }
+  },
+  {
+   "say": "That's what made Theranos different from many business frauds. It wasn't just money at risk. It was people's health.",
+   "vis": {
+    "type": "hook",
+    "text": "Not just money. People's health.",
+    "emoji": "❤️",
+    "hot": [
+     "health."
+    ]
+   }
+  },
+  {
+   "say": "In June twenty eighteen, Holmes and her former business partner, Sunny Balwani, were charged with fraud. In January twenty twenty two, a jury found Holmes guilty of defrauding investors.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2018",
+      "Criminal charges"
+     ],
+     [
+      "Jan 2022",
+      "Holmes convicted"
+     ],
+     [
+      "July 2022",
+      "Balwani convicted"
+     ],
+     [
+      "2023",
+      "Holmes goes to prison",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "At trial, Holmes argued she had believed in the technology and that others were responsible for problems in the lab. The jury acquitted her on the charges relating to patients, but convicted her of defrauding investors.",
+   "vis": {
+    "type": "hook",
+    "text": "Guilty of defrauding investors.",
+    "emoji": "⚖️",
+    "hot": [
+     "investors."
+    ]
+   }
+  },
+  {
+   "say": "She was sentenced to eleven years and three months in prison. Balwani was found guilty on all twelve counts against him and was sentenced to almost thirteen years.",
+   "vis": {
+    "type": "num",
+    "value": 11.25,
+    "label": "years, Elizabeth Holmes's sentence",
+    "color": "red",
+    "emoji": "⚖️",
+    "prefix": "",
+    "suffix": " years",
+    "dec": 2
+   }
+  },
+  {
+   "say": "So why did so many smart people fall for it? A brilliant story. A charismatic founder. Powerful names on the board. And a fear of missing out on the next big thing.",
+   "vis": {
+    "type": "list",
+    "title": "Why people believed",
+    "items": [
+     [
+      "📖",
+      "A world-changing story"
+     ],
+     [
+      "🌟",
+      "A charismatic founder"
+     ],
+     [
+      "🏅",
+      "Famous names as backers"
+     ],
+     [
+      "😰",
+      "Fear of missing out"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The lesson for anyone investing their money is simple. Big promises need proof. Independent checks matter more than famous names. And if a company won't let anyone look inside, ask why.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from Theranos",
+    "items": [
+     [
+      "🔍",
+      "Demand independent proof"
+     ],
+     [
+      "🏅",
+      "Famous names aren't evidence"
+     ],
+     [
+      "🤫",
+      "Secrecy is a red flag"
+     ],
+     [
+      "❓",
+      "Ask: has anyone checked?"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The dream was beautiful. One drop of blood. But a dream isn't a product. And a story, however good, isn't proof.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Great idea. Show me it works.",
+      "prop": "🔍"
+     }
+    ],
+    "title": "The lesson"
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest business collapses, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "ONE DROP.|ZERO TRUTH.",
+  "emoji": "🩸",
+  "color": "red",
+  "tag": "Business"
+ }
+}

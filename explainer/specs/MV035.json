@@ -1,0 +1,466 @@
+{
+ "id": "MV035",
+ "style": "documentary",
+ "voice": "bf_emma",
+ "speed": 0.85,
+ "title": "Enron: The Smartest Guys in the Room Weren't",
+ "beats": [
+  {
+   "say": "In August two thousand, one share of Enron was worth over ninety dollars. Fifteen months later, it was worth less than one. America's darling company had been built on profits that didn't exist.",
+   "vis": {
+    "type": "hook",
+    "text": "From $90 to under $1.",
+    "emoji": "📉",
+    "hot": [
+     "$90",
+     "$1."
+    ]
+   }
+  },
+  {
+   "say": "Enron reported revenue of more than one hundred billion dollars in two thousand. It was one of the biggest companies in America, and Fortune magazine repeatedly named it America's most innovative large company.",
+   "vis": {
+    "type": "bars",
+    "title": "Enron's reported revenue",
+    "items": [
+     [
+      "1996",
+      13.3,
+      "teal"
+     ],
+     [
+      "2000",
+      100.7,
+      "gold"
+     ]
+    ],
+    "max": 110,
+    "prefix": "$",
+    "suffix": "bn",
+    "source": "Enron scandal, Wikipedia",
+    "dec": 1
+   }
+  },
+  {
+   "say": "Then in December two thousand and one, it filed for bankruptcy. At the time, it was the biggest bankruptcy in American history.",
+   "vis": {
+    "type": "hook",
+    "text": "The biggest bankruptcy in US history, at the time.",
+    "emoji": "💥",
+    "hot": [
+     "biggest"
+    ]
+   }
+  },
+  {
+   "say": "Part one. From pipes to trading.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "From pipes to trading"
+   }
+  },
+  {
+   "say": "Enron started as a fairly ordinary energy company based in Houston, running natural gas pipelines. Then, under executives including Jeffrey Skilling, it turned itself into a trading business, buying and selling energy contracts.",
+   "vis": {
+    "type": "flow",
+    "title": "Enron's transformation",
+    "nodes": [
+     [
+      "🔧",
+      "Gas pipelines"
+     ],
+     [
+      "📈",
+      "Energy trading"
+     ],
+     [
+      "🌐",
+      "Online trading platform"
+     ],
+     [
+      "🚀",
+      "Wall Street star"
+     ]
+    ],
+    "color": "gold",
+    "coin": "⚡"
+   }
+  },
+  {
+   "say": "The pitch was exciting. Enron wasn't just a company that owned pipes. It was a new kind of company, using clever trading to make money from almost anything.",
+   "vis": {
+    "type": "hook",
+    "text": "A new kind of company. Or so it seemed.",
+    "emoji": "✨",
+    "hot": [
+     "seemed."
+    ]
+   }
+  },
+  {
+   "say": "Enron's culture rewarded big deals and big numbers. Staff were ranked against each other, and those at the bottom risked being fired. That created enormous pressure to show growth, every single quarter.",
+   "vis": {
+    "type": "list",
+    "title": "The culture",
+    "items": [
+     [
+      "📊",
+      "Staff ranked against each other"
+     ],
+     [
+      "🚪",
+      "Bottom performers pushed out"
+     ],
+     [
+      "📈",
+      "Growth every quarter"
+     ],
+     [
+      "💰",
+      "Huge bonuses for big deals"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. Counting future profits today.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Future profits, today"
+   }
+  },
+  {
+   "say": "The first trick was accounting. Enron used a method called mark to market. When it signed a long deal, it could estimate all the profit the deal might make over many years, and count it immediately.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal accounting",
+     "emoji": "🧾",
+     "lines": [
+      "Count profit as it arrives",
+      "Year by year"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Enron's approach",
+     "emoji": "🔮",
+     "lines": [
+      "Estimate future profit",
+      "Count it all now"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "That sounds technical, but think of it like this. Imagine getting a new job and telling the bank you've already earned your next twenty years of salary, today.",
+   "vis": {
+    "type": "hook",
+    "text": "Like spending twenty years of salary on day one.",
+    "emoji": "💭",
+    "hot": [
+     "twenty",
+     "years"
+    ]
+   }
+  },
+  {
+   "say": "If the deal later did worse than expected, the real profit never showed up. But it had already been reported. So Enron always needed new deals to keep the numbers growing.",
+   "vis": {
+    "type": "hook",
+    "text": "The numbers always had to keep growing.",
+    "emoji": "📈",
+    "hot": [
+     "growing."
+    ]
+   }
+  },
+  {
+   "say": "Part three. Hiding the debt.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Hiding the debt"
+   }
+  },
+  {
+   "say": "The second trick was hiding debts and losses. Enron's finance chief, Andrew Fastow, created complicated side companies, known as special purpose entities, with names like LJM and the Raptors.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🕸️",
+    "text": "Special purpose entities",
+    "sub": "Side companies that hid debts and losses",
+    "color": "red"
+   }
+  },
+  {
+   "say": "These entities could take on Enron's bad assets and debts, keeping them off Enron's own balance sheet. To investors, Enron looked far healthier than it really was.",
+   "vis": {
+    "type": "flow",
+    "title": "How the hiding worked",
+    "nodes": [
+     [
+      "🏢",
+      "Enron has losses and debts"
+     ],
+     [
+      "📦",
+      "Moves them to side companies"
+     ],
+     [
+      "🧼",
+      "Enron's books look clean"
+     ],
+     [
+      "📈",
+      "Share price keeps rising"
+     ]
+    ],
+    "color": "red",
+    "coin": "📦"
+   }
+  },
+  {
+   "say": "Many of these deals were backed, in the end, by Enron's own shares. So as long as the share price stayed high, everything held together. If it fell, it could all come crashing down.",
+   "vis": {
+    "type": "hook",
+    "text": "It all depended on the share price.",
+    "emoji": "🃏",
+    "hot": [
+     "share",
+     "price."
+    ]
+   }
+  },
+  {
+   "say": "And Fastow himself made millions of dollars managing some of these side companies. He was on both sides of the deals, which is a huge conflict of interest.",
+   "vis": {
+    "type": "hook",
+    "text": "On both sides of the deal.",
+    "emoji": "🔀",
+    "hot": [
+     "both"
+    ]
+   }
+  },
+  {
+   "say": "Part four. The warning.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The warning"
+   }
+  },
+  {
+   "say": "In August two thousand and one, Skilling suddenly resigned as chief executive. Days later, an Enron executive, Sherron Watkins, sent an anonymous letter to chairman Kenneth Lay warning about the accounting.",
+   "vis": {
+    "type": "quote",
+    "text": "I am incredibly nervous that we will implode in a wave of accounting scandals.",
+    "who": "Sherron Watkins's warning letter, August 2001"
+   }
+  },
+  {
+   "say": "In October, Enron reported a huge loss and a big cut in shareholder value. Regulators began investigating. In November, it admitted it had overstated its profits for years. In December, it filed for bankruptcy.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Aug 2001",
+      "Skilling resigns, warning letter"
+     ],
+     [
+      "Oct 2001",
+      "Big loss revealed"
+     ],
+     [
+      "Nov 2001",
+      "Profits restated"
+     ],
+     [
+      "2 Dec 2001",
+      "Bankruptcy",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. Who paid the price.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Who paid the price"
+   }
+  },
+  {
+   "say": "Thousands of employees lost their jobs. And many lost their retirement savings too, because about sixty two percent of the money in Enron's employee savings plans was invested in Enron's own shares.",
+   "vis": {
+    "type": "num",
+    "value": 62,
+    "label": "of employee savings plans held in Enron stock",
+    "color": "red",
+    "emoji": "👷",
+    "prefix": "",
+    "suffix": "%",
+    "source": "Enron scandal, Wikipedia"
+   }
+  },
+  {
+   "say": "Imagine working at a company for twenty years, building up savings for retirement, and watching most of it disappear in a matter of weeks. For thousands of families, that's what Enron meant.",
+   "vis": {
+    "type": "hook",
+    "text": "Twenty years of savings, gone in weeks.",
+    "emoji": "💔",
+    "hot": [
+     "gone"
+    ]
+   }
+  },
+  {
+   "say": "Some top executives had sold large amounts of shares before the collapse. Meanwhile, many ordinary employees were unable to sell from their retirement accounts as the price fell.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Some executives",
+     "emoji": "💼",
+     "lines": [
+      "Sold shares earlier",
+      "Walked away rich"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Many employees",
+     "emoji": "😢",
+     "lines": [
+      "Savings in Enron stock",
+      "Watched it vanish"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Enron's auditor, Arthur Andersen, one of the five biggest accounting firms in the world, was convicted of obstruction of justice for shredding documents. That conviction was later overturned, but by then the firm had collapsed.",
+   "vis": {
+    "type": "hook",
+    "text": "Even the auditor went down.",
+    "emoji": "🗑️",
+    "hot": [
+     "auditor"
+    ]
+   }
+  },
+  {
+   "say": "Part six. The verdicts.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The verdicts"
+   }
+  },
+  {
+   "say": "Andrew Fastow pleaded guilty and was sentenced to ten years, later reduced in exchange for cooperation. Jeffrey Skilling was convicted and sentenced to more than twenty four years, later cut by a decade. Kenneth Lay was convicted, but died in two thousand and six before he could be sentenced.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Fastow",
+      "Pleaded guilty, cooperated"
+     ],
+     [
+      "Skilling",
+      "24 years, later reduced"
+     ],
+     [
+      "Lay",
+      "Convicted, died before sentencing"
+     ],
+     [
+      "Andersen",
+      "Firm collapsed",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The scandal changed the rules. In two thousand and two, the US passed the Sarbanes Oxley Act, requiring top executives to personally sign off on their company's accounts, and toughening rules for auditors.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "✍️",
+      "Bosses must sign off accounts"
+     ],
+     [
+      "🔍",
+      "Tougher rules for auditors"
+     ],
+     [
+      "⚖️",
+      "Bigger penalties for fraud"
+     ],
+     [
+      "🗣️",
+      "Protection for whistleblowers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So what's the lesson? Be wary when a company's profits are hard to understand. Be wary when it's always growing, no matter what. And never put all your savings into the shares of the company you work for.",
+   "vis": {
+    "type": "list",
+    "title": "The lessons",
+    "items": [
+     [
+      "🤔",
+      "If you can't understand the profits, ask why"
+     ],
+     [
+      "📈",
+      "Endless growth is a red flag"
+     ],
+     [
+      "🥚",
+      "Don't put all your eggs in one basket"
+     ],
+     [
+      "🗣️",
+      "Listen to the whistleblowers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "They were called the smartest guys in the room. In the end, the smartest thing anyone did was ask simple questions about where the money really came from.",
+   "vis": {
+    "type": "hook",
+    "text": "Ask where the money really comes from.",
+    "emoji": "❓",
+    "hot": [
+     "really"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest business collapses, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "$90 TO|$0",
+  "emoji": "📉",
+  "color": "red",
+  "tag": "Business"
+ }
+}

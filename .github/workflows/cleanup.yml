@@ -1,0 +1,22 @@
+name: cleanup-branches
+on:
+  workflow_dispatch:
+    inputs:
+      prefix:
+        description: Delete remote branches starting with this prefix (e.g. video-MV00)
+        required: true
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Delete branches
+        env:
+          P: ${{ inputs.prefix }}
+        run: |
+          case "$P" in video-*|render-*) ;; *) echo "refusing prefix $P"; exit 1;; esac
+          for b in $(git ls-remote --heads origin "refs/heads/${P}*" | awk '{print $2}' | sed 's#refs/heads/##'); do git push origin --delete "$b"; done

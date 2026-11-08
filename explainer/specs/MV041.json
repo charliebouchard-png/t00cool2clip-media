@@ -1,0 +1,454 @@
+{
+ "id": "MV041",
+ "style": "storybook",
+ "voice": "bf_isabella",
+ "speed": 0.83,
+ "title": "Northern Rock: Britain's First Bank Run in 150 Years",
+ "beats": [
+  {
+   "say": "In September two thousand and seven, something happened in Britain that hadn't been seen in living memory. People queued outside their bank, in the street, to take their money out.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "I want my savings out!",
+      "prop": "👜"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "sad",
+      "say": "Me too!",
+      "prop": "💷"
+     }
+    ],
+    "title": "The queue"
+   }
+  },
+  {
+   "say": "It was a run on Northern Rock. Reports at the time described it as the first run on a British bank in around a hundred and fifty years.",
+   "vis": {
+    "type": "hook",
+    "text": "The first British bank run in about 150 years.",
+    "emoji": "🏦",
+    "hot": [
+     "150"
+    ]
+   }
+  },
+  {
+   "say": "Within months, the bank had been taken over by the government. So how does a bank go from normal to nationalised in five months?",
+   "vis": {
+    "type": "hook",
+    "text": "From normal to nationalised in five months.",
+    "emoji": "📉",
+    "hot": [
+     "five",
+     "months."
+    ]
+   }
+  },
+  {
+   "say": "Meet Northern Rock. It started as a building society in the North East of England. In nineteen ninety seven, it became a bank and listed on the stock market. It was ambitious and growing fast.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Mortgages for everyone!",
+      "prop": "🏠"
+     }
+    ],
+    "title": "The bank"
+   }
+  },
+  {
+   "say": "Normally, a bank lends out money that savers deposit with it. But Northern Rock lent out far more than its savers had given it. To fund all those mortgages, it borrowed short term from other banks and investors, on the money markets.",
+   "vis": {
+    "type": "flow",
+    "title": "Northern Rock's model",
+    "nodes": [
+     [
+      "💷",
+      "Borrow short-term on money markets"
+     ],
+     [
+      "🏠",
+      "Lend long-term mortgages"
+     ],
+     [
+      "📦",
+      "Package and sell mortgages"
+     ],
+     [
+      "🔁",
+      "Borrow again"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "That worked brilliantly while money was cheap and easy to borrow. But it had a weakness. Mortgages last for decades. The borrowing had to be rolled over again and again, sometimes every few months.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The loans it made",
+     "emoji": "🏠",
+     "lines": [
+      "Last 25 years",
+      "Can't be called back"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The money it borrowed",
+     "emoji": "⏳",
+     "lines": [
+      "Short-term",
+      "Must keep renewing"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It's like paying your rent every month by borrowing from a friend. Fine, as long as your friend keeps lending. But what happens if they stop?",
+   "vis": {
+    "type": "hook",
+    "text": "Fine, until the lender stops lending.",
+    "emoji": "🤝",
+    "hot": [
+     "stops"
+    ]
+   }
+  },
+  {
+   "say": "Northern Rock also offered some very generous mortgages. One, called Together, let people borrow up to a hundred and twenty five percent of a home's value. It grew to become one of the biggest mortgage lenders in Britain.",
+   "vis": {
+    "type": "list",
+    "title": "Fast growth",
+    "items": [
+     [
+      "🏠",
+      "Big mortgage lender"
+     ],
+     [
+      "📈",
+      "Loans up to 125% of value"
+     ],
+     [
+      "💷",
+      "Relied on borrowed money"
+     ],
+     [
+      "⚡",
+      "Growing very fast"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Investors loved it. The share price rose, profits grew, and the bank sponsored Newcastle United football club. It looked like a great British success story.",
+   "vis": {
+    "type": "hook",
+    "text": "It looked like a great success story.",
+    "emoji": "⚽",
+    "hot": [
+     "success"
+    ]
+   }
+  },
+  {
+   "say": "You see, in the summer of two thousand and seven, problems with risky American mortgages spread fear across the world's banks. Suddenly, banks stopped lending to each other.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "shock",
+      "say": "Nobody's lending anymore!",
+      "prop": "📉"
+     }
+    ],
+    "title": "The storm"
+   },
+   "night": true
+  },
+  {
+   "say": "Northern Rock couldn't renew its borrowing. Its main source of money had dried up. It went to the Bank of England for emergency help.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "sad",
+      "say": "We need help. Fast.",
+      "prop": "📞"
+     }
+    ],
+    "title": "The call"
+   },
+   "night": true
+  },
+  {
+   "say": "Here's the twist. Northern Rock was not running out of money because its mortgages were all going bad. It was running out of cash because nobody would lend to it, overnight.",
+   "vis": {
+    "type": "hook",
+    "text": "Not bad loans. No cash.",
+    "emoji": "💧",
+    "hot": [
+     "No",
+     "cash."
+    ]
+   }
+  },
+  {
+   "say": "On the evening of the thirteenth of September, the BBC reported that Northern Rock had asked the Bank of England for emergency support. The next morning, the support was officially announced.",
+   "vis": {
+    "type": "headline",
+    "kicker": "September 2007",
+    "paper": "THE MORNING TIMES",
+    "text": "Northern Rock seeks emergency support from Bank of England",
+    "date": "Savers rush to withdraw money"
+   },
+   "night": true
+  },
+  {
+   "say": "The Bank of England's help was meant to calm things down. But to many savers, it sounded terrifying. If the bank needed emergency help, was their money safe?",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "Is my money safe?",
+      "prop": "📺"
+     }
+    ],
+    "title": "The fear"
+   },
+   "night": true
+  },
+  {
+   "say": "By the next morning, queues were forming outside branches across the country. People waited for hours. The website struggled. Television cameras filmed it all, which made even more people join the queues.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "I've been waiting for hours.",
+      "prop": "⏰"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "It's on the news!",
+      "prop": "📺"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "sad",
+      "say": "Should I join too?"
+     }
+    ],
+    "title": "The run"
+   }
+  },
+  {
+   "say": "That's the thing about a bank run. Even a healthy bank can't pay everyone back at once, because most of the money is lent out as mortgages. If enough people panic, the panic itself can sink the bank.",
+   "vis": {
+    "type": "hook",
+    "text": "The panic itself can sink a bank.",
+    "emoji": "🌀",
+    "hot": [
+     "panic"
+    ]
+   }
+  },
+  {
+   "say": "Some savers took out tens of thousands of pounds in cash, or moved it to other banks. Billions of pounds were withdrawn in just a few days.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Got it all out!",
+      "prop": "👜"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "What about the rest of us?"
+     }
+    ],
+    "title": "Billions withdrawn"
+   }
+  },
+  {
+   "say": "And back then, savings protection was limited. Only the first two thousand pounds was fully protected, and only ninety percent of the next thirty three thousand. So savers had a real reason to worry.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Protection in 2007",
+     "emoji": "🛡️",
+     "lines": [
+      "First £2,000 in full",
+      "Then only 90%"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What savers feared",
+     "emoji": "😨",
+     "lines": [
+      "Losing part of savings",
+      "Getting out first"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "On the seventeenth of September, the Chancellor of the Exchequer, Alistair Darling, announced that the government would guarantee all existing deposits at Northern Rock. Finally, the queues began to shrink.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Your deposits are guaranteed.",
+      "prop": "🏛️"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Phew!",
+      "prop": "💷"
+     }
+    ],
+    "title": "The guarantee"
+   }
+  },
+  {
+   "say": "But the bank's problems weren't solved. The government searched for a private buyer, including bids involving Virgin. None worked out. In February twenty eight, Northern Rock was nationalised.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Sept 2007",
+      "Run on the bank"
+     ],
+     [
+      "Sept 2007",
+      "Deposits guaranteed"
+     ],
+     [
+      "Feb 2008",
+      "Nationalised"
+     ],
+     [
+      "2012",
+      "Sold to Virgin Money",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Shareholders lost their investment. Thousands of staff faced uncertainty. And taxpayers were on the hook for billions in loans and guarantees.",
+   "vis": {
+    "type": "hook",
+    "text": "Shareholders lost everything.",
+    "emoji": "📉",
+    "hot": [
+     "everything."
+    ]
+   }
+  },
+  {
+   "say": "Northern Rock was an early warning. A year later, the global financial crisis hit, and governments had to rescue much bigger banks. Afterwards, the rules changed.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "🛡️",
+      "Deposit protection raised, now £85,000"
+     ],
+     [
+      "🏦",
+      "Banks must hold safer funding"
+     ],
+     [
+      "🧪",
+      "Stress tests"
+     ],
+     [
+      "⚡",
+      "Faster compensation for savers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So what does it mean for you? Today, savings in UK banks are protected up to eighty five thousand pounds per person, per banking group. If you have more than that, spreading it across different banking groups can keep it protected.",
+   "vis": {
+    "type": "list",
+    "title": "Protect your savings",
+    "items": [
+     [
+      "🛡️",
+      "£85,000 per person, per banking group"
+     ],
+     [
+      "🏦",
+      "Check which banks share a licence"
+     ],
+     [
+      "📊",
+      "Spread larger savings"
+     ],
+     [
+      "😌",
+      "Don't panic, check the facts"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Northern Rock showed that a bank is built on trust. When people believe their money is safe, it is. And when that belief disappears, even a big bank can fall in a matter of days.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Trust is the real foundation.",
+      "prop": "🏦"
+     }
+    ],
+    "title": "The lesson"
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest collapses in money, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE QUEUE|THAT SHOOK|BRITAIN",
+  "emoji": "🏦",
+  "color": "teal",
+  "tag": "Collapses"
+ }
+}

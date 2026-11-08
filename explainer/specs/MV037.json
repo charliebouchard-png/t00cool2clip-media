@@ -1,0 +1,457 @@
+{
+ "id": "MV037",
+ "style": "neon",
+ "variant": 0,
+ "voice": "am_fenrir",
+ "speed": 0.84,
+ "trans": "cut",
+ "title": "FTX: How Billions Vanished in a Week",
+ "beats": [
+  {
+   "say": "In early November twenty twenty two, FTX was one of the biggest cryptocurrency exchanges in the world. Valued at around thirty two billion dollars. Ten days later, it was bankrupt, and billions of dollars of customer money was missing.",
+   "vis": {
+    "type": "hook",
+    "text": "$32 billion to bankrupt in ten days.",
+    "emoji": "💥",
+    "hot": [
+     "ten",
+     "days."
+    ]
+   }
+  },
+  {
+   "say": "A judge later said customers lost around eight billion dollars. And the man who ran it, Sam Bankman-Fried, was sentenced to twenty five years in prison.",
+   "vis": {
+    "type": "num",
+    "value": 8,
+    "label": "lost by customers, according to the judge",
+    "color": "red",
+    "emoji": "💸",
+    "prefix": "$",
+    "suffix": " billion",
+    "source": "Sentencing of Sam Bankman-Fried, March 2024"
+   }
+  },
+  {
+   "say": "So what actually happened? Let's follow the money, step by step, from the golden boy of crypto to one of the biggest frauds in American history.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "🚀",
+      "The rise"
+     ],
+     [
+      "🔀",
+      "The secret link"
+     ],
+     [
+      "🏃",
+      "The bank run"
+     ],
+     [
+      "⚖️",
+      "The verdict"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The golden boy.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The golden boy"
+   }
+  },
+  {
+   "say": "Sam Bankman-Fried, often called SBF, was a former Wall Street trader with messy hair, shorts and T-shirts. In twenty seventeen he started a crypto trading firm called Alameda Research. In twenty nineteen, he launched an exchange, FTX.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧑‍💻",
+    "text": "Sam Bankman-Fried",
+    "sub": "Founder of Alameda Research and FTX",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "FTX grew incredibly fast. It put its name on a sports arena in Miami, ran Super Bowl adverts with celebrities, and signed sponsorship deals with famous athletes. SBF testified before Congress and was treated as the responsible, grown up face of crypto.",
+   "vis": {
+    "type": "list",
+    "title": "The rise",
+    "items": [
+     [
+      "🏟️",
+      "A stadium named FTX"
+     ],
+     [
+      "📺",
+      "Super Bowl adverts"
+     ],
+     [
+      "🌟",
+      "Celebrity endorsements"
+     ],
+     [
+      "🏛️",
+      "Advising lawmakers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "He also talked a lot about giving his fortune away to good causes. To many people, he seemed like the trustworthy one in a chaotic industry.",
+   "vis": {
+    "type": "hook",
+    "text": "The trustworthy one. Or so it seemed.",
+    "emoji": "😇",
+    "hot": [
+     "seemed."
+    ]
+   }
+  },
+  {
+   "say": "Part two. The secret link.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The secret link"
+   }
+  },
+  {
+   "say": "Here's what customers didn't know. FTX and Alameda were supposed to be separate. FTX held customers' money. Alameda was SBF's own trading firm, making risky bets.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "FTX",
+     "emoji": "🏦",
+     "lines": [
+      "Holds customer money",
+      "Should keep it safe"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Alameda",
+     "emoji": "🎲",
+     "lines": [
+      "SBF's trading firm",
+      "Makes risky bets"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "But prosecutors showed that customer money from FTX was being moved to Alameda, and used for Alameda's trading, investments, loans to executives, political donations and expensive property. Billions of dollars of it.",
+   "vis": {
+    "type": "flow",
+    "title": "Where customer money went",
+    "nodes": [
+     [
+      "🙋",
+      "Customers deposit at FTX"
+     ],
+     [
+      "🔀",
+      "Money moves to Alameda"
+     ],
+     [
+      "🎲",
+      "Risky bets and investments"
+     ],
+     [
+      "🏝️",
+      "Property and donations"
+     ]
+    ],
+    "color": "red",
+    "coin": "💸"
+   }
+  },
+  {
+   "say": "Alameda had special privileges on FTX. Evidence at trial showed it could effectively borrow almost unlimited customer money without the usual limits that applied to everyone else.",
+   "vis": {
+    "type": "hook",
+    "text": "A secret back door to customer money.",
+    "emoji": "🚪",
+    "hot": [
+     "back",
+     "door"
+    ]
+   }
+  },
+  {
+   "say": "FTX also had its own token called FTT, which it created itself. A lot of what Alameda owned was FTT, or other tokens linked to SBF. So the value on paper depended on tokens FTX itself had made.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🪙",
+    "text": "The FTT token",
+    "sub": "Created by FTX, held by Alameda",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part three. The leak.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The leak"
+   }
+  },
+  {
+   "say": "On the second of November twenty twenty two, the crypto news site CoinDesk published a leaked balance sheet for Alameda. It showed that a huge part of Alameda's assets was FTT, the token FTX had created.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2 November 2022",
+    "paper": "COINDESK",
+    "text": "Alameda's balance sheet is full of FTX's own token",
+    "date": "Questions grow over the link between FTX and Alameda"
+   }
+  },
+  {
+   "say": "That raised a scary question. If FTT's price fell, Alameda could be in trouble. And if Alameda and FTX were tangled together, so could customers' money.",
+   "vis": {
+    "type": "hook",
+    "text": "If the token fell, what happened to the money?",
+    "emoji": "❓",
+    "hot": [
+     "money?"
+    ]
+   }
+  },
+  {
+   "say": "Part four. The run.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The run"
+   }
+  },
+  {
+   "say": "A few days later, the boss of the rival exchange Binance, Changpeng Zhao, said Binance would sell its large holding of FTT. The price of FTT started falling. And customers rushed to pull their money out of FTX.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2 Nov",
+      "CoinDesk leak"
+     ],
+     [
+      "6 Nov",
+      "Binance says it will sell FTT"
+     ],
+     [
+      "8 Nov",
+      "FTX halts withdrawals"
+     ],
+     [
+      "11 Nov",
+      "FTX files for bankruptcy",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "This is a classic bank run. A healthy exchange should be able to give everyone their money back, because it's sitting there, safely held. But FTX couldn't. The money wasn't there.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "A safe exchange",
+     "emoji": "🔐",
+     "lines": [
+      "Customer money is held",
+      "Withdrawals work"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "FTX",
+     "emoji": "🕳️",
+     "lines": [
+      "Money moved out",
+      "Withdrawals frozen"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Customers tried to withdraw billions of dollars in just a few days. People around the world watched their screens, refreshing, waiting for money that never arrived.",
+   "vis": {
+    "type": "hook",
+    "text": "Refreshing the screen. Waiting.",
+    "emoji": "📱",
+    "hot": [
+     "Waiting."
+    ]
+   }
+  },
+  {
+   "say": "Binance briefly agreed to rescue FTX, then pulled out the next day after looking at the books. On the eleventh of November, FTX filed for bankruptcy, and SBF resigned.",
+   "vis": {
+    "type": "hook",
+    "text": "Binance looked at the books, and walked away.",
+    "emoji": "🚪",
+    "hot": [
+     "walked",
+     "away."
+    ]
+   }
+  },
+  {
+   "say": "Part five. The trial.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The trial"
+   }
+  },
+  {
+   "say": "A new boss was brought in to clean up the mess, John Ray, a veteran of the Enron bankruptcy. He said he'd never seen such a complete failure of corporate controls. Records were poor, and money had been managed through chat apps and spreadsheets.",
+   "vis": {
+    "type": "list",
+    "title": "What the new boss found",
+    "items": [
+     [
+      "📋",
+      "Poor record keeping"
+     ],
+     [
+      "💬",
+      "Decisions in chat apps"
+     ],
+     [
+      "🔀",
+      "Mixed-up company money"
+     ],
+     [
+      "🕳️",
+      "Billions missing"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "At trial, an expert said around eleven billion dollars of customer funds should have been held at Alameda, but only about two point three billion could be located.",
+   "vis": {
+    "type": "num",
+    "value": 11.3,
+    "label": "customer funds that should have been at Alameda",
+    "color": "red",
+    "emoji": "🔍",
+    "prefix": "$",
+    "suffix": " billion",
+    "dec": 1,
+    "source": "Trial testimony, 2023"
+   }
+  },
+  {
+   "say": "That's the gap at the heart of the case. Billions that customers believed were sitting safely in their accounts had already been spent or lost.",
+   "vis": {
+    "type": "hook",
+    "text": "The money had already been spent.",
+    "emoji": "🕳️",
+    "hot": [
+     "spent."
+    ]
+   }
+  },
+  {
+   "say": "SBF's closest colleagues, including Alameda's chief executive, Caroline Ellison, pleaded guilty and testified against him. In November twenty twenty three, a jury convicted him of fraud and conspiracy. In March twenty twenty four, he was sentenced to twenty five years.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Dec 2022",
+      "Arrested in the Bahamas"
+     ],
+     [
+      "Oct 2023",
+      "Trial begins"
+     ],
+     [
+      "Nov 2023",
+      "Convicted"
+     ],
+     [
+      "Mar 2024",
+      "Sentenced to 25 years",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "SBF argued that customers would eventually get their money back. The judge rejected that, comparing it to a thief who takes money to a casino, wins, and says no harm was done.",
+   "vis": {
+    "type": "hook",
+    "text": "Winning it back doesn't make it not theft.",
+    "emoji": "⚖️",
+    "hot": [
+     "theft."
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "The bankruptcy team has since worked to recover money and repay customers, based on what their crypto was worth when FTX collapsed. But for many, the stress, the frozen savings and the lost years can't be repaid.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from FTX",
+    "items": [
+     [
+      "🔐",
+      "Ask who actually holds your money"
+     ],
+     [
+      "🪙",
+      "Beware companies backed by their own tokens"
+     ],
+     [
+      "🌟",
+      "Celebrity adverts aren't safety checks"
+     ],
+     [
+      "🧾",
+      "No audits? Big red flag"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "FTX looked like the safest name in crypto. Stadiums, celebrities, politicians. But none of that tells you where your money actually is. Only proper checks can.",
+   "vis": {
+    "type": "hook",
+    "text": "Fame isn't the same as safety.",
+    "emoji": "🛑",
+    "hot": [
+     "safety."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest collapses in money, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "$8 BILLION|GONE IN|A WEEK",
+  "emoji": "💥",
+  "color": "red",
+  "tag": "Collapses"
+ }
+}

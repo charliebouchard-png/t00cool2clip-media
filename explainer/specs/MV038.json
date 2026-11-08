@@ -1,0 +1,503 @@
+{
+ "id": "MV038",
+ "style": "collage",
+ "variant": 2,
+ "voice": "af_heart",
+ "speed": 0.84,
+ "trans": "slap",
+ "title": "Bernie Madoff: The $65 Billion Lie",
+ "beats": [
+  {
+   "say": "For decades, Bernie Madoff was one of the most trusted men on Wall Street. He had once been chairman of the Nasdaq stock market. And all along, he was running the biggest Ponzi scheme in history.",
+   "vis": {
+    "type": "hook",
+    "text": "The most trusted man on Wall Street.",
+    "emoji": "🧾",
+    "hot": [
+     "trusted"
+    ]
+   }
+  },
+  {
+   "say": "When it collapsed in twenty eight, his clients' statements showed balances of almost sixty five billion dollars. Most of that money didn't exist.",
+   "vis": {
+    "type": "num",
+    "value": 65,
+    "label": "on clients' statements, mostly fake",
+    "color": "red",
+    "emoji": "📄",
+    "prefix": "$",
+    "suffix": " billion",
+    "source": "Madoff investment scandal reporting"
+   }
+  },
+  {
+   "say": "His victims included charities, celebrities, pension funds, banks and ordinary retirees. So how did one man fool so many sophisticated people, for so long?",
+   "vis": {
+    "type": "list",
+    "title": "The victims",
+    "items": [
+     [
+      "🏛️",
+      "Charities"
+     ],
+     [
+      "🌟",
+      "Celebrities"
+     ],
+     [
+      "🏦",
+      "Banks and funds"
+     ],
+     [
+      "👵",
+      "Ordinary retirees"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The respected man.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The respected man"
+   }
+  },
+  {
+   "say": "Madoff started his firm in nineteen sixty, with savings from working as a lifeguard and installing sprinkler systems, plus a loan from his father in law. Over the years, his trading business became a genuine force on Wall Street.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏢",
+    "text": "Bernard L. Madoff Investment Securities",
+    "sub": "Founded in 1960",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "That's important. Madoff's main business was real, and he helped shape modern electronic trading. That gave him enormous credibility. Who would suspect a man like that?",
+   "vis": {
+    "type": "hook",
+    "text": "His real success hid the fake one.",
+    "emoji": "🎭",
+    "hot": [
+     "fake"
+    ]
+   }
+  },
+  {
+   "say": "He was a fixture of the financial establishment. He served as chairman of the Nasdaq, advised regulators, and gave generously to charities. His brother and sons worked at the firm. Everything about him said safe pair of hands.",
+   "vis": {
+    "type": "list",
+    "title": "Why people trusted him",
+    "items": [
+     [
+      "🏛️",
+      "Former Nasdaq chairman"
+     ],
+     [
+      "🤝",
+      "Respected by regulators"
+     ],
+     [
+      "🎗️",
+      "Generous to charities"
+     ],
+     [
+      "👪",
+      "A family business"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. The secret business.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The secret business"
+   }
+  },
+  {
+   "say": "Alongside his trading firm, Madoff ran a separate investment business for wealthy clients. It produced remarkably steady returns. Not huge. Just good, year after year, even when markets fell.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal investing",
+     "emoji": "🎢",
+     "lines": [
+      "Up and down",
+      "Some bad years"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Madoff's returns",
+     "emoji": "📏",
+     "lines": [
+      "Steady every year",
+      "Almost never down"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "That steadiness was the genius of it. Wild promises attract suspicion. Steady, believable returns attract trust.",
+   "vis": {
+    "type": "hook",
+    "text": "Not too good to be true. Just good enough.",
+    "emoji": "📏",
+    "hot": [
+     "good",
+     "enough."
+    ]
+   }
+  },
+  {
+   "say": "He said he used a clever options strategy. In reality, he wasn't trading for these clients at all. He simply put their money in a bank account, and paid anyone who wanted to withdraw with money from newer investors.",
+   "vis": {
+    "type": "flow",
+    "title": "How it really worked",
+    "nodes": [
+     [
+      "💰",
+      "Clients send money"
+     ],
+     [
+      "🏦",
+      "Sits in a bank account"
+     ],
+     [
+      "🧾",
+      "Fake trades on statements"
+     ],
+     [
+      "🔁",
+      "Withdrawals paid with new money"
+     ]
+    ],
+    "color": "red",
+    "coin": "💰"
+   }
+  },
+  {
+   "say": "His staff produced fake trading records and statements, showing trades that never happened. On paper, clients looked richer every month.",
+   "vis": {
+    "type": "doc",
+    "title": "Client statement",
+    "lines": [
+     [
+      "Trades",
+      "Never happened"
+     ],
+     [
+      "Profits",
+      "Invented"
+     ],
+     [
+      "Balance",
+      "Mostly imaginary"
+     ],
+     [
+      "Real money",
+      "Used to pay others"
+     ]
+    ],
+    "stamp": "FAKE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Because the trades were fake, the statements could show whatever Madoff wanted. A steady gain, month after month, that made the clients feel clever for trusting him.",
+   "vis": {
+    "type": "hook",
+    "text": "The statements showed whatever he wanted.",
+    "emoji": "✍️",
+    "hot": [
+     "whatever"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The exclusive club.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The exclusive club"
+   }
+  },
+  {
+   "say": "Madoff made his fund feel exclusive. You couldn't just sign up. You needed an introduction, and sometimes he turned people away. That made everyone want in even more.",
+   "vis": {
+    "type": "hook",
+    "text": "Hard to get in. So everyone wanted in.",
+    "emoji": "🚪",
+    "hot": [
+     "everyone"
+    ]
+   }
+  },
+  {
+   "say": "Much of the money came through so called feeder funds, investment firms that collected money from their own clients and passed it to Madoff, often earning large fees for doing it.",
+   "vis": {
+    "type": "flow",
+    "title": "Feeder funds",
+    "nodes": [
+     [
+      "👥",
+      "Thousands of investors"
+     ],
+     [
+      "🏦",
+      "Feeder funds"
+     ],
+     [
+      "💸",
+      "Big fees"
+     ],
+     [
+      "🧾",
+      "Madoff"
+     ]
+    ],
+    "color": "red",
+    "coin": "💸"
+   }
+  },
+  {
+   "say": "Many investors didn't even know their money was with Madoff. They'd invested with a fund, which had quietly handed it on. When the scheme collapsed, they lost everything without ever having met him.",
+   "vis": {
+    "type": "hook",
+    "text": "Some victims never knew their money was with him.",
+    "emoji": "🫥",
+    "hot": [
+     "never",
+     "knew"
+    ]
+   }
+  },
+  {
+   "say": "Part four. The man who did the maths.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The man who did the maths"
+   }
+  },
+  {
+   "say": "Harry Markopolos, a financial analyst, was asked to copy Madoff's strategy. He quickly concluded the returns were impossible. And from around two thousand, he repeatedly warned the US regulator, the SEC.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧮",
+    "text": "Harry Markopolos",
+    "sub": "Warned regulators the returns were impossible",
+    "color": "red"
+   }
+  },
+  {
+   "say": "One of his submissions had a blunt title.",
+   "vis": {
+    "type": "quote",
+    "text": "The World's Largest Hedge Fund is a Fraud.",
+    "who": "Harry Markopolos, in a warning to the SEC, 2005"
+   }
+  },
+  {
+   "say": "The SEC looked into Madoff several times over the years, but missed the fraud. A later internal report found the SEC had botched multiple investigations.",
+   "vis": {
+    "type": "hook",
+    "text": "The regulator looked, and missed it.",
+    "emoji": "🔍",
+    "hot": [
+     "missed"
+    ]
+   }
+  },
+  {
+   "say": "Why did it take so long? Madoff was powerful and well connected. His explanations sounded technical and confident. And few investigators followed the simplest step of all, checking whether the trades he claimed to make actually happened.",
+   "vis": {
+    "type": "list",
+    "title": "Why it lasted so long",
+    "items": [
+     [
+      "🎓",
+      "Technical explanations"
+     ],
+     [
+      "🤝",
+      "Powerful connections"
+     ],
+     [
+      "😌",
+      "Steady returns kept clients calm"
+     ],
+     [
+      "🔍",
+      "Nobody checked the trades"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The confession.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The confession"
+   }
+  },
+  {
+   "say": "In twenty eight, the financial crisis hit. Investors everywhere wanted cash, and Madoff faced billions of dollars in withdrawal requests. With no new money coming in, the scheme couldn't pay.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Autumn 2008",
+      "Financial crisis"
+     ],
+     [
+      "Withdrawals",
+      "Billions requested"
+     ],
+     [
+      "10 Dec",
+      "Confesses to his sons"
+     ],
+     [
+      "11 Dec",
+      "Arrested",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "On the tenth of December, Madoff told his sons the truth. According to them, he described the investment business as one big lie. They reported him to the authorities. The next day, he was arrested.",
+   "vis": {
+    "type": "quote",
+    "text": "It's all just one big lie.",
+    "who": "Madoff, as described by his sons, December 2008"
+   }
+  },
+  {
+   "say": "In twenty oh nine, Madoff pleaded guilty to eleven federal crimes, and was sentenced to the maximum, one hundred and fifty years in prison. He died in prison in twenty twenty one.",
+   "vis": {
+    "type": "num",
+    "value": 150,
+    "label": "years, Madoff's prison sentence",
+    "color": "red",
+    "emoji": "⛓️",
+    "prefix": "",
+    "suffix": " years"
+   }
+  },
+  {
+   "say": "Part six. Getting the money back.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Getting the money back"
+   }
+  },
+  {
+   "say": "Most of the sixty five billion was fake profit on paper. The trustee estimated that investors had actually lost around eighteen billion dollars of real money they'd put in.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "On paper",
+     "emoji": "📄",
+     "lines": [
+      "~$65 billion",
+      "Mostly fake gains"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Real money lost",
+     "emoji": "💸",
+     "lines": [
+      "~$18 billion",
+      "Actually invested"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The damage went far beyond money. Charities had to close or cut back. Retirees lost their life savings. Families who'd trusted him for decades were left with nothing.",
+   "vis": {
+    "type": "hook",
+    "text": "Charities closed. Retirees lost everything.",
+    "emoji": "💔",
+    "hot": [
+     "everything."
+    ]
+   }
+  },
+  {
+   "say": "A court appointed trustee, Irving Picard, spent years recovering money, including from investors who'd taken out more than they put in. Over fourteen billion dollars has been recovered and returned.",
+   "vis": {
+    "type": "num",
+    "value": 14.8,
+    "label": "recovered and returned by the trustee",
+    "color": "teal",
+    "emoji": "✅",
+    "prefix": "$",
+    "suffix": " billion",
+    "dec": 1,
+    "source": "Madoff trustee figures"
+   }
+  },
+  {
+   "say": "Madoff's scheme has the same warning signs as every Ponzi scheme. And they still apply today.",
+   "vis": {
+    "type": "list",
+    "title": "Red flags",
+    "items": [
+     [
+      "📏",
+      "Returns that are too smooth"
+     ],
+     [
+      "🤫",
+      "A secret strategy nobody can explain"
+     ],
+     [
+      "🚪",
+      "Exclusive, invitation-only access"
+     ],
+     [
+      "🧾",
+      "No independent checks of the assets"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The biggest lesson from Madoff is this. Reputation isn't proof. Even the most respected person on Wall Street needs someone checking where the money actually is.",
+   "vis": {
+    "type": "hook",
+    "text": "Reputation isn't proof.",
+    "emoji": "🔍",
+    "hot": [
+     "proof."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories of the biggest frauds in history, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which fraud should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE $65|BILLION LIE",
+  "emoji": "🧾",
+  "color": "red",
+  "tag": "Heists and cons"
+ }
+}

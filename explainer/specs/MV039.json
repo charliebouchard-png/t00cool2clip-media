@@ -1,0 +1,466 @@
+{
+ "id": "MV039",
+ "style": "ledger",
+ "variant": 1,
+ "voice": "bm_fable",
+ "speed": 0.84,
+ "trans": "pan",
+ "title": "Lehman Brothers: The Weekend That Broke the World",
+ "beats": [
+  {
+   "say": "On Monday the fifteenth of September, twenty eight, in the early hours of the morning, Lehman Brothers filed for bankruptcy. It was the biggest corporate failure in American history, and it nearly brought down the world economy.",
+   "vis": {
+    "type": "hook",
+    "text": "The biggest bankruptcy in US history.",
+    "emoji": "🏦",
+    "hot": [
+     "biggest"
+    ]
+   }
+  },
+  {
+   "say": "Lehman had more than six hundred billion dollars in assets and around twenty five thousand employees. It was America's fourth biggest investment bank.",
+   "vis": {
+    "type": "num",
+    "value": 600,
+    "label": "in assets when it failed",
+    "color": "red",
+    "emoji": "🏦",
+    "prefix": "$",
+    "suffix": " billion+",
+    "source": "MoneyWeek"
+   }
+  },
+  {
+   "say": "It had survived the American Civil War, two world wars and the Great Depression. It didn't survive a single weekend in twenty eight.",
+   "vis": {
+    "type": "hook",
+    "text": "It survived wars. Not one weekend.",
+    "emoji": "📆",
+    "hot": [
+     "weekend"
+    ]
+   }
+  },
+  {
+   "say": "Part one. From cotton to Wall Street.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "From cotton to Wall Street"
+   }
+  },
+  {
+   "say": "Lehman Brothers began in Alabama in the eighteen forties as a small shop run by German immigrant brothers, selling goods to cotton farmers. Over the next century and a half it became one of Wall Street's giants.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🌱",
+    "text": "Lehman Brothers",
+    "sub": "From a small shop to a Wall Street giant",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Over the years it moved into commodities, railways and finance, and grew into a global investment bank, advising companies, trading and investing its own money.",
+   "vis": {
+    "type": "hook",
+    "text": "A small shop became a global giant.",
+    "emoji": "🌍",
+    "hot": [
+     "giant."
+    ]
+   }
+  },
+  {
+   "say": "Part two. The housing bet.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The housing bet"
+   }
+  },
+  {
+   "say": "In the two thousands, American house prices soared. Banks lent huge amounts to home buyers, including subprime borrowers, people with poor credit. Those mortgages were bundled together and sold as investments.",
+   "vis": {
+    "type": "flow",
+    "title": "The mortgage machine",
+    "nodes": [
+     [
+      "🏠",
+      "Mortgages, many risky"
+     ],
+     [
+      "📦",
+      "Bundled together"
+     ],
+     [
+      "📈",
+      "Sold as investments"
+     ],
+     [
+      "🏦",
+      "Banks hold piles of them"
+     ]
+    ],
+    "color": "red",
+    "coin": "🏠"
+   }
+  },
+  {
+   "say": "Lehman went all in. It bought mortgage lenders, packaged loans and kept large amounts of property related investments on its own books.",
+   "vis": {
+    "type": "hook",
+    "text": "Lehman went all in on housing.",
+    "emoji": "🎲",
+    "hot": [
+     "all",
+     "in"
+    ]
+   }
+  },
+  {
+   "say": "And it did this with borrowed money. By the time things went wrong, Lehman's leverage was over forty to one. That means for every one dollar of its own money, it had around forty dollars of borrowed money.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Low leverage",
+     "emoji": "🧱",
+     "lines": [
+      "Small losses hurt a bit",
+      "You survive"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "40 to 1",
+     "emoji": "🃏",
+     "lines": [
+      "A small fall wipes you out",
+      "One bad move"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "At forty to one, a fall of just two and a half percent in the value of your assets can wipe out your entire equity. There's no room for mistakes.",
+   "vis": {
+    "type": "hook",
+    "text": "A 2.5% fall could wipe it out.",
+    "emoji": "📉",
+    "hot": [
+     "2.5%"
+    ]
+   }
+  },
+  {
+   "say": "And when the value of mortgage investments became uncertain, nobody could agree what Lehman's assets were really worth. That uncertainty was almost as dangerous as the losses themselves.",
+   "vis": {
+    "type": "hook",
+    "text": "Nobody knew what its assets were worth.",
+    "emoji": "❓",
+    "hot": [
+     "worth."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The cracks.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The cracks"
+   }
+  },
+  {
+   "say": "By twenty seven, American house prices were falling, and people stopped paying their mortgages. In March twenty eight, another investment bank, Bear Stearns, nearly collapsed and was rescued by a sale to JP Morgan, backed by the Federal Reserve.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2006",
+      "House prices peak"
+     ],
+     [
+      "2007",
+      "Defaults rise"
+     ],
+     [
+      "Mar 2008",
+      "Bear Stearns rescued"
+     ],
+     [
+      "Sept 2008",
+      "Lehman in trouble",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Everyone asked the same question. Who's next? And the answer, more and more, seemed to be Lehman.",
+   "vis": {
+    "type": "hook",
+    "text": "Who's next?",
+    "emoji": "👀",
+    "hot": [
+     "next?"
+    ]
+   }
+  },
+  {
+   "say": "Lehman's chief executive, Dick Fuld, was famously combative and confident the bank would survive. But its shares kept falling as investors worried about its losses. A later court examiner's report said Lehman used an accounting technique, called Repo one oh five, that made its borrowing look smaller at the end of each quarter.",
+   "vis": {
+    "type": "list",
+    "title": "Warning signs",
+    "items": [
+     [
+      "📉",
+      "Falling share price"
+     ],
+     [
+      "🏠",
+      "Property losses"
+     ],
+     [
+      "🧾",
+      "Accounting that flattered the books"
+     ],
+     [
+      "🤝",
+      "No buyer found"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. The weekend.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The weekend"
+   }
+  },
+  {
+   "say": "On Friday the twelfth of September, the heads of Wall Street's biggest banks were summoned to the Federal Reserve Bank of New York. Over the weekend, officials tried to find a buyer for Lehman.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Fri 12 Sept",
+      "Bank bosses summoned"
+     ],
+     [
+      "Saturday",
+      "Hunt for a buyer"
+     ],
+     [
+      "Sunday",
+      "Barclays deal collapses"
+     ],
+     [
+      "Mon 15 Sept",
+      "Lehman bankrupt",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Two possible buyers emerged. Bank of America walked away, and instead agreed to buy Merrill Lynch. And Britain's Barclays was interested, but the deal couldn't be approved in time. British regulators weren't willing to let it go ahead without Barclays shareholders voting first.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Bank of America",
+     "emoji": "🇺🇸",
+     "lines": [
+      "Walked away",
+      "Bought Merrill Lynch"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Barclays",
+     "emoji": "🇬🇧",
+     "lines": [
+      "Interested",
+      "Couldn't get approval in time"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And unlike Bear Stearns, the US government decided not to put public money into saving Lehman. Officials later said they didn't have the legal power to do it.",
+   "vis": {
+    "type": "hook",
+    "text": "This time, no rescue.",
+    "emoji": "🚫",
+    "hot": [
+     "no",
+     "rescue."
+    ]
+   }
+  },
+  {
+   "say": "Imagine being a Lehman employee on that Sunday. Watching the news, wondering if your job, and your shares in the company, would exist the next morning.",
+   "vis": {
+    "type": "hook",
+    "text": "Would the bank exist on Monday?",
+    "emoji": "📺",
+    "hot": [
+     "Monday?"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The crash.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The crash"
+   }
+  },
+  {
+   "say": "In the early hours of Monday the fifteenth of September, Lehman filed for bankruptcy. Staff were filmed leaving the building carrying their belongings in cardboard boxes.",
+   "vis": {
+    "type": "headline",
+    "kicker": "15 September 2008",
+    "paper": "THE FINANCIAL LEDGER",
+    "text": "Lehman Brothers files for bankruptcy",
+    "date": "Staff leave with their belongings in boxes"
+   }
+  },
+  {
+   "say": "That day, the Dow Jones fell five hundred and four points, one of its biggest falls in history at the time. Markets around the world slumped.",
+   "vis": {
+    "type": "num",
+    "value": 504,
+    "label": "points lost by the Dow in one day",
+    "color": "red",
+    "emoji": "📉",
+    "prefix": "",
+    "suffix": "",
+    "source": "MoneyWeek"
+   }
+  },
+  {
+   "say": "The panic spread fast. The next day, the US had to rescue the giant insurer AIG. Banks stopped lending to each other, because nobody knew who'd be next. Credit froze around the world.",
+   "vis": {
+    "type": "list",
+    "title": "The chain reaction",
+    "items": [
+     [
+      "🏦",
+      "Banks stop trusting each other"
+     ],
+     [
+      "🛡️",
+      "AIG rescued"
+     ],
+     [
+      "🧊",
+      "Lending freezes"
+     ],
+     [
+      "🌍",
+      "Global recession"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Within weeks, governments around the world, including Britain's, were pouring hundreds of billions into rescuing their banks. The Great Recession followed. Millions lost jobs and homes.",
+   "vis": {
+    "type": "hook",
+    "text": "Millions lost jobs and homes.",
+    "emoji": "🏚️",
+    "hot": [
+     "Millions"
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "Was letting Lehman fail a mistake? People still argue about it. Some say rescuing it would have rewarded reckless banks. Others say its collapse made the crisis far worse and far more expensive.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Let it fail",
+     "emoji": "⚖️",
+     "lines": [
+      "Banks must face consequences",
+      "No bailouts"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Should have saved it",
+     "emoji": "🛟",
+     "lines": [
+      "Panic made it worse",
+      "Cost far more later"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Afterwards, rules changed. Banks must now hold more of their own money, borrow less, and pass regular stress tests to show they could survive a crisis.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "🧱",
+      "More capital"
+     ],
+     [
+      "📉",
+      "Less leverage"
+     ],
+     [
+      "🧪",
+      "Stress tests"
+     ],
+     [
+      "🗂️",
+      "Plans for failing safely"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lehman's story is the ultimate lesson in borrowed money. It amplifies your gains in good times. And when things go wrong, it can destroy you in a weekend.",
+   "vis": {
+    "type": "hook",
+    "text": "Borrowed money can destroy you in a weekend.",
+    "emoji": "⚠️",
+    "hot": [
+     "weekend."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest collapses in money, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE WEEKEND|THAT BROKE|THE WORLD",
+  "emoji": "🏦",
+  "color": "red",
+  "tag": "Collapses"
+ }
+}

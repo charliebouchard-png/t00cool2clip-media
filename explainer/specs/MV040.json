@@ -1,0 +1,483 @@
+{
+ "id": "MV040",
+ "style": "chalk",
+ "variant": 1,
+ "voice": "af_kore",
+ "speed": 0.83,
+ "trans": "fade",
+ "title": "Nick Leeson: The Trader Who Sank a 233-Year-Old Bank",
+ "beats": [
+  {
+   "say": "In February nineteen ninety five, one twenty eight year old trader in Singapore brought down Barings, Britain's oldest merchant bank. A bank that had existed since seventeen sixty two.",
+   "vis": {
+    "type": "hook",
+    "text": "One trader. A 233-year-old bank.",
+    "emoji": "📉",
+    "hot": [
+     "One",
+     "trader."
+    ]
+   }
+  },
+  {
+   "say": "His hidden losses reached around eight hundred and thirty million pounds. More than the bank could survive.",
+   "vis": {
+    "type": "num",
+    "value": 830,
+    "label": "in hidden losses",
+    "color": "red",
+    "emoji": "💷",
+    "prefix": "£",
+    "suffix": " million",
+    "source": "Britannica"
+   }
+  },
+  {
+   "say": "Barings was so prestigious it had helped finance the Louisiana Purchase and managed money for the British royal family. After Leeson, it was sold for one pound.",
+   "vis": {
+    "type": "hook",
+    "text": "Sold for £1.",
+    "emoji": "🪙",
+    "hot": [
+     "£1."
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. The rising star.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The rising star"
+   }
+  },
+  {
+   "say": "Nick Leeson came from Watford, near London. He didn't go to university, but he was sharp, ambitious and hardworking. In nineteen ninety two, Barings sent him to Singapore to run its futures trading operation there.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧑‍💼",
+    "text": "Nick Leeson",
+    "sub": "Barings' star trader in Singapore",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "At first, he looked like a superstar. On paper, he was making huge profits for the bank. At one point, his trading was reported as a large share of Barings' profits.",
+   "vis": {
+    "type": "hook",
+    "text": "On paper, a superstar.",
+    "emoji": "⭐",
+    "hot": [
+     "paper,"
+    ]
+   }
+  },
+  {
+   "say": "The profits made him a hero in London. Bonuses were big for everyone involved. Senior managers didn't really understand his trading, but they liked the numbers. And when people like the numbers, they ask fewer questions.",
+   "vis": {
+    "type": "list",
+    "title": "Why London loved him",
+    "items": [
+     [
+      "📈",
+      "Big reported profits"
+     ],
+     [
+      "💰",
+      "Big bonuses"
+     ],
+     [
+      "🤷",
+      "Managers didn't understand it"
+     ],
+     [
+      "🙈",
+      "Fewer questions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. The fatal flaw.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The fatal flaw"
+   }
+  },
+  {
+   "say": "Here's the problem. Leeson was in charge of both the trading and the settlement, the back office that checks and records the trades. Normally, those jobs are kept separate, so one checks the other.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal bank",
+     "emoji": "👥",
+     "lines": [
+      "Trader makes trades",
+      "Back office checks them"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Leeson's job",
+     "emoji": "🧑",
+     "lines": [
+      "Makes the trades",
+      "Checks his own trades"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It's like letting a student mark their own exam. If something went wrong, the only person who could spot it was Leeson himself.",
+   "vis": {
+    "type": "hook",
+    "text": "Like marking your own exam.",
+    "emoji": "📝",
+    "hot": [
+     "own",
+     "exam."
+    ]
+   }
+  },
+  {
+   "say": "Barings' own internal auditors had actually raised concerns about this setup before the collapse. But the warnings weren't acted on in time.",
+   "vis": {
+    "type": "hook",
+    "text": "The warnings weren't acted on.",
+    "emoji": "⚠️",
+    "hot": [
+     "warnings"
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. Account eight eight eight eight eight.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Account 88888"
+   }
+  },
+  {
+   "say": "So when a junior colleague made a mistake that lost money, Leeson hid it in a little known error account, numbered eight eight eight eight eight. Eight is considered a lucky number in Chinese culture.",
+   "vis": {
+    "type": "doc",
+    "title": "Error account 88888",
+    "lines": [
+     [
+      "Purpose",
+      "Small errors"
+     ],
+     [
+      "Real use",
+      "Hiding losses"
+     ],
+     [
+      "Who knew",
+      "Almost nobody"
+     ],
+     [
+      "Dec 1994",
+      "S$374 million lost"
+     ]
+    ],
+    "stamp": "HIDDEN",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Then he started hiding his own losing trades there too. To win the money back, he made bigger bets. When those lost, he hid them too, and bet even bigger.",
+   "vis": {
+    "type": "flow",
+    "title": "The doubling trap",
+    "nodes": [
+     [
+      "📉",
+      "Lose money"
+     ],
+     [
+      "🙈",
+      "Hide it in 88888"
+     ],
+     [
+      "🎲",
+      "Bet bigger to win it back"
+     ],
+     [
+      "🔁",
+      "Lose more, hide more"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🎲"
+   }
+  },
+  {
+   "say": "This is the classic gambler's trap. Chasing your losses. Each bet is designed to get you back to zero. But each loss makes the hole deeper.",
+   "vis": {
+    "type": "hook",
+    "text": "Chasing losses makes the hole deeper.",
+    "emoji": "🕳️",
+    "hot": [
+     "deeper."
+    ]
+   }
+  },
+  {
+   "say": "Leeson also had to deceive the bank's auditors and managers to keep the losses hidden. He reportedly created false documents and gave misleading explanations when questions came up. Every lie needed another lie to cover it.",
+   "vis": {
+    "type": "list",
+    "title": "Keeping the secret",
+    "items": [
+     [
+      "📄",
+      "False documents"
+     ],
+     [
+      "🗣️",
+      "Misleading answers"
+     ],
+     [
+      "🔁",
+      "Each lie needs another"
+     ],
+     [
+      "😰",
+      "The pressure keeps growing"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Meanwhile, head office in London kept sending him more money to cover what they thought were profitable trades. Nobody looked closely. Why question your star trader?",
+   "vis": {
+    "type": "list",
+    "title": "Why nobody stopped him",
+    "items": [
+     [
+      "⭐",
+      "He looked like a star"
+     ],
+     [
+      "💷",
+      "London kept sending money"
+     ],
+     [
+      "🔍",
+      "Few proper checks"
+     ],
+     [
+      "🤝",
+      "Too much trust"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. The earthquake.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The earthquake"
+   }
+  },
+  {
+   "say": "By January nineteen ninety five, Leeson had made a huge bet that Japan's main stock market, the Nikkei, would stay steady, above about nineteen thousand points.",
+   "vis": {
+    "type": "hook",
+    "text": "A huge bet that the market would stay calm.",
+    "emoji": "🇯🇵",
+    "hot": [
+     "calm."
+    ]
+   }
+  },
+  {
+   "say": "Then, on the seventeenth of January, a massive earthquake struck the Japanese city of Kobe. Thousands of people died, and Japan's stock market fell sharply.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "17 Jan 1995",
+      "Kobe earthquake"
+     ],
+     [
+      "Days after",
+      "Nikkei falls"
+     ],
+     [
+      "Weeks after",
+      "Leeson bets even bigger"
+     ],
+     [
+      "23 Feb",
+      "Leeson flees",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Instead of cutting his losses, Leeson doubled down, betting that the market would bounce back. It didn't. The losses grew far beyond anything Barings could cover.",
+   "vis": {
+    "type": "hook",
+    "text": "He doubled down. It didn't work.",
+    "emoji": "🎰",
+    "hot": [
+     "doubled"
+    ]
+   }
+  },
+  {
+   "say": "By the end, the positions he'd built up were enormous. Futures contracts worth billions of dollars, with a single direction bet on the Japanese market. Barings in London had no idea how much was really at risk.",
+   "vis": {
+    "type": "hook",
+    "text": "London had no idea what was at risk.",
+    "emoji": "😶",
+    "hot": [
+     "no",
+     "idea"
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. The escape.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The escape"
+   }
+  },
+  {
+   "say": "On the twenty third of February, Leeson and his wife fled Singapore. He reportedly left behind a note saying sorry. Days later, Barings collapsed.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "23 Feb",
+      "Leeson flees Singapore"
+     ],
+     [
+      "26 Feb",
+      "Barings collapses"
+     ],
+     [
+      "March",
+      "Leeson detained in Germany"
+     ],
+     [
+      "Dec 1995",
+      "Jailed in Singapore",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "He was detained in Frankfurt, sent back to Singapore, and sentenced to six and a half years in prison. He was released in nineteen ninety nine.",
+   "vis": {
+    "type": "num",
+    "value": 6.5,
+    "label": "years, Leeson's sentence",
+    "color": "red",
+    "emoji": "⛓️",
+    "prefix": "",
+    "suffix": " years",
+    "dec": 1
+   }
+  },
+  {
+   "say": "The Dutch bank ING bought what was left of Barings for one symbolic pound, taking on its debts. A two hundred and thirty three year old institution was gone.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🪙",
+    "text": "Sold for £1",
+    "sub": "ING took over Barings and its debts",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Many Barings staff lost their jobs and bonuses. Shareholders and some bondholders lost their money. All because of losses hidden in a single account, by a single trader.",
+   "vis": {
+    "type": "hook",
+    "text": "One account. One trader. One collapse.",
+    "emoji": "🧾",
+    "hot": [
+     "One"
+    ]
+   }
+  },
+  {
+   "say": "Lesson six. What we learned.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What we learned"
+   }
+  },
+  {
+   "say": "Barings changed how banks manage risk. And its lessons apply to anyone with money.",
+   "vis": {
+    "type": "list",
+    "title": "The lessons",
+    "items": [
+     [
+      "👥",
+      "Separate doing from checking"
+     ],
+     [
+      "🔍",
+      "Question 'too good' profits"
+     ],
+     [
+      "🛑",
+      "Don't chase your losses"
+     ],
+     [
+      "📏",
+      "Know your maximum loss"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "After his release, Leeson wrote a book about what happened, called Rogue Trader, which was made into a film starring Ewan McGregor. He has since spoken about the collapse many times.",
+   "vis": {
+    "type": "hook",
+    "text": "His story became a film, Rogue Trader.",
+    "emoji": "🎬",
+    "hot": [
+     "Rogue",
+     "Trader."
+    ]
+   }
+  },
+  {
+   "say": "Leeson didn't set out to destroy a bank. He set out to hide one small mistake. The lesson is simple. A loss you hide doesn't go away. It grows.",
+   "vis": {
+    "type": "hook",
+    "text": "A hidden loss doesn't go away. It grows.",
+    "emoji": "🌱",
+    "hot": [
+     "grows."
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more true stories behind the biggest collapses in money, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which collapse should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "ONE TRADER.|ONE BANK.|GONE.",
+  "emoji": "📉",
+  "color": "gold",
+  "tag": "Collapses"
+ }
+}

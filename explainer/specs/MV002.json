@@ -1,0 +1,592 @@
+{
+ "id": "MV002",
+ "style": "bold",
+ "variant": 1,
+ "voice": "am_michael",
+ "speed": 0.92,
+ "accent": "gold",
+ "title": "How Ryanair Makes Money on £15 Flights",
+ "beats": [
+  {
+   "say": "Ryanair will sometimes sell you a flight for less than the taxi to the airport. And last year, it made more than two billion euros in profit.",
+   "vis": {
+    "type": "hook",
+    "text": "Cheaper than the taxi. Billions in profit.",
+    "emoji": "✈️",
+    "hot": [
+     "Cheaper",
+     "Billions"
+    ]
+   }
+  },
+  {
+   "say": "That sounds impossible. Fuel isn't cheap. Planes aren't cheap. Pilots definitely aren't cheap. So how does the airline everyone loves to complain about end up as one of the most profitable in the world?",
+   "vis": {
+    "type": "list",
+    "title": "Things that aren't cheap",
+    "items": [
+     [
+      "⛽",
+      "Jet fuel"
+     ],
+     [
+      "✈️",
+      "Planes"
+     ],
+     [
+      "👨‍✈️",
+      "Pilots and crew"
+     ],
+     [
+      "🛬",
+      "Airport fees"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the year to March twenty twenty six, Ryanair carried over two hundred and eight million passengers, and made two point two six billion euros in profit after tax.",
+   "vis": {
+    "type": "num",
+    "prefix": "€",
+    "value": 2.26,
+    "dec": 2,
+    "suffix": " billion",
+    "label": "profit after tax, year to March 2026",
+    "color": "red",
+    "source": "Ryanair full year results, FY2026"
+   }
+  },
+  {
+   "say": "Let's break down how. There are five tricks, and the cheap ticket is only the first one.",
+   "vis": {
+    "type": "list",
+    "title": "The five tricks",
+    "items": [
+     [
+      "🎟️",
+      "The ticket is the bait"
+     ],
+     [
+      "🧳",
+      "Everything else costs extra"
+     ],
+     [
+      "⏱️",
+      "Planes never sit still"
+     ],
+     [
+      "🛫",
+      "Cheaper airports"
+     ],
+     [
+      "🏭",
+      "Buying planes in bulk"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But first, a bit of history. Ryanair started in Ireland in nineteen eighty four, as a small airline with one tiny plane. It wasn't cheap, and it nearly went bust.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1984",
+      "Ryanair starts in Ireland"
+     ],
+     [
+      "Early 1990s",
+      "Losing money, nearly bust"
+     ],
+     [
+      "1990s",
+      "Copies the American low-cost model"
+     ],
+     [
+      "2026",
+      "208 million passengers a year",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So its bosses looked at an American airline called Southwest, which had found a way to fly cheaply and still make money. Ryanair copied the idea, then pushed it further than anyone had before.",
+   "vis": {
+    "type": "hook",
+    "text": "Copy the idea. Then push it further.",
+    "emoji": "📋",
+    "hot": [
+     "further."
+    ]
+   }
+  },
+  {
+   "say": "Trick one. The ticket is the bait.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The ticket is the bait"
+   }
+  },
+  {
+   "say": "Ryanair's average fare last year was about fifty euros. Some seats go for far less, especially when you book early or fly at odd times.",
+   "vis": {
+    "type": "num",
+    "prefix": "€",
+    "value": 50.6,
+    "dec": 2,
+    "label": "average fare per passenger",
+    "color": "red",
+    "source": "Ryanair FY2026 results"
+   }
+  },
+  {
+   "say": "Those tiny prices are the advert. When a flight to Spain costs less than a takeaway, you don't compare airlines. You just book. And once you've booked, the real selling begins.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "£150 flight",
+     "emoji": "🤔",
+     "lines": [
+      "You compare",
+      "You think twice"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "£15 flight",
+     "emoji": "😍",
+     "lines": [
+      "You just book",
+      "Then they sell"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And the price isn't fixed. Ryanair's system changes fares constantly. When a flight is selling well, prices climb. When seats are empty, they drop. The fifteen pound seat is usually one of the first few sold, or one of the last ones nobody wanted.",
+   "vis": {
+    "type": "line",
+    "title": "How a fare can change (illustrative)",
+    "points": [
+     15,
+     15,
+     22,
+     30,
+     38,
+     49,
+     65,
+     80,
+     95,
+     60,
+     40,
+     29
+    ],
+    "labels": [
+     "Booking opens",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Day before"
+    ],
+    "color": "red",
+    "end": "Price moves"
+   }
+  },
+  {
+   "say": "Trick two. Everything else costs extra.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Everything else costs extra"
+   }
+  },
+  {
+   "say": "A bag in the hold. A bigger cabin bag. Choosing your seat. Priority boarding. Insurance, car hire, hotels, even scratch cards on board. The airline calls these ancillaries.",
+   "vis": {
+    "type": "list",
+    "title": "The extras",
+    "items": [
+     [
+      "🧳",
+      "Bags"
+     ],
+     [
+      "💺",
+      "Seat selection"
+     ],
+     [
+      "🚶",
+      "Priority boarding"
+     ],
+     [
+      "🚗",
+      "Car hire and hotels"
+     ],
+     [
+      "🎫",
+      "On-board sales"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Last year, those extras brought in almost five billion euros. That's about twenty four euros from every single passenger, on top of the ticket.",
+   "vis": {
+    "type": "bars",
+    "title": "Ryanair revenue, FY2026",
+    "prefix": "€",
+    "suffix": "bn",
+    "dec": 2,
+    "items": [
+     [
+      "Tickets",
+      10.56,
+      "red"
+     ],
+     [
+      "Extras",
+      4.99,
+      "teal"
+     ]
+    ],
+    "max": 11,
+    "source": "Ryanair FY2026: scheduled revenue €10.56bn, ancillary revenue €4.99bn"
+   }
+  },
+  {
+   "say": "Think about what that means. If the average fare is around fifty euros, the extras add almost half as much again. For many people, the bag costs more than the seat.",
+   "vis": {
+    "type": "num",
+    "prefix": "€",
+    "value": 24,
+    "label": "extra spent per passenger on top of the ticket",
+    "color": "red",
+    "source": "Ryanair FY2026 results"
+   }
+  },
+  {
+   "say": "And there's a clever psychology to it. You've already said yes to the trip. Adding a bag for a few more pounds feels small. That's exactly why it works.",
+   "vis": {
+    "type": "hook",
+    "text": "You've already said yes. The rest feels small.",
+    "hot": [
+     "yes.",
+     "small."
+    ]
+   }
+  },
+  {
+   "say": "Ryanair's boss, Michael O'Leary, has never been shy about it. He once joked publicly about charging passengers to use the toilet. It never happened, but the headlines did exactly what he wanted. Everyone talked about how cheap Ryanair was.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Headline",
+    "paper": "THE DAILY FLYER",
+    "text": "Ryanair boss jokes about charging for the toilet",
+    "date": "It never happened, but everyone heard about cheap flights"
+   }
+  },
+  {
+   "say": "Trick three. The planes almost never sit still.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Planes never sit still"
+   }
+  },
+  {
+   "say": "A plane on the ground earns nothing. So Ryanair is famous for quick turnarounds. A plane lands, passengers get off, the next lot get on, and it's back in the air, often in about twenty five minutes.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Land",
+      "Passengers off"
+     ],
+     [
+      "+10 min",
+      "Quick clean, refuel"
+     ],
+     [
+      "+20 min",
+      "New passengers on"
+     ],
+     [
+      "~25 min",
+      "Back in the air",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "No seat pockets to clean out. Seats that don't recline. Often no air bridge, just stairs at both ends of the plane. Every minute saved means more flights from the same plane in a day.",
+   "vis": {
+    "type": "list",
+    "title": "Built for speed",
+    "items": [
+     [
+      "💺",
+      "Seats don't recline"
+     ],
+     [
+      "🧹",
+      "Less to clean"
+     ],
+     [
+      "🪜",
+      "Stairs at both ends"
+     ],
+     [
+      "🔁",
+      "More flights per day"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And the planes are full. Ryanair filled ninety four percent of its seats last year. An empty seat is money thrown away, so prices drop until the plane fills up.",
+   "vis": {
+    "type": "grid",
+    "emoji": "💺",
+    "on": "🧍",
+    "total": 100,
+    "highlight": 94,
+    "title": "Out of every 100 seats…",
+    "label": "94 were filled",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Trick four. Cheaper airports, and very tough deals.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Cheaper airports"
+   }
+  },
+  {
+   "say": "Ryanair often flies to smaller airports, a bit further from the big city. Those airports want the passengers, the jobs and the tourists, so they offer lower fees to get the flights.",
+   "vis": {
+    "type": "flow",
+    "title": "Why small airports say yes",
+    "nodes": [
+     [
+      "🛫",
+      "Small airport"
+     ],
+     [
+      "✈️",
+      "Ryanair brings flights"
+     ],
+     [
+      "🧳",
+      "Tourists and jobs"
+     ],
+     [
+      "💶",
+      "Lower fees for Ryanair"
+     ]
+    ],
+    "color": "red",
+    "coin": "💶"
+   }
+  },
+  {
+   "say": "And if an airport raises its prices, Ryanair has shown it's willing to cut routes and move its planes somewhere else. That threat gives it a lot of power at the negotiating table.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Airport",
+     "emoji": "🏢",
+     "lines": [
+      "Wants passengers",
+      "Needs the flights"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Ryanair",
+     "emoji": "✈️",
+     "lines": [
+      "Can move planes",
+      "Holds the power"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Trick five. One type of plane, bought in bulk.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "One plane, bought in bulk"
+   }
+  },
+  {
+   "say": "Almost the whole fleet is one family of plane, the Boeing seven three seven. That means every pilot can fly every plane, every engineer knows every part, and spare parts are simple.",
+   "vis": {
+    "type": "num",
+    "value": 647,
+    "label": "aircraft, nearly all the same Boeing 737 family",
+    "color": "red",
+    "emoji": "✈️",
+    "source": "Ryanair FY2026 results (fleet at 31 March 2026)"
+   }
+  },
+  {
+   "say": "And because Ryanair orders planes in huge numbers, often when other airlines are struggling and plane makers want sales, it can negotiate big discounts. Cheaper planes mean cheaper seats.",
+   "vis": {
+    "type": "flow",
+    "title": "The bulk buying loop",
+    "nodes": [
+     [
+      "📦",
+      "Huge orders"
+     ],
+     [
+      "🤝",
+      "Big discounts"
+     ],
+     [
+      "🏷️",
+      "Cheaper seats"
+     ],
+     [
+      "🧍",
+      "More passengers"
+     ]
+    ],
+    "color": "teal",
+    "coin": "✈️"
+   }
+  },
+  {
+   "say": "Put all five together and you get a machine. Low fares fill the planes. Full planes sell more extras. Quick turnarounds squeeze in more flights. And cheap planes and airports keep the costs down.",
+   "vis": {
+    "type": "flow",
+    "title": "The Ryanair machine",
+    "nodes": [
+     [
+      "🎟️",
+      "Low fares"
+     ],
+     [
+      "💺",
+      "Full planes"
+     ],
+     [
+      "🧳",
+      "Extras"
+     ],
+     [
+      "🔁",
+      "More flights"
+     ]
+    ],
+    "color": "red",
+    "coin": "💶"
+   }
+  },
+  {
+   "say": "There's even one more trick most people never think about. Fuel is one of an airline's biggest costs, and its price jumps around. So Ryanair agrees fuel prices months in advance, a practice called hedging. When fuel suddenly gets expensive, it's protected for a while, and rivals can get hurt first.",
+   "vis": {
+    "type": "flow",
+    "title": "Fuel hedging",
+    "nodes": [
+     [
+      "📝",
+      "Agree fuel prices early"
+     ],
+     [
+      "⛽",
+      "Fuel price jumps"
+     ],
+     [
+      "🛡️",
+      "Ryanair is protected"
+     ],
+     [
+      "😬",
+      "Rivals pay more"
+     ]
+    ],
+    "color": "teal",
+    "coin": "⛽"
+   }
+  },
+  {
+   "say": "Is it a good deal for you? It can be, if you play by its rules. Pack light. Check in online. Print or download your boarding pass. Skip the extras you don't need.",
+   "vis": {
+    "type": "list",
+    "title": "How to win at Ryanair",
+    "items": [
+     [
+      "🎒",
+      "Pack light"
+     ],
+     [
+      "📱",
+      "Check in online"
+     ],
+     [
+      "🎫",
+      "Have your boarding pass"
+     ],
+     [
+      "🚫",
+      "Skip the extras you don't need"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But if you turn up with a bag that's a few centimetres too big, the cheapest flight of your life can suddenly become one of the most expensive.",
+   "vis": {
+    "type": "hook",
+    "text": "A few centimetres can cost you more than the flight.",
+    "emoji": "📏",
+    "hot": [
+     "centimetres",
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "So the next time you see a fifteen pound flight, remember: you're not really buying a seat. You're walking into a shop that just happens to fly.",
+   "vis": {
+    "type": "hook",
+    "text": "You're not buying a seat. You're walking into a shop.",
+    "emoji": "🛍️",
+    "hot": [
+     "shop."
+    ]
+   }
+  },
+  {
+   "say": "If you want more videos on how companies really make their money, subscribe, and tell me in the comments which business I should break down next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which business should I break down next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£15|FLIGHTS?",
+  "emoji": "✈️",
+  "color": "gold",
+  "tag": "How it makes money"
+ }
+}

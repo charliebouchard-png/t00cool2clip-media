@@ -1,0 +1,497 @@
+{
+ "id": "MV003",
+ "style": "collage",
+ "variant": 0,
+ "voice": "bf_emma",
+ "speed": 0.92,
+ "trans": "slap",
+ "title": "How Greggs Got So Profitable Selling Sausage Rolls",
+ "beats": [
+  {
+   "say": "A bakery that started with one man delivering eggs and yeast on a bicycle now sells more than two billion pounds of food a year. And a lot of it is sausage rolls.",
+   "vis": {
+    "type": "hook",
+    "text": "From a bicycle to £2 billion a year.",
+    "emoji": "🥐",
+    "hot": [
+     "£2",
+     "billion"
+    ]
+   }
+  },
+  {
+   "say": "Greggs is on almost every high street in Britain. In twenty twenty five it sold two point one five billion pounds of food, and opened more than two hundred new shops in a single year.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 2.15,
+    "dec": 2,
+    "suffix": " billion",
+    "label": "Greggs sales in 2025",
+    "color": "red",
+    "emoji": "🧾",
+    "source": "Greggs results, 52 weeks to 27 December 2025"
+   }
+  },
+  {
+   "say": "So how did a Newcastle bakery become one of the biggest food chains in the country, while selling things for a couple of quid? Let's find out.",
+   "vis": {
+    "type": "hook",
+    "text": "How do you get rich selling £1 sausage rolls?",
+    "emoji": "🤔",
+    "hot": [
+     "rich"
+    ]
+   }
+  },
+  {
+   "say": "Part one. The bicycle.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The bicycle"
+   }
+  },
+  {
+   "say": "Greggs started in Newcastle in nineteen thirty nine, when John Gregg delivered eggs and yeast to local people by bike. His first shop came later, in Gosforth.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1939",
+      "John Gregg starts a delivery round in Newcastle"
+     ],
+     [
+      "1951",
+      "The first Greggs shop opens in Gosforth"
+     ],
+     [
+      "2019",
+      "The vegan sausage roll launches"
+     ],
+     [
+      "2025",
+      "2,739 shops",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "For decades it was a regional bakery. But the business learned one lesson early, and it's the secret to everything that came after: make it yourself.",
+   "vis": {
+    "type": "headline",
+    "kicker": "The secret",
+    "paper": "THE HIGH STREET HERALD",
+    "text": "Greggs makes its own food in its own factories",
+    "date": "Then sends it to thousands of shops"
+   }
+  },
+  {
+   "say": "Part two. Make it yourself.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Make it yourself"
+   }
+  },
+  {
+   "say": "Most of what you buy in a Greggs isn't baked from scratch in the back of the shop. It's made in Greggs' own manufacturing sites, then delivered to the shops and finished in the ovens.",
+   "vis": {
+    "type": "flow",
+    "title": "From factory to your hand",
+    "nodes": [
+     [
+      "🏭",
+      "Greggs factories"
+     ],
+     [
+      "🚚",
+      "Greggs lorries"
+     ],
+     [
+      "🏪",
+      "Shop ovens"
+     ],
+     [
+      "🥐",
+      "Your sausage roll"
+     ]
+    ],
+    "color": "red",
+    "coin": "🥐"
+   }
+  },
+  {
+   "say": "When you own the factory, the lorries and the shops, nobody else in the middle takes a cut. That's called vertical integration, and it lets Greggs keep prices low while still making money.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Most food chains",
+     "emoji": "🔗",
+     "lines": [
+      "Buy from suppliers",
+      "Others take a cut"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Greggs",
+     "emoji": "🏭",
+     "lines": [
+      "Makes its own",
+      "Keeps the margin"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It also means every shop sells almost exactly the same thing. Fewer recipes, made in huge numbers, the same way every time. That's how you make a sausage roll cheaply, millions of times over.",
+   "vis": {
+    "type": "list",
+    "title": "Why it's cheap to make",
+    "items": [
+     [
+      "📋",
+      "Small, simple menu"
+     ],
+     [
+      "🔁",
+      "Same recipe everywhere"
+     ],
+     [
+      "🏭",
+      "Made in huge batches"
+     ],
+     [
+      "🚚",
+      "Own delivery network"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Greggs even sells its food in other people's shops. You can find Greggs sausage rolls and bakes in the freezer at Iceland supermarkets, so people can eat Greggs at home without ever going into one.",
+   "vis": {
+    "type": "flow",
+    "title": "Greggs at home",
+    "nodes": [
+     [
+      "🏭",
+      "Greggs factory"
+     ],
+     [
+      "🧊",
+      "Iceland freezers"
+     ],
+     [
+      "🏠",
+      "Your oven at home"
+     ]
+    ],
+    "color": "red",
+    "coin": "🥐"
+   }
+  },
+  {
+   "say": "Part three. Volume, not margin.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Volume, not margin"
+   }
+  },
+  {
+   "say": "Greggs doesn't make a fortune on each item. In twenty twenty five, its underlying profit before tax was about one hundred and seventy two million pounds, on two point one five billion in sales. That's roughly eight pence profit for every pound you spend.",
+   "vis": {
+    "type": "num",
+    "value": 8,
+    "suffix": "p",
+    "label": "profit from every £1 spent (roughly)",
+    "color": "red",
+    "emoji": "🪙",
+    "source": "Greggs 2025: underlying profit before tax £171.9m on sales of £2.151bn"
+   }
+  },
+  {
+   "say": "Eight pence isn't much. But multiply it by millions of customers, every single day, in thousands of shops, and it adds up to a lot of money.",
+   "vis": {
+    "type": "stack",
+    "count": 36,
+    "label": "8p × millions of customers",
+    "sub": "every single day",
+    "labelColor": "red"
+   }
+  },
+  {
+   "say": "And that's why Greggs is obsessed with opening more shops. In twenty twenty five it opened two hundred and seven new ones and closed thirty six, ending the year with two thousand seven hundred and thirty nine.",
+   "vis": {
+    "type": "bars",
+    "title": "Greggs shops in 2025",
+    "items": [
+     [
+      "Opened",
+      207,
+      "red"
+     ],
+     [
+      "Closed",
+      36,
+      "teal"
+     ]
+    ],
+    "max": 230,
+    "source": "Greggs 2025 trading update: 2,739 shops at year end"
+   }
+  },
+  {
+   "say": "It says there's room for significantly more than three thousand shops in the UK. Train stations. Motorway services. Drive-thrus. Supermarkets. Anywhere people are hungry and in a hurry.",
+   "vis": {
+    "type": "list",
+    "title": "Where the new shops go",
+    "items": [
+     [
+      "🚉",
+      "Train stations"
+     ],
+     [
+      "🛣️",
+      "Motorway services"
+     ],
+     [
+      "🚗",
+      "Drive-thrus"
+     ],
+     [
+      "🛒",
+      "Inside supermarkets"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Every new shop is another place to sell the same cheap food from the same factories. The factories and lorries are already paid for, so each extra shop makes the whole machine more efficient.",
+   "vis": {
+    "type": "hook",
+    "text": "Same factories. More shops. More profit per lorry.",
+    "emoji": "🚚",
+    "hot": [
+     "More"
+    ]
+   }
+  },
+  {
+   "say": "Greggs also pushes deals that get you to spend a little more. A breakfast deal with a coffee. A meal deal at lunch. An app that rewards you for coming back. Each one nudges the average spend up by a few pence, and a few pence times millions is a lot.",
+   "vis": {
+    "type": "list",
+    "title": "The little nudges",
+    "items": [
+     [
+      "☕",
+      "Breakfast deals"
+     ],
+     [
+      "🥤",
+      "Meal deals"
+     ],
+     [
+      "📱",
+      "App rewards"
+     ],
+     [
+      "🍕",
+      "Hot food in the evening"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. The vegan sausage roll moment.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The vegan sausage roll"
+   }
+  },
+  {
+   "say": "In January twenty nineteen, Greggs launched a vegan sausage roll. Some people were furious. A famous TV presenter complained about it online. And Greggs replied with a joke.",
+   "vis": {
+    "type": "headline",
+    "kicker": "January 2019",
+    "paper": "THE HIGH STREET HERALD",
+    "text": "Greggs launches a vegan sausage roll, and the internet goes wild",
+    "date": "The row became free advertising"
+   }
+  },
+  {
+   "say": "The row was the best advertising Greggs never paid for. Suddenly everyone was talking about a bakery chain, and people queued up to try it. Greggs stopped being just a cheap lunch, and became something people talked about.",
+   "vis": {
+    "type": "flow",
+    "title": "How a row became a win",
+    "nodes": [
+     [
+      "🌱",
+      "Vegan roll launches"
+     ],
+     [
+      "😡",
+      "Online outrage"
+     ],
+     [
+      "📰",
+      "Everyone talks about it"
+     ],
+     [
+      "🧾",
+      "Sales jump"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🌱"
+   }
+  },
+  {
+   "say": "Since then, Greggs has leaned into the joke. Clothing collaborations. A Greggs pop-up that looked like a fancy restaurant. It's turned a sausage roll into a brand.",
+   "vis": {
+    "type": "hook",
+    "text": "It turned a sausage roll into a brand.",
+    "emoji": "🏷️",
+    "hot": [
+     "brand."
+    ]
+   }
+  },
+  {
+   "say": "Part five. Opening later.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Opening later"
+   }
+  },
+  {
+   "say": "Greggs used to be a breakfast and lunch shop. Now nearly three quarters of its shops stay open after five in the evening, and evenings are its fastest growing time of day. Add delivery apps, and the same shop can sell more without needing more space.",
+   "vis": {
+    "type": "grid",
+    "emoji": "🏪",
+    "on": "🌙",
+    "total": 20,
+    "highlight": 15,
+    "title": "Out of every 20 Greggs shops…",
+    "label": "about 15 open after 5pm",
+    "color": "red"
+   }
+  },
+  {
+   "say": "In the evening, the menu changes too. Hot food like pizza and wedges is aimed at people heading home from work or out for the night. It's the same shop and the same staff, selling to a completely new crowd.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Morning",
+     "emoji": "☕",
+     "lines": [
+      "Breakfast rolls",
+      "Coffee"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Evening",
+     "emoji": "🍕",
+     "lines": [
+      "Pizza and wedges",
+      "Night crowd"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So what's the catch? Costs. Wages, energy and ingredients have all gone up, and in twenty twenty five Greggs' profit actually fell, even though sales rose. Building new distribution centres was expensive too.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Sales",
+     "emoji": "📈",
+     "lines": [
+      "Up 6.8%",
+      "More shops"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Profit",
+     "emoji": "📉",
+     "lines": [
+      "Down 9.4%",
+      "Higher costs"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And when the whole business depends on being cheap, it's hard to raise prices without customers noticing. That's the tightrope Greggs walks every day.",
+   "vis": {
+    "type": "hook",
+    "text": "Cheap is the brand. Costs keep rising.",
+    "hot": [
+     "Cheap",
+     "rising."
+    ],
+    "emoji": "⚖️"
+   }
+  },
+  {
+   "say": "But the formula is simple. Make it yourself. Keep the menu small. Sell millions of them. And open a shop wherever people are hungry.",
+   "vis": {
+    "type": "list",
+    "title": "The Greggs formula",
+    "items": [
+     [
+      "🏭",
+      "Make it yourself"
+     ],
+     [
+      "📋",
+      "Keep the menu small"
+     ],
+     [
+      "🔁",
+      "Sell millions"
+     ],
+     [
+      "📍",
+      "Be everywhere"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Not bad for a business that started with a bicycle and a basket of eggs.",
+   "vis": {
+    "type": "hook",
+    "text": "Not bad for a bicycle and some eggs.",
+    "emoji": "🚲",
+    "hot": [
+     "bicycle"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more on how businesses really make their money. And tell me in the comments, which Greggs item is the best?",
+   "vis": {
+    "type": "outro",
+    "text": "Which Greggs item is the best?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE SAUSAGE|ROLL EMPIRE",
+  "emoji": "🥐",
+  "color": "gold",
+  "tag": "How it makes money"
+ }
+}

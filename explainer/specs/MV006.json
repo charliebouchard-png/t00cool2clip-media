@@ -1,0 +1,564 @@
+{
+ "id": "MV006",
+ "style": "neon",
+ "variant": 0,
+ "voice": "bm_george",
+ "speed": 0.92,
+ "accent": "red",
+ "title": "How Casinos Make Money (It's Not Just the Odds)",
+ "beats": [
+  {
+   "say": "A casino doesn't need to cheat you. It doesn't even need you to lose today. It just needs you to keep playing.",
+   "vis": {
+    "type": "hook",
+    "text": "It just needs you to keep playing.",
+    "emoji": "🎰",
+    "hot": [
+     "keep",
+     "playing."
+    ]
+   }
+  },
+  {
+   "say": "Britain's gambling industry kept seventeen and a half billion pounds of players' money in just one year. That's what was left after all the winnings were paid out.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 17.5,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "kept by the British gambling industry in one year",
+    "color": "red",
+    "emoji": "🎲",
+    "source": "Gambling Commission, gross gambling yield, April 2025 to March 2026"
+   }
+  },
+  {
+   "say": "So how does it work? There are two parts. The maths, and the building. And the building might be the cleverer of the two.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The maths",
+     "emoji": "🧮",
+     "lines": [
+      "The house edge",
+      "Small but certain"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The building",
+     "emoji": "🏛️",
+     "lines": [
+      "Keeps you playing",
+      "Hides the time"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part one. The house edge.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The house edge"
+   }
+  },
+  {
+   "say": "Take roulette. A European wheel has thirty seven numbers. One to thirty six, plus a green zero.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🎡",
+    "text": "37 numbers on the wheel",
+    "sub": "1 to 36, plus a green zero",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "If you bet on one number and win, the casino pays you thirty five to one. But to be fair, with thirty seven numbers, it should pay thirty six to one. That missing one is the casino's cut.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Fair payout",
+     "emoji": "⚖️",
+     "lines": [
+      "36 to 1",
+      "No edge"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Casino payout",
+     "emoji": "🎰",
+     "lines": [
+      "35 to 1",
+      "The house wins"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It works out at about two point seven percent. On average, for every hundred pounds bet, the casino keeps two pounds seventy. On an American wheel with an extra double zero, it's more than five percent.",
+   "vis": {
+    "type": "bars",
+    "title": "The house edge on roulette",
+    "suffix": "%",
+    "dec": 1,
+    "items": [
+     [
+      "European wheel",
+      2.7,
+      "teal"
+     ],
+     [
+      "American wheel",
+      5.3,
+      "red"
+     ]
+    ],
+    "max": 6,
+    "source": "1 in 37 (single zero) and 2 in 38 (double zero)"
+   }
+  },
+  {
+   "say": "Two point seven percent sounds tiny. And on one spin, anything can happen. You might win big. But a casino doesn't play one spin. It plays millions of them, every day, all year.",
+   "vis": {
+    "type": "line",
+    "title": "One player vs millions of spins (illustrative)",
+    "points": [
+     0,
+     8,
+     -4,
+     12,
+     3,
+     -6,
+     2,
+     -3,
+     -5,
+     -7,
+     -8,
+     -10
+    ],
+    "labels": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "min": -14,
+    "max": 14,
+    "color": "teal",
+    "end": "Wins come and go"
+   }
+  },
+  {
+   "say": "Over millions of bets, the luck evens out, and the casino's small edge turns into a steady, almost guaranteed profit. It's the law of large numbers. You're gambling. The casino isn't.",
+   "vis": {
+    "type": "line",
+    "title": "The casino's side (illustrative)",
+    "points": [
+     0,
+     2,
+     3,
+     5,
+     7,
+     8,
+     10,
+     12,
+     13,
+     15,
+     17,
+     19
+    ],
+    "labels": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "color": "red",
+    "end": "Steady profit"
+   }
+  },
+  {
+   "say": "Every game has an edge like this. Some, like blackjack played perfectly, have a small edge. Others, like many slot machines, have a much bigger one.",
+   "vis": {
+    "type": "list",
+    "title": "Every game has an edge",
+    "items": [
+     [
+      "🃏",
+      "Blackjack: small if played well"
+     ],
+     [
+      "🎡",
+      "Roulette: about 2.7%"
+     ],
+     [
+      "🎰",
+      "Slots: often much more"
+     ],
+     [
+      "🎲",
+      "The edge never disappears"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some players think they've found a way round it. The most famous is doubling your bet every time you lose, so one win gets everything back. It sounds clever. But a losing streak can wipe you out before the win comes, and tables have maximum bets that stop you doubling forever.",
+   "vis": {
+    "type": "bars",
+    "title": "Doubling after every loss",
+    "prefix": "£",
+    "items": [
+     [
+      "Bet 1",
+      10,
+      "teal"
+     ],
+     [
+      "Bet 3",
+      40,
+      "teal"
+     ],
+     [
+      "Bet 5",
+      160,
+      "gold"
+     ],
+     [
+      "Bet 7",
+      640,
+      "red"
+     ],
+     [
+      "Bet 9",
+      2560,
+      "red"
+     ]
+    ],
+    "max": 2700,
+    "source": "Starting at £10 and doubling after each loss"
+   }
+  },
+  {
+   "say": "Then there's the gambler's fallacy. After five reds in a row, black must be due, right? No. The wheel has no memory. Every spin has exactly the same odds as the last one.",
+   "vis": {
+    "type": "hook",
+    "text": "The wheel has no memory.",
+    "emoji": "🎡",
+    "hot": [
+     "no",
+     "memory."
+    ]
+   }
+  },
+  {
+   "say": "And what about card counting at blackjack? In theory, a skilled player can tip the odds slightly in their favour. In practice, casinos use several decks, shuffle often, and can simply ask suspected counters to leave.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Card counter",
+     "emoji": "🧠",
+     "lines": [
+      "Tracks the cards",
+      "Small edge"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Casino",
+     "emoji": "🚪",
+     "lines": [
+      "More decks, more shuffles",
+      "Can ask you to leave"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part two. The building.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The building"
+   }
+  },
+  {
+   "say": "If the maths guarantees the casino wins over time, then its real job is simple. Keep people playing for as long as possible. And that's where the design comes in.",
+   "vis": {
+    "type": "hook",
+    "text": "The real job: keep you playing longer.",
+    "emoji": "⏳",
+    "hot": [
+     "longer."
+    ]
+   }
+  },
+  {
+   "say": "Many casinos are famous for having no clocks on the walls and few windows. When you can't see the time or the sky, it's easy to lose track of how long you've been there.",
+   "vis": {
+    "type": "list",
+    "title": "Losing track of time",
+    "items": [
+     [
+      "🕰️",
+      "Few clocks"
+     ],
+     [
+      "🪟",
+      "Few windows"
+     ],
+     [
+      "💡",
+      "Same lighting day and night"
+     ],
+     [
+      "🔊",
+      "Constant noise and music"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then there are chips. Swapping cash for plastic makes it feel less like real money. Fifty pounds in notes feels like fifty pounds. A small stack of chips feels like a game.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cash",
+     "emoji": "💷",
+     "lines": [
+      "Feels real",
+      "You think twice"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Chips",
+     "emoji": "🪙",
+     "lines": [
+      "Feels like a game",
+      "Easy to bet"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And free drinks, free food, free hotel rooms for big players. Casinos call these comps. They're not generosity. They're an investment in you staying longer.",
+   "vis": {
+    "type": "flow",
+    "title": "Why it's 'free'",
+    "nodes": [
+     [
+      "🍸",
+      "Free drinks"
+     ],
+     [
+      "🛏️",
+      "Free rooms"
+     ],
+     [
+      "⏳",
+      "You stay longer"
+     ],
+     [
+      "🎰",
+      "You bet more"
+     ]
+    ],
+    "color": "red",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "Even the layout can be part of it. Many casinos are designed so you walk past rows of machines and tables to reach anything else, the toilets, the restaurant, the exit. Every walk is another chance to stop and play.",
+   "vis": {
+    "type": "flow",
+    "title": "The long way round",
+    "nodes": [
+     [
+      "🚪",
+      "Entrance"
+     ],
+     [
+      "🎰",
+      "Rows of machines"
+     ],
+     [
+      "🃏",
+      "Tables"
+     ],
+     [
+      "🍽️",
+      "Restaurant"
+     ]
+    ],
+    "color": "red",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "Part three. The slot machine tricks.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The slot machine tricks"
+   }
+  },
+  {
+   "say": "Slots are the casino's money machine. And researchers have found some clever psychology built into them.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🎰",
+    "text": "The money machine",
+    "sub": "Built with psychology",
+    "color": "red"
+   }
+  },
+  {
+   "say": "First, the near miss. Two jackpot symbols land, and the third stops just above the line. Your brain reacts almost like you nearly won, and you want to try again. But a near miss is still just a loss.",
+   "vis": {
+    "type": "list",
+    "title": "The near miss",
+    "items": [
+     [
+      "🍒",
+      "Jackpot symbol"
+     ],
+     [
+      "🍒",
+      "Jackpot symbol"
+     ],
+     [
+      "❌",
+      "Third one stops just short"
+     ],
+     [
+      "🔁",
+      "So you spin again"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Second, losses disguised as wins. You bet one pound, the machine flashes lights and plays a happy sound, and you win fifty pence. It celebrates, but you actually lost fifty pence.",
+   "vis": {
+    "type": "doc",
+    "title": "Losses disguised as wins",
+    "lines": [
+     [
+      "You bet",
+      "£1.00"
+     ],
+     [
+      "Machine plays",
+      "🎉 WIN! 🎉"
+     ],
+     [
+      "You get back",
+      "£0.50"
+     ],
+     [
+      "Real result",
+      "-£0.50"
+     ]
+    ],
+    "stamp": "STILL A LOSS",
+    "stampAt": 6
+   }
+  },
+  {
+   "say": "Put that together, and slots are fast, exciting and designed to keep you spinning. Which is exactly why they bring in so much money.",
+   "vis": {
+    "type": "hook",
+    "text": "Fast. Exciting. Built to keep you spinning.",
+    "emoji": "🌀",
+    "hot": [
+     "spinning."
+    ]
+   }
+  },
+  {
+   "say": "And today, the casino doesn't need a building at all. In Britain, online casino, betting and bingo brought in more than eight billion pounds in a year. The casino is now in your pocket, open all night.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 8.3,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "kept by online casino, betting and bingo in Britain in one year",
+    "color": "red",
+    "emoji": "📱",
+    "source": "Gambling Commission, April 2025 to March 2026"
+   }
+  },
+  {
+   "say": "So does this mean nobody ever wins? No. Every day, some people walk away ahead. That's part of how it works. The winners are real, and their stories keep everyone else coming back.",
+   "vis": {
+    "type": "hook",
+    "text": "Winners are real. That's part of the plan.",
+    "emoji": "🏆",
+    "hot": [
+     "plan."
+    ]
+   }
+  },
+  {
+   "say": "The house edge doesn't promise you'll lose today. It promises that if you keep playing long enough, the casino will end up with your money.",
+   "vis": {
+    "type": "hook",
+    "text": "Play long enough, and the house always wins.",
+    "emoji": "🏠",
+    "hot": [
+     "always",
+     "wins."
+    ]
+   }
+  },
+  {
+   "say": "If gambling ever stops feeling like fun, free support is available in the UK from the National Gambling Support Network and GamCare.",
+   "vis": {
+    "type": "icon",
+    "emoji": "💬",
+    "text": "Need help? Free support is available",
+    "sub": "National Gambling Support Network · GamCare",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Subscribe for more videos on the hidden maths of money. And tell me in the comments what I should break down next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I break down next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE HOUSE|ALWAYS WINS",
+  "emoji": "🎰",
+  "color": "red",
+  "tag": "How it makes money"
+ }
+}

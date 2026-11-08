@@ -1,0 +1,538 @@
+{
+ "id": "MV005",
+ "style": "ledger",
+ "variant": 1,
+ "voice": "af_bella",
+ "speed": 0.92,
+ "accent": "teal",
+ "title": "How Car Washes Really Make Money",
+ "beats": [
+  {
+   "say": "The most valuable thing at a car wash isn't the soap, the brushes or the machines. It's the monthly subscription you forgot you signed up for.",
+   "vis": {
+    "type": "hook",
+    "text": "It's not the soap. It's the subscription.",
+    "emoji": "🚗",
+    "hot": [
+     "subscription."
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Car washes look like the most boring business in the world. A tunnel, some brushes, a man waving you forward. But investors have poured billions into them. Why?",
+   "vis": {
+    "type": "list",
+    "title": "The most boring business?",
+    "items": [
+     [
+      "🚇",
+      "A tunnel"
+     ],
+     [
+      "🧽",
+      "Some brushes"
+     ],
+     [
+      "💧",
+      "Water and soap"
+     ],
+     [
+      "💰",
+      "Billions from investors"
+     ]
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Let's look at the biggest car wash company in America to find out. It's called Mister Car Wash.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧼",
+    "text": "Mister Car Wash",
+    "sub": "America's biggest car wash chain",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Part one. Selling washes like Netflix.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Washes like Netflix",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "In twenty twenty five, Mister Car Wash made just over one billion dollars in revenue, from five hundred and forty eight locations.",
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 1.05,
+    "dec": 2,
+    "suffix": " billion",
+    "label": "revenue in 2025 from 548 car washes",
+    "color": "teal",
+    "emoji": "🧾",
+    "source": "Mister Car Wash full year 2025 results"
+   }
+  },
+  {
+   "say": "But here's the important bit. It had about two point three million people signed up to its Unlimited Wash Club. Pay one monthly fee, and wash your car as often as you like.",
+   "vis": {
+    "type": "num",
+    "value": 2.3,
+    "dec": 1,
+    "suffix": " million",
+    "label": "members paying a monthly car wash subscription",
+    "color": "teal",
+    "emoji": "💳",
+    "source": "Mister Car Wash full year 2025 results"
+   }
+  },
+  {
+   "say": "By the end of twenty twenty five, those members made up seventy nine percent of its wash sales. Almost four out of every five dollars came from subscriptions, not from people paying at the gate.",
+   "vis": {
+    "type": "grid",
+    "emoji": "🚗",
+    "on": "💳",
+    "total": 100,
+    "highlight": 79,
+    "title": "Out of every $100 of wash sales…",
+    "label": "$79 came from subscribers",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Part two. Why subscriptions are gold.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why subscriptions are gold",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "A normal car wash has a problem. When it rains, nobody comes. In winter, fewer people bother. Money comes in waves, and you can't plan.",
+   "vis": {
+    "type": "line",
+    "title": "Pay-per-wash income (illustrative)",
+    "points": [
+     5,
+     9,
+     3,
+     8,
+     2,
+     7,
+     10,
+     4,
+     6,
+     3,
+     9,
+     5
+    ],
+    "labels": [
+     "Jan",
+     "",
+     "",
+     "Apr",
+     "",
+     "",
+     "Jul",
+     "",
+     "",
+     "Oct",
+     "",
+     "Dec"
+    ],
+    "color": "teal",
+    "end": "Up and down"
+   }
+  },
+  {
+   "say": "Subscriptions fix that. Rain or shine, the money arrives on the same day every month. That steady income is exactly what investors love, because it's predictable.",
+   "vis": {
+    "type": "line",
+    "title": "Subscription income (illustrative)",
+    "points": [
+     5,
+     5.1,
+     5.2,
+     5.3,
+     5.4,
+     5.5,
+     5.6,
+     5.7,
+     5.8,
+     5.9,
+     6,
+     6.1
+    ],
+    "labels": [
+     "Jan",
+     "",
+     "",
+     "Apr",
+     "",
+     "",
+     "Jul",
+     "",
+     "",
+     "Oct",
+     "",
+     "Dec"
+    ],
+    "min": 0,
+    "max": 10,
+    "color": "gold",
+    "end": "Steady"
+   }
+  },
+  {
+   "say": "And just like a gym, the business works best with members who pay every month but don't wash their car very often. Someone washing twice a month is profitable. Someone who forgets for three months is even more profitable.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Washes every day",
+     "emoji": "🚿",
+     "lines": [
+      "Costs the business",
+      "Rare"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Washes now and then",
+     "emoji": "😴",
+     "lines": [
+      "Pure profit",
+      "Very common"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "Number plate cameras make it easy. You drive up, the camera recognises your car, the barrier lifts. No card, no cash, no thinking about what it costs.",
+   "vis": {
+    "type": "flow",
+    "title": "The frictionless wash",
+    "nodes": [
+     [
+      "📷",
+      "Camera reads your plate"
+     ],
+     [
+      "🚧",
+      "Barrier lifts"
+     ],
+     [
+      "🫧",
+      "Car gets washed"
+     ],
+     [
+      "💳",
+      "Monthly fee, no thinking"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🫧"
+   }
+  },
+  {
+   "say": "Then there's the menu. Basic wash. Deluxe wash. Ultimate wash with wax, tyre shine and a rainbow of coloured foam. Most people don't want the cheapest option, and the top one looks extravagant, so lots choose the middle. Every step up costs the business very little extra.",
+   "vis": {
+    "type": "bars",
+    "title": "The wash menu (illustrative)",
+    "prefix": "£",
+    "items": [
+     [
+      "Basic",
+      8,
+      "teal"
+     ],
+     [
+      "Deluxe",
+      12,
+      "gold"
+     ],
+     [
+      "Ultimate",
+      18,
+      "red"
+     ]
+    ],
+    "max": 20,
+    "source": "Illustrative prices"
+   }
+  },
+  {
+   "say": "And just like gyms, signing up is quick, while cancelling can take a little more effort. Every month someone forgets to cancel is another month of profit.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Signing up",
+     "emoji": "⚡",
+     "lines": [
+      "At the gate",
+      "Ten seconds"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Cancelling",
+     "emoji": "🐌",
+     "lines": [
+      "Online forms",
+      "Easy to forget"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part three. Machines, not people.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Machines, not people",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "A modern tunnel wash is mostly automatic. The car rides through on a conveyor while machines do the work. A handful of staff can run a site that washes hundreds of cars a day.",
+   "vis": {
+    "type": "list",
+    "title": "Inside a tunnel wash",
+    "items": [
+     [
+      "⚙️",
+      "Conveyor belt"
+     ],
+     [
+      "🧽",
+      "Automatic brushes"
+     ],
+     [
+      "💨",
+      "Giant dryers"
+     ],
+     [
+      "👷",
+      "Just a few staff"
+     ]
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Water can be recycled. Soap is bought in bulk. Once the tunnel is built, each extra car costs very little to wash. So every new member adds almost pure profit.",
+   "vis": {
+    "type": "bars",
+    "title": "Cost to wash one more car (illustrative)",
+    "prefix": "£",
+    "dec": 2,
+    "items": [
+     [
+      "Water and soap",
+      0.6,
+      "teal"
+     ],
+     [
+      "Electricity",
+      0.4,
+      "teal"
+     ],
+     [
+      "Monthly fee",
+      25,
+      "gold"
+     ]
+    ],
+    "max": 26,
+    "source": "Illustrative example"
+   }
+  },
+  {
+   "say": "There's a reason car washes turn up in crime stories too. In the TV show Breaking Bad, a character buys a car wash to hide drug money. Real car washes that take lots of cash have sometimes been used the same way, which is one reason cash businesses get extra checks.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Pop culture",
+    "paper": "THE CAR WASH TIMES",
+    "text": "Why TV villains love buying car washes",
+    "date": "Cash-heavy businesses can hide where money came from"
+   }
+  },
+  {
+   "say": "Part four. Location, location, location.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Location is everything",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "The best car washes sit on busy roads, near supermarkets and petrol stations, where people already drive past every day. If you have to make a special trip, you probably won't.",
+   "vis": {
+    "type": "map",
+    "title": "Where car washes win",
+    "pins": [
+     [
+      "Busy main road",
+      0.2,
+      0.55,
+      "teal"
+     ],
+     [
+      "Supermarket",
+      0.45,
+      0.4,
+      "teal"
+     ],
+     [
+      "Petrol station",
+      0.7,
+      0.55,
+      "teal"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "That's why big companies buy up the best plots of land early. A good site with steady traffic can keep paying out for decades.",
+   "vis": {
+    "type": "hook",
+    "text": "The real asset is the spot by the road.",
+    "emoji": "📍",
+    "hot": [
+     "spot"
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Part five. Why the money men love it.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Why investors love it",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Private equity firms buy businesses, grow them and sell them on. They love car washes because they're boring, steady and hard for the internet to replace. You can't wash a car online.",
+   "vis": {
+    "type": "list",
+    "title": "Why investors love car washes",
+    "items": [
+     [
+      "🔁",
+      "Monthly subscriptions"
+     ],
+     [
+      "🤖",
+      "Mostly automatic"
+     ],
+     [
+      "🌍",
+      "Can't be done online"
+     ],
+     [
+      "📍",
+      "Great locations last"
+     ]
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "There's also very little that can go wrong with the product. Fashion changes. Technology goes out of date. But people will always have cars that get dirty. That makes car washes one of the safest boring bets around, at least while people still drive.",
+   "vis": {
+    "type": "hook",
+    "text": "Cars will always get dirty.",
+    "emoji": "🚙",
+    "hot": [
+     "always"
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "In fact, a private equity firm called Leonard Green already owned about two thirds of Mister Car Wash. In February twenty twenty six, it agreed a deal to buy the rest of the shares and take the company private.",
+   "vis": {
+    "type": "headline",
+    "kicker": "February 2026",
+    "paper": "THE MARKET LEDGER",
+    "text": "Investor agrees deal to take Mister Car Wash private",
+    "date": "Leonard Green already owned about 67% of the shares"
+   }
+  },
+  {
+   "say": "What about the car washes you see in Britain? Many are hand car washes, run on cash, in old petrol stations. That's a very different business, with more staff and fewer machines.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "US tunnel wash",
+     "emoji": "🏭",
+     "lines": [
+      "Machines and cameras",
+      "Monthly members"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "UK hand car wash",
+     "emoji": "🧽",
+     "lines": [
+      "Lots of staff",
+      "Mostly cash"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "And it has a darker side. MPs have raised concerns about workers at some hand car washes being underpaid or exploited. If a full wash costs less than a coffee, it's worth asking who's paying the difference.",
+   "vis": {
+    "type": "hook",
+    "text": "If it's cheaper than a coffee, who pays the difference?",
+    "emoji": "⚠️",
+    "hot": [
+     "who",
+     "pays"
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "So the next time you drive past a shiny new car wash with a camera at the entrance, remember. They don't really want to wash your car. They want your direct debit.",
+   "vis": {
+    "type": "hook",
+    "text": "They don't want your car. They want your direct debit.",
+    "emoji": "💳",
+    "hot": [
+     "direct",
+     "debit."
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Subscribe for more videos on the boring businesses that quietly make a fortune. And tell me which one I should look at next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which boring business next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "NOT THE|SOAP",
+  "emoji": "🚗",
+  "color": "teal",
+  "tag": "How it makes money"
+ }
+}

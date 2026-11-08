@@ -1,0 +1,535 @@
+{
+ "id": "MV004",
+ "style": "storybook",
+ "voice": "am_puck",
+ "speed": 0.92,
+ "title": "How Gyms Make Money From People Who Never Go",
+ "beats": [
+  {
+   "say": "Your gym makes the most money out of you if you never turn up.",
+   "vis": {
+    "type": "story",
+    "title": "The perfect customer",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "🛋️",
+      "say": "I'll go tomorrow."
+     }
+    ]
+   }
+  },
+  {
+   "say": "It sounds backwards. A gym is supposed to want you there, sweating on the treadmill. But the business works best when lots of people pay, and most of them stay at home.",
+   "vis": {
+    "type": "hook",
+    "text": "The gym's best customer never goes.",
+    "emoji": "🏋️",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Meet Jake. It's the first of January. Jake has eaten a whole tin of chocolates over Christmas, and he's made a promise. This is the year he gets fit.",
+   "vis": {
+    "type": "story",
+    "title": "January 1st",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "🍫",
+      "say": "New year, new me!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "He signs up to a gym for a monthly membership. It's cheaper per visit, he tells himself, because he's going to go four or five times a week.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "💳",
+      "say": "Monthly is way cheaper if I go every day!"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Great choice, Jake."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Week one, Jake is there every morning. Week two, he goes three times. Week three, it's raining. Week four, his mate's birthday. By February, Jake's gym trainers are mostly holding the door open in his hallway.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Week 1",
+      "Every morning"
+     ],
+     [
+      "Week 2",
+      "Three times"
+     ],
+     [
+      "Week 3",
+      "It's raining"
+     ],
+     [
+      "February",
+      "Hasn't been in weeks",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But the money still leaves Jake's account. Every month. On the dot.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "prop": "📱",
+      "say": "Wait, I'm still paying for that?"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Jake isn't unusual. Economists have actually studied this. And what they found is one of the most famous results in behavioural economics.",
+   "vis": {
+    "type": "hook",
+    "text": "Economists studied people like Jake.",
+    "emoji": "🔬",
+    "hot": [
+     "Economists"
+    ]
+   }
+  },
+  {
+   "say": "You see, in a well-known study called Paying Not to Go to the Gym, two economists looked at thousands of gym members in America.",
+   "night": true,
+   "vis": {
+    "type": "headline",
+    "kicker": "Research",
+    "paper": "THE ECONOMICS REVIEW",
+    "text": "Paying Not to Go to the Gym",
+    "date": "DellaVigna and Malmendier, American Economic Review, 2006"
+   }
+  },
+  {
+   "say": "People on monthly contracts were paying over seventy dollars a month. But on average, they went only about four times a month. That worked out at more than seventeen dollars per visit.",
+   "night": true,
+   "vis": {
+    "type": "bars",
+    "title": "What members really paid per visit",
+    "prefix": "$",
+    "items": [
+     [
+      "Monthly members",
+      17,
+      "red"
+     ],
+     [
+      "Pay-as-you-go",
+      10,
+      "teal"
+     ]
+    ],
+    "max": 20,
+    "source": "DellaVigna & Malmendier (2006): ~4.3 visits a month on $70+ contracts; a 10-visit pass cost $10 a visit"
+   }
+  },
+  {
+   "say": "The same gym offered a pay-as-you-go pass at around ten dollars a visit. So most of those members would have saved money by not signing up to the monthly deal at all.",
+   "night": true,
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What they planned",
+     "emoji": "💪",
+     "lines": [
+      "Go every day",
+      "Monthly is cheaper"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What they did",
+     "emoji": "🛋️",
+     "lines": [
+      "Went 4 times a month",
+      "Paid more per visit"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The economists called it overconfidence. When we sign up, we pay for the person we hope we'll become, not the person we actually are.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "Overconfidence",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "💪",
+      "say": "Future me goes every day."
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "prop": "🍕",
+      "say": "Actual me is on the sofa."
+     }
+    ]
+   }
+  },
+  {
+   "say": "And gyms know this. Their whole business is built around it.",
+   "night": true,
+   "vis": {
+    "type": "hook",
+    "text": "Gyms are built around this.",
+    "emoji": "🏢",
+    "hot": [
+     "built"
+    ]
+   }
+  },
+  {
+   "say": "Here's how. A gym building can only fit a few hundred people inside at once. But it can sell memberships to thousands, because it knows that most of them will never all turn up at the same time.",
+   "night": true,
+   "vis": {
+    "type": "grid",
+    "emoji": "🧍",
+    "on": "🏋️",
+    "total": 50,
+    "highlight": 8,
+    "title": "Members vs people actually inside",
+    "label": "Only a few are there at any one time",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "It works a bit like an airline overbooking a flight, except at a gym, the people who don't show up still pay every month, forever.",
+   "night": true,
+   "vis": {
+    "type": "flow",
+    "title": "The gym maths",
+    "nodes": [
+     [
+      "📝",
+      "Sign up thousands"
+     ],
+     [
+      "🛋️",
+      "Most rarely go"
+     ],
+     [
+      "😌",
+      "Gym never too full"
+     ],
+     [
+      "💷",
+      "Everyone still pays"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "That's why January matters so much. It's when a wave of new members sign up full of good intentions. Many of them will stop going within weeks, but the direct debits keep coming.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "The January wave",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "New year, new me!"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "New year, new me!"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "New year, new me!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Then there's the cancelling. Some gyms make joining take two minutes online, but leaving harder. Minimum contract lengths. Notice periods. Forms. Every extra month someone forgets to cancel is pure profit.",
+   "night": true,
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Joining",
+     "emoji": "⚡",
+     "lines": [
+      "Two minutes online",
+      "Instant access"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Leaving",
+     "emoji": "🐌",
+     "lines": [
+      "Notice periods",
+      "Minimum terms"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Budget gyms took the idea even further. Low monthly prices, open twenty four hours, no long contracts, and no frills. They don't need you to love the gym. They need you to think the fee is too small to bother cancelling.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "The budget gym model",
+    "items": [
+     [
+      "🏷️",
+      "Low monthly fee"
+     ],
+     [
+      "🕐",
+      "Open 24/7"
+     ],
+     [
+      "🤖",
+      "Few staff, card entry"
+     ],
+     [
+      "🤷",
+      "Too cheap to bother cancelling"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In Britain, the big budget gym chains only arrived around two thousand and eight and two thousand and nine. Before that, most gyms were expensive clubs with long contracts. Now, many towns have a budget gym open around the clock.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Before 2008",
+      "Pricey clubs, long contracts"
+     ],
+     [
+      "2008-2009",
+      "Budget gym chains arrive"
+     ],
+     [
+      "Today",
+      "24/7 gyms in many towns",
+      "gold"
+     ]
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "One famous American budget chain even gives out free pizza and bagels to members on certain days. It sounds mad for a gym. But it sends a message. Come as you are, no pressure. And that relaxed feeling makes it easy to sign up, and easy to keep paying.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "Free pizza... at a gym?",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "prop": "🍕",
+      "say": "Pizza day at the gym!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "In Britain, around one in six people are now gym members. That's close to eleven million people, according to one of the biggest gym chains.",
+   "night": true,
+   "vis": {
+    "type": "num",
+    "value": 11,
+    "suffix": " million",
+    "label": "UK gym members (about 1 in 6 people)",
+    "color": "gold",
+    "emoji": "🏋️",
+    "source": "PureGym UK Fitness Report 2023/24"
+   }
+  },
+  {
+   "say": "And gyms make extra money from the people who do go. Personal trainers who rent space, protein shakes, classes, and premium memberships with towels and saunas.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "Extra money from the keen ones",
+    "items": [
+     [
+      "🧑‍🏫",
+      "Personal trainers"
+     ],
+     [
+      "🥤",
+      "Shakes and snacks"
+     ],
+     [
+      "🧘",
+      "Paid classes"
+     ],
+     [
+      "🧖",
+      "Premium memberships"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "So how do you beat the gym at its own game? First, be honest about how often you'll really go. Track it for a month. If it's less than the break-even point, pay as you go.",
+   "vis": {
+    "type": "list",
+    "title": "How to beat the gym",
+    "items": [
+     [
+      "📅",
+      "Track how often you really go"
+     ],
+     [
+      "🧮",
+      "Work out your cost per visit"
+     ],
+     [
+      "🔓",
+      "Choose no-contract deals"
+     ],
+     [
+      "📵",
+      "Cancel the month you stop"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Look for gyms without a minimum contract, so you can cancel any month. Check whether a day pass or a class pass would be cheaper. And set a reminder on your phone for the end of each month: did I actually use it?",
+   "vis": {
+    "type": "list",
+    "title": "Before you sign up",
+    "items": [
+     [
+      "🔓",
+      "No minimum contract"
+     ],
+     [
+      "🎟️",
+      "Compare day passes"
+     ],
+     [
+      "⏰",
+      "Monthly reminder to check"
+     ],
+     [
+      "🏃",
+      "Free options: running, parks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And remember, there are plenty of ways to get fit for free. Running, walking, home workouts and outdoor gyms in the park. The best exercise is the one you'll actually do, not the one you pay for.",
+   "vis": {
+    "type": "story",
+    "title": "The free gym",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "👟",
+      "say": "The park is free!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Work out your cost per visit. Divide your monthly fee by the number of times you actually went. If one visit is costing you fifteen or twenty pounds, that's a very expensive shower.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 20,
+    "label": "per visit, if you pay £40 a month and go twice",
+    "color": "red",
+    "emoji": "🚿",
+    "source": "Example calculation"
+   }
+  },
+  {
+   "say": "Back to Jake. It's now December. He's paid for twelve months of the gym, and been about fifteen times.",
+   "vis": {
+    "type": "story",
+    "title": "December",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "prop": "🧾",
+      "say": "I paid HOW much per visit?!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Luckily, Jake has finally worked out the maths, and he's cancelling his membership. Unluckily, it's the thirty first of December, and tomorrow is a brand new year.",
+   "vis": {
+    "type": "story",
+    "title": "New year, new me?",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "💳",
+      "say": "Actually... new year, new me!"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "See you in February, Jake."
+     }
+    ]
+   }
+  },
+  {
+   "say": "If you want more videos on the hidden ways businesses make money, subscribe. And tell me in the comments, how many times did you go to the gym last month?",
+   "vis": {
+    "type": "outro",
+    "text": "How many times did you go last month?",
+    "sub": "Be honest in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THEY WANT|YOU TO|SKIP IT",
+  "emoji": "🏋️",
+  "color": "red",
+  "tag": "How it makes money"
+ }
+}

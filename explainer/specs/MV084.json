@@ -1,0 +1,435 @@
+{
+ "id": "MV084",
+ "style": "documentary",
+ "voice": "bm_george",
+ "speed": 0.82,
+ "title": "Why Your Energy Bill Doubled",
+ "beats": [
+  {
+   "say": "In the winter of twenty twenty one, a typical household energy bill in Britain was capped at around twelve hundred pounds a year. Within a year, households were paying around two and a half thousand, and that was with government help. Without it, the cap would have been far higher.",
+   "vis": {
+    "type": "hook",
+    "text": "From about £1,200 to £2,500.",
+    "emoji": "⚡",
+    "hot": [
+     "£2,500."
+    ]
+   }
+  },
+  {
+   "say": "Here's how the price cap for a typical household moved. Around twelve hundred pounds in winter twenty twenty one to twenty two. Nearly nineteen hundred in spring twenty twenty two. Over three thousand three hundred that autumn. And over four thousand at the start of twenty twenty three.",
+   "vis": {
+    "type": "bars",
+    "title": "Ofgem price cap, typical household (per year)",
+    "items": [
+     [
+      "Winter 2021/22",
+      1216,
+      "teal"
+     ],
+     [
+      "Summer 2022",
+      1877,
+      "gold"
+     ],
+     [
+      "Oct-Dec 2022",
+      3371,
+      "red"
+     ],
+     [
+      "Jan-Mar 2023",
+      4059,
+      "red"
+     ]
+    ],
+    "max": 4300,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Ofgem price cap history"
+   }
+  },
+  {
+   "say": "Part one. What is the price cap?",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What is the price cap?"
+   }
+  },
+  {
+   "say": "First, what's the price cap? It's set by the energy regulator, Ofgem. It limits how much suppliers can charge for each unit of energy, and the standing charge, on standard tariffs. It isn't a cap on your total bill. If you use more, you pay more.",
+   "vis": {
+    "type": "hook",
+    "text": "A cap on unit prices, not your total bill.",
+    "emoji": "🧢",
+    "hot": [
+     "not"
+    ]
+   }
+  },
+  {
+   "say": "The cap is based mainly on the wholesale cost of gas and electricity, plus network costs, policy costs and suppliers' operating costs. So when wholesale prices soar, the cap follows, a few months later.",
+   "vis": {
+    "type": "flow",
+    "title": "What's in the cap",
+    "nodes": [
+     [
+      "🔥",
+      "Wholesale energy costs"
+     ],
+     [
+      "🔌",
+      "Network costs"
+     ],
+     [
+      "🏛️",
+      "Policy costs"
+     ],
+     [
+      "🏢",
+      "Supplier costs"
+     ]
+    ],
+    "color": "gold",
+    "coin": "⚡"
+   }
+  },
+  {
+   "say": "The cap is updated every three months now. Before twenty twenty two, it changed only twice a year. Faster updates mean bills follow wholesale prices more closely, both up and down.",
+   "vis": {
+    "type": "hook",
+    "text": "Updated every three months.",
+    "emoji": "📆",
+    "hot": [
+     "three"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Why prices exploded.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why prices exploded"
+   }
+  },
+  {
+   "say": "Wholesale gas prices began rising in twenty twenty one, as economies reopened after the pandemic and demand jumped. A cold winter, low gas storage in Europe, and weak wind power added to the pressure.",
+   "vis": {
+    "type": "list",
+    "title": "The first wave",
+    "items": [
+     [
+      "🏭",
+      "Post-pandemic demand"
+     ],
+     [
+      "❄️",
+      "Cold winter"
+     ],
+     [
+      "📦",
+      "Low gas storage"
+     ],
+     [
+      "🌬️",
+      "Weak wind"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Then, in February twenty twenty two, Russia invaded Ukraine. Russia had been one of Europe's biggest gas suppliers. Fears over supply sent gas prices to record highs.",
+   "vis": {
+    "type": "hook",
+    "text": "Then came the invasion of Ukraine.",
+    "emoji": "⚠️",
+    "hot": [
+     "Ukraine."
+    ]
+   }
+  },
+  {
+   "say": "But Britain gets little of its gas directly from Russia. So why did bills soar here too? Because gas is traded on international markets. When European prices spike, British prices spike too.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Where UK gas comes from",
+     "emoji": "🌊",
+     "lines": [
+      "North Sea, Norway",
+      "Imported LNG"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Why prices rose anyway",
+     "emoji": "🌍",
+     "lines": [
+      "Global gas market",
+      "Europe competing for supply"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And because gas power stations often set the price of electricity, electricity bills rose sharply too, even though much of Britain's electricity comes from other sources like wind and nuclear.",
+   "vis": {
+    "type": "hook",
+    "text": "Gas often sets the price of electricity.",
+    "emoji": "🔌",
+    "hot": [
+     "electricity."
+    ]
+   }
+  },
+  {
+   "say": "Britain relies heavily on gas, both for heating most homes through gas boilers, and for generating a large share of electricity. That made the country especially exposed to the gas price shock.",
+   "vis": {
+    "type": "list",
+    "title": "Why Britain was exposed",
+    "items": [
+     [
+      "🔥",
+      "Most homes heated by gas"
+     ],
+     [
+      "🔌",
+      "Gas power stations"
+     ],
+     [
+      "📦",
+      "Limited gas storage"
+     ],
+     [
+      "🌍",
+      "Prices set by global markets"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. Suppliers collapsed.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Suppliers collapsed"
+   }
+  },
+  {
+   "say": "Many small energy suppliers had sold fixed price deals without protecting themselves against rising wholesale costs. When prices soared, they couldn't cope. Dozens went bust in twenty twenty one and twenty twenty two.",
+   "vis": {
+    "type": "hook",
+    "text": "Dozens of suppliers went bust.",
+    "emoji": "💥",
+    "hot": [
+     "bust."
+    ]
+   }
+  },
+  {
+   "say": "One of the biggest, Bulb, with around one and a half million customers, was put into special administration and run by the government before being sold. The costs of supplier failures were added to everyone's bills.",
+   "vis": {
+    "type": "icon",
+    "emoji": "💡",
+    "text": "Bulb",
+    "sub": "Around 1.5 million customers, rescued",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part four. Government help.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Government help"
+   }
+  },
+  {
+   "say": "In October twenty twenty two, the government introduced the Energy Price Guarantee. It limited the typical household bill to around two thousand five hundred pounds a year, with the government paying suppliers the difference.",
+   "vis": {
+    "type": "hook",
+    "text": "The Energy Price Guarantee: £2,500.",
+    "emoji": "🛟",
+    "hot": [
+     "£2,500."
+    ]
+   }
+  },
+  {
+   "say": "Households also received a four hundred pound energy bills support discount over the winter, and extra payments went to people on certain benefits, pensioners and disabled people.",
+   "vis": {
+    "type": "list",
+    "title": "Extra support",
+    "items": [
+     [
+      "💷",
+      "£400 bill discount"
+     ],
+     [
+      "👵",
+      "Pensioner payments"
+     ],
+     [
+      "🧾",
+      "Cost of living payments"
+     ],
+     [
+      "♿",
+      "Disability payments"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The support cost the government tens of billions of pounds. Without it, many more households would have fallen into fuel poverty.",
+   "vis": {
+    "type": "hook",
+    "text": "Tens of billions in support.",
+    "emoji": "🏛️",
+    "hot": [
+     "billions"
+    ]
+   }
+  },
+  {
+   "say": "Businesses didn't have a price cap. Many saw energy bills multiply when their contracts renewed, which led some pubs, bakeries and factories to close or raise prices.",
+   "vis": {
+    "type": "hook",
+    "text": "Businesses had no cap at all.",
+    "emoji": "🏭",
+    "hot": [
+     "no",
+     "cap"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Where are we now?",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Where are we now?"
+   }
+  },
+  {
+   "say": "Wholesale prices have fallen from their peak. But bills haven't gone back to where they were. From October twenty twenty six, the cap for a typical household was set at around one thousand seven hundred and twenty pounds a year, still well above the pre crisis level.",
+   "vis": {
+    "type": "bars",
+    "title": "Typical household cap",
+    "items": [
+     [
+      "Winter 2021/22",
+      1216,
+      "teal"
+     ],
+     [
+      "Oct 2026",
+      1723,
+      "gold"
+     ]
+    ],
+    "max": 1900,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Ofgem price cap, as reported Aug 2026"
+   }
+  },
+  {
+   "say": "Standing charges, the fixed daily cost you pay even if you use no energy, have also risen. And the costs of supplier failures, network upgrades and debt are spread across bills.",
+   "vis": {
+    "type": "list",
+    "title": "Why bills stay higher",
+    "items": [
+     [
+      "📅",
+      "Higher standing charges"
+     ],
+     [
+      "🔌",
+      "Network investment"
+     ],
+     [
+      "💥",
+      "Cost of failed suppliers"
+     ],
+     [
+      "🔥",
+      "Gas prices still above pre-crisis"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Ofgem has also introduced a requirement for suppliers to offer at least one tariff with a lower standing charge, for households who use little energy.",
+   "vis": {
+    "type": "hook",
+    "text": "Lower standing charge options for low users.",
+    "emoji": "📉",
+    "hot": [
+     "Lower"
+    ]
+   }
+  },
+  {
+   "say": "Part six. What can you do?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What can you do?"
+   }
+  },
+  {
+   "say": "You can't control the global gas market. But you can check whether a fixed tariff is cheaper than the cap, submit regular meter readings, improve insulation, and make sure you're getting any support you're entitled to.",
+   "vis": {
+    "type": "list",
+    "title": "What helps",
+    "items": [
+     [
+      "🔍",
+      "Compare fixed tariffs"
+     ],
+     [
+      "📟",
+      "Submit meter readings"
+     ],
+     [
+      "🧱",
+      "Insulation and draught-proofing"
+     ],
+     [
+      "🛟",
+      "Check for support schemes"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Britain's energy shock showed how connected we are to world events. A war a thousand miles away changed what millions of families paid to heat their homes.",
+   "vis": {
+    "type": "hook",
+    "text": "A distant war changed every bill.",
+    "emoji": "🌍",
+    "hot": [
+     "every"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHY YOUR|ENERGY BILL|DOUBLED",
+  "emoji": "⚡",
+  "color": "gold",
+  "tag": "Living"
+ }
+}

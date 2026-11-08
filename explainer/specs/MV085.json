@@ -1,0 +1,450 @@
+{
+ "id": "MV085",
+ "style": "ledger",
+ "variant": 1,
+ "voice": "am_puck",
+ "speed": 0.82,
+ "trans": "pan",
+ "title": "The Real Cost of Running a Car in the UK",
+ "beats": [
+  {
+   "say": "When people think about the cost of a car, they think about the price tag. But buying it is just the start. Fuel, insurance, tax, servicing, repairs, parking and the money you lose as it gets older can add up to thousands of pounds every year.",
+   "vis": {
+    "type": "hook",
+    "text": "The price tag is just the start.",
+    "emoji": "🚙",
+    "hot": [
+     "start."
+    ]
+   }
+  },
+  {
+   "say": "Let's go through every cost of running a typical car in the UK, so you can see the real number before you buy.",
+   "vis": {
+    "type": "list",
+    "title": "The costs",
+    "items": [
+     [
+      "📉",
+      "Depreciation"
+     ],
+     [
+      "⛽",
+      "Fuel"
+     ],
+     [
+      "🛡️",
+      "Insurance"
+     ],
+     [
+      "🔧",
+      "Tax, MOT and servicing"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Cost one. Depreciation.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Depreciation"
+   }
+  },
+  {
+   "say": "The biggest cost for many car owners is one they never see on a bill. Depreciation. That's the value your car loses over time.",
+   "vis": {
+    "type": "hook",
+    "text": "The biggest cost you never see.",
+    "emoji": "📉",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "New cars typically lose a large chunk of their value in the first few years. As a rough guide, many new cars lose around forty percent or more in the first three years. So a twenty five thousand pound car might be worth around fifteen thousand after three years.",
+   "vis": {
+    "type": "bars",
+    "title": "A £25,000 new car, rough guide",
+    "items": [
+     [
+      "New",
+      25000,
+      "teal"
+     ],
+     [
+      "After 1 year",
+      20000,
+      "gold"
+     ],
+     [
+      "After 3 years",
+      15000,
+      "red"
+     ]
+    ],
+    "max": 27000,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Illustrative; varies a lot by model"
+   }
+  },
+  {
+   "say": "That's why buying a car that's a few years old can save a lot. Someone else has already taken the biggest hit.",
+   "vis": {
+    "type": "hook",
+    "text": "Let someone else take the biggest hit.",
+    "emoji": "🚗",
+    "hot": [
+     "hit."
+    ]
+   }
+  },
+  {
+   "say": "On the other hand, very old cars can cost more in repairs, and may use more fuel. The sweet spot for many people is a reliable car a few years old.",
+   "vis": {
+    "type": "hook",
+    "text": "The sweet spot: a reliable car a few years old.",
+    "emoji": "🎯",
+    "hot": [
+     "sweet",
+     "spot:"
+    ]
+   }
+  },
+  {
+   "say": "Cost two. Fuel.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Fuel"
+   }
+  },
+  {
+   "say": "Fuel depends on how far you drive and how efficient your car is. Say you drive seven thousand miles a year, in a petrol car doing forty five miles per gallon, with petrol at around one pound forty a litre. That's roughly seven hundred litres, or about one thousand pounds a year.",
+   "vis": {
+    "type": "doc",
+    "title": "Fuel example",
+    "lines": [
+     [
+      "Miles per year",
+      "7,000"
+     ],
+     [
+      "Efficiency",
+      "45 mpg"
+     ],
+     [
+      "Fuel used",
+      "~700 litres"
+     ],
+     [
+      "Cost at ~£1.40/l",
+      "~£1,000"
+     ]
+    ],
+    "stamp": "ESTIMATE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Electric cars can be much cheaper to run per mile, especially if you charge at home overnight on a cheaper tariff. Public rapid charging is usually much more expensive.",
+   "vis": {
+    "type": "hook",
+    "text": "Home charging is much cheaper than rapid charging.",
+    "emoji": "🔌",
+    "hot": [
+     "cheaper"
+    ]
+   }
+  },
+  {
+   "say": "Electric cars have different costs. Cheaper per mile at home. Fewer moving parts to service. But often a higher purchase price, and insurance can be higher for some models.",
+   "vis": {
+    "type": "list",
+    "title": "EV costs at a glance",
+    "items": [
+     [
+      "🔌",
+      "Cheap home charging"
+     ],
+     [
+      "🔧",
+      "Less servicing"
+     ],
+     [
+      "💷",
+      "Higher purchase price"
+     ],
+     [
+      "🛡️",
+      "Insurance can be higher"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Cost three. Insurance.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Insurance"
+   }
+  },
+  {
+   "say": "Car insurance is a legal requirement. In early twenty twenty six, the average comprehensive quote in the UK was around seven hundred pounds a year, though young drivers often pay several times that.",
+   "vis": {
+    "type": "num",
+    "value": 711,
+    "label": "average comprehensive quote, Q1 2026",
+    "color": "gold",
+    "emoji": "🛡️",
+    "prefix": "£",
+    "suffix": "",
+    "source": "Confused.com, Q1 2026"
+   }
+  },
+  {
+   "say": "Cost four. Tax, MOT and servicing.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Tax, MOT and servicing"
+   }
+  },
+  {
+   "say": "Then there's vehicle excise duty, often called road tax, usually a couple of hundred pounds a year for most newer cars, and more for expensive ones. Electric cars now pay it too. Cars over three years old need an annual MOT. And regular servicing keeps the car healthy.",
+   "vis": {
+    "type": "list",
+    "title": "The regular bills",
+    "items": [
+     [
+      "🧾",
+      "Road tax"
+     ],
+     [
+      "🔍",
+      "Annual MOT"
+     ],
+     [
+      "🔧",
+      "Servicing"
+     ],
+     [
+      "🛞",
+      "Tyres and repairs"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The MOT fee has a legal maximum of fifty four pounds eighty five for a car, though many garages charge less. Failing it can mean extra repair bills.",
+   "vis": {
+    "type": "hook",
+    "text": "MOT fees are capped at £54.85.",
+    "emoji": "🔍",
+    "hot": [
+     "£54.85."
+    ]
+   }
+  },
+  {
+   "say": "Repairs are the wild card. A new set of tyres, a clutch or a cam belt can cost hundreds, sometimes over a thousand pounds. Older cars tend to need more repairs.",
+   "vis": {
+    "type": "hook",
+    "text": "Repairs are the wild card.",
+    "emoji": "🃏",
+    "hot": [
+     "wild"
+    ]
+   }
+  },
+  {
+   "say": "Cost five. Everything else.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Everything else"
+   }
+  },
+  {
+   "say": "Don't forget the small things. Parking, especially at work or in cities. Congestion and clean air zone charges. Breakdown cover. Car washes. And if you borrowed to buy the car, interest on the finance.",
+   "vis": {
+    "type": "list",
+    "title": "The extras",
+    "items": [
+     [
+      "🅿️",
+      "Parking"
+     ],
+     [
+      "🏙️",
+      "Clean air and congestion charges"
+     ],
+     [
+      "🆘",
+      "Breakdown cover"
+     ],
+     [
+      "🏦",
+      "Finance interest"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "If you buy on finance, check the total cost, not just the monthly payment. Personal contract purchase deals can have low monthly payments, but a big final payment if you want to keep the car.",
+   "vis": {
+    "type": "list",
+    "title": "Watch finance deals",
+    "items": [
+     [
+      "📅",
+      "Low monthly payment"
+     ],
+     [
+      "🎈",
+      "Big final balloon payment"
+     ],
+     [
+      "🧾",
+      "Interest adds up"
+     ],
+     [
+      "🔍",
+      "Compare the total cost"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Adding it up.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Adding it up"
+   }
+  },
+  {
+   "say": "Put it all together for a typical newer car, and it's easy to reach several thousand pounds a year. That's often hundreds of pounds a month, before you've even driven anywhere special.",
+   "vis": {
+    "type": "bars",
+    "title": "A rough yearly example (newer petrol car)",
+    "items": [
+     [
+      "Depreciation",
+      2500,
+      "red"
+     ],
+     [
+      "Fuel",
+      1000,
+      "gold"
+     ],
+     [
+      "Insurance",
+      700,
+      "gold"
+     ],
+     [
+      "Tax, MOT, servicing, tyres",
+      700,
+      "teal"
+     ],
+     [
+      "Parking and extras",
+      400,
+      "teal"
+     ]
+    ],
+    "max": 2800,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Illustrative example only"
+   }
+  },
+  {
+   "say": "In this example, that's about five thousand three hundred pounds a year, or more than four hundred pounds a month.",
+   "vis": {
+    "type": "hook",
+    "text": "Over £400 a month, in this example.",
+    "emoji": "💷",
+    "hot": [
+     "£400"
+    ]
+   }
+  },
+  {
+   "say": "Of course, it varies hugely. An older small car driven a few thousand miles a year can cost far less. A new premium car in a city can cost far more.",
+   "vis": {
+    "type": "hook",
+    "text": "Your number could be much higher or lower.",
+    "emoji": "⚖️",
+    "hot": [
+     "higher",
+     "or",
+     "lower."
+    ]
+   }
+  },
+  {
+   "say": "How to cut the cost.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "How to cut the cost"
+   }
+  },
+  {
+   "say": "A few ways people cut car costs. Buy a few years old rather than new. Choose an efficient, low insurance group car. Shop around for insurance every year. Keep tyres at the right pressure. And ask whether you need a car at all, or could share one.",
+   "vis": {
+    "type": "list",
+    "title": "Cutting car costs",
+    "items": [
+     [
+      "📅",
+      "Buy a few years old"
+     ],
+     [
+      "⛽",
+      "Choose efficient cars"
+     ],
+     [
+      "🔍",
+      "Compare insurance yearly"
+     ],
+     [
+      "🚲",
+      "Consider alternatives"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A car can give you freedom, and for many people it's essential. But knowing the real cost helps you choose the right car, and budget for it properly.",
+   "vis": {
+    "type": "hook",
+    "text": "Know the real cost before you buy.",
+    "emoji": "🧾",
+    "hot": [
+     "real"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments how much your car really costs you each month.",
+   "vis": {
+    "type": "outro",
+    "text": "What does your car really cost?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "YOUR CAR'S|HIDDEN|COSTS",
+  "emoji": "🚙",
+  "color": "gold",
+  "tag": "Living"
+ }
+}

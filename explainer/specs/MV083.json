@@ -1,0 +1,441 @@
+{
+ "id": "MV083",
+ "style": "storybook",
+ "voice": "af_heart",
+ "speed": 0.82,
+ "title": "Subscription Traps: How Free Trials Make Billions",
+ "beats": [
+  {
+   "say": "Meet Jess. She signs up for a free seven day trial of a streaming service. Just to watch one show. She tells herself she'll cancel before it ends.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Free trial! I'll cancel later.",
+      "prop": "📺"
+     }
+    ],
+    "title": "The free trial"
+   }
+  },
+  {
+   "say": "You see, three months later, Jess is still paying, every month, for something she hasn't opened since that first week.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "I've been paying for THAT?",
+      "prop": "💳"
+     }
+    ],
+    "title": "Three months later"
+   },
+   "night": true
+  },
+  {
+   "say": "Jess isn't alone. The UK government has estimated that there are nearly ten million unwanted subscriptions in the UK, costing consumers around one point six billion pounds a year.",
+   "vis": {
+    "type": "hook",
+    "text": "£1.6 billion a year on unwanted subscriptions.",
+    "emoji": "💸",
+    "hot": [
+     "£1.6"
+    ]
+   }
+  },
+  {
+   "say": "It's not just streaming. Apps, gyms, meal kits, magazines, software, cloud storage, delivery passes and dating apps all use subscriptions. Some offer cheap first months that jump in price later.",
+   "vis": {
+    "type": "list",
+    "title": "Where subscriptions hide",
+    "items": [
+     [
+      "📺",
+      "Streaming"
+     ],
+     [
+      "🏋️",
+      "Gyms"
+     ],
+     [
+      "📦",
+      "Meal kits and delivery passes"
+     ],
+     [
+      "☁️",
+      "Apps and cloud storage"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Nearly ten million subscriptions that people don't really want, still being paid for.",
+   "vis": {
+    "type": "num",
+    "value": 10,
+    "label": "million unwanted subscriptions in the UK, nearly",
+    "color": "red",
+    "emoji": "🔁",
+    "prefix": "",
+    "suffix": " million",
+    "source": "UK government estimates"
+   }
+  },
+  {
+   "say": "Part one. Why free trials work.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Why free trials work"
+   }
+  },
+  {
+   "say": "Free trials are brilliant for companies. They get you to hand over your card details when you're excited and the cost feels like zero. Then they rely on one simple fact. People forget.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "They'll forget. They always do.",
+      "prop": "📈",
+      "hat": "🎩"
+     }
+    ],
+    "title": "The business model"
+   }
+  },
+  {
+   "say": "For a company, a subscriber who forgets is incredibly profitable. They pay every month, but cost almost nothing to serve, because they never use the service.",
+   "vis": {
+    "type": "hook",
+    "text": "A forgotten subscriber is pure profit.",
+    "emoji": "💰",
+    "hot": [
+     "profit."
+    ]
+   }
+  },
+  {
+   "say": "Psychologists talk about inertia. Once something is set up, doing nothing is the easiest option. Cancelling takes effort. So many people just carry on, even when they don't want the service.",
+   "vis": {
+    "type": "list",
+    "title": "Why people don't cancel",
+    "items": [
+     [
+      "😴",
+      "Inertia: doing nothing is easiest"
+     ],
+     [
+      "🤔",
+      "Forgetting the trial date"
+     ],
+     [
+      "🧩",
+      "Cancelling is made tricky"
+     ],
+     [
+      "🤷",
+      "Small amounts don't feel urgent"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. The tricks.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The tricks"
+   }
+  },
+  {
+   "say": "Some companies make signing up take one click, but cancelling take ages. Hidden menus. Phone calls only. Pages asking, are you sure? three times. These are sometimes called dark patterns.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "Where is the cancel button?!",
+      "prop": "📱"
+     }
+    ],
+    "title": "Dark patterns"
+   }
+  },
+  {
+   "say": "Regulators have taken action against some firms. And consumer groups have repeatedly called out companies for making cancellation needlessly hard.",
+   "vis": {
+    "type": "hook",
+    "text": "Regulators and consumer groups are watching.",
+    "emoji": "👀",
+    "hot": [
+     "watching."
+    ]
+   }
+  },
+  {
+   "say": "Common tricks include automatically renewing at a higher price after a discount ends, small charges that are easy to miss on a bank statement, and annual renewals that come round when you've forgotten all about them.",
+   "vis": {
+    "type": "list",
+    "title": "Common subscription tricks",
+    "items": [
+     [
+      "🔁",
+      "Automatic renewals"
+     ],
+     [
+      "📈",
+      "Price jumps after an offer"
+     ],
+     [
+      "🪙",
+      "Small, easy-to-miss charges"
+     ],
+     [
+      "📆",
+      "Forgotten annual renewals"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A few pounds a month doesn't feel like much. But add up a few subscriptions you don't use, and it can easily be hundreds of pounds a year.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Per month",
+     "emoji": "🪙",
+     "lines": [
+      "£4.99 here",
+      "£9.99 there"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Per year",
+     "emoji": "💸",
+     "lines": [
+      "Hundreds of pounds",
+      "For things you don't use"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Jess checked her statement. A music app. A fitness app. A cloud storage plan. And that streaming service. She'd forgotten about most of them.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "Four subscriptions? I only remember one!",
+      "prop": "🧾"
+     }
+    ],
+    "title": "The statement"
+   }
+  },
+  {
+   "say": "Part three. The new rules.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The new rules"
+   }
+  },
+  {
+   "say": "The government is bringing in new rules to tackle subscription traps, under the Digital Markets, Competition and Consumers Act. They're expected to take effect in spring twenty twenty seven.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "New rules are coming!",
+      "prop": "📜"
+     }
+    ],
+    "title": "The law"
+   }
+  },
+  {
+   "say": "Under the new rules, businesses will have to send reminders before a free trial ends or a subscription renews. Cancelling will have to be straightforward. And there'll be cooling off periods, so people can cancel and get a refund after a trial rolls into a paid subscription.",
+   "vis": {
+    "type": "list",
+    "title": "What the new rules require",
+    "items": [
+     [
+      "🔔",
+      "Reminders before renewals"
+     ],
+     [
+      "✂️",
+      "Easy cancellation"
+     ],
+     [
+      "↩️",
+      "Cooling-off periods"
+     ],
+     [
+      "📜",
+      "Clearer information up front"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Businesses will also have to give clear information before you sign up, including how much you'll pay after the trial, and how to cancel.",
+   "vis": {
+    "type": "hook",
+    "text": "Clear information before you sign up.",
+    "emoji": "📋",
+    "hot": [
+     "Clear"
+    ]
+   }
+  },
+  {
+   "say": "Until those rules are in force, the responsibility is mostly on you. So here's how to protect yourself.",
+   "vis": {
+    "type": "hook",
+    "text": "Until then, protect yourself.",
+    "emoji": "🛡️",
+    "hot": [
+     "yourself."
+    ]
+   }
+  },
+  {
+   "say": "Part four. How to protect yourself.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Protect yourself"
+   }
+  },
+  {
+   "say": "When Jess signs up for a free trial now, she sets a reminder on her phone for a couple of days before it ends. Some services even let you cancel straight away and still keep the free trial.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Reminder set. Trial cancelled. Still free!",
+      "prop": "⏰"
+     }
+    ],
+    "title": "Set a reminder"
+   }
+  },
+  {
+   "say": "Every few months, go through your bank and card statements and look for regular payments. Ask yourself, have I used this in the last month? If not, cancel it. You can always sign up again later.",
+   "vis": {
+    "type": "list",
+    "title": "The subscription audit",
+    "items": [
+     [
+      "🧾",
+      "Check your statements"
+     ],
+     [
+      "❓",
+      "Used it in the last month?"
+     ],
+     [
+      "✂️",
+      "Cancel what you don't use"
+     ],
+     [
+      "🔁",
+      "Rejoin later if needed"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some banking apps show all your subscriptions in one place, and some let you block payments to specific companies. You can also use a separate card for subscriptions, so they're easy to track.",
+   "vis": {
+    "type": "list",
+    "title": "Tools that help",
+    "items": [
+     [
+      "📱",
+      "Bank app subscription lists"
+     ],
+     [
+      "🚫",
+      "Block unwanted merchants"
+     ],
+     [
+      "💳",
+      "One card for subscriptions"
+     ],
+     [
+      "🗓️",
+      "Calendar reminders"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And watch out for annual subscriptions. They can be good value, but they renew for a big lump sum, often when you've forgotten. Put the renewal date in your calendar.",
+   "vis": {
+    "type": "hook",
+    "text": "Annual renewals can be a nasty surprise.",
+    "emoji": "📆",
+    "hot": [
+     "Annual"
+    ]
+   }
+  },
+  {
+   "say": "Jess cancelled three subscriptions she'd forgotten about. That's more than two hundred pounds a year back in her pocket.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "That's my holiday fund sorted!",
+      "prop": "🏖️"
+     }
+    ],
+    "title": "The result"
+   }
+  },
+  {
+   "say": "Free trials aren't evil. They can be a good way to try something. But the business model often depends on you forgetting. So don't forget.",
+   "vis": {
+    "type": "hook",
+    "text": "The model depends on you forgetting.",
+    "emoji": "🧠",
+    "hot": [
+     "forgetting."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe, this is one subscription you can keep, and tell me in the comments which subscription you forgot to cancel.",
+   "vis": {
+    "type": "outro",
+    "text": "Which subscription did you forget?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "FREE TRIAL?|READ THIS|FIRST",
+  "emoji": "🔁",
+  "color": "red",
+  "tag": "Living"
+ }
+}

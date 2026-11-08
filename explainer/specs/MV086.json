@@ -1,0 +1,398 @@
+{
+ "id": "MV086",
+ "style": "chalk",
+ "variant": 0,
+ "voice": "af_kore",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "Student Loans Explained: Will You Ever Pay It Off?",
+ "beats": [
+  {
+   "say": "Student loans in England are some of the biggest debts most young people will ever take on. Forty, fifty thousand pounds or more. But here's the thing. They don't work like normal debts at all. And whether you'll ever pay yours off depends on which plan you're on.",
+   "vis": {
+    "type": "hook",
+    "text": "Not like a normal debt at all.",
+    "emoji": "🎓",
+    "hot": [
+     "normal"
+    ]
+   }
+  },
+  {
+   "say": "Today's lesson is how English student loans really work, the difference between the plans, and why the balance might matter less than you think.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "📝",
+      "What you borrow"
+     ],
+     [
+      "💷",
+      "How repayment works"
+     ],
+     [
+      "📋",
+      "Plan 2 vs Plan 5"
+     ],
+     [
+      "🤔",
+      "Should you overpay?"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. What you borrow.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What you borrow"
+   }
+  },
+  {
+   "say": "Most students in England take out two loans. A tuition fee loan, which goes straight to the university, and a maintenance loan, to help with living costs. Tuition fees are now over nine and a half thousand pounds a year.",
+   "vis": {
+    "type": "hook",
+    "text": "Two loans: tuition and living costs.",
+    "emoji": "📝",
+    "hot": [
+     "Two"
+    ]
+   }
+  },
+  {
+   "say": "Maintenance loans depend on household income and where you study. Many students find the maximum loan doesn't fully cover rent and living costs, especially in big cities.",
+   "vis": {
+    "type": "hook",
+    "text": "Maintenance loans often don't cover everything.",
+    "emoji": "🏠",
+    "hot": [
+     "don't"
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. How repayment works.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "How repayment works"
+   }
+  },
+  {
+   "say": "Here's the key difference from normal debt. You don't repay a fixed amount each month. You repay nine percent of your earnings above a threshold. If you earn below the threshold, you pay nothing.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal loan",
+     "emoji": "🏦",
+     "lines": [
+      "Fixed monthly payments",
+      "Must be paid"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Student loan",
+     "emoji": "🎓",
+     "lines": [
+      "9% above a threshold",
+      "Nothing if you earn less"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Let's say you're on Plan five, with a threshold of twenty five thousand pounds. If you earn thirty thousand, you're five thousand over. Nine percent of that is four hundred and fifty pounds a year, about thirty seven pounds fifty a month.",
+   "vis": {
+    "type": "doc",
+    "title": "Plan 5 repayment example",
+    "lines": [
+     [
+      "Salary",
+      "£30,000"
+     ],
+     [
+      "Threshold",
+      "£25,000"
+     ],
+     [
+      "Above threshold",
+      "£5,000"
+     ],
+     [
+      "9% repayment",
+      "£450 a year"
+     ]
+    ],
+    "stamp": "EXAMPLE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "It's taken automatically through your payslip, like tax. And crucially, the amount you repay depends on what you earn, not on how much you borrowed.",
+   "vis": {
+    "type": "hook",
+    "text": "What you pay depends on earnings, not the debt.",
+    "emoji": "💷",
+    "hot": [
+     "earnings,"
+    ]
+   }
+  },
+  {
+   "say": "If you're self employed, repayments are worked out through your tax return instead.",
+   "vis": {
+    "type": "hook",
+    "text": "Self-employed? It goes through your tax return.",
+    "emoji": "🧾",
+    "hot": [
+     "tax",
+     "return."
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. Plan two.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Plan two"
+   }
+  },
+  {
+   "say": "If you started university in England between twenty twelve and twenty twenty two, you're likely on Plan two. The repayment threshold is currently twenty nine thousand three hundred and eighty five pounds, frozen until twenty thirty. Interest can be up to RPI inflation plus three percent. And the loan is written off after thirty years.",
+   "vis": {
+    "type": "list",
+    "title": "Plan 2",
+    "items": [
+     [
+      "💷",
+      "Threshold £29,385, frozen"
+     ],
+     [
+      "📈",
+      "Interest up to RPI + 3%"
+     ],
+     [
+      "📅",
+      "Written off after 30 years"
+     ],
+     [
+      "🤷",
+      "Most won't repay in full"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Most Plan two borrowers are not expected to repay their loans in full before they're written off. For many, the interest grows faster than they repay, and the balance actually goes up for years.",
+   "vis": {
+    "type": "hook",
+    "text": "Most Plan 2 borrowers won't clear it.",
+    "emoji": "📈",
+    "hot": [
+     "won't"
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. Plan five.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Plan five"
+   }
+  },
+  {
+   "say": "For students starting from twenty twenty three, Plan five applies. The threshold is twenty five thousand pounds. Interest is set at RPI inflation only. And the loan is written off after forty years, not thirty.",
+   "vis": {
+    "type": "list",
+    "title": "Plan 5",
+    "items": [
+     [
+      "💷",
+      "Threshold £25,000"
+     ],
+     [
+      "📈",
+      "Interest at RPI only"
+     ],
+     [
+      "📅",
+      "Written off after 40 years"
+     ],
+     [
+      "📊",
+      "More expected to repay in full"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Because of the lower threshold, lower interest and longer term, many more Plan five graduates are expected to repay in full. Government forecasts reported in twenty twenty six suggested around fifty six percent.",
+   "vis": {
+    "type": "num",
+    "value": 56,
+    "label": "of Plan 5 graduates forecast to repay in full",
+    "color": "teal",
+    "emoji": "📊",
+    "prefix": "",
+    "suffix": "%",
+    "source": "Government forecasts, via AJ Bell, 2026"
+   }
+  },
+  {
+   "say": "So the old idea that most people never pay it off is mostly true for Plan two. For Plan five, it's closer to a coin flip. But either way, people on lower incomes are protected by the threshold and the write off.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Plan 2",
+     "emoji": "🔙",
+     "lines": [
+      "Most won't repay in full",
+      "30-year write-off"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Plan 5",
+     "emoji": "🆕",
+     "lines": [
+      "About half expected to",
+      "40-year write-off"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Lesson five. Is it really debt?",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Is it really debt?"
+   }
+  },
+  {
+   "say": "Many experts say it's more helpful to think of a student loan as a graduate tax. A percentage of your earnings above a threshold, for a fixed period, which stops early if you clear the balance.",
+   "vis": {
+    "type": "hook",
+    "text": "Think of it like a graduate tax.",
+    "emoji": "🧾",
+    "hot": [
+     "graduate",
+     "tax."
+    ]
+   }
+  },
+  {
+   "say": "It doesn't usually appear on your credit file. It isn't chased by debt collectors in the normal way. But mortgage lenders do look at your take home pay, so repayments can slightly reduce how much you can borrow.",
+   "vis": {
+    "type": "list",
+    "title": "How it affects you",
+    "items": [
+     [
+      "📊",
+      "Not on your credit file"
+     ],
+     [
+      "🏠",
+      "Reduces take-home pay for mortgages"
+     ],
+     [
+      "💼",
+      "Taken through payroll"
+     ],
+     [
+      "🌍",
+      "Still due if you move abroad"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And if your income falls, or you stop working, your repayments drop or stop automatically. That's a big safety net that normal loans don't have.",
+   "vis": {
+    "type": "hook",
+    "text": "Income falls? Repayments fall too.",
+    "emoji": "🛟",
+    "hot": [
+     "fall"
+    ]
+   }
+  },
+  {
+   "say": "Lesson six. Should you overpay?",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Should you overpay?"
+   }
+  },
+  {
+   "say": "Should you make extra payments to clear it faster? It depends. If you're unlikely to ever repay in full, overpaying could just mean paying money that would have been written off anyway. If you're a high earner likely to clear it, overpaying might save interest.",
+   "vis": {
+    "type": "hook",
+    "text": "Overpaying only helps if you'd clear it anyway.",
+    "emoji": "🤔",
+    "hot": [
+     "clear"
+    ]
+   }
+  },
+  {
+   "say": "This is general information, not personal advice. Online calculators can help you estimate whether you're likely to repay in full on your plan.",
+   "vis": {
+    "type": "hook",
+    "text": "Use a calculator for your own situation.",
+    "emoji": "🧮",
+    "hot": [
+     "calculator"
+    ]
+   }
+  },
+  {
+   "say": "So the key points. You repay nine percent above a threshold. Low earners pay little or nothing. The loan is written off eventually. And the headline balance matters less than your future earnings.",
+   "vis": {
+    "type": "list",
+    "title": "Key points",
+    "items": [
+     [
+      "💷",
+      "9% above a threshold"
+     ],
+     [
+      "🛡️",
+      "Low earners protected"
+     ],
+     [
+      "📅",
+      "Written off eventually"
+     ],
+     [
+      "📈",
+      "Earnings matter more than the balance"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WILL YOU|EVER PAY|IT OFF?",
+  "emoji": "🎓",
+  "color": "teal",
+  "tag": "Living"
+ }
+}

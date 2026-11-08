@@ -1,0 +1,430 @@
+{
+ "id": "MV082",
+ "style": "bold",
+ "variant": 1,
+ "voice": "am_fenrir",
+ "speed": 0.82,
+ "trans": "cut",
+ "title": "Why Car Insurance for Young Drivers Is So Expensive",
+ "beats": [
+  {
+   "say": "You've passed your driving test. You've saved up for a little second hand car worth fifteen hundred pounds. Then you get an insurance quote, and it's more than the car is worth. Why is car insurance for young drivers so expensive?",
+   "vis": {
+    "type": "hook",
+    "text": "Insurance worth more than the car.",
+    "emoji": "🚗",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "According to Confused dot com, the average comprehensive quote for an eighteen year old in early twenty twenty six was around two thousand and eighty pounds. For all drivers, the average was around seven hundred and eleven.",
+   "vis": {
+    "type": "num",
+    "value": 2082,
+    "label": "average quote for an 18-year-old, Q1 2026",
+    "color": "red",
+    "emoji": "🧾",
+    "prefix": "£",
+    "suffix": "",
+    "source": "Confused.com car insurance price index, Q1 2026"
+   }
+  },
+  {
+   "say": "That's roughly three times the average driver's premium. And many young drivers in expensive areas, or with more powerful cars, get quotes far higher.",
+   "vis": {
+    "type": "bars",
+    "title": "Average comprehensive quotes, Q1 2026",
+    "items": [
+     [
+      "All drivers",
+      711,
+      "teal"
+     ],
+     [
+      "17-year-olds",
+      1741,
+      "gold"
+     ],
+     [
+      "18-year-olds",
+      2082,
+      "red"
+     ]
+    ],
+    "max": 2300,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Confused.com, Q1 2026"
+   }
+  },
+  {
+   "say": "The good news is that prices have been falling. Average premiums hit a record high at the end of twenty twenty three, and have dropped since. But for young drivers, they're still painfully high.",
+   "vis": {
+    "type": "hook",
+    "text": "Prices have fallen since the 2023 peak.",
+    "emoji": "📉",
+    "hot": [
+     "fallen"
+    ]
+   }
+  },
+  {
+   "say": "Building a no claims bonus is valuable. After several claim free years, discounts can be very large. Some people protect their no claims bonus with an add on, so one claim doesn't wipe it out.",
+   "vis": {
+    "type": "list",
+    "title": "No claims bonus",
+    "items": [
+     [
+      "1️⃣",
+      "One year: a discount"
+     ],
+     [
+      "5️⃣",
+      "Five years: a big discount"
+     ],
+     [
+      "🛡️",
+      "Can be protected"
+     ],
+     [
+      "💥",
+      "A claim can reduce it"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. How insurance works.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "How insurance works"
+   }
+  },
+  {
+   "say": "Insurance is about pooling risk. Lots of drivers pay in. A small number have accidents and make claims. The premiums of everyone pay for the claims of a few. So insurers need to predict how likely you are to claim, and how much it might cost.",
+   "vis": {
+    "type": "flow",
+    "title": "How insurance works",
+    "nodes": [
+     [
+      "👥",
+      "Many drivers pay premiums"
+     ],
+     [
+      "💥",
+      "A few have accidents"
+     ],
+     [
+      "💷",
+      "Claims are paid from the pool"
+     ],
+     [
+      "📊",
+      "Price matches predicted risk"
+     ]
+    ],
+    "color": "red",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "Part two. The risk.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The risk"
+   }
+  },
+  {
+   "say": "And here's the uncomfortable truth. Statistically, young and newly qualified drivers are much more likely to be involved in crashes. Inexperience is the biggest factor.",
+   "vis": {
+    "type": "hook",
+    "text": "New drivers are statistically riskier.",
+    "emoji": "📊",
+    "hot": [
+     "riskier."
+    ]
+   }
+  },
+  {
+   "say": "Government road safety figures have long shown that young drivers are over represented in serious crashes. Common factors include inexperience, speed, driving at night, and having friends as passengers.",
+   "vis": {
+    "type": "list",
+    "title": "Why young drivers crash more",
+    "items": [
+     [
+      "🐣",
+      "Inexperience"
+     ],
+     [
+      "💨",
+      "Speed"
+     ],
+     [
+      "🌙",
+      "Night driving"
+     ],
+     [
+      "👥",
+      "Passengers as distractions"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Insurers can't judge you personally on day one. So they price based on people like you, of the same age and experience. Even if you're a careful driver, you start out in a high risk group.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What you know",
+     "emoji": "😇",
+     "lines": [
+      "I'm a careful driver",
+      "I'd never speed"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What the insurer sees",
+     "emoji": "📊",
+     "lines": [
+      "Age 18",
+      "No driving history"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Insurers also see more fraud and crash for cash scams in some areas, where criminals deliberately cause accidents to make claims. Those costs get spread across everyone's premiums.",
+   "vis": {
+    "type": "hook",
+    "text": "Crash-for-cash scams push up costs too.",
+    "emoji": "🚨",
+    "hot": [
+     "scams"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Expensive claims.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Expensive claims"
+   }
+  },
+  {
+   "say": "It's not just how often young drivers claim. It's how much claims cost. If you cause an accident that injures someone, the insurer may have to pay for medical costs and lost earnings. Serious injury claims can run into millions of pounds.",
+   "vis": {
+    "type": "hook",
+    "text": "One serious claim can cost millions.",
+    "emoji": "🏥",
+    "hot": [
+     "millions."
+    ]
+   }
+  },
+  {
+   "say": "And repair costs have soared in recent years. Modern cars are full of sensors, cameras and electronics. Parts are more expensive. Labour costs have risen. Even a minor bump can cost thousands to fix.",
+   "vis": {
+    "type": "list",
+    "title": "Why claims cost more",
+    "items": [
+     [
+      "📷",
+      "Sensors and cameras"
+     ],
+     [
+      "🔩",
+      "Expensive parts"
+     ],
+     [
+      "👷",
+      "Higher labour costs"
+     ],
+     [
+      "🚗",
+      "Courtesy cars and delays"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Car theft has also risen in some places, with keyless cars targeted by criminals using electronic devices. That pushes up premiums for popular models.",
+   "vis": {
+    "type": "hook",
+    "text": "Keyless car theft pushes prices up.",
+    "emoji": "🔑",
+    "hot": [
+     "theft"
+    ]
+   }
+  },
+  {
+   "say": "Part four. What affects your price.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "What affects your price"
+   }
+  },
+  {
+   "say": "Lots of things change your quote. Where you live, because some areas have more crime and accidents. The car, its value, power and insurance group. Your job. How many miles you drive. And where the car is parked overnight.",
+   "vis": {
+    "type": "list",
+    "title": "Factors in your quote",
+    "items": [
+     [
+      "📍",
+      "Your postcode"
+     ],
+     [
+      "🚗",
+      "The car and its group"
+     ],
+     [
+      "🛣️",
+      "Annual mileage"
+     ],
+     [
+      "🏠",
+      "Where it's parked"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the UK, insurers aren't allowed to use gender to set prices. But young men still often pay more on average, because of other risk factors linked to the cars they choose and how they drive.",
+   "vis": {
+    "type": "hook",
+    "text": "Gender can't be used. Other factors still are.",
+    "emoji": "⚖️",
+    "hot": [
+     "can't"
+    ]
+   }
+  },
+  {
+   "say": "Part five. How to bring it down.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "How to bring it down"
+   }
+  },
+  {
+   "say": "So how can young drivers cut costs? Choose a car in a low insurance group, usually small and low powered. Consider a black box policy, also called telematics, which rewards safe driving. And compare quotes from lots of insurers.",
+   "vis": {
+    "type": "list",
+    "title": "Ways to cut the cost",
+    "items": [
+     [
+      "🚗",
+      "Low insurance group car"
+     ],
+     [
+      "📦",
+      "Black box policy"
+     ],
+     [
+      "🔍",
+      "Compare lots of quotes"
+     ],
+     [
+      "📅",
+      "Buy a few weeks before renewal"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some tricks are illegal. Fronting, where a parent pretends to be the main driver of a car that a young person mainly drives, is insurance fraud. It can lead to your policy being cancelled, claims being refused, and even a criminal record.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Legal",
+     "emoji": "✅",
+     "lines": [
+      "Named extra driver, honestly",
+      "Black box policy"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Illegal fronting",
+     "emoji": "🚨",
+     "lines": [
+      "Parent falsely as main driver",
+      "Claims can be refused"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Other legal ways to save include adding an experienced driver as a named driver, if they genuinely drive the car sometimes, increasing your voluntary excess, paying annually rather than monthly if you can, and taking extra training like Pass Plus.",
+   "vis": {
+    "type": "list",
+    "title": "More ways to save",
+    "items": [
+     [
+      "👨‍👩‍👧",
+      "Honest named drivers"
+     ],
+     [
+      "💷",
+      "Higher voluntary excess"
+     ],
+     [
+      "📆",
+      "Pay annually if possible"
+     ],
+     [
+      "🎓",
+      "Extra driver training"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The good news is that prices usually fall as you build up experience and a no claims bonus. Each year without a claim can bring your premium down, often a lot.",
+   "vis": {
+    "type": "hook",
+    "text": "Every claim-free year helps.",
+    "emoji": "📉",
+    "hot": [
+     "claim-free"
+    ]
+   }
+  },
+  {
+   "say": "Young driver insurance is expensive because the risks really are higher. But careful choices, honest policies and a few claim free years can bring that cost down dramatically.",
+   "vis": {
+    "type": "hook",
+    "text": "Careful choices bring it down.",
+    "emoji": "🛡️",
+    "hot": [
+     "down"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what your first car insurance quote was.",
+   "vis": {
+    "type": "outro",
+    "text": "What was your first insurance quote?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£2,000 TO|INSURE A|£1,500 CAR",
+  "emoji": "🚗",
+  "color": "red",
+  "tag": "Living"
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "id": "MV089",
+ "style": "storybook",
+ "voice": "bf_emma",
+ "speed": 0.82,
+ "title": "Why Supermarkets Put Milk at the Back",
+ "beats": [
+  {
+   "say": "Meet Sam. Sam just needs a pint of milk. Two minutes, in and out. But somehow, Sam leaves the supermarket twenty minutes later, with a full basket and a much lighter wallet.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Just popping in for milk!",
+      "prop": "🥛"
+     }
+    ],
+    "title": "Just milk"
+   }
+  },
+  {
+   "say": "Why is the milk so often at the back of the shop? The popular answer is that it's a trick to make you walk past everything else. The real answer is a bit more interesting.",
+   "vis": {
+    "type": "hook",
+    "text": "Trick, or practical reason?",
+    "emoji": "🥛",
+    "hot": [
+     "Trick,"
+    ]
+   }
+  },
+  {
+   "say": "Part one. The practical reason.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The practical reason"
+   }
+  },
+  {
+   "say": "Milk needs to be kept cold all the way from the farm to your fridge. That's called the cold chain. Delivery lorries usually unload at the back of the shop, where the big cold storage rooms are. So putting the milk fridges near the back makes restocking quick and easy.",
+   "vis": {
+    "type": "flow",
+    "title": "The cold chain",
+    "nodes": [
+     [
+      "🚛",
+      "Lorry arrives at the back"
+     ],
+     [
+      "❄️",
+      "Cold storage room"
+     ],
+     [
+      "🥛",
+      "Fridges nearby"
+     ],
+     [
+      "⚡",
+      "Quick restocking"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🥛"
+   }
+  },
+  {
+   "say": "The writer Michael Pollan, who studies the food system, has argued that the location is driven more by logistics than by manipulation.",
+   "vis": {
+    "type": "hook",
+    "text": "Some say it's mostly logistics.",
+    "emoji": "🚛",
+    "hot": [
+     "logistics."
+    ]
+   }
+  },
+  {
+   "say": "But here's the thing. Even if milk ended up at the back for practical reasons, supermarkets definitely know the effect it has. And they design the rest of the shop to make the most of it.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Well, while they're walking past...",
+      "prop": "🛒",
+      "hat": "🎩"
+     }
+    ],
+    "title": "The bonus effect"
+   }
+  },
+  {
+   "say": "Part two. Building the basket.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Building the basket"
+   }
+  },
+  {
+   "say": "Retailers call it building the basket. The longer you spend in the shop, and the more products you pass, the more likely you are to pick up something you didn't plan to buy.",
+   "vis": {
+    "type": "hook",
+    "text": "The longer you stay, the more you buy.",
+    "emoji": "🧺",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "Milk is one of the most frequently bought items. People pop in for it several times a week. That makes it a powerful draw, wherever it's placed.",
+   "vis": {
+    "type": "hook",
+    "text": "Milk brings people in again and again.",
+    "emoji": "🔁",
+    "hot": [
+     "again"
+    ]
+   }
+  },
+  {
+   "say": "You see, Sam walks past freshly baked bread. Then a special offer on biscuits. Then a big display of crisps at the end of the aisle. None of it was on the list.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Ooh, two for one!",
+      "prop": "🍪"
+     }
+    ],
+    "title": "The journey"
+   },
+   "night": true
+  },
+  {
+   "say": "Those displays at the end of aisles have a name. End caps, or gondola ends. Products placed there sell much more, and brands often pay supermarkets for the best spots.",
+   "vis": {
+    "type": "list",
+    "title": "The prime spots",
+    "items": [
+     [
+      "🔚",
+      "Aisle ends"
+     ],
+     [
+      "👀",
+      "Eye-level shelves"
+     ],
+     [
+      "🧾",
+      "Next to the tills"
+     ],
+     [
+      "🚪",
+      "Near the entrance"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Supermarkets also study how people move around the store. In many UK supermarkets, the layout guides shoppers in one main direction, past fresh food first.",
+   "vis": {
+    "type": "hook",
+    "text": "Layouts guide you in one direction.",
+    "emoji": "➡️",
+    "hot": [
+     "direction."
+    ]
+   }
+  },
+  {
+   "say": "Part three. More supermarket tricks.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "More supermarket tricks"
+   }
+  },
+  {
+   "say": "Ever noticed the flowers and fruit near the entrance? Bright colours and fresh smells put you in a good mood, and make the whole shop feel fresh.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Everything looks so fresh!",
+      "prop": "💐"
+     }
+    ],
+    "title": "Fresh first"
+   }
+  },
+  {
+   "say": "The bakery smell is no accident either. Many supermarkets bake bread in store, and the smell of fresh baking can make people feel hungry and more likely to buy food.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "That smell... I need bread now.",
+      "prop": "🥖"
+     }
+    ],
+    "title": "The smell of bread"
+   }
+  },
+  {
+   "say": "The most expensive brands are often placed at eye level. Cheaper alternatives are often on the bottom shelf, where you have to bend down. And products aimed at children can be placed lower down, at their eye level.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Eye level",
+     "emoji": "👀",
+     "lines": [
+      "Big brands",
+      "Higher prices"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Bottom shelf",
+     "emoji": "⬇️",
+     "lines": [
+      "Own brands",
+      "Often cheaper"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Other common tactics include changing the layout every so often, so you have to search, playing music that sets a relaxed pace, and big trolleys that make a normal shop look small.",
+   "vis": {
+    "type": "list",
+    "title": "More common tactics",
+    "items": [
+     [
+      "🔄",
+      "Changing layouts"
+     ],
+     [
+      "🎵",
+      "Relaxing music"
+     ],
+     [
+      "🛒",
+      "Bigger trolleys"
+     ],
+     [
+      "🍫",
+      "Treats near the tills"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In England, rules now restrict where some less healthy foods can be placed, like near the entrance or at checkouts in larger shops. That's because placement has such a big effect on what people buy.",
+   "vis": {
+    "type": "hook",
+    "text": "Placement is powerful enough to regulate.",
+    "emoji": "📜",
+    "hot": [
+     "regulate."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Beating the system.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Beating the system"
+   }
+  },
+  {
+   "say": "So how did Sam beat the supermarket next time? With a simple plan.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "This time, I've got a list.",
+      "prop": "📝"
+     }
+    ],
+    "title": "Sam's plan"
+   }
+  },
+  {
+   "say": "Write a list, and stick to it. Don't shop hungry. Use a basket, not a trolley, for small shops. Look at the top and bottom shelves for better value. And check the price per hundred grams, not just the price tag.",
+   "vis": {
+    "type": "list",
+    "title": "Beat the layout",
+    "items": [
+     [
+      "📝",
+      "Shop with a list"
+     ],
+     [
+      "🍽️",
+      "Don't shop hungry"
+     ],
+     [
+      "🧺",
+      "Basket for small shops"
+     ],
+     [
+      "⬆️⬇️",
+      "Check top and bottom shelves"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Online shopping can help too, because there are fewer impulse displays. But online shops have their own tricks, like suggested items and limited time offers.",
+   "vis": {
+    "type": "hook",
+    "text": "Online shops have their own tricks.",
+    "emoji": "💻",
+    "hot": [
+     "tricks."
+    ]
+   }
+  },
+  {
+   "say": "This time, Sam was in and out in five minutes, with just the milk, and a few pounds still in their pocket.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Milk. Done. Five minutes!",
+      "prop": "🥛"
+     }
+    ],
+    "title": "Victory"
+   }
+  },
+  {
+   "say": "So is the milk at the back to trick you? Partly it's practical. But supermarkets know exactly how you'll walk, what you'll see, and what tempts you along the way. Knowing that is how you take back control.",
+   "vis": {
+    "type": "hook",
+    "text": "Know the layout. Take back control.",
+    "emoji": "🧭",
+    "hot": [
+     "control."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments what supermarket trick gets you every time.",
+   "vis": {
+    "type": "outro",
+    "text": "Which trick gets you every time?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHY IS MILK|ALWAYS AT|THE BACK?",
+  "emoji": "🥛",
+  "color": "teal",
+  "tag": "Minds"
+ }
+}

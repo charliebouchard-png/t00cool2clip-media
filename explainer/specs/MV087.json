@@ -1,0 +1,421 @@
+{
+ "id": "MV087",
+ "style": "neon",
+ "variant": 1,
+ "voice": "af_aoede",
+ "speed": 0.82,
+ "trans": "glitch",
+ "title": "Why Concert Tickets Cost So Much Now",
+ "beats": [
+  {
+   "say": "You wait in an online queue for hours. You finally get to the front. And the ticket you expected to cost around one hundred and fifty pounds now costs more than three hundred and fifty. Welcome to modern ticket buying.",
+   "vis": {
+    "type": "hook",
+    "text": "Expected £148. Charged £355.",
+    "emoji": "🎟️",
+    "hot": [
+     "£355."
+    ]
+   }
+  },
+  {
+   "say": "In twenty twenty four, the Oasis reunion tour turned this into a national row. Let's break down why concert tickets cost so much, and what's actually going on behind the queue.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "🎸",
+      "The Oasis row"
+     ],
+     [
+      "📈",
+      "Tiered and dynamic pricing"
+     ],
+     [
+      "🔁",
+      "Resale and touts"
+     ],
+     [
+      "🛡️",
+      "How to protect yourself"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The Oasis row.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The Oasis row"
+   }
+  },
+  {
+   "say": "When tickets for the Oasis reunion went on sale in August twenty twenty four, many fans waited hours in queues. Some reported paying up to three hundred and fifty five pounds for standing tickets first advertised at around one hundred and forty eight.",
+   "vis": {
+    "type": "headline",
+    "kicker": "August 2024",
+    "paper": "THE MUSIC WIRE",
+    "text": "Fans furious as Oasis ticket prices jump in queue",
+    "date": "Competition watchdog launches investigation"
+   }
+  },
+  {
+   "say": "Many people blamed dynamic pricing. But when the Competition and Markets Authority investigated, it said it found no evidence that dynamic pricing had actually been used in that sale. The problem was something else.",
+   "vis": {
+    "type": "hook",
+    "text": "The watchdog found a different problem.",
+    "emoji": "🔍",
+    "hot": [
+     "different"
+    ]
+   }
+  },
+  {
+   "say": "What the watchdog found was that standing tickets had been sold in two different price categories, without fans being told in advance. And seated tickets labelled platinum cost about two and a half times more, for the same seats as standard tickets.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What fans were told",
+     "emoji": "🫥",
+     "lines": [
+      "One price, roughly",
+      "Platinum = premium"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What was happening",
+     "emoji": "⚠️",
+     "lines": [
+      "Two price tiers",
+      "Same seats, higher price"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In September twenty twenty five, Ticketmaster agreed to changes, including giving fans at least twenty four hours' notice of different price tiers, and clearer pricing while in the queue. It didn't admit wrongdoing.",
+   "vis": {
+    "type": "hook",
+    "text": "Ticketmaster agreed to clearer pricing.",
+    "emoji": "📢",
+    "hot": [
+     "clearer"
+    ]
+   }
+  },
+  {
+   "say": "The watchdog also gained new powers in twenty twenty five to fine companies up to ten percent of their global turnover for breaking consumer law, though those powers couldn't be applied to the Oasis sale.",
+   "vis": {
+    "type": "hook",
+    "text": "New powers: fines up to 10% of turnover.",
+    "emoji": "⚖️",
+    "hot": [
+     "10%"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Dynamic pricing.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Dynamic pricing"
+   }
+  },
+  {
+   "say": "So what is dynamic pricing? It's when the price changes depending on demand, like airline seats or hotel rooms. When lots of people want tickets at once, the price goes up.",
+   "vis": {
+    "type": "flow",
+    "title": "How dynamic pricing works",
+    "nodes": [
+     [
+      "👥",
+      "Lots of fans in the queue"
+     ],
+     [
+      "📈",
+      "Demand is high"
+     ],
+     [
+      "💷",
+      "Price rises"
+     ],
+     [
+      "🎟️",
+      "Fewer, pricier tickets"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🎟️"
+   }
+  },
+  {
+   "say": "Supporters say it's fairer than letting touts buy cheap tickets and resell them at huge markups. The extra money goes to artists and promoters instead. Critics say it squeezes loyal fans, especially when they can't see the price until the last moment.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Supporters say",
+     "emoji": "👍",
+     "lines": [
+      "Beats the touts",
+      "Money goes to artists"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Critics say",
+     "emoji": "👎",
+     "lines": [
+      "Squeezes real fans",
+      "Prices hidden until late"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The key issue for many fans is transparency. Paying more is one thing. Not knowing the price until you've queued for hours, with seconds to decide, is another.",
+   "vis": {
+    "type": "hook",
+    "text": "The real issue is transparency.",
+    "emoji": "🔎",
+    "hot": [
+     "transparency."
+    ]
+   }
+  },
+  {
+   "say": "Some artists have refused to use it. After the Oasis row, bands including Coldplay publicly said they wouldn't use dynamic pricing for their tours.",
+   "vis": {
+    "type": "hook",
+    "text": "Some artists said no.",
+    "emoji": "🙅",
+    "hot": [
+     "no."
+    ]
+   }
+  },
+  {
+   "say": "Part three. Why prices rose anyway.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Why prices rose anyway"
+   }
+  },
+  {
+   "say": "Even without dynamic pricing, ticket prices have climbed. Touring costs have risen, including transport, staging, crew and energy. Artists earn far less from recorded music than they used to, so live shows have become their main income.",
+   "vis": {
+    "type": "list",
+    "title": "Why base prices rose",
+    "items": [
+     [
+      "🚚",
+      "Touring costs"
+     ],
+     [
+      "💡",
+      "Bigger productions"
+     ],
+     [
+      "🎧",
+      "Streaming pays artists less"
+     ],
+     [
+      "🎤",
+      "Live shows are the main income"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And then there are fees. Booking fees, service fees, delivery fees, even for digital tickets. These can add a big chunk to the final price.",
+   "vis": {
+    "type": "hook",
+    "text": "Then come the fees.",
+    "emoji": "🧾",
+    "hot": [
+     "fees."
+    ]
+   }
+  },
+  {
+   "say": "Ticket companies say fees cover the costs of running platforms, payment processing and customer service. Fans often see them as an extra charge for something they can't avoid.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Companies say",
+     "emoji": "🏢",
+     "lines": [
+      "Fees cover real costs",
+      "Platforms aren't free"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Fans say",
+     "emoji": "😤",
+     "lines": [
+      "Unavoidable extras",
+      "Shown too late"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part four. Touts and resale.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Touts and resale"
+   }
+  },
+  {
+   "say": "Then there's resale. Professional touts use software and multiple accounts to buy up tickets the moment they go on sale, then resell them on secondary sites for many times the original price.",
+   "vis": {
+    "type": "flow",
+    "title": "How touts operate",
+    "nodes": [
+     [
+      "🤖",
+      "Bots and multiple accounts"
+     ],
+     [
+      "🎟️",
+      "Buy tickets instantly"
+     ],
+     [
+      "🔁",
+      "List on resale sites"
+     ],
+     [
+      "💰",
+      "Sell at huge markups"
+     ]
+    ],
+    "color": "red",
+    "coin": "🎟️"
+   }
+  },
+  {
+   "say": "Using bots to buy tickets in breach of limits is illegal in the UK. And the government has proposed further limits on resale prices. But touts remain a big problem.",
+   "vis": {
+    "type": "hook",
+    "text": "Bots are illegal. Touts persist.",
+    "emoji": "🚫",
+    "hot": [
+     "persist."
+    ]
+   }
+  },
+  {
+   "say": "Part five. Protect yourself.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Protect yourself"
+   }
+  },
+  {
+   "say": "So how can fans protect themselves? Register for presales from the artist. Know the face value before you buy. Use official resale platforms that cap prices at face value. And be very wary of tickets on social media.",
+   "vis": {
+    "type": "list",
+    "title": "Protect yourself",
+    "items": [
+     [
+      "📝",
+      "Register for presales"
+     ],
+     [
+      "🏷️",
+      "Know the face value"
+     ],
+     [
+      "🔁",
+      "Use capped resale platforms"
+     ],
+     [
+      "🚨",
+      "Beware social media sellers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Ticket fraud is common around big tours. Fake tickets, or tickets that never arrive. Paying by credit card can give you extra protection if something goes wrong.",
+   "vis": {
+    "type": "hook",
+    "text": "Pay by credit card for extra protection.",
+    "emoji": "💳",
+    "hot": [
+     "protection."
+    ]
+   }
+  },
+  {
+   "say": "Set a budget before the sale starts, and stick to it. The queue is designed to create excitement and pressure. It's easy to spend far more than you planned when the clock is ticking.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Before the queue",
+     "emoji": "🧘",
+     "lines": [
+      "Set your limit",
+      "Know your options"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "In the queue",
+     "emoji": "⏰",
+     "lines": [
+      "Pressure and excitement",
+      "Easy to overspend"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And if you miss out, don't panic buy from the first resale listing you see. Prices on resale sites often drop closer to the event, and official face value resale tickets often appear later on.",
+   "vis": {
+    "type": "hook",
+    "text": "Missed out? Don't panic buy.",
+    "emoji": "🧘",
+    "hot": [
+     "panic"
+    ]
+   }
+  },
+  {
+   "say": "Concert tickets cost more because of rising costs, changing artist income, complex pricing and touts. But clear information, and a firm budget, are your best defence.",
+   "vis": {
+    "type": "hook",
+    "text": "Clear prices and a firm budget.",
+    "emoji": "🎟️",
+    "hot": [
+     "budget."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments the most you've ever paid for a ticket.",
+   "vis": {
+    "type": "outro",
+    "text": "Most you've paid for a ticket?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£148?|NOW £355.",
+  "emoji": "🎟️",
+  "color": "red",
+  "tag": "Living"
+ }
+}

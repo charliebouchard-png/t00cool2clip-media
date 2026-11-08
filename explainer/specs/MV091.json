@@ -1,0 +1,402 @@
+{
+ "id": "MV091",
+ "style": "documentary",
+ "voice": "bm_fable",
+ "speed": 0.82,
+ "title": "How Casinos Make You Lose Track of Time",
+ "beats": [
+  {
+   "say": "Walk into many big casinos and you'll notice something. It's hard to tell what time it is. It's hard to find the exit. And there's always something flashing, ringing or spinning. Casino design is a science, and it's built around one goal. Keeping you playing.",
+   "vis": {
+    "type": "hook",
+    "text": "Designed to keep you playing.",
+    "emoji": "🎰",
+    "hot": [
+     "playing."
+    ]
+   }
+  },
+  {
+   "say": "Let's look at the psychology of casino design, the maths that means the house always wins in the end, and how to protect yourself if you gamble.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "🏛️",
+      "Casino design"
+     ],
+     [
+      "🪙",
+      "Chips and money"
+     ],
+     [
+      "🔔",
+      "Sounds and near misses"
+     ],
+     [
+      "📊",
+      "The house edge"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The maze.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The maze"
+   }
+  },
+  {
+   "say": "A casino expert and former casino manager called Bill Friedman studied more than eighty casinos in Nevada to work out which designs kept people gambling. His conclusions shaped casino design for decades.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🗺️",
+    "text": "Bill Friedman",
+    "sub": "Studied 80+ Nevada casinos",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Friedman favoured low ceilings, a maze like layout instead of long straight walkways, and putting gambling machines right by the entrance. The idea was to pull you into the action, and make it hard to walk straight through.",
+   "vis": {
+    "type": "list",
+    "title": "Friedman's gaming design",
+    "items": [
+     [
+      "🌀",
+      "Maze-like layouts"
+     ],
+     [
+      "⬇️",
+      "Low ceilings"
+     ],
+     [
+      "🚪",
+      "Machines near the entrance"
+     ],
+     [
+      "🎰",
+      "Gambling as the decoration"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "His key measures were simple. What percentage of visitors gamble? And how many come back? Everything in the building was judged by those numbers.",
+   "vis": {
+    "type": "hook",
+    "text": "Everything judged by who gambles and returns.",
+    "emoji": "📊",
+    "hot": [
+     "returns."
+    ]
+   }
+  },
+  {
+   "say": "You've probably heard that casinos have no clocks or windows. That's a popular belief, and many casinos are designed to feel timeless and enclosed. But it's not a universal rule. Some newer casinos deliberately use skylights and even clocks.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The famous belief",
+     "emoji": "🕰️",
+     "lines": [
+      "No clocks",
+      "No windows"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The reality",
+     "emoji": "🏛️",
+     "lines": [
+      "Often true",
+      "Not always"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part two. The playground.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The playground"
+   }
+  },
+  {
+   "say": "Later, designers like Roger Thomas, who worked on the Bellagio in Las Vegas, took a different approach. High ceilings, art, flowers and natural light. The idea was that relaxed, happy people feel glamorous, and bet more.",
+   "vis": {
+    "type": "hook",
+    "text": "Make people feel glamorous, and they bet more.",
+    "emoji": "💐",
+    "hot": [
+     "glamorous,"
+    ]
+   }
+  },
+  {
+   "say": "Researchers at the University of Guelph in Canada compared the two styles. They found people tended to rate the more luxurious playground designs as more pleasant and restorative, which could keep people gambling longer.",
+   "vis": {
+    "type": "hook",
+    "text": "Pleasant spaces may keep people playing longer.",
+    "emoji": "🛋️",
+    "hot": [
+     "longer."
+    ]
+   }
+  },
+  {
+   "say": "Part three. Chips, not cash.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Chips, not cash"
+   }
+  },
+  {
+   "say": "At the tables, you don't play with money. You play with chips. Chips feel less like real money than notes do. That makes it psychologically easier to bet more.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cash",
+     "emoji": "💷",
+     "lines": [
+      "Feels real",
+      "Hard to hand over"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Chips",
+     "emoji": "🪙",
+     "lines": [
+      "Feels like a game",
+      "Easier to bet"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Many casinos also offer free or cheap drinks, food and rooms to regular players, called comps. They feel like gifts, but they're paid for by expected losses.",
+   "vis": {
+    "type": "hook",
+    "text": "Free drinks aren't really free.",
+    "emoji": "🍸",
+    "hot": [
+     "free."
+    ]
+   }
+  },
+  {
+   "say": "On slot machines, it's credits rather than pounds. Again, a layer between you and the real money. It's easy to lose track of how much you've actually spent.",
+   "vis": {
+    "type": "hook",
+    "text": "Credits hide the real money.",
+    "emoji": "🔢",
+    "hot": [
+     "Credits"
+    ]
+   }
+  },
+  {
+   "say": "Part four. Sounds and near misses.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Sounds and near misses"
+   }
+  },
+  {
+   "say": "Slot machines are designed to be exciting. Bright lights, celebratory sounds for every win, even when the win is smaller than your stake. That's sometimes called a loss disguised as a win.",
+   "vis": {
+    "type": "list",
+    "title": "How slots keep you hooked",
+    "items": [
+     [
+      "🔔",
+      "Sounds for every 'win'"
+     ],
+     [
+      "💡",
+      "Flashing lights"
+     ],
+     [
+      "🎯",
+      "Near misses"
+     ],
+     [
+      "⚡",
+      "Fast, repeated play"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Near misses are powerful too. Two jackpot symbols, and the third just misses. Research suggests near misses can feel almost like wins in the brain, encouraging people to keep playing, even though the outcome is just as random.",
+   "vis": {
+    "type": "hook",
+    "text": "Near misses feel almost like wins.",
+    "emoji": "🎯",
+    "hot": [
+     "almost"
+    ]
+   }
+  },
+  {
+   "say": "And slots can be very fast. A spin every few seconds means hundreds of bets an hour. In the UK, stake limits for online slots were introduced in twenty twenty five, at five pounds per spin for people aged twenty five and over, and two pounds for eighteen to twenty four year olds.",
+   "vis": {
+    "type": "hook",
+    "text": "UK online slots now have stake limits.",
+    "emoji": "🛑",
+    "hot": [
+     "limits."
+    ]
+   }
+  },
+  {
+   "say": "Part five. The house edge.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The house edge"
+   }
+  },
+  {
+   "say": "Here's the maths. Every casino game is designed with a house edge, a small built in advantage. In European roulette, there are thirty seven numbers, including zero. But winning on a single number pays thirty five to one. That gap is the casino's profit.",
+   "vis": {
+    "type": "flow",
+    "title": "The house edge in roulette",
+    "nodes": [
+     [
+      "🎡",
+      "37 numbers on the wheel"
+     ],
+     [
+      "💰",
+      "Win pays 35 to 1"
+     ],
+     [
+      "📉",
+      "Gap of about 2.7%"
+     ],
+     [
+      "🏦",
+      "Casino's long-term profit"
+     ]
+    ],
+    "color": "red",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "In the short term, anyone can win. But over thousands of bets, the house edge works like gravity. The longer you play, the more certain it is that the casino comes out ahead.",
+   "vis": {
+    "type": "hook",
+    "text": "Over time, the house edge works like gravity.",
+    "emoji": "🌍",
+    "hot": [
+     "gravity."
+    ]
+   }
+  },
+  {
+   "say": "Casinos also benefit from a common mistake, called the gambler's fallacy. Believing that after a run of reds, black is due. But each spin is independent. The wheel has no memory.",
+   "vis": {
+    "type": "list",
+    "title": "The gambler's fallacy",
+    "items": [
+     [
+      "🔴",
+      "Red, red, red..."
+     ],
+     [
+      "⚫",
+      "'Black is due!'"
+     ],
+     [
+      "🎡",
+      "Each spin is independent"
+     ],
+     [
+      "🧠",
+      "The wheel has no memory"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part six. Stay in control.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Stay in control"
+   }
+  },
+  {
+   "say": "If you do gamble, treat it as paid entertainment, not a way to make money. Set a limit before you start, and stick to it. Set a time limit too. Never chase losses. And never gamble with money you need.",
+   "vis": {
+    "type": "list",
+    "title": "Gamble safely",
+    "items": [
+     [
+      "💷",
+      "Set a money limit"
+     ],
+     [
+      "⏰",
+      "Set a time limit"
+     ],
+     [
+      "🚫",
+      "Never chase losses"
+     ],
+     [
+      "🧠",
+      "It's entertainment, not income"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the UK, if gambling stops being fun, free confidential support is available from organisations like the National Gambling Helpline, and self exclusion schemes can block you from gambling sites and venues.",
+   "vis": {
+    "type": "hook",
+    "text": "Free support and self-exclusion are available.",
+    "emoji": "🛟",
+    "hot": [
+     "support"
+    ]
+   }
+  },
+  {
+   "say": "Casinos aren't evil. But they're very carefully designed businesses. Understanding the design is the first step to making sure you stay in control, not the building.",
+   "vis": {
+    "type": "hook",
+    "text": "Stay in control, not the building.",
+    "emoji": "🧭",
+    "hot": [
+     "control,"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "NO CLOCKS.|NO WINDOWS.|NO ACCIDENT?",
+  "emoji": "🎰",
+  "color": "red",
+  "tag": "Minds"
+ }
+}

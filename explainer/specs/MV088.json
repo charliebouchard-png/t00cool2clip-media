@@ -1,0 +1,446 @@
+{
+ "id": "MV088",
+ "style": "collage",
+ "variant": 2,
+ "voice": "am_michael",
+ "speed": 0.82,
+ "trans": "slap",
+ "title": "Payday Loans: The 1,000% Interest Trap",
+ "beats": [
+  {
+   "say": "Not long ago, some British lenders were advertising loans with interest rates over a thousand percent a year. Some even had representative rates in the thousands of percent. They were called payday loans, and they trapped millions of people.",
+   "vis": {
+    "type": "hook",
+    "text": "Interest rates in the thousands of percent.",
+    "emoji": "💸",
+    "hot": [
+     "thousands"
+    ]
+   }
+  },
+  {
+   "say": "Today, let's look at how payday loans worked, why they were so expensive, how the rules changed, and what to do if you're short of money before payday.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "📱",
+      "How payday loans worked"
+     ],
+     [
+      "🔁",
+      "The rollover trap"
+     ],
+     [
+      "⚖️",
+      "The 2015 crackdown"
+     ],
+     [
+      "🛟",
+      "Safer alternatives"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. What's a payday loan?",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What's a payday loan?"
+   }
+  },
+  {
+   "say": "A payday loan is a small, short term loan, often a few hundred pounds, meant to be repaid when you next get paid. In the early twenty tens, they exploded in popularity in Britain, especially online.",
+   "vis": {
+    "type": "hook",
+    "text": "Small, short-term, and very expensive.",
+    "emoji": "📱",
+    "hot": [
+     "expensive."
+    ]
+   }
+  },
+  {
+   "say": "Payday lenders made borrowing feel easy. Quick online applications. Money in your account within minutes. Friendly adverts on daytime TV. And little checking of whether people could actually afford to repay.",
+   "vis": {
+    "type": "list",
+    "title": "Why they were so popular",
+    "items": [
+     [
+      "⚡",
+      "Money in minutes"
+     ],
+     [
+      "📱",
+      "Easy online forms"
+     ],
+     [
+      "📺",
+      "Friendly TV adverts"
+     ],
+     [
+      "🔍",
+      "Few affordability checks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "At their peak, around ten million payday loans a year were being taken out in the UK.",
+   "vis": {
+    "type": "num",
+    "value": 10,
+    "label": "million payday loans a year at the peak, around 2013",
+    "color": "red",
+    "emoji": "📱",
+    "prefix": "",
+    "suffix": " million",
+    "source": "Payday loans in the UK, Wikipedia"
+   }
+  },
+  {
+   "say": "Part two. Why APRs looked so crazy.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why APRs looked crazy"
+   }
+  },
+  {
+   "say": "Lenders often argued that APR, the annual percentage rate, made their loans look worse than they were, because the loans were only meant to last a few weeks. Borrowing one hundred pounds for a month and paying back one hundred and thirty sounds very different to an APR of over a thousand percent.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The lender's view",
+     "emoji": "🤷",
+     "lines": [
+      "Just £30 for a month",
+      "Short term only"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The reality",
+     "emoji": "📈",
+     "lines": [
+      "A huge rate",
+      "Often rolled over"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The problem was that many people couldn't repay at the end of the month. So they rolled the loan over, or took out another one. And the charges kept stacking up.",
+   "vis": {
+    "type": "hook",
+    "text": "Can't repay? Roll it over. Again.",
+    "emoji": "🔁",
+    "hot": [
+     "Again."
+    ]
+   }
+  },
+  {
+   "say": "Here's how the trap worked. You borrow to cover a gap. On payday, repaying leaves you short again. So you borrow again. Each time, fees and interest are added, and the debt grows bigger than the original loan.",
+   "vis": {
+    "type": "flow",
+    "title": "The payday loan trap",
+    "nodes": [
+     [
+      "💸",
+      "Borrow to cover a gap"
+     ],
+     [
+      "📅",
+      "Repaying leaves you short"
+     ],
+     [
+      "🔁",
+      "Borrow again"
+     ],
+     [
+      "📈",
+      "Debt keeps growing"
+     ]
+    ],
+    "color": "red",
+    "coin": "💸"
+   }
+  },
+  {
+   "say": "Some people ended up paying back several times what they'd originally borrowed. Late payment fees, rollover charges and default fees could pile on top.",
+   "vis": {
+    "type": "hook",
+    "text": "Paying back several times the original loan.",
+    "emoji": "🧾",
+    "hot": [
+     "several"
+    ]
+   }
+  },
+  {
+   "say": "Some lenders also took repayments directly from borrowers' bank accounts using continuous payment authorities, sometimes taking money before people could pay for essentials like rent and food.",
+   "vis": {
+    "type": "hook",
+    "text": "Repayments taken straight from accounts.",
+    "emoji": "🏦",
+    "hot": [
+     "straight"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The crackdown.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The crackdown"
+   }
+  },
+  {
+   "say": "In twenty fourteen, the Financial Conduct Authority took over regulating consumer credit. And on the second of January, twenty fifteen, it introduced a strict price cap on payday loans.",
+   "vis": {
+    "type": "hook",
+    "text": "January 2015: the price cap.",
+    "emoji": "⚖️",
+    "hot": [
+     "cap."
+    ]
+   }
+  },
+  {
+   "say": "The cap has three parts. Interest and fees can't be more than zero point eight percent per day of the amount borrowed. Default fees are capped at fifteen pounds. And you can never pay back more than double what you borrowed, in total.",
+   "vis": {
+    "type": "list",
+    "title": "The FCA payday cap",
+    "items": [
+     [
+      "📆",
+      "Max 0.8% per day"
+     ],
+     [
+      "💷",
+      "£15 cap on default fees"
+     ],
+     [
+      "✖️",
+      "Never repay more than double"
+     ],
+     [
+      "🔍",
+      "Stricter affordability checks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So if you borrow one hundred pounds for thirty days, the maximum you can be charged in interest and fees is twenty four pounds. And however long it goes on, you'll never pay more than one hundred pounds in charges on that one hundred pound loan.",
+   "vis": {
+    "type": "doc",
+    "title": "Borrowing £100 for 30 days",
+    "lines": [
+     [
+      "Borrowed",
+      "£100"
+     ],
+     [
+      "Max per day",
+      "0.8% = 80p"
+     ],
+     [
+      "Max for 30 days",
+      "£24"
+     ],
+     [
+      "Absolute max charges",
+      "£100"
+     ]
+    ],
+    "stamp": "CAPPED",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Part four. The fall of Wonga.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The fall of Wonga"
+   }
+  },
+  {
+   "say": "Wonga was the biggest name in payday lending. It advertised heavily, sponsored football clubs, and at one point advertised representative APRs of several thousand percent.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🐑",
+    "text": "Wonga",
+    "sub": "The UK's biggest payday lender",
+    "color": "red"
+   }
+  },
+  {
+   "say": "After the new rules, and a flood of compensation claims from customers who'd been lent money they couldn't afford to repay, Wonga collapsed into administration in August twenty eighteen.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Early 2010s",
+      "Payday boom"
+     ],
+     [
+      "2015",
+      "FCA price cap"
+     ],
+     [
+      "2017",
+      "FCA review keeps cap"
+     ],
+     [
+      "Aug 2018",
+      "Wonga collapses",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A review by the FCA in twenty seventeen estimated that around seven hundred and sixty thousand borrowers were saving a combined one hundred and fifty million pounds a year because of the cap.",
+   "vis": {
+    "type": "hook",
+    "text": "Borrowers saving £150 million a year.",
+    "emoji": "✅",
+    "hot": [
+     "£150"
+    ]
+   }
+  },
+  {
+   "say": "Critics of the cap worried people would turn to illegal loan sharks instead. The FCA's review found limited evidence of that, but concerns about illegal lending haven't gone away.",
+   "vis": {
+    "type": "hook",
+    "text": "Did borrowers turn to loan sharks?",
+    "emoji": "🦈",
+    "hot": [
+     "loan",
+     "sharks?"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Still a risk.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Still a risk"
+   }
+  },
+  {
+   "say": "Payday loans still exist, and they're still expensive. And other forms of high cost credit, like some buy now pay later deals, rent to own, and unlicensed loan sharks, can trap people too.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Regulated lenders",
+     "emoji": "🏛️",
+     "lines": [
+      "Capped costs",
+      "Affordability checks"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Loan sharks",
+     "emoji": "🦈",
+     "lines": [
+      "Illegal",
+      "No limits, threats"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part six. Safer alternatives.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Safer alternatives"
+   }
+  },
+  {
+   "say": "If you're short before payday, there are often better options. Talk to your bank about an arranged overdraft, which is usually cheaper. Credit unions offer small loans at much lower rates. Some employers offer salary advances. And free debt advice is available.",
+   "vis": {
+    "type": "list",
+    "title": "Better options",
+    "items": [
+     [
+      "🏦",
+      "Credit unions"
+     ],
+     [
+      "💼",
+      "Employer salary advance"
+     ],
+     [
+      "🏛️",
+      "Help from your local council"
+     ],
+     [
+      "📞",
+      "Free debt advice charities"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "If you're struggling with bills, contact the company early. Many energy suppliers, councils and lenders have hardship schemes, and it's usually far better than borrowing at high cost.",
+   "vis": {
+    "type": "hook",
+    "text": "Talk to creditors early.",
+    "emoji": "📞",
+    "hot": [
+     "early."
+    ]
+   }
+  },
+  {
+   "say": "In the UK, free, confidential debt advice is available from organisations like StepChange, Citizens Advice and National Debtline. You never need to pay for debt advice.",
+   "vis": {
+    "type": "hook",
+    "text": "Free debt advice is always available.",
+    "emoji": "📞",
+    "hot": [
+     "Free"
+    ]
+   }
+  },
+  {
+   "say": "Payday loans showed what happens when expensive credit is easy to get, and hard to escape. The rules are much tougher now. But the best protection is knowing the real cost before you borrow.",
+   "vis": {
+    "type": "hook",
+    "text": "Know the real cost before you borrow.",
+    "emoji": "🔍",
+    "hot": [
+     "real",
+     "cost"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "1,000%+|INTEREST",
+  "emoji": "💸",
+  "color": "red",
+  "tag": "Living"
+ }
+}

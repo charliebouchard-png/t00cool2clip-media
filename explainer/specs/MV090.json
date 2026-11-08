@@ -1,0 +1,377 @@
+{
+ "id": "MV090",
+ "style": "chalk",
+ "variant": 2,
+ "voice": "af_bella",
+ "speed": 0.82,
+ "trans": "fade",
+ "title": "Why Prices End in 99p",
+ "beats": [
+  {
+   "say": "Four pounds ninety nine. It's just one penny less than five pounds. So why does it feel so much cheaper? And why do so many prices end in ninety nine? The answer is in how your brain reads numbers.",
+   "vis": {
+    "type": "hook",
+    "text": "Just 1p less. Feels much cheaper.",
+    "emoji": "🏷️",
+    "hot": [
+     "much"
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. The left digit effect.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The left digit effect"
+   }
+  },
+  {
+   "say": "We read numbers from left to right. And our brains give a lot of weight to the first digit we see. When you see four pounds ninety nine, your brain grabs the four, and files it as about four pounds, not five.",
+   "vis": {
+    "type": "hook",
+    "text": "Your brain grabs the first digit.",
+    "emoji": "🧠",
+    "hot": [
+     "first"
+    ]
+   }
+  },
+  {
+   "say": "Prices ending in nine are everywhere. Supermarkets, fashion, electronics, cars, even houses priced at two hundred and forty nine thousand, nine hundred and ninety five pounds.",
+   "vis": {
+    "type": "list",
+    "title": "Where you'll see charm pricing",
+    "items": [
+     [
+      "🛒",
+      "Supermarkets"
+     ],
+     [
+      "👕",
+      "Fashion"
+     ],
+     [
+      "📱",
+      "Electronics"
+     ],
+     [
+      "🏠",
+      "Even houses"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In twenty oh five, two researchers at New York University, Manoj Thomas and Vicki Morwitz, published a study on this. They found that prices ending in ninety nine feel noticeably cheaper mainly when the ending changes the leftmost digit.",
+   "vis": {
+    "type": "doc",
+    "title": "The left digit effect, 2005 study",
+    "lines": [
+     [
+      "Researchers",
+      "Thomas and Morwitz"
+     ],
+     [
+      "Published",
+      "Journal of Consumer Research"
+     ],
+     [
+      "Key finding",
+      "Left digit matters most"
+     ],
+     [
+      "Example",
+      "£3.00 vs £2.99"
+     ]
+    ],
+    "stamp": "STUDY",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "So dropping a price from three pounds to two pounds ninety nine has a big effect, because the three becomes a two. But dropping from three pounds sixty to three pounds fifty nine has much less effect, because the first digit stays the same.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Big effect",
+     "emoji": "✅",
+     "lines": [
+      "£3.00 to £2.99",
+      "Left digit changes"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Small effect",
+     "emoji": "➖",
+     "lines": [
+      "£3.60 to £3.59",
+      "Left digit stays"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Some research also suggests prices ending in nine signal a deal. Shoppers learn that sale prices often end in nine, so a nine can make a price feel like a bargain, even when it isn't.",
+   "vis": {
+    "type": "hook",
+    "text": "A nine can signal a bargain.",
+    "emoji": "🏷️",
+    "hot": [
+     "bargain"
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. The origin story.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The origin story"
+   }
+  },
+  {
+   "say": "There's a popular story about where ninety nine pricing came from. That shopkeepers used odd prices so cashiers had to open the till to give change, making it harder to pocket the money. It's a nice story, but there's little firm evidence for it.",
+   "vis": {
+    "type": "hook",
+    "text": "The till-theft story? Little evidence.",
+    "emoji": "🧾",
+    "hot": [
+     "Little"
+    ]
+   }
+  },
+  {
+   "say": "What we do know is that prices ending in nines have been used for well over a century, and that modern research shows they really can change how people feel about a price.",
+   "vis": {
+    "type": "hook",
+    "text": "Used for over a century. And it works.",
+    "emoji": "📆",
+    "hot": [
+     "works."
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. Other price tricks.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Other price tricks"
+   }
+  },
+  {
+   "say": "Ninety nine isn't the only trick. Retailers use lots of pricing psychology. Here are some of the most common.",
+   "vis": {
+    "type": "list",
+    "title": "Common pricing tricks",
+    "items": [
+     [
+      "🔢",
+      "Charm prices ending in 9"
+     ],
+     [
+      "⚓",
+      "Anchoring with a higher price"
+     ],
+     [
+      "🎯",
+      "Decoy options"
+     ],
+     [
+      "🎁",
+      "Bundles and multibuys"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Anchoring is when you're shown a high price first, so the next one looks like a bargain. Like a was price crossed out, or a very expensive option placed next to the one they want you to buy.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The anchor",
+     "emoji": "⚓",
+     "lines": [
+      "Was £100",
+      "Premium £80 option"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The target",
+     "emoji": "🎯",
+     "lines": [
+      "Now £60",
+      "Standard £40"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In the UK, there are rules about was prices. Shops are supposed to have genuinely sold at the higher price for a reasonable time, so the discount isn't fake. Consumer groups have still found plenty of questionable deals.",
+   "vis": {
+    "type": "hook",
+    "text": "Was prices must be genuine.",
+    "emoji": "📜",
+    "hot": [
+     "genuine."
+    ]
+   }
+  },
+  {
+   "say": "The decoy effect is when a third option exists mainly to make another look good. Like a medium coffee that's only a little cheaper than a large, so the large suddenly feels like great value.",
+   "vis": {
+    "type": "hook",
+    "text": "The decoy makes the target look good.",
+    "emoji": "☕",
+    "hot": [
+     "decoy"
+    ]
+   }
+  },
+  {
+   "say": "Here's an example. Small popcorn, three pounds. Medium, five pounds fifty. Large, six pounds. Most people wouldn't pay six for popcorn. But next to a medium at five fifty, the large looks like a bargain.",
+   "vis": {
+    "type": "doc",
+    "title": "The decoy at the cinema",
+    "lines": [
+     [
+      "Small",
+      "£3.00"
+     ],
+     [
+      "Medium (decoy)",
+      "£5.50"
+     ],
+     [
+      "Large",
+      "£6.00"
+     ],
+     [
+      "Result",
+      "Large feels like a deal"
+     ]
+    ],
+    "stamp": "DECOY",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Restaurants use menu tricks too. Leaving off the pound sign, so prices feel less like money. And placing an expensive dish at the top, so everything else looks reasonable.",
+   "vis": {
+    "type": "hook",
+    "text": "Menus drop the £ sign on purpose.",
+    "emoji": "🍽️",
+    "hot": [
+     "purpose."
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. Round prices.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Round prices"
+   }
+  },
+  {
+   "say": "Interestingly, luxury brands often do the opposite. They use round prices, like two hundred pounds, not one ninety nine. Round numbers feel premium, simple and confident. A ninety nine price can feel like a discount, which isn't the image they want.",
+   "vis": {
+    "type": "hook",
+    "text": "Luxury brands prefer round numbers.",
+    "emoji": "💎",
+    "hot": [
+     "round"
+    ]
+   }
+  },
+  {
+   "say": "Other tricks include odd quantities, like three for ten pounds, which encourage you to buy more than you need, and subscriptions priced per day, like just thirty pence a day, which sounds tiny compared with a yearly total.",
+   "vis": {
+    "type": "list",
+    "title": "More pricing tricks",
+    "items": [
+     [
+      "3️⃣",
+      "Three for £10"
+     ],
+     [
+      "📆",
+      "Pennies per day"
+     ],
+     [
+      "🆓",
+      "Free with purchase"
+     ],
+     [
+      "⏳",
+      "Limited-time offers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. How to see through it.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "See through it"
+   }
+  },
+  {
+   "say": "So how do you protect yourself? Round prices up in your head. Four ninety nine is five pounds. Compare unit prices. Ignore the was price. And ask yourself, would I buy this at the full round number?",
+   "vis": {
+    "type": "list",
+    "title": "See through pricing tricks",
+    "items": [
+     [
+      "⬆️",
+      "Round prices up"
+     ],
+     [
+      "⚖️",
+      "Compare unit prices"
+     ],
+     [
+      "🚫",
+      "Ignore 'was' prices"
+     ],
+     [
+      "🤔",
+      "Would I pay the round number?"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Ninety nine pricing works because our brains take shortcuts. You can't switch those shortcuts off. But once you know they're there, you can catch yourself, and make the decision on purpose.",
+   "vis": {
+    "type": "hook",
+    "text": "Know the shortcut. Decide on purpose.",
+    "emoji": "🧠",
+    "hot": [
+     "purpose."
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more money psychology explained simply, and tell me in the comments which pricing trick you fall for most.",
+   "vis": {
+    "type": "outro",
+    "text": "Which pricing trick gets you?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£4.99 ≠ £5?",
+  "emoji": "🏷️",
+  "color": "gold",
+  "tag": "Minds"
+ }
+}

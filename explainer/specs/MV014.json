@@ -3,7 +3,7 @@
  "style": "neon",
  "variant": 2,
  "voice": "bf_emma",
- "speed": 0.88,
+ "speed": 0.86,
  "trans": "glitch",
  "title": "How Vending Machines Quietly Make Money",
  "beats": [
@@ -325,6 +325,42 @@
       "🚫",
       "No shop nearby"
      ]
+    ]
+   }
+  },
+  {
+   "say": "Smart operators also match the stock to the spot. Energy drinks and protein bars in a gym. Healthy snacks and water in a hospital. Chocolate and crisps in a factory canteen on the night shift. The right products can double what one machine sells.",
+   "vis": {
+    "type": "list",
+    "title": "Match the stock to the spot",
+    "items": [
+     [
+      "🏋️",
+      "Gym: protein and energy drinks"
+     ],
+     [
+      "🏥",
+      "Hospital: water and healthy snacks"
+     ],
+     [
+      "🏭",
+      "Night shift: chocolate and crisps"
+     ],
+     [
+      "🎓",
+      "College: cheap meal deals"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And pricing matters. Charge too little, and the margins vanish. Charge too much, and people walk to the shop down the road. The sweet spot is a price people accept because the machine is right there, right now.",
+   "vis": {
+    "type": "hook",
+    "text": "You're selling convenience, not crisps.",
+    "emoji": "⏱️",
+    "hot": [
+     "convenience,"
     ]
    }
   },

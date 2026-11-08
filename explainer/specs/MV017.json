@@ -1,0 +1,457 @@
+{
+ "id": "MV017",
+ "style": "collage",
+ "variant": 2,
+ "voice": "af_sarah",
+ "speed": 0.88,
+ "trans": "slap",
+ "title": "How Theme Parks Make Money (It's Not the Tickets)",
+ "beats": [
+  {
+   "say": "A theme park ticket gets you through the gate. But the moment you walk in, the real selling begins.",
+   "vis": {
+    "type": "hook",
+    "text": "The ticket gets you in. Then the selling starts.",
+    "emoji": "🎢",
+    "hot": [
+     "selling"
+    ]
+   }
+  },
+  {
+   "say": "Food. Drinks. Photos of you screaming on a ride. Toys. Fast passes to skip the queue. Hotels. Season passes. A family day out can easily cost far more than the tickets themselves.",
+   "vis": {
+    "type": "list",
+    "title": "After you walk through the gate",
+    "items": [
+     [
+      "🍔",
+      "Food and drinks"
+     ],
+     [
+      "📸",
+      "Ride photos"
+     ],
+     [
+      "🧸",
+      "Toys and souvenirs"
+     ],
+     [
+      "⚡",
+      "Fast passes"
+     ],
+     [
+      "🏨",
+      "Hotels"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So how do theme parks really make their money? It's a mix of clever pricing, queue psychology, and keeping you inside for as long as possible.",
+   "vis": {
+    "type": "hook",
+    "text": "Pricing. Queues. Keeping you inside.",
+    "emoji": "🎡",
+    "hot": [
+     "Queues."
+    ]
+   }
+  },
+  {
+   "say": "Part one. The ticket price game.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The ticket price game"
+   }
+  },
+  {
+   "say": "Turn up at the gate on a sunny Saturday in August, and you'll often pay the highest price of the year. Book online, weeks ahead, for a quiet weekday, and the same ticket can be much cheaper.",
+   "vis": {
+    "type": "bars",
+    "title": "Same ticket, different prices (illustrative)",
+    "prefix": "£",
+    "items": [
+     [
+      "Online, quiet weekday",
+      35,
+      "teal"
+     ],
+     [
+      "Online, busy weekend",
+      50,
+      "gold"
+     ],
+     [
+      "At the gate, peak day",
+      70,
+      "red"
+     ]
+    ],
+    "max": 75,
+    "source": "Illustrative; most big UK parks use date-based online pricing"
+   }
+  },
+  {
+   "say": "This is called dynamic pricing. It spreads visitors more evenly, fills quiet days, and makes the most money on busy ones. It also gets you to commit early, so you're less likely to change your plans.",
+   "vis": {
+    "type": "flow",
+    "title": "Why parks change prices",
+    "nodes": [
+     [
+      "📅",
+      "Quiet days cheaper"
+     ],
+     [
+      "☀️",
+      "Busy days pricier"
+     ],
+     [
+      "🎟️",
+      "Book early to save"
+     ],
+     [
+      "💷",
+      "Park earns more overall"
+     ]
+    ],
+    "color": "red",
+    "coin": "🎟️"
+   }
+  },
+  {
+   "say": "And there are deals everywhere. Two for one vouchers on cereal boxes and train tickets. These bring in people who would never pay full price, and then the park makes its money from them inside.",
+   "vis": {
+    "type": "hook",
+    "text": "Cheap tickets get you in. Inside is where you pay.",
+    "emoji": "🎫",
+    "hot": [
+     "Inside"
+    ]
+   }
+  },
+  {
+   "say": "Parking is another little earner. Many big parks charge for the car park, so a family pays before they've even reached the gate.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🅿️",
+    "text": "Pay before you even get in",
+    "sub": "Car park charges at many big parks",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part two. The spend inside.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The spend inside"
+   }
+  },
+  {
+   "say": "The industry has a name for the money you spend after the gate. Secondary spend. Food, drink, games, photos and shops. For many parks, it's a huge part of their income.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧾",
+    "text": "Secondary spend",
+    "sub": "Everything you buy after the gate",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Food is the classic. Once you're inside, you can't nip out to a supermarket. A burger, chips and a drink for a family of four can cost as much as another ticket.",
+   "vis": {
+    "type": "doc",
+    "title": "Lunch for a family of four (illustrative)",
+    "lines": [
+     [
+      "4 burger meals",
+      "£48"
+     ],
+     [
+      "4 drinks",
+      "£14"
+     ],
+     [
+      "4 ice creams",
+      "£16"
+     ],
+     [
+      "Total",
+      "£78"
+     ]
+    ],
+    "stamp": "PRICEY",
+    "stampAt": 6
+   }
+  },
+  {
+   "say": "That's why many parks have rules about bringing your own food, or why picnic areas are tucked away at the edges. The easier it is to buy food, and the harder it is to bring it, the more the park earns.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Park food",
+     "emoji": "🍔",
+     "lines": [
+      "Everywhere you look",
+      "Easy to buy"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Your picnic",
+     "emoji": "🧺",
+     "lines": [
+      "Tucked away",
+      "A bit of effort"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "Then there's the ride photo. Cameras snap you at the scariest moment, and the picture is waiting on a screen as you walk out. It's an impulse buy, perfectly timed, when you're still buzzing.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📸",
+    "text": "The ride photo",
+    "sub": "Sold to you while you're still buzzing",
+    "color": "red"
+   }
+  },
+  {
+   "say": "And every big ride seems to end in a shop. You step off the coaster, and walk straight through a store full of toys and t-shirts with the ride's logo on.",
+   "vis": {
+    "type": "flow",
+    "title": "Exit through the gift shop",
+    "nodes": [
+     [
+      "🎢",
+      "Big ride"
+     ],
+     [
+      "📸",
+      "Ride photo"
+     ],
+     [
+      "🛍️",
+      "Gift shop"
+     ],
+     [
+      "🚪",
+      "Exit"
+     ]
+    ],
+    "color": "red",
+    "coin": "🛍️"
+   }
+  },
+  {
+   "say": "Part three. Selling time.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Selling time"
+   }
+  },
+  {
+   "say": "On a busy day, queues for the big rides can be an hour or more. And the park has turned that problem into a product. Pay extra, and you can skip the line with a fast pass.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal queue",
+     "emoji": "🐢",
+     "lines": [
+      "An hour or more",
+      "Free"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Fast pass",
+     "emoji": "⚡",
+     "lines": [
+      "Minutes",
+      "Costs extra"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It's genius, in a slightly uncomfortable way. The longer the normal queues, the more valuable the fast pass becomes. Big parks around the world, including Disney, now sell paid queue skipping.",
+   "vis": {
+    "type": "hook",
+    "text": "Longer queues make fast passes worth more.",
+    "emoji": "⏳",
+    "hot": [
+     "fast",
+     "passes"
+    ]
+   }
+  },
+  {
+   "say": "Queues are also designed to feel shorter. They twist and turn so you can't see the end. There are screens, themed scenery and music. A queue that feels fun is a queue people will put up with, and come back to.",
+   "vis": {
+    "type": "list",
+    "title": "Tricks to make queues feel shorter",
+    "items": [
+     [
+      "🌀",
+      "Winding lines hide the length"
+     ],
+     [
+      "📺",
+      "Screens and scenery"
+     ],
+     [
+      "🎵",
+      "Music and sound"
+     ],
+     [
+      "⏱️",
+      "Posted waits often on the high side"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. Keep them coming back.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Keep them coming back"
+   }
+  },
+  {
+   "say": "Season passes and annual passes look like amazing value. Go three or four times and they've paid for themselves. But every visit is another chance to sell food, drinks and souvenirs.",
+   "vis": {
+    "type": "flow",
+    "title": "Why parks love annual passes",
+    "nodes": [
+     [
+      "🎫",
+      "Buy an annual pass"
+     ],
+     [
+      "🔁",
+      "Visit again and again"
+     ],
+     [
+      "🍔",
+      "Spend inside each time"
+     ],
+     [
+      "💷",
+      "More money overall"
+     ]
+    ],
+    "color": "red",
+    "coin": "🎫"
+   }
+  },
+  {
+   "say": "Many parks also build hotels on site. If you stay overnight, you spend two days inside the resort instead of one, and you eat every meal there.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏨",
+    "text": "The on-site hotel",
+    "sub": "Two days of spending instead of one",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Some go even further, with themed lands based on films and TV shows. When a ride is linked to a story you already love, you'll pay more for the toy, the costume and the photo at the end.",
+   "vis": {
+    "type": "list",
+    "title": "Why themed lands pay",
+    "items": [
+     [
+      "🎬",
+      "Linked to films you love"
+     ],
+     [
+      "🧸",
+      "Toys you can't get elsewhere"
+     ],
+     [
+      "👗",
+      "Costumes and dressing up"
+     ],
+     [
+      "📸",
+      "Photos with characters"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And every few years, a big new ride opens. It gives people a reason to come back, even if they've already been. That's why parks keep spending millions on new rollercoasters.",
+   "vis": {
+    "type": "hook",
+    "text": "A new ride is an advert for coming back.",
+    "emoji": "🎢",
+    "hot": [
+     "coming",
+     "back."
+    ]
+   }
+  },
+  {
+   "say": "So how do you have a great day without being drained? Book early for a quiet day. Bring your own snacks and water if allowed. Decide your budget before you go in. And skip the photo unless it's truly special.",
+   "vis": {
+    "type": "list",
+    "title": "Beat the theme park",
+    "items": [
+     [
+      "📅",
+      "Book early, quiet days"
+     ],
+     [
+      "🧺",
+      "Bring snacks if allowed"
+     ],
+     [
+      "💷",
+      "Set a budget first"
+     ],
+     [
+      "📸",
+      "Skip the photo"
+     ],
+     [
+      "🕐",
+      "Arrive early, ride big ones first"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Because a theme park isn't really selling rides. It's selling a whole day of moments. And every moment has a price tag.",
+   "vis": {
+    "type": "hook",
+    "text": "Every moment has a price tag.",
+    "emoji": "🏷️",
+    "hot": [
+     "price",
+     "tag."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more on how the places you love really make their money, and tell me in the comments which theme park is your favourite.",
+   "vis": {
+    "type": "outro",
+    "text": "What's your favourite theme park?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE TICKET|IS JUST THE|START",
+  "emoji": "🎢",
+  "color": "gold",
+  "tag": "How it makes money"
+ }
+}

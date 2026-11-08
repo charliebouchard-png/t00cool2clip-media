@@ -1,0 +1,440 @@
+{
+ "id": "MV021",
+ "style": "ledger",
+ "variant": 2,
+ "voice": "bm_fable",
+ "speed": 0.88,
+ "trans": "pan",
+ "title": "Brink's-Mat: The Robbery That Found £26 Million in Gold",
+ "beats": [
+  {
+   "say": "In nineteen eighty three, a gang of armed robbers broke into a warehouse near Heathrow looking for about a million pounds in cash. Instead, they found three tonnes of gold.",
+   "vis": {
+    "type": "hook",
+    "text": "They came for cash. They found three tonnes of gold.",
+    "emoji": "🥇",
+    "hot": [
+     "gold."
+    ]
+   }
+  },
+  {
+   "say": "It was worth twenty six million pounds at the time, around two hundred and ninety million in today's money. And most of it has never been found.",
+   "vis": {
+    "type": "bars",
+    "title": "The Brink's-Mat haul",
+    "prefix": "£",
+    "suffix": "m",
+    "items": [
+     [
+      "Value in 1983",
+      26,
+      "gold"
+     ],
+     [
+      "In 2025 money",
+      290,
+      "red"
+     ]
+    ],
+    "max": 310,
+    "source": "Inflation-adjusted estimate"
+   }
+  },
+  {
+   "say": "The Brink's-Mat robbery didn't just make a few men rich. It launched one of the biggest money laundering stories in British history, and a string of deaths people still call the curse of Brink's-Mat.",
+   "vis": {
+    "type": "list",
+    "title": "What followed",
+    "items": [
+     [
+      "🔥",
+      "Gold melted down"
+     ],
+     [
+      "🏠",
+      "Money spread into property"
+     ],
+     [
+      "⚖️",
+      "Trials for years"
+     ],
+     [
+      "💀",
+      "The 'curse'"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The job.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The job"
+   }
+  },
+  {
+   "say": "Early on the morning of the twenty sixth of November, nineteen eighty three, six armed men entered the Brink's-Mat warehouse on a trading estate at Heathrow.",
+   "vis": {
+    "type": "map",
+    "title": "Heathrow, west London",
+    "pins": [
+     [
+      "Brink's-Mat warehouse",
+      0.42,
+      0.42,
+      "gold"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "They had help. A security guard, Anthony Black, had given the gang a copy of a key and details of the security. He was the brother-in-law of one of the robbers.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🗝️",
+    "text": "The inside man",
+    "sub": "A guard who supplied a key impression and security details",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "The robbers tied up the guards, poured petrol on some of them and threatened to set them alight unless they opened the vault. It was a violent, terrifying raid.",
+   "vis": {
+    "type": "hook",
+    "text": "A terrifying raid.",
+    "emoji": "⚠️",
+    "hot": [
+     "terrifying"
+    ],
+    "color": "red"
+   }
+  },
+  {
+   "say": "They expected around a million pounds in Spanish pesetas. Instead, they found six thousand eight hundred bars of gold, plus diamonds and travellers' cheques.",
+   "vis": {
+    "type": "num",
+    "value": 6800,
+    "label": "gold bars, about three tonnes",
+    "color": "gold",
+    "emoji": "🧈",
+    "source": "Records of the Brink's-Mat case"
+   }
+  },
+  {
+   "say": "The gold was there because it had been left outside the main vault, waiting to be shipped. The gang simply got very lucky with their timing, and very unlucky with what came next.",
+   "vis": {
+    "type": "hook",
+    "text": "Lucky timing. Unlucky future.",
+    "emoji": "🍀",
+    "hot": [
+     "Unlucky"
+    ]
+   }
+  },
+  {
+   "say": "Think about the weight. Three tonnes is about the same as two family cars. The robbers had to load it into a van and drive away with it, across west London, before anyone raised the alarm.",
+   "vis": {
+    "type": "num",
+    "value": 3,
+    "suffix": " tonnes",
+    "label": "of gold, about the weight of two family cars",
+    "color": "gold",
+    "emoji": "🚐",
+    "source": "About 96,000 troy ounces of gold"
+   }
+  },
+  {
+   "say": "Part two. A problem nobody plans for.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Too much gold"
+   }
+  },
+  {
+   "say": "Stealing three tonnes of gold is one thing. Turning it into money you can spend is something else. Every bar was stamped and numbered. Nobody could walk into a shop and sell one.",
+   "vis": {
+    "type": "hook",
+    "text": "Stealing it was the easy part.",
+    "emoji": "🤯",
+    "hot": [
+     "easy"
+    ]
+   }
+  },
+  {
+   "say": "So the gang turned to people who knew how to make gold disappear. Kenneth Noye melted and recast the bullion, and gold was reportedly mixed with copper coins to disguise where it came from.",
+   "vis": {
+    "type": "flow",
+    "title": "Making gold disappear",
+    "nodes": [
+     [
+      "🧈",
+      "Stamped gold bars"
+     ],
+     [
+      "🔥",
+      "Melted down"
+     ],
+     [
+      "🪙",
+      "Mixed with copper"
+     ],
+     [
+      "🏪",
+      "Sold as 'new' gold"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🥇"
+   }
+  },
+  {
+   "say": "The recast gold was sold back into the legitimate market. By some estimates, around half of it had re-entered the market by the mid nineteen nineties. Some even ended up in jewellery people still wear today.",
+   "vis": {
+    "type": "hook",
+    "text": "Some of it may be in jewellery today.",
+    "emoji": "💍",
+    "hot": [
+     "jewellery"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Where the money went.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Where the money went"
+   }
+  },
+  {
+   "say": "The cash from the gold was then laundered through banks, offshore companies and property. Detectives believe some of it helped fund building projects in London's Docklands, which was being redeveloped at the time.",
+   "vis": {
+    "type": "flow",
+    "title": "Following the money",
+    "nodes": [
+     [
+      "🥇",
+      "Gold sold"
+     ],
+     [
+      "🏦",
+      "Bank accounts"
+     ],
+     [
+      "🏝️",
+      "Offshore companies"
+     ],
+     [
+      "🏗️",
+      "Property"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "Large sums appeared in bank accounts in places like Jersey and the Isle of Man, and in companies set up overseas. Some of the people helping were respectable professionals, like solicitors, which made the money look clean.",
+   "vis": {
+    "type": "map",
+    "title": "Where the money went",
+    "pins": [
+     [
+      "London",
+      0.47,
+      0.28,
+      "gold"
+     ],
+     [
+      "Jersey",
+      0.44,
+      0.36,
+      "gold"
+     ],
+     [
+      "Isle of Man",
+      0.43,
+      0.22,
+      "gold"
+     ],
+     [
+      "Overseas",
+      0.25,
+      0.5,
+      "gold"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "It's a perfect example of how laundering works. Turn the stolen goods into cash, move the cash through enough places, and finally put it into something solid and respectable, like buildings.",
+   "vis": {
+    "type": "list",
+    "title": "Laundering in three steps",
+    "items": [
+     [
+      "📥",
+      "Get the money into the system"
+     ],
+     [
+      "🌀",
+      "Move it around to hide the trail"
+     ],
+     [
+      "🏢",
+      "Invest it in something respectable"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. The arrests.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The arrests"
+   }
+  },
+  {
+   "say": "The inside man was the weak link. Police soon focused on Anthony Black, and he gave evidence against the gang. In nineteen eighty four, two of the robbers, Micky McAvoy and Brian Robinson, were sentenced to twenty five years each.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1983",
+      "The robbery"
+     ],
+     [
+      "1984",
+      "McAvoy and Robinson jailed for 25 years"
+     ],
+     [
+      "1986",
+      "Kenneth Noye jailed for handling the gold"
+     ],
+     [
+      "Years later",
+      "More launderers convicted",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Kenneth Noye was later jailed for conspiring to handle the gold. Others were convicted for laundering the money over the following years. But most of the gold was never recovered.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Caught",
+     "emoji": "⛓️",
+     "lines": [
+      "Robbers jailed",
+      "Launderers convicted"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "Never found",
+     "emoji": "❓",
+     "lines": [
+      "Most of the gold",
+      "Much of the money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Noye had become a suspect partly because of a surveillance operation at his home in Kent. During it, he killed an undercover police officer, John Fordham. Noye was acquitted of murder, saying he acted in self defence, but the case shocked the country.",
+   "vis": {
+    "type": "headline",
+    "kicker": "1985",
+    "paper": "THE LONDON ARGUS",
+    "text": "Undercover detective killed during Brink's-Mat surveillance",
+    "date": "Noye was acquitted of murder after claiming self-defence"
+   }
+  },
+  {
+   "say": "Part five. The curse.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The curse"
+   }
+  },
+  {
+   "say": "In the years that followed, several men allegedly connected to the money were shot dead. The newspapers started calling it the curse of Brink's-Mat.",
+   "vis": {
+    "type": "headline",
+    "kicker": "The curse",
+    "paper": "THE LONDON ARGUS",
+    "text": "The 'curse of Brink's-Mat' strikes again",
+    "date": "Several men linked to the money were later killed"
+   }
+  },
+  {
+   "say": "The real explanation wasn't supernatural. When huge sums of criminal money are hidden, shared and fought over, with no courts to settle arguments, people get hurt.",
+   "vis": {
+    "type": "hook",
+    "text": "Dirty money has no courts to settle arguments.",
+    "emoji": "⚖️",
+    "hot": [
+     "no",
+     "courts"
+    ]
+   }
+  },
+  {
+   "say": "The Brink's-Mat robbery changed security in Britain. Cash and valuables depots tightened their rules about how much was stored in one place, and how many people knew it was there.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "🔐",
+      "Tighter vault security"
+     ],
+     [
+      "🤐",
+      "Fewer people know what's stored"
+     ],
+     [
+      "🧾",
+      "Better tracking of gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And it shows the hardest part of any big crime isn't the robbery. It's what comes after. A gold bar is useless until someone turns it into clean money, and every person who helps is another person who might talk.",
+   "vis": {
+    "type": "hook",
+    "text": "The robbery is easy. The money is the hard part.",
+    "emoji": "💡",
+    "hot": [
+     "money"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories of heists and the money behind them, and tell me in the comments which robbery I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which robbery should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THEY CAME|FOR CASH.|FOUND GOLD.",
+  "emoji": "🥇",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

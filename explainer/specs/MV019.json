@@ -1,0 +1,422 @@
+{
+ "id": "MV019",
+ "style": "documentary",
+ "voice": "bm_george",
+ "speed": 0.88,
+ "title": "The Hatton Garden Heist: The Pensioners Who Robbed London",
+ "beats": [
+  {
+   "say": "The biggest burglary in English legal history was carried out by a gang of men in their sixties and seventies. One of them was seventy six years old.",
+   "vis": {
+    "type": "hook",
+    "text": "England's biggest burglary. Pulled off by pensioners.",
+    "emoji": "💎",
+    "hot": [
+     "pensioners."
+    ]
+   }
+  },
+  {
+   "say": "Over the Easter weekend of twenty fifteen, they broke into a safe deposit vault under the jewellery district of London and walked away with at least fourteen million pounds in jewels, gold and cash.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 14,
+    "suffix": " million+",
+    "label": "in jewels, gold and cash, at the very least",
+    "color": "gold",
+    "emoji": "💍",
+    "source": "Court reports, 2016"
+   }
+  },
+  {
+   "say": "No guns. No violence. Just drills, crowbars, decades of experience, and one of the most audacious plans London had ever seen. This is the story of the Hatton Garden heist.",
+   "vis": {
+    "type": "headline",
+    "kicker": "April 2015",
+    "paper": "THE LONDON EVENING RECORD",
+    "text": "Raiders empty safe deposit boxes in Hatton Garden vault",
+    "date": "Easter weekend, 2015"
+   }
+  },
+  {
+   "say": "Part one. The target.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The target"
+   }
+  },
+  {
+   "say": "Hatton Garden is London's jewellery quarter, a street lined with diamond dealers and goldsmiths. Underneath one of its buildings was the Hatton Garden Safe Deposit company, a vault where jewellers kept their stock and wealthy people kept their secrets.",
+   "vis": {
+    "type": "map",
+    "title": "London's jewellery quarter",
+    "pins": [
+     [
+      "Hatton Garden",
+      0.5,
+      0.45,
+      "gold"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "The vault was protected by thick concrete walls, steel doors and an alarm. But the gang had one huge advantage. A long holiday weekend, when the building would be empty for days.",
+   "vis": {
+    "type": "list",
+    "title": "The plan",
+    "items": [
+     [
+      "📅",
+      "Easter bank holiday weekend"
+     ],
+     [
+      "🏢",
+      "Building empty for days"
+     ],
+     [
+      "🛗",
+      "Go down the lift shaft"
+     ],
+     [
+      "🔩",
+      "Drill through the vault wall"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. The gang.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The gang"
+   }
+  },
+  {
+   "say": "The alleged mastermind was Brian Reader, a career criminal who had been linked to the Brink's-Mat gold robbery decades before. With him were Terry Perkins, John Collins, Danny Jones, Carl Wood, and a mysterious man the others called Basil.",
+   "vis": {
+    "type": "list",
+    "title": "The gang (ages when sentenced)",
+    "items": [
+     [
+      "👴",
+      "Brian Reader, 77"
+     ],
+     [
+      "👴",
+      "John 'Kenny' Collins, 75"
+     ],
+     [
+      "👴",
+      "Terry Perkins, 67"
+     ],
+     [
+      "🧔",
+      "Danny Jones, 61"
+     ],
+     [
+      "🧔",
+      "Carl Wood, 59"
+     ],
+     [
+      "❓",
+      "'Basil'"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The press would later call them the Diamond Wheezers and Dad's Army. Between them, the six men were nearly four hundred years old. But several of them had spent a lifetime in crime.",
+   "vis": {
+    "type": "hook",
+    "text": "Dad's Army, with a diamond drill.",
+    "emoji": "🧓",
+    "hot": [
+     "drill."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The first night.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The first night"
+   }
+  },
+  {
+   "say": "On the Thursday evening before Easter, the gang arrived dressed as workmen, in hi-vis jackets. Basil let them in through the front door. He was believed to have disabled part of the alarm system.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Thursday",
+      "Arrive dressed as workmen"
+     ],
+     [
+      "Night",
+      "Down the lift shaft"
+     ],
+     [
+      "Hours later",
+      "Drill through the wall"
+     ],
+     [
+      "Problem",
+      "A metal cabinet blocks the hole",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "They climbed down the lift shaft to the basement and used a heavy diamond-tipped drill to bore through the vault's concrete wall. It took hours. But when they finally broke through, they hit a problem. A metal cabinet was bolted to the other side, blocking the hole.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🔩",
+    "text": "Blocked",
+    "sub": "A metal cabinet on the other side of the wall",
+    "color": "red"
+   }
+  },
+  {
+   "say": "They left empty-handed. And at that point, some of the gang thought the job was over.",
+   "vis": {
+    "type": "hook",
+    "text": "Night one: empty-handed.",
+    "hot": [
+     "empty-handed."
+    ]
+   }
+  },
+  {
+   "say": "Part four. They came back.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "They came back"
+   }
+  },
+  {
+   "say": "But on the Saturday night, some of them returned, with new equipment. This time they forced the cabinet over and crawled through the hole into the vault.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Saturday night",
+    "paper": "THE LONDON EVENING RECORD",
+    "text": "The gang returns, and gets inside the vault",
+    "date": "Brian Reader and Carl Wood did not come back"
+   }
+  },
+  {
+   "say": "Inside, they smashed open dozens of safe deposit boxes and filled bags with jewellery, gems, gold and cash. Then they carried it all back up the lift shaft and drove away.",
+   "vis": {
+    "type": "doc",
+    "title": "What was taken",
+    "lines": [
+     [
+      "Diamonds and gems",
+      "Bags of them"
+     ],
+     [
+      "Gold",
+      "Yes"
+     ],
+     [
+      "Cash",
+      "Yes"
+     ],
+     [
+      "Total",
+      "£14m at least"
+     ]
+    ],
+    "stamp": "STOLEN",
+    "stampAt": 5
+   }
+  },
+  {
+   "say": "Remarkably, the alarm had been triggered during the raid. But the police response that night was graded as not needing attendance, and nobody came. The vault's owners only discovered the break-in after the bank holiday.",
+   "vis": {
+    "type": "hook",
+    "text": "The alarm went off. Nobody came.",
+    "emoji": "🚨",
+    "hot": [
+     "Nobody"
+    ]
+   }
+  },
+  {
+   "say": "The Metropolitan Police later apologised, admitting that the alarm call had been handled wrongly. If officers had gone to the building that night, the gang might have been caught in the act.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Police apology",
+    "paper": "THE LONDON EVENING RECORD",
+    "text": "Police admit alarm call during the raid was mishandled",
+    "date": "Officers were never sent to the building"
+   }
+  },
+  {
+   "say": "Part five. How they were caught.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "How they were caught"
+   }
+  },
+  {
+   "say": "The gang were old school. But the police weren't. Detectives went through CCTV and spotted a distinctive white Mercedes belonging to one of the gang. They traced it, and from there, the rest of the crew.",
+   "vis": {
+    "type": "flow",
+    "title": "Following the trail",
+    "nodes": [
+     [
+      "📹",
+      "CCTV footage"
+     ],
+     [
+      "🚗",
+      "A white Mercedes"
+     ],
+     [
+      "🎧",
+      "Bugged cars and pub chats"
+     ],
+     [
+      "🚔",
+      "Arrests"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🔍"
+   }
+  },
+  {
+   "say": "Police bugged their cars and secretly recorded them in a pub, where they bragged about the raid. Within weeks of the heist, most of them were arrested.",
+   "vis": {
+    "type": "quote",
+    "text": "They were caught by the one thing they never planned for: their own bragging.",
+    "who": "the story of the Hatton Garden heist"
+   }
+  },
+  {
+   "say": "In twenty sixteen, the main gang members were jailed. Terry Perkins died in prison in twenty eighteen. Brian Reader, the oldest, served part of his sentence and was later allowed to stay free on health grounds.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2015",
+      "The raid and arrests"
+     ],
+     [
+      "2016",
+      "Main gang jailed"
+     ],
+     [
+      "2018",
+      "Terry Perkins dies in prison"
+     ],
+     [
+      "2019",
+      "Basil finally caught",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And Basil? For years, he was the one who got away. Police finally identified him as Michael Seed, an electronics expert, arrested in twenty eighteen and jailed in twenty nineteen.",
+   "vis": {
+    "type": "icon",
+    "emoji": "👻",
+    "text": "'Basil' — the ghost",
+    "sub": "Identified as Michael Seed; jailed in 2019",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Part six. The missing loot.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The missing loot"
+   }
+  },
+  {
+   "say": "Here's the twist. Much of the stolen jewellery has never been found. Courts ordered the gang to repay millions of pounds, and several of them received extra prison time when they didn't pay.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What courts ordered",
+     "emoji": "⚖️",
+     "lines": [
+      "Pay back millions",
+      "Or serve more time"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "What happened",
+     "emoji": "❓",
+     "lines": [
+      "Loot still missing",
+      "Extra jail terms"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Some of the victims were small jewellers who lost their life's work. Some never said what they had in their boxes at all, which is why the true total of the Hatton Garden heist may never be known.",
+   "vis": {
+    "type": "hook",
+    "text": "The true total may never be known.",
+    "emoji": "🔒",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Britain loved the story of the old men who pulled off one last job. There have been films and TV dramas about it. But behind the legend were real victims, and a gang who spent their final years in prison.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The legend",
+     "emoji": "🎬",
+     "lines": [
+      "Films and TV dramas",
+      "One last job"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "The reality",
+     "emoji": "⛓️",
+     "lines": [
+      "Real victims",
+      "Final years in prison"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Subscribe for more true stories of heists, cons and the money behind them. And tell me in the comments which heist I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which heist should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE PENSIONER|ROBBERS",
+  "emoji": "💎",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

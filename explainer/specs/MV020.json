@@ -1,0 +1,498 @@
+{
+ "id": "MV020",
+ "style": "neon",
+ "variant": 0,
+ "voice": "af_heart",
+ "speed": 0.88,
+ "trans": "glitch",
+ "title": "The Antwerp Diamond Heist: The Vault That Couldn't Be Broken",
+ "beats": [
+  {
+   "say": "It was one of the most heavily protected vaults in the world. Heat sensors. Radar. A magnetic field. A lock with a hundred million possible combinations. And over one weekend in two thousand and three, a gang got in anyway.",
+   "vis": {
+    "type": "hook",
+    "text": "The vault nobody could break. Until they did.",
+    "emoji": "💍",
+    "hot": [
+     "Until"
+    ]
+   }
+  },
+  {
+   "say": "They walked away with loose diamonds, gold and jewellery said to be worth more than one hundred million dollars. Most of it has never been found.",
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 100,
+    "suffix": " million+",
+    "label": "estimated value of what was taken",
+    "color": "teal",
+    "emoji": "💎",
+    "source": "Reported estimates of the February 2003 heist"
+   }
+  },
+  {
+   "say": "And the whole thing unravelled because of a half-eaten sandwich.",
+   "vis": {
+    "type": "hook",
+    "text": "Undone by a half-eaten sandwich.",
+    "emoji": "🥪",
+    "hot": [
+     "sandwich."
+    ]
+   }
+  },
+  {
+   "say": "Part one. The diamond capital.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The diamond capital",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Antwerp in Belgium is one of the most important diamond trading centres on Earth. A huge share of the world's rough diamonds pass through a few streets in the city's diamond district.",
+   "vis": {
+    "type": "map",
+    "title": "Antwerp, Belgium",
+    "pins": [
+     [
+      "Antwerp",
+      0.5,
+      0.3,
+      "teal"
+     ]
+    ],
+    "color": "teal"
+   }
+  },
+  {
+   "say": "At the heart of it was the Antwerp Diamond Centre, and below it, a vault two floors underground where dealers kept their stones in rows of safe deposit boxes.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏦",
+    "text": "The Antwerp Diamond Centre",
+    "sub": "A vault two floors underground",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Diamonds are the perfect thing to steal, in one way. A fortune can fit in your pocket. A handful of loose stones can be worth more than a house, and once they're out of their packets, they're very hard to identify.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Gold",
+     "emoji": "🧈",
+     "lines": [
+      "Heavy",
+      "Stamped and numbered"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Loose diamonds",
+     "emoji": "💎",
+     "lines": [
+      "Fits in a pocket",
+      "Hard to trace"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part two. The layers of security.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The layers of security",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "The vault was considered almost impossible to break into. Getting in meant beating one layer of protection after another.",
+   "vis": {
+    "type": "list",
+    "title": "The vault's defences",
+    "items": [
+     [
+      "🔢",
+      "Combination lock"
+     ],
+     [
+      "🌡️",
+      "Infrared heat detectors"
+     ],
+     [
+      "📳",
+      "Seismic sensor"
+     ],
+     [
+      "📡",
+      "Doppler radar"
+     ],
+     [
+      "🧲",
+      "Magnetic field detector"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "On top of that, the building had cameras and its own security guards, and the whole district was watched by police. On paper, nobody could get in.",
+   "vis": {
+    "type": "hook",
+    "text": "On paper, nobody could get in.",
+    "emoji": "📄",
+    "hot": [
+     "nobody"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The inside man.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The inside man",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "The man later convicted as the gang's leader was an Italian called Leonardo Notarbartolo. He had rented an office in the building, and a safe deposit box in the vault, posing as a diamond merchant.",
+   "vis": {
+    "type": "flow",
+    "title": "Hiding in plain sight",
+    "nodes": [
+     [
+      "🏢",
+      "Rents an office"
+     ],
+     [
+      "🗝️",
+      "Rents a vault box"
+     ],
+     [
+      "👀",
+      "Studies the security"
+     ],
+     [
+      "📝",
+      "Plans for months"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💎"
+   }
+  },
+  {
+   "say": "That gave him something priceless. The right to walk into the vault, regularly, and look around. Investigators believe the gang studied the vault for a long time before the heist.",
+   "vis": {
+    "type": "hook",
+    "text": "He had a key to walk in, legally.",
+    "emoji": "🗝️",
+    "hot": [
+     "legally."
+    ]
+   }
+  },
+  {
+   "say": "Some accounts say the gang secretly filmed the vault and built a practice model to rehearse on. Notarbartolo himself told a journalist years later that they had planned the job for a long time. But much of what happened inside is still disputed.",
+   "vis": {
+    "type": "list",
+    "title": "How they may have prepared",
+    "items": [
+     [
+      "📹",
+      "Secretly recording the vault"
+     ],
+     [
+      "🧱",
+      "Rehearsing on a model"
+     ],
+     [
+      "🗓️",
+      "Choosing a quiet weekend"
+     ],
+     [
+      "❓",
+      "Many details still disputed"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Think about how strange that is. The vault was built to stop strangers. But the most dangerous person was a tenant who'd been let in, smiled at, and trusted.",
+   "vis": {
+    "type": "hook",
+    "text": "The danger wasn't a stranger. It was a tenant.",
+    "emoji": "🙂",
+    "hot": [
+     "tenant."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The weekend.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The weekend",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Over the weekend of the fifteenth and sixteenth of February, two thousand and three, the gang beat the vault's defences one by one. Exactly how they did every step has been argued about ever since.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "15 Feb 2003",
+      "Weekend: the district is quiet"
+     ],
+     [
+      "Night",
+      "Defences beaten one by one"
+     ],
+     [
+      "Inside",
+      "Boxes forced open"
+     ],
+     [
+      "Monday",
+      "Discovered",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Once inside, they forced open more than a hundred of the safe deposit boxes and filled bags with diamonds, gold and jewellery. Then they left, and the theft wasn't discovered until the Monday morning.",
+   "vis": {
+    "type": "doc",
+    "title": "Vault inventory, Monday morning",
+    "lines": [
+     [
+      "Boxes forced",
+      "100+"
+     ],
+     [
+      "Loose diamonds",
+      "Gone"
+     ],
+     [
+      "Gold and jewellery",
+      "Gone"
+     ],
+     [
+      "Alarm",
+      "Never sounded"
+     ]
+    ],
+    "stamp": "EMPTIED",
+    "stampAt": 6
+   }
+  },
+  {
+   "say": "There was no explosion and no gunfight. To the outside world, nothing happened at all. The building looked exactly the same on Monday morning as it had on Friday evening, until someone opened the vault.",
+   "vis": {
+    "type": "hook",
+    "text": "No explosion. No gunfight. Nothing, until Monday.",
+    "emoji": "🤫",
+    "hot": [
+     "Monday."
+    ]
+   }
+  },
+  {
+   "say": "Part five. The sandwich.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The sandwich",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "The gang made one big mistake. They dumped some of their rubbish in a forest near Brussels. A local landowner, annoyed by people fly-tipping on his land, found it and called the police.",
+   "vis": {
+    "type": "flow",
+    "title": "The mistake",
+    "nodes": [
+     [
+      "🗑️",
+      "Rubbish dumped in a forest"
+     ],
+     [
+      "👨‍🌾",
+      "Landowner finds it"
+     ],
+     [
+      "📞",
+      "Calls the police"
+     ],
+     [
+      "🔍",
+      "Evidence inside"
+     ]
+    ],
+    "color": "red",
+    "coin": "🗑️"
+   }
+  },
+  {
+   "say": "Among the rubbish were envelopes from the vault, video tape, and a partly eaten salami sandwich. DNA from the sandwich helped link the crime to the gang.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🥪",
+    "text": "The salami sandwich",
+    "sub": "DNA linked it to the gang",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Notarbartolo was arrested within days, after he returned to the diamond centre. In twenty oh five he was sentenced to ten years in prison. Other gang members were convicted too.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Feb 2003",
+      "Heist"
+     ],
+     [
+      "Days later",
+      "Notarbartolo arrested"
+     ],
+     [
+      "2005",
+      "Sentenced to 10 years"
+     ],
+     [
+      "2017",
+      "Finished his sentence",
+      "teal"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "He was paroled in two thousand and nine, but later sent back to prison for breaking his parole conditions, including never paying compensation to the victims. He finished his sentence in twenty seventeen.",
+   "vis": {
+    "type": "doc",
+    "title": "Leonardo Notarbartolo",
+    "lines": [
+     [
+      "Sentenced",
+      "2005, 10 years"
+     ],
+     [
+      "Paroled",
+      "2009"
+     ],
+     [
+      "Back in prison",
+      "2013"
+     ],
+     [
+      "Released",
+      "2017"
+     ],
+     [
+      "Compensation paid",
+      "None"
+     ]
+    ],
+    "stamp": "CONVICTED",
+    "stampAt": 6
+   }
+  },
+  {
+   "say": "Part six. The diamonds that vanished.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The missing diamonds",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Here's the mystery. Most of the diamonds were never recovered. Loose diamonds are small, easy to hide, and very hard to trace once they're sold on.",
+   "vis": {
+    "type": "hook",
+    "text": "Most of the diamonds were never found.",
+    "emoji": "❓",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "And Notarbartolo later told a magazine his own version. He claimed they took far less than reported, around twenty million dollars, and that the heist was really an insurance fraud set up by a diamond dealer.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The official story",
+     "emoji": "📰",
+     "lines": [
+      "$100m+ stolen",
+      "A daring heist"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "His story",
+     "emoji": "🗣️",
+     "lines": [
+      "About $20m",
+      "An inside job for insurance"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Most experts don't believe him. For one thing, the vault had reportedly been unable to get insurance because of its security flaws. But his story only added to the legend.",
+   "vis": {
+    "type": "quote",
+    "text": "The best-protected vault in the world, beaten from the inside, and given away by a sandwich.",
+    "who": "the Antwerp diamond heist"
+   }
+  },
+  {
+   "say": "The lesson? The strongest security in the world can be undone by someone you let in through the front door, and a gang that forgets to take out its rubbish properly.",
+   "vis": {
+    "type": "list",
+    "title": "The lessons",
+    "items": [
+     [
+      "🗝️",
+      "Trust is the weak spot"
+     ],
+     [
+      "🔍",
+      "Small mistakes get you caught"
+     ],
+     [
+      "💎",
+      "Loose diamonds are hard to trace"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more of history's greatest heists, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which heist should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE VAULT|NOBODY|COULD BREAK",
+  "emoji": "💍",
+  "color": "teal",
+  "tag": "Heists and cons"
+ }
+}

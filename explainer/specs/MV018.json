@@ -1,0 +1,450 @@
+{
+ "id": "MV018",
+ "style": "chalk",
+ "variant": 0,
+ "voice": "am_puck",
+ "speed": 0.88,
+ "title": "How the National Lottery Actually Makes Money",
+ "beats": [
+  {
+   "say": "Every week, millions of people in Britain buy a lottery ticket. And for every pound they spend, only about fifty pence comes back as prizes.",
+   "vis": {
+    "type": "hook",
+    "text": "Spend £1. Get about 50p back in prizes.",
+    "emoji": "🎟️",
+    "hot": [
+     "50p"
+    ]
+   }
+  },
+  {
+   "say": "So where does the other half go? Who decides the odds? And is the lottery really, as some people say, a tax on hope? Let's work it out on the board.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "1️⃣",
+      "Where each pound goes"
+     ],
+     [
+      "2️⃣",
+      "The odds"
+     ],
+     [
+      "3️⃣",
+      "Why people still play"
+     ],
+     [
+      "4️⃣",
+      "Scratchcards"
+     ],
+     [
+      "5️⃣",
+      "Who really wins"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. Where each pound goes.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Where each pound goes"
+   }
+  },
+  {
+   "say": "For every pound spent on Lotto or EuroMillions, around fifty pence goes into the prize fund. That's the money shared out between all the winners, from the small prizes to the jackpot.",
+   "vis": {
+    "type": "num",
+    "value": 50,
+    "suffix": "p",
+    "label": "of every £1 goes into prizes",
+    "color": "gold",
+    "emoji": "🏆",
+    "source": "National Lottery breakdown, via lottery.co.uk"
+   }
+  },
+  {
+   "say": "About twenty eight pence goes to good causes, like sport, the arts, heritage and charities. Twelve pence goes to the government as lottery duty. Around five pence goes to the shop that sold you the ticket.",
+   "vis": {
+    "type": "bars",
+    "title": "Where £1 goes (Lotto and EuroMillions)",
+    "suffix": "p",
+    "dec": 1,
+    "items": [
+     [
+      "Prizes",
+      50,
+      "gold"
+     ],
+     [
+      "Good causes",
+      28,
+      "teal"
+     ],
+     [
+      "Lottery duty (tax)",
+      12,
+      "red"
+     ],
+     [
+      "Retailer",
+      5,
+      "teal"
+     ],
+     [
+      "Running costs",
+      4.5,
+      "teal"
+     ],
+     [
+      "Operator profit",
+      0.5,
+      "gold"
+     ]
+    ],
+    "max": 52,
+    "source": "lottery.co.uk breakdown of the National Lottery"
+   }
+  },
+  {
+   "say": "And the company that runs it? Around four and a half pence pays its running costs, and roughly half a penny is its profit. Half a penny sounds like nothing. But multiply it by billions of pounds of tickets, and it adds up.",
+   "vis": {
+    "type": "hook",
+    "text": "Half a penny, times billions of pounds.",
+    "emoji": "🪙",
+    "hot": [
+     "billions"
+    ]
+   }
+  },
+  {
+   "say": "So the lottery is a strange kind of business. The operator makes a tiny cut, the government takes a slice, good causes get a big slice, and the players, as a group, always get back less than they put in.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Everyone else",
+     "emoji": "🏛️",
+     "lines": [
+      "Government, charities",
+      "The shop, the operator"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Players overall",
+     "emoji": "🎟️",
+     "lines": [
+      "Put in £1",
+      "Get about 50p back"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Lesson two. The odds.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The odds"
+   }
+  },
+  {
+   "say": "To win the Lotto jackpot, you have to match six numbers out of fifty nine. The odds of doing that with one ticket are about one in forty five million.",
+   "vis": {
+    "type": "num",
+    "value": 45,
+    "suffix": " million",
+    "label": "to one: the odds of the Lotto jackpot with one ticket",
+    "color": "red",
+    "emoji": "🎱",
+    "source": "Six numbers from 59: 1 in 45,057,474"
+   }
+  },
+  {
+   "say": "That number is so big it's hard to imagine. So try this. Imagine every person in a city the size of Greater London, plus several more cities, each holding one ticket. Only one of them wins.",
+   "vis": {
+    "type": "grid",
+    "emoji": "🧍",
+    "on": "🏆",
+    "total": 100,
+    "highlight": 1,
+    "title": "Imagine 45 million tickets…",
+    "label": "only one wins the jackpot",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Here's a famous comparison. You are far more likely to be struck by lightning in your lifetime than to win the Lotto jackpot with a single ticket.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Lightning",
+     "emoji": "⚡",
+     "lines": [
+      "Rare",
+      "But far more likely"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The jackpot",
+     "emoji": "🎱",
+     "lines": [
+      "1 in 45 million",
+      "Per ticket"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And the odds were made harder on purpose. In twenty fifteen, Lotto increased the number of balls from forty nine to fifty nine. Fewer jackpot winners means jackpots roll over and grow bigger. And bigger jackpots sell more tickets.",
+   "vis": {
+    "type": "flow",
+    "title": "Why harder odds sell more tickets",
+    "nodes": [
+     [
+      "🎱",
+      "More balls"
+     ],
+     [
+      "🔁",
+      "More rollovers"
+     ],
+     [
+      "💰",
+      "Bigger jackpots"
+     ],
+     [
+      "🎟️",
+      "More tickets sold"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🎟️"
+   }
+  },
+  {
+   "say": "Lesson three. Why people still play.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Why people still play"
+   }
+  },
+  {
+   "say": "If the maths is so bad, why do millions of people play? Because they're not really buying a chance at money. They're buying a dream. For a couple of pounds, you get days of imagining what you'd do with millions.",
+   "vis": {
+    "type": "hook",
+    "text": "You're not buying a chance. You're buying a dream.",
+    "emoji": "💭",
+    "hot": [
+     "dream."
+    ]
+   }
+  },
+  {
+   "say": "Our brains are also bad at huge numbers. One in forty five million and one in a million both just feel like unlikely. And every week, the adverts show real winners holding giant cheques, so winning feels possible.",
+   "vis": {
+    "type": "list",
+    "title": "Why the brain says yes",
+    "items": [
+     [
+      "🧠",
+      "Huge odds all feel the same"
+     ],
+     [
+      "📺",
+      "We see the winners, not the losers"
+     ],
+     [
+      "🔢",
+      "Lucky numbers feel special"
+     ],
+     [
+      "😰",
+      "Fear of missing out on 'your' numbers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And there's the near miss. Match three numbers and you win a small prize, or match five and miss the jackpot by one. It feels like you nearly won, which makes you want to play again next week.",
+   "vis": {
+    "type": "hook",
+    "text": "So close. Play again next week?",
+    "emoji": "😩",
+    "hot": [
+     "again"
+    ]
+   }
+  },
+  {
+   "say": "And there's the trap of lucky numbers. Once you've played the same numbers for years, stopping feels dangerous. What if they come up the week you don't play?",
+   "vis": {
+    "type": "icon",
+    "emoji": "🔢",
+    "text": "The 'my numbers' trap",
+    "sub": "What if they come up the week you stop?",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Lesson four. Scratchcards.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Scratchcards"
+   }
+  },
+  {
+   "say": "Scratchcards work differently. You find out instantly, so you can buy another straight away. That speed makes them more like a slot machine than a weekly draw.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Weekly draw",
+     "emoji": "📅",
+     "lines": [
+      "Wait for results",
+      "Slow"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Scratchcard",
+     "emoji": "🪙",
+     "lines": [
+      "Instant result",
+      "Easy to buy another"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Many scratchcards are also designed to give lots of small wins, like getting your money back. That feels like winning, so people often spend the prize on another card. It's a near miss loop.",
+   "vis": {
+    "type": "flow",
+    "title": "The scratchcard loop",
+    "nodes": [
+     [
+      "🪙",
+      "Buy a card"
+     ],
+     [
+      "🎉",
+      "Win your money back"
+     ],
+     [
+      "🔁",
+      "Buy another"
+     ],
+     [
+      "📉",
+      "Lose over time"
+     ]
+    ],
+    "color": "red",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "Lesson five. Who really wins.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Who really wins"
+   }
+  },
+  {
+   "say": "The lottery has raised billions of pounds for good causes since nineteen ninety four. Olympic athletes, museums, parks and local charities have all benefited. That money is real, and it does a lot of good.",
+   "vis": {
+    "type": "list",
+    "title": "Where good cause money goes",
+    "items": [
+     [
+      "🏅",
+      "Sport and Olympic athletes"
+     ],
+     [
+      "🖼️",
+      "Arts and museums"
+     ],
+     [
+      "🏞️",
+      "Heritage and parks"
+     ],
+     [
+      "🤝",
+      "Charities and communities"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But critics point out that people with less money tend to spend a bigger share of their income on lottery tickets. That's why some call it a tax on hope. The good causes are funded, in part, by those who can least afford to play.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The case for",
+     "emoji": "🤝",
+     "lines": [
+      "Billions for good causes",
+      "A cheap bit of fun"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The case against",
+     "emoji": "⚖️",
+     "lines": [
+      "Poorer players pay more",
+      "Bad odds, sold as dreams"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So should you play? If it's a couple of pounds for fun, and you can afford to lose it, it's a cheap daydream. But it's not a plan. If you put two pounds a week into savings instead, you'd have over a hundred pounds a year that's guaranteed.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 104,
+    "label": "a year, if you saved £2 a week instead",
+    "color": "gold",
+    "emoji": "🐷",
+    "source": "Example calculation: £2 × 52 weeks"
+   }
+  },
+  {
+   "say": "The lottery doesn't make money by cheating anyone. It makes money because the maths is clear and the dream is powerful. The only guaranteed winners are the good causes, the government and the shop on the corner.",
+   "vis": {
+    "type": "hook",
+    "text": "The guaranteed winners don't buy tickets.",
+    "emoji": "🏆",
+    "hot": [
+     "guaranteed"
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. If you learned something, subscribe, and tell me in the comments, what would you do if you won?",
+   "vis": {
+    "type": "outro",
+    "text": "What would you do if you won?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHERE YOUR|TICKET|MONEY GOES",
+  "emoji": "🎟️",
+  "color": "red",
+  "tag": "How it makes money"
+ }
+}

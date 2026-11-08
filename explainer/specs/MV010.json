@@ -2,7 +2,7 @@
  "id": "MV010",
  "style": "storybook",
  "voice": "am_fenrir",
- "speed": 0.88,
+ "speed": 0.86,
  "title": "How Coffee Shops Make Money (It's Not the Coffee)",
  "beats": [
   {
@@ -395,6 +395,66 @@
      ],
      "color": "red"
     }
+   }
+  },
+  {
+   "say": "Some independents fight back by being different. Better beans, a friendly face who knows your order, a cosy space the chains can't copy. People will pay a bit more for a place that feels like theirs.",
+   "vis": {
+    "type": "list",
+    "title": "How small cafés fight back",
+    "items": [
+     [
+      "🫘",
+      "Better beans"
+     ],
+     [
+      "🙂",
+      "Knowing your order"
+     ],
+     [
+      "🛋️",
+      "A cosy space"
+     ],
+     [
+      "🍰",
+      "Homemade cakes"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Others cut costs in clever ways. Shorter opening hours, a smaller menu, and selling coffee beans to take home. Every extra pound from the same rent and staff makes a difference.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cut costs",
+     "emoji": "✂️",
+     "lines": [
+      "Shorter hours",
+      "Smaller menu"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Earn more",
+     "emoji": "🫘",
+     "lines": [
+      "Sell beans to take home",
+      "Events and classes"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "And remember the number from earlier. If a café makes thirty cents on a coffee, it needs to sell a lot of them just to pay one person's wages for a day. That's why a busy café can still be a struggling business.",
+   "vis": {
+    "type": "num",
+    "value": 400,
+    "label": "coffees a day just to clear about £120 profit, at 30p each",
+    "color": "gold",
+    "emoji": "☕",
+    "source": "Example calculation"
    }
   },
   {

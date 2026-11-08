@@ -1,0 +1,477 @@
+{
+ "id": "MV031",
+ "style": "ledger",
+ "variant": 2,
+ "voice": "af_sarah",
+ "speed": 0.86,
+ "trans": "pan",
+ "title": "The Lufthansa Heist: The Real Story Behind Goodfellas",
+ "beats": [
+  {
+   "say": "In the early hours of the eleventh of December, nineteen seventy eight, a gang drove into a cargo building at JFK airport in New York and stole nearly six million dollars in cash and jewellery. It was one of the biggest cash robberies in American history at the time.",
+   "vis": {
+    "type": "hook",
+    "text": "Nearly $6 million from an airport.",
+    "emoji": "✈️",
+    "hot": [
+     "$6",
+     "million"
+    ]
+   }
+  },
+  {
+   "say": "Around five million dollars in cash and eight hundred and seventy five thousand dollars in jewellery. None of it was ever recovered.",
+   "vis": {
+    "type": "bars",
+    "title": "The haul",
+    "items": [
+     [
+      "Cash",
+      5,
+      "gold"
+     ],
+     [
+      "Jewellery",
+      0.875,
+      "teal"
+     ]
+    ],
+    "max": 5.5,
+    "prefix": "$",
+    "suffix": "m",
+    "source": "Lufthansa heist records",
+    "dec": 1
+   }
+  },
+  {
+   "say": "You might know the story from the film Goodfellas. But the real version is darker than the movie. Because after the robbery, the people involved started to die.",
+   "vis": {
+    "type": "hook",
+    "text": "After the robbery, people started to die.",
+    "emoji": "🎬",
+    "hot": [
+     "die."
+    ]
+   }
+  },
+  {
+   "say": "Part one. The tip.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The tip"
+   }
+  },
+  {
+   "say": "It began with gambling debts. Louis Werner worked in Lufthansa's cargo area at the airport. He owed money to a bookmaker called Martin Krugman. And Werner knew something very valuable.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🎲",
+    "text": "Louis Werner",
+    "sub": "Airport worker with gambling debts",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "This is the hidden danger of debt. Werner wasn't a gangster. He was an ordinary worker in trouble, and the people he owed money to were exactly the kind who'd use what he knew.",
+   "vis": {
+    "type": "hook",
+    "text": "Debt made him a target.",
+    "emoji": "📉",
+    "hot": [
+     "target."
+    ]
+   }
+  },
+  {
+   "say": "He knew that large amounts of cash, being shipped back from currency exchange in Germany, passed through Lufthansa's cargo building. He told Krugman. Krugman told Henry Hill, a mob associate. And Hill took it to Jimmy Burke.",
+   "vis": {
+    "type": "flow",
+    "title": "How the tip travelled",
+    "nodes": [
+     [
+      "✈️",
+      "Werner, the insider"
+     ],
+     [
+      "🎲",
+      "Krugman, the bookie"
+     ],
+     [
+      "🕴️",
+      "Henry Hill"
+     ],
+     [
+      "👔",
+      "Jimmy Burke"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💬"
+   }
+  },
+  {
+   "say": "Jimmy Burke was an associate of the Lucchese crime family, and is widely believed to have planned the robbery. He gathered a crew.",
+   "vis": {
+    "type": "icon",
+    "emoji": "👔",
+    "text": "Jimmy Burke",
+    "sub": "Reputed planner of the heist",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Burke was known around Queens for money and fear in equal measure. His crew was made up of men who'd worked with him before. Each had a role. Drivers, gunmen, and people to move the money afterwards.",
+   "vis": {
+    "type": "list",
+    "title": "The crew's roles",
+    "items": [
+     [
+      "🚐",
+      "Drivers"
+     ],
+     [
+      "🔫",
+      "Armed men inside"
+     ],
+     [
+      "📦",
+      "Loaders"
+     ],
+     [
+      "💵",
+      "People to move the money"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. The robbery.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The robbery"
+   }
+  },
+  {
+   "say": "At around three in the morning, the crew arrived at Lufthansa's cargo building two six one, in a black van. They were armed and masked. They rounded up the workers inside, and forced a supervisor to help them open the high value vault room.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "~3:00am",
+      "Gang arrives in a van"
+     ],
+     [
+      "Inside",
+      "Workers rounded up"
+     ],
+     [
+      "Vault",
+      "Cash and jewels loaded"
+     ],
+     [
+      "~4:30am",
+      "Gone",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In roughly an hour, they loaded dozens of boxes of untraceable cash into the van and drove away. No one was killed during the robbery itself.",
+   "vis": {
+    "type": "num",
+    "value": 5.875,
+    "label": "total taken",
+    "color": "gold",
+    "emoji": "💵",
+    "prefix": "$",
+    "suffix": "m",
+    "dec": 3
+   }
+  },
+  {
+   "say": "For a short while, it looked like the perfect crime. Huge amounts of cash, which is hard to trace. No bodies. No witnesses who could identify the masked men. But the real danger was only just beginning.",
+   "vis": {
+    "type": "hook",
+    "text": "For a moment, it looked perfect.",
+    "emoji": "🎩",
+    "hot": [
+     "perfect."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The van.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The van"
+   }
+  },
+  {
+   "say": "The plan had one simple instruction for the van. Get rid of it, crushed at a junkyard. The job went to Parnell Edwards, nicknamed Stacks. Instead, he parked it near his girlfriend's apartment and left it there.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The plan",
+     "emoji": "🗜️",
+     "lines": [
+      "Crush the van",
+      "No evidence"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What happened",
+     "emoji": "🅿️",
+     "lines": [
+      "Parked it outside",
+      "Left it there"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Police found the van within two days, and connected it to the heist. That mistake put the whole crew in danger.",
+   "vis": {
+    "type": "hook",
+    "text": "One parked van put everyone in danger.",
+    "emoji": "🚐",
+    "hot": [
+     "parked"
+    ]
+   }
+  },
+  {
+   "say": "Investigators now had a lead, and the crew knew it. Every person involved became a risk. Anyone who got arrested might talk. Anyone who demanded their share might draw attention. And Burke was said to be furious about how much people wanted to spend.",
+   "vis": {
+    "type": "list",
+    "title": "Why the crew got nervous",
+    "items": [
+     [
+      "🚐",
+      "Police had the van"
+     ],
+     [
+      "🗣️",
+      "Anyone might talk"
+     ],
+     [
+      "💵",
+      "Big spending draws attention"
+     ],
+     [
+      "😠",
+      "Burke wanted control"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. The killings.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The killings"
+   }
+  },
+  {
+   "say": "On the eighteenth of December, a week after the robbery, Parnell Edwards was shot dead.",
+   "vis": {
+    "type": "headline",
+    "kicker": "December 1978",
+    "paper": "THE QUEENS LEDGER",
+    "text": "Man linked to airport robbery found shot dead",
+    "date": "One week after the Lufthansa heist"
+   }
+  },
+  {
+   "say": "He was only the first. Over the following months, several people connected to the heist were murdered or disappeared. Burke is alleged to have ordered killings to keep people quiet and keep more of the money.",
+   "vis": {
+    "type": "list",
+    "title": "Who disappeared",
+    "items": [
+     [
+      "🚐",
+      "Parnell 'Stacks' Edwards"
+     ],
+     [
+      "🎲",
+      "Martin Krugman, the bookie"
+     ],
+     [
+      "👥",
+      "Several crew members"
+     ],
+     [
+      "❓",
+      "Others who knew too much"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The robbers had pulled off the job of a lifetime. But for many of them, the money meant a death sentence.",
+   "vis": {
+    "type": "hook",
+    "text": "For many, the money meant a death sentence.",
+    "emoji": "💀",
+    "hot": [
+     "death"
+    ]
+   }
+  },
+  {
+   "say": "It's a grim lesson about stolen money. A legitimate fortune can be spent openly. Stolen money has to be hidden, and everyone who knows about it is a threat. The more people who share the secret, the more dangerous it becomes.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Clean money",
+     "emoji": "🏦",
+     "lines": [
+      "Spend it openly",
+      "No one to fear"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Stolen money",
+     "emoji": "💼",
+     "lines": [
+      "Must stay hidden",
+      "Everyone's a risk"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. Who paid?",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Who paid?"
+   }
+  },
+  {
+   "say": "Remarkably, only one person was ever convicted for the heist itself. Louis Werner, the inside man, was found guilty in nineteen seventy nine, and sentenced to fifteen years.",
+   "vis": {
+    "type": "num",
+    "value": 1,
+    "label": "person convicted for the robbery itself",
+    "color": "red",
+    "emoji": "⚖️",
+    "prefix": "",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "Jimmy Burke was never charged with the robbery. But Henry Hill later became an informant, and his testimony helped convict Burke of a different murder. Burke died in prison in the nineteen nineties.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1979",
+      "Werner convicted"
+     ],
+     [
+      "1980",
+      "Henry Hill turns informant"
+     ],
+     [
+      "1980s",
+      "Burke convicted of another murder"
+     ],
+     [
+      "2015",
+      "Asaro acquitted",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In twenty fourteen, decades later, a mobster named Vincent Asaro was charged in connection with the heist. In twenty fifteen, a jury acquitted him.",
+   "vis": {
+    "type": "hook",
+    "text": "Decades later, still no answers.",
+    "emoji": "❓",
+    "hot": [
+     "no",
+     "answers."
+    ]
+   }
+  },
+  {
+   "say": "Part six. The movie.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The movie"
+   }
+  },
+  {
+   "say": "Henry Hill's story became the book Wiseguy, and then the nineteen ninety film Goodfellas. The character Jimmy Conway, played by Robert De Niro, was based on Jimmy Burke.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "On screen",
+     "emoji": "🎬",
+     "lines": [
+      "Goodfellas, 1990",
+      "Jimmy Conway"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "In real life",
+     "emoji": "📰",
+     "lines": [
+      "Lufthansa, 1978",
+      "Jimmy Burke"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Hill himself entered the witness protection programme, and lived for decades after the heist. He was one of the few people close to it who didn't end up in prison for life, or worse.",
+   "vis": {
+    "type": "hook",
+    "text": "One of the few who survived it.",
+    "emoji": "🕶️",
+    "hot": [
+     "survived"
+    ]
+   }
+  },
+  {
+   "say": "The film made it look glamorous. But the real story is about what happens after the money arrives. Paranoia, betrayal, and a crew that turned on itself. Nearly six million dollars stolen, never recovered, and the men who took it mostly didn't live to enjoy it.",
+   "vis": {
+    "type": "hook",
+    "text": "The money was never found. Most of the robbers didn't live to spend it.",
+    "emoji": "💼",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind famous heists, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which heist should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE REAL|GOODFELLAS|HEIST",
+  "emoji": "✈️",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

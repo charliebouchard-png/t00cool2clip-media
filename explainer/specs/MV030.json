@@ -1,0 +1,449 @@
+{
+ "id": "MV030",
+ "style": "bold",
+ "variant": 0,
+ "voice": "bf_isabella",
+ "speed": 0.85,
+ "trans": "slap",
+ "title": "OneCoin: The $4 Billion Crypto That Never Existed",
+ "beats": [
+  {
+   "say": "It was sold as the next Bitcoin. Millions of people bought in. More than four billion dollars poured in. And the founder vanished without a trace. The coin, it turned out, had no actual value.",
+   "vis": {
+    "type": "hook",
+    "text": "Sold as the next Bitcoin. Worth nothing.",
+    "emoji": "🪙",
+    "hot": [
+     "nothing."
+    ]
+   }
+  },
+  {
+   "say": "According to the US Justice Department, OneCoin took in more than four billion dollars between twenty fourteen and twenty sixteen, from at least three and a half million victims.",
+   "vis": {
+    "type": "num",
+    "value": 4,
+    "label": "taken from victims, 2014 to 2016",
+    "color": "red",
+    "emoji": "💸",
+    "prefix": "$",
+    "suffix": " billion+",
+    "source": "US Department of Justice, 2023"
+   }
+  },
+  {
+   "say": "The woman behind it was Dr Ruja Ignatova, a businesswoman from Bulgaria with a doctorate and a background in consulting. On stage, she called herself the Cryptoqueen.",
+   "vis": {
+    "type": "icon",
+    "emoji": "👑",
+    "text": "The Cryptoqueen",
+    "sub": "Dr Ruja Ignatova, co-founder of OneCoin",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part one. The pitch.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The pitch"
+   }
+  },
+  {
+   "say": "OneCoin launched in Bulgaria in twenty fourteen. Bitcoin had made early buyers rich, and people were desperate not to miss the next one. Ruja promised them OneCoin would be bigger.",
+   "vis": {
+    "type": "hook",
+    "text": "Don't miss the next Bitcoin.",
+    "emoji": "🚀",
+    "hot": [
+     "next"
+    ]
+   }
+  },
+  {
+   "say": "The events were huge. Arenas, stage lights, music. At one event at Wembley Arena in London, Ruja appeared in a ball gown, telling the crowd OneCoin would become the world's number one cryptocurrency.",
+   "vis": {
+    "type": "list",
+    "title": "The show",
+    "items": [
+     [
+      "🏟️",
+      "Packed arenas"
+     ],
+     [
+      "👗",
+      "Glamour and glitz"
+     ],
+     [
+      "📈",
+      "Big promises"
+     ],
+     [
+      "🎉",
+      "A feeling of being early"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And the marketing worked because it mixed real things with fake ones. Bitcoin really had made people rich. Cryptocurrency really was new and confusing. So when OneCoin used the same words, most people couldn't tell the difference.",
+   "vis": {
+    "type": "hook",
+    "text": "Real words. Fake product.",
+    "emoji": "🎭",
+    "hot": [
+     "Fake"
+    ]
+   }
+  },
+  {
+   "say": "Part two. What you were really buying.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "What were you buying?"
+   }
+  },
+  {
+   "say": "People didn't buy OneCoin directly. They bought education packages, trading courses, which came with tokens that could be turned into OneCoins. The price of OneCoin only ever went up. Because the company set it.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What buyers thought",
+     "emoji": "📈",
+     "lines": [
+      "A real cryptocurrency",
+      "Rising in value"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What it really was",
+     "emoji": "🎭",
+     "lines": [
+      "Price set by the company",
+      "No real market"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Real cryptocurrencies like Bitcoin are recorded on a public blockchain, so anyone can check them. Investigators and critics said OneCoin had no genuine public blockchain at all. The coins were basically numbers in a company database.",
+   "vis": {
+    "type": "hook",
+    "text": "Just numbers in a database.",
+    "emoji": "🗄️",
+    "hot": [
+     "numbers"
+    ]
+   }
+  },
+  {
+   "say": "And you couldn't easily cash out. OneCoins could only be spent or exchanged on the company's own platforms, which opened and closed and set limits. So investors watched their balances rise on screen, but most could never turn those coins back into real money.",
+   "vis": {
+    "type": "list",
+    "title": "Why you couldn't leave",
+    "items": [
+     [
+      "📈",
+      "Balance rises on screen"
+     ],
+     [
+      "🔒",
+      "Few ways to sell"
+     ],
+     [
+      "🏪",
+      "Only on company platforms"
+     ],
+     [
+      "💸",
+      "Money stays trapped"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. The pyramid.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The pyramid"
+   }
+  },
+  {
+   "say": "So how did it spread so fast? Recruitment. OneCoin was run as multi level marketing. Members earned commissions for signing up new people, who signed up more people, and so on.",
+   "vis": {
+    "type": "flow",
+    "title": "How it spread",
+    "nodes": [
+     [
+      "🙋",
+      "You buy a package"
+     ],
+     [
+      "🗣️",
+      "You recruit friends"
+     ],
+     [
+      "💰",
+      "You earn commission"
+     ],
+     [
+      "🔁",
+      "They recruit more"
+     ]
+    ],
+    "color": "red",
+    "coin": "👥"
+   }
+  },
+  {
+   "say": "The people at the top earned enormous sums. Co-founder Sebastian Greenwood, the top distributor, received more than three hundred million dollars, according to US prosecutors.",
+   "vis": {
+    "type": "bars",
+    "title": "Who got rich",
+    "items": [
+     [
+      "Greenwood, top distributor",
+      300,
+      "red"
+     ],
+     [
+      "A typical early buyer",
+      0.005,
+      "teal"
+     ]
+    ],
+    "max": 320,
+    "prefix": "$",
+    "suffix": "m",
+    "source": "US DOJ; typical buyer illustrative"
+   }
+  },
+  {
+   "say": "Victims came from all over the world. Many invested savings. Some persuaded their own families to join, because they truly believed it.",
+   "vis": {
+    "type": "hook",
+    "text": "Many recruited their own families.",
+    "emoji": "👪",
+    "hot": [
+     "families."
+    ]
+   }
+  },
+  {
+   "say": "And the system rewarded people for staying positive. Doubt was treated as disloyalty. Critics were dismissed as people who didn't understand the future. That made it very hard for members to question what was going on.",
+   "vis": {
+    "type": "hook",
+    "text": "Doubt was treated as disloyalty.",
+    "emoji": "🙊",
+    "hot": [
+     "disloyalty."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The vanishing.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The vanishing"
+   }
+  },
+  {
+   "say": "By twenty seventeen, investigators were closing in. In October twenty seventeen, US authorities issued a warrant for Ruja Ignatova. Days later, she boarded a flight from Bulgaria to Athens, Greece. And she has not been seen in public since.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2014",
+      "OneCoin launches"
+     ],
+     [
+      "2016",
+      "Billions pour in"
+     ],
+     [
+      "Oct 2017",
+      "US warrant issued"
+     ],
+     [
+      "Days later",
+      "Ruja vanishes",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "She was added to the FBI's Ten Most Wanted Fugitives list, with a reward of up to two hundred and fifty thousand dollars for information leading to her arrest.",
+   "vis": {
+    "type": "headline",
+    "kicker": "FBI",
+    "paper": "THE NATIONAL WIRE",
+    "text": "'Cryptoqueen' Ruja Ignatova on FBI Ten Most Wanted list",
+    "date": "Reward of up to $250,000 offered"
+   }
+  },
+  {
+   "say": "Where did she go? Nobody knows for certain. Over the years there have been reports and rumours placing her in different countries, and claims about what may have happened to her. None have been confirmed, and the FBI still lists her as wanted.",
+   "vis": {
+    "type": "list",
+    "title": "Where is the Cryptoqueen?",
+    "items": [
+     [
+      "✈️",
+      "Last seen flying to Athens"
+     ],
+     [
+      "❓",
+      "Rumours, not proof"
+     ],
+     [
+      "🕵️",
+      "Investigators still searching"
+     ],
+     [
+      "🚨",
+      "Still on the FBI list"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Emails shown in court revealed how early she may have had an exit in mind. US prosecutors quoted one message about a possible exit strategy: take the money and run, and blame someone else.",
+   "vis": {
+    "type": "quote",
+    "text": "Take the money and run and blame someone else.",
+    "who": "an email quoted by US prosecutors"
+   }
+  },
+  {
+   "say": "Part five. The reckoning.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The reckoning"
+   }
+  },
+  {
+   "say": "Others weren't so lucky. Ruja's brother, Konstantin Ignatov, pleaded guilty in the United States. A lawyer, Mark Scott, was convicted of helping launder hundreds of millions of dollars. And in September twenty twenty three, Sebastian Greenwood was sentenced to twenty years in prison.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2019",
+      "Brother pleads guilty"
+     ],
+     [
+      "2019",
+      "Lawyer convicted of laundering"
+     ],
+     [
+      "Sept 2023",
+      "Greenwood gets 20 years"
+     ],
+     [
+      "Today",
+      "Ruja still missing",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Greenwood had pleaded guilty to wire fraud and money laundering. The judge sentenced him to twenty years.",
+   "vis": {
+    "type": "num",
+    "value": 20,
+    "label": "Greenwood's sentence",
+    "color": "red",
+    "emoji": "⛓️",
+    "prefix": "",
+    "suffix": " years"
+   }
+  },
+  {
+   "say": "In his court case, prosecutors said Greenwood received hundreds of millions in commissions while millions of ordinary people lost their savings. The scheme made a few people extraordinarily rich, at everyone else's expense.",
+   "vis": {
+    "type": "hook",
+    "text": "A few got rich. Millions paid for it.",
+    "emoji": "⚖️",
+    "hot": [
+     "Millions"
+    ]
+   }
+  },
+  {
+   "say": "Most victims have never got their money back. And the Cryptoqueen herself is still listed as missing.",
+   "vis": {
+    "type": "hook",
+    "text": "Most victims never got their money back.",
+    "emoji": "💔",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Part six. How to spot the next OneCoin.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Spot the next one"
+   }
+  },
+  {
+   "say": "OneCoin had every warning sign of a classic pyramid scheme, just dressed up in crypto.",
+   "vis": {
+    "type": "list",
+    "title": "Red flags",
+    "items": [
+     [
+      "📈",
+      "Price only ever goes up"
+     ],
+     [
+      "🔍",
+      "You can't check it independently"
+     ],
+     [
+      "👥",
+      "Money comes from recruiting"
+     ],
+     [
+      "🎉",
+      "Glamour instead of proof"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So if anyone tells you about a coin that can't lose, that you can't check, and that pays you for bringing in friends, remember OneCoin. Billions went in. The founder walked away. And the coins had no real value at all.",
+   "vis": {
+    "type": "hook",
+    "text": "If you can't check it, don't buy it.",
+    "emoji": "🔍",
+    "hot": [
+     "check"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest frauds in money, and tell me in the comments which scam I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which scam should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "$4 BILLION|FAKE COIN",
+  "emoji": "🪙",
+  "color": "red",
+  "tag": "Heists and cons"
+ }
+}

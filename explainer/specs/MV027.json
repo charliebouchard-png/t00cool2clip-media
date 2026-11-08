@@ -1,0 +1,474 @@
+{
+ "id": "MV027",
+ "style": "collage",
+ "variant": 1,
+ "voice": "af_kore",
+ "speed": 0.85,
+ "trans": "wipe",
+ "title": "Anna Delvey: The Fake Heiress Who Fooled New York",
+ "beats": [
+  {
+   "say": "She told New York she was a rich German heiress. She stayed in expensive hotels, threw money around, and tried to borrow twenty two million dollars. There was no fortune. There never had been.",
+   "vis": {
+    "type": "hook",
+    "text": "No fortune. There never had been.",
+    "emoji": "👜",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Her real name is Anna Sorokin. She called herself Anna Delvey. And for a while, bankers, hotels, and wealthy friends all believed her. Today we'll break down exactly how she did it, and why it worked for so long.",
+   "vis": {
+    "type": "list",
+    "title": "Anna 'Delvey'",
+    "items": [
+     [
+      "🇩🇪",
+      "Claimed to be a German heiress"
+     ],
+     [
+      "🏨",
+      "Lived in luxury hotels"
+     ],
+     [
+      "🏦",
+      "Fooled banks"
+     ],
+     [
+      "⚖️",
+      "Convicted in 2019"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The character.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The character"
+   }
+  },
+  {
+   "say": "Anna Sorokin was born in Russia and moved to Germany as a teenager. Her family was ordinary. Her father has been described in reports as a former truck driver who later ran a heating and cooling business. There was no family fortune.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🧳",
+    "text": "Anna Sorokin",
+    "sub": "An ordinary family. No fortune.",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "After time in London, Paris and the fashion world, she arrived in New York around twenty fourteen. And she arrived as someone else. Anna Delvey, an heiress, supposedly with tens of millions waiting in a trust fund in Europe.",
+   "vis": {
+    "type": "hook",
+    "text": "She arrived in New York as someone else.",
+    "emoji": "🗽",
+    "hot": [
+     "someone",
+     "else."
+    ]
+   }
+  },
+  {
+   "say": "The character was carefully built. Designer clothes. Big tips, sometimes a hundred dollar note at a time. Expensive dinners. Talk of art, fashion, and a fortune that was always just about to arrive.",
+   "vis": {
+    "type": "list",
+    "title": "The costume",
+    "items": [
+     [
+      "👗",
+      "Designer clothes"
+     ],
+     [
+      "💵",
+      "Huge tips"
+     ],
+     [
+      "🍾",
+      "Expensive dinners"
+     ],
+     [
+      "🖼️",
+      "Talk of art and money"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Here's the trick. Wealthy people in New York often don't flash their money in obvious ways. So when Anna looked a little scruffy or eccentric, it made her seem more real, not less. People assumed she was so rich she didn't care.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What people saw",
+     "emoji": "💎",
+     "lines": [
+      "Eccentric heiress",
+      "Too rich to care"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What was real",
+     "emoji": "🧾",
+     "lines": [
+      "No trust fund",
+      "Bills piling up"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "She also knew where to be seen. Exclusive parties, art openings, fashion events. Once a few well connected people accepted her, others assumed someone had already checked her out. Every new friend made her look more real to the next.",
+   "vis": {
+    "type": "list",
+    "title": "Borrowed trust",
+    "items": [
+     [
+      "🥂",
+      "Seen at the right parties"
+     ],
+     [
+      "🖼️",
+      "Known in the art world"
+     ],
+     [
+      "👥",
+      "Friends vouch for her"
+     ],
+     [
+      "🔁",
+      "Trust snowballs"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. The big plan.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The big plan"
+   }
+  },
+  {
+   "say": "Anna's dream was a private arts club in Manhattan. A members' space with galleries, restaurants and events, in a historic building on Park Avenue South. To make it happen, she needed money. A lot of it.",
+   "vis": {
+    "type": "flow",
+    "title": "The Anna Delvey Foundation plan",
+    "nodes": [
+     [
+      "🏛️",
+      "Lease a historic building"
+     ],
+     [
+      "🖼️",
+      "Open an arts club"
+     ],
+     [
+      "🏦",
+      "Borrow $22 million"
+     ],
+     [
+      "🎭",
+      "Prove she's an heiress"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🖼️"
+   }
+  },
+  {
+   "say": "So she applied for a twenty two million dollar loan. Prosecutors said she used forged financial documents, showing tens of millions of euros in accounts that didn't exist.",
+   "vis": {
+    "type": "doc",
+    "title": "Loan application",
+    "lines": [
+     [
+      "Amount",
+      "$22,000,000"
+     ],
+     [
+      "Purpose",
+      "Private arts club"
+     ],
+     [
+      "Proof",
+      "Forged bank documents"
+     ],
+     [
+      "Real money",
+      "None"
+     ]
+    ],
+    "stamp": "FORGED",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "One investment firm got close enough to ask her to pay for its due diligence checks. Anna couldn't verify her money, and the loan never happened. But the banks weren't the only ones she targeted.",
+   "vis": {
+    "type": "hook",
+    "text": "The checks didn't add up.",
+    "emoji": "🔍",
+    "hot": [
+     "didn't"
+    ]
+   }
+  },
+  {
+   "say": "Think about how bold that is. She wasn't asking for a few hundred dollars. She was asking professional lenders for twenty two million, with paperwork that couldn't survive a proper check. Remember that number. Because the moment someone actually checked, the story started to crack.",
+   "vis": {
+    "type": "hook",
+    "text": "The bigger the lie, the more checks it faces.",
+    "emoji": "🧾",
+    "hot": [
+     "checks"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The bills.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The bills"
+   }
+  },
+  {
+   "say": "Prosecutors said that, in total, she obtained around two hundred and seventy five thousand dollars through her schemes. That included a bank that lent her one hundred thousand dollars, which she never paid back.",
+   "vis": {
+    "type": "num",
+    "value": 275000,
+    "label": "obtained by Sorokin, according to prosecutors",
+    "color": "red",
+    "emoji": "💸",
+    "prefix": "$",
+    "suffix": "",
+    "source": "NBC News, 2019 sentencing report"
+   }
+  },
+  {
+   "say": "She ran up hotel bills she didn't pay. She bounced cheques. She chartered a private jet to a conference in Nebraska, worth around thirty five thousand dollars, and didn't pay for that either.",
+   "vis": {
+    "type": "list",
+    "title": "The unpaid bills",
+    "items": [
+     [
+      "🏨",
+      "Hotel bills"
+     ],
+     [
+      "🧾",
+      "Bounced cheques"
+     ],
+     [
+      "✈️",
+      "A $35,400 private jet"
+     ],
+     [
+      "🏦",
+      "A $100,000 bank loan"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And then there was the trip to Morocco. Anna invited a friend on a luxury holiday at a five star resort in Marrakech. When the bill came, her cards didn't work. The friend ended up with around sixty two thousand dollars of charges.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🌴",
+    "text": "The Marrakech trip",
+    "sub": "A friend was left with a $62,000 bill",
+    "color": "red"
+   }
+  },
+  {
+   "say": "That friend, Rachel DeLoache Williams, later wrote about it. She described how the money was always about to arrive. Just one more transfer, one more day.",
+   "vis": {
+    "type": "quote",
+    "text": "The money was always about to arrive.",
+    "who": "how friends described Anna's promises"
+   }
+  },
+  {
+   "say": "For victims, the damage wasn't just money. Rachel's credit card company initially held her responsible for the charges, and she spent months trying to recover. Hotels and businesses had to write off what they were owed.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What Anna got",
+     "emoji": "🌴",
+     "lines": [
+      "Luxury trips",
+      "Free stays"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What victims got",
+     "emoji": "📉",
+     "lines": [
+      "Huge bills",
+      "Months of stress"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part four. Why it worked.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why it worked"
+   }
+  },
+  {
+   "say": "So why did so many people believe her? Because she used the same tools as every great con artist.",
+   "vis": {
+    "type": "list",
+    "title": "The con's toolkit",
+    "items": [
+     [
+      "🎭",
+      "A confident story"
+     ],
+     [
+      "💵",
+      "Spend a little to look rich"
+     ],
+     [
+      "⏳",
+      "Always 'tomorrow'"
+     ],
+     [
+      "😳",
+      "Victims too awkward to push"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The biggest one was embarrassment. Asking a rich friend to pay you back feels awkward. Questioning a wealthy client feels rude. Anna understood that politeness can be more powerful than any lock.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What you feel",
+     "emoji": "😬",
+     "lines": [
+      "It's rude to ask",
+      "She must be good for it"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What she counted on",
+     "emoji": "🎯",
+     "lines": [
+      "Nobody asks",
+      "Time to move on"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part five. The ending.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The ending"
+   }
+  },
+  {
+   "say": "In twenty seventeen, she was arrested. In twenty nineteen, a jury in Manhattan convicted her of grand larceny and theft of services, and she was sentenced to four to twelve years in prison.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2017",
+      "Arrested"
+     ],
+     [
+      "2019",
+      "Convicted and sentenced"
+     ],
+     [
+      "2021",
+      "Released, then held by immigration"
+     ],
+     [
+      "2022",
+      "Netflix series released",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "At sentencing, the judge said she was stunned by the depth of the defendant's deception.",
+   "vis": {
+    "type": "hook",
+    "text": "'Stunned by the depth of the deception.'",
+    "emoji": "⚖️",
+    "hot": [
+     "deception."
+    ]
+   }
+  },
+  {
+   "say": "Then came the strangest twist. Netflix bought the rights to her story and made a hit series, Inventing Anna. She was reportedly paid hundreds of thousands of dollars, much of which went on restitution to her victims and legal fees.",
+   "vis": {
+    "type": "hook",
+    "text": "Her con became a Netflix show.",
+    "emoji": "🎬",
+    "hot": [
+     "Netflix"
+    ]
+   }
+  },
+  {
+   "say": "So what's the lesson? Wealth is easy to fake for a while. Confidence, clothes and big tips are not proof. Paperwork that checks out is.",
+   "vis": {
+    "type": "list",
+    "title": "Spot a fake fortune",
+    "items": [
+     [
+      "🧾",
+      "Ask for proof, not stories"
+     ],
+     [
+      "⏳",
+      "Watch for 'tomorrow' money"
+     ],
+     [
+      "🙅",
+      "Don't cover someone's bill"
+     ],
+     [
+      "🔍",
+      "Check before you lend"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories of cons and the money behind them, and tell me in the comments which scam I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which scam should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE FAKE|HEIRESS",
+  "emoji": "👜",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

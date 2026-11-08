@@ -1,0 +1,528 @@
+{
+ "id": "MV029",
+ "style": "neon",
+ "variant": 2,
+ "voice": "am_fenrir",
+ "speed": 0.86,
+ "trans": "glitch",
+ "title": "Carbanak: The Hackers Who Made ATMs Spit Out Cash",
+ "beats": [
+  {
+   "say": "Imagine walking past a cash machine and watching it start pouring out money all by itself. Nobody touching it. No card inserted. That really happened, and it was the work of a gang called Carbanak.",
+   "vis": {
+    "type": "hook",
+    "text": "ATMs pouring out cash. All by themselves.",
+    "emoji": "🏧",
+    "hot": [
+     "all",
+     "by",
+     "themselves."
+    ]
+   }
+  },
+  {
+   "say": "In twenty fifteen, the security company Kaspersky revealed that the gang may have stolen up to one billion dollars from banks and financial institutions around the world.",
+   "vis": {
+    "type": "num",
+    "value": 1,
+    "label": "stolen in about two years, by Kaspersky's estimate",
+    "color": "red",
+    "emoji": "💻",
+    "prefix": "$",
+    "suffix": " billion",
+    "source": "Kaspersky Lab, February 2015"
+   }
+  },
+  {
+   "say": "They hit banks in around thirty countries, including Russia, the US, Germany, China, the UK and more. And they didn't carry a single gun.",
+   "vis": {
+    "type": "list",
+    "title": "The Carbanak heists",
+    "items": [
+     [
+      "🌍",
+      "Around 30 countries"
+     ],
+     [
+      "🏦",
+      "Up to 100 institutions targeted"
+     ],
+     [
+      "💰",
+      "Up to $10m per raid"
+     ],
+     [
+      "🔫",
+      "Zero guns"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The email.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The email"
+   }
+  },
+  {
+   "say": "It always started the same way. An email. Bank staff received messages that looked normal, but carried hidden malicious software. This is called spear phishing, because it targets specific people.",
+   "vis": {
+    "type": "flow",
+    "title": "How they got in",
+    "nodes": [
+     [
+      "📧",
+      "A normal-looking email"
+     ],
+     [
+      "📎",
+      "Hidden malware"
+     ],
+     [
+      "💻",
+      "One employee clicks"
+     ],
+     [
+      "🕳️",
+      "Hackers are inside"
+     ]
+    ],
+    "color": "red",
+    "coin": "📧"
+   }
+  },
+  {
+   "say": "The emails were designed to fit in. A message that seemed to come from a colleague or a business contact, with a document attached. Nothing looked unusual. Open the document, and the malware quietly installed itself in the background.",
+   "vis": {
+    "type": "doc",
+    "title": "Incoming email",
+    "lines": [
+     [
+      "From",
+      "Looks like a colleague"
+     ],
+     [
+      "Subject",
+      "Looks like work"
+     ],
+     [
+      "Attachment",
+      "Hidden malware"
+     ],
+     [
+      "Result",
+      "Backdoor installed"
+     ]
+    ],
+    "stamp": "MALWARE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "All it took was one employee opening one attachment. From that single computer, the hackers began moving through the bank's internal network.",
+   "vis": {
+    "type": "hook",
+    "text": "One click was all it took.",
+    "emoji": "🖱️",
+    "hot": [
+     "One",
+     "click"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Watching the staff.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Watching the staff"
+   }
+  },
+  {
+   "say": "Then they did something very patient. They found the computers of the people who ran the bank's money systems, and secretly recorded their screens. Like hidden cameras, watching every click.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📹",
+    "text": "Silent recording",
+    "sub": "They watched bank staff do their jobs",
+    "color": "red"
+   }
+  },
+  {
+   "say": "This was the clever bit. Instead of guessing how the bank worked, they learned it from the staff themselves. Then they copied exactly what those staff did, so their actions looked completely normal.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "A normal hacker",
+     "emoji": "🔨",
+     "lines": [
+      "Breaks things",
+      "Gets noticed"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Carbanak",
+     "emoji": "🎭",
+     "lines": [
+      "Copies the staff",
+      "Looks normal"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It's like a burglar who spends months watching how you lock your house, where you keep your keys, and when you go out, before ever touching anything. By the time they moved, they knew the bank better than some of its own employees.",
+   "vis": {
+    "type": "hook",
+    "text": "They knew the bank better than its staff.",
+    "emoji": "👁️",
+    "hot": [
+     "better"
+    ]
+   }
+  },
+  {
+   "say": "According to Kaspersky, each robbery took around two to four months, from the first infected computer to the moment the money left.",
+   "vis": {
+    "type": "num",
+    "value": 4,
+    "label": "months per heist, at most",
+    "color": "teal",
+    "emoji": "⏳",
+    "prefix": "Up to ",
+    "suffix": ""
+   }
+  },
+  {
+   "say": "Part three. Three ways to cash out.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Three ways to cash out"
+   }
+  },
+  {
+   "say": "Once they understood the bank, they had three main ways to take the money.",
+   "vis": {
+    "type": "list",
+    "title": "The three cash-outs",
+    "items": [
+     [
+      "🏧",
+      "Make ATMs spit out cash"
+     ],
+     [
+      "📈",
+      "Inflate account balances"
+     ],
+     [
+      "💸",
+      "Transfer money out"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Method one. The cash machines. The hackers took control of a bank's ATMs and told them to dispense money at a set time. A gang member, called a money mule, would be waiting nearby to collect it.",
+   "vis": {
+    "type": "flow",
+    "title": "The ATM trick",
+    "nodes": [
+     [
+      "💻",
+      "Hackers control the ATM"
+     ],
+     [
+      "⏰",
+      "Cash out at a set time"
+     ],
+     [
+      "🚶",
+      "Mule waits nearby"
+     ],
+     [
+      "👜",
+      "Collects the cash"
+     ]
+    ],
+    "color": "red",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "For the person standing at the ATM, it looked like an ordinary withdrawal. No card. No hacking tools. Just someone collecting cash from a machine. Security cameras would see nothing suspicious, and the bank wouldn't notice until the money was already gone.",
+   "vis": {
+    "type": "hook",
+    "text": "On camera, it looked like a normal withdrawal.",
+    "emoji": "📹",
+    "hot": [
+     "normal"
+    ]
+   }
+  },
+  {
+   "say": "Method two was sneakier. They'd find an account with, say, a thousand dollars in it, and change the balance to ten thousand. Then they'd move the extra nine thousand out. The real owner still saw their thousand dollars, so nobody complained.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What the owner sees",
+     "emoji": "🙂",
+     "lines": [
+      "$1,000",
+      "Everything's fine"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What really happened",
+     "emoji": "😈",
+     "lines": [
+      "Inflated to $10,000",
+      "$9,000 moved out"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Method three. Simple transfers. Using the bank's own online systems, they sent money to accounts they controlled, in countries including the US and China.",
+   "vis": {
+    "type": "flow",
+    "title": "Direct transfers",
+    "nodes": [
+     [
+      "🏦",
+      "Victim bank"
+     ],
+     [
+      "💻",
+      "Fake but normal-looking transfer"
+     ],
+     [
+      "🌍",
+      "Accounts abroad"
+     ],
+     [
+      "🚶",
+      "Mules withdraw it"
+     ]
+    ],
+    "color": "red",
+    "coin": "💸"
+   }
+  },
+  {
+   "say": "And here's what made it so hard to catch. Every one of these methods used the bank's real systems, logged in like real staff. There was no break in to spot. To the bank, it looked like its own people doing their normal jobs.",
+   "vis": {
+    "type": "list",
+    "title": "Why nobody noticed",
+    "items": [
+     [
+      "🎭",
+      "Copied real staff"
+     ],
+     [
+      "🏦",
+      "Used real systems"
+     ],
+     [
+      "💵",
+      "Took modest amounts"
+     ],
+     [
+      "🌍",
+      "Spread across many banks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Kaspersky said the gang was careful not to be too greedy at any one bank. Up to around ten million dollars per raid, then on to the next.",
+   "vis": {
+    "type": "hook",
+    "text": "Not too greedy. Then on to the next bank.",
+    "emoji": "🎯",
+    "hot": [
+     "next"
+    ]
+   }
+  },
+  {
+   "say": "Kaspersky said the gang included people from Russia, Ukraine, other parts of Europe, and China. A multinational team, working across borders, which made it even harder for any one country's police to catch them.",
+   "vis": {
+    "type": "hook",
+    "text": "A gang without a single home country.",
+    "emoji": "🌍",
+    "hot": [
+     "single"
+    ]
+   }
+  },
+  {
+   "say": "Part four. The hunt.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The hunt"
+   }
+  },
+  {
+   "say": "Police in many countries spent years chasing them. Europol, the European police agency, worked with the FBI, Spanish police and security firms.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2013",
+      "Attacks begin"
+     ],
+     [
+      "2015",
+      "Kaspersky exposes Carbanak"
+     ],
+     [
+      "2016 on",
+      "New tools, new attacks"
+     ],
+     [
+      "March 2018",
+      "Leader arrested in Spain",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In March twenty eighteen, Europol announced that the suspected leader had been arrested in Alicante, in Spain. Europol said the gang's attacks had caused losses of over one billion euros.",
+   "vis": {
+    "type": "headline",
+    "kicker": "March 2018",
+    "paper": "THE CYBER DESK",
+    "text": "Suspected Carbanak leader arrested in Alicante, Spain",
+    "date": "Europol: losses of over €1 billion across the gang's attacks"
+   }
+  },
+  {
+   "say": "Even so, security experts believe other members carried on, and similar attacks have continued. Arresting one person doesn't delete the software.",
+   "vis": {
+    "type": "hook",
+    "text": "You can arrest a person. Not the code.",
+    "emoji": "🧬",
+    "hot": [
+     "code."
+    ]
+   }
+  },
+  {
+   "say": "The money mules were also a weak point. They were the people on the ground collecting cash and moving it on. Police have arrested mules in several countries, but the people at the top were often far away, hidden behind layers of accounts and code.",
+   "vis": {
+    "type": "list",
+    "title": "The layers",
+    "items": [
+     [
+      "💻",
+      "Hackers at the top"
+     ],
+     [
+      "🏦",
+      "Accounts in many countries"
+     ],
+     [
+      "🚶",
+      "Mules on the street"
+     ],
+     [
+      "🚔",
+      "Mules caught first"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. What changed.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "What changed"
+   }
+  },
+  {
+   "say": "Carbanak was a wake up call. It showed that the most dangerous bank robbers now sit behind keyboards, and that the weakest point in any bank is often a single inbox.",
+   "vis": {
+    "type": "list",
+    "title": "What banks learned",
+    "items": [
+     [
+      "📧",
+      "Train staff about phishing"
+     ],
+     [
+      "👀",
+      "Watch for unusual internal activity"
+     ],
+     [
+      "🏧",
+      "Lock down ATM networks"
+     ],
+     [
+      "🔐",
+      "Limit who controls money systems"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And it's a lesson for you too. The same tricks used on banks are used on ordinary people every day. An email that looks real. An attachment you weren't expecting. A link that wants you to log in.",
+   "vis": {
+    "type": "list",
+    "title": "Protect yourself",
+    "items": [
+     [
+      "🤨",
+      "Unexpected attachment? Don't open it"
+     ],
+     [
+      "🔗",
+      "Don't log in from email links"
+     ],
+     [
+      "📞",
+      "Check with the sender another way"
+     ],
+     [
+      "🔐",
+      "Use two-factor login"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The Carbanak gang stole a fortune without ever stepping inside a bank. They just waited for someone to click.",
+   "vis": {
+    "type": "hook",
+    "text": "They just waited for someone to click.",
+    "emoji": "🖱️",
+    "hot": [
+     "click."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more of the biggest heists in history, online and off. And tell me in the comments which hack I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which hack should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "ATMS THAT|PAID HACKERS",
+  "emoji": "🏧",
+  "color": "teal",
+  "tag": "Heists and cons"
+ }
+}

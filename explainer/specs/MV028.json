@@ -1,0 +1,455 @@
+{
+ "id": "MV028",
+ "style": "documentary",
+ "voice": "bm_fable",
+ "speed": 0.85,
+ "title": "The £60 Million Knightsbridge Vault Robbery",
+ "beats": [
+  {
+   "say": "On a Sunday in July nineteen eighty seven, two well dressed men walked into a safe deposit centre in Knightsbridge, London, and asked to rent a box. Hours later, an estimated sixty million pounds was gone.",
+   "vis": {
+    "type": "hook",
+    "text": "They asked to rent a box. They took £60 million.",
+    "emoji": "🔐",
+    "hot": [
+     "£60",
+     "million."
+    ]
+   }
+  },
+  {
+   "say": "It's often called one of the largest robberies in British history. In today's money, that's well over a hundred million pounds. And the man behind it couldn't resist bragging about it.",
+   "vis": {
+    "type": "num",
+    "value": 60,
+    "label": "estimated haul, in 1987",
+    "color": "gold",
+    "emoji": "💎",
+    "prefix": "£",
+    "suffix": "m",
+    "source": "Estimates of the 1987 Knightsbridge robbery"
+   }
+  },
+  {
+   "say": "The story has everything. An inside man drowning in debt. A fake closed sign. A single bloody fingerprint. And a Ferrari that led police straight to the mastermind.",
+   "vis": {
+    "type": "list",
+    "title": "What's in this story",
+    "items": [
+     [
+      "🤝",
+      "An inside man"
+     ],
+     [
+      "🪧",
+      "A fake 'closed' sign"
+     ],
+     [
+      "🩸",
+      "One fingerprint"
+     ],
+     [
+      "🏎️",
+      "A Ferrari"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The vault.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The vault"
+   }
+  },
+  {
+   "say": "The Knightsbridge Safe Deposit Centre was in Cheval Place, in one of the richest parts of London. Wealthy people rented private boxes there to store cash, jewellery and valuables, often things they didn't want anyone else to know about.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏦",
+    "text": "Knightsbridge Safe Deposit Centre",
+    "sub": "Private boxes for the very wealthy",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "That secrecy was part of the appeal. And it's why, even today, nobody knows exactly how much was taken. Some owners may never have reported everything they lost.",
+   "vis": {
+    "type": "hook",
+    "text": "Nobody knows exactly what was in the boxes.",
+    "emoji": "❓",
+    "hot": [
+     "exactly"
+    ]
+   }
+  },
+  {
+   "say": "Think about why people rent safe deposit boxes. Some simply want their valuables safe. But some want privacy, because what's inside is untaxed cash, or was never declared at all. That made the centre a perfect target. Some victims had good reason not to go to the police.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Ordinary customers",
+     "emoji": "💍",
+     "lines": [
+      "Jewellery",
+      "Family heirlooms"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Secretive customers",
+     "emoji": "🤫",
+     "lines": [
+      "Undeclared cash",
+      "Things nobody should know"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part two. The mastermind and the inside man.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The mastermind"
+   }
+  },
+  {
+   "say": "The plan was led by Valerio Viccei, an Italian who had come to London after being wanted in Italy. He liked expensive cars, expensive clothes and expensive living. He wanted one huge score.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🕴️",
+    "text": "Valerio Viccei",
+    "sub": "Flashy, ambitious, wanted in Italy",
+    "color": "red"
+   }
+  },
+  {
+   "say": "He found an inside man. Parvez Latif, the managing director of the centre, was heavily in debt and, according to accounts of the case, a cocaine user. He needed money. Viccei needed a way in.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Latif's problem",
+     "emoji": "📉",
+     "lines": [
+      "Deep in debt",
+      "Needed cash"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Viccei's problem",
+     "emoji": "🔐",
+     "lines": [
+      "Needed a way in",
+      "Needed time"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "An insider changes everything. Latif could explain the layout, the security, the staff, and when the place would be quietest. Viccei didn't have to break in. He would be invited in.",
+   "vis": {
+    "type": "hook",
+    "text": "He didn't break in. He was invited in.",
+    "emoji": "🚪",
+    "hot": [
+     "invited"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The robbery.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The robbery"
+   }
+  },
+  {
+   "say": "On the twelfth of July, nineteen eighty seven, Viccei and an accomplice came in posing as customers wanting to rent a safe deposit box. They were shown down to the vault.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "12 July 1987",
+      "Two 'customers' arrive"
+     ],
+     [
+      "In the vault",
+      "Guns drawn"
+     ],
+     [
+      "Outside",
+      "'Temporarily closed' sign"
+     ],
+     [
+      "Hours later",
+      "Boxes emptied",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Once inside, they pulled out handguns and overpowered the manager and the security guards.",
+   "vis": {
+    "type": "hook",
+    "text": "Then they pulled out guns.",
+    "emoji": "🔫",
+    "hot": [
+     "guns."
+    ]
+   }
+  },
+  {
+   "say": "Then came the clever part. They hung a sign on the door saying the centre was temporarily closed. Anyone who turned up just went away. Inside, more gang members arrived, and began breaking open box after box.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🪧",
+    "text": "TEMPORARILY CLOSED",
+    "sub": "A simple sign bought them hours",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "With the doors effectively shut, they had time. They broke into many of the boxes, filled bags with cash, jewellery and valuables, and walked out.",
+   "vis": {
+    "type": "flow",
+    "title": "How they bought time",
+    "nodes": [
+     [
+      "🧑‍💼",
+      "Pose as customers"
+     ],
+     [
+      "🔫",
+      "Overpower staff"
+     ],
+     [
+      "🪧",
+      "Hang a 'closed' sign"
+     ],
+     [
+      "💰",
+      "Empty the boxes"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💎"
+   }
+  },
+  {
+   "say": "Because many owners kept quiet about what they'd stored, estimates of the haul vary. Sixty million pounds is the figure most often quoted.",
+   "vis": {
+    "type": "hook",
+    "text": "Many owners never said what they'd lost.",
+    "emoji": "🤐",
+    "hot": [
+     "never"
+    ]
+   }
+  },
+  {
+   "say": "Think about what an inside man and a closed sign achieved together. No alarm was raised. No tunnel was dug. No vault door was blasted. The thieves simply used the building's own routines against it, the same way so many great heists work.",
+   "vis": {
+    "type": "list",
+    "title": "Why it worked",
+    "items": [
+     [
+      "🤝",
+      "Inside knowledge"
+     ],
+     [
+      "🧑‍💼",
+      "Looking like customers"
+     ],
+     [
+      "🪧",
+      "A simple sign"
+     ],
+     [
+      "⏳",
+      "Time to work"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. The fingerprint.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The fingerprint"
+   }
+  },
+  {
+   "say": "The gang made one big mistake. In the vault, police found a bloody fingerprint. Viccei had cut his finger while breaking into the boxes. The print was traced to him.",
+   "vis": {
+    "type": "doc",
+    "title": "Evidence at the scene",
+    "lines": [
+     [
+      "Location",
+      "Inside the vault"
+     ],
+     [
+      "Item",
+      "A bloody fingerprint"
+     ],
+     [
+      "Cause",
+      "Cut while forcing boxes"
+     ],
+     [
+      "Match",
+      "Valerio Viccei"
+     ]
+    ],
+    "stamp": "MATCH",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Viccei fled abroad for a while. But he couldn't let go of his old life. He came back to England, reportedly to sort out his beloved Ferrari Testarossa, and police arrested him.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "July 1987",
+      "The robbery"
+     ],
+     [
+      "After",
+      "Viccei leaves the country"
+     ],
+     [
+      "Weeks later",
+      "Returns for his Ferrari"
+     ],
+     [
+      "Then",
+      "Arrested in England",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A man who'd just stolen millions was caught because he wanted his car back.",
+   "vis": {
+    "type": "hook",
+    "text": "Caught because he wanted his car back.",
+    "emoji": "🏎️",
+    "hot": [
+     "car"
+    ]
+   }
+  },
+  {
+   "say": "And police followed the money too. Some of the stolen valuables were recovered, along with more of the gang. One by one, the people who'd taken part were tracked down and charged.",
+   "vis": {
+    "type": "hook",
+    "text": "One by one, they were tracked down.",
+    "emoji": "🚔",
+    "hot": [
+     "tracked"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Prison and pride.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Prison and pride"
+   }
+  },
+  {
+   "say": "Viccei was sentenced to twenty two years. Several others, including the inside man, were also convicted. Viccei served part of his sentence at Parkhurst Prison, then was transferred to Italy to serve the rest.",
+   "vis": {
+    "type": "num",
+    "value": 22,
+    "label": "Viccei's sentence",
+    "color": "red",
+    "emoji": "⛓️",
+    "prefix": "",
+    "suffix": " years"
+   }
+  },
+  {
+   "say": "He showed little regret. He wrote a book about the robbery, and seemed proud of it. To him, it was the job of a lifetime.",
+   "vis": {
+    "type": "hook",
+    "text": "He wrote a book about it.",
+    "emoji": "📖",
+    "hot": [
+     "book"
+    ]
+   }
+  },
+  {
+   "say": "In two thousand, while on day release in Italy, Viccei was reportedly killed in a shootout with police. The man who planned one of Britain's biggest robberies died still living the criminal life.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2000",
+    "paper": "THE EVENING CHRONICLE",
+    "text": "Knightsbridge robber killed in police shootout in Italy",
+    "date": "Reported while on day release from prison"
+   }
+  },
+  {
+   "say": "And much of what was taken has never been fully accounted for. Some was recovered. A lot of it, because nobody officially said what was there, simply vanished into the unknown.",
+   "vis": {
+    "type": "list",
+    "title": "The lessons",
+    "items": [
+     [
+      "🤝",
+      "The biggest risk is often an insider"
+     ],
+     [
+      "🪧",
+      "Simple tricks buy time"
+     ],
+     [
+      "🩸",
+      "One mistake can end it"
+     ],
+     [
+      "🏎️",
+      "Greed gets people caught"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So the Knightsbridge robbery shows something about money and secrecy. The wealthier and more private the treasure, the harder it is to know what was lost, and the harder it is to get it back.",
+   "vis": {
+    "type": "hook",
+    "text": "Secret money is hard to get back.",
+    "emoji": "🔐",
+    "hot": [
+     "Secret"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories of the world's biggest heists, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which heist should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£60M|VAULT JOB",
+  "emoji": "🔐",
+  "color": "gold",
+  "tag": "Heists and cons"
+ }
+}

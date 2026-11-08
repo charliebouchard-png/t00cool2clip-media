@@ -1,0 +1,437 @@
+{
+ "id": "MV060",
+ "style": "storybook",
+ "voice": "bm_fable",
+ "speed": 0.82,
+ "title": "Decimal Day: When Britain Changed Its Money Overnight",
+ "beats": [
+  {
+   "say": "Imagine going shopping, and the price is one pound, twelve shillings and sixpence. For centuries, that's how British money worked. Then, on one day in nineteen seventy one, it all changed.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "That's one pound, twelve and six, please.",
+      "prop": "🪙",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Old money"
+   }
+  },
+  {
+   "say": "On the fifteenth of February, nineteen seventy one, Britain went decimal. It's known as Decimal Day. Overnight, a pound went from being two hundred and forty pennies, to one hundred.",
+   "vis": {
+    "type": "hook",
+    "text": "240 pennies became 100, overnight.",
+    "emoji": "🪙",
+    "hot": [
+     "overnight."
+    ]
+   }
+  },
+  {
+   "say": "Part one. The old money.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The old money"
+   }
+  },
+  {
+   "say": "Here's how the old system worked. Twelve pennies made a shilling. Twenty shillings made a pound. So there were two hundred and forty pennies in a pound. It was called pounds, shillings and pence, or L S D.",
+   "vis": {
+    "type": "list",
+    "title": "The old system",
+    "items": [
+     [
+      "🪙",
+      "12 pennies = 1 shilling"
+     ],
+     [
+      "💷",
+      "20 shillings = 1 pound"
+     ],
+     [
+      "🧮",
+      "240 pennies = 1 pound"
+     ],
+     [
+      "🔤",
+      "Written £sd"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And there were lots of other coins with wonderful names. The farthing, a quarter of a penny. The threepenny bit. The sixpence. The florin, worth two shillings. And the half crown, worth two shillings and sixpence.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "A tanner, a bob, and a half crown!",
+      "prop": "🪙"
+     }
+    ],
+    "title": "So many coins"
+   }
+  },
+  {
+   "say": "People also had nicknames. A shilling was a bob. A sixpence was a tanner. And some posh shops priced things in guineas, worth twenty one shillings, one pound and one shilling.",
+   "vis": {
+    "type": "hook",
+    "text": "A bob, a tanner, and a guinea.",
+    "emoji": "🎩",
+    "hot": [
+     "guinea."
+    ]
+   }
+  },
+  {
+   "say": "You had to be good at maths. Adding up a shopping bill meant working in twelves and twenties. Children spent hours learning how to do sums in old money.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "say": "Twelve and six, plus nine and four...",
+      "prop": "🧮"
+     }
+    ],
+    "title": "The maths"
+   }
+  },
+  {
+   "say": "Prices were written in a special way. Twelve shillings and sixpence was written twelve slash six. And one pound, twelve and six was written with a pound sign, then twelve, then six.",
+   "vis": {
+    "type": "hook",
+    "text": "12/6 meant twelve shillings and sixpence.",
+    "emoji": "✍️",
+    "hot": [
+     "12/6"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Why change?",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why change?"
+   }
+  },
+  {
+   "say": "By the nineteen sixties, most of the world used decimal money, counting in tens and hundreds. It was simpler, easier to calculate, and better for trade and the new computers businesses were starting to use.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Old British money",
+     "emoji": "🧮",
+     "lines": [
+      "Twelves and twenties",
+      "Hard to calculate"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Decimal money",
+     "emoji": "🔟",
+     "lines": [
+      "Tens and hundreds",
+      "Easy to calculate"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "A government committee recommended decimal money in nineteen sixty three. In nineteen sixty six, the government announced the change. A special organisation, the Decimal Currency Board, was set up to plan it.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1963",
+      "Committee recommends decimal"
+     ],
+     [
+      "1966",
+      "Change announced"
+     ],
+     [
+      "1968",
+      "New 5p and 10p coins"
+     ],
+     [
+      "15 Feb 1971",
+      "Decimal Day",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The new coins arrived gradually. The five pence and ten pence coins came first, in nineteen sixty eight, because they were the same size and value as the old shilling and florin. People could use them straight away.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "This new 5p is just like a shilling!",
+      "prop": "🪙"
+     }
+    ],
+    "title": "Gradual change"
+   }
+  },
+  {
+   "say": "The ten shilling note was withdrawn in nineteen seventy, replaced by the fifty pence coin. The old penny and threepenny bit even carried on for a few months after Decimal Day.",
+   "vis": {
+    "type": "hook",
+    "text": "The ten-shilling note became a coin.",
+    "emoji": "💷",
+    "hot": [
+     "coin."
+    ]
+   }
+  },
+  {
+   "say": "In nineteen sixty nine came the seven sided fifty pence coin, replacing the ten shilling note. Some people hated it at first. It's still with us today.",
+   "vis": {
+    "type": "hook",
+    "text": "The seven-sided 50p arrived in 1969.",
+    "emoji": "🪙",
+    "hot": [
+     "50p"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The big day.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The big day"
+   }
+  },
+  {
+   "say": "The date was chosen carefully. February was a quiet time for shops and banks. Banks closed for several days before Decimal Day, to convert all their accounts and clear cheques.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Closed for decimalisation. Back Monday!",
+      "prop": "🏦"
+     }
+    ],
+    "title": "The banks close"
+   }
+  },
+  {
+   "say": "There was a huge publicity campaign. Leaflets to every home. Television programmes. Even a pop song about decimal money. Shops put up conversion charts, and people carried little converters in their pockets.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "How much is that in new money?",
+      "prop": "📋"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "Check the chart!"
+     }
+    ],
+    "title": "Getting ready"
+   }
+  },
+  {
+   "say": "Ireland changed its money on exactly the same day, because the Irish pound was linked to the British pound at the time.",
+   "vis": {
+    "type": "hook",
+    "text": "Ireland switched on the same day.",
+    "emoji": "🇮🇪",
+    "hot": [
+     "same",
+     "day."
+    ]
+   }
+  },
+  {
+   "say": "Under the new system, one new penny was worth two point four old pennies. It sounds confusing, and for a while, it was.",
+   "vis": {
+    "type": "num",
+    "value": 2.4,
+    "label": "old pennies in one new penny",
+    "color": "gold",
+    "emoji": "🪙",
+    "prefix": "",
+    "suffix": "",
+    "dec": 1
+   }
+  },
+  {
+   "say": "On Monday the fifteenth of February, nineteen seventy one, Britain woke up to new money. Shops gave change in new coins. Price tags showed new pence. And it went surprisingly smoothly.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "That's 25 new pence, please.",
+      "prop": "🏪"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "That was easy!",
+      "prop": "🪙"
+     }
+    ],
+    "title": "Decimal Day"
+   }
+  },
+  {
+   "say": "Part four. Old money, new prices.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Old money, new prices"
+   }
+  },
+  {
+   "say": "Not everyone was happy. Many older people found it hard. And some people believed shops used the change to round prices up. Officials said overall the changes were roughly fair, but the suspicion stuck.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What people feared",
+     "emoji": "😠",
+     "lines": [
+      "Prices rounded up",
+      "Confusing for older people"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What officials said",
+     "emoji": "📊",
+     "lines": [
+      "Roughly fair overall",
+      "Smooth changeover"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "A famous phrase was born. How much is that in old money? People said it for years, converting new prices back into the old money they understood.",
+   "vis": {
+    "type": "hook",
+    "text": "'How much is that in old money?'",
+    "emoji": "🗣️",
+    "hot": [
+     "old",
+     "money?"
+    ]
+   }
+  },
+  {
+   "say": "Some old coins stayed in use for years. The shilling and florin carried on as five and ten pence. The sixpence lasted until nineteen eighty, worth two and a half new pence.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "My old sixpence still works!",
+      "prop": "🪙",
+      "hat": "🎩"
+     }
+    ],
+    "title": "The survivors"
+   }
+  },
+  {
+   "say": "Part five. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "Decimal Day is a brilliant example of a huge change done well. Years of planning. Gradual introduction. Clear communication. And a quiet day to make the switch.",
+   "vis": {
+    "type": "list",
+    "title": "Why it worked",
+    "items": [
+     [
+      "📅",
+      "Years of planning"
+     ],
+     [
+      "🪙",
+      "New coins introduced gradually"
+     ],
+     [
+      "📺",
+      "A massive information campaign"
+     ],
+     [
+      "🏦",
+      "A quiet time to switch"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And it reminds us that money is just a system people agree on. Britain's money had worked the same way for over a thousand years. And then, by agreement, in one day, it changed.",
+   "vis": {
+    "type": "hook",
+    "text": "A thousand-year system, changed in a day.",
+    "emoji": "📆",
+    "hot": [
+     "day."
+    ]
+   }
+  },
+  {
+   "say": "So next time you see a fifty pence coin, remember. It's been around since nineteen sixty nine, and it once replaced ten whole shillings.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Ten shillings, in one coin!",
+      "prop": "🪙"
+     }
+    ],
+    "title": "The 50p"
+   }
+  },
+  {
+   "say": "Subscribe for more stories from the history of money, and tell me in the comments what you remember about old money.",
+   "vis": {
+    "type": "outro",
+    "text": "What do you remember about old money?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "240 PENNIES|TO 100",
+  "emoji": "🪙",
+  "color": "gold",
+  "tag": "History"
+ }
+}

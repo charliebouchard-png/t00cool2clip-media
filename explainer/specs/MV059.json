@@ -1,0 +1,448 @@
+{
+ "id": "MV059",
+ "style": "collage",
+ "variant": 0,
+ "voice": "af_aoede",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "The History of the Credit Card",
+ "beats": [
+  {
+   "say": "According to a famous story, the credit card was invented because a man forgot his wallet at dinner. The real history is longer, stranger, and involves sixty thousand cards dropped on one American city.",
+   "vis": {
+    "type": "hook",
+    "text": "Invented because of a forgotten wallet?",
+    "emoji": "💳",
+    "hot": [
+     "wallet?"
+    ]
+   }
+  },
+  {
+   "say": "Today, credit cards are everywhere. But they're surprisingly new. Let's go through how buying now and paying later went from a dinner story to a global system.",
+   "vis": {
+    "type": "list",
+    "title": "The story",
+    "items": [
+     [
+      "🍽️",
+      "The dinner"
+     ],
+     [
+      "🏪",
+      "Store cards"
+     ],
+     [
+      "📬",
+      "The Fresno drop"
+     ],
+     [
+      "🌍",
+      "Visa and Mastercard"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Before cards.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Before cards"
+   }
+  },
+  {
+   "say": "Buying on credit is ancient. Farmers bought seed and paid after harvest. Shops kept a tab for regular customers. People have always bought now and paid later. What was new was making it portable.",
+   "vis": {
+    "type": "hook",
+    "text": "Credit is ancient. The card was new.",
+    "emoji": "📒",
+    "hot": [
+     "new."
+    ]
+   }
+  },
+  {
+   "say": "In the early twentieth century, some American department stores and oil companies gave loyal customers metal plates or cards to use at their own stores or petrol stations. But each card only worked in one place.",
+   "vis": {
+    "type": "list",
+    "title": "Early charge cards",
+    "items": [
+     [
+      "🏬",
+      "Department store cards"
+     ],
+     [
+      "⛽",
+      "Petrol station cards"
+     ],
+     [
+      "🪪",
+      "Metal charge plates"
+     ],
+     [
+      "📍",
+      "Only worked in one place"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. The dinner.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The dinner"
+   }
+  },
+  {
+   "say": "Now, the famous story. In nineteen forty nine, a New York businessman called Frank McNamara was having dinner at a restaurant, and realised he'd forgotten his wallet. Embarrassed, he decided there had to be a better way.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🍽️",
+    "text": "Frank McNamara",
+    "sub": "The forgotten wallet, so the story goes",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "The story is a little too neat, and some versions have been embellished over the years. But what's definitely true is that McNamara and his partners launched the Diners Club card around nineteen fifty.",
+   "vis": {
+    "type": "hook",
+    "text": "The story's neat. The card was real.",
+    "emoji": "💳",
+    "hot": [
+     "real."
+    ]
+   }
+  },
+  {
+   "say": "Diners Club was different, because one card worked at many different restaurants. Members signed for their meal, and Diners Club paid the restaurant, then billed the member at the end of the month.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Old store cards",
+     "emoji": "🏬",
+     "lines": [
+      "One shop only",
+      "Store's own credit"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Diners Club",
+     "emoji": "💳",
+     "lines": [
+      "Many restaurants",
+      "One monthly bill"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "At first, it was really a charge card. You had to pay the full bill each month. But it proved the idea worked. A third company could sit between buyers and sellers, and make money from both.",
+   "vis": {
+    "type": "hook",
+    "text": "A middleman between buyers and sellers.",
+    "emoji": "🤝",
+    "hot": [
+     "middleman"
+    ]
+   }
+  },
+  {
+   "say": "Within a year or so, Diners Club had thousands of members. Soon, rival charge cards appeared, including American Express in nineteen fifty eight.",
+   "vis": {
+    "type": "hook",
+    "text": "Rivals soon followed, including American Express.",
+    "emoji": "💳",
+    "hot": [
+     "American",
+     "Express."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The Fresno drop.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The Fresno drop"
+   }
+  },
+  {
+   "say": "Then came the bank that changed everything. In nineteen fifty eight, Bank of America chose the city of Fresno in California to test a new card called BankAmericard. And it did something bold.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏦",
+    "text": "BankAmericard",
+    "sub": "Launched in Fresno, 1958",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "It mailed out around sixty thousand cards to people in Fresno. People who hadn't asked for them. Each one came with a ready made credit line.",
+   "vis": {
+    "type": "num",
+    "value": 60000,
+    "label": "cards mailed to Fresno residents",
+    "color": "red",
+    "emoji": "📬",
+    "prefix": "",
+    "suffix": "",
+    "source": "The Fresno Drop, WBEZ"
+   }
+  },
+  {
+   "say": "Suddenly, people had credit in their pocket that they could use in lots of shops, and they didn't have to pay it all off at once. They could carry a balance, and pay interest.",
+   "vis": {
+    "type": "flow",
+    "title": "How BankAmericard worked",
+    "nodes": [
+     [
+      "📬",
+      "Card arrives in the post"
+     ],
+     [
+      "🛍️",
+      "Use it in many shops"
+     ],
+     [
+      "🧾",
+      "Monthly statement"
+     ],
+     [
+      "💸",
+      "Pay later, with interest"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💳"
+   }
+  },
+  {
+   "say": "Within a little over a year, more than a million cards had been mailed across California. But there were big problems too. Fraud, people who couldn't pay, and a lot of losses at first.",
+   "vis": {
+    "type": "hook",
+    "text": "A million cards. And a lot of problems.",
+    "emoji": "⚠️",
+    "hot": [
+     "problems."
+    ]
+   }
+  },
+  {
+   "say": "Mailing cards to people who hadn't asked for them caused so many problems that it was eventually banned in the United States.",
+   "vis": {
+    "type": "list",
+    "title": "The problems",
+    "items": [
+     [
+      "🦹",
+      "Fraud and theft"
+     ],
+     [
+      "😰",
+      "Debts people couldn't pay"
+     ],
+     [
+      "📉",
+      "Big early losses"
+     ],
+     [
+      "🚫",
+      "Unsolicited cards later banned"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Over time, banks learned to check people's credit before giving them a card. That's partly where today's credit scores came from.",
+   "vis": {
+    "type": "hook",
+    "text": "Card checks helped create credit scores.",
+    "emoji": "📊",
+    "hot": [
+     "credit",
+     "scores."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Visa and Mastercard.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Visa and Mastercard"
+   }
+  },
+  {
+   "say": "Bank of America began licensing its card to other banks. In the nineteen seventies, BankAmericard became Visa. Rival banks joined together to create another network, which became Mastercard.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1950",
+      "Diners Club"
+     ],
+     [
+      "1958",
+      "BankAmericard in Fresno"
+     ],
+     [
+      "1960s",
+      "Rival bank networks"
+     ],
+     [
+      "1970s",
+      "Visa and Mastercard names",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Here's something many people don't realise. Visa and Mastercard don't usually lend you the money. Your bank does. Visa and Mastercard run the networks that move the payment between your bank and the shop's bank.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Your bank",
+     "emoji": "🏦",
+     "lines": [
+      "Lends you the money",
+      "Charges you interest"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Visa or Mastercard",
+     "emoji": "🔀",
+     "lines": [
+      "Runs the network",
+      "Takes a small fee"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And every time you pay by card, the shop pays a small fee. That's why some small shops used to have a minimum card spend.",
+   "vis": {
+    "type": "hook",
+    "text": "Every tap costs the shop a small fee.",
+    "emoji": "🏪",
+    "hot": [
+     "fee."
+    ]
+   }
+  },
+  {
+   "say": "Card technology kept changing too. Magnetic stripes in the nineteen seventies. Chip and PIN in Britain in the two thousands. Then contactless payments, and cards stored on your phone.",
+   "vis": {
+    "type": "list",
+    "title": "How cards changed",
+    "items": [
+     [
+      "🧲",
+      "Magnetic stripe"
+     ],
+     [
+      "🔢",
+      "Chip and PIN"
+     ],
+     [
+      "📶",
+      "Contactless"
+     ],
+     [
+      "📱",
+      "Phone wallets"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The double edge.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The double edge"
+   }
+  },
+  {
+   "say": "Credit cards can be brilliant. They're convenient, safer than cash, and in the UK, purchases between a hundred and thirty thousand pounds can come with extra protection if something goes wrong.",
+   "vis": {
+    "type": "list",
+    "title": "The good side",
+    "items": [
+     [
+      "⚡",
+      "Convenient"
+     ],
+     [
+      "🛡️",
+      "Purchase protection"
+     ],
+     [
+      "🌍",
+      "Work around the world"
+     ],
+     [
+      "📈",
+      "Can build a credit history"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But they can also be dangerous. If you only pay the minimum each month, interest builds up and a small debt can take years to clear.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Pay in full",
+     "emoji": "😌",
+     "lines": [
+      "No interest",
+      "Free short-term credit"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Pay the minimum",
+     "emoji": "😰",
+     "lines": [
+      "Interest piles up",
+      "Years to clear"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The credit card started as a solution to a forgotten wallet. Used well, it's still a handy tool. Used badly, it's one of the most expensive ways to borrow money there is.",
+   "vis": {
+    "type": "hook",
+    "text": "A handy tool, or an expensive trap.",
+    "emoji": "💳",
+    "hot": [
+     "trap."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more stories about how money really works, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "IT STARTED|AT DINNER",
+  "emoji": "💳",
+  "color": "gold",
+  "tag": "Systems"
+ }
+}

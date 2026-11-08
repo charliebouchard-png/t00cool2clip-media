@@ -1,0 +1,429 @@
+{
+ "id": "MV057",
+ "style": "chalk",
+ "variant": 1,
+ "voice": "af_heart",
+ "speed": 0.82,
+ "trans": "fade",
+ "title": "Were Roman Soldiers Really Paid in Salt?",
+ "beats": [
+  {
+   "say": "You've probably heard this one. The word salary comes from salt, because Roman soldiers were paid in salt. It's in quiz books, school lessons and countless websites. There's just one problem. There's no good evidence it's true.",
+   "vis": {
+    "type": "hook",
+    "text": "Paid in salt? Probably not.",
+    "emoji": "🧂",
+    "hot": [
+     "Probably",
+     "not."
+    ]
+   }
+  },
+  {
+   "say": "Today's lesson is a detective story about a word. Where it came from, how a myth grew around it, and what it teaches us about checking the stories we hear about money.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "🔤",
+      "Where 'salary' comes from"
+     ],
+     [
+      "🏛️",
+      "How Romans were really paid"
+     ],
+     [
+      "📚",
+      "How the myth spread"
+     ],
+     [
+      "🔍",
+      "Why it matters"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. The word.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The word"
+   }
+  },
+  {
+   "say": "Let's start with what is true. The English word salary comes from the Latin word salarium. And salarium is connected to sal, the Latin word for salt. So far, so good.",
+   "vis": {
+    "type": "flow",
+    "title": "The word's journey",
+    "nodes": [
+     [
+      "🧂",
+      "Latin: sal, salt"
+     ],
+     [
+      "📜",
+      "Latin: salarium"
+     ],
+     [
+      "🇫🇷",
+      "Old French: salaire"
+     ],
+     [
+      "💼",
+      "English: salary"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🔤"
+   }
+  },
+  {
+   "say": "In Roman times, salarium was used for a payment or allowance, often to officials. But here's the catch. Nobody in ancient times actually explained why the word was linked to salt.",
+   "vis": {
+    "type": "hook",
+    "text": "Nobody in ancient times explained the link.",
+    "emoji": "❓",
+    "hot": [
+     "Nobody"
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. How soldiers were really paid.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "How soldiers were really paid"
+   }
+  },
+  {
+   "say": "So how were Roman soldiers paid? Mainly in coins. Their basic pay was called stipendium, and it was paid in money, mostly silver coins called denarii. Deductions were taken for food, clothing and equipment.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The myth",
+     "emoji": "🧂",
+     "lines": [
+      "Paid in salt",
+      "Bags of salt as wages"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The evidence",
+     "emoji": "🪙",
+     "lines": [
+      "Paid in coins",
+      "Stipendium, in denarii"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Historians have records of Roman military pay, including deductions for things like food and boots. Salt doesn't appear as a form of wages.",
+   "vis": {
+    "type": "hook",
+    "text": "Records show coins, not salt.",
+    "emoji": "📜",
+    "hot": [
+     "coins,"
+    ]
+   }
+  },
+  {
+   "say": "A Roman legionary's pay was a big deal. It was paid a few times a year, and much of it was kept back to cover costs. Soldiers also received bonuses, called donatives, from emperors trying to keep the army loyal.",
+   "vis": {
+    "type": "list",
+    "title": "Roman army pay",
+    "items": [
+     [
+      "🪙",
+      "Paid in silver coins"
+     ],
+     [
+      "📅",
+      "A few times a year"
+     ],
+     [
+      "🧾",
+      "Deductions for food and kit"
+     ],
+     [
+      "🎁",
+      "Bonuses from emperors"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. Where the myth came from.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Where the myth came from"
+   }
+  },
+  {
+   "say": "Part of the myth comes from a passage by the Roman writer Pliny the Elder, in his huge encyclopedia, Natural History. He wrote at length about salt, and praised how important it was.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📚",
+    "text": "Pliny the Elder",
+    "sub": "Wrote about salt in Natural History",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "In that passage, Pliny mentions salt and the word salarium near each other. But he doesn't clearly say soldiers were paid in salt. Later writers read more into it than he actually said.",
+   "vis": {
+    "type": "hook",
+    "text": "Later writers read too much into it.",
+    "emoji": "🔎",
+    "hot": [
+     "too",
+     "much"
+    ]
+   }
+  },
+  {
+   "say": "The story really took off much later. Dictionaries in the eighteen hundreds added the idea that salt had been part of Roman soldiers' pay. Once it was in respected reference books, it spread everywhere.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Roman times",
+      "The word salarium"
+     ],
+     [
+      "~77 AD",
+      "Pliny writes about salt"
+     ],
+     [
+      "1800s",
+      "Dictionaries add the salt story"
+     ],
+     [
+      "Today",
+      "Repeated everywhere",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In recent years, scholars have pushed back. The dictionary publisher Merriam-Webster says the idea of soldiers being paid in salt money has no basis in ancient sources.",
+   "vis": {
+    "type": "quote",
+    "text": "Has no basis in ancient sources.",
+    "who": "Merriam-Webster, on the 'salt money' story"
+   }
+  },
+  {
+   "say": "Lesson four. So why salt?",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "So why salt?"
+   }
+  },
+  {
+   "say": "If the soldiers weren't paid in salt, why is salarium linked to salt at all? Honestly, nobody knows for sure. There are a few theories.",
+   "vis": {
+    "type": "list",
+    "title": "Possible explanations",
+    "items": [
+     [
+      "🧂",
+      "An allowance to buy salt"
+     ],
+     [
+      "🛣️",
+      "Linked to guards on salt roads"
+     ],
+     [
+      "🏛️",
+      "Officials connected to salt supplies"
+     ],
+     [
+      "🤷",
+      "We simply don't know"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some suggest it could have started as an allowance to buy salt, or been connected to the famous salt road into Rome, the Via Salaria. But these are educated guesses, not proven facts.",
+   "vis": {
+    "type": "hook",
+    "text": "Educated guesses, not proven facts.",
+    "emoji": "🤔",
+    "hot": [
+     "guesses,"
+    ]
+   }
+  },
+  {
+   "say": "Here's another surprise. Some people say soldier comes from salt too. It doesn't. It comes from solidus, a Roman gold coin. So soldiers were named after money, just not salt.",
+   "vis": {
+    "type": "hook",
+    "text": "'Soldier' comes from a gold coin.",
+    "emoji": "🪙",
+    "hot": [
+     "gold",
+     "coin."
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. Salt really was valuable.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Salt really was valuable"
+   }
+  },
+  {
+   "say": "The myth survives partly because salt really was important in the ancient world. Before fridges, salt was one of the main ways to preserve meat and fish. People and animals needed it. And it was heavily traded and taxed.",
+   "vis": {
+    "type": "list",
+    "title": "Why salt mattered",
+    "items": [
+     [
+      "🐟",
+      "Preserving food"
+     ],
+     [
+      "🐄",
+      "Needed by people and animals"
+     ],
+     [
+      "🛣️",
+      "Traded along major routes"
+     ],
+     [
+      "🏛️",
+      "Taxed by governments"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And salt really has been used as money, just not by Roman soldiers. In parts of Ethiopia, blocks of salt were used as currency for centuries. In parts of China and Tibet, salt was used in trade and as money too.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Rome",
+     "emoji": "🏛️",
+     "lines": [
+      "Soldiers paid in coins",
+      "Salt not used as wages"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Elsewhere",
+     "emoji": "🌍",
+     "lines": [
+      "Salt blocks in Ethiopia",
+      "Salt money in China and Tibet"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So the idea of salt as money isn't crazy. It's just been attached to the wrong people.",
+   "vis": {
+    "type": "hook",
+    "text": "Salt money was real. Just not for Romans.",
+    "emoji": "🧂",
+    "hot": [
+     "real."
+    ]
+   }
+  },
+  {
+   "say": "Even the phrase worth his salt, meaning someone who deserves their pay, is often linked to the Roman story. But that phrase only appears much later, in the eighteen hundreds.",
+   "vis": {
+    "type": "hook",
+    "text": "'Worth his salt' came much later.",
+    "emoji": "🧂",
+    "hot": [
+     "later."
+    ]
+   }
+  },
+  {
+   "say": "Lesson six. Why this matters.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Why this matters"
+   }
+  },
+  {
+   "say": "Why spend five minutes on a word? Because the salt story is a perfect example of how a neat, satisfying explanation can spread for centuries without anyone checking the original sources.",
+   "vis": {
+    "type": "list",
+    "title": "How myths spread",
+    "items": [
+     [
+      "✨",
+      "It sounds neat and clever"
+     ],
+     [
+      "📚",
+      "It appears in respected books"
+     ],
+     [
+      "🔁",
+      "Everyone repeats it"
+     ],
+     [
+      "🔍",
+      "Few check the original source"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Money is full of stories like this. Investment tips, rules of thumb, things everyone just knows. The habit of asking where's the evidence is one of the most valuable money skills you can have.",
+   "vis": {
+    "type": "hook",
+    "text": "Always ask, where's the evidence?",
+    "emoji": "🔍",
+    "hot": [
+     "evidence?"
+    ]
+   }
+  },
+  {
+   "say": "So next time someone tells you salary comes from Roman soldiers being paid in salt, you can tell them the word really does come from salt. But the soldiers? They were paid in silver.",
+   "vis": {
+    "type": "hook",
+    "text": "The word, yes. The soldiers, no.",
+    "emoji": "🪙",
+    "hot": [
+     "no."
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more surprising stories from the history of money, and tell me in the comments which money myth I should check next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which money myth should I check next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "PAID IN|SALT?",
+  "emoji": "🧂",
+  "color": "gold",
+  "tag": "History"
+ }
+}

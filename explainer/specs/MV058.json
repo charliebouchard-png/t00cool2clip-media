@@ -1,0 +1,447 @@
+{
+ "id": "MV058",
+ "style": "neon",
+ "variant": 0,
+ "voice": "am_michael",
+ "speed": 0.82,
+ "trans": "glitch",
+ "title": "The Dot-Com Bubble: The Companies That Burned Billions",
+ "beats": [
+  {
+   "say": "In the late nineteen nineties, if your company's name ended in dot com, investors would throw money at you. It didn't matter if you made a profit. Or even if you had much of a plan. Then, in two thousand, it all came crashing down.",
+   "vis": {
+    "type": "hook",
+    "text": "Add dot com. Get rich. Then crash.",
+    "emoji": "💻",
+    "hot": [
+     "crash."
+    ]
+   }
+  },
+  {
+   "say": "By the time the crash ended in two thousand and two, around five trillion dollars of stock market value had been wiped out.",
+   "vis": {
+    "type": "num",
+    "value": 5,
+    "label": "in market value wiped out",
+    "color": "red",
+    "emoji": "📉",
+    "prefix": "$",
+    "suffix": " trillion",
+    "source": "Dot-com bubble, Wikipedia"
+   }
+  },
+  {
+   "say": "The Nasdaq, the American stock index full of technology companies, rose several times over in the late nineties. It peaked at over five thousand points in March two thousand. Then it lost most of its value.",
+   "vis": {
+    "type": "bars",
+    "title": "The Nasdaq",
+    "items": [
+     [
+      "1995",
+      1000,
+      "teal"
+     ],
+     [
+      "Mar 2000 peak",
+      5048,
+      "red"
+     ],
+     [
+      "Oct 2002",
+      1114,
+      "gold"
+     ]
+    ],
+    "max": 5500,
+    "prefix": "",
+    "suffix": "",
+    "source": "Approximate index levels"
+   }
+  },
+  {
+   "say": "Part one. The new world.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The new world"
+   }
+  },
+  {
+   "say": "The internet was genuinely revolutionary. Email, websites, online shopping. People could see it would change everything. And they were right. The problem was, nobody knew which companies would win.",
+   "vis": {
+    "type": "list",
+    "title": "Why people were excited",
+    "items": [
+     [
+      "🌐",
+      "The internet was new"
+     ],
+     [
+      "📧",
+      "Email changed communication"
+     ],
+     [
+      "🛒",
+      "Online shopping was coming"
+     ],
+     [
+      "🚀",
+      "Huge potential"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "When the web browser company Netscape went public in nineteen ninety five, its shares soared on the first day. It became a signal that internet companies could make investors rich, fast.",
+   "vis": {
+    "type": "hook",
+    "text": "Netscape's first day lit the fuse.",
+    "emoji": "🧨",
+    "hot": [
+     "fuse."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Profits? Who needs them?",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Profits? Who needs them?"
+   }
+  },
+  {
+   "say": "Normally, a company's value is linked to the profits it makes, or is expected to make. But in the dot com boom, many investors stopped caring about profits. They cared about growth, and how many visitors a website had. They called it eyeballs.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal valuation",
+     "emoji": "🧾",
+     "lines": [
+      "Based on profits",
+      "Steady and boring"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Dot-com valuation",
+     "emoji": "👀",
+     "lines": [
+      "Based on 'eyeballs'",
+      "Growth at any cost"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The idea was get big fast. Spend whatever it takes to grab customers, and worry about making money later. Many companies spent far more than they earned, burning through investors' cash.",
+   "vis": {
+    "type": "hook",
+    "text": "Get big fast. Worry about profit later.",
+    "emoji": "🔥",
+    "hot": [
+     "later."
+    ]
+   }
+  },
+  {
+   "say": "Some companies even changed their names to add dot com, and saw their share prices jump, without changing anything else about their business.",
+   "vis": {
+    "type": "hook",
+    "text": "Just adding dot com boosted share prices.",
+    "emoji": "🏷️",
+    "hot": [
+     "dot",
+     "com"
+    ]
+   }
+  },
+  {
+   "say": "And money was easy to find. Venture capitalists funded start ups. Companies floated on the stock market quickly, and their shares often jumped on the first day. Everyone wanted a piece.",
+   "vis": {
+    "type": "flow",
+    "title": "The money machine",
+    "nodes": [
+     [
+      "💡",
+      "A dot-com idea"
+     ],
+     [
+      "💰",
+      "Venture capital"
+     ],
+     [
+      "📈",
+      "Stock market listing"
+     ],
+     [
+      "🚀",
+      "Shares soar"
+     ]
+    ],
+    "color": "red",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "Part three. The sock puppet.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The sock puppet"
+   }
+  },
+  {
+   "say": "The most famous example was Pets dot com. It sold pet food and supplies online, and became famous for its advertising mascot, a sock puppet dog. It even ran an advert during the Super Bowl.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🐶",
+    "text": "Pets.com",
+    "sub": "Famous for its sock puppet mascot",
+    "color": "red"
+   }
+  },
+  {
+   "say": "But there was a big problem. Pet food is heavy and cheap. Shipping it to customers cost a lot, and the company often sold products for less than they cost. The more it sold, the more money it lost.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The brand",
+     "emoji": "📺",
+     "lines": [
+      "Famous mascot",
+      "Super Bowl advert"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The business",
+     "emoji": "📉",
+     "lines": [
+      "Heavy, cheap products",
+      "Lost money on sales"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Pets dot com went public in early two thousand. Around nine months later, it shut down. Its mascot was more famous than its business was successful.",
+   "vis": {
+    "type": "hook",
+    "text": "Listed, then gone in about nine months.",
+    "emoji": "⏳",
+    "hot": [
+     "nine",
+     "months."
+    ]
+   }
+  },
+  {
+   "say": "Another famous failure was Webvan, an online grocery delivery company. It spent huge sums building warehouses and delivery fleets before it had enough customers, and went bust in twenty oh one.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🚚",
+    "text": "Webvan",
+    "sub": "Online groceries, too far too fast",
+    "color": "red"
+   }
+  },
+  {
+   "say": "During the two thousand Super Bowl, dot com companies bought a big share of the expensive TV advert slots, by some counts around a dozen or more. It became a symbol of the bubble.",
+   "vis": {
+    "type": "num",
+    "value": 12,
+    "label": "or more Super Bowl ads bought by dot-coms in 2000",
+    "color": "red",
+    "emoji": "📺",
+    "prefix": "",
+    "suffix": "",
+    "source": "Dot-com bubble, Wikipedia"
+   }
+  },
+  {
+   "say": "Part four. The burst.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The burst"
+   }
+  },
+  {
+   "say": "In March two thousand, the Nasdaq peaked. Then interest rates had been rising, some big companies reported weak results, and investors started to ask hard questions. Prices began to fall.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Aug 1995",
+      "Netscape IPO"
+     ],
+     [
+      "Mar 2000",
+      "Nasdaq peaks"
+     ],
+     [
+      "Late 2000",
+      "Dot-coms collapse"
+     ],
+     [
+      "Oct 2002",
+      "Market bottoms",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Once money stopped flowing in, companies that were burning cash had nowhere to turn. They ran out of money. Hundreds went bust. Their shares became worthless.",
+   "vis": {
+    "type": "hook",
+    "text": "When the money stopped, the companies stopped.",
+    "emoji": "💸",
+    "hot": [
+     "stopped."
+    ]
+   }
+  },
+  {
+   "say": "Ordinary investors felt it too. Many had bought tech shares or funds near the top, encouraged by stories of overnight fortunes. Some lost a big chunk of their savings or retirement money.",
+   "vis": {
+    "type": "hook",
+    "text": "Many ordinary investors bought near the top.",
+    "emoji": "😢",
+    "hot": [
+     "top."
+    ]
+   }
+  },
+  {
+   "say": "Even strong companies were hammered. Amazon's share price fell by more than ninety percent from its peak. Many people who'd invested their savings in technology shares lost most of their money.",
+   "vis": {
+    "type": "list",
+    "title": "The damage",
+    "items": [
+     [
+      "📉",
+      "Nasdaq down ~78%"
+     ],
+     [
+      "🏢",
+      "Hundreds of failures"
+     ],
+     [
+      "📦",
+      "Even Amazon crashed"
+     ],
+     [
+      "👷",
+      "Tech jobs lost"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The survivors.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The survivors"
+   }
+  },
+  {
+   "say": "But here's the twist. The internet didn't go away. Some companies survived the crash and became giants, like Amazon. Others, like Google, grew up in its aftermath. The idea was right. The prices were wrong.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Didn't survive",
+     "emoji": "🪦",
+     "lines": [
+      "Pets.com",
+      "Webvan and many more"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Survived and grew",
+     "emoji": "🌱",
+     "lines": [
+      "Amazon",
+      "eBay and others"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "That's the strange thing about bubbles. Sometimes the technology is real and world changing. But investors pay far too much, far too soon, and many of the early companies don't make it.",
+   "vis": {
+    "type": "hook",
+    "text": "A real revolution can still be a bubble.",
+    "emoji": "🫧",
+    "hot": [
+     "bubble."
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "The dot com bubble taught lessons that still apply today, whether it's tech, crypto or artificial intelligence.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from the dot-com bubble",
+    "items": [
+     [
+      "🧾",
+      "Profits matter eventually"
+     ],
+     [
+      "🔥",
+      "Watch how fast a company burns cash"
+     ],
+     [
+      "🌱",
+      "Great technology isn't always a great investment"
+     ],
+     [
+      "🧺",
+      "Don't bet everything on one hot sector"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The next time you hear that a new technology will change the world, it might be true. The question is whether the price you're paying already assumes it will.",
+   "vis": {
+    "type": "hook",
+    "text": "Is the future already in the price?",
+    "emoji": "🔮",
+    "hot": [
+     "price"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories behind the biggest bubbles and crashes, and tell me in the comments which one I should cover next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which bubble should I cover next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "$5 TRILLION|VANISHED",
+  "emoji": "💻",
+  "color": "red",
+  "tag": "Collapses"
+ }
+}

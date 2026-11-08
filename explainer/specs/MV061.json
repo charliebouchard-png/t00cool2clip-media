@@ -1,0 +1,461 @@
+{
+ "id": "MV061",
+ "style": "bold",
+ "variant": 2,
+ "voice": "am_fenrir",
+ "speed": 0.82,
+ "trans": "cut",
+ "title": "The 2008 Crash Explained Simply",
+ "beats": [
+  {
+   "say": "In twenty oh eight, the world's financial system came close to collapse. Banks failed. Governments spent hundreds of billions to rescue them. Millions of people lost jobs and homes. And it all started with American mortgages.",
+   "vis": {
+    "type": "hook",
+    "text": "It started with mortgages.",
+    "emoji": "🏠",
+    "hot": [
+     "mortgages."
+    ]
+   }
+  },
+  {
+   "say": "It sounds complicated, but the basic story is simple. Let's break it into five steps, and by the end, you'll understand what happened, and why it still matters.",
+   "vis": {
+    "type": "list",
+    "title": "The five steps",
+    "items": [
+     [
+      "🏠",
+      "Easy mortgages"
+     ],
+     [
+      "📦",
+      "Bundled into investments"
+     ],
+     [
+      "🏦",
+      "Banks loaded up"
+     ],
+     [
+      "📉",
+      "House prices fell"
+     ],
+     [
+      "💥",
+      "Panic"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Step one. Easy mortgages.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Easy mortgages"
+   }
+  },
+  {
+   "say": "In the early two thousands, American house prices were rising fast. Interest rates were low. And lenders started giving mortgages to almost anyone.",
+   "vis": {
+    "type": "hook",
+    "text": "Mortgages for almost anyone.",
+    "emoji": "🏠",
+    "hot": [
+     "anyone."
+    ]
+   }
+  },
+  {
+   "say": "Many of these were subprime mortgages, loans to people with weak credit histories or low incomes. Some loans needed little proof of income. Some started with low teaser rates that jumped up later.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "A normal mortgage",
+     "emoji": "✅",
+     "lines": [
+      "Income checked",
+      "Steady repayments"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Many subprime loans",
+     "emoji": "⚠️",
+     "lines": [
+      "Little proof of income",
+      "Rates that jump later"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Why would lenders do that? Because they didn't plan to keep the loans. They sold them on. If the borrower couldn't pay later, it would be someone else's problem.",
+   "vis": {
+    "type": "hook",
+    "text": "Lend it. Sell it. Not my problem.",
+    "emoji": "🔀",
+    "hot": [
+     "problem."
+    ]
+   }
+  },
+  {
+   "say": "And mortgage brokers were often paid on commission for every loan they arranged. The more loans, the more they earned, whether or not the borrower could afford it.",
+   "vis": {
+    "type": "hook",
+    "text": "More loans meant more commission.",
+    "emoji": "💵",
+    "hot": [
+     "commission."
+    ]
+   }
+  },
+  {
+   "say": "Step two. Bundled up.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Bundled up"
+   }
+  },
+  {
+   "say": "Big banks bought thousands of these mortgages and bundled them together into investments called mortgage backed securities. Investors who bought them received the mortgage payments.",
+   "vis": {
+    "type": "flow",
+    "title": "Turning mortgages into investments",
+    "nodes": [
+     [
+      "🏠",
+      "Thousands of mortgages"
+     ],
+     [
+      "📦",
+      "Bundled together"
+     ],
+     [
+      "✂️",
+      "Sliced into pieces"
+     ],
+     [
+      "🌍",
+      "Sold to investors worldwide"
+     ]
+    ],
+    "color": "red",
+    "coin": "📦"
+   }
+  },
+  {
+   "say": "Those bundles were often sliced and repackaged into even more complicated products. And rating agencies gave many of them top safety ratings, as if they were almost risk free.",
+   "vis": {
+    "type": "hook",
+    "text": "Risky loans, rated as safe.",
+    "emoji": "🏅",
+    "hot": [
+     "safe."
+    ]
+   }
+  },
+  {
+   "say": "Why did the ratings agencies say these were safe? They were paid by the banks that created the products. Their models assumed house prices wouldn't fall across the whole country at once. And the products were so complicated that few people fully understood them.",
+   "vis": {
+    "type": "list",
+    "title": "Why the ratings were wrong",
+    "items": [
+     [
+      "💵",
+      "Paid by the banks"
+     ],
+     [
+      "📈",
+      "Assumed prices wouldn't fall everywhere"
+     ],
+     [
+      "🧩",
+      "Products too complex"
+     ],
+     [
+      "🙈",
+      "Few people checked"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The idea was that, even if a few borrowers didn't pay, most would. And house prices only went up, so even if someone defaulted, the house could be sold. As long as house prices kept rising, it worked.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The assumption",
+     "emoji": "📈",
+     "lines": [
+      "House prices always rise",
+      "Defaults are rare"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The risk",
+     "emoji": "📉",
+     "lines": [
+      "Prices fall everywhere",
+      "Defaults happen together"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Step three. Banks loaded up.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Banks loaded up"
+   }
+  },
+  {
+   "say": "Banks didn't just sell these products. Many kept huge amounts for themselves, because they paid good returns. And they bought them with borrowed money.",
+   "vis": {
+    "type": "hook",
+    "text": "Banks bought them, with borrowed money.",
+    "emoji": "🏦",
+    "hot": [
+     "borrowed"
+    ]
+   }
+  },
+  {
+   "say": "Some investment banks were borrowing thirty or forty times their own money. Insurance companies like AIG sold protection against these investments failing, without enough money to pay if they did. The whole system was tightly connected.",
+   "vis": {
+    "type": "list",
+    "title": "A fragile system",
+    "items": [
+     [
+      "📈",
+      "Huge leverage"
+     ],
+     [
+      "🛡️",
+      "Insurance without enough backing"
+     ],
+     [
+      "🔗",
+      "Everyone connected"
+     ],
+     [
+      "❓",
+      "Nobody sure who held what"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Step four. House prices fell.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "House prices fell"
+   }
+  },
+  {
+   "say": "Around twenty oh six, American house prices stopped rising, then started falling. Teaser rates ended. Borrowers' payments jumped. Many couldn't pay, and defaults rose sharply.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2006",
+      "House prices peak"
+     ],
+     [
+      "2007",
+      "Defaults rise"
+     ],
+     [
+      "2007",
+      "Funds and lenders fail"
+     ],
+     [
+      "2008",
+      "Crisis explodes",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And because the house was now worth less than the loan, selling it didn't cover the debt. The assumption at the heart of the whole system, that house prices only go up, was wrong.",
+   "vis": {
+    "type": "hook",
+    "text": "The big assumption was wrong.",
+    "emoji": "📉",
+    "hot": [
+     "wrong."
+    ]
+   }
+  },
+  {
+   "say": "In some areas, many homeowners owed more than their houses were worth. Some simply walked away from their homes. Foreclosures soared, pushing house prices down even further.",
+   "vis": {
+    "type": "hook",
+    "text": "Foreclosures pushed prices down further.",
+    "emoji": "🏚️",
+    "hot": [
+     "further."
+    ]
+   }
+  },
+  {
+   "say": "Step five. Panic.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Panic"
+   }
+  },
+  {
+   "say": "Suddenly, nobody knew how much those mortgage investments were really worth, or which banks were holding the worst ones. So banks stopped trusting each other, and stopped lending to each other.",
+   "vis": {
+    "type": "hook",
+    "text": "Banks stopped trusting each other.",
+    "emoji": "🙅",
+    "hot": [
+     "trusting"
+    ]
+   }
+  },
+  {
+   "say": "In Britain, Northern Rock had already suffered a bank run in twenty oh seven, because it relied on borrowing from other banks, and that borrowing dried up.",
+   "vis": {
+    "type": "hook",
+    "text": "Britain had already seen a bank run.",
+    "emoji": "🇬🇧",
+    "hot": [
+     "bank",
+     "run."
+    ]
+   }
+  },
+  {
+   "say": "In March twenty oh eight, Bear Stearns had to be rescued. In September, Lehman Brothers went bankrupt. The next day, the insurer AIG had to be bailed out. Markets crashed worldwide.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Mar 2008",
+      "Bear Stearns rescued"
+     ],
+     [
+      "Sept 2008",
+      "Lehman Brothers fails"
+     ],
+     [
+      "Sept 2008",
+      "AIG bailed out"
+     ],
+     [
+      "Oct 2008",
+      "Global bank rescues",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Governments and central banks stepped in on a massive scale. They rescued banks, guaranteed deposits, cut interest rates to almost zero, and created money to support the system. In Britain, the government took big stakes in banks including RBS and Lloyds.",
+   "vis": {
+    "type": "list",
+    "title": "The rescue",
+    "items": [
+     [
+      "🏦",
+      "Banks bailed out"
+     ],
+     [
+      "🛡️",
+      "Deposits guaranteed"
+     ],
+     [
+      "📉",
+      "Rates cut to near zero"
+     ],
+     [
+      "🖨️",
+      "Money created to support markets"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The aftermath.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The aftermath"
+   }
+  },
+  {
+   "say": "The crisis triggered the worst global recession since the nineteen thirties. Millions of people lost jobs. Millions of American families lost their homes. And many countries spent years paying for it, through cuts and slow growth.",
+   "vis": {
+    "type": "hook",
+    "text": "The worst recession since the 1930s.",
+    "emoji": "🏚️",
+    "hot": [
+     "worst"
+    ]
+   }
+  },
+  {
+   "say": "Afterwards, the rules changed. Banks must now hold more of their own money, borrow less, and pass stress tests. Lenders must check that borrowers can afford their mortgages.",
+   "vis": {
+    "type": "list",
+    "title": "What changed",
+    "items": [
+     [
+      "🧱",
+      "More bank capital"
+     ],
+     [
+      "📉",
+      "Less borrowing"
+     ],
+     [
+      "🧪",
+      "Stress tests"
+     ],
+     [
+      "🏠",
+      "Affordability checks on mortgages"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So, the twenty oh eight crash in one sentence. Banks lent money to people who couldn't repay, packaged those loans up as safe, borrowed heavily to buy them, and when house prices fell, the whole system froze.",
+   "vis": {
+    "type": "hook",
+    "text": "2008, in one sentence.",
+    "emoji": "🧩",
+    "hot": [
+     "one",
+     "sentence."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money stories explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "2008|EXPLAINED",
+  "emoji": "🏠",
+  "color": "red",
+  "tag": "Systems"
+ }
+}

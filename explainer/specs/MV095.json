@@ -1,0 +1,400 @@
+{
+ "id": "MV095",
+ "style": "storybook",
+ "voice": "af_kore",
+ "speed": 0.82,
+ "title": "Why We Pay £4 for Coffee but Hate Paying £4 for an App",
+ "beats": [
+  {
+   "say": "Meet Priya. Every morning, she buys a four pound coffee without a second thought. It's gone in ten minutes. But when an app she uses every single day asks for four pounds, she says, four pounds for an app? No way.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "One flat white, please!",
+      "prop": "☕"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "£4 for an app? No way!",
+      "prop": "📱"
+     }
+    ],
+    "title": "Priya's morning"
+   }
+  },
+  {
+   "say": "Most of us are like Priya. It doesn't seem to make sense. So why do we feel so differently about spending the same amount on different things? The answer is in how our brains handle money.",
+   "vis": {
+    "type": "hook",
+    "text": "Same £4. Very different feelings.",
+    "emoji": "🧠",
+    "hot": [
+     "different"
+    ]
+   }
+  },
+  {
+   "say": "This happens with lots of things. We'll spend twenty pounds on a meal out without blinking, but agonise over a five pound book. We'll pay for parking without thinking, but complain about a small delivery fee.",
+   "vis": {
+    "type": "list",
+    "title": "Same money, different feelings",
+    "items": [
+     [
+      "🍽️",
+      "£20 meal: easy"
+     ],
+     [
+      "📚",
+      "£5 book: agonise"
+     ],
+     [
+      "🅿️",
+      "Parking: fine"
+     ],
+     [
+      "🚚",
+      "Delivery fee: outrage"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Mental accounting.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Mental accounting"
+   }
+  },
+  {
+   "say": "Economists have a name for one reason. Mental accounting. The economist Richard Thaler, who won a Nobel Prize, showed that people sort money into mental buckets, like treats, bills, and fun money. And we treat each bucket differently.",
+   "vis": {
+    "type": "flow",
+    "title": "Mental accounting",
+    "nodes": [
+     [
+      "☕",
+      "Treats bucket"
+     ],
+     [
+      "🧾",
+      "Bills bucket"
+     ],
+     [
+      "🎉",
+      "Fun bucket"
+     ],
+     [
+      "📱",
+      "Apps? No bucket at all"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "You see, Priya's coffee lives in her daily routine bucket. It's normal. Expected. Apps don't really have a bucket. And many people have come to expect apps to be free.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Coffee's just part of my day.",
+      "prop": "☕"
+     }
+    ],
+    "title": "Different buckets"
+   },
+   "night": true
+  },
+  {
+   "say": "Part two. The power of free.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The power of free"
+   }
+  },
+  {
+   "say": "For years, most apps were free, paid for by adverts or optional purchases. That trained us to see free as the normal price for software. So any price at all feels like a loss.",
+   "vis": {
+    "type": "hook",
+    "text": "Free became the expected price.",
+    "emoji": "🆓",
+    "hot": [
+     "Free"
+    ]
+   }
+  },
+  {
+   "say": "And when something is free, you're often paying in other ways. With your attention, through adverts. Or with your data. Free isn't always really free.",
+   "vis": {
+    "type": "hook",
+    "text": "Free often costs your attention or data.",
+    "emoji": "👀",
+    "hot": [
+     "attention"
+    ]
+   }
+  },
+  {
+   "say": "Researchers have found that the jump from free to even a tiny price has a huge effect on how many people buy. A price of zero feels completely different from a price of one penny.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Free",
+     "emoji": "🆓",
+     "lines": [
+      "Feels like no risk",
+      "Easy yes"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Even 1p",
+     "emoji": "🤔",
+     "lines": [
+      "Now it's a decision",
+      "Feels risky"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part three. Experiences versus things.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Experiences vs things"
+   }
+  },
+  {
+   "say": "The coffee isn't just coffee. It's a warm cup, a nice smell, a moment of calm, a chat with the barista. Priya is paying for an experience and a routine, not just a drink.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "My little morning ritual.",
+      "prop": "☕"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "The usual?",
+      "prop": "😊"
+     }
+    ],
+    "title": "The ritual"
+   }
+  },
+  {
+   "say": "An app is invisible. It's a few pixels on a screen. Even if it's genuinely useful, it doesn't feel like a thing you can hold, so it can feel like less value.",
+   "vis": {
+    "type": "hook",
+    "text": "Invisible value feels like less value.",
+    "emoji": "🫥",
+    "hot": [
+     "less"
+    ]
+   }
+  },
+  {
+   "say": "There's also the pain of paying. Researchers have found that some payments feel more painful than others. Tapping a card for a familiar treat feels easy. Being asked to pay for something you expected to be free feels like a loss.",
+   "vis": {
+    "type": "hook",
+    "text": "Some payments feel more painful.",
+    "emoji": "😣",
+    "hot": [
+     "painful."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The reference price.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The reference price"
+   }
+  },
+  {
+   "say": "We also judge prices against what we're used to paying. That's called a reference price. We know coffee costs around three to four pounds. We expect apps to cost nothing, or ninety nine pence. So four pounds for an app feels outrageous, even if it's good value.",
+   "vis": {
+    "type": "list",
+    "title": "Reference prices",
+    "items": [
+     [
+      "☕",
+      "Coffee: ~£3 to £4"
+     ],
+     [
+      "📱",
+      "Apps: free or 99p"
+     ],
+     [
+      "🎬",
+      "Cinema: ~£10+"
+     ],
+     [
+      "📺",
+      "Streaming: ~£5 to £18 a month"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Coffee prices have also crept up gradually, so we got used to them. If coffee had jumped from one pound to four overnight, we'd probably be just as outraged.",
+   "vis": {
+    "type": "hook",
+    "text": "Gradual rises feel normal.",
+    "emoji": "📈",
+    "hot": [
+     "Gradual"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Value per use.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Value per use"
+   }
+  },
+  {
+   "say": "Here's a better way to compare. Value per use. A four pound coffee, used once, costs four pounds per use. A four pound app used every day for a year costs about one penny per use.",
+   "vis": {
+    "type": "doc",
+    "title": "Cost per use",
+    "lines": [
+     [
+      "☕ Coffee",
+      "£4 per use"
+     ],
+     [
+      "📱 App, daily for a year",
+      "~1p per use"
+     ],
+     [
+      "👟 Trainers worn 300 times",
+      "Cheap per wear"
+     ],
+     [
+      "👗 Outfit worn once",
+      "Expensive per wear"
+     ]
+    ],
+    "stamp": "PER USE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "When Priya worked it out, she laughed. The app she'd refused to pay for would cost her about a penny a day. Her coffee cost four hundred times more per use.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "A penny a day? Oh.",
+      "prop": "🧮"
+     }
+    ],
+    "title": "The maths"
+   }
+  },
+  {
+   "say": "That doesn't mean coffee is a bad buy. If it makes you happy, it can be worth it. It just means our feelings about price don't always match the value we get.",
+   "vis": {
+    "type": "hook",
+    "text": "Feelings about price don't always match value.",
+    "emoji": "⚖️",
+    "hot": [
+     "value"
+    ]
+   }
+  },
+  {
+   "say": "Part six. Using this to your advantage.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Use it to your advantage"
+   }
+  },
+  {
+   "say": "So how can you use this? Think in cost per use, not just price. Notice which spending feels painless because it's routine. And be honest about which treats actually make you happy.",
+   "vis": {
+    "type": "list",
+    "title": "Smarter spending",
+    "items": [
+     [
+      "🧮",
+      "Think cost per use"
+     ],
+     [
+      "🔁",
+      "Watch painless routine spending"
+     ],
+     [
+      "😊",
+      "Keep the treats you truly love"
+     ],
+     [
+      "✂️",
+      "Cut what you don't value"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A daily four pound coffee adds up to over a thousand pounds a year. That might be absolutely worth it to you. The point isn't to give up coffee. It's to spend on purpose.",
+   "vis": {
+    "type": "hook",
+    "text": "A daily £4 coffee: over £1,000 a year.",
+    "emoji": "☕",
+    "hot": [
+     "£1,000"
+    ]
+   }
+  },
+  {
+   "say": "Priya kept her morning coffee, because she loves it. But she paid for the app, and cancelled two subscriptions she never used. Same money, spent on things she actually values.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Spend on what I love. Cut the rest.",
+      "prop": "💚"
+     }
+    ],
+    "title": "Priya's choice"
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments what you happily spend on that others think is crazy.",
+   "vis": {
+    "type": "outro",
+    "text": "What do you happily spend on?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "£4 COFFEE ✅|£4 APP ❌",
+  "emoji": "☕",
+  "color": "gold",
+  "tag": "Minds"
+ }
+}

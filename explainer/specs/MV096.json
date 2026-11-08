@@ -1,0 +1,392 @@
+{
+ "id": "MV096",
+ "style": "bold",
+ "variant": 0,
+ "voice": "am_fenrir",
+ "speed": 0.8,
+ "trans": "cut",
+ "title": "How Black Friday Deals Trick You",
+ "beats": [
+  {
+   "say": "Black Friday. Huge discounts, countdown clocks, deals of the year. But when the consumer group Which? tracked prices, it found most Black Friday deals weren't the bargains they seemed.",
+   "vis": {
+    "type": "hook",
+    "text": "Most deals weren't real bargains.",
+    "emoji": "🏷️",
+    "hot": [
+     "weren't"
+    ]
+   }
+  },
+  {
+   "say": "In one Which? analysis of deals from twenty twenty, ninety two percent of products were the same price or cheaper at some point in the six months before Black Friday.",
+   "vis": {
+    "type": "num",
+    "value": 92,
+    "label": "of Black Friday 'deals' same price or cheaper in the 6 months before",
+    "color": "red",
+    "emoji": "🏷️",
+    "prefix": "",
+    "suffix": "%",
+    "source": "Which?, analysis of 2020 Black Friday deals"
+   }
+  },
+  {
+   "say": "And ninety eight and a half percent were the same price or cheaper at some point in the six months after. Which? has found similar patterns in other years too.",
+   "vis": {
+    "type": "hook",
+    "text": "And 98.5% were as cheap or cheaper later.",
+    "emoji": "📆",
+    "hot": [
+     "98.5%"
+    ]
+   }
+  },
+  {
+   "say": "Part one. Where Black Friday came from.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Where Black Friday came from"
+   }
+  },
+  {
+   "say": "Black Friday started in the United States, as the day after Thanksgiving, traditionally the start of the Christmas shopping season. It spread to Britain in the twenty tens, partly thanks to online retailers.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🇺🇸",
+    "text": "Black Friday",
+    "sub": "The day after US Thanksgiving",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Today it's not even one day. It's often a whole week, or even most of November. Black Friday has become Black November.",
+   "vis": {
+    "type": "hook",
+    "text": "Black Friday became Black November.",
+    "emoji": "📅",
+    "hot": [
+     "November."
+    ]
+   }
+  },
+  {
+   "say": "Black Friday is followed by Cyber Monday, focused on online deals. And many retailers now run pre Black Friday sales, early access deals, and extended offers well into December.",
+   "vis": {
+    "type": "hook",
+    "text": "And then comes Cyber Monday.",
+    "emoji": "💻",
+    "hot": [
+     "Cyber"
+    ]
+   }
+  },
+  {
+   "say": "Part two. The fake discount.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The fake discount"
+   }
+  },
+  {
+   "say": "Here's a real example Which? found. A washing machine at a big retailer was advertised for three hundred and nine pounds on Black Friday. Five months earlier, the same retailer had sold it for two hundred and forty nine.",
+   "vis": {
+    "type": "doc",
+    "title": "A Which? example",
+    "lines": [
+     [
+      "Black Friday price",
+      "£309"
+     ],
+     [
+      "5 months earlier",
+      "£249"
+     ],
+     [
+      "'Saving'",
+      "Not really"
+     ],
+     [
+      "Lesson",
+      "Check price history"
+     ]
+    ],
+    "stamp": "NOT A DEAL",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "The trick is often in the was price. A retailer might raise the price for a while before the sale, so the discount looks bigger. Or compare against a high price that very few people actually paid.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The 'was' price",
+     "emoji": "📈",
+     "lines": [
+      "Raised before the sale",
+      "Or rarely charged"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The 'now' price",
+     "emoji": "🏷️",
+     "lines": [
+      "Looks like a big saving",
+      "Often a normal price"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In the UK, there are rules about reference prices, meant to stop fake was prices. Shops should have genuinely sold at the higher price for a meaningful period. But consumer groups say the rules are often stretched.",
+   "vis": {
+    "type": "hook",
+    "text": "Rules exist, but are often stretched.",
+    "emoji": "📜",
+    "hot": [
+     "stretched."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The psychology.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The psychology"
+   }
+  },
+  {
+   "say": "Black Friday uses powerful psychology. Countdown timers create urgency. Limited stock messages create scarcity. Everyone else seems to be buying, which creates social proof. And big red percentages make it feel like you're saving money, not spending it.",
+   "vis": {
+    "type": "list",
+    "title": "The psychological tricks",
+    "items": [
+     [
+      "⏰",
+      "Countdown timers"
+     ],
+     [
+      "📉",
+      "'Only 3 left!'"
+     ],
+     [
+      "👥",
+      "Everyone's buying"
+     ],
+     [
+      "🔴",
+      "Big red percentages"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some retailers also sell special versions of products just for Black Friday, with slightly different model numbers. That makes it harder to compare prices with other shops or earlier dates.",
+   "vis": {
+    "type": "hook",
+    "text": "Special model numbers make comparing harder.",
+    "emoji": "🔢",
+    "hot": [
+     "harder."
+    ]
+   }
+  },
+  {
+   "say": "The most dangerous idea is that spending equals saving. If you buy something you didn't need for thirty percent off, you haven't saved thirty percent. You've spent seventy percent.",
+   "vis": {
+    "type": "hook",
+    "text": "Spend £70 to 'save' £30? You spent £70.",
+    "emoji": "🧮",
+    "hot": [
+     "spent"
+    ]
+   }
+  },
+  {
+   "say": "Ask yourself a few questions before you buy. Did I want this before the sale? Would I buy it at the full price? Is this the lowest it's been in months? Do I have the money right now?",
+   "vis": {
+    "type": "list",
+    "title": "Questions to ask",
+    "items": [
+     [
+      "🤔",
+      "Did I want this before?"
+     ],
+     [
+      "🏷️",
+      "Would I pay full price?"
+     ],
+     [
+      "📉",
+      "Is this really the lowest price?"
+     ],
+     [
+      "💷",
+      "Can I afford it now?"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. Real deals exist.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Real deals exist"
+   }
+  },
+  {
+   "say": "To be fair, some Black Friday deals are genuinely good. Some products really do hit their lowest price. The problem is telling the real deals from the fake ones in the rush.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Real deals",
+     "emoji": "✅",
+     "lines": [
+      "Lowest price in months",
+      "Something you planned to buy"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Fake deals",
+     "emoji": "❌",
+     "lines": [
+      "Same price as before",
+      "Something you didn't need"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Bigger items, like TVs, laptops and appliances, can sometimes see genuine discounts, especially older models being cleared. But you need to check the history to be sure.",
+   "vis": {
+    "type": "hook",
+    "text": "Big-ticket items can have genuine discounts.",
+    "emoji": "📺",
+    "hot": [
+     "genuine"
+    ]
+   }
+  },
+  {
+   "say": "Part five. How to win.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "How to win"
+   }
+  },
+  {
+   "say": "So how do you win at Black Friday? Make a list of things you actually need before it starts. Set a budget. Check price history using price tracking websites. And compare prices across several shops.",
+   "vis": {
+    "type": "list",
+    "title": "Win at Black Friday",
+    "items": [
+     [
+      "📝",
+      "List what you need first"
+     ],
+     [
+      "💷",
+      "Set a budget"
+     ],
+     [
+      "📈",
+      "Check price history"
+     ],
+     [
+      "🔍",
+      "Compare shops"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Unsubscribe from marketing emails you don't want before Black Friday starts. Fewer emails mean fewer temptations.",
+   "vis": {
+    "type": "hook",
+    "text": "Unsubscribe to reduce temptation.",
+    "emoji": "📧",
+    "hot": [
+     "Unsubscribe"
+    ]
+   }
+  },
+  {
+   "say": "Also, beware of buy now pay later at checkout, which can make big purchases feel small. Check returns policies. And remember that your legal rights still apply to sale items.",
+   "vis": {
+    "type": "list",
+    "title": "More tips",
+    "items": [
+     [
+      "💳",
+      "Careful with buy now pay later"
+     ],
+     [
+      "↩️",
+      "Check returns policies"
+     ],
+     [
+      "⚖️",
+      "Your rights still apply"
+     ],
+     [
+      "🚨",
+      "Watch for scam websites"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Scam websites spike around Black Friday too. Fake shops with unbelievable prices, copying real brands. If a deal looks too good to be true, check the website carefully before you pay.",
+   "vis": {
+    "type": "hook",
+    "text": "Too good to be true? Check the site.",
+    "emoji": "🚨",
+    "hot": [
+     "Check"
+    ]
+   }
+  },
+  {
+   "say": "The lesson.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lesson"
+   }
+  },
+  {
+   "say": "Black Friday isn't a gift from shops. It's one of the biggest sales events of the year, designed to get you spending. The best deal is often the thing you didn't buy.",
+   "vis": {
+    "type": "hook",
+    "text": "The best deal is often what you didn't buy.",
+    "emoji": "🛑",
+    "hot": [
+     "didn't"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments the worst Black Friday deal you ever fell for.",
+   "vis": {
+    "type": "outro",
+    "text": "Worst Black Friday deal you fell for?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "9 IN 10|'DEALS'|AREN'T",
+  "emoji": "🏷️",
+  "color": "red",
+  "tag": "Minds"
+ }
+}

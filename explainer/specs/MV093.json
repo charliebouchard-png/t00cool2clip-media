@@ -1,0 +1,433 @@
+{
+ "id": "MV093",
+ "style": "neon",
+ "variant": 2,
+ "voice": "am_puck",
+ "speed": 0.82,
+ "trans": "glitch",
+ "title": "How Games Make You Spend Real Money",
+ "beats": [
+  {
+   "say": "You're playing a game. A new skin, a battle pass, a loot box. It costs five hundred gems. And somehow that doesn't feel like real money. That's not an accident. It's design.",
+   "vis": {
+    "type": "hook",
+    "text": "Gems don't feel like real money. By design.",
+    "emoji": "🎮",
+    "hot": [
+     "design."
+    ]
+   }
+  },
+  {
+   "say": "Many of the biggest games are free to play. So how do they make billions? Through in game purchases. Let's look at the psychology behind them, and how to stay in control.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "💎",
+      "In-game currencies"
+     ],
+     [
+      "🎁",
+      "Loot boxes"
+     ],
+     [
+      "🎟️",
+      "Battle passes"
+     ],
+     [
+      "⏰",
+      "Limited-time offers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Free to play.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Free to play"
+   }
+  },
+  {
+   "say": "In the past, you bought a game once, and that was it. Today, many games are free to download, and make their money from optional extras. Most players spend nothing. A small number spend a lot.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Old model",
+     "emoji": "💿",
+     "lines": [
+      "Buy the game once",
+      "That's it"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Free to play",
+     "emoji": "📱",
+     "lines": [
+      "Free download",
+      "Pay for extras"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In the industry, the biggest spenders are sometimes nicknamed whales. A small share of players can provide a large share of the revenue.",
+   "vis": {
+    "type": "hook",
+    "text": "A few big spenders fund a lot of games.",
+    "emoji": "🐋",
+    "hot": [
+     "few"
+    ]
+   }
+  },
+  {
+   "say": "Game designers use data to study players closely. When people tend to quit. Which offers work. What price makes people buy. Games can be tuned to maximise spending, the same way a shop tunes its layout.",
+   "vis": {
+    "type": "list",
+    "title": "Data-driven design",
+    "items": [
+     [
+      "📊",
+      "Track how players behave"
+     ],
+     [
+      "🧪",
+      "Test different offers"
+     ],
+     [
+      "🏷️",
+      "Optimise prices"
+     ],
+     [
+      "🎯",
+      "Target offers at the right moment"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part two. Fake money.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Fake money"
+   }
+  },
+  {
+   "say": "First, you swap real money for in game currency. Coins, gems, points, gold. Then you spend that currency on items. That extra step creates distance between you and your real money.",
+   "vis": {
+    "type": "flow",
+    "title": "How in-game currency works",
+    "nodes": [
+     [
+      "💷",
+      "Real money"
+     ],
+     [
+      "💎",
+      "Swapped for gems"
+     ],
+     [
+      "🛍️",
+      "Gems spent on items"
+     ],
+     [
+      "🫥",
+      "Real cost feels hidden"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💎"
+   }
+  },
+  {
+   "say": "And the bundles rarely match what you need. Say an item costs eight hundred gems, but gems come in packs of five hundred or one thousand. You buy one thousand, and have two hundred left over, nudging you to buy more later.",
+   "vis": {
+    "type": "hook",
+    "text": "Odd bundle sizes leave you with leftovers.",
+    "emoji": "🧩",
+    "hot": [
+     "leftovers."
+    ]
+   }
+  },
+  {
+   "say": "Bigger packs usually give you bonus gems, so they look like better value. That encourages you to spend more upfront than you planned, and keeps your money locked inside the game.",
+   "vis": {
+    "type": "hook",
+    "text": "Bonus gems lock more money in the game.",
+    "emoji": "🔒",
+    "hot": [
+     "locked"
+    ]
+   }
+  },
+  {
+   "say": "The conversion rates are often awkward too. A hundred gems might cost ninety nine pence, but a skin costs one thousand three hundred and fifty gems. Quick, what's that in pounds? Most people don't bother working it out.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What you see",
+     "emoji": "💎",
+     "lines": [
+      "1,350 gems",
+      "Feels abstract"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What you pay",
+     "emoji": "💷",
+     "lines": [
+      "About £13",
+      "Real money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part three. Loot boxes.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Loot boxes"
+   }
+  },
+  {
+   "say": "Loot boxes are mystery packs. You pay, and get a random item. It might be rare and valuable, or common and disappointing. Critics say that's very similar to gambling.",
+   "vis": {
+    "type": "hook",
+    "text": "Pay for a random prize. Sound familiar?",
+    "emoji": "🎁",
+    "hot": [
+     "random"
+    ]
+   }
+  },
+  {
+   "say": "Some games show the odds of getting rare items. Often, the chance of the best items is tiny, less than one percent. People can spend a lot chasing them.",
+   "vis": {
+    "type": "hook",
+    "text": "The odds of the best items can be tiny.",
+    "emoji": "🎲",
+    "hot": [
+     "tiny."
+    ]
+   }
+  },
+  {
+   "say": "The excitement of opening a pack, the flashing animations, the near misses with rare items. These use some of the same psychological tricks as slot machines.",
+   "vis": {
+    "type": "list",
+    "title": "Why loot boxes are compelling",
+    "items": [
+     [
+      "🎰",
+      "Random rewards"
+     ],
+     [
+      "✨",
+      "Exciting animations"
+     ],
+     [
+      "🎯",
+      "Near misses"
+     ],
+     [
+      "🏆",
+      "Rare items to chase"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Different countries treat them differently. Belgium has effectively banned paid loot boxes. In twenty twenty two, the UK government decided not to classify them as gambling, and instead asked the games industry to improve protections, especially for children.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Belgium",
+     "emoji": "🇧🇪",
+     "lines": [
+      "Effectively banned",
+      "Treated like gambling"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "UK",
+     "emoji": "🇬🇧",
+     "lines": [
+      "Not classed as gambling",
+      "Industry asked to act"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In football games like EA Sports FC, formerly FIFA, Ultimate Team packs became one of the most debated examples, because players can spend real money hoping to get star players.",
+   "vis": {
+    "type": "hook",
+    "text": "Football card packs became a big debate.",
+    "emoji": "⚽",
+    "hot": [
+     "debate."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Battle passes and FOMO.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Battle passes and FOMO"
+   }
+  },
+  {
+   "say": "Battle passes give you rewards as you play over a season. Many people think they're better value than loot boxes, because you know what you'll get. But they're designed to keep you playing regularly, so you don't miss out.",
+   "vis": {
+    "type": "hook",
+    "text": "Battle passes keep you coming back.",
+    "emoji": "🎟️",
+    "hot": [
+     "back."
+    ]
+   }
+  },
+  {
+   "say": "Limited time offers create pressure. This skin is only available for twenty four hours. This event ends Sunday. Fear of missing out makes people buy quickly, without thinking it through.",
+   "vis": {
+    "type": "list",
+    "title": "FOMO tactics",
+    "items": [
+     [
+      "⏰",
+      "Countdown timers"
+     ],
+     [
+      "🔥",
+      "Limited-time skins"
+     ],
+     [
+      "📅",
+      "Daily login rewards"
+     ],
+     [
+      "👀",
+      "Friends showing off items"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Daily login bonuses and streaks are designed to make playing a habit. Break the streak, and you lose the rewards. That makes it feel costly to step away.",
+   "vis": {
+    "type": "hook",
+    "text": "Streaks make stopping feel costly.",
+    "emoji": "🔥",
+    "hot": [
+     "costly"
+    ]
+   }
+  },
+  {
+   "say": "Some games also use pay to win mechanics, where spending gives you an advantage over other players. That adds social pressure, because you don't want to fall behind your friends.",
+   "vis": {
+    "type": "hook",
+    "text": "Pay-to-win adds pressure to spend.",
+    "emoji": "🏆",
+    "hot": [
+     "pressure"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Staying in control.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Staying in control"
+   }
+  },
+  {
+   "say": "Gaming is fun, and spending some money on a game you love can be fine. The key is staying in control. Convert prices back to pounds. Set a monthly budget. Avoid saving card details in games. And wait twenty four hours before buying.",
+   "vis": {
+    "type": "list",
+    "title": "Stay in control",
+    "items": [
+     [
+      "💷",
+      "Convert to real pounds"
+     ],
+     [
+      "📆",
+      "Set a monthly budget"
+     ],
+     [
+      "🔒",
+      "Don't save card details"
+     ],
+     [
+      "⏳",
+      "Wait 24 hours"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Check your bank statement or app store purchase history every month. Many people are surprised by how much small game purchases add up to over a year.",
+   "vis": {
+    "type": "hook",
+    "text": "Small purchases add up over a year.",
+    "emoji": "🧾",
+    "hot": [
+     "add",
+     "up"
+    ]
+   }
+  },
+  {
+   "say": "Parents can use spending controls on consoles, phones and app stores, to require approval for purchases or set limits. Children have run up huge bills by accident, so it's worth checking.",
+   "vis": {
+    "type": "hook",
+    "text": "Parents: set spending controls.",
+    "emoji": "👪",
+    "hot": [
+     "controls."
+    ]
+   }
+  },
+  {
+   "say": "In game currencies, loot boxes and countdown timers all have one thing in common. They make it easier to spend without thinking. The best defence is simply to stop and think.",
+   "vis": {
+    "type": "hook",
+    "text": "The best defence is to stop and think.",
+    "emoji": "🧠",
+    "hot": [
+     "think."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments the most you've ever spent in a game.",
+   "vis": {
+    "type": "outro",
+    "text": "Most you've spent in a game?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "COINS =|REAL MONEY",
+  "emoji": "🎮",
+  "color": "teal",
+  "tag": "Minds"
+ }
+}

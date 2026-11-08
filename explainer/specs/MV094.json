@@ -1,0 +1,418 @@
+{
+ "id": "MV094",
+ "style": "chalk",
+ "variant": 1,
+ "voice": "af_heart",
+ "speed": 0.8,
+ "trans": "fade",
+ "title": "The Decoy Effect: Why Medium Popcorn Exists",
+ "beats": [
+  {
+   "say": "At the cinema, there's small popcorn, medium popcorn, and large popcorn. The large is only a little more than the medium. So you go large. Congratulations. You've just met the decoy effect.",
+   "vis": {
+    "type": "hook",
+    "text": "The medium exists to sell you the large.",
+    "emoji": "🍿",
+    "hot": [
+     "large."
+    ]
+   }
+  },
+  {
+   "say": "Today's lesson is one of the most powerful tricks in pricing. What the decoy effect is, the famous experiment that showed it, and how to spot it everywhere.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "🎯",
+      "What a decoy is"
+     ],
+     [
+      "📰",
+      "The magazine experiment"
+     ],
+     [
+      "🛍️",
+      "Decoys in everyday life"
+     ],
+     [
+      "🛡️",
+      "How to resist"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. What is a decoy?",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What is a decoy?"
+   }
+  },
+  {
+   "say": "A decoy is an option that's there mainly to make another option look better. It's not really meant to be chosen. It changes how you compare everything else.",
+   "vis": {
+    "type": "hook",
+    "text": "An option designed not to be chosen.",
+    "emoji": "🎯",
+    "hot": [
+     "not"
+    ]
+   }
+  },
+  {
+   "say": "Our brains find it hard to judge value in isolation. Is six pounds a good price for popcorn? Hard to say. But compared with a medium at five pounds fifty, the large suddenly feels like a great deal.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "On its own",
+     "emoji": "🤔",
+     "lines": [
+      "Is £6 good value?",
+      "Hard to tell"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Next to a decoy",
+     "emoji": "😃",
+     "lines": [
+      "Only 50p more than medium!",
+      "Feels like a bargain"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Psychologists say we're much better at relative judgements than absolute ones. We compare things to whatever is next to them. Sellers know that, and design the menu around it.",
+   "vis": {
+    "type": "hook",
+    "text": "We judge by comparison, not in isolation.",
+    "emoji": "⚖️",
+    "hot": [
+     "comparison,"
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. The famous experiment.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The famous experiment"
+   }
+  },
+  {
+   "say": "The behavioural economist Dan Ariely described a famous example in his book Predictably Irrational. A magazine offered three subscriptions. Online only, fifty nine dollars. Print only, one hundred and twenty five dollars. Print and online, also one hundred and twenty five dollars.",
+   "vis": {
+    "type": "doc",
+    "title": "The subscription offer",
+    "lines": [
+     [
+      "Online only",
+      "$59"
+     ],
+     [
+      "Print only",
+      "$125"
+     ],
+     [
+      "Print + online",
+      "$125"
+     ],
+     [
+      "Decoy",
+      "Print only"
+     ]
+    ],
+    "stamp": "DECOY",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Nobody sensible chooses print only, when print and online costs exactly the same. So why is it there?",
+   "vis": {
+    "type": "hook",
+    "text": "Why offer an option nobody wants?",
+    "emoji": "❓",
+    "hot": [
+     "nobody"
+    ]
+   }
+  },
+  {
+   "say": "When Ariely tested this with students, most chose the print and online bundle. Then he removed the print only option. Suddenly, most students chose the cheaper online only subscription instead.",
+   "vis": {
+    "type": "bars",
+    "title": "Share choosing the $125 bundle",
+    "items": [
+     [
+      "With the decoy",
+      84,
+      "red"
+     ],
+     [
+      "Without the decoy",
+      32,
+      "teal"
+     ]
+    ],
+    "max": 100,
+    "prefix": "",
+    "suffix": "%",
+    "source": "Ariely, Predictably Irrational (2008)"
+   }
+  },
+  {
+   "say": "The useless option changed people's choices dramatically. That's the power of a decoy.",
+   "vis": {
+    "type": "hook",
+    "text": "A useless option changed everything.",
+    "emoji": "⚡",
+    "hot": [
+     "everything."
+    ]
+   }
+  },
+  {
+   "say": "Why does it work? Because the decoy makes one option clearly better than something, giving your brain an easy reason to choose it. It's not that the bundle is the best choice for you. It's just the easiest to justify.",
+   "vis": {
+    "type": "list",
+    "title": "Why decoys work",
+    "items": [
+     [
+      "⚖️",
+      "One option clearly beats the decoy"
+     ],
+     [
+      "🧠",
+      "An easy reason to choose"
+     ],
+     [
+      "😌",
+      "Feels like a smart decision"
+     ],
+     [
+      "💷",
+      "Seller earns more"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Ariely's work has been popular, and some of his other research has faced serious questions. But the decoy effect itself was identified by other researchers back in the early nineteen eighties, and has been studied many times since.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🔬",
+    "text": "Studied since the 1980s",
+    "sub": "Also called the asymmetric dominance effect",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Lesson three. Decoys everywhere.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Decoys everywhere"
+   }
+  },
+  {
+   "say": "Once you know about decoys, you'll see them everywhere. Coffee sizes. Phone contracts. Streaming plans. Gym memberships. Software subscriptions. Restaurant wine lists.",
+   "vis": {
+    "type": "list",
+    "title": "Where decoys hide",
+    "items": [
+     [
+      "☕",
+      "Coffee sizes"
+     ],
+     [
+      "📱",
+      "Phone plans"
+     ],
+     [
+      "📺",
+      "Streaming tiers"
+     ],
+     [
+      "🍷",
+      "Wine lists"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Coffee shops do it too. Small, three pounds twenty. Medium, three pounds ninety. Large, four pounds ten. The medium is so close in price to the large that the large feels like an obvious upgrade.",
+   "vis": {
+    "type": "doc",
+    "title": "The coffee menu",
+    "lines": [
+     [
+      "Small",
+      "£3.20"
+     ],
+     [
+      "Medium (decoy)",
+      "£3.90"
+     ],
+     [
+      "Large",
+      "£4.10"
+     ],
+     [
+      "Feels like",
+      "Large is a steal"
+     ]
+    ],
+    "stamp": "DECOY",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Here's a phone contract example. Ten gigabytes of data for twenty pounds. Thirty gigabytes for twenty eight pounds. Unlimited for thirty pounds. The thirty gigabyte plan makes unlimited look like a steal, even if you only use five gigabytes a month.",
+   "vis": {
+    "type": "doc",
+    "title": "Phone plan example",
+    "lines": [
+     [
+      "10GB",
+      "£20"
+     ],
+     [
+      "30GB (decoy)",
+      "£28"
+     ],
+     [
+      "Unlimited",
+      "£30"
+     ],
+     [
+      "You actually use",
+      "5GB"
+     ]
+    ],
+    "stamp": "DECOY",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Restaurants are said to use a similar idea with wine. A very expensive bottle at the top of the list can make the second most expensive feel reasonable.",
+   "vis": {
+    "type": "hook",
+    "text": "The pricey bottle makes the next one look fine.",
+    "emoji": "🍷",
+    "hot": [
+     "fine."
+    ]
+   }
+  },
+  {
+   "say": "Streaming services and software often have three tiers. The middle tier is frequently the one they want you to choose, and the top tier helps make the middle one look reasonable.",
+   "vis": {
+    "type": "hook",
+    "text": "Three tiers, and a target in the middle.",
+    "emoji": "📺",
+    "hot": [
+     "middle."
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. How to resist.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "How to resist"
+   }
+  },
+  {
+   "say": "So how do you beat the decoy? Decide what you need before you look at the options. Compare each option on its own. Ask whether you'd still buy the bigger option if the middle one disappeared. And remember, cheapest per unit isn't best if you won't use it.",
+   "vis": {
+    "type": "list",
+    "title": "Beat the decoy",
+    "items": [
+     [
+      "📝",
+      "Know what you need first"
+     ],
+     [
+      "🔍",
+      "Judge each option alone"
+     ],
+     [
+      "🫥",
+      "Imagine the middle option gone"
+     ],
+     [
+      "🗑️",
+      "Don't pay for what you won't use"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Another trick is to look at what each upgrade actually gives you. Is the extra sixty pence worth it for the extra popcorn? Only if you'll eat it.",
+   "vis": {
+    "type": "hook",
+    "text": "Is the upgrade worth it to you?",
+    "emoji": "🤔",
+    "hot": [
+     "you?"
+    ]
+   }
+  },
+  {
+   "say": "The large popcorn might be better value per gram. But if you only want a small amount, the best value is the one that matches what you'll actually eat.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Best value per gram",
+     "emoji": "📏",
+     "lines": [
+      "The large",
+      "If you'd eat it all"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Best value for you",
+     "emoji": "✅",
+     "lines": [
+      "What you'll actually use",
+      "Often the small"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The decoy effect isn't about making you stupid. It's about using the way all our brains compare things. Once you know it's there, you can step back, and choose what you actually want.",
+   "vis": {
+    "type": "hook",
+    "text": "Step back. Choose what you actually want.",
+    "emoji": "🧠",
+    "hot": [
+     "actually"
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more money psychology explained simply, and tell me in the comments where you've spotted a decoy.",
+   "vis": {
+    "type": "outro",
+    "text": "Where have you spotted a decoy?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE MEDIUM|IS A TRAP",
+  "emoji": "🍿",
+  "color": "gold",
+  "tag": "Minds"
+ }
+}

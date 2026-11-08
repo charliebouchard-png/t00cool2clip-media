@@ -1,0 +1,360 @@
+{
+ "id": "MV092",
+ "style": "collage",
+ "variant": 1,
+ "voice": "bm_george",
+ "speed": 0.82,
+ "trans": "slap",
+ "title": "The Lottery Winners Who Went Broke",
+ "beats": [
+  {
+   "say": "Winning millions on the lottery sounds like the end of all your money problems. For some winners, it was. But for others, it was the start of a very different kind of trouble.",
+   "vis": {
+    "type": "hook",
+    "text": "For some, the win was the start of the trouble.",
+    "emoji": "🎟️",
+    "hot": [
+     "trouble."
+    ]
+   }
+  },
+  {
+   "say": "Today, let's look at some of Britain's most famous lottery winners who lost it all, what went wrong, and a surprising truth about how most winners actually do.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "👑",
+      "The 'King of Chavs'"
+     ],
+     [
+      "👧",
+      "The 16-year-old winner"
+     ],
+     [
+      "🚁",
+      "The helicopter and the mansion"
+     ],
+     [
+      "📊",
+      "What research really shows"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The King of Chavs.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The King of Chavs"
+   }
+  },
+  {
+   "say": "In twenty oh two, Michael Carroll, a nineteen year old bin man from Norfolk, won almost ten million pounds on the National Lottery. He famously bought his ticket while wearing an electronic tag.",
+   "vis": {
+    "type": "icon",
+    "emoji": "👑",
+    "text": "Michael Carroll",
+    "sub": "Won almost £10m in 2002",
+    "color": "red"
+   }
+  },
+  {
+   "say": "He spent big and fast. A large house in Norfolk. Around a million pounds in shares in Rangers football club. Cars, parties, gifts. And a divorce settlement reported at over a million pounds.",
+   "vis": {
+    "type": "list",
+    "title": "Where the money went",
+    "items": [
+     [
+      "🏠",
+      "A big house"
+     ],
+     [
+      "⚽",
+      "£1m in football club shares"
+     ],
+     [
+      "🎉",
+      "Parties and cars"
+     ],
+     [
+      "💔",
+      "A costly divorce"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "By twenty ten, he had been declared bankrupt. He later went back to work, and has said he was happier with less money. The press nicknamed him the King of Chavs.",
+   "vis": {
+    "type": "hook",
+    "text": "Bankrupt by 2010.",
+    "emoji": "📉",
+    "hot": [
+     "Bankrupt"
+    ]
+   }
+  },
+  {
+   "say": "Part two. The sixteen-year-old.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The sixteen-year-old"
+   }
+  },
+  {
+   "say": "In twenty oh three, Callie Rogers won one point nine million pounds. She was just sixteen, working on a supermarket checkout in Cumbria. At the time, she was one of the youngest ever winners.",
+   "vis": {
+    "type": "icon",
+    "emoji": "👧",
+    "text": "Callie Rogers",
+    "sub": "Won £1.9m at 16, in 2003",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "She bought homes for herself and her mother, and spent much of the rest on parties, holidays, and cosmetic surgery. She later spoke openly about how hard it was to cope with sudden wealth at such a young age.",
+   "vis": {
+    "type": "hook",
+    "text": "Sudden wealth at sixteen.",
+    "emoji": "💸",
+    "hot": [
+     "sixteen."
+    ]
+   }
+  },
+  {
+   "say": "Partly because of cases like hers, the minimum age to play the National Lottery in Britain was raised from sixteen to eighteen in twenty twenty one.",
+   "vis": {
+    "type": "hook",
+    "text": "The minimum age rose to 18 in 2021.",
+    "emoji": "🔞",
+    "hot": [
+     "18"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The helicopter.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The helicopter"
+   }
+  },
+  {
+   "say": "Lee Ryan won six and a half million pounds in the very first weeks of the National Lottery in nineteen ninety four. He bought luxury cars, a helicopter, and a two million pound mansion. Years later, he was jailed for handling stolen cars, and spent time sleeping rough.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🚁",
+    "text": "Lee Ryan",
+    "sub": "Won £6.5m in 1994",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Part four. Why it goes wrong.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why it goes wrong"
+   }
+  },
+  {
+   "say": "So why do some winners lose everything? Common reasons come up again and again. No plan. Spending on things that cost money to run. Lending or giving to everyone who asks. And no experience managing large sums.",
+   "vis": {
+    "type": "list",
+    "title": "Why winners go broke",
+    "items": [
+     [
+      "🗺️",
+      "No plan"
+     ],
+     [
+      "🏎️",
+      "Expensive things to run"
+     ],
+     [
+      "🤲",
+      "Pressure from others"
+     ],
+     [
+      "🎓",
+      "No experience with big money"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A lot of lottery spending goes on things that keep costing money. A mansion needs heating, staff and repairs. Supercars need insurance and servicing. A helicopter needs a pilot. The win is one off. The costs are forever.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The win",
+     "emoji": "💰",
+     "lines": [
+      "One-off",
+      "Feels endless"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The costs",
+     "emoji": "🧾",
+     "lines": [
+      "Every year",
+      "Keep growing"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In the UK, lottery wins are tax free. But once you invest the money, any interest, dividends or gains can be taxed like anyone else's. Some winners don't plan for that.",
+   "vis": {
+    "type": "hook",
+    "text": "Wins are tax-free. Returns on them aren't.",
+    "emoji": "🧾",
+    "hot": [
+     "aren't."
+    ]
+   }
+  },
+  {
+   "say": "And money can change relationships. Friends and family may ask for help. Saying no can be hard. Some winners have spoken about feeling isolated, or not knowing who to trust.",
+   "vis": {
+    "type": "hook",
+    "text": "Money can change relationships.",
+    "emoji": "👥",
+    "hot": [
+     "relationships."
+    ]
+   }
+  },
+  {
+   "say": "Part five. The surprising truth.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The surprising truth"
+   }
+  },
+  {
+   "say": "You may have heard that seventy percent of lottery winners go broke. It's quoted everywhere. But the organisation it's usually credited to, America's National Endowment for Financial Education, says it can't confirm that statistic and it's not backed by its research.",
+   "vis": {
+    "type": "hook",
+    "text": "The '70% go broke' stat? Unverified.",
+    "emoji": "❓",
+    "hot": [
+     "Unverified."
+    ]
+   }
+  },
+  {
+   "say": "In reality, many lottery winners do perfectly well. Plenty quietly pay off their mortgages, help their families, and carry on with fairly normal lives. They just don't make headlines.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The headlines",
+     "emoji": "📰",
+     "lines": [
+      "Winners who went broke",
+      "Dramatic stories"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The quiet majority",
+     "emoji": "🏡",
+     "lines": [
+      "Paid off mortgages",
+      "Helped family"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Take Brian Caswell, a grandfather from Bolton who won twenty five million pounds on EuroMillions in twenty oh nine. He bought homes for his daughters, set up a charity, and was reported to still drink in his local pub.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🍺",
+    "text": "Brian Caswell",
+    "sub": "Won £25m, stayed grounded",
+    "color": "teal"
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "What do the winners who do well tend to have in common? They take time before making big decisions. They get independent financial and legal advice. They set limits on gifts. And they keep the money working for them.",
+   "vis": {
+    "type": "list",
+    "title": "What successful winners do",
+    "items": [
+     [
+      "⏸️",
+      "Pause before deciding"
+     ],
+     [
+      "👔",
+      "Get independent advice"
+     ],
+     [
+      "🎁",
+      "Set limits on gifts"
+     ],
+     [
+      "📈",
+      "Invest, don't just spend"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And here's the lesson for the rest of us. Most people won't win the lottery. But the same rules apply to any windfall, like an inheritance, a bonus or a payout. Pause, plan, and don't spend money on things that cost more money.",
+   "vis": {
+    "type": "hook",
+    "text": "The same rules apply to any windfall.",
+    "emoji": "🧭",
+    "hot": [
+     "windfall."
+    ]
+   }
+  },
+  {
+   "say": "Lottery money can change your life for the better. But money alone doesn't fix problems. Without a plan, even ten million pounds can disappear.",
+   "vis": {
+    "type": "hook",
+    "text": "Without a plan, even £10m can vanish.",
+    "emoji": "💨",
+    "hot": [
+     "vanish."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more true stories about money and the mind, and tell me in the comments what you'd do first with a big win.",
+   "vis": {
+    "type": "outro",
+    "text": "What would you do first with a big win?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WON £10M.|ENDED BROKE.",
+  "emoji": "🎟️",
+  "color": "red",
+  "tag": "Minds"
+ }
+}

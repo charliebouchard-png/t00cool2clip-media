@@ -1,0 +1,430 @@
+{
+ "id": "MV064",
+ "style": "storybook",
+ "voice": "am_puck",
+ "speed": 0.82,
+ "title": "Why Can't We Just Print More Money?",
+ "beats": [
+  {
+   "say": "Here's a question almost every child asks. If the government can print money, why doesn't it just print loads, and give everyone a million pounds? Then nobody would be poor. Right?",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Just print a million for everyone!",
+      "prop": "🖨️"
+     }
+    ],
+    "title": "The big question"
+   }
+  },
+  {
+   "say": "It's a great question. And the answer explains one of the most important ideas in all of economics.",
+   "vis": {
+    "type": "hook",
+    "text": "A simple question. A big idea.",
+    "emoji": "💡",
+    "hot": [
+     "big"
+    ]
+   }
+  },
+  {
+   "say": "Let's imagine a tiny island. On this island, there are ten people, and ten ice creams for sale. Each person has one pound. And each ice cream costs one pound. Everyone gets an ice cream.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "One pound, one ice cream!",
+      "prop": "🍦"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Lovely!",
+      "prop": "🪙"
+     }
+    ],
+    "title": "Ice cream island"
+   }
+  },
+  {
+   "say": "Now the island's government decides to make everyone richer. It prints money, and gives each person another nine pounds. Now everyone has ten pounds. Hooray!",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Ten pounds for everyone!",
+      "prop": "🖨️",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Free money"
+   }
+  },
+  {
+   "say": "Everyone's excited. They feel rich. Some start planning to buy ten ice creams each.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "I'm rich! Ten ice creams for me!",
+      "prop": "💷"
+     },
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "Me too!",
+      "prop": "💷"
+     }
+    ],
+    "title": "Feeling rich"
+   }
+  },
+  {
+   "say": "You see, there are still only ten ice creams. Everyone rushes to the shop with their ten pounds. The shopkeeper sees all this money, and the same number of ice creams. What do you think happens?",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "shock",
+      "say": "Everyone wants ice cream!",
+      "prop": "🍦"
+     }
+    ],
+    "title": "The twist"
+   },
+   "night": true
+  },
+  {
+   "say": "The price goes up. Ice creams now cost ten pounds each. Everyone has ten times more money, but they can still only buy one ice cream. Nobody is actually richer.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "Ten pounds for one ice cream?",
+      "prop": "🍦"
+     }
+    ],
+    "title": "Prices rise"
+   },
+   "night": true
+  },
+  {
+   "say": "In fact, some people end up worse off. Anyone who had saved money before the printing now finds their savings buy far less than before.",
+   "vis": {
+    "type": "hook",
+    "text": "Savers end up worse off.",
+    "emoji": "😢",
+    "hot": [
+     "worse"
+    ]
+   }
+  },
+  {
+   "say": "That's inflation. When there's much more money, but the same amount of stuff, prices rise. Money is only worth what it can buy.",
+   "vis": {
+    "type": "hook",
+    "text": "More money, same stuff, higher prices.",
+    "emoji": "📈",
+    "hot": [
+     "higher"
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "Real wealth isn't pieces of paper. It's the things we can make and do. Food, houses, phones, doctors, teachers, ice cream. Printing money doesn't create any more of those.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What printing creates",
+     "emoji": "🖨️",
+     "lines": [
+      "More pieces of paper",
+      "More numbers"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What makes us rich",
+     "emoji": "🏭",
+     "lines": [
+      "More goods",
+      "More services"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Imagine if printing money really made a country rich. Every government would do it, and no country would ever be poor. The fact that they can't tells you it doesn't work that way.",
+   "vis": {
+    "type": "list",
+    "title": "The proof",
+    "items": [
+     [
+      "🖨️",
+      "Every country can print"
+     ],
+     [
+      "🌍",
+      "Yet poor countries exist"
+     ],
+     [
+      "🤔",
+      "So printing isn't wealth"
+     ],
+     [
+      "🏭",
+      "Production is"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And it gets worse. If people expect prices to keep rising, they rush to spend money before it loses value. Shops raise prices again. The government prints more. It can spiral out of control.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "Spend it now, before it's worthless!",
+      "prop": "🏃"
+     }
+    ],
+    "title": "The spiral"
+   }
+  },
+  {
+   "say": "This has really happened. In Germany in nineteen twenty three. In Zimbabwe in the two thousands. In Venezuela more recently. Printing money to pay the bills led to hyperinflation, and savings became worthless.",
+   "vis": {
+    "type": "list",
+    "title": "When printing went wrong",
+    "items": [
+     [
+      "🇩🇪",
+      "Germany, 1923"
+     ],
+     [
+      "🇿🇼",
+      "Zimbabwe, 2000s"
+     ],
+     [
+      "🇻🇪",
+      "Venezuela, 2010s"
+     ],
+     [
+      "💸",
+      "Savings wiped out"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In Venezuela, prices rose so fast that people weighed banknotes instead of counting them, and some made handbags out of worthless notes to sell to tourists.",
+   "vis": {
+    "type": "hook",
+    "text": "Banknotes turned into handbags.",
+    "emoji": "👜",
+    "hot": [
+     "handbags."
+    ]
+   }
+  },
+  {
+   "say": "So printing money is always bad? Not quite. It's more interesting than that.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Wait, it's not that simple?",
+      "prop": "🤔"
+     }
+    ],
+    "title": "Not so simple"
+   }
+  },
+  {
+   "say": "A growing economy needs some new money. If a country produces more goods and services each year, it needs a bit more money for people to buy them. Otherwise prices could fall, which causes its own problems.",
+   "vis": {
+    "type": "hook",
+    "text": "A growing economy needs some new money.",
+    "emoji": "🌱",
+    "hot": [
+     "some"
+    ]
+   }
+  },
+  {
+   "say": "Falling prices might sound nice. But if people expect things to get cheaper, they wait to buy. Businesses sell less, cut jobs, and the economy can get stuck. That's called deflation.",
+   "vis": {
+    "type": "hook",
+    "text": "Falling prices can cause their own trouble.",
+    "emoji": "📉",
+    "hot": [
+     "trouble."
+    ]
+   }
+  },
+  {
+   "say": "Back on our island, imagine a new ice cream factory opens, and now there are twenty ice creams. If the amount of money stays the same, ice creams get cheaper. A little extra money helps keep prices steady.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "Twenty ice creams now!",
+      "prop": "🏭",
+      "hat": "🎩"
+     }
+    ],
+    "title": "Growth"
+   }
+  },
+  {
+   "say": "That's why most central banks, including the Bank of England, aim for low, steady inflation, about two percent a year. Not zero, and definitely not out of control.",
+   "vis": {
+    "type": "list",
+    "title": "The target",
+    "items": [
+     [
+      "🎯",
+      "About 2% inflation a year"
+     ],
+     [
+      "📈",
+      "Gentle, predictable price rises"
+     ],
+     [
+      "🏦",
+      "Set by the central bank"
+     ],
+     [
+      "⚖️",
+      "Not too hot, not too cold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And in emergencies, like the two thousand and eight crash or the pandemic, central banks did create huge amounts of new money, through something called quantitative easing. It helped stop a collapse. But many economists think it also contributed to rising prices later on.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "In emergencies, it can help.",
+      "prop": "🛟"
+     }
+    ],
+    "title": "Emergencies"
+   }
+  },
+  {
+   "say": "So the real answer is this. A little new money, matched to a growing economy, is healthy. A lot of new money, with nothing extra to buy, just makes everything more expensive.",
+   "vis": {
+    "type": "hook",
+    "text": "A little helps. A lot hurts.",
+    "emoji": "⚖️",
+    "hot": [
+     "hurts."
+    ]
+   }
+  },
+  {
+   "say": "Governments can also borrow money, by selling bonds to investors. That's different from printing, because the money has to be paid back with interest. It's how most government spending beyond taxes is paid for.",
+   "vis": {
+    "type": "list",
+    "title": "How governments really pay",
+    "items": [
+     [
+      "🧾",
+      "Taxes"
+     ],
+     [
+      "🏛️",
+      "Borrowing by selling bonds"
+     ],
+     [
+      "🖨️",
+      "Printing, only in limited ways"
+     ],
+     [
+      "⚖️",
+      "Each has costs"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And there's one more thing. When prices rise, people with savings lose out, because their money buys less. People with debts can gain, because their debts shrink in real terms.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Savers",
+     "emoji": "😢",
+     "lines": [
+      "Money buys less",
+      "Lose out"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Borrowers",
+     "emoji": "😏",
+     "lines": [
+      "Debts shrink in real terms",
+      "Gain"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So next time someone asks why we can't just print money and make everyone rich, you can tell them about ice cream island. Money isn't wealth. It's just a way of sharing out the wealth we actually make.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "Money isn't wealth. Stuff is!",
+      "prop": "🍦"
+     }
+    ],
+    "title": "The lesson"
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHY NOT|JUST PRINT|MORE?",
+  "emoji": "🖨️",
+  "color": "red",
+  "tag": "Systems"
+ }
+}

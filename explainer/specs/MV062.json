@@ -1,0 +1,395 @@
+{
+ "id": "MV062",
+ "style": "documentary",
+ "voice": "bm_george",
+ "speed": 0.82,
+ "title": "When Britain Left the Gold Standard",
+ "beats": [
+  {
+   "say": "Look at a Bank of England note today, and you'll see the words, I promise to pay the bearer on demand the sum of. For a long time, that promise meant something very real. You could swap your note for gold. In nineteen thirty one, Britain broke that promise.",
+   "vis": {
+    "type": "hook",
+    "text": "I promise to pay the bearer. In gold.",
+    "emoji": "🥇",
+    "hot": [
+     "gold."
+    ]
+   }
+  },
+  {
+   "say": "The story of the gold standard is the story of how money works. Why it was tied to gold, why Britain clung on, and why letting go may have been the best thing that happened to the British economy in the nineteen thirties.",
+   "vis": {
+    "type": "list",
+    "title": "Today's story",
+    "items": [
+     [
+      "🥇",
+      "What the gold standard was"
+     ],
+     [
+      "🔙",
+      "Churchill's return to gold"
+     ],
+     [
+      "⚓",
+      "A mutiny at sea"
+     ],
+     [
+      "💷",
+      "The pound set free"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Money backed by gold.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Money backed by gold"
+   }
+  },
+  {
+   "say": "Under the gold standard, the value of a currency was fixed to a set amount of gold. The central bank promised to swap notes for gold at that price. So the amount of money in the country was limited by the gold the Bank held.",
+   "vis": {
+    "type": "flow",
+    "title": "How the gold standard worked",
+    "nodes": [
+     [
+      "🥇",
+      "Gold in the Bank's vaults"
+     ],
+     [
+      "💷",
+      "Notes issued against it"
+     ],
+     [
+      "🔁",
+      "Notes swappable for gold"
+     ],
+     [
+      "🔒",
+      "Money supply limited by gold"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🥇"
+   }
+  },
+  {
+   "say": "It had real advantages. People trusted the money, because it was backed by something solid. Exchange rates between gold standard countries were stable. But it had a big weakness. In a crisis, the government couldn't easily create more money.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The upside",
+     "emoji": "✅",
+     "lines": [
+      "Trusted money",
+      "Stable exchange rates"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The downside",
+     "emoji": "⚠️",
+     "lines": [
+      "Can't create money in a crisis",
+      "Gold can flood out"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Britain had been on the gold standard, in one form or another, for most of two hundred years. It was part of the country's financial identity. But during the First World War, Britain suspended it to pay for the fighting.",
+   "vis": {
+    "type": "hook",
+    "text": "The war broke the link with gold.",
+    "emoji": "⚔️",
+    "hot": [
+     "broke"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Churchill's mistake.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Churchill's mistake"
+   }
+  },
+  {
+   "say": "In nineteen twenty five, the Chancellor of the Exchequer, Winston Churchill, put Britain back on the gold standard. And he chose the old pre war rate, about four dollars and eighty six cents to the pound.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🎩",
+    "text": "Winston Churchill",
+    "sub": "Returned Britain to gold in 1925",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "That rate was a matter of pride. But after the war, Britain's economy was weaker, and prices had changed. Many economists think the pound was set too high. British goods became too expensive for foreigners to buy.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The pride",
+     "emoji": "🇬🇧",
+     "lines": [
+      "Pre-war rate restored",
+      "Sound money"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The cost",
+     "emoji": "📉",
+     "lines": [
+      "Exports too expensive",
+      "Wages pushed down"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The economist John Maynard Keynes was one of the fiercest critics. He wrote a pamphlet attacking the decision, called The Economic Consequences of Mr Churchill.",
+   "vis": {
+    "type": "quote",
+    "text": "The Economic Consequences of Mr Churchill.",
+    "who": "the title of Keynes's 1925 pamphlet"
+   }
+  },
+  {
+   "say": "To keep the pound at that high rate, interest rates had to stay high, and wages came under pressure. In nineteen twenty six, a dispute over miners' wages helped lead to the General Strike.",
+   "vis": {
+    "type": "hook",
+    "text": "High rates. Wage cuts. A General Strike.",
+    "emoji": "✊",
+    "hot": [
+     "Strike."
+    ]
+   }
+  },
+  {
+   "say": "Part three. The crisis.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The crisis"
+   }
+  },
+  {
+   "say": "Then came the Great Depression. In nineteen thirty one, banks in Europe began to fail, starting with a major Austrian bank. Investors panicked and pulled money out of London, swapping pounds for gold.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1925",
+      "Back on gold"
+     ],
+     [
+      "1929",
+      "Wall Street crash"
+     ],
+     [
+      "May 1931",
+      "Austrian bank collapses"
+     ],
+     [
+      "Summer 1931",
+      "Gold floods out of London",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Britain's gold reserves drained away. The government was told it needed to cut spending to restore confidence. A new National Government was formed, and it announced cuts, including to public sector pay.",
+   "vis": {
+    "type": "hook",
+    "text": "Gold drained away. Cuts followed.",
+    "emoji": "🥇",
+    "hot": [
+     "drained"
+    ]
+   }
+  },
+  {
+   "say": "Part four. The mutiny.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The mutiny"
+   }
+  },
+  {
+   "say": "In September nineteen thirty one, sailors of the Royal Navy's Atlantic Fleet at Invergordon, in Scotland, refused to go to sea in protest at pay cuts. Some junior sailors faced cuts of a quarter of their pay.",
+   "vis": {
+    "type": "headline",
+    "kicker": "September 1931",
+    "paper": "THE NORTHERN TIMES",
+    "text": "Sailors refuse duty at Invergordon over pay cuts",
+    "date": "Royal Navy unrest shocks the City"
+   }
+  },
+  {
+   "say": "A mutiny in the Royal Navy shocked the markets. If even Britain's navy was in revolt, how stable was the country? The run on the pound got worse.",
+   "vis": {
+    "type": "hook",
+    "text": "A mutiny sparked a run on the pound.",
+    "emoji": "⚓",
+    "hot": [
+     "run"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Leaving gold.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Leaving gold"
+   }
+  },
+  {
+   "say": "On the twenty first of September, nineteen thirty one, Britain suspended the gold standard. The Bank of England would no longer swap pounds for gold. The pound was allowed to float.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "15 Sept",
+      "Invergordon mutiny"
+     ],
+     [
+      "Days later",
+      "Gold reserves running out"
+     ],
+     [
+      "21 Sept 1931",
+      "Britain leaves gold"
+     ],
+     [
+      "By year end",
+      "Pound down about a quarter",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The pound quickly fell, losing about a quarter of its value against the dollar. To many people at the time, it felt like a national humiliation.",
+   "vis": {
+    "type": "num",
+    "value": 25,
+    "label": "fall in the pound, roughly",
+    "color": "red",
+    "emoji": "📉",
+    "prefix": "About ",
+    "suffix": "%"
+   }
+  },
+  {
+   "say": "Part six. The surprise.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The surprise"
+   }
+  },
+  {
+   "say": "But here's the twist. Leaving gold turned out to help. Britain could now cut interest rates without worrying about gold flooding out. Cheaper money helped businesses, and a house building boom followed.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "On gold",
+     "emoji": "🔒",
+     "lines": [
+      "High interest rates",
+      "Hands tied"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Off gold",
+     "emoji": "🔓",
+     "lines": [
+      "Cheaper borrowing",
+      "Room to recover"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Economists have found that countries which left the gold standard earlier tended to recover from the Great Depression sooner. Countries that clung on longer often suffered longer.",
+   "vis": {
+    "type": "hook",
+    "text": "Leave early, recover sooner.",
+    "emoji": "📈",
+    "hot": [
+     "sooner."
+    ]
+   }
+  },
+  {
+   "say": "Part seven. Money today.",
+   "vis": {
+    "type": "chapter",
+    "n": 7,
+    "text": "Money today"
+   }
+  },
+  {
+   "say": "Britain never went back to a gold standard. After the Second World War, a different system linked currencies to the dollar, and the dollar to gold. That ended in nineteen seventy one. Since then, the pound's value has simply floated.",
+   "vis": {
+    "type": "list",
+    "title": "After 1931",
+    "items": [
+     [
+      "🥇",
+      "1931: Britain leaves gold"
+     ],
+     [
+      "🇺🇸",
+      "1944: dollar-based system"
+     ],
+     [
+      "🔓",
+      "1971: dollar's gold link ends"
+     ],
+     [
+      "💷",
+      "Today: floating currencies"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So that promise on your banknote today? It just means the Bank will swap it for another note of the same value. Your money isn't backed by gold. It's backed by trust in the Bank of England and the British economy.",
+   "vis": {
+    "type": "hook",
+    "text": "Today, money is backed by trust.",
+    "emoji": "🤝",
+    "hot": [
+     "trust"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more stories from the history of money, and tell me in the comments whether you think we should ever go back to gold.",
+   "vis": {
+    "type": "outro",
+    "text": "Should we go back to gold?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE PROMISE|BRITAIN|BROKE",
+  "emoji": "🥇",
+  "color": "gold",
+  "tag": "History"
+ }
+}

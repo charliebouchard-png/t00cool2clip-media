@@ -1,0 +1,491 @@
+{
+ "id": "MV065",
+ "style": "ledger",
+ "variant": 2,
+ "voice": "bf_isabella",
+ "speed": 0.82,
+ "trans": "pan",
+ "title": "How Inflation Quietly Steals Your Savings",
+ "beats": [
+  {
+   "say": "Here's something that happens without you ever noticing. Your savings can be getting smaller, even if you never spend a penny. Your balance stays the same. But what it can buy keeps shrinking. That's inflation.",
+   "vis": {
+    "type": "hook",
+    "text": "Same balance. Less money.",
+    "emoji": "🫥",
+    "hot": [
+     "Less"
+    ]
+   }
+  },
+  {
+   "say": "Today, let's break down exactly how inflation eats your savings, how to measure it, and what you can do about it.",
+   "vis": {
+    "type": "list",
+    "title": "Today",
+    "items": [
+     [
+      "📈",
+      "What inflation is"
+     ],
+     [
+      "🧮",
+      "Real vs nominal returns"
+     ],
+     [
+      "⏳",
+      "The long-term damage"
+     ],
+     [
+      "🛡️",
+      "How to protect yourself"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. What is inflation?",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "What is inflation?"
+   }
+  },
+  {
+   "say": "Inflation is the rate at which prices rise over time. If inflation is three percent, then something that cost one hundred pounds last year costs about one hundred and three pounds this year.",
+   "vis": {
+    "type": "hook",
+    "text": "Prices rise. Money buys less.",
+    "emoji": "🛒",
+    "hot": [
+     "less."
+    ]
+   }
+  },
+  {
+   "say": "Think about a weekly shop. If prices rise by three percent every year, a one hundred pound shop costs about one hundred and thirty four pounds after ten years, and about one hundred and eighty pounds after twenty.",
+   "vis": {
+    "type": "bars",
+    "title": "A £100 shop at 3% inflation",
+    "items": [
+     [
+      "Today",
+      100,
+      "teal"
+     ],
+     [
+      "10 years",
+      134,
+      "gold"
+     ],
+     [
+      "20 years",
+      181,
+      "red"
+     ]
+    ],
+    "max": 200,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Illustrative calculation"
+   }
+  },
+  {
+   "say": "In Britain, inflation is measured mainly by the Consumer Prices Index, which tracks the prices of a basket of hundreds of everyday goods and services, from bread to bus fares.",
+   "vis": {
+    "type": "hook",
+    "text": "Measured by a basket of everyday things.",
+    "emoji": "🧺",
+    "hot": [
+     "basket"
+    ]
+   }
+  },
+  {
+   "say": "But your personal inflation rate can be different. If you spend a lot on things that are rising fast, like energy or rent, it might feel much higher than the official figure.",
+   "vis": {
+    "type": "hook",
+    "text": "Your personal inflation can be different.",
+    "emoji": "🧍",
+    "hot": [
+     "personal"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Real versus nominal.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Real versus nominal"
+   }
+  },
+  {
+   "say": "Here's the key idea. The interest your savings earn is called the nominal return. But what really matters is the real return, the interest minus inflation.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Nominal return",
+     "emoji": "🧾",
+     "lines": [
+      "The interest rate",
+      "What the bank shows"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Real return",
+     "emoji": "🧮",
+     "lines": [
+      "Interest minus inflation",
+      "What you actually gain"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "If your savings earn two percent, but inflation is four percent, your real return is minus two percent. Your balance goes up, but you can buy less with it.",
+   "vis": {
+    "type": "flow",
+    "title": "The real return",
+    "nodes": [
+     [
+      "💷",
+      "Savings earn 2%"
+     ],
+     [
+      "📈",
+      "Prices rise 4%"
+     ],
+     [
+      "➖",
+      "Real return: -2%"
+     ],
+     [
+      "🫥",
+      "You're poorer"
+     ]
+    ],
+    "color": "red",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "That's why inflation is sometimes called a hidden tax. Nobody takes money out of your account. It just quietly buys less.",
+   "vis": {
+    "type": "hook",
+    "text": "A hidden tax.",
+    "emoji": "🕵️",
+    "hot": [
+     "hidden"
+    ]
+   }
+  },
+  {
+   "say": "Inflation also affects things you might not think about. Tax thresholds that don't rise with prices mean more people pay more tax over time. This is sometimes called fiscal drag.",
+   "vis": {
+    "type": "list",
+    "title": "Inflation's hidden effects",
+    "items": [
+     [
+      "🧾",
+      "Frozen tax thresholds"
+     ],
+     [
+      "💼",
+      "Pay rises that don't keep up"
+     ],
+     [
+      "🏦",
+      "Cash that loses value"
+     ],
+     [
+      "🛒",
+      "Shrinking pack sizes"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. The long-term damage.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The long-term damage"
+   }
+  },
+  {
+   "say": "Over long periods, the damage adds up. Ten thousand pounds kept in cash, earning nothing, with inflation at three percent a year, would have the buying power of about seven thousand four hundred pounds after ten years. After twenty, about five thousand five hundred.",
+   "vis": {
+    "type": "bars",
+    "title": "Buying power of £10,000 in cash at 3% inflation",
+    "items": [
+     [
+      "Today",
+      10000,
+      "teal"
+     ],
+     [
+      "10 years",
+      7441,
+      "gold"
+     ],
+     [
+      "20 years",
+      5537,
+      "red"
+     ]
+    ],
+    "max": 11000,
+    "prefix": "£",
+    "suffix": "",
+    "source": "Illustrative calculation"
+   }
+  },
+  {
+   "say": "Almost half its value, gone, without a single penny being spent. That's the quiet power of inflation.",
+   "vis": {
+    "type": "hook",
+    "text": "Almost half, gone. Without spending a penny.",
+    "emoji": "📉",
+    "hot": [
+     "half,"
+    ]
+   }
+  },
+  {
+   "say": "Over a working lifetime of forty years, three percent inflation would cut the buying power of cash by more than two thirds. That's why long term savings need to grow, not just sit still.",
+   "vis": {
+    "type": "hook",
+    "text": "Over 40 years, cash loses over two thirds.",
+    "emoji": "⏳",
+    "hot": [
+     "two",
+     "thirds."
+    ]
+   }
+  },
+  {
+   "say": "And inflation hits some people harder than others. People on fixed incomes. People with savings in cash. And people whose wages don't rise as fast as prices.",
+   "vis": {
+    "type": "list",
+    "title": "Who inflation hurts most",
+    "items": [
+     [
+      "👵",
+      "People on fixed incomes"
+     ],
+     [
+      "💷",
+      "Savers in cash"
+     ],
+     [
+      "👷",
+      "Workers whose pay lags behind"
+     ],
+     [
+      "🏠",
+      "Renters facing rising costs"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But it can help some people. If you have a fixed rate mortgage, inflation shrinks the real value of your debt over time, especially if your wages rise.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Who loses",
+     "emoji": "😢",
+     "lines": [
+      "Cash savers",
+      "Fixed incomes"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Who can gain",
+     "emoji": "😏",
+     "lines": [
+      "Borrowers on fixed rates",
+      "Owners of real assets"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part four. How to protect yourself.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "How to protect yourself"
+   }
+  },
+  {
+   "say": "So what can you do? First, an important note. This is general information, not personal financial advice. But here are the ideas people commonly consider.",
+   "vis": {
+    "type": "hook",
+    "text": "General information, not personal advice.",
+    "emoji": "ℹ️",
+    "hot": [
+     "General"
+    ]
+   }
+  },
+  {
+   "say": "Keep an emergency fund in cash, but shop around for the best interest rate, because rates between accounts can vary a lot. Many people leave savings in accounts paying very little.",
+   "vis": {
+    "type": "list",
+    "title": "Step one: cash, but better",
+    "items": [
+     [
+      "🛟",
+      "Keep an emergency fund"
+     ],
+     [
+      "🔍",
+      "Compare savings rates"
+     ],
+     [
+      "🔄",
+      "Move money if rates drop"
+     ],
+     [
+      "🛡️",
+      "Check deposit protection"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And watch out for introductory bonus rates. Some savings accounts offer a good rate for a year, then drop to a much lower rate if you don't move your money.",
+   "vis": {
+    "type": "hook",
+    "text": "Watch out for rates that drop after a year.",
+    "emoji": "⚠️",
+    "hot": [
+     "drop"
+    ]
+   }
+  },
+  {
+   "say": "For money you won't need for many years, some people invest, for example in shares or funds, which have historically tended to beat inflation over long periods, but can fall in value along the way.",
+   "vis": {
+    "type": "list",
+    "title": "Step two: long-term money",
+    "items": [
+     [
+      "📈",
+      "Shares have historically beaten inflation long-term"
+     ],
+     [
+      "🎢",
+      "But can fall in the short term"
+     ],
+     [
+      "🧺",
+      "Diversified funds spread risk"
+     ],
+     [
+      "⏳",
+      "Best for long time horizons"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Investing comes with risk, and you could get back less than you put in. That's why it's normally only for money you won't need for at least five years.",
+   "vis": {
+    "type": "hook",
+    "text": "Investing is for money you can leave alone.",
+    "emoji": "⏳",
+    "hot": [
+     "leave",
+     "alone."
+    ]
+   }
+  },
+  {
+   "say": "In the UK, tax wrappers like ISAs and pensions can help your money grow without tax eating into the returns, which helps you stay ahead of inflation.",
+   "vis": {
+    "type": "hook",
+    "text": "ISAs and pensions can shield returns from tax.",
+    "emoji": "🛡️",
+    "hot": [
+     "ISAs"
+    ]
+   }
+  },
+  {
+   "say": "There are also government bonds whose payments rise with inflation, known as index linked gilts, and National Savings sometimes offers inflation linked products.",
+   "vis": {
+    "type": "list",
+    "title": "Inflation-linked options",
+    "items": [
+     [
+      "🏛️",
+      "Index-linked gilts"
+     ],
+     [
+      "🏦",
+      "Occasional NS&I products"
+     ],
+     [
+      "📊",
+      "Payments rise with prices"
+     ],
+     [
+      "⚠️",
+      "Still have their own risks"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. The big lesson.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The big lesson"
+   }
+  },
+  {
+   "say": "Inflation is easy to ignore, because you never see money leave your account. But over years, it can quietly take a huge bite out of your savings. The first step is simply noticing it.",
+   "vis": {
+    "type": "hook",
+    "text": "You can't fight what you don't notice.",
+    "emoji": "👀",
+    "hot": [
+     "notice."
+    ]
+   }
+  },
+  {
+   "say": "So check your savings rate against inflation. If your money earns less than prices are rising, you're not standing still. You're slowly going backwards.",
+   "vis": {
+    "type": "hook",
+    "text": "Earning less than inflation? You're going backwards.",
+    "emoji": "⏪",
+    "hot": [
+     "backwards."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "YOUR SAVINGS|ARE SHRINKING",
+  "emoji": "🫥",
+  "color": "red",
+  "tag": "Systems"
+ }
+}

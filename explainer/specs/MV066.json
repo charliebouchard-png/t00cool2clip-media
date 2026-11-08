@@ -1,0 +1,473 @@
+{
+ "id": "MV066",
+ "style": "collage",
+ "variant": 2,
+ "voice": "af_kore",
+ "speed": 0.82,
+ "trans": "slap",
+ "title": "How Your Credit Score Really Works",
+ "beats": [
+  {
+   "say": "Here's something that surprises most people in Britain. There isn't one credit score. There are several. And when you apply for a loan, the lender usually doesn't even look at the number you see in your app.",
+   "vis": {
+    "type": "hook",
+    "text": "Lenders don't see your score.",
+    "emoji": "📊",
+    "hot": [
+     "don't"
+    ]
+   }
+  },
+  {
+   "say": "So what actually decides whether you get a credit card, a phone contract or a mortgage? Let's break down how credit really works in the UK.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "🏢",
+      "The three agencies"
+     ],
+     [
+      "📄",
+      "Your credit report"
+     ],
+     [
+      "🧮",
+      "How lenders decide"
+     ],
+     [
+      "📈",
+      "How to improve your chances"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The three agencies.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The three agencies"
+   }
+  },
+  {
+   "say": "In the UK, there are three main credit reference agencies. Experian, Equifax and TransUnion. Each one keeps its own file on you, and they don't always have the same information.",
+   "vis": {
+    "type": "list",
+    "title": "The credit reference agencies",
+    "items": [
+     [
+      "🏢",
+      "Experian"
+     ],
+     [
+      "🏢",
+      "Equifax"
+     ],
+     [
+      "🏢",
+      "TransUnion"
+     ],
+     [
+      "📁",
+      "Each keeps its own file"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And each one gives you a score on its own scale. Experian's now goes up to one thousand two hundred and fifty. Equifax's goes up to one thousand. TransUnion's goes up to seven hundred and ten. So you can't compare them directly.",
+   "vis": {
+    "type": "bars",
+    "title": "Maximum scores",
+    "items": [
+     [
+      "Experian",
+      1250,
+      "teal"
+     ],
+     [
+      "Equifax",
+      1000,
+      "gold"
+     ],
+     [
+      "TransUnion",
+      710,
+      "red"
+     ]
+    ],
+    "max": 1300,
+    "prefix": "",
+    "suffix": "",
+    "source": "ClearScore / MoneySavingExpert, 2025"
+   }
+  },
+  {
+   "say": "Experian changed its scale in late twenty twenty five, from nine hundred and ninety nine to twelve hundred and fifty. Millions of people saw their score change overnight, even though nothing about their finances had changed.",
+   "vis": {
+    "type": "hook",
+    "text": "Your score changed. Your finances didn't.",
+    "emoji": "🔄",
+    "hot": [
+     "didn't."
+    ]
+   }
+  },
+  {
+   "say": "Part two. The number isn't the point.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The number isn't the point"
+   }
+  },
+  {
+   "say": "Here's the big secret. The score you see is mainly a guide, to help you understand your file. Lenders don't usually use it. They look at the information in your credit report, and run it through their own scoring system.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Your score",
+     "emoji": "📱",
+     "lines": [
+      "A guide for you",
+      "Varies by agency"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What lenders use",
+     "emoji": "🏦",
+     "lines": [
+      "Your credit report data",
+      "Their own scoring"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Lenders also look at information you give them, like your income, your job and your outgoings, and some check your bank account data to see how you manage money.",
+   "vis": {
+    "type": "hook",
+    "text": "Lenders look at your income and spending too.",
+    "emoji": "📋",
+    "hot": [
+     "income"
+    ]
+   }
+  },
+  {
+   "say": "That's why two lenders can make different decisions about the same person. One might say yes, and another no, because they're looking for different kinds of customers.",
+   "vis": {
+    "type": "hook",
+    "text": "Different lenders, different decisions.",
+    "emoji": "🔀",
+    "hot": [
+     "different"
+    ]
+   }
+  },
+  {
+   "say": "Part three. What's in your report.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "What's in your report"
+   }
+  },
+  {
+   "say": "So what's in your credit report? Your credit accounts, like cards, loans, mortgages and phone contracts. Whether you've paid on time. How much credit you're using. And records like county court judgments and bankruptcies.",
+   "vis": {
+    "type": "list",
+    "title": "Your credit report",
+    "items": [
+     [
+      "💳",
+      "Credit accounts"
+     ],
+     [
+      "✅",
+      "Payment history"
+     ],
+     [
+      "📊",
+      "How much credit you use"
+     ],
+     [
+      "⚖️",
+      "CCJs and insolvencies"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Payment history is one of the most important parts. Late or missed payments can stay on your file for six years.",
+   "vis": {
+    "type": "hook",
+    "text": "Missed payments can stay for six years.",
+    "emoji": "⏳",
+    "hot": [
+     "six",
+     "years."
+    ]
+   }
+  },
+  {
+   "say": "Other things that can harm your file include defaults, when an account is closed because you didn't pay, county court judgments, and insolvencies like bankruptcy. These usually stay for six years too.",
+   "vis": {
+    "type": "list",
+    "title": "Things that hurt most",
+    "items": [
+     [
+      "❌",
+      "Missed payments"
+     ],
+     [
+      "⛔",
+      "Defaults"
+     ],
+     [
+      "⚖️",
+      "County court judgments"
+     ],
+     [
+      "💥",
+      "Bankruptcy or IVAs"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Being on the electoral roll at your address also helps, because lenders use it to confirm who you are and where you live.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🗳️",
+    "text": "The electoral roll",
+    "sub": "Helps lenders confirm your identity",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Part four. Things that might surprise you.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Surprises"
+   }
+  },
+  {
+   "say": "Having no credit history can be a problem too. If you've never borrowed, lenders have nothing to judge you on. So someone with a long record of paying on time may look safer than someone who's never borrowed at all.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "No history",
+     "emoji": "🫥",
+     "lines": [
+      "Nothing to judge",
+      "Can look risky"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Good history",
+     "emoji": "✅",
+     "lines": [
+      "Years of on-time payments",
+      "Looks reliable"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Some people build a history by using a credit card for small regular purchases, like fuel, and paying it off in full every month. That shows lenders you can handle credit responsibly.",
+   "vis": {
+    "type": "hook",
+    "text": "Small spending, paid off in full, builds history.",
+    "emoji": "⛽",
+    "hot": [
+     "paid",
+     "off"
+    ]
+   }
+  },
+  {
+   "say": "Using a big share of your credit limit can count against you. A common rule of thumb is to try to keep your balances below about thirty percent of your limits.",
+   "vis": {
+    "type": "list",
+    "title": "Credit utilisation",
+    "items": [
+     [
+      "💳",
+      "£1,000 limit"
+     ],
+     [
+      "✅",
+      "Using £200: low"
+     ],
+     [
+      "⚠️",
+      "Using £900: high"
+     ],
+     [
+      "🎯",
+      "Aim for under ~30%"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Applying for lots of credit in a short time can also look bad. Each full application usually leaves a hard search on your file. But checking your own score, or using eligibility checkers, normally uses a soft search, which lenders don't see.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Hard search",
+     "emoji": "🔍",
+     "lines": [
+      "Full application",
+      "Lenders can see it"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Soft search",
+     "emoji": "👀",
+     "lines": [
+      "Checking your score",
+      "Lenders can't see it"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And if you have a joint account or loan with someone, your files can become financially linked. Their record could affect your applications.",
+   "vis": {
+    "type": "hook",
+    "text": "Joint finances can link your files.",
+    "emoji": "🔗",
+    "hot": [
+     "link"
+    ]
+   }
+  },
+  {
+   "say": "If you split up with someone you had joint finances with, you can ask the credit agencies to remove the financial link once you no longer share any accounts.",
+   "vis": {
+    "type": "hook",
+    "text": "You can ask to remove an old financial link.",
+    "emoji": "✂️",
+    "hot": [
+     "remove"
+    ]
+   }
+  },
+  {
+   "say": "Part five. How to improve your chances.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Improve your chances"
+   }
+  },
+  {
+   "say": "So, what actually helps? None of this is magic, and there are no instant fixes. But these habits are what lenders like to see.",
+   "vis": {
+    "type": "list",
+    "title": "Habits lenders like",
+    "items": [
+     [
+      "✅",
+      "Pay everything on time"
+     ],
+     [
+      "🗳️",
+      "Register on the electoral roll"
+     ],
+     [
+      "📉",
+      "Keep balances low"
+     ],
+     [
+      "🐢",
+      "Don't apply for lots at once"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some services now let you add things like rent payments or regular bills to your credit file, which can help people with thin files show they pay reliably.",
+   "vis": {
+    "type": "hook",
+    "text": "Rent payments can sometimes count.",
+    "emoji": "🏠",
+    "hot": [
+     "count."
+    ]
+   }
+  },
+  {
+   "say": "And check your report with all three agencies. You have a legal right to see your report for free. If something's wrong, you can ask for it to be corrected.",
+   "vis": {
+    "type": "list",
+    "title": "Check your file",
+    "items": [
+     [
+      "🏢",
+      "Check all three agencies"
+     ],
+     [
+      "🆓",
+      "Statutory reports are free"
+     ],
+     [
+      "✏️",
+      "Dispute any errors"
+     ],
+     [
+      "🔐",
+      "Watch for fraud"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Also watch for signs of identity fraud, like accounts you don't recognise. Fraudsters sometimes open credit in other people's names, which can damage their files.",
+   "vis": {
+    "type": "hook",
+    "text": "Accounts you don't recognise? Check for fraud.",
+    "emoji": "🕵️",
+    "hot": [
+     "fraud."
+    ]
+   }
+  },
+  {
+   "say": "So your credit score is useful as a guide. But don't obsess over the number. Focus on what's behind it. A clean, accurate record of paying what you owe, on time.",
+   "vis": {
+    "type": "hook",
+    "text": "Focus on the record, not the number.",
+    "emoji": "📄",
+    "hot": [
+     "record,"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE SCORE|LENDERS|DON'T SEE",
+  "emoji": "📊",
+  "color": "teal",
+  "tag": "Systems"
+ }
+}

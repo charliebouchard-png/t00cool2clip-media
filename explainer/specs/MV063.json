@@ -1,0 +1,431 @@
+{
+ "id": "MV063",
+ "style": "chalk",
+ "variant": 2,
+ "voice": "af_sarah",
+ "speed": 0.82,
+ "trans": "wipe",
+ "title": "Where Does Money Actually Come From?",
+ "beats": [
+  {
+   "say": "Where does money come from? Most people think the government prints it. But here's something that surprises almost everyone. Most of the money in Britain wasn't printed by anyone. It was created by ordinary banks, when they made loans.",
+   "vis": {
+    "type": "hook",
+    "text": "Most money is created by banks.",
+    "emoji": "🏦",
+    "hot": [
+     "banks."
+    ]
+   }
+  },
+  {
+   "say": "That's not a conspiracy theory. In twenty fourteen, the Bank of England itself published an article explaining exactly this. Let's break it down simply.",
+   "vis": {
+    "type": "hook",
+    "text": "The Bank of England says so itself.",
+    "emoji": "📄",
+    "hot": [
+     "itself."
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. Two kinds of money.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Two kinds of money"
+   }
+  },
+  {
+   "say": "First, there are two main kinds of money you use. There's cash, the notes and coins in your wallet. And there's money in your bank account. Cash is only a small part of the money in the economy.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cash",
+     "emoji": "💷",
+     "lines": [
+      "Notes and coins",
+      "A small share"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Bank deposits",
+     "emoji": "💳",
+     "lines": [
+      "Numbers in accounts",
+      "Most of the money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The vast majority of money in Britain exists as bank deposits. Numbers in accounts. When you pay by card or transfer, no cash moves. Banks just update those numbers.",
+   "vis": {
+    "type": "hook",
+    "text": "Most money is just numbers in accounts.",
+    "emoji": "🔢",
+    "hot": [
+     "numbers"
+    ]
+   }
+  },
+  {
+   "say": "By some estimates, only a few percent of the money in the UK economy is in the form of notes and coins. The rest is bank deposits.",
+   "vis": {
+    "type": "num",
+    "value": 97,
+    "label": "of UK money held as bank deposits, by some estimates",
+    "color": "teal",
+    "emoji": "🏦",
+    "prefix": "Around ",
+    "suffix": "%",
+    "source": "Bank of England, 2014"
+   }
+  },
+  {
+   "say": "Lesson two. The myth.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The myth"
+   }
+  },
+  {
+   "say": "Here's how most people imagine banks work. You deposit your savings. The bank keeps some, and lends the rest to someone else. So banks just pass money from savers to borrowers.",
+   "vis": {
+    "type": "flow",
+    "title": "The common belief",
+    "nodes": [
+     [
+      "🙋",
+      "You deposit savings"
+     ],
+     [
+      "🏦",
+      "Bank holds it"
+     ],
+     [
+      "➡️",
+      "Lends it to a borrower"
+     ],
+     [
+      "🔁",
+      "Money is passed along"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "There's also an old idea called the money multiplier, where the central bank controls exactly how much money banks can create. The Bank of England said that's not how it works in practice either.",
+   "vis": {
+    "type": "hook",
+    "text": "The money multiplier? Not really how it works.",
+    "emoji": "✖️",
+    "hot": [
+     "Not"
+    ]
+   }
+  },
+  {
+   "say": "That's what many textbooks used to teach. But the Bank of England said it's not really how it works in the modern economy.",
+   "vis": {
+    "type": "hook",
+    "text": "That's not really how it works.",
+    "emoji": "🙅",
+    "hot": [
+     "not"
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. How it really works.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "How it really works"
+   }
+  },
+  {
+   "say": "When a bank gives you a loan, it doesn't take money out of someone else's account. It simply creates a new deposit in your account. A new number. And that number is new money.",
+   "vis": {
+    "type": "flow",
+    "title": "How banks create money",
+    "nodes": [
+     [
+      "📝",
+      "You get a loan approved"
+     ],
+     [
+      "⌨️",
+      "Bank types a new deposit"
+     ],
+     [
+      "💳",
+      "New money in your account"
+     ],
+     [
+      "🛍️",
+      "You spend it"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💳"
+   }
+  },
+  {
+   "say": "At the same time, the bank records that you owe it the money back. So there's a new asset for the bank, your loan, and a new deposit for you, which you can spend.",
+   "vis": {
+    "type": "hook",
+    "text": "A new loan. And a new deposit.",
+    "emoji": "⚖️",
+    "hot": [
+     "new"
+    ]
+   }
+  },
+  {
+   "say": "Think of it from the bank's side. Your loan is something the bank owns, because you'll pay it back with interest. Your deposit is something the bank owes, because you can spend it. Both appear at the same moment.",
+   "vis": {
+    "type": "list",
+    "title": "The bank's books",
+    "items": [
+     [
+      "📗",
+      "Asset: your loan"
+     ],
+     [
+      "📕",
+      "Liability: your deposit"
+     ],
+     [
+      "⚖️",
+      "Created at the same time"
+     ],
+     [
+      "💰",
+      "Bank earns interest"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Imagine you borrow two hundred thousand pounds to buy a house. The bank creates two hundred thousand pounds in your account, and you pay it to the seller. The seller now has money in their account that didn't exist before.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Before the loan",
+     "emoji": "🏠",
+     "lines": [
+      "Seller has a house",
+      "No new money"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "After the loan",
+     "emoji": "💷",
+     "lines": [
+      "Seller has £200,000",
+      "New money exists"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And when you pay a loan back, the opposite happens. That money is effectively destroyed. So money is created and destroyed all the time, as people borrow and repay.",
+   "vis": {
+    "type": "hook",
+    "text": "Repaying a loan destroys money.",
+    "emoji": "🔥",
+    "hot": [
+     "destroys"
+    ]
+   }
+  },
+  {
+   "say": "Banks don't only create money through loans to people. They also create it when they buy things, like government bonds, or pay their own staff and suppliers.",
+   "vis": {
+    "type": "hook",
+    "text": "Banks create money when they spend, too.",
+    "emoji": "💼",
+    "hot": [
+     "spend,"
+    ]
+   }
+  },
+  {
+   "say": "Lesson four. So can banks create unlimited money?",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Unlimited money?"
+   }
+  },
+  {
+   "say": "No. There are important limits. Banks need borrowers they think will pay them back. They have to hold enough capital, their own money, to absorb losses. They're regulated. And they compete with each other.",
+   "vis": {
+    "type": "list",
+    "title": "What limits banks",
+    "items": [
+     [
+      "🙋",
+      "They need reliable borrowers"
+     ],
+     [
+      "🧱",
+      "Capital rules"
+     ],
+     [
+      "🏛️",
+      "Regulators"
+     ],
+     [
+      "📈",
+      "Interest rates"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Interest rates are a big lever. The Bank of England sets a key interest rate. When it's high, borrowing is more expensive, so people borrow less, and less new money is created. When it's low, the opposite.",
+   "vis": {
+    "type": "hook",
+    "text": "Interest rates control how much money is created.",
+    "emoji": "🎚️",
+    "hot": [
+     "control"
+    ]
+   }
+  },
+  {
+   "say": "Banks also need to be able to make payments to other banks when you spend your money. So they need reserves, and that keeps their lending linked to the wider system.",
+   "vis": {
+    "type": "hook",
+    "text": "Banks still need reserves to settle payments.",
+    "emoji": "🔁",
+    "hot": [
+     "reserves"
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. What about printing?",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "What about printing?"
+   }
+  },
+  {
+   "say": "The Bank of England does issue banknotes. But it only prints notes to meet demand. When people want cash, they swap money in their bank accounts for notes. Printing cash doesn't, by itself, create extra money.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Printing notes",
+     "emoji": "🖨️",
+     "lines": [
+      "Meets demand for cash",
+      "Swaps deposits for notes"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Bank lending",
+     "emoji": "🏦",
+     "lines": [
+      "Creates new deposits",
+      "Most new money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The Bank of England can also create a special kind of money, called reserves, which banks use to pay each other. After two thousand and eight, it created huge amounts of reserves through a policy called quantitative easing.",
+   "vis": {
+    "type": "hook",
+    "text": "Quantitative easing created reserves.",
+    "emoji": "🏛️",
+    "hot": [
+     "reserves."
+    ]
+   }
+  },
+  {
+   "say": "Lesson six. Why this matters to you.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "Why this matters"
+   }
+  },
+  {
+   "say": "Understanding this changes how you see the economy. It explains why house prices are so linked to mortgage lending, and why bank lending booms can turn into busts.",
+   "vis": {
+    "type": "list",
+    "title": "Why it matters",
+    "items": [
+     [
+      "🏠",
+      "Mortgage lending fuels house prices"
+     ],
+     [
+      "💥",
+      "Lending booms can cause crises"
+     ],
+     [
+      "🎚️",
+      "Interest rates affect money creation"
+     ],
+     [
+      "🧾",
+      "Debt and money are linked"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It also explains why, in a recession, money can be hard to come by. If banks become nervous and stop lending, and people pay down debts, the amount of money in the economy can actually shrink.",
+   "vis": {
+    "type": "hook",
+    "text": "When lending stops, money can shrink.",
+    "emoji": "📉",
+    "hot": [
+     "shrink."
+    ]
+   }
+  },
+  {
+   "say": "Every pound in your bank account exists because, somewhere, someone borrowed it into existence. Money and debt are two sides of the same coin.",
+   "vis": {
+    "type": "hook",
+    "text": "Money and debt are two sides of the same coin.",
+    "emoji": "🪙",
+    "hot": [
+     "same",
+     "coin."
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more money explained simply, and tell me in the comments what I should explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "BANKS|CREATE|MONEY",
+  "emoji": "🏦",
+  "color": "teal",
+  "tag": "Systems"
+ }
+}

@@ -1,0 +1,483 @@
+{
+ "id": "MV016",
+ "style": "chalk",
+ "variant": 2,
+ "voice": "af_bella",
+ "speed": 0.88,
+ "title": "How Spotify Makes (and Loses) Money",
+ "beats": [
+  {
+   "say": "Spotify has hundreds of millions of users, plays more music than any radio station in history, and for most of its life, it lost money.",
+   "vis": {
+    "type": "hook",
+    "text": "Hundreds of millions of users. Years of losses.",
+    "emoji": "🎧",
+    "hot": [
+     "losses."
+    ]
+   }
+  },
+  {
+   "say": "By the end of twenty twenty five, Spotify had seven hundred and fifty one million monthly users, and two hundred and ninety million people paying for Premium.",
+   "vis": {
+    "type": "bars",
+    "title": "Spotify at the end of 2025",
+    "suffix": "m",
+    "items": [
+     [
+      "Monthly users",
+      751,
+      "gold"
+     ],
+     [
+      "Paying subscribers",
+      290,
+      "teal"
+     ]
+    ],
+    "max": 800,
+    "source": "Spotify Q4 2025 results"
+   }
+  },
+  {
+   "say": "So why did a company that popular struggle to make a profit for so long? And how did it finally turn things around? Let's break it down on the board.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "1️⃣",
+      "Where your money goes"
+     ],
+     [
+      "2️⃣",
+      "Why artists complain"
+     ],
+     [
+      "3️⃣",
+      "The free tier"
+     ],
+     [
+      "4️⃣",
+      "Podcasts and audiobooks"
+     ],
+     [
+      "5️⃣",
+      "Finally making a profit"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. Where your money goes.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Where your money goes"
+   }
+  },
+  {
+   "say": "Spotify doesn't own the music. Record labels, publishers and songwriters do. So every time you press play, Spotify has to pay the people who own the song.",
+   "vis": {
+    "type": "flow",
+    "title": "Every time you press play",
+    "nodes": [
+     [
+      "▶️",
+      "You play a song"
+     ],
+     [
+      "🎧",
+      "Spotify counts it"
+     ],
+     [
+      "🏢",
+      "Labels and publishers paid"
+     ],
+     [
+      "🎤",
+      "Artists get their share"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🎵"
+   }
+  },
+  {
+   "say": "And it pays a lot. Roughly two thirds of Spotify's revenue goes back to music rights holders. In twenty twenty four alone, Spotify said it paid out around ten billion dollars to the music industry.",
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 10,
+    "suffix": " billion",
+    "label": "paid to the music industry in 2024",
+    "color": "gold",
+    "emoji": "💸",
+    "source": "Spotify Loud & Clear report, 2025"
+   }
+  },
+  {
+   "say": "That's the big problem with Spotify's business. A clothes shop can make its own clothes cheaper. Spotify can't make the music cheaper. The biggest cost is controlled by someone else.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Most businesses",
+     "emoji": "🏭",
+     "lines": [
+      "Control their costs",
+      "Make things cheaper"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Spotify",
+     "emoji": "🎵",
+     "lines": [
+      "Pays for every song",
+      "Can't make music cheaper"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "Lesson two. Why artists complain.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why artists complain"
+   }
+  },
+  {
+   "say": "If Spotify pays out billions, why do so many artists say they get almost nothing? Because the money is split many ways. Between record labels, publishers, songwriters, producers, and finally the artist, depending on their contract.",
+   "vis": {
+    "type": "list",
+    "title": "Who shares the money",
+    "items": [
+     [
+      "🏢",
+      "Record label"
+     ],
+     [
+      "📝",
+      "Publisher and songwriters"
+     ],
+     [
+      "🎛️",
+      "Producers"
+     ],
+     [
+      "🎤",
+      "The artist, last"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Spotify doesn't pay a fixed price per play. It pays a share of its revenue based on how many streams each song gets. For most artists, one stream earns a tiny fraction of a penny. You need huge numbers of plays to earn a living.",
+   "vis": {
+    "type": "hook",
+    "text": "One stream earns a fraction of a penny.",
+    "emoji": "🪙",
+    "hot": [
+     "fraction"
+    ]
+   }
+  },
+  {
+   "say": "Spotify also changed its rules so that tracks need at least a thousand streams in a year before they earn anything. It said this was to stop tiny payments being lost to fees, and to cut down on people gaming the system.",
+   "vis": {
+    "type": "num",
+    "value": 1000,
+    "label": "streams a year a track needs before it earns royalties",
+    "color": "teal",
+    "emoji": "🎶",
+    "source": "Spotify royalty policy change, 2024"
+   }
+  },
+  {
+   "say": "Lesson three. The free tier.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The free tier"
+   }
+  },
+  {
+   "say": "Most Spotify users don't pay at all. They listen with adverts. Free users bring in much less money than Premium subscribers, but they cost money in music rights too.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Free user",
+     "emoji": "📻",
+     "lines": [
+      "Hears adverts",
+      "Brings in a little"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Premium user",
+     "emoji": "💳",
+     "lines": [
+      "Monthly fee",
+      "Brings in much more"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "So why have a free tier at all? Because it's a funnel. Get people hooked for free, then annoy them with adverts and limits until they upgrade. The free tier is Spotify's biggest marketing tool.",
+   "vis": {
+    "type": "flow",
+    "title": "The free tier funnel",
+    "nodes": [
+     [
+      "🆓",
+      "Listen free"
+     ],
+     [
+      "😩",
+      "Adverts and limits"
+     ],
+     [
+      "⬆️",
+      "Upgrade to Premium"
+     ],
+     [
+      "💷",
+      "Monthly fee"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🎧"
+   }
+  },
+  {
+   "say": "Lesson four. Podcasts and audiobooks.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Podcasts and audiobooks"
+   }
+  },
+  {
+   "say": "Here's the clever part. With music, Spotify pays for every play. But with podcasts it owns or licenses on a fixed deal, it doesn't pay per listen. So every hour you spend listening to a podcast instead of music can be cheaper for Spotify.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "An hour of music",
+     "emoji": "🎵",
+     "lines": [
+      "Pays per stream",
+      "Costs keep rising"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "An hour of podcasts",
+     "emoji": "🎙️",
+     "lines": [
+      "Often a fixed deal",
+      "Can be cheaper"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "That's why Spotify spent heavily on podcasts, reportedly paying hundreds of millions for big shows and podcast companies. Then it added audiobooks to Premium, giving subscribers a set number of listening hours each month.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2008",
+      "Spotify launches"
+     ],
+     [
+      "2019+",
+      "Big podcast spending"
+     ],
+     [
+      "2023",
+      "Audiobooks added"
+     ],
+     [
+      "2024",
+      "First full year of profit",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. Finally making a profit.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Finally making a profit"
+   }
+  },
+  {
+   "say": "In twenty twenty four, Spotify reported its first full year of profit, more than fifteen years after it was founded in Sweden. In twenty twenty five, its operating income reached around two point two billion euros.",
+   "vis": {
+    "type": "num",
+    "prefix": "€",
+    "value": 2.2,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "Spotify operating income in 2025",
+    "color": "gold",
+    "emoji": "📈",
+    "source": "Spotify full year 2025 results"
+   }
+  },
+  {
+   "say": "How did it get there? Price rises, for a start. Spotify raised the price of Premium in many countries. It cut costs, including laying off staff. And it pushed harder on advertising and audiobooks.",
+   "vis": {
+    "type": "list",
+    "title": "How Spotify turned it around",
+    "items": [
+     [
+      "🏷️",
+      "Price rises"
+     ],
+     [
+      "✂️",
+      "Cutting costs"
+     ],
+     [
+      "📢",
+      "More advertising"
+     ],
+     [
+      "📚",
+      "Audiobooks and podcasts"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And it had a secret weapon. Your playlists. Years of liked songs, saved albums and personalised recommendations make it hard to leave. Switching to another app means starting again from scratch.",
+   "vis": {
+    "type": "hook",
+    "text": "Your playlists are the lock on the door.",
+    "emoji": "🔒",
+    "hot": [
+     "playlists"
+    ]
+   }
+  },
+  {
+   "say": "That's why Spotify could raise prices without losing millions of subscribers. People grumbled, but very few wanted to rebuild their music library somewhere else.",
+   "vis": {
+    "type": "line",
+    "title": "Raise prices, keep subscribers (illustrative)",
+    "points": [
+     200,
+     210,
+     220,
+     236,
+     246,
+     263,
+     275,
+     290
+    ],
+    "labels": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "2024",
+     "",
+     "2025"
+    ],
+    "color": "gold",
+    "end": "290m"
+   }
+  },
+  {
+   "say": "It has also added new plans to get more people paying. Family plans, student plans and duo plans. Each one brings in more paying accounts, even if each person pays a little less.",
+   "vis": {
+    "type": "list",
+    "title": "More ways to pay",
+    "items": [
+     [
+      "👨‍👩‍👧",
+      "Family plan"
+     ],
+     [
+      "🎓",
+      "Student plan"
+     ],
+     [
+      "👫",
+      "Duo plan"
+     ],
+     [
+      "🎧",
+      "Individual plan"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And every year, Spotify Wrapped turns your listening history into a shareable story. Millions of people post it online, giving Spotify enormous free advertising, and reminding everyone just how much of their life is stored in the app.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🎁",
+    "text": "Spotify Wrapped",
+    "sub": "Free advertising, made by you",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "So what's the lesson? Spotify proves that being popular isn't the same as being profitable. It took more than fifteen years, price rises and some big bets before the business finally worked.",
+   "vis": {
+    "type": "hook",
+    "text": "Popular isn't the same as profitable.",
+    "emoji": "💡",
+    "hot": [
+     "profitable."
+    ]
+   }
+  },
+  {
+   "say": "And next time you hear an artist say streaming barely pays, you'll know why. The money is there. It's just split between a lot of people, and the biggest share often isn't theirs.",
+   "vis": {
+    "type": "list",
+    "title": "Remember",
+    "items": [
+     [
+      "🎵",
+      "Spotify pays billions"
+     ],
+     [
+      "✂️",
+      "It's split many ways"
+     ],
+     [
+      "🎤",
+      "Artists often get the smallest slice"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. Subscribe for more on how the apps you use really make money, and tell me in the comments what you've been listening to this week.",
+   "vis": {
+    "type": "outro",
+    "text": "What are you listening to?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHERE YOUR|£12 GOES",
+  "emoji": "🎧",
+  "color": "teal",
+  "tag": "How it makes money"
+ }
+}

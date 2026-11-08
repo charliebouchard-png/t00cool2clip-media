@@ -1,0 +1,517 @@
+{
+ "id": "MV014",
+ "style": "neon",
+ "variant": 2,
+ "voice": "bf_emma",
+ "speed": 0.88,
+ "trans": "glitch",
+ "title": "How Vending Machines Quietly Make Money",
+ "beats": [
+  {
+   "say": "A metal box in a hallway can make money twenty four hours a day while its owner is asleep. That's the dream. The reality is a lot more interesting.",
+   "vis": {
+    "type": "hook",
+    "text": "A box that makes money while you sleep?",
+    "emoji": "🥤",
+    "hot": [
+     "sleep?"
+    ]
+   }
+  },
+  {
+   "say": "Vending machines are everywhere. Train stations, hospitals, offices, gyms. Social media is full of people claiming one machine can make them rich. So how does the business really work?",
+   "vis": {
+    "type": "list",
+    "title": "Where you find them",
+    "items": [
+     [
+      "🚉",
+      "Stations"
+     ],
+     [
+      "🏥",
+      "Hospitals"
+     ],
+     [
+      "🏢",
+      "Offices"
+     ],
+     [
+      "🏋️",
+      "Gyms"
+     ],
+     [
+      "🏫",
+      "Colleges"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. An ancient idea.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "An ancient idea"
+   }
+  },
+  {
+   "say": "The idea is surprisingly old. Around two thousand years ago, an engineer called Hero of Alexandria described a machine that gave out holy water when you dropped in a coin.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "~1st century",
+      "Hero of Alexandria's holy water machine"
+     ],
+     [
+      "1880s",
+      "Coin machines for postcards in London"
+     ],
+     [
+      "1900s",
+      "Snacks, drinks and stamps"
+     ],
+     [
+      "Today",
+      "Card and phone payments",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the eighteen eighties, coin-operated machines selling postcards appeared in London. Since then, vending has grown into a huge global industry. Japan alone has millions of machines, around one for every thirty or so people.",
+   "vis": {
+    "type": "num",
+    "value": 4,
+    "suffix": " million",
+    "label": "vending machines in Japan (roughly)",
+    "color": "teal",
+    "emoji": "🇯🇵",
+    "source": "Japan Vending System Manufacturers Association estimates, approximate"
+   }
+  },
+  {
+   "say": "Part two. How the money works.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "How the money works"
+   }
+  },
+  {
+   "say": "The basic idea is simple. Buy snacks and drinks in bulk at wholesale prices. Sell them one at a time at a higher price. The difference is your margin.",
+   "vis": {
+    "type": "flow",
+    "title": "The vending model",
+    "nodes": [
+     [
+      "📦",
+      "Buy in bulk"
+     ],
+     [
+      "🥤",
+      "Stock the machine"
+     ],
+     [
+      "💳",
+      "Sell one at a time"
+     ],
+     [
+      "💷",
+      "Keep the difference"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "For example, a can of drink might cost around fifty pence wholesale and sell for one pound fifty. That's a pound of gross profit per can. Sounds great.",
+   "vis": {
+    "type": "bars",
+    "title": "One can of drink (illustrative)",
+    "prefix": "£",
+    "dec": 2,
+    "items": [
+     [
+      "Wholesale cost",
+      0.5,
+      "teal"
+     ],
+     [
+      "Sale price",
+      1.5,
+      "red"
+     ],
+     [
+      "Gross profit",
+      1.0,
+      "gold"
+     ]
+    ],
+    "max": 1.7,
+    "source": "Illustrative figures"
+   }
+  },
+  {
+   "say": "But that pound has to pay for a lot of things before it becomes real profit.",
+   "vis": {
+    "type": "hook",
+    "text": "That pound has a lot of bills to pay.",
+    "emoji": "🧾",
+    "hot": [
+     "bills"
+    ]
+   }
+  },
+  {
+   "say": "Part three. The hidden costs.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The hidden costs"
+   }
+  },
+  {
+   "say": "First, the machine. A new modern machine can cost thousands of pounds. A used one is cheaper, but more likely to break down.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏧",
+    "text": "The machine itself",
+    "sub": "Thousands of pounds, new",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Then the location owner usually wants a cut. The office, gym or station that lets you put the machine there might take a share of every sale, often called commission.",
+   "vis": {
+    "type": "flow",
+    "title": "Who gets a slice of £1.50",
+    "nodes": [
+     [
+      "🥤",
+      "£1.50 sale"
+     ],
+     [
+      "🏢",
+      "Location's cut"
+     ],
+     [
+      "💳",
+      "Card fees"
+     ],
+     [
+      "🧑‍🔧",
+      "What's left for you"
+     ]
+    ],
+    "color": "red",
+    "coin": "🪙"
+   }
+  },
+  {
+   "say": "Card readers charge a fee on every payment. Electricity keeps the drinks cold. And then there's your time. Driving around, restocking machines, fixing jams, and throwing away snacks that went out of date.",
+   "vis": {
+    "type": "list",
+    "title": "The costs nobody films",
+    "items": [
+     [
+      "💳",
+      "Card fees"
+     ],
+     [
+      "⚡",
+      "Electricity"
+     ],
+     [
+      "🚐",
+      "Fuel and driving"
+     ],
+     [
+      "🛠️",
+      "Repairs"
+     ],
+     [
+      "🗑️",
+      "Out of date stock"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Put it all together, and a machine that takes a few hundred pounds a month might leave its owner with much less than people expect. Some machines barely break even.",
+   "vis": {
+    "type": "doc",
+    "title": "One machine, one month (illustrative)",
+    "lines": [
+     [
+      "Sales",
+      "£400"
+     ],
+     [
+      "Stock",
+      "-£140"
+     ],
+     [
+      "Location commission",
+      "-£60"
+     ],
+     [
+      "Card fees and power",
+      "-£35"
+     ],
+     [
+      "Fuel and time",
+      "-£60"
+     ],
+     [
+      "Left over",
+      "£105"
+     ]
+    ],
+    "stamp": "NOT PASSIVE",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Part four. Location is everything.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Location is everything"
+   }
+  },
+  {
+   "say": "The difference between a machine that makes money and one that loses it is almost always where it's placed. A busy hospital waiting room at night is gold. A quiet office where everyone brings lunch from home is a disaster.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Great spot",
+     "emoji": "🏥",
+     "lines": [
+      "Busy, day and night",
+      "Nowhere else to buy"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Bad spot",
+     "emoji": "🏢",
+     "lines": [
+      "Quiet",
+      "Shop next door"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The best locations have three things. Lots of people, long waits, and no shop nearby. That's why you see so many machines in hospitals, stations and gyms.",
+   "vis": {
+    "type": "list",
+    "title": "The perfect location",
+    "items": [
+     [
+      "👥",
+      "Lots of people"
+     ],
+     [
+      "⏳",
+      "Long waits"
+     ],
+     [
+      "🚫",
+      "No shop nearby"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And the best locations are fiercely competed for. Big vending companies sign deals with whole hospital groups or office chains, which can make it hard for a beginner to get the good spots.",
+   "vis": {
+    "type": "hook",
+    "text": "The big players grab the best spots first.",
+    "emoji": "🏆",
+    "hot": [
+     "best",
+     "spots"
+    ]
+   }
+  },
+  {
+   "say": "Part five. How the big companies win.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "How the big companies win"
+   }
+  },
+  {
+   "say": "Large operators run thousands of machines. They buy stock far cheaper. They plan routes so one driver restocks dozens of machines in a day. And modern machines send data over the internet, so the company knows exactly which ones are running low before anyone drives there.",
+   "vis": {
+    "type": "flow",
+    "title": "The smart vending company",
+    "nodes": [
+     [
+      "📡",
+      "Machines report sales"
+     ],
+     [
+      "🗺️",
+      "Plan the best route"
+     ],
+     [
+      "🚐",
+      "Restock only what's needed"
+     ],
+     [
+      "💷",
+      "Lower costs"
+     ]
+    ],
+    "color": "teal",
+    "coin": "📡"
+   }
+  },
+  {
+   "say": "The switch to card and phone payments changed everything too. People rarely carry coins now. Machines that only took cash were losing sales. Contactless made it easy to buy on impulse, and people tend to spend a little more when they tap.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cash only",
+     "emoji": "🪙",
+     "lines": [
+      "No change? No sale",
+      "Lost customers"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Contactless",
+     "emoji": "📱",
+     "lines": [
+      "Tap and go",
+      "More impulse buys"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "There are also new kinds of machines. Fresh food fridges that unlock with a card, coffee machines that grind beans for each cup, even machines selling phone chargers, pizza or hot meals. The higher the price per sale, the fewer sales a machine needs to cover its costs.",
+   "vis": {
+    "type": "list",
+    "title": "The new machines",
+    "items": [
+     [
+      "🥗",
+      "Fresh food fridges"
+     ],
+     [
+      "☕",
+      "Bean-to-cup coffee"
+     ],
+     [
+      "🔌",
+      "Phone chargers"
+     ],
+     [
+      "🍕",
+      "Hot food"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But those machines cost a lot more to buy, and fresh food goes off quickly. Higher price per sale, but higher risk too.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Snacks and drinks",
+     "emoji": "🍫",
+     "lines": [
+      "Cheap machine",
+      "Long shelf life"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Fresh food",
+     "emoji": "🥗",
+     "lines": [
+      "Expensive machine",
+      "Goes off fast"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So can a vending machine really make you rich while you sleep? Probably not on its own. It can be a decent side business, but it's real work. Buying stock, driving, fixing, and finding great locations.",
+   "vis": {
+    "type": "hook",
+    "text": "It's a business, not a money printer.",
+    "emoji": "🧑‍🔧",
+    "hot": [
+     "business,"
+    ]
+   }
+  },
+  {
+   "say": "If you're ever tempted, do the maths properly first. Ask the location how many people walk past each day. Check what's already nearby. Count every cost, including your time. And never trust a video that shows the money but not the bills.",
+   "vis": {
+    "type": "list",
+    "title": "Before you buy a machine",
+    "items": [
+     [
+      "👣",
+      "How many people pass each day?"
+     ],
+     [
+      "🏪",
+      "What's already nearby?"
+     ],
+     [
+      "🧮",
+      "Count every cost"
+     ],
+     [
+      "⏰",
+      "Value your time"
+     ],
+     [
+      "🎥",
+      "Ignore videos that skip the bills"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Because the easiest way to make money from vending machines, it turns out, is selling courses about vending machines.",
+   "vis": {
+    "type": "hook",
+    "text": "The easiest money? Selling courses about it.",
+    "emoji": "🎓",
+    "hot": [
+     "courses"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more honest breakdowns of side hustles and boring businesses, and tell me in the comments which one I should look at next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which side hustle next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE BOX|THAT PAYS?",
+  "emoji": "🥤",
+  "color": "teal",
+  "tag": "How it makes money"
+ }
+}

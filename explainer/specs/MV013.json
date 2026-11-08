@@ -1,0 +1,491 @@
+{
+ "id": "MV013",
+ "style": "storybook",
+ "voice": "am_michael",
+ "speed": 0.88,
+ "title": "How Supermarket Meal Deals Make Money",
+ "beats": [
+  {
+   "say": "The meal deal is sold as a bargain. Which is exactly what makes it so profitable.",
+   "vis": {
+    "type": "story",
+    "title": "The great British lunch",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "🥪",
+      "say": "Meal deal, obviously."
+     }
+    ]
+   }
+  },
+  {
+   "say": "A sandwich, a snack and a drink, for one price. Millions of people buy one every week. But is it really a bargain? And why are supermarkets so keen to sell it to you?",
+   "vis": {
+    "type": "hook",
+    "text": "Is the meal deal really a bargain?",
+    "emoji": "🥪",
+    "hot": [
+     "bargain?"
+    ]
+   }
+  },
+  {
+   "say": "Meet Ben. Ben works in an office, and every day at one o'clock he walks to the supermarket for his lunch.",
+   "vis": {
+    "type": "story",
+    "title": "1pm, every day",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "💼",
+      "say": "Lunch time!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "He only went in for a sandwich. But there's a sign saying main, snack and drink, for one price. Suddenly a single sandwich feels like a waste of money.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "prop": "🥪",
+      "say": "Just a sandwich? That's madness."
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "prop": "🏷️",
+      "say": "Main, snack and drink!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "So Ben grabs a sandwich, a bag of crisps, and a big bottle of fizzy drink. He feels smart. He's saving money.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "🍟",
+      "say": "Look at me, saving money."
+     }
+    ]
+   }
+  },
+  {
+   "say": "But wait. Ben came in to spend a couple of pounds on a sandwich. He just spent nearly four. Who's really winning here?",
+   "vis": {
+    "type": "hook",
+    "text": "He came in for a sandwich. He spent nearly £4.",
+    "emoji": "🤔",
+    "hot": [
+     "£4."
+    ]
+   }
+  },
+  {
+   "say": "You see, the meal deal is built on something called bundling. Instead of seeing three separate prices, you see one. And one price for three things feels like a deal, even when you'd never have bought all three.",
+   "night": true,
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Separate prices",
+     "emoji": "🧮",
+     "lines": [
+      "You add them up",
+      "You buy less"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "One bundle price",
+     "emoji": "🎁",
+     "lines": [
+      "Feels like a deal",
+      "You buy more"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The supermarket isn't trying to get you to spend less. It's trying to get you to spend more than you planned, while feeling good about it.",
+   "night": true,
+   "vis": {
+    "type": "hook",
+    "text": "Spend more, and feel good about it.",
+    "emoji": "😌",
+    "hot": [
+     "more,"
+    ]
+   }
+  },
+  {
+   "say": "Here's what meal deals cost in August twenty twenty five, according to Which. Tesco charged three pounds eighty five with a Clubcard, and four twenty five without one. Sainsbury's was three ninety five. Co-op and Morrisons were three fifty for members.",
+   "night": true,
+   "vis": {
+    "type": "bars",
+    "title": "Standard meal deal prices, August 2025",
+    "prefix": "£",
+    "dec": 2,
+    "items": [
+     [
+      "Tesco (Clubcard)",
+      3.85,
+      "gold"
+     ],
+     [
+      "Tesco (no card)",
+      4.25,
+      "red"
+     ],
+     [
+      "Sainsbury's",
+      3.95,
+      "gold"
+     ],
+     [
+      "Co-op (member)",
+      3.5,
+      "teal"
+     ],
+     [
+      "Morrisons (More card)",
+      3.5,
+      "teal"
+     ]
+    ],
+    "max": 4.5,
+    "source": "Which?, 22 August 2025"
+   }
+  },
+  {
+   "say": "And look at the trick in the middle. The cheapest price is only for loyalty card members. That's not just a discount. It's a way to get you to sign up, so the supermarket can learn exactly what you buy.",
+   "night": true,
+   "vis": {
+    "type": "flow",
+    "title": "The loyalty card trick",
+    "nodes": [
+     [
+      "💳",
+      "Sign up for the deal"
+     ],
+     [
+      "📊",
+      "Every shop is tracked"
+     ],
+     [
+      "🎯",
+      "Targeted offers"
+     ],
+     [
+      "🛒",
+      "You shop there more"
+     ]
+    ],
+    "color": "gold",
+    "coin": "📊"
+   }
+  },
+  {
+   "say": "Which found you can sometimes beat the meal deal by buying things separately. A sandwich, a bottle of water and some fruit came to about three pounds seventy. And at Aldi, which doesn't have a meal deal, a homemade version came to about three seventeen.",
+   "night": true,
+   "vis": {
+    "type": "bars",
+    "title": "Beating the meal deal",
+    "prefix": "£",
+    "dec": 2,
+    "items": [
+     [
+      "Tesco deal, no card",
+      4.25,
+      "red"
+     ],
+     [
+      "Bought separately",
+      3.7,
+      "teal"
+     ],
+     [
+      "Aldi DIY lunch",
+      3.17,
+      "gold"
+     ]
+    ],
+    "max": 4.5,
+    "source": "Which?, August 2025"
+   }
+  },
+  {
+   "say": "So where does the supermarket make its money on a meal deal? Mostly on the drink and the snack. A bottle of fizzy drink or a bag of crisps costs very little to buy in bulk, but they make up a big part of the bundle's value.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "Where the profit hides",
+    "items": [
+     [
+      "🥤",
+      "The drink"
+     ],
+     [
+      "🍟",
+      "The snack"
+     ],
+     [
+      "🥪",
+      "Sandwiches made in huge batches"
+     ],
+     [
+      "🏷️",
+      "Premium options cost more"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Then there's the premium meal deal. Fancier sandwiches, posher drinks, a higher price. It makes the normal deal look cheap, and tempts some people to trade up.",
+   "night": true,
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Standard deal",
+     "emoji": "🥪",
+     "lines": [
+      "Looks good value",
+      "Most people pick it"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Premium deal",
+     "emoji": "🥗",
+     "lines": [
+      "Higher price",
+      "Makes standard look cheap"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "But the biggest prize isn't the lunch at all. It's getting you through the door. Lots of people grab a meal deal and then pick up milk, bread or something for dinner while they're there.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "While I'm here...",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "🥛",
+      "say": "While I'm here, I'll grab some milk."
+     }
+    ]
+   }
+  },
+  {
+   "say": "And it builds a habit. If you go to the same shop every lunchtime, it becomes the shop you think of first, for everything.",
+   "night": true,
+   "vis": {
+    "type": "grid",
+    "emoji": "🥪",
+    "on": "🛒",
+    "total": 20,
+    "highlight": 20,
+    "title": "Every working day…",
+    "label": "the same shop, again and again",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Supermarkets also make the meal deal easy. The fridge is usually right by the door, the tills are nearby, and self-checkouts let you grab and go in under a minute. The faster and easier it is, the more often you'll do it.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "Designed for speed",
+    "items": [
+     [
+      "🚪",
+      "Fridge by the door"
+     ],
+     [
+      "🥪",
+      "Everything in one place"
+     ],
+     [
+      "🤖",
+      "Self-checkout"
+     ],
+     [
+      "⏱️",
+      "In and out in a minute"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "And the meal deal changes what you choose. When the snack is free in your head, you pick crisps or chocolate you wouldn't normally buy. Supermarkets know that once something is in the bundle, people stop thinking about its price.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "It's basically free",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "🍫",
+      "say": "The chocolate's basically free!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Meal deals have also crept up in price. Tesco's has risen several times in recent years. Each rise is small, a few pence at a time, so most people barely notice. But over a year, those pennies add up.",
+   "night": true,
+   "vis": {
+    "type": "line",
+    "title": "The creeping meal deal price (illustrative)",
+    "points": [
+     3,
+     3,
+     3.25,
+     3.4,
+     3.6,
+     3.85,
+     4.25
+    ],
+    "labels": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "Now"
+    ],
+    "color": "gold",
+    "end": "Up and up"
+   }
+  },
+  {
+   "say": "Let's do Ben's maths. If he buys a four pound meal deal every working day, that's about a thousand pounds a year on lunch.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 1000,
+    "label": "a year, at £4 a day for about 250 working days",
+    "color": "red",
+    "emoji": "🧾",
+    "source": "Example calculation"
+   }
+  },
+  {
+   "say": "If he made a packed lunch at home three days a week, for about a pound a day, he could save hundreds of pounds a year. That's a holiday, for the price of some crisps and fizzy drinks.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Meal deal every day",
+     "emoji": "🥪",
+     "lines": [
+      "About £1,000 a year",
+      "Easy"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Packed lunch 3 days",
+     "emoji": "🍱",
+     "lines": [
+      "Save hundreds",
+      "A holiday"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "The meal deal isn't a scam. If you'd buy all three things anyway, it can be good value. The trick is to only buy what you actually want, not what the bundle tells you to.",
+   "vis": {
+    "type": "list",
+    "title": "How to win at the meal deal",
+    "items": [
+     [
+      "🎯",
+      "Only buy what you want"
+     ],
+     [
+      "🧮",
+      "Compare with buying separately"
+     ],
+     [
+      "💧",
+      "Pick water, not fizzy drinks"
+     ],
+     [
+      "🍱",
+      "Bring lunch some days"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Back at the office, Ben has done the maths, and he's horrified.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "shock",
+      "prop": "🧮",
+      "say": "A THOUSAND pounds on crisps?!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Luckily, Ben has decided to bring a packed lunch tomorrow. Unluckily, he's just walked past the supermarket, and there's a new sign. Meal deal, now with a free cookie.",
+   "vis": {
+    "type": "story",
+    "title": "The next day",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "🍪",
+      "say": "Well... it would be rude not to."
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "prop": "🏷️",
+      "say": "Now with a free cookie!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "If this changed how you see your lunch, subscribe. And tell me in the comments, what's your go-to meal deal?",
+   "vis": {
+    "type": "outro",
+    "text": "What's your go-to meal deal?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THE MEAL|DEAL TRICK",
+  "emoji": "🥪",
+  "color": "gold",
+  "tag": "How it makes money"
+ }
+}

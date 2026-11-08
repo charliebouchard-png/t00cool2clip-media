@@ -1,0 +1,509 @@
+{
+ "id": "MV015",
+ "style": "bold",
+ "variant": 0,
+ "voice": "am_fenrir",
+ "speed": 0.88,
+ "trans": "cut",
+ "title": "How Car Parks Make Money (The Most Boring Business)",
+ "beats": [
+  {
+   "say": "Some of the most reliable money in Britain is made from rectangles of tarmac. And a lot of it comes from drivers who stayed ten minutes too long.",
+   "vis": {
+    "type": "hook",
+    "text": "Money from rectangles of tarmac.",
+    "emoji": "🅿️",
+    "hot": [
+     "tarmac."
+    ]
+   }
+  },
+  {
+   "say": "In the year twenty twenty five to twenty six, private parking companies asked the DVLA for the details of drivers a record sixteen point nine million times. Each of those requests usually means someone is about to receive a parking charge.",
+   "vis": {
+    "type": "num",
+    "value": 16.9,
+    "dec": 1,
+    "suffix": " million",
+    "label": "DVLA keeper requests by private parking firms in 2025/26, a record",
+    "color": "red",
+    "emoji": "📨",
+    "source": "RAC analysis of DVLA data"
+   }
+  },
+  {
+   "say": "That's up seventeen percent in a single year. So how did parking become such a big business? And what can you do if a letter lands on your doormat?",
+   "vis": {
+    "type": "bars",
+    "title": "Keeper requests, in millions",
+    "dec": 1,
+    "items": [
+     [
+      "2024/25",
+      14.4,
+      "teal"
+     ],
+     [
+      "2025/26",
+      16.9,
+      "red"
+     ]
+    ],
+    "max": 18,
+    "source": "RAC / DVLA"
+   }
+  },
+  {
+   "say": "Part one. Why parking is a great business.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "A great business"
+   }
+  },
+  {
+   "say": "Think about what a car park needs. Land, some white lines, and a way to take payment. Once it's built, there's almost nothing to run. No stock, no factory, very few staff.",
+   "vis": {
+    "type": "list",
+    "title": "What a car park needs",
+    "items": [
+     [
+      "🟫",
+      "Land"
+     ],
+     [
+      "⬜",
+      "White lines"
+     ],
+     [
+      "💳",
+      "A way to pay"
+     ],
+     [
+      "📷",
+      "Maybe a camera"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And demand is steady. People need to park at hospitals, train stations, supermarkets, retail parks and town centres, every single day.",
+   "vis": {
+    "type": "hook",
+    "text": "People always need somewhere to park.",
+    "hot": [
+     "always"
+    ]
+   }
+  },
+  {
+   "say": "That's why investors like car parks. They're simple, predictable, and the land often rises in value too. A car park in a town centre can be a future building site worth millions.",
+   "vis": {
+    "type": "flow",
+    "title": "Why investors like car parks",
+    "nodes": [
+     [
+      "🅿️",
+      "Steady parking fees"
+     ],
+     [
+      "🏗️",
+      "Land rises in value"
+     ],
+     [
+      "🏢",
+      "Sell or build later"
+     ]
+    ],
+    "color": "red",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "Hospitals are one of the most controversial places to charge for parking. Patients, visitors and staff often have no choice but to drive. In England, many hospitals charge, while in Scotland and Wales most hospital parking is free.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "England",
+     "emoji": "🏥",
+     "lines": [
+      "Many hospitals charge",
+      "Often hourly"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "Scotland and Wales",
+     "emoji": "🏥",
+     "lines": [
+      "Mostly free",
+      "For patients and visitors"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "Part two. The private parking model.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Private parking"
+   }
+  },
+  {
+   "say": "Many car parks are run by private companies on behalf of landowners, like supermarkets or retail parks. Some charge for parking. Others are free, but with rules, like a two hour limit for customers.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Pay to park",
+     "emoji": "💷",
+     "lines": [
+      "Hourly fees",
+      "Pay and display"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Free with rules",
+     "emoji": "⏱️",
+     "lines": [
+      "Time limits",
+      "Customers only"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Here's the surprising part. In a free car park, the parking company often makes its money from the people who break the rules. Overstay, park outside a bay, or forget to enter your number plate, and you might get a charge.",
+   "vis": {
+    "type": "hook",
+    "text": "In a free car park, the rule-breakers pay the bills.",
+    "emoji": "😬",
+    "hot": [
+     "rule-breakers"
+    ]
+   }
+  },
+  {
+   "say": "These charges can be up to one hundred pounds, often cut in half if you pay quickly. That discount is powerful. Many people just pay, even if they're not sure they did anything wrong, because they're scared of the bill going up.",
+   "vis": {
+    "type": "bars",
+    "title": "A typical private parking charge",
+    "prefix": "£",
+    "items": [
+     [
+      "Pay quickly",
+      50,
+      "teal"
+     ],
+     [
+      "Full charge",
+      100,
+      "red"
+     ]
+    ],
+    "max": 110,
+    "source": "Charges are commonly up to £100, often reduced for early payment"
+   }
+  },
+  {
+   "say": "Part three. The cameras.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The cameras"
+   }
+  },
+  {
+   "say": "The big change was automatic number plate recognition. Cameras at the entrance and exit record your plate and the exact time. No need for a warden walking around. The camera never gets tired, and never misses a car.",
+   "vis": {
+    "type": "flow",
+    "title": "How the camera system works",
+    "nodes": [
+     [
+      "📷",
+      "Camera reads your plate in"
+     ],
+     [
+      "📷",
+      "Camera reads it out"
+     ],
+     [
+      "⏱️",
+      "Computer checks the time"
+     ],
+     [
+      "📨",
+      "Too long? Letter sent"
+     ]
+    ],
+    "color": "red",
+    "coin": "📨"
+   }
+  },
+  {
+   "say": "If the system thinks you overstayed, the company pays the DVLA a small fee to get the registered keeper's name and address. Then a letter is posted. The whole process can be almost entirely automatic.",
+   "vis": {
+    "type": "doc",
+    "title": "Parking charge notice (example)",
+    "lines": [
+     [
+      "Entered",
+      "10:02"
+     ],
+     [
+      "Left",
+      "12:17"
+     ],
+     [
+      "Free stay allowed",
+      "2 hours"
+     ],
+     [
+      "Overstay",
+      "15 minutes"
+     ],
+     [
+      "Charge",
+      "£100"
+     ]
+    ],
+    "stamp": "PAY OR APPEAL",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "This is why the numbers have exploded. The more cameras go up, the more charges go out, at very little extra cost.",
+   "vis": {
+    "type": "hook",
+    "text": "More cameras. More letters. Little extra cost.",
+    "emoji": "📷",
+    "hot": [
+     "More"
+    ]
+   }
+  },
+  {
+   "say": "Some newer car parks don't even have a ticket machine. You have to pay on an app or a website, sometimes one you've never heard of. Forget to pay within a set time, and a charge can follow, even if you meant to pay.",
+   "vis": {
+    "type": "list",
+    "title": "The app trap",
+    "items": [
+     [
+      "📱",
+      "Pay by app only"
+     ],
+     [
+      "⏳",
+      "A short time to pay"
+     ],
+     [
+      "😵",
+      "Easy to forget"
+     ],
+     [
+      "📨",
+      "Then a letter arrives"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. Is it a fine?",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Is it a fine?"
+   }
+  },
+  {
+   "say": "There's an important difference. A penalty charge notice from a council is an official penalty. A charge from a private company is different. It's a claim that you broke the terms of a contract by parking there.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Council PCN",
+     "emoji": "🏛️",
+     "lines": [
+      "Official penalty",
+      "Set by law"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Private charge",
+     "emoji": "🏢",
+     "lines": [
+      "A contract claim",
+      "Can be challenged"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "You shouldn't simply ignore a private parking charge, because companies can take you to court. But you can challenge it. Many charges are cancelled on appeal, for example if signs were unclear, the machine was broken, or the camera got it wrong.",
+   "vis": {
+    "type": "list",
+    "title": "Good reasons to appeal",
+    "items": [
+     [
+      "🪧",
+      "Signs were unclear"
+     ],
+     [
+      "🛠️",
+      "Payment machine broken"
+     ],
+     [
+      "📷",
+      "Camera timing was wrong"
+     ],
+     [
+      "🧾",
+      "You have a receipt"
+     ],
+     [
+      "🚑",
+      "There was a genuine emergency"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Appeal to the company first. If they say no, most companies belong to a trade body with an independent appeals service you can use next.",
+   "vis": {
+    "type": "flow",
+    "title": "How to appeal",
+    "nodes": [
+     [
+      "✉️",
+      "Appeal to the company"
+     ],
+     [
+      "❌",
+      "Rejected?"
+     ],
+     [
+      "⚖️",
+      "Independent appeals service"
+     ],
+     [
+      "✅",
+      "Many get cancelled"
+     ]
+    ],
+    "color": "teal",
+    "coin": "✉️"
+   }
+  },
+  {
+   "say": "Part five. The fight over the rules.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The fight over the rules"
+   }
+  },
+  {
+   "say": "The government has spent years trying to tighten the rules. A new code of practice for private parking was introduced, then withdrawn after a legal challenge from the industry. The competition watchdog has also announced measures aimed at making private parking fairer.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2019",
+      "Parking Code of Practice law passed"
+     ],
+     [
+      "2022",
+      "New code published, then withdrawn"
+     ],
+     [
+      "Since",
+      "Consultations and reviews"
+     ],
+     [
+      "Now",
+      "Watchdog measures announced",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Motoring groups argue that while the rules stay unclear, the number of charges will keep climbing. The parking industry argues that charges are needed to stop people abusing car parks. Both sides are watching what happens next.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Motoring groups",
+     "emoji": "🚗",
+     "lines": [
+      "Too many charges",
+      "Need tougher rules"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Parking industry",
+     "emoji": "🅿️",
+     "lines": [
+      "Stops abuse",
+      "Keeps spaces free"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So how do you protect yourself? Read the signs as you drive in. Set a timer on your phone. Take a photo of where you parked and any signs. And keep your receipts.",
+   "vis": {
+    "type": "list",
+    "title": "Protect yourself",
+    "items": [
+     [
+      "🪧",
+      "Read the signs"
+     ],
+     [
+      "⏰",
+      "Set a timer"
+     ],
+     [
+      "📸",
+      "Photo of the bay and signs"
+     ],
+     [
+      "🧾",
+      "Keep receipts"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Because in many car parks, the space is free. It's the minutes after the time limit that are expensive.",
+   "vis": {
+    "type": "hook",
+    "text": "The space is free. The extra minutes aren't.",
+    "emoji": "⏰",
+    "hot": [
+     "minutes"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more on the hidden businesses all around you, and tell me in the comments, have you ever had a parking charge?",
+   "vis": {
+    "type": "outro",
+    "text": "Ever had a parking charge?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "TARMAC|= MONEY",
+  "emoji": "🅿️",
+  "color": "red",
+  "tag": "How it makes money"
+ }
+}

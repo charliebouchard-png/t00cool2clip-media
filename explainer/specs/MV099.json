@@ -1,0 +1,381 @@
+{
+ "id": "MV099",
+ "style": "collage",
+ "variant": 0,
+ "voice": "am_michael",
+ "speed": 0.8,
+ "trans": "wipe",
+ "title": "Why Free Delivery Makes You Spend More",
+ "beats": [
+  {
+   "say": "You've got twenty two pounds in your basket. Free delivery starts at thirty. Delivery costs three ninety nine. So what do you do? If you're like most people, you add another eight pounds of stuff, to save four pounds on delivery.",
+   "vis": {
+    "type": "hook",
+    "text": "Spend £8 more to save £4?",
+    "emoji": "🚚",
+    "hot": [
+     "£8"
+    ]
+   }
+  },
+  {
+   "say": "Today let's look at why free delivery is so powerful, the famous story of Amazon in France, and how to stop free delivery thresholds from costing you money.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "🆓",
+      "The power of free"
+     ],
+     [
+      "🇫🇷",
+      "Amazon's France story"
+     ],
+     [
+      "🛒",
+      "Delivery thresholds"
+     ],
+     [
+      "🛡️",
+      "How to avoid the trap"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The power of free.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The power of free"
+   }
+  },
+  {
+   "say": "Free isn't just a low price. It's a special price. Psychologists have found that people react to free much more strongly than to a very small price. Free feels risk free, and it gives us a little emotional buzz.",
+   "vis": {
+    "type": "hook",
+    "text": "Free isn't just cheap. It's special.",
+    "emoji": "🆓",
+    "hot": [
+     "special."
+    ]
+   }
+  },
+  {
+   "say": "A delivery fee feels like a penalty. You're paying for nothing you can hold. So people will often spend more on products to avoid it, even when it costs them more overall.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Paying for delivery",
+     "emoji": "😣",
+     "lines": [
+      "Feels like a penalty",
+      "Nothing to show for it"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Adding items",
+     "emoji": "😊",
+     "lines": [
+      "Feels productive",
+      "You 'get' something"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Retailers know this well. Many surveys suggest that unexpected delivery costs are one of the most common reasons people abandon their online baskets.",
+   "vis": {
+    "type": "hook",
+    "text": "Surprise delivery fees make people quit baskets.",
+    "emoji": "🛒",
+    "hot": [
+     "quit"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Amazon in France.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Amazon in France"
+   }
+  },
+  {
+   "say": "The behavioural economist Dan Ariely told a story in his book Predictably Irrational. When Amazon introduced free delivery on orders over a certain amount, sales jumped in many countries. But not in France.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🇫🇷",
+    "text": "Amazon in France",
+    "sub": "The free delivery puzzle",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Why not France? Because the French branch, instead of making delivery free, charged a tiny fee, about one franc, roughly twenty cents. When it later switched to genuinely free delivery, French sales rose like everywhere else.",
+   "vis": {
+    "type": "hook",
+    "text": "A tiny fee killed the effect. Free brought it back.",
+    "emoji": "🪙",
+    "hot": [
+     "Free"
+    ]
+   }
+  },
+  {
+   "say": "A tiny fee and zero might seem almost the same. But to our brains, they're completely different. That's the power of free.",
+   "vis": {
+    "type": "hook",
+    "text": "Tiny fee vs free: worlds apart.",
+    "emoji": "🧠",
+    "hot": [
+     "apart."
+    ]
+   }
+  },
+  {
+   "say": "The same effect shows up everywhere. Free trials. Free gifts with purchase. Buy one get one free. Free samples. The word free makes us less careful about what we're really paying.",
+   "vis": {
+    "type": "list",
+    "title": "The power of free, everywhere",
+    "items": [
+     [
+      "🎁",
+      "Free gift with purchase"
+     ],
+     [
+      "2️⃣",
+      "Buy one get one free"
+     ],
+     [
+      "🧪",
+      "Free samples"
+     ],
+     [
+      "📺",
+      "Free trials"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. The threshold trick.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The threshold trick"
+   }
+  },
+  {
+   "say": "Retailers use delivery thresholds deliberately. Set free delivery just above a typical order size, and lots of customers will add extra items to reach it. That increases the average order value, which is very valuable to the retailer.",
+   "vis": {
+    "type": "flow",
+    "title": "How thresholds work",
+    "nodes": [
+     [
+      "🛒",
+      "Typical basket £22"
+     ],
+     [
+      "🎯",
+      "Free delivery at £30"
+     ],
+     [
+      "➕",
+      "Customer adds £8"
+     ],
+     [
+      "📈",
+      "Retailer earns more"
+     ]
+    ],
+    "color": "red",
+    "coin": "🛒"
+   }
+  },
+  {
+   "say": "Let's do the maths. Option one, pay the delivery fee. Twenty two pounds plus three ninety nine is twenty five ninety nine. Option two, add items to reach free delivery. Thirty pounds. You've spent four pounds more, for things you didn't plan to buy.",
+   "vis": {
+    "type": "doc",
+    "title": "Is free delivery worth it?",
+    "lines": [
+     [
+      "Basket + delivery",
+      "£25.99"
+     ],
+     [
+      "Top up to threshold",
+      "£30.00"
+     ],
+     [
+      "Difference",
+      "£4.01 more"
+     ],
+     [
+      "Only worth it if",
+      "You'd buy those items anyway"
+     ]
+    ],
+    "stamp": "DO THE MATHS",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "Topping up only makes sense if you add something you'd definitely have bought soon anyway, like a household essential. Otherwise, paying the delivery fee is often cheaper.",
+   "vis": {
+    "type": "hook",
+    "text": "Top up only with things you'd buy anyway.",
+    "emoji": "🧻",
+    "hot": [
+     "anyway."
+    ]
+   }
+  },
+  {
+   "say": "Some retailers also show clever messages, like you're only five pounds away from free delivery, with suggested items right below. That's designed to make topping up quick and tempting.",
+   "vis": {
+    "type": "hook",
+    "text": "'You're only £5 away!' is a nudge.",
+    "emoji": "👉",
+    "hot": [
+     "nudge."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Memberships.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Memberships"
+   }
+  },
+  {
+   "say": "Then there are delivery memberships, like Amazon Prime. Pay a yearly or monthly fee, and get free delivery. That can be good value if you order a lot. But it also changes behaviour. Once delivery feels free, people often order more, and more often.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Good value if",
+     "emoji": "✅",
+     "lines": [
+      "You order often",
+      "You use the extras"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Watch out for",
+     "emoji": "⚠️",
+     "lines": [
+      "Ordering more than you need",
+      "Forgotten renewals"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "It's the sunk cost effect. You've paid for the membership, so you feel you should use it. That can lead to buying things just because delivery is free.",
+   "vis": {
+    "type": "hook",
+    "text": "Paid for membership? You'll want to use it.",
+    "emoji": "🔁",
+    "hot": [
+     "use"
+    ]
+   }
+  },
+  {
+   "say": "Part five. Free returns.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Free returns"
+   }
+  },
+  {
+   "say": "Free returns work in a similar way. They make buying feel risk free, so people order more, sometimes several sizes, planning to return some. But many people never get round to returning things, and the retailer keeps the sale.",
+   "vis": {
+    "type": "hook",
+    "text": "Free returns make buying feel risk-free.",
+    "emoji": "↩️",
+    "hot": [
+     "risk-free."
+    ]
+   }
+  },
+  {
+   "say": "Free delivery isn't really free for anyone. Someone pays for the lorries, drivers and fuel. Usually it's built into the prices of the products, or the membership fee.",
+   "vis": {
+    "type": "hook",
+    "text": "Someone always pays for delivery.",
+    "emoji": "🚚",
+    "hot": [
+     "always"
+    ]
+   }
+  },
+  {
+   "say": "Part six. How to beat it.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "How to beat it"
+   }
+  },
+  {
+   "say": "So how can you avoid the free delivery trap? Do the maths before topping up. Keep a list of essentials to use for top ups. Combine orders with friends or family. Use click and collect, which is often free. And check whether a membership really saves you money.",
+   "vis": {
+    "type": "list",
+    "title": "Beat the free delivery trap",
+    "items": [
+     [
+      "🧮",
+      "Do the maths"
+     ],
+     [
+      "📝",
+      "Keep an essentials top-up list"
+     ],
+     [
+      "👥",
+      "Combine orders"
+     ],
+     [
+      "🏪",
+      "Use click and collect"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Free delivery is great when it's genuinely free. But if you spend more to get it, it isn't free at all. It's just a different way of paying.",
+   "vis": {
+    "type": "hook",
+    "text": "If you spend more to get it, it isn't free.",
+    "emoji": "🧾",
+    "hot": [
+     "isn't"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments the silliest thing you've bought to get free delivery.",
+   "vis": {
+    "type": "outro",
+    "text": "Silliest free-delivery top-up?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "SPEND £10|TO SAVE £3?",
+  "emoji": "🚚",
+  "color": "red",
+  "tag": "Minds"
+ }
+}

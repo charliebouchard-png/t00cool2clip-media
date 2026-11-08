@@ -1,0 +1,403 @@
+{
+ "id": "MV097",
+ "style": "ledger",
+ "variant": 2,
+ "voice": "bf_isabella",
+ "speed": 0.8,
+ "trans": "pan",
+ "title": "Why Rich People Look Poor",
+ "beats": [
+  {
+   "say": "Picture a millionaire. You might imagine a sports car, designer clothes and a huge house. But many genuinely wealthy people drive old cars, wear plain clothes, and live in ordinary homes. On purpose.",
+   "vis": {
+    "type": "hook",
+    "text": "Many millionaires look completely ordinary.",
+    "emoji": "🕶️",
+    "hot": [
+     "ordinary."
+    ]
+   }
+  },
+  {
+   "say": "Today, let's look at why so many rich people look poor, why so many people who look rich actually aren't, and what that means for your own money.",
+   "vis": {
+    "type": "list",
+    "title": "What we'll cover",
+    "items": [
+     [
+      "📚",
+      "The Millionaire Next Door"
+     ],
+     [
+      "🏠",
+      "Famous frugal billionaires"
+     ],
+     [
+      "🎭",
+      "Looking rich vs being rich"
+     ],
+     [
+      "🧭",
+      "Lessons for you"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. The millionaire next door.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The millionaire next door"
+   }
+  },
+  {
+   "say": "In nineteen ninety six, two American researchers, Thomas Stanley and William Danko, published a book called The Millionaire Next Door. They had studied the habits of wealthy Americans, and what they found surprised a lot of people.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📚",
+    "text": "The Millionaire Next Door",
+    "sub": "Stanley and Danko, 1996",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Many of the millionaires they studied lived well below their means. They often drove older cars, bought their clothes at ordinary shops, and had been in the same house for years. Many had built their wealth slowly, through saving, investing and running small businesses.",
+   "vis": {
+    "type": "list",
+    "title": "What they found",
+    "items": [
+     [
+      "🚗",
+      "Older, ordinary cars"
+     ],
+     [
+      "👕",
+      "Ordinary clothes"
+     ],
+     [
+      "🏠",
+      "Same house for years"
+     ],
+     [
+      "📈",
+      "Wealth built slowly"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "They described two kinds of people. People who have high incomes but spend most of it, so they look rich but have little wealth. And people who earn less but save and invest, so they look ordinary but build real wealth.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Looks rich",
+     "emoji": "💎",
+     "lines": [
+      "High spending",
+      "Little saved"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Is rich",
+     "emoji": "🏦",
+     "lines": [
+      "Modest spending",
+      "Lots saved and invested"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "A high income doesn't automatically make you wealthy. A doctor or lawyer who spends everything can have less wealth than a careful plumber or shopkeeper who has saved for decades.",
+   "vis": {
+    "type": "hook",
+    "text": "High income isn't the same as wealth.",
+    "emoji": "💼",
+    "hot": [
+     "isn't"
+    ]
+   }
+  },
+  {
+   "say": "Part two. Famous examples.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Famous examples"
+   }
+  },
+  {
+   "say": "Warren Buffett, one of the richest people in the world, has lived in the same house in Omaha, Nebraska, since he bought it in nineteen fifty eight, for around thirty one thousand dollars.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🏡",
+    "text": "Warren Buffett",
+    "sub": "Same house since 1958",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Ingvar Kamprad, the founder of IKEA, was famous for being frugal. He was known for driving an old Volvo for many years and flying economy, even as one of the richest people in Europe.",
+   "vis": {
+    "type": "hook",
+    "text": "IKEA's founder drove an old Volvo.",
+    "emoji": "🚙",
+    "hot": [
+     "old"
+    ]
+   }
+  },
+  {
+   "say": "Of course, not every billionaire lives simply, and frugal habits alone don't make anyone a billionaire. But these stories show that many wealthy people don't feel the need to prove it.",
+   "vis": {
+    "type": "hook",
+    "text": "Many wealthy people don't need to prove it.",
+    "emoji": "🤷",
+    "hot": [
+     "prove"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Wealth is what you don't see.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Wealth is what you don't see"
+   }
+  },
+  {
+   "say": "Here's the key idea. Wealth is mostly invisible. It's money in investments, pensions, savings and businesses. You can't see someone's pension pot. But you can see their car.",
+   "vis": {
+    "type": "hook",
+    "text": "Wealth is mostly invisible.",
+    "emoji": "🫥",
+    "hot": [
+     "invisible."
+    ]
+   }
+  },
+  {
+   "say": "When someone buys a fifty thousand pound car, all you know about them is that they now have fifty thousand pounds less, or fifty thousand pounds more debt. The car shows spending, not wealth.",
+   "vis": {
+    "type": "flow",
+    "title": "What a flashy car really tells you",
+    "nodes": [
+     [
+      "🏎️",
+      "Expensive car"
+     ],
+     [
+      "💸",
+      "Money spent"
+     ],
+     [
+      "🧾",
+      "Or money borrowed"
+     ],
+     [
+      "❓",
+      "Says little about wealth"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🏎️"
+   }
+  },
+  {
+   "say": "Many expensive cars in the UK are bought on finance, with monthly payments. So the person in the fancy car may not even own it.",
+   "vis": {
+    "type": "hook",
+    "text": "The fancy car may not even be theirs.",
+    "emoji": "🔑",
+    "hot": [
+     "theirs."
+    ]
+   }
+  },
+  {
+   "say": "The same goes for many other status symbols. A big house with a big mortgage. Designer goods on credit cards. Expensive holidays funded by loans. The image of wealth can actually be a sign of debt.",
+   "vis": {
+    "type": "list",
+    "title": "Status symbols can hide debt",
+    "items": [
+     [
+      "🏠",
+      "Big mortgages"
+     ],
+     [
+      "👜",
+      "Designer goods on credit"
+     ],
+     [
+      "✈️",
+      "Holidays on loans"
+     ],
+     [
+      "🚗",
+      "Cars on finance"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part four. Why the rich stay quiet.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why the rich stay quiet"
+   }
+  },
+  {
+   "say": "Why might wealthy people choose to look ordinary? Privacy and safety. Not wanting to be treated differently. Not caring about status symbols. And understanding that money spent on show is money that can't grow.",
+   "vis": {
+    "type": "list",
+    "title": "Reasons for stealth wealth",
+    "items": [
+     [
+      "🔒",
+      "Privacy and safety"
+     ],
+     [
+      "🤝",
+      "Be treated normally"
+     ],
+     [
+      "🧘",
+      "Don't need status symbols"
+     ],
+     [
+      "📈",
+      "Money that stays invested grows"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "There's even a name for this. Stealth wealth. Quiet luxury, plain clothes, no logos. Some wealthy people still spend a lot, just on things that don't shout about it.",
+   "vis": {
+    "type": "hook",
+    "text": "Stealth wealth: no logos, no show.",
+    "emoji": "🤫",
+    "hot": [
+     "Stealth"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The trap of looking rich.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The trap of looking rich"
+   }
+  },
+  {
+   "say": "The opposite trap is real too. Spending to look successful, especially when friends or social media seem to be doing the same. Designer clothes, new phones, expensive holidays, often on credit. It can feel like keeping up, while actually falling behind.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Keeping up appearances",
+     "emoji": "📸",
+     "lines": [
+      "Designer labels",
+      "Bought on credit"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Building wealth",
+     "emoji": "🌱",
+     "lines": [
+      "Living below means",
+      "Saving the difference"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Social media makes this harder. You see everyone's highlights, not their bank statements. It's easy to feel poor, even when you're doing fine.",
+   "vis": {
+    "type": "hook",
+    "text": "You see highlights, not bank statements.",
+    "emoji": "📱",
+    "hot": [
+     "statements."
+    ]
+   }
+  },
+  {
+   "say": "Psychologists call it social comparison. We judge how well we're doing by looking at others. But if you compare your everyday life with someone else's best moments, you'll always feel behind.",
+   "vis": {
+    "type": "hook",
+    "text": "Comparison makes us feel behind.",
+    "emoji": "📊",
+    "hot": [
+     "behind."
+    ]
+   }
+  },
+  {
+   "say": "Part six. The lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "The lessons"
+   }
+  },
+  {
+   "say": "So what can we learn? Judge wealth by what people keep, not what they spend. Spend on what you genuinely value, not on what impresses others. And remember that the most powerful money move is often the boring one.",
+   "vis": {
+    "type": "list",
+    "title": "Lessons from the quietly rich",
+    "items": [
+     [
+      "🏦",
+      "Wealth is what you keep"
+     ],
+     [
+      "💚",
+      "Spend on what you value"
+     ],
+     [
+      "🙈",
+      "Ignore status pressure"
+     ],
+     [
+      "😴",
+      "Boring habits build wealth"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Being rich and looking rich are often opposites. Every pound spent showing off is a pound that isn't working for you. The quietly wealthy understand that.",
+   "vis": {
+    "type": "hook",
+    "text": "Being rich and looking rich are often opposites.",
+    "emoji": "⚖️",
+    "hot": [
+     "opposites."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments the most frugal rich person you've ever met.",
+   "vis": {
+    "type": "outro",
+    "text": "Most frugal rich person you know?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "RICH?|YOU'D NEVER|KNOW",
+  "emoji": "🕶️",
+  "color": "gold",
+  "tag": "Minds"
+ }
+}

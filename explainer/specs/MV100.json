@@ -1,0 +1,418 @@
+{
+ "id": "MV100",
+ "style": "neon",
+ "variant": 1,
+ "voice": "af_aoede",
+ "speed": 0.8,
+ "trans": "glitch",
+ "title": "How Influencers Really Make Money",
+ "beats": [
+  {
+   "say": "You might think influencers make their money from views. Millions of views, millions of pounds, right? In reality, for many influencers, the biggest income doesn't come from views at all.",
+   "vis": {
+    "type": "hook",
+    "text": "The money isn't mainly in the views.",
+    "emoji": "📱",
+    "hot": [
+     "isn't"
+    ]
+   }
+  },
+  {
+   "say": "Today, let's look at how influencers and content creators actually make money, how much different sources can pay, and what it means for you as a viewer.",
+   "vis": {
+    "type": "list",
+    "title": "The income streams",
+    "items": [
+     [
+      "📺",
+      "Platform payments"
+     ],
+     [
+      "🤝",
+      "Brand deals"
+     ],
+     [
+      "🔗",
+      "Affiliate links"
+     ],
+     [
+      "👕",
+      "Their own products"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part one. Platform payments.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Platform payments"
+   }
+  },
+  {
+   "say": "Some platforms do pay creators. On YouTube, creators in the Partner Programme get a share of advertising revenue. For long videos, YouTube says creators get fifty five percent of the ad revenue from their videos. For Shorts, it's a different system and a smaller share.",
+   "vis": {
+    "type": "hook",
+    "text": "YouTube shares ad revenue with creators.",
+    "emoji": "📺",
+    "hot": [
+     "shares"
+    ]
+   }
+  },
+  {
+   "say": "To join YouTube's programme, creators need to reach certain thresholds, like a minimum number of subscribers and watch hours. Many small channels earn nothing from ads at all.",
+   "vis": {
+    "type": "hook",
+    "text": "Many small channels earn nothing from ads.",
+    "emoji": "🫥",
+    "hot": [
+     "nothing"
+    ]
+   }
+  },
+  {
+   "say": "But how much a video earns varies hugely. It depends on the audience's country, the topic, the time of year, and how many adverts are shown. Money and finance videos often earn more per view than gaming or comedy, because advertisers pay more to reach those viewers.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Lower-paying topics",
+     "emoji": "🎮",
+     "lines": [
+      "Gaming",
+      "Entertainment"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Higher-paying topics",
+     "emoji": "💷",
+     "lines": [
+      "Finance",
+      "Business and tech"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Other platforms, like TikTok and Instagram, have their own creator programmes, but many creators say the payments for views alone are relatively small compared with other income.",
+   "vis": {
+    "type": "hook",
+    "text": "Payments for views alone are often small.",
+    "emoji": "🪙",
+    "hot": [
+     "small."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Brand deals.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Brand deals"
+   }
+  },
+  {
+   "say": "For many influencers, the biggest earner is sponsorship. A brand pays them to feature a product in a video or post. Prices depend on audience size, engagement, and how well the audience matches the brand.",
+   "vis": {
+    "type": "flow",
+    "title": "How a brand deal works",
+    "nodes": [
+     [
+      "🏢",
+      "Brand wants to reach an audience"
+     ],
+     [
+      "📱",
+      "Pays the creator"
+     ],
+     [
+      "🎥",
+      "Creator features the product"
+     ],
+     [
+      "🛍️",
+      "Followers buy"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "A creator with a highly engaged, specific audience can sometimes earn more than one with far more followers, because brands value trust and relevance, not just numbers.",
+   "vis": {
+    "type": "hook",
+    "text": "Engaged audiences can beat big ones.",
+    "emoji": "🎯",
+    "hot": [
+     "Engaged"
+    ]
+   }
+  },
+  {
+   "say": "Some influencers work with talent agencies who negotiate deals for them, and take a cut. Bigger creators might sign long term ambassador deals, worth much more than a single post.",
+   "vis": {
+    "type": "list",
+    "title": "How deals scale up",
+    "items": [
+     [
+      "🤝",
+      "Talent agencies"
+     ],
+     [
+      "📝",
+      "One-off posts"
+     ],
+     [
+      "📆",
+      "Long-term ambassador deals"
+     ],
+     [
+      "💷",
+      "Higher fees for bigger audiences"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In the UK, influencers must clearly label paid content as advertising, for example with hashtag ad. The Advertising Standards Authority and the Competition and Markets Authority have both warned creators who didn't.",
+   "vis": {
+    "type": "list",
+    "title": "UK rules on ads",
+    "items": [
+     [
+      "🏷️",
+      "Label paid content clearly"
+     ],
+     [
+      "#️⃣",
+      "Use #ad up front"
+     ],
+     [
+      "🏛️",
+      "ASA and CMA enforce it"
+     ],
+     [
+      "🚫",
+      "No hiding sponsorships"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. Affiliate links.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Affiliate links"
+   }
+  },
+  {
+   "say": "Then there are affiliate links. When you click a link in a description and buy something, the creator often gets a commission, a percentage of the sale. You usually pay the same price, but the creator earns from your purchase.",
+   "vis": {
+    "type": "hook",
+    "text": "Affiliate links pay a commission on your purchase.",
+    "emoji": "🔗",
+    "hot": [
+     "commission"
+    ]
+   }
+  },
+  {
+   "say": "That's not necessarily bad. It's how many creators keep making free content. But it does mean they have an incentive to recommend things you'll buy.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The upside",
+     "emoji": "✅",
+     "lines": [
+      "Funds free content",
+      "Often no extra cost to you"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The catch",
+     "emoji": "⚠️",
+     "lines": [
+      "Incentive to recommend",
+      "Not always neutral"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Some creators also get free products, trips or event invites, sometimes called gifting. Even when it's not paid, it can still influence what they say, and in the UK it may still need to be disclosed.",
+   "vis": {
+    "type": "hook",
+    "text": "Gifts can influence too.",
+    "emoji": "🎁",
+    "hot": [
+     "influence"
+    ]
+   }
+  },
+  {
+   "say": "Part four. Their own products.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Their own products"
+   }
+  },
+  {
+   "say": "Many of the most successful creators build their own businesses. Merchandise. Courses. Drinks, snacks, beauty products and clothing brands. Paid memberships and fan subscriptions. Live events and books.",
+   "vis": {
+    "type": "list",
+    "title": "Creator businesses",
+    "items": [
+     [
+      "👕",
+      "Merchandise"
+     ],
+     [
+      "🎓",
+      "Courses and memberships"
+     ],
+     [
+      "🥤",
+      "Own product brands"
+     ],
+     [
+      "🎤",
+      "Events and books"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "For some top creators, their own product brands have become worth far more than their channels. The audience is the launch pad. The business is the money maker.",
+   "vis": {
+    "type": "hook",
+    "text": "The audience is the launch pad.",
+    "emoji": "🚀",
+    "hot": [
+     "launch"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The reality.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The reality"
+   }
+  },
+  {
+   "say": "For every creator earning a fortune, there are thousands earning very little. Income can be unpredictable, platforms can change their rules overnight, and burnout is common.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "What it looks like",
+     "emoji": "✨",
+     "lines": [
+      "Glamorous lifestyle",
+      "Easy money"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "What it often is",
+     "emoji": "😓",
+     "lines": [
+      "Unpredictable income",
+      "Constant pressure"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Many creators spread their income across several sources, so they're not dependent on one platform or one brand. That's a smart money lesson for anyone, creator or not.",
+   "vis": {
+    "type": "hook",
+    "text": "Spread your income sources.",
+    "emoji": "🧺",
+    "hot": [
+     "Spread"
+    ]
+   }
+  },
+  {
+   "say": "And many creators are self employed. They have to handle their own tax, pensions and sick pay. In the UK, income from creating content is taxable like any other business income.",
+   "vis": {
+    "type": "hook",
+    "text": "Creator income is taxable.",
+    "emoji": "🧾",
+    "hot": [
+     "taxable."
+    ]
+   }
+  },
+  {
+   "say": "Part six. What it means for you.",
+   "vis": {
+    "type": "chapter",
+    "n": 6,
+    "text": "What it means for you"
+   }
+  },
+  {
+   "say": "So what does this mean for you as a viewer? Notice when something is an ad. Check whether links are affiliate links. Be extra careful with money or investment advice from influencers, especially anything promising quick riches. And remember, you're seeing the highlights.",
+   "vis": {
+    "type": "list",
+    "title": "Watch smarter",
+    "items": [
+     [
+      "🏷️",
+      "Spot the ads"
+     ],
+     [
+      "🔗",
+      "Notice affiliate links"
+     ],
+     [
+      "🚨",
+      "Be wary of get-rich-quick tips"
+     ],
+     [
+      "✨",
+      "Remember it's a highlight reel"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Influencers aren't paid mainly for being watched. They're paid for being trusted. The more you trust them, the more valuable they are to brands. So spend that trust wisely.",
+   "vis": {
+    "type": "hook",
+    "text": "They're paid for being trusted.",
+    "emoji": "🤝",
+    "hot": [
+     "trusted."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money explained simply. And yes, channels like this one can earn from ads too. Tell me in the comments what you'd like explained next.",
+   "vis": {
+    "type": "outro",
+    "text": "What should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "IT'S NOT|THE VIEWS",
+  "emoji": "📱",
+  "color": "teal",
+  "tag": "Minds"
+ }
+}

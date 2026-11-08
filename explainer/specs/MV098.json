@@ -1,0 +1,413 @@
+{
+ "id": "MV098",
+ "style": "storybook",
+ "voice": "af_sarah",
+ "speed": 0.8,
+ "title": "The Marshmallow Test and Your Bank Account",
+ "beats": [
+  {
+   "say": "Imagine you're four years old. A grown up puts a marshmallow in front of you. You can eat it now. Or, if you wait until they come back, you can have two. Then they leave the room.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "say": "One now... or two later?",
+      "prop": "🍬"
+     }
+    ],
+    "title": "The test"
+   }
+  },
+  {
+   "say": "That's the famous marshmallow test. It became one of the most famous experiments in psychology, and it's often used in money advice. But the real story is more interesting than you've been told.",
+   "vis": {
+    "type": "hook",
+    "text": "The famous test. The untold story.",
+    "emoji": "🍬",
+    "hot": [
+     "untold"
+    ]
+   }
+  },
+  {
+   "say": "Part one. The original experiment.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The original experiment"
+   }
+  },
+  {
+   "say": "In the late nineteen sixties and early seventies, the psychologist Walter Mischel ran experiments with young children at a nursery school linked to Stanford University in California. Some ate the treat straight away. Some managed to wait.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "say": "I'll wait!",
+      "prop": "🍬"
+     },
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "I'm eating it now!",
+      "prop": "😋"
+     }
+    ],
+    "title": "Stanford"
+   }
+  },
+  {
+   "say": "Years later, follow up studies suggested that the children who waited longer tended to do better later in life, including at school. The story spread. Self control at four predicts success.",
+   "vis": {
+    "type": "hook",
+    "text": "Wait at four, succeed later?",
+    "emoji": "📈",
+    "hot": [
+     "succeed"
+    ]
+   }
+  },
+  {
+   "say": "Some of those follow ups linked longer waiting times to higher test scores and other measures of success as teenagers. Those findings were widely reported, and the experiment became famous.",
+   "vis": {
+    "type": "hook",
+    "text": "The findings became famous.",
+    "emoji": "🏆",
+    "hot": [
+     "famous."
+    ]
+   }
+  },
+  {
+   "say": "Money writers loved it. It seemed to prove that the secret to wealth was willpower. Delay gratification, save instead of spend, and you'll be successful.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "The popular message",
+     "emoji": "💪",
+     "lines": [
+      "Willpower is everything",
+      "Waiters win"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "The question",
+     "emoji": "🤔",
+     "lines": [
+      "Is it really that simple?",
+      "What else matters?"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part two. The twist.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "The twist"
+   }
+  },
+  {
+   "say": "You see, the original study involved a fairly small number of children, mostly from families connected to a top university. Not exactly a typical group.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#1b1712",
+      "mood": "happy",
+      "say": "A very particular nursery.",
+      "prop": "🎓",
+      "hat": "🎩"
+     }
+    ],
+    "title": "A small group"
+   },
+   "night": true
+  },
+  {
+   "say": "In twenty eighteen, researchers including Tyler Watts, Greg Duncan and Haonan Quan repeated the idea with more than nine hundred children from a much wider range of backgrounds.",
+   "vis": {
+    "type": "hook",
+    "text": "In 2018, a bigger, broader study.",
+    "emoji": "🔬",
+    "hot": [
+     "bigger,"
+    ]
+   },
+   "night": true
+  },
+  {
+   "say": "They found the link between waiting and later achievement was still there, but much smaller than originally reported. And once they took family background and early abilities into account, the link shrank by around two thirds.",
+   "vis": {
+    "type": "list",
+    "title": "What the 2018 study found",
+    "items": [
+     [
+      "📉",
+      "A much smaller link"
+     ],
+     [
+      "👪",
+      "Family background mattered a lot"
+     ],
+     [
+      "🧠",
+      "Early abilities mattered"
+     ],
+     [
+      "⏳",
+      "Effects faded by age 15"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "In other words, it wasn't just that patient children did better. Children from more advantaged backgrounds tended to wait longer, and also tended to do better later. The background explained a lot of the link.",
+   "vis": {
+    "type": "hook",
+    "text": "Background explained a lot of the link.",
+    "emoji": "👪",
+    "hot": [
+     "Background"
+    ]
+   }
+  },
+  {
+   "say": "Part three. Trust matters.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Trust matters"
+   }
+  },
+  {
+   "say": "Another study, from twenty twelve at the University of Rochester, added a clever twist. Before the test, some children experienced an adult who kept their promises. Others experienced an adult who broke them.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#06d6a0",
+      "mood": "happy",
+      "say": "She kept her promise!",
+      "prop": "🖍️"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "He said he'd come back...",
+      "prop": "🖍️"
+     }
+    ],
+    "title": "Reliable or not"
+   }
+  },
+  {
+   "say": "Children who'd seen a reliable adult waited much longer, on average around twelve minutes. Those who'd seen an unreliable adult waited around three minutes.",
+   "vis": {
+    "type": "bars",
+    "title": "Average waiting time",
+    "items": [
+     [
+      "Reliable adult",
+      12,
+      "teal"
+     ],
+     [
+      "Unreliable adult",
+      3,
+      "red"
+     ]
+    ],
+    "max": 14,
+    "prefix": "",
+    "suffix": " min",
+    "source": "Kidd, Palmeri and Aslin, University of Rochester, 2012"
+   }
+  },
+  {
+   "say": "So waiting isn't just about willpower. It's also about trust. If you've learned that promises get broken, taking the marshmallow now is actually a sensible choice.",
+   "vis": {
+    "type": "hook",
+    "text": "Waiting depends on trust, not just willpower.",
+    "emoji": "🤝",
+    "hot": [
+     "trust,"
+    ]
+   }
+  },
+  {
+   "say": "Part four. What it means for money.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "What it means for money"
+   }
+  },
+  {
+   "say": "This matters for money. If someone has grown up with very little, and promises of later have often not come true, spending money when you have it can be a rational response, not a lack of discipline.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "Why save, if it'll be gone anyway?",
+      "prop": "💷"
+     }
+    ],
+    "title": "Scarcity"
+   }
+  },
+  {
+   "say": "Research on scarcity suggests that when people are under financial pressure, their attention gets consumed by immediate problems, which makes long term planning genuinely harder. It's not about being less capable. It's about the situation.",
+   "vis": {
+    "type": "hook",
+    "text": "Scarcity makes planning harder.",
+    "emoji": "🧠",
+    "hot": [
+     "harder."
+    ]
+   }
+  },
+  {
+   "say": "The economists Sendhil Mullainathan and Eldar Shafir wrote about this in their book, Scarcity. They argued that having too little of something, whether money or time, captures your attention and makes it harder to think ahead.",
+   "vis": {
+    "type": "list",
+    "title": "The scarcity idea",
+    "items": [
+     [
+      "💷",
+      "Too little money"
+     ],
+     [
+      "⏰",
+      "Too little time"
+     ],
+     [
+      "🧠",
+      "Attention gets captured"
+     ],
+     [
+      "🔭",
+      "Harder to plan ahead"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So instead of relying on willpower, it often works better to change the situation. Make saving automatic. Remove temptations. Build trust in your own plan with small wins.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Relying on willpower",
+     "emoji": "😣",
+     "lines": [
+      "Exhausting",
+      "Easy to fail"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Changing the setup",
+     "emoji": "🤖",
+     "lines": [
+      "Automatic saving",
+      "Fewer temptations"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "This is sometimes called choice architecture. Designing your surroundings so the good choice is the easy choice. It's how workplace pensions with automatic enrolment got millions more people saving.",
+   "vis": {
+    "type": "hook",
+    "text": "Make the good choice the easy choice.",
+    "emoji": "🏗️",
+    "hot": [
+     "easy"
+    ]
+   }
+  },
+  {
+   "say": "Part five. The money lessons.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "The money lessons"
+   }
+  },
+  {
+   "say": "So, practical lessons. Automate your savings on payday, so you never see the money. Start small, so you see it grow and learn to trust it. Make temptation harder, like deleting saved card details. And be kind to yourself, your background matters.",
+   "vis": {
+    "type": "list",
+    "title": "Practical lessons",
+    "items": [
+     [
+      "🤖",
+      "Automate saving on payday"
+     ],
+     [
+      "🌱",
+      "Start small, build trust"
+     ],
+     [
+      "🔒",
+      "Make temptation harder"
+     ],
+     [
+      "💚",
+      "Be kind to yourself"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "The children in the experiment who waited often used tricks. Covering their eyes. Singing. Turning away. They didn't just grit their teeth. They changed their environment.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "say": "La la la, I can't see it!",
+      "prop": "🙈"
+     }
+    ],
+    "title": "The kids' tricks"
+   }
+  },
+  {
+   "say": "The marshmallow test isn't proof that willpower decides your future. It's a reminder that environment, trust and habits matter. And the good news is, those are things you can change.",
+   "vis": {
+    "type": "hook",
+    "text": "Environment, trust and habits. You can change those.",
+    "emoji": "🌱",
+    "hot": [
+     "change"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more money psychology explained simply, and tell me in the comments, would you have waited for the second marshmallow?",
+   "vis": {
+    "type": "outro",
+    "text": "Would you have waited?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "1 NOW|OR 2 LATER?",
+  "emoji": "🍬",
+  "color": "teal",
+  "tag": "Minds"
+ }
+}

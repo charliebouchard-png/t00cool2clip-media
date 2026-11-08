@@ -1,0 +1,515 @@
+{
+ "id": "MV007",
+ "style": "bold",
+ "variant": 2,
+ "voice": "af_heart",
+ "speed": 0.92,
+ "trans": "cut",
+ "title": "How Primark Makes Money Without Selling Online",
+ "beats": [
+  {
+   "say": "Primark barely advertises. For years it didn't sell a single thing online. And it still brings in more than nine billion pounds a year.",
+   "vis": {
+    "type": "hook",
+    "text": "No big ads. No online shop. £9.5 billion.",
+    "emoji": "👕",
+    "hot": [
+     "£9.5",
+     "billion."
+    ]
+   }
+  },
+  {
+   "say": "In a world where every shop is fighting to sell on your phone, Primark did the opposite. It made you come to it. So how does that work?",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Everyone else",
+     "emoji": "📱",
+     "lines": [
+      "Sell online",
+      "Huge ad budgets"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Primark",
+     "emoji": "🏬",
+     "lines": [
+      "Come to the shop",
+      "Barely advertises"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "In its financial year to September twenty twenty five, Primark's sales were about nine and a half billion pounds, and it made around one point one billion pounds in operating profit.",
+   "vis": {
+    "type": "bars",
+    "title": "Primark, financial year 2025",
+    "prefix": "£",
+    "suffix": "bn",
+    "dec": 1,
+    "items": [
+     [
+      "Sales",
+      9.5,
+      "red"
+     ],
+     [
+      "Operating profit",
+      1.1,
+      "teal"
+     ]
+    ],
+    "max": 10,
+    "source": "Associated British Foods full year results, FY2025"
+   }
+  },
+  {
+   "say": "That's roughly twelve pence of profit from every pound you spend there. Not bad for a shop that sells t-shirts for a few quid.",
+   "vis": {
+    "type": "num",
+    "value": 12,
+    "suffix": "p",
+    "label": "profit from every £1 spent (adjusted operating margin 11.9%)",
+    "color": "red",
+    "emoji": "🪙",
+    "source": "ABF FY2025 results"
+   }
+  },
+  {
+   "say": "Part one. Where it came from.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Where it came from"
+   }
+  },
+  {
+   "say": "Primark started in Dublin in nineteen sixty nine, under the name Penneys. It still trades as Penneys in Ireland today. It's owned by a big British company called Associated British Foods, which also makes Kingsmill bread and Twinings tea.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1969",
+      "Opens in Dublin as Penneys"
+     ],
+     [
+      "1970s",
+      "Expands into the UK as Primark"
+     ],
+     [
+      "2010s",
+      "Giant stores across Europe"
+     ],
+     [
+      "2020s",
+      "Opening in the United States",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "From the start, the idea was simple. Fashionable clothes, at prices so low that people buy more than they planned.",
+   "vis": {
+    "type": "hook",
+    "text": "Prices so low you buy more than you planned.",
+    "emoji": "🛍️",
+    "hot": [
+     "more"
+    ]
+   }
+  },
+  {
+   "say": "And Primark's shops are huge. Some of its biggest stores are like department stores, with several floors of clothes, homeware, beauty and even cafés. The bigger the shop, the longer people stay, and the more they buy.",
+   "vis": {
+    "type": "list",
+    "title": "Why the shops are so big",
+    "items": [
+     [
+      "🏬",
+      "Several floors"
+     ],
+     [
+      "🏠",
+      "Homeware and beauty too"
+     ],
+     [
+      "☕",
+      "Even cafés"
+     ],
+     [
+      "⏳",
+      "You stay longer"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Location matters just as much. Primark chooses busy high streets and shopping centres, where crowds of people walk past every day anyway. The building itself is the advert.",
+   "vis": {
+    "type": "hook",
+    "text": "The building is the advert.",
+    "emoji": "📍",
+    "hot": [
+     "advert."
+    ]
+   }
+  },
+  {
+   "say": "Part two. Volume, not margin.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Volume, not margin"
+   }
+  },
+  {
+   "say": "Primark makes only a little on each item. The trick is selling an enormous number of them. Huge orders from factories mean lower prices for each piece of clothing.",
+   "vis": {
+    "type": "flow",
+    "title": "The volume machine",
+    "nodes": [
+     [
+      "🏭",
+      "Huge factory orders"
+     ],
+     [
+      "🏷️",
+      "Lower cost per item"
+     ],
+     [
+      "💷",
+      "Very low prices"
+     ],
+     [
+      "🛒",
+      "Bigger baskets"
+     ]
+    ],
+    "color": "red",
+    "coin": "👕"
+   }
+  },
+  {
+   "say": "Primark also keeps its designs simple and copies trends quickly. When a style is popular, it can be in the shops fast, at a fraction of the price of the brand that started it.",
+   "vis": {
+    "type": "list",
+    "title": "How it keeps costs down",
+    "items": [
+     [
+      "✂️",
+      "Simple designs"
+     ],
+     [
+      "📦",
+      "Huge orders"
+     ],
+     [
+      "⚡",
+      "Follows trends fast"
+     ],
+     [
+      "🧾",
+      "Few frills in store"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part three. No big adverts.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "No big adverts"
+   }
+  },
+  {
+   "say": "Most fashion brands spend a fortune on adverts. Primark has always spent very little on traditional advertising. Instead, it relies on its shops, word of mouth, and people showing off their bargains on social media.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Big brands",
+     "emoji": "📺",
+     "lines": [
+      "TV and billboard ads",
+      "Celebrity campaigns"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Primark",
+     "emoji": "🗣️",
+     "lines": [
+      "Word of mouth",
+      "Haul videos online"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "The famous Primark haul video does the advertising for free. Someone fills three brown bags, films what they got for fifty pounds, and millions of people watch.",
+   "vis": {
+    "type": "icon",
+    "emoji": "🛍️",
+    "text": "The haul video",
+    "sub": "Free advertising, made by customers",
+    "color": "red"
+   }
+  },
+  {
+   "say": "Every pound Primark doesn't spend on adverts is a pound it can use to keep prices low.",
+   "vis": {
+    "type": "hook",
+    "text": "No ad budget means lower prices.",
+    "emoji": "💡",
+    "hot": [
+     "lower"
+    ]
+   }
+  },
+  {
+   "say": "There's another trick hidden in the shop itself. Primark's shelves are packed and slightly messy, a bit like a market. It feels like a treasure hunt. You dig through a pile, find something for four pounds, and it feels like a win.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Neat boutique",
+     "emoji": "🧥",
+     "lines": [
+      "Few items",
+      "Feels expensive"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Primark",
+     "emoji": "🧺",
+     "lines": [
+      "Piles of stock",
+      "Feels like a bargain hunt"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Part four. Why not sell online?",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Why not sell online?"
+   }
+  },
+  {
+   "say": "Here's the surprising part. Selling cheap clothes online is expensive. Every order has to be picked, packed, posted and often returned. On a three pound t-shirt, the delivery could cost more than the shirt.",
+   "vis": {
+    "type": "doc",
+    "title": "One online order (illustrative)",
+    "lines": [
+     [
+      "T-shirt price",
+      "£3.00"
+     ],
+     [
+      "Picking and packing",
+      "£1.50"
+     ],
+     [
+      "Delivery",
+      "£3.50"
+     ],
+     [
+      "Return, if it doesn't fit",
+      "£3.00"
+     ]
+    ],
+    "stamp": "LOSS",
+    "stampAt": 7
+   }
+  },
+  {
+   "say": "In a shop, you do the work yourself. You walk in, pick it up, try it on and carry it home. Primark's costs stay low because the customer becomes the delivery driver.",
+   "vis": {
+    "type": "flow",
+    "title": "In the shop, you do the work",
+    "nodes": [
+     [
+      "🚶",
+      "You walk in"
+     ],
+     [
+      "👕",
+      "You pick it"
+     ],
+     [
+      "🪞",
+      "You try it on"
+     ],
+     [
+      "🛍️",
+      "You carry it home"
+     ]
+    ],
+    "color": "red",
+    "coin": "🛍️"
+   }
+  },
+  {
+   "say": "And there's another bonus. In a shop, people spend more than they planned. You go in for socks, and you leave with a bag full of things you saw on the way to the tills.",
+   "vis": {
+    "type": "hook",
+    "text": "In for socks. Out with a bag full.",
+    "emoji": "🧦",
+    "hot": [
+     "bag",
+     "full."
+    ]
+   }
+  },
+  {
+   "say": "Part five. Things are changing.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Things are changing"
+   }
+  },
+  {
+   "say": "Primark has slowly moved online, but on its own terms. It started a click and collect trial in two thousand and twenty two. By May twenty twenty five, it was available in a hundred and eighty seven stores across England, Scotland and Wales.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "2022",
+      "Click and collect trial in 25 shops"
+     ],
+     [
+      "2023-24",
+      "Rolled out further"
+     ],
+     [
+      "May 2025",
+      "187 stores in Britain"
+     ],
+     [
+      "Next",
+      "Home delivery planned",
+      "red"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Click and collect is clever. You still have to come to the shop to pick up your order, and while you're there, you'll probably buy something else. Primark has also said home delivery will come in Britain in the future.",
+   "vis": {
+    "type": "flow",
+    "title": "Why click and collect works",
+    "nodes": [
+     [
+      "📱",
+      "Order online"
+     ],
+     [
+      "🏬",
+      "Collect in store"
+     ],
+     [
+      "👀",
+      "See something else"
+     ],
+     [
+      "🛒",
+      "Buy more"
+     ]
+    ],
+    "color": "red",
+    "coin": "🛍️"
+   }
+  },
+  {
+   "say": "Primark has also kept growing in the United States and across Europe, opening new stores while many other clothing chains closed theirs. Its owner has even reviewed whether Primark should become a separate company in future, because it has grown so big.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Growth",
+    "paper": "THE RETAIL RECORD",
+    "text": "Primark keeps opening shops as rivals close",
+    "date": "Its owner is reviewing whether to separate it"
+   }
+  },
+  {
+   "say": "So what's the catch? Very cheap clothes raise big questions about the people who make them, and about how many clothes end up thrown away. Primark says it's working on both, but they're fair questions to ask about any cheap fashion.",
+   "vis": {
+    "type": "list",
+    "title": "The fair questions",
+    "items": [
+     [
+      "🧵",
+      "Who made it, and how were they paid?"
+     ],
+     [
+      "🗑️",
+      "How long will it last?"
+     ],
+     [
+      "♻️",
+      "What happens when it's thrown away?"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But as a business, the formula is clear. Sell a lot. Spend little on adverts. Let customers do the delivery. And make the shop so cheap that a quick look turns into a full bag.",
+   "vis": {
+    "type": "list",
+    "title": "The Primark formula",
+    "items": [
+     [
+      "📦",
+      "Sell huge volumes"
+     ],
+     [
+      "📺",
+      "Skip the big adverts"
+     ],
+     [
+      "🚶",
+      "Customers do the delivery"
+     ],
+     [
+      "🛍️",
+      "Turn a look into a full bag"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "So the next time you leave Primark with a bag you didn't plan to buy, you're not just a customer. You're the delivery driver, the advert and the profit.",
+   "vis": {
+    "type": "hook",
+    "text": "You're the driver, the advert and the profit.",
+    "emoji": "🛍️",
+    "hot": [
+     "profit."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more on how big brands really make their money, and tell me in the comments which shop I should break down next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which shop should I break down next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "NO ADS.|NO WEBSITE.|BILLIONS.",
+  "emoji": "👕",
+  "color": "teal",
+  "tag": "How it makes money"
+ }
+}

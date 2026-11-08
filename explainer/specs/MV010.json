@@ -1,0 +1,463 @@
+{
+ "id": "MV010",
+ "style": "storybook",
+ "voice": "am_fenrir",
+ "speed": 0.88,
+ "title": "How Coffee Shops Make Money (It's Not the Coffee)",
+ "beats": [
+  {
+   "say": "The coffee in your coffee is one of the cheapest things you're paying for.",
+   "vis": {
+    "type": "story",
+    "title": "What are you really paying for?",
+    "cast": [
+     {
+      "shirt": "#8ecae6",
+      "mood": "happy",
+      "prop": "☕",
+      "say": "Best part of my day."
+     }
+    ]
+   }
+  },
+  {
+   "say": "A cup of coffee can cost three or four pounds now. But the beans in it cost well under fifty pence. So where does all your money go? And how do coffee shops actually make a profit?",
+   "vis": {
+    "type": "hook",
+    "text": "£4 for the cup. Pennies for the beans.",
+    "emoji": "☕",
+    "hot": [
+     "Pennies"
+    ]
+   }
+  },
+  {
+   "say": "Meet Sophie. Sophie has just opened a little café on the high street. She's charging three pounds fifty for a latte, and she thinks she's going to be rich.",
+   "vis": {
+    "type": "story",
+    "title": "Sophie's café",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "☕",
+      "say": "£3.50 a latte? Easy money!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Her friend Tom works out the numbers on a napkin. The beans for one cup? Around forty pence. The milk? About twenty. A paper cup and lid? Fifteen. That's barely eighty pence.",
+   "vis": {
+    "type": "bars",
+    "title": "The ingredients in one coffee",
+    "prefix": "€",
+    "dec": 2,
+    "items": [
+     [
+      "Coffee beans",
+      0.41,
+      "gold"
+     ],
+     [
+      "Milk",
+      0.21,
+      "gold"
+     ],
+     [
+      "Cup and lid",
+      0.15,
+      "gold"
+     ]
+    ],
+    "max": 0.5,
+    "source": "Irish Times café owner breakdown of a €3.50 coffee, May 2024"
+   }
+  },
+  {
+   "say": "Sophie is thrilled. Nearly three pounds profit on every cup! She'll be on a yacht by Christmas.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "🛥️",
+      "say": "Yacht by Christmas!"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "sad",
+      "say": "Sophie... you forgot something."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Then the first bills arrive. Wages. Rent. Electricity. Business rates. Insurance. Bin collections. A new part for the coffee machine. And the tax man wants his share.",
+   "vis": {
+    "type": "list",
+    "title": "The bills arrive",
+    "items": [
+     [
+      "👩‍🍳",
+      "Staff wages"
+     ],
+     [
+      "🏠",
+      "Rent and rates"
+     ],
+     [
+      "⚡",
+      "Energy"
+     ],
+     [
+      "🛠️",
+      "Repairs and insurance"
+     ],
+     [
+      "🧾",
+      "VAT and tax"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "By the end of the month, Sophie is staring at her bank account, wondering where all the money went.",
+   "vis": {
+    "type": "story",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "prop": "📉",
+      "say": "Where did it all go?!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "You see, a coffee shop isn't really selling coffee. It's selling time, space and convenience. And those are expensive to provide.",
+   "night": true,
+   "vis": {
+    "type": "icon",
+    "emoji": "🪑",
+    "text": "You're paying for the seat",
+    "sub": "Time, space and convenience",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "A café owner in Ireland broke down every cent of a three euro fifty coffee for the Irish Times. The biggest cost by far was staff, at about one euro nineteen per cup.",
+   "night": true,
+   "vis": {
+    "type": "bars",
+    "title": "Where €3.50 goes (one café's estimate)",
+    "prefix": "€",
+    "dec": 2,
+    "items": [
+     [
+      "Staff",
+      1.19,
+      "red"
+     ],
+     [
+      "VAT",
+      0.47,
+      "teal"
+     ],
+     [
+      "Beans, milk, cup",
+      0.77,
+      "gold"
+     ],
+     [
+      "Rent and energy",
+      0.31,
+      "teal"
+     ],
+     [
+      "Repairs, loans, other",
+      0.46,
+      "teal"
+     ],
+     [
+      "Profit",
+      0.3,
+      "gold"
+     ]
+    ],
+    "max": 1.3,
+    "source": "Irish Times, 26 May 2024: one café owner's estimate"
+   }
+  },
+  {
+   "say": "After everything, that café made about thirty cents profit on a three euro fifty coffee. Less than ten percent.",
+   "night": true,
+   "vis": {
+    "type": "num",
+    "value": 30,
+    "suffix": "c",
+    "label": "profit on a €3.50 coffee, after all costs",
+    "color": "gold",
+    "emoji": "🪙",
+    "source": "Irish Times, May 2024"
+   }
+  },
+  {
+   "say": "And it's similar in Britain. The boss of one trendy London coffee chain said he made just eighteen pence profit on a four pound ten flat white.",
+   "night": true,
+   "vis": {
+    "type": "headline",
+    "kicker": "London",
+    "paper": "THE CAFÉ CHRONICLE",
+    "text": "Coffee boss says he makes just 18p on a £4.10 flat white",
+    "date": "Wages, rent and costs eat almost everything"
+   }
+  },
+  {
+   "say": "So how do the big coffee chains make serious money? They use a few clever tricks.",
+   "night": true,
+   "vis": {
+    "type": "hook",
+    "text": "So how do the big chains make money?",
+    "emoji": "🤔",
+    "hot": [
+     "big",
+     "chains"
+    ]
+   }
+  },
+  {
+   "say": "Trick one. The extras. A shot of syrup. Oat milk. An extra shot. A bigger size. Each one costs the shop a few pence, but adds fifty pence or more to your bill. That's where much of the profit hides.",
+   "night": true,
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cost to the shop",
+     "emoji": "🫙",
+     "lines": [
+      "Syrup: pennies",
+      "Bigger cup: pennies"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Price to you",
+     "emoji": "💷",
+     "lines": [
+      "50p or more",
+      "Every time"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Trick two. The food. A pastry or a sandwich sitting next to the till turns a three pound order into a seven pound one. Most of the effort was already spent getting you through the door.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "The till trick",
+    "cast": [
+     {
+      "shirt": "#8ecae6",
+      "mood": "happy",
+      "prop": "🥐",
+      "say": "Oh go on, and a croissant."
+     }
+    ]
+   }
+  },
+  {
+   "say": "Trick three. Your money, before you spend it. When you top up a coffee app or a gift card, the shop gets your cash upfront. Back in twenty sixteen, Starbucks customers had about one point two billion dollars sitting on their cards and apps. Some of that is never spent at all.",
+   "night": true,
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 1.2,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "held on Starbucks cards and apps (2016)",
+    "color": "gold",
+    "emoji": "📱",
+    "source": "S&P Global Market Intelligence data, reported by Morningstar"
+   }
+  },
+  {
+   "say": "Trick four. Loyalty. Buy nine, get the tenth free. It sounds generous, but it keeps you coming back to the same shop instead of the one next door. A habit is worth more than any single cup.",
+   "night": true,
+   "vis": {
+    "type": "grid",
+    "emoji": "☕",
+    "on": "⭐",
+    "total": 10,
+    "highlight": 9,
+    "title": "Buy nine…",
+    "label": "and you're hooked on one shop",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Trick five. Size and speed. Big chains buy beans, milk and cups in enormous amounts, for far less than Sophie pays. And drive-thrus and train station kiosks sell hundreds of coffees an hour with fewer staff and less space.",
+   "night": true,
+   "vis": {
+    "type": "list",
+    "title": "Why big chains win",
+    "items": [
+     [
+      "📦",
+      "Bulk buying"
+     ],
+     [
+      "🚗",
+      "Drive-thrus"
+     ],
+     [
+      "🚉",
+      "Station kiosks"
+     ],
+     [
+      "⚡",
+      "Fast, small teams"
+     ]
+    ],
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Trick six. The seat. Big chains want you to stay, work on your laptop and come back tomorrow. Free wifi and comfy chairs make the café feel like your office. A regular customer who visits five times a week is worth far more than one fancy coffee.",
+   "night": true,
+   "vis": {
+    "type": "story",
+    "title": "The office that sells coffee",
+    "cast": [
+     {
+      "shirt": "#8ecae6",
+      "mood": "happy",
+      "prop": "💻",
+      "say": "My second office!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "And trick seven. The price itself. A coffee shop knows you're buying a little treat, not a necessity, so many people won't notice an extra ten or twenty pence. Raising prices slowly, a few pence at a time, can quietly add a lot to the profit.",
+   "night": true,
+   "vis": {
+    "type": "line",
+    "title": "A latte's price, a few pence at a time (illustrative)",
+    "points": [
+     2.5,
+     2.6,
+     2.75,
+     2.9,
+     3.1,
+     3.3,
+     3.5,
+     3.75,
+     4.0
+    ],
+    "labels": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "color": "gold",
+    "end": "£4"
+   }
+  },
+  {
+   "say": "That's why so many small cafés struggle. They have the same wages, rent and energy bills, but none of the buying power, and often fewer customers.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Big chain",
+     "emoji": "🏢",
+     "lines": [
+      "Bulk discounts",
+      "Thousands of shops"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Small café",
+     "emoji": "🏠",
+     "lines": [
+      "Pays full price",
+      "One shop's customers"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "So next time you think four pounds is a rip-off for a coffee, remember. Most of that money pays for the person making it and the roof over your head. The profit is often just a few pence.",
+   "vis": {
+    "type": "hook",
+    "text": "Most of your £4 pays for people and the roof.",
+    "emoji": "🏠",
+    "hot": [
+     "people",
+     "roof."
+    ]
+   }
+  },
+  {
+   "say": "Back at Sophie's café, she's learned her lesson. She's added cakes by the till, a loyalty card, and flavoured syrups.",
+   "vis": {
+    "type": "story",
+    "title": "Sophie's new plan",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "happy",
+      "prop": "🍰",
+      "say": "Cake with that?"
+     },
+     {
+      "shirt": "#4361ee",
+      "mood": "happy",
+      "prop": "☕",
+      "say": "Now you're thinking!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "Luckily, her profits are finally going up. Unluckily, she's discovered that the most profitable thing she sells isn't coffee at all. It's caramel syrup.",
+   "vis": {
+    "type": "story",
+    "title": "The real money",
+    "cast": [
+     {
+      "shirt": "#ef476f",
+      "mood": "shock",
+      "prop": "🍯",
+      "say": "I'm a syrup business?!"
+     }
+    ]
+   }
+  },
+  {
+   "say": "If you want more videos on how everyday businesses make money, subscribe. And tell me your coffee order in the comments.",
+   "vis": {
+    "type": "outro",
+    "text": "What's your coffee order?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "YOUR £4|LATTE",
+  "emoji": "☕",
+  "color": "gold",
+  "tag": "How it makes money"
+ }
+}

@@ -1,0 +1,522 @@
+{
+ "id": "MV008",
+ "style": "chalk",
+ "variant": 1,
+ "voice": "bm_fable",
+ "speed": 0.92,
+ "title": "How Aldi Sells Everything So Cheap",
+ "beats": [
+  {
+   "say": "Aldi sells only a small fraction of the products a big supermarket does. And that's exactly why it's so cheap.",
+   "vis": {
+    "type": "hook",
+    "text": "Fewer products. Lower prices.",
+    "emoji": "🧺",
+    "hot": [
+     "Fewer",
+     "Lower"
+    ]
+   }
+  },
+  {
+   "say": "In twenty twenty five, Aldi's UK sales hit a record nineteen billion pounds. A shop that many people once called a cheap foreign discounter is now one of the biggest supermarkets in Britain.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 19,
+    "suffix": " billion",
+    "label": "Aldi UK sales in 2025, a record",
+    "color": "gold",
+    "emoji": "🛒",
+    "source": "Aldi UK results, year to 31 December 2025"
+   }
+  },
+  {
+   "say": "So how does it sell the same kind of food as everyone else, for less? Let's go through it step by step, like a lesson on the board.",
+   "vis": {
+    "type": "list",
+    "title": "Today's lesson",
+    "items": [
+     [
+      "1️⃣",
+      "Fewer products"
+     ],
+     [
+      "2️⃣",
+      "Its own brands"
+     ],
+     [
+      "3️⃣",
+      "Boxes on shelves"
+     ],
+     [
+      "4️⃣",
+      "Fast tills, small teams"
+     ],
+     [
+      "5️⃣",
+      "Tiny profit per pound"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson one. Fewer products.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Fewer products"
+   }
+  },
+  {
+   "say": "A big supermarket might sell dozens of types of ketchup, in every size and brand. Aldi usually sells one or two. Across the whole shop, it carries around two thousand regular products. A big supermarket carries many times more.",
+   "vis": {
+    "type": "bars",
+    "title": "Regular products on the shelves (approx.)",
+    "items": [
+     [
+      "Aldi",
+      2000,
+      "gold"
+     ],
+     [
+      "Big supermarket",
+      25000,
+      "teal"
+     ]
+    ],
+    "max": 27000,
+    "source": "Approximate figures; Aldi's range is typically quoted at around 2,000 core lines"
+   }
+  },
+  {
+   "say": "When you sell only one ketchup, you buy huge amounts of it. That gives you power with the factory that makes it. Bigger orders, lower prices.",
+   "vis": {
+    "type": "flow",
+    "title": "Why fewer products means cheaper",
+    "nodes": [
+     [
+      "1️⃣",
+      "One ketchup, not twenty"
+     ],
+     [
+      "📦",
+      "Enormous orders"
+     ],
+     [
+      "🤝",
+      "Better price from the factory"
+     ],
+     [
+      "🏷️",
+      "Cheaper for you"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🍅"
+   }
+  },
+  {
+   "say": "Fewer products also means smaller shops, fewer shelves to fill, less waste, and simpler warehouses. Every part of the business gets cheaper to run.",
+   "vis": {
+    "type": "list",
+    "title": "The knock-on savings",
+    "items": [
+     [
+      "🏪",
+      "Smaller shops"
+     ],
+     [
+      "🧺",
+      "Fewer shelves to fill"
+     ],
+     [
+      "🗑️",
+      "Less waste"
+     ],
+     [
+      "🚚",
+      "Simpler deliveries"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Aldi also changes some of its range all the time, with special buys in the middle aisle. One week it's garden furniture, the next it's ski jackets. That keeps people coming back to see what's new, without needing thousands of permanent products.",
+   "vis": {
+    "type": "list",
+    "title": "The middle aisle",
+    "items": [
+     [
+      "🪴",
+      "Garden furniture this week"
+     ],
+     [
+      "🎿",
+      "Ski jackets next week"
+     ],
+     [
+      "🛠️",
+      "Tools, toys, tents"
+     ],
+     [
+      "🔁",
+      "Always something new"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson two. Its own brands.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Its own brands"
+   }
+  },
+  {
+   "say": "Most of what's in an Aldi isn't a famous brand. It's Aldi's own label, often made by the same kinds of factories that make the big names. No expensive TV adverts for each product, no brand premium.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Big brand",
+     "emoji": "📺",
+     "lines": [
+      "Pays for adverts",
+      "Charges for the name"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Aldi own label",
+     "emoji": "🏷️",
+     "lines": [
+      "No brand premium",
+      "Lower price"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "And yes, a lot of the packaging looks familiar. Aldi is famous for products that remind you of the brand you know. That has even landed it in court. Marks and Spencer took Aldi to court over a chocolate caterpillar cake.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Court",
+    "paper": "THE SHOPPING POST",
+    "text": "Marks and Spencer takes Aldi to court over a caterpillar cake",
+    "date": "Colin vs Cuthbert, the famous lookalike row"
+   }
+  },
+  {
+   "say": "Aldi turned the row into a joke on social media, and got huge publicity out of it. Being seen as the cheaper copy of something you already love turned out to be great marketing.",
+   "vis": {
+    "type": "hook",
+    "text": "The cheaper copy became the marketing.",
+    "emoji": "🐛",
+    "hot": [
+     "marketing."
+    ]
+   }
+  },
+  {
+   "say": "Lesson three. Boxes on the shelves.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "Boxes on the shelves"
+   }
+  },
+  {
+   "say": "Look at an Aldi shelf and you'll often see products still in their cardboard boxes, with the front torn off. That's on purpose. Staff can put a whole box on the shelf in one go instead of stacking items one by one.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Normal supermarket",
+     "emoji": "🧑‍🔧",
+     "lines": [
+      "Stack item by item",
+      "Slow, more staff"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Aldi",
+     "emoji": "📦",
+     "lines": [
+      "Whole box on the shelf",
+      "Fast, fewer staff"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "It doesn't look fancy, but it saves time on every single delivery, in every single shop, every single day. Those minutes add up to millions of pounds.",
+   "vis": {
+    "type": "hook",
+    "text": "Minutes saved. Millions saved.",
+    "emoji": "⏱️",
+    "hot": [
+     "Millions"
+    ]
+   }
+  },
+  {
+   "say": "The shops are kept simple too. No fish counter, no deli, no in-store bakery staff baking all day, and no huge car parks in the most expensive parts of town. Every one of those extras would add a cost that shows up in the price of your shopping.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Big supermarket",
+     "emoji": "🐟",
+     "lines": [
+      "Fish and deli counters",
+      "Huge stores"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Aldi",
+     "emoji": "🧺",
+     "lines": [
+      "Simple layout",
+      "Smaller stores"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "Lesson four. Fast tills and small teams.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Fast tills, small teams"
+   }
+  },
+  {
+   "say": "Aldi's checkouts are famously fast. Products have large barcodes on several sides so they scan quickly. And you pack your bags at a separate shelf after the till, so the next customer can start straight away.",
+   "vis": {
+    "type": "flow",
+    "title": "The Aldi checkout",
+    "nodes": [
+     [
+      "🛒",
+      "Scan fast"
+     ],
+     [
+      "🏷️",
+      "Big barcodes"
+     ],
+     [
+      "🧺",
+      "Pack at the side shelf"
+     ],
+     [
+      "⏩",
+      "Next customer, now"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🛒"
+   }
+  },
+  {
+   "say": "Staff do many jobs, not one. The same person might stack shelves, work the till and clean up. So a shop can run with a smaller team. Aldi also pays well for the industry, which helps it keep good staff who work fast.",
+   "vis": {
+    "type": "list",
+    "title": "Small, busy teams",
+    "items": [
+     [
+      "🧹",
+      "Clean"
+     ],
+     [
+      "📦",
+      "Stack"
+     ],
+     [
+      "💳",
+      "Work the till"
+     ],
+     [
+      "💷",
+      "Paid well for the industry"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson five. A tiny profit on every pound.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Tiny profit per pound"
+   }
+  },
+  {
+   "say": "Here's the part that surprises people. On nineteen billion pounds of sales in twenty twenty five, Aldi UK made about four hundred and thirty three million pounds in operating profit. That's just over two pence for every pound you spend.",
+   "vis": {
+    "type": "num",
+    "value": 2.3,
+    "dec": 1,
+    "suffix": "p",
+    "label": "operating profit from every £1 you spend",
+    "color": "gold",
+    "emoji": "🪙",
+    "source": "Aldi UK 2025: operating profit £432.9m on sales of £19bn"
+   }
+  },
+  {
+   "say": "Aldi is also privately owned, by a German family business. It doesn't have to please shareholders every three months, so it can accept thin profits now to win more customers over many years.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Stock market supermarket",
+     "emoji": "📊",
+     "lines": [
+      "Shareholders want profit",
+      "Every three months"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Aldi",
+     "emoji": "🏠",
+     "lines": [
+      "Family owned",
+      "Plays the long game"
+     ],
+     "color": "gold"
+    }
+   }
+  },
+  {
+   "say": "Aldi also invests heavily in lowering prices. In twenty twenty five it said it had spent three hundred and forty million pounds cutting prices on more than a thousand products. Lower prices bring more shoppers, and more shoppers mean bigger orders, which mean lower prices again.",
+   "vis": {
+    "type": "flow",
+    "title": "The Aldi loop",
+    "nodes": [
+     [
+      "🏷️",
+      "Cut prices"
+     ],
+     [
+      "🧍",
+      "More shoppers"
+     ],
+     [
+      "📦",
+      "Bigger orders"
+     ],
+     [
+      "🤝",
+      "Cheaper from suppliers"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🛒"
+   }
+  },
+  {
+   "say": "And it's working. Aldi first opened in Britain in nineteen ninety, in Birmingham. Today it has more than a thousand UK shops, and the big supermarkets now advertise that they match Aldi's prices.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "1990",
+      "First UK store in Birmingham"
+     ],
+     [
+      "2000s",
+      "Seen as a budget option"
+     ],
+     [
+      "2010s",
+      "Middle-class shoppers switch"
+     ],
+     [
+      "Today",
+      "1,000+ UK shops",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Think about that. When Tesco and Sainsbury's put Aldi Price Match signs on their shelves, they're admitting that Aldi sets the price everyone else has to follow.",
+   "vis": {
+    "type": "hook",
+    "text": "When rivals copy your prices, you've won.",
+    "emoji": "🏆",
+    "hot": [
+     "won."
+    ]
+   }
+  },
+  {
+   "say": "So is there a catch? Less choice, for one. If you love a particular brand, Aldi might not have it. And the special buys in the middle aisle, from tents to toasters, are designed to make you spend money you hadn't planned to.",
+   "vis": {
+    "type": "list",
+    "title": "The catches",
+    "items": [
+     [
+      "🔍",
+      "Less choice"
+     ],
+     [
+      "🏕️",
+      "The middle aisle temptation"
+     ],
+     [
+      "🧾",
+      "Some brands missing"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "But the formula is simple enough to write on a blackboard. Sell less choice. Buy in huge amounts. Make your own brands. Save time on everything. And accept a tiny profit on every pound.",
+   "vis": {
+    "type": "list",
+    "title": "The Aldi formula",
+    "items": [
+     [
+      "1️⃣",
+      "Less choice"
+     ],
+     [
+      "2️⃣",
+      "Huge orders"
+     ],
+     [
+      "3️⃣",
+      "Own brands"
+     ],
+     [
+      "4️⃣",
+      "Save time everywhere"
+     ],
+     [
+      "5️⃣",
+      "Tiny profit, lots of customers"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Lesson over. If you learned something, subscribe, and tell me in the comments which shop you want me to explain next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which shop should I explain next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "WHY IS ALDI|SO CHEAP?",
+  "emoji": "🧺",
+  "color": "gold",
+  "tag": "How it makes money"
+ }
+}

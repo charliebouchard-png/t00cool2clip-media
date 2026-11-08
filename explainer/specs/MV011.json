@@ -1,0 +1,469 @@
+{
+ "id": "MV011",
+ "style": "documentary",
+ "voice": "bf_isabella",
+ "speed": 0.92,
+ "accent": "gold",
+ "title": "How Football Clubs Lose Money and Still Survive",
+ "beats": [
+  {
+   "say": "The Premier League is one of the richest sports leagues on the planet. Last season its clubs brought in six point eight billion pounds. And together, they still lost nearly a billion.",
+   "vis": {
+    "type": "hook",
+    "text": "£6.8 billion in. Nearly £1 billion lost.",
+    "emoji": "⚽",
+    "hot": [
+     "£6.8",
+     "lost."
+    ]
+   }
+  },
+  {
+   "say": "In twenty twenty four twenty five, Premier League clubs made a combined pre-tax loss of nine hundred and forty eight million pounds. That's up from one hundred and thirty five million the season before.",
+   "vis": {
+    "type": "bars",
+    "title": "Premier League clubs' combined pre-tax result",
+    "prefix": "£",
+    "suffix": "m",
+    "items": [
+     [
+      "2023/24 loss",
+      135,
+      "teal"
+     ],
+     [
+      "2024/25 loss",
+      948,
+      "red"
+     ]
+    ],
+    "max": 1000,
+    "source": "Deloitte Annual Review of Football Finance 2026"
+   }
+  },
+  {
+   "say": "In most industries, a business that loses money year after year disappears. But big football clubs almost never do. So how do they survive?",
+   "vis": {
+    "type": "hook",
+    "text": "Losing money for years. Still here.",
+    "hot": [
+     "Still",
+     "here."
+    ]
+   }
+  },
+  {
+   "say": "Part one. Where the money comes from.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "Where the money comes from"
+   }
+  },
+  {
+   "say": "A football club has three main sources of money. Television. Match days. And commercial deals like shirt sponsors and kit sales.",
+   "vis": {
+    "type": "bars",
+    "title": "Premier League revenue, 2024/25",
+    "prefix": "£",
+    "suffix": "bn",
+    "dec": 1,
+    "items": [
+     [
+      "Broadcasting",
+      3.4,
+      "gold"
+     ],
+     [
+      "Commercial",
+      2.4,
+      "teal"
+     ],
+     [
+      "Match day",
+      1.0,
+      "red"
+     ]
+    ],
+    "max": 3.6,
+    "source": "Deloitte Annual Review of Football Finance 2026 (match day passed £1bn for the first time)"
+   }
+  },
+  {
+   "say": "Television is the biggest by far. The Premier League's latest UK rights deal, from twenty twenty five to twenty twenty nine, is worth a record six point seven billion pounds, shared between Sky, TNT Sports and the BBC.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 6.7,
+    "dec": 1,
+    "suffix": " billion",
+    "label": "UK TV rights, 2025 to 2029, a record",
+    "color": "gold",
+    "emoji": "📺",
+    "source": "Premier League announcement, December 2023"
+   }
+  },
+  {
+   "say": "Clubs also earn from overseas TV deals and the Champions League. Playing in Europe can bring in tens of millions of pounds a year, which is why finishing in the top four or five is worth so much.",
+   "vis": {
+    "type": "list",
+    "title": "Extra money for the best clubs",
+    "items": [
+     [
+      "🌍",
+      "Overseas TV rights"
+     ],
+     [
+      "⭐",
+      "European competitions"
+     ],
+     [
+      "🎽",
+      "Bigger sponsorships"
+     ],
+     [
+      "🛍️",
+      "More shirt sales"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Add overseas TV deals, and even the team that finishes bottom of the Premier League receives a huge sum from broadcasting. That's why getting promoted is called the richest game in football.",
+   "vis": {
+    "type": "headline",
+    "kicker": "The richest game",
+    "paper": "THE FOOTBALL GAZETTE",
+    "text": "Why promotion to the Premier League is worth a fortune",
+    "date": "Even the bottom club earns huge TV money"
+   }
+  },
+  {
+   "say": "Part two. Where the money goes.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Where the money goes"
+   }
+  },
+  {
+   "say": "Most of it goes on wages. In twenty twenty four twenty five, Premier League clubs spent a record four point four billion pounds on wages. That's sixty five pence of every pound they earned.",
+   "vis": {
+    "type": "num",
+    "value": 65,
+    "suffix": "%",
+    "label": "of revenue spent on wages (a record £4.4 billion)",
+    "color": "red",
+    "emoji": "💷",
+    "source": "Deloitte Annual Review of Football Finance 2026"
+   }
+  },
+  {
+   "say": "Then there are transfer fees. When a club buys a player for one hundred million pounds, it spreads that cost over the length of his contract in its accounts. But the cash still has to be found.",
+   "vis": {
+    "type": "flow",
+    "title": "How a transfer hits the accounts",
+    "nodes": [
+     [
+      "✍️",
+      "Sign a £100m player"
+     ],
+     [
+      "📅",
+      "Five year contract"
+     ],
+     [
+      "🧾",
+      "£20m cost a year"
+     ],
+     [
+      "💷",
+      "Plus his wages"
+     ]
+    ],
+    "color": "red",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "And clubs sell players too. A club that develops a young star and sells him for a big fee can turn a loss into a profit in one summer. Last season, Deloitte said a lack of big one-off sale profits was one reason losses jumped so much.",
+   "vis": {
+    "type": "flow",
+    "title": "The player trading game",
+    "nodes": [
+     [
+      "🧒",
+      "Develop young players"
+     ],
+     [
+      "⭐",
+      "They become stars"
+     ],
+     [
+      "💰",
+      "Sell for a big fee"
+     ],
+     [
+      "📈",
+      "Profit for that year"
+     ]
+    ],
+    "color": "gold",
+    "coin": "💷"
+   }
+  },
+  {
+   "say": "Why spend so much? Because in football, the prize for winning is enormous, and the punishment for losing is relegation. Every club is under pressure to spend just a little more than it can really afford.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Spend more",
+     "emoji": "🏆",
+     "lines": [
+      "Chance of trophies",
+      "Stay in the league"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "Spend less",
+     "emoji": "📉",
+     "lines": [
+      "Risk relegation",
+      "Lose TV money"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Last season, only eight Premier League clubs made an operating profit. The rest relied on something else to keep going.",
+   "vis": {
+    "type": "grid",
+    "emoji": "⚽",
+    "on": "💷",
+    "total": 20,
+    "highlight": 8,
+    "title": "Out of 20 Premier League clubs…",
+    "label": "only 8 made an operating profit",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "Part three. The owners.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The owners"
+   }
+  },
+  {
+   "say": "That something else is usually the owner. Many big clubs are owned by billionaires, investment funds or even countries. When the club loses money, the owner covers the gap, with loans or new money.",
+   "vis": {
+    "type": "list",
+    "title": "Who covers the losses",
+    "items": [
+     [
+      "💼",
+      "Billionaire owners"
+     ],
+     [
+      "🏦",
+      "Investment funds"
+     ],
+     [
+      "🌍",
+      "State-backed owners"
+     ],
+     [
+      "📄",
+      "Loans from the owner"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Why would anyone pour money into a business that loses it? Some want trophies and fame. Some want the club's value to rise, so they can sell it later for much more. Some want to improve their country's image on the world stage.",
+   "vis": {
+    "type": "list",
+    "title": "Why owners pay",
+    "items": [
+     [
+      "🏆",
+      "Trophies and status"
+     ],
+     [
+      "📈",
+      "Sell later for more"
+     ],
+     [
+      "🌍",
+      "A country's image"
+     ],
+     [
+      "❤️",
+      "Love of the club"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Some owners also borrow heavily against the club itself. That can leave the club paying huge interest bills for years, money that could have gone on players or the stadium. Fans of several famous clubs have protested about exactly this.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Owner puts money in",
+     "emoji": "💼",
+     "lines": [
+      "Covers losses",
+      "Club grows"
+     ],
+     "color": "gold"
+    },
+    "right": {
+     "title": "Owner borrows against club",
+     "emoji": "🏦",
+     "lines": [
+      "Interest bills",
+      "Fans protest"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "And club values have soared. A Premier League club is a scarce thing. There are only twenty of them, and new ones can't simply be created. That scarcity is what makes them worth billions, even when they lose money.",
+   "vis": {
+    "type": "hook",
+    "text": "Only twenty exist. That's why they're worth billions.",
+    "hot": [
+     "twenty",
+     "billions."
+    ]
+   }
+  },
+  {
+   "say": "Part four. The rules that try to stop it.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "The rules"
+   }
+  },
+  {
+   "say": "To stop owners spending without limit, the Premier League has had financial rules. Under its profit and sustainability rules, clubs could lose no more than one hundred and five million pounds over three years.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 105,
+    "suffix": "m",
+    "label": "the maximum loss allowed over three years under the old rules",
+    "color": "gold",
+    "emoji": "⚖️",
+    "source": "Premier League profit and sustainability rules"
+   }
+  },
+  {
+   "say": "Break them, and you can be punished. In the twenty twenty three twenty four season, Everton and Nottingham Forest were both deducted points for breaking the rules.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2023/24",
+    "paper": "THE FOOTBALL GAZETTE",
+    "text": "Everton and Nottingham Forest hit with points deductions",
+    "date": "For breaking the league's financial rules"
+   }
+  },
+  {
+   "say": "The league has been moving to new rules that link spending more closely to how much a club earns, and the government has set up an independent football regulator. The battle over football's money is far from over.",
+   "vis": {
+    "type": "timeline",
+    "events": [
+     [
+      "Old rules",
+      "Max £105m loss over 3 years"
+     ],
+     [
+      "2023/24",
+      "Points deductions"
+     ],
+     [
+      "New era",
+      "Spending linked to revenue"
+     ],
+     [
+      "Plus",
+      "An independent regulator",
+      "gold"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Part five. When clubs really do go bust.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "When clubs go bust"
+   }
+  },
+  {
+   "say": "Further down the leagues, there's no billionaire safety net. In twenty nineteen, Bury, a club founded in eighteen eighty five, was expelled from the Football League after its finances collapsed.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2019",
+    "paper": "THE FOOTBALL GAZETTE",
+    "text": "Bury expelled from the Football League",
+    "date": "A club founded in 1885"
+   }
+  },
+  {
+   "say": "And the Championship, the league below the Premier League, is even more extreme. Last season its clubs lost three hundred and fifty five million pounds, and only three of them made a profit. Many are gambling that promotion will pay for everything.",
+   "vis": {
+    "type": "num",
+    "prefix": "£",
+    "value": 355,
+    "suffix": "m",
+    "label": "Championship clubs' combined pre-tax loss, 2024/25",
+    "color": "red",
+    "emoji": "🎲",
+    "source": "Deloitte Annual Review of Football Finance 2026"
+   }
+  },
+  {
+   "say": "So how do football clubs lose money and still survive? They're not really run like normal businesses. They're run like trophies. Somebody rich is usually willing to pay to keep them going, because the prize is glory, and the club's value keeps rising.",
+   "vis": {
+    "type": "hook",
+    "text": "They're not run like businesses. They're run like trophies.",
+    "emoji": "🏆",
+    "hot": [
+     "trophies."
+    ]
+   }
+  },
+  {
+   "say": "But when the money stops, as Bury found out, even a club that's been around for more than a century can disappear.",
+   "vis": {
+    "type": "hook",
+    "text": "When the money stops, history can't save you.",
+    "hot": [
+     "money",
+     "stops,"
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more on the money behind the things you love. And tell me in the comments which club's finances I should look at next.",
+   "vis": {
+    "type": "outro",
+    "text": "Which club should I look at next?",
+    "sub": "Tell me in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "LOSING|MILLIONS.|STILL ALIVE.",
+  "emoji": "⚽",
+  "color": "red",
+  "tag": "How it makes money"
+ }
+}

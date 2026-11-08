@@ -1,0 +1,487 @@
+{
+ "id": "MV009",
+ "style": "neon",
+ "variant": 1,
+ "voice": "af_kore",
+ "speed": 0.88,
+ "title": "How Netflix Makes Money Now Everyone Shares Passwords",
+ "beats": [
+  {
+   "say": "For years, Netflix let millions of people watch for free on someone else's account. Then it stopped them, and made a fortune doing it.",
+   "vis": {
+    "type": "hook",
+    "text": "It let you share. Then it cashed in.",
+    "emoji": "🍿",
+    "hot": [
+     "cashed",
+     "in."
+    ]
+   }
+  },
+  {
+   "say": "Netflix once said around one hundred million households were watching on a shared account. That's a huge number of people getting it free.",
+   "vis": {
+    "type": "num",
+    "value": 100,
+    "suffix": " million",
+    "label": "households Netflix said were using shared accounts (2022)",
+    "color": "red",
+    "emoji": "🔑",
+    "source": "Netflix shareholder letter, April 2022"
+   }
+  },
+  {
+   "say": "Why would a business let that happen for so long? And what happened when it finally said no? Let's find out.",
+   "vis": {
+    "type": "hook",
+    "text": "Why let people share for years?",
+    "emoji": "🤔",
+    "hot": [
+     "share"
+    ]
+   }
+  },
+  {
+   "say": "Part one. How Netflix makes money.",
+   "vis": {
+    "type": "chapter",
+    "n": 1,
+    "text": "The subscription"
+   }
+  },
+  {
+   "say": "Netflix's business is simple on the surface. You pay a monthly fee. It spends that money on films and series. If enough people keep paying, it makes a profit.",
+   "vis": {
+    "type": "flow",
+    "title": "The Netflix loop",
+    "nodes": [
+     [
+      "💳",
+      "Monthly fees"
+     ],
+     [
+      "🎬",
+      "Spend on shows"
+     ],
+     [
+      "📺",
+      "People keep watching"
+     ],
+     [
+      "🔁",
+      "People keep paying"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "The key thing is that a show costs the same to make whether one person watches it or a hundred million. So every extra subscriber is almost pure profit once the show exists.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Making a show",
+     "emoji": "🎬",
+     "lines": [
+      "Costs millions",
+      "Same cost for everyone"
+     ],
+     "color": "red"
+    },
+    "right": {
+     "title": "One more viewer",
+     "emoji": "🧍",
+     "lines": [
+      "Costs almost nothing",
+      "Pays a full fee"
+     ],
+     "color": "teal"
+    }
+   }
+  },
+  {
+   "say": "That's why the subscription model is so powerful. A cinema has to sell a ticket every single time you watch something. Netflix gets paid every month whether you watch ten series or nothing at all.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Cinema",
+     "emoji": "🎟️",
+     "lines": [
+      "Pay every time",
+      "Empty seats lose money"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "Netflix",
+     "emoji": "💳",
+     "lines": [
+      "Paid every month",
+      "Watch or not"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "By the end of twenty twenty five, Netflix had more than three hundred and twenty five million paying memberships around the world.",
+   "vis": {
+    "type": "num",
+    "value": 325,
+    "suffix": " million",
+    "label": "paid Netflix memberships at the end of 2025",
+    "color": "teal",
+    "emoji": "📺",
+    "source": "Netflix Q4 2025 results"
+   }
+  },
+  {
+   "say": "Part two. Why sharing was allowed.",
+   "vis": {
+    "type": "chapter",
+    "n": 2,
+    "text": "Why sharing was allowed"
+   }
+  },
+  {
+   "say": "In the early days, Netflix was fighting to win. Sharing was a free advert. Your friend watches on your login, gets hooked on a series, and might sign up for their own account one day.",
+   "vis": {
+    "type": "flow",
+    "title": "Sharing as free marketing",
+    "nodes": [
+     [
+      "🔑",
+      "Friend uses your login"
+     ],
+     [
+      "😍",
+      "Gets hooked"
+     ],
+     [
+      "📝",
+      "Maybe signs up"
+     ]
+    ],
+    "color": "teal",
+    "coin": "🔑"
+   }
+  },
+  {
+   "say": "And while Netflix was growing fast, nobody worried. New subscribers were pouring in every quarter anyway.",
+   "vis": {
+    "type": "line",
+    "title": "Netflix growing fast (illustrative)",
+    "points": [
+     20,
+     30,
+     45,
+     60,
+     80,
+     110,
+     140,
+     170,
+     200,
+     220
+    ],
+    "labels": [
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    "color": "teal",
+    "end": "Growth"
+   }
+  },
+  {
+   "say": "Then, in twenty twenty two, it went wrong. For the first time in about ten years, Netflix announced it had lost subscribers. Its share price fell sharply. Suddenly, those hundred million sharing households looked like money left on the table.",
+   "vis": {
+    "type": "headline",
+    "kicker": "2022",
+    "paper": "THE STREAMING TIMES",
+    "text": "Netflix loses subscribers for the first time in a decade",
+    "date": "Share price falls sharply"
+   }
+  },
+  {
+   "say": "Part three. The crackdown.",
+   "vis": {
+    "type": "chapter",
+    "n": 3,
+    "text": "The crackdown"
+   }
+  },
+  {
+   "say": "In twenty twenty three, Netflix rolled out paid sharing across more than a hundred countries. If someone outside your household used your account, you could pay a few pounds extra a month to add them. Or they could get their own.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Before",
+     "emoji": "🆓",
+     "lines": [
+      "Share with anyone",
+      "Free"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "After",
+     "emoji": "💳",
+     "lines": [
+      "Pay for extra members",
+      "Or get your own"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "People were furious. Many said they'd cancel. But the numbers told a different story. In just three months, Netflix added nearly six million new paid subscribers.",
+   "vis": {
+    "type": "num",
+    "value": 6,
+    "suffix": " million",
+    "label": "new paid subscribers in three months after the crackdown",
+    "color": "red",
+    "emoji": "📈",
+    "source": "Netflix Q2 2023 results"
+   }
+  },
+  {
+   "say": "Netflix made it easy to keep going. It sent messages offering to move the extra viewer's profile, history and saved shows into a new account of their own. You didn't lose anything. You just started paying.",
+   "vis": {
+    "type": "flow",
+    "title": "Making it easy to pay",
+    "nodes": [
+     [
+      "📩",
+      "You get a message"
+     ],
+     [
+      "👤",
+      "Move your profile"
+     ],
+     [
+      "📺",
+      "Keep your history"
+     ],
+     [
+      "💳",
+      "Start paying"
+     ]
+    ],
+    "color": "teal",
+    "coin": "💳"
+   }
+  },
+  {
+   "say": "It turns out most people complained, and then paid. The sharers who were forced to choose mostly chose to keep watching.",
+   "vis": {
+    "type": "hook",
+    "text": "Everyone complained. Then they paid.",
+    "emoji": "😤",
+    "hot": [
+     "paid."
+    ]
+   }
+  },
+  {
+   "say": "Part four. Adverts.",
+   "vis": {
+    "type": "chapter",
+    "n": 4,
+    "text": "Adverts arrive"
+   }
+  },
+  {
+   "say": "Netflix used to promise no adverts, ever. Then, in late twenty twenty two, it launched a cheaper plan with ads. It sounds like a downgrade, but it's a clever move.",
+   "vis": {
+    "type": "headline",
+    "kicker": "Late 2022",
+    "paper": "THE STREAMING TIMES",
+    "text": "Netflix launches a cheaper plan with adverts",
+    "date": "The company once promised no ads"
+   }
+  },
+  {
+   "say": "A cheaper plan pulls in people who thought Netflix was too expensive. Then Netflix gets paid twice. Once by the viewer, and again by the advertisers who want to reach them.",
+   "vis": {
+    "type": "flow",
+    "title": "Paid twice",
+    "nodes": [
+     [
+      "🧍",
+      "Viewer pays less"
+     ],
+     [
+      "📺",
+      "Watches adverts"
+     ],
+     [
+      "🏢",
+      "Advertisers pay Netflix"
+     ],
+     [
+      "💵",
+      "Two sources of money"
+     ]
+    ],
+    "color": "red",
+    "coin": "💵"
+   }
+  },
+  {
+   "say": "It also explains why prices keep rising on the ad-free plans. The bigger the gap, the more people pick the plan with adverts, which Netflix can make money from in two ways.",
+   "vis": {
+    "type": "bars",
+    "title": "The plans (illustrative)",
+    "prefix": "£",
+    "dec": 2,
+    "items": [
+     [
+      "With adverts",
+      5.99,
+      "teal"
+     ],
+     [
+      "Standard",
+      12.99,
+      "gold"
+     ],
+     [
+      "Premium",
+      18.99,
+      "red"
+     ]
+    ],
+    "max": 20,
+    "source": "Illustrative UK-style prices; check current prices"
+   }
+  },
+  {
+   "say": "Part five. Spending billions to keep you.",
+   "vis": {
+    "type": "chapter",
+    "n": 5,
+    "text": "Spending billions to keep you"
+   }
+  },
+  {
+   "say": "To stop you cancelling, Netflix has to keep you watching. It expects to spend around twenty billion dollars on content in twenty twenty six. Series, films, live sport, games.",
+   "vis": {
+    "type": "num",
+    "prefix": "$",
+    "value": 20,
+    "suffix": " billion",
+    "label": "expected content spending in 2026",
+    "color": "red",
+    "emoji": "🎬",
+    "source": "Netflix Q4 2025 shareholder letter"
+   }
+  },
+  {
+   "say": "And Netflix is famous for using data. It knows what you watch, when you stop, and what you skip. That helps it decide which shows to make, and which thumbnails to show you to get you to press play.",
+   "vis": {
+    "type": "list",
+    "title": "What Netflix knows",
+    "items": [
+     [
+      "▶️",
+      "What you start"
+     ],
+     [
+      "⏸️",
+      "Where you stop"
+     ],
+     [
+      "⏭️",
+      "What you skip"
+     ],
+     [
+      "🖼️",
+      "Which thumbnail made you click"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It has also started showing live events, like big sports matches and boxing. Live events are important, because people have to watch them as they happen. That gives them a reason to keep paying every single month, instead of signing up for one series and cancelling.",
+   "vis": {
+    "type": "list",
+    "title": "Why live events matter",
+    "items": [
+     [
+      "🥊",
+      "Big fights"
+     ],
+     [
+      "🏈",
+      "Sports matches"
+     ],
+     [
+      "📅",
+      "Watch it live"
+     ],
+     [
+      "🔁",
+      "So you don't cancel"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "Because the biggest enemy of a subscription business isn't another streaming service. It's the cancel button. Everything Netflix does is designed to stop you pressing it.",
+   "vis": {
+    "type": "hook",
+    "text": "The real enemy is the cancel button.",
+    "emoji": "🛑",
+    "hot": [
+     "cancel"
+    ]
+   }
+  },
+  {
+   "say": "So here's the twist. The password crackdown didn't just make money. It turned millions of free watchers into paying customers, many of them on the plan with adverts. They now make money for Netflix twice.",
+   "vis": {
+    "type": "hook",
+    "text": "Free watchers became paying customers.",
+    "emoji": "🔁",
+    "hot": [
+     "paying"
+    ]
+   }
+  },
+  {
+   "say": "The lesson for any business? Giving something away can be a smart way to grow. But eventually, someone has to pay. And when the moment comes, most people will.",
+   "vis": {
+    "type": "hook",
+    "text": "Free helps you grow. Eventually, someone pays.",
+    "emoji": "💡",
+    "hot": [
+     "pays."
+    ]
+   }
+  },
+  {
+   "say": "Subscribe for more on how the apps you use really make money. And tell me in the comments, are you still using someone else's password?",
+   "vis": {
+    "type": "outro",
+    "text": "Still using someone else's login?",
+    "sub": "Be honest in the comments"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "THEY LET|YOU SHARE|ON PURPOSE",
+  "emoji": "🍿",
+  "color": "red",
+  "tag": "How it makes money"
+ }
+}

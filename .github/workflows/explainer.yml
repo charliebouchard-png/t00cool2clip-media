@@ -46,7 +46,7 @@ jobs:
       - name: Music, mix and package
         run: |
           D=$(python -c "import json;print(sum(t['dur'] for t in json.load(open('$RUNNER_TEMP/timing.json')))+1)")
-          python explainer/music.py "$D" "${{ strategy.job-index }}" "$RUNNER_TEMP/music.wav"
+          SEED=$(echo "${{ matrix.id }}" | tr -dc 0-9); python explainer/music.py "$D" "${SEED:-1}" "$RUNNER_TEMP/music.wav"
           mkdir -p out
           ffmpeg -y -loglevel error -i "$RUNNER_TEMP/video.mp4" -i "$RUNNER_TEMP/voice.wav" -i "$RUNNER_TEMP/music.wav" \
             -filter_complex "[1:a]aresample=48000[v];[2:a]aresample=48000,volume=0.16[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" \

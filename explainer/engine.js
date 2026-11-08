@@ -175,12 +175,12 @@ window.frame = (t, q = .86) => {
   if (T.bar !== false) { X.fillStyle = C.line; X.fillRect(0, 0, W, 6); X.fillStyle = T.bar || C.gold; X.fillRect(0, 0, W * t / spec.dur, 6); }
   return cv.toDataURL('image/jpeg', q);
 };
-window.thumb = (v, style) => { // 1920x1080 thumbnail, downscaled later
-  setTheme(style || 'ledger'); const c = col(v.color || 'red'); T.bg(3, c, 0, true); if (T.thumbBg) T.thumbBg(c);
+window.thumb = (v, style, variant) => { // 1920x1080 thumbnail, downscaled later
+  setTheme(style || 'ledger', variant || 0); const c = col(v.color || 'red'); T.bg(3, c, 0, true); if (T.thumbBg) T.thumbBg(c);
   X.save(); X.translate(1560, 500); X.rotate(-.08); glow(c, 80); emo(v.emoji, 0, 0, 460); noglow(); X.restore();
   const lines = v.text.split('|'); const ff = T.thumbFont || T.head; let fs = 260; X.font = F(700, fs, ff); const widest = Math.max(...lines.map(l => X.measureText(T.upper ? l.toUpperCase() : l).width));
   fs = Math.floor(Math.min(fs, fs * 1080 / widest, 700 / (lines.length * 1.05))); v = Object.assign({}, v, { size: fs }); let y = 120 + fs * .55 + (700 - lines.length * fs * 1.05) / 2;
   lines.forEach((l, i) => { X.save(); X.font = F(700, v.size || 170); X.textAlign = 'left'; X.textBaseline = 'middle'; X.font = F(700, v.size || 170, T.thumbFont || T.head); X.lineWidth = 22; X.strokeStyle = T.thumbStroke || '#000'; X.lineJoin = 'round'; X.strokeText(l, 90, y); X.fillStyle = i === (v.hl ?? lines.length - 1) ? (v.hlColor ? col(v.hlColor) : C.gold) : (T.thumbFg || '#fff'); X.fillText(l, 90, y); X.restore(); y += (v.size || 170) * 1.08; });
   if (v.tag) { X.save(); X.fillStyle = c; X.font = `700 70px "Inter", "Noto Color Emoji"`; const tg = v.tag.toUpperCase(); const w = X.measureText(tg).width; rr(90, 880, w + 70, 116, 18); X.fill(); X.fillStyle = '#fff'; X.textBaseline = 'middle'; X.fillText(tg, 125, 940); X.restore(); }
   if (T.thumbPost) T.thumbPost(); else vignette(); return cv.toDataURL('image/jpeg', .92); };
-window.init = spec => { setTheme(spec.style || 'ledger'); window.SPEC = spec; prep(spec); return { dur: spec.dur }; };
+window.init = spec => { setTheme(spec.style || 'ledger', spec.variant || 0, spec.trans); window.SPEC = spec; prep(spec); return { dur: spec.dur }; };

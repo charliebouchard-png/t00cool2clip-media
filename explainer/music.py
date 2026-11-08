@@ -11,7 +11,7 @@ for bi in range(int(dur / bar) + 2):
     for m in prog[bi % 4]:
         for det in (-.07, .07): o[s0:s0 + L] += .02 * np.sin(2 * np.pi * f(m) * (1 + det / 100) * tt) * envl
     o[s0:s0 + L] += .03 * np.sin(2 * np.pi * f(prog[bi % 4][0] - 24) * tt) * envl
-beat = 60 / 84
+beat = 60 / (76 + (seed * 7) % 24)
 for k in range(int(dur / beat)):
     i0 = int(k * beat * SR); L = int(.25 * SR); tt = np.arange(min(L, n - i0)) / SR
     o[i0:i0 + len(tt)] += .05 * np.sin(2 * np.pi * (50 + 40 * np.exp(-tt * 30)) * tt) * np.exp(-tt * 12) * (k % 2 == 0)

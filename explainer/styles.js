@@ -132,5 +132,15 @@ const THEMES = {
       const d = .7; if (!pb || lt >= d) return draw(b, gt); const e = eio(lt / d); X.save(); X.translate(0, -H * e); draw(pb, b.t0 - .001); X.restore(); X.save(); X.translate(0, H * (1 - e)); draw(b, gt); X.restore(); },
     post: () => {}, cap: { bg: 'rgba(27,23,18,.82)', fg: '#fff8e6', hl: '#ffd166', font: 'Fredoka' }, bar: '#ff8c00', thumbStroke: '#1b1712', thumbFg: '#fff8e6', thumbPost: () => {} },
 };
-function setTheme(name) { T = THEMES[name] || THEMES.ledger; Object.assign(C, C0, T.C || {}); }
+const VARIANTS = {
+  ledger: [{}, { gold: '#ffb86b', teal: '#7aa2ff', red: '#ff6b9a' }, { gold: '#c3f73a', teal: '#3ad1f7', red: '#ff7849' }],
+  neon: [{}, { teal: '#39ff88', red: '#ff9f1c' }, { teal: '#b388ff', red: '#ff2e2e', gold: '#00f5d4' }],
+  chalk: [{}, { gold: '#ffb3c6', teal: '#ffe066' }, { gold: '#a0e7a0', teal: '#ffd6a5' }],
+  collage: [{}, { gold: '#1d4ed8', red: '#1d4ed8' }, { gold: '#2d6a4f', red: '#d00000' }],
+  bold: [{}, { gold: '#0047ff', red: '#0047ff' }, { gold: '#ff6a00', red: '#ff6a00' }],
+};
+const TRANS = { fade: tFade, pan: tPan, slap: tSlap, cut: tCut, wipe: tWipe, glitch: tGlitch };
+function setTheme(name, variant, trans) { T = Object.assign({}, THEMES[name] || THEMES.ledger); Object.assign(C, C0, T.C || {});
+  const vs = VARIANTS[name]; if (vs && variant) Object.assign(C, vs[variant % vs.length]); if (trans && TRANS[trans] && name !== 'storybook') T.trans = TRANS[trans];
+  if (vs && variant && T.bar) T.bar = C.red; }
 window.STYLES = Object.fromEntries(Object.entries(THEMES).map(([k, v]) => [k, v.label]));

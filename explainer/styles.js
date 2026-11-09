@@ -94,7 +94,7 @@ function stickman(x, y, o, t, walking) { // feet at (x,y)
   if (o.role === 'agent') { const sc = o.suit || '#2b2f3a';
     X.beginPath(); X.moveTo(-34, sh); X.lineTo(34, sh); X.lineTo(30, hip + 6); X.lineTo(-30, hip + 6); X.closePath(); X.fillStyle = sc; X.fill(); X.lineWidth = 5; X.strokeStyle = ink; X.stroke();
     X.beginPath(); X.moveTo(-12, sh); X.lineTo(0, sh + 44); X.lineTo(12, sh); X.closePath(); X.fillStyle = '#ffffff'; X.fill(); X.stroke();
-    X.beginPath(); X.moveTo(-6, sh + 6); X.lineTo(6, sh + 6); X.lineTo(4, sh + 58); X.lineTo(0, sh + 66); X.lineTo(-4, sh + 58); X.closePath(); X.fillStyle = o.tie || '#00a19a'; X.fill(); X.lineWidth = 3; X.stroke();
+    X.beginPath(); X.moveTo(-6, sh + 6); X.lineTo(6, sh + 6); X.lineTo(4, sh + 58); X.lineTo(0, sh + 66); X.lineTo(-4, sh + 58); X.closePath(); X.fillStyle = o.tie || '#4d942c'; X.fill(); X.lineWidth = 3; X.stroke();
     X.lineWidth = 5; X.beginPath(); X.moveTo(-12, sh); X.lineTo(-20, sh + 60); X.moveTo(12, sh); X.lineTo(20, sh + 60); X.stroke();
     X.fillStyle = '#e8e2d0'; X.beginPath(); X.arc(0, sh + 78, 3.5, 0, 7); X.arc(0, sh + 96, 3.5, 0, 7); X.fill();
   } else { X.strokeStyle = ink; X.lineWidth = 8; X.beginPath(); X.moveTo(0, sh); X.lineTo(0, hip); X.stroke();
@@ -114,10 +114,11 @@ function stickman(x, y, o, t, walking) { // feet at (x,y)
   X.restore();
   if (o.prop) emo(o.prop, x + (o.flip ? -1 : 1) * 80 * s, y - 110 * s, 64 * s / 1.5);
 }
-const YM_LOGO = new Image(); YM_LOGO.src = 'brand/yourmove-logo.png';
-function agencySign(x, y, w, h, nf) { X.beginPath(); rr(x, y, w, h, 14); inkPath('#ffffff', 5);
-  if (YM_LOGO.complete && YM_LOGO.naturalWidth) { const bh = h * .62, bw = Math.min(w * .9, bh * YM_LOGO.naturalWidth / YM_LOGO.naturalHeight), bH = bw * YM_LOGO.naturalHeight / YM_LOGO.naturalWidth; X.drawImage(YM_LOGO, x + (w - bw) / 2, y + h * .08 + (bh - bH) / 2, bw, bH); }
-  else txt('YOUR MOVE', x + w / 2, y + h * .42, F(700, h * .42, 'Poppins'), '#1b1712'); txt('Nolan Throw', x + w / 2, y + h * .8, F(500, h * .2, 'Poppins'), '#00a19a'); }
+const YM_LOGO = new Image(); if (window.YM_LOGO_SRC) YM_LOGO.src = window.YM_LOGO_SRC;
+function agencySign(x, y, w, h, nf) { X.beginPath(); rr(x, y, w, h, 14); inkPath('#4d942c', 5);
+  if (YM_LOGO.complete && YM_LOGO.naturalWidth) { const bh = h * .7, bw = Math.min(w * .9, bh * YM_LOGO.naturalWidth / YM_LOGO.naturalHeight), bH = bw * YM_LOGO.naturalHeight / YM_LOGO.naturalWidth; X.drawImage(YM_LOGO, x + (w - bw) / 2, y + h * .04 + (bh - bH) / 2, bw, bH); }
+  else txt('YOUR MOVE', x + w / 2, y + h * .4, F(700, h * .4, 'Poppins'), '#ffffff');
+  txt('Nolan Throw', x + w / 2, y + h * .86, F(600, h * .16, 'Poppins'), '#ffffff'); }
 function streetBg(t, doorOpen) {
   const sky = X.createLinearGradient(0, 0, 0, H); sky.addColorStop(0, '#7cc8ff'); sky.addColorStop(.7, '#d9f0ff'); X.fillStyle = sky; X.fillRect(0, 0, W, H);
   for (let i = 0; i < 4; i++) { const cx = ((rnd(i) * W + t * (10 + i * 4)) % (W + 400)) - 200, cy = 80 + rnd(i + 4) * 120; X.save(); X.translate(cx, cy); X.beginPath(); X.arc(0, 0, 36, Math.PI, 0); X.arc(46, -18, 50, Math.PI, 0); X.arc(100, 0, 36, Math.PI, 0); X.closePath(); inkPath('#ffffff', 4); X.restore(); }
@@ -125,7 +126,7 @@ function streetBg(t, doorOpen) {
   [[0, 300, '#f4d6a0'], [1520, 400, '#cfe3d4']].forEach(([x, w, c]) => { X.beginPath(); X.rect(x - 10, 240, w + 20, 640); inkPath(c, 5); for (let r = 0; r < 2; r++) for (let k = 0; k < 2; k++) { X.beginPath(); X.rect(x + 50 + k * (w / 2 - 20), 300 + r * 150, w / 2 - 90, 100); inkPath('#d6f1ff', 4); } });
   // Your Move shop
   X.beginPath(); X.rect(300, 180, 1220, 700); inkPath('#f7f3ea', 6);
-  X.beginPath(); X.rect(300, 180, 1220, 150); inkPath('#00a19a', 6); agencySign(660, 200, 500, 110);
+  X.beginPath(); X.rect(300, 180, 1220, 230); inkPath("#1f2245", 6); agencySign(610, 190, 600, 210);
   X.beginPath(); X.rect(360, 400, 640, 420); inkPath('#d6f1ff', 6);
   // window cards
   for (let r = 0; r < 2; r++) for (let k = 0; k < 4; k++) { const cx = 390 + k * 150, cy = 430 + r * 190; X.beginPath(); X.rect(cx, cy, 120, 160); inkPath('#ffffff', 3); X.beginPath(); X.rect(cx + 12, cy + 12, 96, 70); inkPath(['#ffd166', '#8ecae6', '#06d6a0', '#f4a261'][(k + r) % 4], 2); emo('🏠', cx + 60, cy + 48, 44); X.fillStyle = '#1b1712'; X.fillRect(cx + 16, cy + 100, 88, 8); X.fillRect(cx + 16, cy + 120, 60, 8); }
@@ -133,16 +134,16 @@ function streetBg(t, doorOpen) {
   const dx = 1100, dw = 300; X.beginPath(); X.rect(dx, 400, dw, 480); inkPath('#2b2f3a', 6);
   const op = cl(doorOpen); X.save(); X.beginPath(); X.rect(dx + 10, 410, (dw - 20) * (1 - op * .75), 460); inkPath('#bfe3f5', 5); X.restore();
   if (op > .02) { X.fillStyle = 'rgba(255,236,170,.9)'; X.fillRect(dx + 10 + (dw - 20) * (1 - op * .75) + 4, 412, (dw - 20) * op * .75 - 6, 456); }
-  txt('OPEN', dx + dw / 2, 470, F(700, 36, 'Poppins'), '#00a19a');
+  txt('OPEN', dx + dw / 2, 470, F(700, 36, 'Poppins'), '#4d942c');
   // pavement
   X.beginPath(); X.rect(-10, 880, W + 20, 220); inkPath('#d9d4c7', 5); X.strokeStyle = 'rgba(27,23,18,.25)'; X.lineWidth = 3; for (let x = -((t * 0) % 160); x < W; x += 160) { X.beginPath(); X.moveTo(x, 880); X.lineTo(x - 60, H); X.stroke(); }
 }
 function officeBg(t) {
   X.fillStyle = '#f4efe4'; X.fillRect(0, 0, W, H); X.fillStyle = '#e7dfcf'; X.fillRect(0, 0, W, 90);
-  X.fillStyle = '#00a19a'; X.fillRect(0, 600, W, 14);
-  agencySign(700, 130, 520, 120);
+  X.fillStyle = '#4d942c'; X.fillRect(0, 600, W, 14);
+  agencySign(110, 70, 560, 200);
   // window
-  X.beginPath(); X.rect(120, 140, 420, 330); inkPath('#cfeeff', 6); X.strokeStyle = '#1b1712'; X.lineWidth = 5; X.beginPath(); X.moveTo(330, 140); X.lineTo(330, 470); X.moveTo(120, 305); X.lineTo(540, 305); X.stroke();
+  X.beginPath(); X.rect(150, 310, 500, 260); inkPath('#cfeeff', 6); X.strokeStyle = '#1b1712'; X.lineWidth = 5; X.beginPath(); X.moveTo(400, 310); X.lineTo(400, 570); X.moveTo(150, 440); X.lineTo(650, 440); X.stroke();
   // property boards on wall
   for (let k = 0; k < 3; k++) { const bx = 1340 + k * 170, by = 160; X.beginPath(); X.rect(bx, by, 140, 180); inkPath('#ffffff', 4); X.beginPath(); X.rect(bx + 12, by + 12, 116, 80); inkPath(['#ffd166', '#8ecae6', '#06d6a0'][k], 3); emo('🏡', bx + 70, by + 54, 50); X.fillStyle = '#1b1712'; X.fillRect(bx + 18, by + 110, 100, 9); X.fillRect(bx + 18, by + 134, 70, 9); }
   // plant
@@ -172,11 +173,11 @@ S.stick = (v, lt, d) => { // stick-figure scene: setting street/office/town, cas
 S.warning = (v, lt) => { const p = eo(lt / .5); X.save(); X.globalAlpha = p; X.beginPath(); rr(200, 300, W - 400, 480, 30); inkPath('#ffffff', 6);
   txt(v.title || 'Important', W / 2, 380, F(700, 52), '#e4572e'); wrap(v.text, W - 560, F(700, 50)).forEach((l, i) => txt(l, W / 2, 480 + i * 66, F(700, 50), '#1b1712'));
   if (v.small) wrap(v.small, W - 560, F(500, 30)).forEach((l, i) => txt(l, W / 2, 690 + i * 40, F(500, 30), '#5b5347')); X.restore(); };
-S.endcard = (v, lt) => { const p = eo(lt / .6); X.save(); X.globalAlpha = p; agencySign(W / 2 - 360, 170, 720, 170);
+S.endcard = (v, lt) => { const p = eo(lt / .6); X.save(); X.globalAlpha = p; agencySign(W / 2 - 380, 110, 760, 270);
   txt(v.text || 'Search "Your Move" and contact your closest branch', W / 2, 480, F(700, 64), '#1b1712');
-  if (v.sub) txt(v.sub, W / 2, 570, F(600, 46), '#00a19a');
+  if (v.sub) txt(v.sub, W / 2, 570, F(600, 46), '#4d942c');
   if (v.small) wrap(v.small, 1500, F(500, 30)).forEach((l, i) => txt(l, W / 2, 680 + i * 42, F(500, 30), '#5b5347'));
-  X.restore(); stickman(330, 960, { role: 'agent', wave: 1, tie: '#00a19a', size: 1.2 }, lt); stickman(1590, 960, { role: 'agent', suit: '#3d3a4b', tie: '#e4572e', wave: 1, hair: '#6b3e26', flip: 1, size: 1.2 }, lt + 1); };
+  X.restore(); stickman(330, 960, { role: 'agent', wave: 1, tie: '#4d942c', size: 1.2 }, lt); stickman(1590, 960, { role: 'agent', suit: '#3d3a4b', tie: '#e4572e', wave: 1, hair: '#6b3e26', flip: 1, size: 1.2 }, lt + 1); };
 
 // ---- themes ----
 const THEMES = {
@@ -232,13 +233,13 @@ const THEMES = {
       const d = .7; if (!pb || lt >= d) return draw(b, gt); const e = eio(lt / d); X.save(); X.translate(0, -H * e); draw(pb, b.t0 - .001); X.restore(); X.save(); X.translate(0, H * (1 - e)); draw(b, gt); X.restore(); },
     post: () => {}, cap: { bg: 'rgba(27,23,18,.82)', fg: '#fff8e6', hl: '#ffd166', font: 'Fredoka' }, bar: '#ff8c00', thumbStroke: '#1b1712', thumbFg: '#fff8e6', thumbPost: () => {} },
   agency: { label: 'Estate agency ad (stick figures, shopfront and office, warm and friendly)',
-    C: { bg0: '#f4efe4', bg1: '#f4efe4', gold: '#00a19a', red: '#e4572e', teal: '#1f6f8b', white: '#1b1712', mute: '#5b5347', ink: '#1b1712', panel: 'rgba(27,23,18,.06)', line: 'rgba(27,23,18,.25)', dim: '#c7bba3', dots: 'rgba(27,23,18,.18)' },
+    C: { bg0: '#f4efe4', bg1: '#f4efe4', gold: '#4d942c', red: '#e4572e', teal: '#1f6f8b', white: '#1b1712', mute: '#5b5347', ink: '#1b1712', panel: 'rgba(27,23,18,.06)', line: 'rgba(27,23,18,.25)', dim: '#c7bba3', dots: 'rgba(27,23,18,.18)' },
     head: 'Poppins', body: 'Poppins', serif: 'Poppins', num: 'Poppins', glow: 0,
-    bg: (t) => { X.fillStyle = '#e9f5f3'; X.fillRect(0, 0, W, H); X.fillStyle = 'rgba(0,161,154,.08)'; for (let i = 0; i < 18; i++) emo('🏠', rnd(i) * W, (rnd(i + 3) * H + t * 10) % H, 60, .25); },
+    bg: (t) => { X.fillStyle = '#e9f5f3'; X.fillRect(0, 0, W, H); X.fillStyle = 'rgba(77,148,44,.08)'; for (let i = 0; i < 18; i++) emo('🏠', rnd(i) * W, (rnd(i + 3) * H + t * 10) % H, 60, .25); },
     stage: () => {}, trans: (pb, b, lt, gt) => { const full = v => ['stick', 'endcard'].includes(v.vis.type);
       const draw = (bb, tt) => { if (full(bb)) { if (bb.vis.type === 'endcard') { X.fillStyle = '#e9f5f3'; X.fillRect(0, 0, W, H); } return drawVis(bb, tt); } X.save(); X.beginPath(); rr(90, 36, 1740, 800, 40); inkPath('rgba(255,255,255,.97)', 6); X.translate(W / 2, 436); X.scale(.8, .8); X.translate(-W / 2, -H / 2); drawVis(bb, tt); X.restore(); };
       const dd = .6; if (!pb || lt >= dd) return draw(b, gt); const e = eio(lt / dd); X.save(); X.translate(-W * e, 0); draw(pb, b.t0 - .001); X.restore(); X.save(); X.translate(W * (1 - e), 0); draw(b, gt); X.restore(); },
-    post: () => {}, cap: { bg: 'rgba(27,23,18,.82)', fg: '#ffffff', hl: '#7ee0d8', font: 'Poppins' }, bar: '#00a19a', thumbStroke: '#1b1712', thumbFg: '#ffffff', thumbPost: () => {} },
+    post: () => {}, cap: { bg: 'rgba(27,23,18,.82)', fg: '#ffffff', hl: '#b6e58f', font: 'Poppins' }, bar: '#4d942c', thumbStroke: '#1b1712', thumbFg: '#ffffff', thumbPost: () => {} },
 };
 const VARIANTS = {
   ledger: [{}, { gold: '#ffb86b', teal: '#7aa2ff', red: '#ff6b9a' }, { gold: '#c3f73a', teal: '#3ad1f7', red: '#ff7849' }],

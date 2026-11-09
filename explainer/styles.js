@@ -114,7 +114,10 @@ function stickman(x, y, o, t, walking) { // feet at (x,y)
   X.restore();
   if (o.prop) emo(o.prop, x + (o.flip ? -1 : 1) * 80 * s, y - 110 * s, 64 * s / 1.5);
 }
-function agencySign(x, y, w, h, nf) { X.beginPath(); rr(x, y, w, h, 14); inkPath('#ffffff', 5); txt('YOUR MOVE', x + w / 2, y + h * .42, F(700, h * .42, 'Poppins'), '#1b1712'); txt('Kettering', x + w / 2, y + h * .8, F(500, h * .2, 'Poppins'), '#00a19a'); }
+const YM_LOGO = new Image(); YM_LOGO.src = 'brand/yourmove-logo.png';
+function agencySign(x, y, w, h, nf) { X.beginPath(); rr(x, y, w, h, 14); inkPath('#ffffff', 5);
+  if (YM_LOGO.complete && YM_LOGO.naturalWidth) { const bh = h * .62, bw = Math.min(w * .9, bh * YM_LOGO.naturalWidth / YM_LOGO.naturalHeight), bH = bw * YM_LOGO.naturalHeight / YM_LOGO.naturalWidth; X.drawImage(YM_LOGO, x + (w - bw) / 2, y + h * .08 + (bh - bH) / 2, bw, bH); }
+  else txt('YOUR MOVE', x + w / 2, y + h * .42, F(700, h * .42, 'Poppins'), '#1b1712'); txt('Nolan Throw', x + w / 2, y + h * .8, F(500, h * .2, 'Poppins'), '#00a19a'); }
 function streetBg(t, doorOpen) {
   const sky = X.createLinearGradient(0, 0, 0, H); sky.addColorStop(0, '#7cc8ff'); sky.addColorStop(.7, '#d9f0ff'); X.fillStyle = sky; X.fillRect(0, 0, W, H);
   for (let i = 0; i < 4; i++) { const cx = ((rnd(i) * W + t * (10 + i * 4)) % (W + 400)) - 200, cy = 80 + rnd(i + 4) * 120; X.save(); X.translate(cx, cy); X.beginPath(); X.arc(0, 0, 36, Math.PI, 0); X.arc(46, -18, 50, Math.PI, 0); X.arc(100, 0, 36, Math.PI, 0); X.closePath(); inkPath('#ffffff', 4); X.restore(); }

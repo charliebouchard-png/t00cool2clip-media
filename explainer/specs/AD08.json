@@ -1,0 +1,184 @@
+{
+ "id": "AD08",
+ "style": "agency",
+ "voice": "bm_fable",
+ "speed": 0.92,
+ "title": "Selling and Buying, Made Easy",
+ "beats": [
+  {
+   "say": "Ready to move up the ladder? Selling one home while buying another can feel like a lot. We'll make it easy.",
+   "vis": {
+    "type": "stick",
+    "setting": "street",
+    "cast": [
+     {
+      "role": "client",
+      "top": "#ef476f",
+      "hair": "#1b1712",
+      "size": 1.45,
+      "x": 1150,
+      "from": 80,
+      "enter": true,
+      "walkTime": 2.6
+     }
+    ],
+    "title": "Moving up?"
+   }
+  },
+  {
+   "say": "Start with a visit to Your Move. Our team will chat about your plans and what you're looking for next.",
+   "vis": {
+    "type": "stick",
+    "setting": "office",
+    "cast": [
+     {
+      "role": "client",
+      "top": "#ef476f",
+      "hair": "#1b1712",
+      "x": 620,
+      "from": -120,
+      "walkTime": 2.2,
+      "say": "We need more space!",
+      "sayAt": 4.2
+     },
+     {
+      "role": "agent",
+      "tie": "#00a19a",
+      "hair": "#2b1d14",
+      "x": 1260,
+      "flip": 1,
+      "wave": 1,
+      "say": "Hi! Planning a move?",
+      "sayAt": 2.4
+     },
+     {
+      "role": "agent",
+      "suit": "#3d3a4b",
+      "tie": "#e4572e",
+      "hair": "#6b3e26",
+      "x": 1560,
+      "flip": 1,
+      "wave": 0,
+      "say": null,
+      "sayAt": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "say": "We'll value your home, market it to the right buyers, and help you find your next place, all at the same time.",
+   "vis": {
+    "type": "flow",
+    "title": "One team, every step",
+    "nodes": [
+     [
+      "🏷️",
+      "Value your home"
+     ],
+     [
+      "📣",
+      "Market it"
+     ],
+     [
+      "🏡",
+      "Find your next home"
+     ],
+     [
+      "📦",
+      "Move"
+     ]
+    ],
+    "color": "gold",
+    "coin": "🏡"
+   }
+  },
+  {
+   "say": "We'll help you time things right, so you're not left without a home, or paying for two at once.",
+   "vis": {
+    "type": "list",
+    "title": "Getting the timing right",
+    "items": [
+     [
+      "⏱️",
+      "Sell and buy in step"
+     ],
+     [
+      "🔗",
+      "Manage the chain"
+     ],
+     [
+      "📞",
+      "Regular updates"
+     ],
+     [
+      "🗓️",
+      "A moving date that works"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "And if you need a new mortgage, we can introduce you to Embrace Financial Services for expert advice.",
+   "vis": {
+    "type": "stick",
+    "setting": "office",
+    "cast": [
+     {
+      "role": "client",
+      "top": "#ef476f",
+      "hair": "#1b1712",
+      "x": 620,
+      "say": "And the mortgage?",
+      "sayAt": 0.3,
+      "prop": "💷"
+     },
+     {
+      "role": "agent",
+      "suit": "#3d3a4b",
+      "tie": "#e4572e",
+      "hair": "#6b3e26",
+      "x": 1260,
+      "flip": 1,
+      "shake": 1,
+      "say": "We can help with that too.",
+      "sayAt": 2.2
+     }
+    ]
+   }
+  },
+  {
+   "say": "We keep everyone talking, from buyers and sellers to solicitors, so your move keeps moving.",
+   "vis": {
+    "type": "hook",
+    "text": "We keep your move moving.",
+    "emoji": "🔗",
+    "hot": [
+     "moving."
+    ]
+   }
+  },
+  {
+   "say": "Your property may be repossessed if you do not keep up repayments on your mortgage.",
+   "vis": {
+    "type": "warning",
+    "title": "Important",
+    "text": "YOUR PROPERTY MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE.",
+    "small": "Your Move introduces customers to Embrace Financial Services Ltd. Embrace normally charges a fee, payable on application and agreed with you beforehand. Your first chat is no obligation."
+   }
+  },
+  {
+   "say": "Ready to move up? Search Your Move, and contact your closest branch today.",
+   "vis": {
+    "type": "endcard",
+    "text": "Search \"Your Move\" and contact your closest branch",
+    "sub": "your-move.co.uk"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "SELL. BUY.|MOVE. EASY.",
+  "emoji": "📦",
+  "color": "gold",
+  "tag": "Your Move Kettering"
+ }
+}

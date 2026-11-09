@@ -78,6 +78,103 @@ S.story = (v, lt, d) => { // cartoon characters with speech bubbles (storybook s
       lines.forEach((l, j) => txt(l, x, by + 52 + j * 50, F(700, 40), '#1b1712')); X.restore(); } });
 };
 
+
+// ---- estate agency world (stick figures) ----
+function stickman(x, y, o, t, walking) { // feet at (x,y)
+  const s = o.size || 1.5; X.save(); X.translate(x, y); X.scale(o.flip ? -s : s, s);
+  X.fillStyle = 'rgba(0,0,0,.18)'; X.beginPath(); X.ellipse(0, 0, 46, 10, 0, 0, 7); X.fill();
+  const ph = walking ? Math.sin(t * 9) : 0, ink = '#1b1712'; X.lineCap = 'round'; X.lineJoin = 'round'; X.strokeStyle = ink; X.lineWidth = 8;
+  const hip = -105, sh = -215;
+  // legs
+  const legC = o.role === 'agent' ? (o.suit || '#2b2f3a') : (o.trousers || '#34495e');
+  X.strokeStyle = legC; X.lineWidth = o.role === 'agent' ? 16 : 10;
+  X.beginPath(); X.moveTo(0, hip); X.lineTo(-14 + ph * 26, 0); X.moveTo(0, hip); X.lineTo(14 - ph * 26, 0); X.stroke();
+  X.strokeStyle = ink; X.lineWidth = 8; X.beginPath(); X.moveTo(-14 + ph * 26, 0); X.lineTo(-30 + ph * 26, 0); X.moveTo(14 - ph * 26, 0); X.lineTo(-2 - ph * 26, 0); X.stroke();
+  // body
+  if (o.role === 'agent') { const sc = o.suit || '#2b2f3a';
+    X.beginPath(); X.moveTo(-34, sh); X.lineTo(34, sh); X.lineTo(30, hip + 6); X.lineTo(-30, hip + 6); X.closePath(); X.fillStyle = sc; X.fill(); X.lineWidth = 5; X.strokeStyle = ink; X.stroke();
+    X.beginPath(); X.moveTo(-12, sh); X.lineTo(0, sh + 44); X.lineTo(12, sh); X.closePath(); X.fillStyle = '#ffffff'; X.fill(); X.stroke();
+    X.beginPath(); X.moveTo(-6, sh + 6); X.lineTo(6, sh + 6); X.lineTo(4, sh + 58); X.lineTo(0, sh + 66); X.lineTo(-4, sh + 58); X.closePath(); X.fillStyle = o.tie || '#00a19a'; X.fill(); X.lineWidth = 3; X.stroke();
+    X.lineWidth = 5; X.beginPath(); X.moveTo(-12, sh); X.lineTo(-20, sh + 60); X.moveTo(12, sh); X.lineTo(20, sh + 60); X.stroke();
+    X.fillStyle = '#e8e2d0'; X.beginPath(); X.arc(0, sh + 78, 3.5, 0, 7); X.arc(0, sh + 96, 3.5, 0, 7); X.fill();
+  } else { X.strokeStyle = ink; X.lineWidth = 8; X.beginPath(); X.moveTo(0, sh); X.lineTo(0, hip); X.stroke();
+    X.beginPath(); X.moveTo(-26, sh + 4); X.lineTo(26, sh + 4); X.lineTo(20, hip + 30); X.lineTo(-20, hip + 30); X.closePath(); X.fillStyle = o.top || '#ef476f'; X.fill(); X.lineWidth = 5; X.stroke(); }
+  // arms
+  X.strokeStyle = o.role === 'agent' ? (o.suit || '#2b2f3a') : ink; X.lineWidth = o.role === 'agent' ? 12 : 8;
+  const wave = o.wave ? Math.sin(t * 7) * .5 : 0, sw = walking ? ph * .5 : Math.sin(t * 1.6) * .06;
+  X.beginPath(); X.moveTo(-28, sh + 8); X.lineTo(-48 - sw * 40, sh + 95); X.stroke();
+  if (o.wave) { X.beginPath(); X.moveTo(28, sh + 8); X.lineTo(70 + wave * 20, sh - 40); X.stroke(); }
+  else if (o.shake) { X.beginPath(); X.moveTo(28, sh + 8); X.lineTo(80, sh + 70 + Math.sin(t * 10) * 6); X.stroke(); }
+  else { X.beginPath(); X.moveTo(28, sh + 8); X.lineTo(48 + sw * 40, sh + 95); X.stroke(); }
+  // head
+  X.beginPath(); X.arc(0, sh - 48, 44, 0, 7); X.fillStyle = '#ffffff'; X.fill(); X.lineWidth = 7; X.strokeStyle = ink; X.stroke();
+  if (o.hair) { X.beginPath(); X.arc(0, sh - 56, 46, Math.PI * 1.05, Math.PI * 1.95); X.lineWidth = 10; X.strokeStyle = o.hair; X.stroke(); }
+  X.fillStyle = ink; X.beginPath(); X.arc(12, sh - 54, 5, 0, 7); X.arc(-12, sh - 54, 5, 0, 7); X.fill();
+  X.lineWidth = 4; X.beginPath(); X.arc(0, sh - 40, 15, .25, Math.PI - .25); X.stroke();
+  X.restore();
+  if (o.prop) emo(o.prop, x + (o.flip ? -1 : 1) * 80 * s, y - 110 * s, 64 * s / 1.5);
+}
+function agencySign(x, y, w, h, nf) { X.beginPath(); rr(x, y, w, h, 14); inkPath('#ffffff', 5); txt('YOUR MOVE', x + w / 2, y + h * .42, F(700, h * .42, 'Poppins'), '#1b1712'); txt('Kettering', x + w / 2, y + h * .8, F(500, h * .2, 'Poppins'), '#00a19a'); }
+function streetBg(t, doorOpen) {
+  const sky = X.createLinearGradient(0, 0, 0, H); sky.addColorStop(0, '#7cc8ff'); sky.addColorStop(.7, '#d9f0ff'); X.fillStyle = sky; X.fillRect(0, 0, W, H);
+  for (let i = 0; i < 4; i++) { const cx = ((rnd(i) * W + t * (10 + i * 4)) % (W + 400)) - 200, cy = 80 + rnd(i + 4) * 120; X.save(); X.translate(cx, cy); X.beginPath(); X.arc(0, 0, 36, Math.PI, 0); X.arc(46, -18, 50, Math.PI, 0); X.arc(100, 0, 36, Math.PI, 0); X.closePath(); inkPath('#ffffff', 4); X.restore(); }
+  // neighbouring shops
+  [[0, 300, '#f4d6a0'], [1520, 400, '#cfe3d4']].forEach(([x, w, c]) => { X.beginPath(); X.rect(x - 10, 240, w + 20, 640); inkPath(c, 5); for (let r = 0; r < 2; r++) for (let k = 0; k < 2; k++) { X.beginPath(); X.rect(x + 50 + k * (w / 2 - 20), 300 + r * 150, w / 2 - 90, 100); inkPath('#d6f1ff', 4); } });
+  // Your Move shop
+  X.beginPath(); X.rect(300, 180, 1220, 700); inkPath('#f7f3ea', 6);
+  X.beginPath(); X.rect(300, 180, 1220, 150); inkPath('#00a19a', 6); agencySign(660, 200, 500, 110);
+  X.beginPath(); X.rect(360, 400, 640, 420); inkPath('#d6f1ff', 6);
+  // window cards
+  for (let r = 0; r < 2; r++) for (let k = 0; k < 4; k++) { const cx = 390 + k * 150, cy = 430 + r * 190; X.beginPath(); X.rect(cx, cy, 120, 160); inkPath('#ffffff', 3); X.beginPath(); X.rect(cx + 12, cy + 12, 96, 70); inkPath(['#ffd166', '#8ecae6', '#06d6a0', '#f4a261'][(k + r) % 4], 2); emo('🏠', cx + 60, cy + 48, 44); X.fillStyle = '#1b1712'; X.fillRect(cx + 16, cy + 100, 88, 8); X.fillRect(cx + 16, cy + 120, 60, 8); }
+  // door
+  const dx = 1100, dw = 300; X.beginPath(); X.rect(dx, 400, dw, 480); inkPath('#2b2f3a', 6);
+  const op = cl(doorOpen); X.save(); X.beginPath(); X.rect(dx + 10, 410, (dw - 20) * (1 - op * .75), 460); inkPath('#bfe3f5', 5); X.restore();
+  if (op > .02) { X.fillStyle = 'rgba(255,236,170,.9)'; X.fillRect(dx + 10 + (dw - 20) * (1 - op * .75) + 4, 412, (dw - 20) * op * .75 - 6, 456); }
+  txt('OPEN', dx + dw / 2, 470, F(700, 36, 'Poppins'), '#00a19a');
+  // pavement
+  X.beginPath(); X.rect(-10, 880, W + 20, 220); inkPath('#d9d4c7', 5); X.strokeStyle = 'rgba(27,23,18,.25)'; X.lineWidth = 3; for (let x = -((t * 0) % 160); x < W; x += 160) { X.beginPath(); X.moveTo(x, 880); X.lineTo(x - 60, H); X.stroke(); }
+}
+function officeBg(t) {
+  X.fillStyle = '#f4efe4'; X.fillRect(0, 0, W, H); X.fillStyle = '#e7dfcf'; X.fillRect(0, 0, W, 90);
+  X.fillStyle = '#00a19a'; X.fillRect(0, 600, W, 14);
+  agencySign(700, 130, 520, 120);
+  // window
+  X.beginPath(); X.rect(120, 140, 420, 330); inkPath('#cfeeff', 6); X.strokeStyle = '#1b1712'; X.lineWidth = 5; X.beginPath(); X.moveTo(330, 140); X.lineTo(330, 470); X.moveTo(120, 305); X.lineTo(540, 305); X.stroke();
+  // property boards on wall
+  for (let k = 0; k < 3; k++) { const bx = 1340 + k * 170, by = 160; X.beginPath(); X.rect(bx, by, 140, 180); inkPath('#ffffff', 4); X.beginPath(); X.rect(bx + 12, by + 12, 116, 80); inkPath(['#ffd166', '#8ecae6', '#06d6a0'][k], 3); emo('🏡', bx + 70, by + 54, 50); X.fillStyle = '#1b1712'; X.fillRect(bx + 18, by + 110, 100, 9); X.fillRect(bx + 18, by + 134, 70, 9); }
+  // plant
+  X.beginPath(); X.rect(1780, 760, 80, 110); inkPath('#c97b4a', 5); emo('🪴', 1820, 700, 150);
+  // floor
+  X.beginPath(); X.rect(-10, 870, W + 20, 230); inkPath('#cdb79a', 5);
+  // desk
+  X.beginPath(); X.rect(1080, 700, 560, 40); inkPath('#a47148', 5); X.beginPath(); X.rect(1100, 740, 30, 135); inkPath('#7a5233', 4); X.beginPath(); X.rect(1590, 740, 30, 135); inkPath('#7a5233', 4);
+  emo('💻', 1360, 660, 90); emo('☕', 1540, 672, 56);
+}
+S.stick = (v, lt, d) => { // stick-figure scene: setting street/office/town, cast walk in & talk
+  const setting = v.setting || 'office';
+  const cs = v.cast || [];
+  if (setting === 'street') { const door = cs.some(c => c.enter) ? cl((lt - (d * .55)) / .8) : 0; streetBg(lt, door); }
+  else if (setting === 'town') townBg(lt, 0); else officeBg(lt);
+  if (v.title) { X.save(); X.globalAlpha = eo(lt / .4); X.font = F(700, 60); const w = X.measureText(v.title).width; X.beginPath(); rr(W / 2 - w / 2 - 40, setting === 'office' ? 290 : 30, w + 80, 100, 30); inkPath('#fff8e6', 5); txt(v.title, W / 2, (setting === 'office' ? 290 : 30) + 52, F(700, 60), '#1b1712'); X.restore(); }
+  cs.forEach((c, i) => {
+    let x = c.x != null ? c.x : 400 + i * 500, walking = false;
+    if (c.from != null) { const wd = c.walkTime || Math.min(2.6, d * .5); const p = cl((lt - (c.delay || 0)) / wd); x = c.from + (x - c.from) * eio(p); walking = p > 0 && p < 1; }
+    let alpha = 1; if (c.enter) alpha = 1 - cl((lt - d * .55 - .6) / .6);
+    X.save(); X.globalAlpha = alpha; stickman(x, c.y || 880, c, lt + i, walking); X.restore();
+    if (c.say && alpha > .5) { const st = (c.sayAt != null ? c.sayAt : (c.from != null ? (c.walkTime || Math.min(2.6, d * .5)) + (c.delay || 0) : .4 + i * .5)); const bp = back((lt - st) / .4); if (bp <= 0) return;
+      const lines = wrap(c.say, 440, F(700, 38)); const bw = 500, bh = 56 + lines.length * 48; const s = c.size || 1.5; let bx = x - bw / 2; bx = cl(bx, 30, W - bw - 30); const by = (c.y || 880) - 330 * s - bh;
+      X.save(); X.translate(x, by + bh); X.scale(bp, bp); X.translate(-x, -(by + bh)); X.beginPath(); rr(bx, by, bw, bh, 30); X.moveTo(x - 18, by + bh); X.lineTo(x, by + bh + 30); X.lineTo(x + 18, by + bh); inkPath('#ffffff', 5);
+      lines.forEach((l, j) => txt(l, bx + bw / 2, by + 50 + j * 48, F(700, 38), '#1b1712')); X.restore(); } });
+};
+S.warning = (v, lt) => { const p = eo(lt / .5); X.save(); X.globalAlpha = p; X.beginPath(); rr(200, 300, W - 400, 480, 30); inkPath('#ffffff', 6);
+  txt(v.title || 'Important', W / 2, 380, F(700, 52), '#e4572e'); wrap(v.text, W - 560, F(700, 50)).forEach((l, i) => txt(l, W / 2, 480 + i * 66, F(700, 50), '#1b1712'));
+  if (v.small) wrap(v.small, W - 560, F(500, 30)).forEach((l, i) => txt(l, W / 2, 690 + i * 40, F(500, 30), '#5b5347')); X.restore(); };
+S.endcard = (v, lt) => { const p = eo(lt / .6); X.save(); X.globalAlpha = p; agencySign(W / 2 - 360, 170, 720, 170);
+  txt(v.text || 'Search "Your Move" and contact your closest branch', W / 2, 480, F(700, 64), '#1b1712');
+  if (v.sub) txt(v.sub, W / 2, 570, F(600, 46), '#00a19a');
+  if (v.small) wrap(v.small, 1500, F(500, 30)).forEach((l, i) => txt(l, W / 2, 680 + i * 42, F(500, 30), '#5b5347'));
+  X.restore(); stickman(330, 960, { role: 'agent', wave: 1, tie: '#00a19a', size: 1.2 }, lt); stickman(1590, 960, { role: 'agent', suit: '#3d3a4b', tie: '#e4572e', wave: 1, hair: '#6b3e26', flip: 1, size: 1.2 }, lt + 1); };
+
 // ---- themes ----
 const THEMES = {
   ledger: { label: 'Ledger (dark motion graphics)', C: {}, head: 'Poppins', body: 'Poppins', serif: 'Lora', num: 'Poppins', glow: 1,
@@ -131,6 +228,14 @@ const THEMES = {
       const draw = (bb, tt) => { if (bb.vis.type === 'story') return drawVis(bb, tt); X.save(); X.beginPath(); rr(90, 36, 1740, 800, 40); inkPath('rgba(255,248,230,.96)', 6); X.translate(W / 2, 436); X.scale(.8, .8); X.translate(-W / 2, -H / 2); drawVis(bb, tt); X.restore(); };
       const d = .7; if (!pb || lt >= d) return draw(b, gt); const e = eio(lt / d); X.save(); X.translate(0, -H * e); draw(pb, b.t0 - .001); X.restore(); X.save(); X.translate(0, H * (1 - e)); draw(b, gt); X.restore(); },
     post: () => {}, cap: { bg: 'rgba(27,23,18,.82)', fg: '#fff8e6', hl: '#ffd166', font: 'Fredoka' }, bar: '#ff8c00', thumbStroke: '#1b1712', thumbFg: '#fff8e6', thumbPost: () => {} },
+  agency: { label: 'Estate agency ad (stick figures, shopfront and office, warm and friendly)',
+    C: { bg0: '#f4efe4', bg1: '#f4efe4', gold: '#00a19a', red: '#e4572e', teal: '#1f6f8b', white: '#1b1712', mute: '#5b5347', ink: '#1b1712', panel: 'rgba(27,23,18,.06)', line: 'rgba(27,23,18,.25)', dim: '#c7bba3', dots: 'rgba(27,23,18,.18)' },
+    head: 'Poppins', body: 'Poppins', serif: 'Poppins', num: 'Poppins', glow: 0,
+    bg: (t) => { X.fillStyle = '#e9f5f3'; X.fillRect(0, 0, W, H); X.fillStyle = 'rgba(0,161,154,.08)'; for (let i = 0; i < 18; i++) emo('🏠', rnd(i) * W, (rnd(i + 3) * H + t * 10) % H, 60, .25); },
+    stage: () => {}, trans: (pb, b, lt, gt) => { const full = v => ['stick', 'endcard'].includes(v.vis.type);
+      const draw = (bb, tt) => { if (full(bb)) { if (bb.vis.type === 'endcard') { X.fillStyle = '#e9f5f3'; X.fillRect(0, 0, W, H); } return drawVis(bb, tt); } X.save(); X.beginPath(); rr(90, 36, 1740, 800, 40); inkPath('rgba(255,255,255,.97)', 6); X.translate(W / 2, 436); X.scale(.8, .8); X.translate(-W / 2, -H / 2); drawVis(bb, tt); X.restore(); };
+      const dd = .6; if (!pb || lt >= dd) return draw(b, gt); const e = eio(lt / dd); X.save(); X.translate(-W * e, 0); draw(pb, b.t0 - .001); X.restore(); X.save(); X.translate(W * (1 - e), 0); draw(b, gt); X.restore(); },
+    post: () => {}, cap: { bg: 'rgba(27,23,18,.82)', fg: '#ffffff', hl: '#7ee0d8', font: 'Poppins' }, bar: '#00a19a', thumbStroke: '#1b1712', thumbFg: '#ffffff', thumbPost: () => {} },
 };
 const VARIANTS = {
   ledger: [{}, { gold: '#ffb86b', teal: '#7aa2ff', red: '#ff6b9a' }, { gold: '#c3f73a', teal: '#3ad1f7', red: '#ff7849' }],

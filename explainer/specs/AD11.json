@@ -1,0 +1,183 @@
+{
+ "id": "AD11",
+ "style": "agency",
+ "voice": "bf_isabella",
+ "speed": 0.92,
+ "title": "Stunning Property Photography With Giraffe360",
+ "beats": [
+  {
+   "say": "When you sell or let with Your Move, first impressions matter. Most buyers and tenants see your home online first.",
+   "vis": {
+    "type": "stick",
+    "setting": "street",
+    "cast": [
+     {
+      "role": "client",
+      "top": "#4361ee",
+      "hair": "#1b1712",
+      "x": 1150,
+      "from": 80,
+      "enter": true,
+      "walkTime": 2.6
+     }
+    ],
+    "title": "First impressions matter"
+   }
+  },
+  {
+   "say": "That's why we use the Giraffe three sixty camera, to show your home at its very best.",
+   "vis": {
+    "type": "stick",
+    "setting": "office",
+    "cast": [
+     {
+      "role": "client",
+      "top": "#4361ee",
+      "hair": "#1b1712",
+      "x": 620,
+      "from": -120,
+      "walkTime": 2.2,
+      "say": "Yes! Make it look amazing!",
+      "sayAt": 4.2
+     },
+     {
+      "role": "agent",
+      "tie": "#00a19a",
+      "hair": "#2b1d14",
+      "x": 1260,
+      "flip": 1,
+      "wave": 1,
+      "say": "Ready for your photos?",
+      "sayAt": 2.4
+     }
+    ]
+   }
+  },
+  {
+   "say": "Giraffe three sixty is a smart property camera. It captures your home in high quality, room by room.",
+   "vis": {
+    "type": "icon",
+    "emoji": "📸",
+    "text": "Giraffe360",
+    "sub": "A smart property camera",
+    "color": "gold"
+   }
+  },
+  {
+   "say": "From one visit, we can create bright, sharp photos, a three sixty virtual tour, and floor plans of your home.",
+   "vis": {
+    "type": "list",
+    "title": "What you get",
+    "items": [
+     [
+      "🖼️",
+      "Bright, high-quality photos"
+     ],
+     [
+      "🌐",
+      "A 360° virtual tour"
+     ],
+     [
+      "📐",
+      "Floor plans"
+     ],
+     [
+      "🎬",
+      "Videos for social media"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "A virtual tour means people can walk around your home from their sofa, so the ones who book a viewing are genuinely interested.",
+   "vis": {
+    "type": "vs",
+    "left": {
+     "title": "Photos only",
+     "emoji": "🖼️",
+     "lines": [
+      "A few snapshots",
+      "Lots of questions"
+     ],
+     "color": "teal"
+    },
+    "right": {
+     "title": "With a virtual tour",
+     "emoji": "🌐",
+     "lines": [
+      "Walk around online",
+      "More serious viewers"
+     ],
+     "color": "red"
+    }
+   }
+  },
+  {
+   "say": "Accurate floor plans help people picture the layout, and great photos help your listing stand out when people scroll on property websites.",
+   "vis": {
+    "type": "list",
+    "title": "Why it matters",
+    "items": [
+     [
+      "👀",
+      "Stand out online"
+     ],
+     [
+      "📐",
+      "Picture the layout"
+     ],
+     [
+      "📞",
+      "More enquiries"
+     ],
+     [
+      "✅",
+      "Better-informed viewings"
+     ]
+    ]
+   }
+  },
+  {
+   "say": "It's quick, it's easy, and your home will look fantastic online.",
+   "vis": {
+    "type": "stick",
+    "setting": "office",
+    "cast": [
+     {
+      "role": "client",
+      "top": "#4361ee",
+      "hair": "#1b1712",
+      "x": 620,
+      "say": "Wow, it looks incredible!",
+      "sayAt": 0.3,
+      "prop": "✨"
+     },
+     {
+      "role": "agent",
+      "tie": "#00a19a",
+      "hair": "#2b1d14",
+      "x": 1260,
+      "flip": 1,
+      "shake": 1,
+      "say": "Your home deserves it!",
+      "sayAt": 2.2
+     }
+    ]
+   }
+  },
+  {
+   "say": "Want your home to shine? Search Your Move, and contact your closest branch today.",
+   "vis": {
+    "type": "endcard",
+    "text": "Search \"Your Move\" and contact your closest branch",
+    "sub": "your-move.co.uk"
+   }
+  }
+ ],
+ "thumb": {
+  "text": "YOUR HOME,|AT ITS BEST",
+  "emoji": "📸",
+  "color": "gold",
+  "tag": "Your Move Kettering"
+ }
+}

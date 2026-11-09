@@ -6,8 +6,12 @@ on:
         description: Source video download URL
         required: true
       jobs:
-        description: Jobs file in jobs/
+        description: Jobs file in jobs/ (render) or a slug (transcribe)
         required: true
+      mode:
+        description: render or transcribe
+        required: false
+        default: render
 permissions:
   contents: write
 jobs:
@@ -16,15 +20,31 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
-      - name: Install ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Install ffmpeg and whisper
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q faster-whisper
       - name: Download source
         env:
           SRC_URL: ${{ inputs.url }}
         run: curl -sSfL --retry 3 -o "$RUNNER_TEMP/src.mp4" "$SRC_URL" && ls -la "$RUNNER_TEMP/src.mp4"
+      - name: Transcribe
+        if: ${{ inputs.mode == 'transcribe' }}
+        run: |
+          S="${{ inputs.jobs }}"; S="${S%.json}"
+          python3 tools/transcribe.py "$RUNNER_TEMP/src.mp4" "transcripts/$S.json"
+          B="transcribe-$S"
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout -b "$B"
+          git add -f "transcripts/$S.json"
+          git commit -m "Transcript for $S (temporary)"
+          git push -f origin "$B"
       - name: Render
+        if: ${{ inputs.mode != 'transcribe' }}
         run: python3 tools/render.py "$RUNNER_TEMP/src.mp4" "jobs/${{ inputs.jobs }}" clips
       - name: Push clips to a temporary branch
+        if: ${{ inputs.mode != 'transcribe' }}
         run: |
           B="render-${{ inputs.jobs }}"; B="${B%.json}"
           git config user.name "github-actions"

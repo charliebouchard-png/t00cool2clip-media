@@ -9,9 +9,17 @@ on:
         description: Jobs file in jobs/ (render) or a slug (transcribe)
         required: true
       mode:
-        description: render, transcribe or cleanup (jobs = space-separated temp branches to delete)
+        description: render, transcribe, research or cleanup (jobs = space-separated temp branches to delete)
         required: false
         default: render
+      query:
+        description: "research: search terms separated by | (url and jobs: jobs = output slug, url = none)"
+        required: false
+        default: ""
+      days:
+        description: "research: only videos published in the last N days"
+        required: false
+        default: "14"
 permissions:
   contents: write
 jobs:
@@ -26,15 +34,30 @@ jobs:
           BRANCHES: ${{ inputs.jobs }}
         run: |
           for b in $BRANCHES; do
-            case "$b" in render-*|transcribe-*) git push origin --delete "$b" || true;; esac
+            case "$b" in render-*|transcribe-*|research-*) git push origin --delete "$b" || true;; esac
           done
+      - name: Research trending videos
+        if: ${{ inputs.mode == 'research' }}
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+          QUERY: ${{ inputs.query }}
+          DAYS: ${{ inputs.days }}
+          SLUG: ${{ inputs.jobs }}
+        run: |
+          python3 tools/research.py "$QUERY" "research/$SLUG.json" "$DAYS"
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout -b "research-$SLUG"
+          git add -f "research/$SLUG.json"
+          git commit -m "Research results for $SLUG (temporary)"
+          git push -f origin "research-$SLUG"
       - name: Install ffmpeg and whisper
-        if: ${{ inputs.mode != 'cleanup' }}
+        if: ${{ inputs.mode == 'render' || inputs.mode == 'transcribe' || inputs.mode == '' }}
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -q faster-whisper
       - name: Download source
-        if: ${{ inputs.mode != 'cleanup' }}
+        if: ${{ inputs.mode == 'render' || inputs.mode == 'transcribe' || inputs.mode == '' }}
         env:
           SRC_URL: ${{ inputs.url }}
         run: curl -sSfL --retry 3 -o "$RUNNER_TEMP/src.mp4" "$SRC_URL" && ls -la "$RUNNER_TEMP/src.mp4"

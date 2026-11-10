@@ -1,0 +1,25 @@
+[
+ {
+  "name": "giftcard-scam-1109-01",
+  "start": 470.2,
+  "dur": 45.3,
+  "hook": "If anyone asks for gift cards hang up",
+  "skip": [
+   [
+    508.0,
+    511.8
+   ]
+  ],
+  "keywords": [
+   "scam",
+   "scams",
+   "million",
+   "never",
+   "gone"
+  ],
+  "punch": [
+   "million",
+   "scam"
+  ]
+ }
+]

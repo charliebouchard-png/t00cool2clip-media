@@ -9,7 +9,7 @@ on:
         description: Jobs file in jobs/ (render) or a slug (transcribe)
         required: true
       mode:
-        description: render or transcribe
+        description: render, transcribe or cleanup (jobs = space-separated temp branches to delete)
         required: false
         default: render
 permissions:
@@ -20,11 +20,21 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
+      - name: Delete temporary branches
+        if: ${{ inputs.mode == 'cleanup' }}
+        env:
+          BRANCHES: ${{ inputs.jobs }}
+        run: |
+          for b in $BRANCHES; do
+            case "$b" in render-*|transcribe-*) git push origin --delete "$b" || true;; esac
+          done
       - name: Install ffmpeg and whisper
+        if: ${{ inputs.mode != 'cleanup' }}
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -q faster-whisper
       - name: Download source
+        if: ${{ inputs.mode != 'cleanup' }}
         env:
           SRC_URL: ${{ inputs.url }}
         run: curl -sSfL --retry 3 -o "$RUNNER_TEMP/src.mp4" "$SRC_URL" && ls -la "$RUNNER_TEMP/src.mp4"
@@ -41,10 +51,10 @@ jobs:
           git commit -m "Transcript for $S (temporary)"
           git push -f origin "$B"
       - name: Render
-        if: ${{ inputs.mode != 'transcribe' }}
+        if: ${{ inputs.mode == 'render' || inputs.mode == '' }}
         run: python3 tools/render.py "$RUNNER_TEMP/src.mp4" "jobs/${{ inputs.jobs }}" clips
       - name: Push clips to a temporary branch
-        if: ${{ inputs.mode != 'transcribe' }}
+        if: ${{ inputs.mode == 'render' || inputs.mode == '' }}
         run: |
           B="render-${{ inputs.jobs }}"; B="${B%.json}"
           git config user.name "github-actions"

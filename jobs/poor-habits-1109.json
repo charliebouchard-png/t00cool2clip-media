@@ -1,0 +1,33 @@
+[
+ {
+  "name": "poor-habits-1109-01",
+  "start": 0.6,
+  "dur": 80.6,
+  "hook": "Why I still drive a rusty old minivan",
+  "skip": [
+   [
+    11.2,
+    34.2
+   ],
+   [
+    44.4,
+    51.6
+   ],
+   [
+    61.3,
+    72.5
+   ]
+  ],
+  "keywords": [
+   "embarrassing",
+   "payment",
+   "$3,600",
+   "account",
+   "bank"
+  ],
+  "punch": [
+   "3,600",
+   "protects"
+  ]
+ }
+]

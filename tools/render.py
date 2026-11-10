@@ -4,6 +4,7 @@ Usage: python3 tools/render.py <source.mp4> <jobs.json> <outdir>
 Each job: {"name", "start", "dur", "hook"} plus optional
   "keywords": words to highlight in captions (green),
   "punch": words that trigger a punch-in zoom (first time each is said),
+  "skip": [[abs_start, abs_end], ...] source ranges to leave out (to join two moments),
   "tighten": false to keep pauses (default true: dead air and fillers are cut),
   "sfx": false to skip the whoosh/pop sounds,
   "cues": [[start_rel, end_rel, text], ...] fallback captions if whisper is unavailable,
@@ -94,13 +95,15 @@ def plan(c):
     if not words:
         return start, start + dur, [(0.0, dur)], None
     W = [w for w in words if start - 0.4 <= (w[0] + w[1]) / 2 <= start + dur + 0.4 and w[2]]
+    skips = [tuple(map(float, k)) for k in c.get("skip", [])]
+    W = [w for w in W if not any(a <= (w[0] + w[1]) / 2 <= b for a, b in skips)]
     if not W:
-        return start, start + dur, [(0.0, dur)], None
+        return start, start + dur, subtract([(0.0, dur)], skips, start), None
     cs = max(0.0, W[0][0] - 0.12) if W[0][0] - start < 3 else start
     ce = W[-1][1] + 0.35
     speech = [w for w in W if norm(w[2]) not in FILLERS]
     if c.get("tighten", True) is False:
-        return cs, ce, [(0.0, ce - cs)], speech
+        return cs, ce, subtract([(0.0, ce - cs)], skips, cs), speech
     MAXGAP = 0.45
     spans = []
     for s, e, _ in speech:
@@ -112,7 +115,22 @@ def plan(c):
     spans[0][0] = cs
     spans[-1][1] = ce
     keep = [(max(0.0, a - cs), b - cs) for a, b in spans if b > a]
-    return cs, ce, keep, speech
+    return cs, ce, subtract(keep, skips, cs), speech
+
+
+def subtract(keep, skips, cs):
+    out = list(keep)
+    for a, b in skips:
+        a, b = a - cs, b - cs
+        nxt = []
+        for x, y in out:
+            if b <= x or a >= y:
+                nxt.append((x, y))
+            else:
+                if a > x: nxt.append((x, a))
+                if b < y: nxt.append((b, y))
+        out = nxt
+    return [(x, y) for x, y in out if y - x > 0.05]
 
 
 def mapper(keep):

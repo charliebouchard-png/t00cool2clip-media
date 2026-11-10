@@ -52,6 +52,12 @@ def run(cmd):
     subprocess.run(cmd, check=True)
 
 
+def load_wav(path):
+    import wave, numpy as np
+    with wave.open(path) as w:
+        return np.frombuffer(w.readframes(w.getnframes()), dtype=np.int16).astype("float32") / 32768.0
+
+
 _model = None
 def model():
     global _model
@@ -73,7 +79,7 @@ def transcribe_words(start, dur):
     wav = os.path.join(TMP, "w.wav")
     run(["ffmpeg", "-y", "-loglevel", "error", "-ss", str(a), "-t", str(dur + 3), "-i", src,
          "-vn", "-ac", "1", "-ar", "16000", wav])
-    segs, _ = m.transcribe(wav, word_timestamps=True, beam_size=5, condition_on_previous_text=False)
+    segs, _ = m.transcribe(load_wav(wav), word_timestamps=True, beam_size=5, condition_on_previous_text=False)
     out = []
     for s in segs:
         for w in s.words or []:

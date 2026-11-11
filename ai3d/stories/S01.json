@@ -1,0 +1,406 @@
+{
+ "id": "S01",
+ "title": "HEATING TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1,
+ "key": 0,
+ "bpm": 118,
+ "hot": [
+  "freezing",
+  "heating",
+  "mayor",
+  "machine",
+  "free",
+  "hero"
+ ],
+ "beats": [
+  {
+   "say": "In my town, turning on the heating costs $50 per degree.",
+   "set": "street",
+   "time": "day",
+   "cam": "push",
+   "hero": {
+    "pose": "shiver",
+    "face": "sad",
+    "extra": "scarf"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$50",
+     "x": 2.6,
+     "y": 5.4
+    }
+   ],
+   "fx": [
+    "snow",
+    "cold"
+   ],
+   "crowd": {
+    "action": "walk",
+    "n": 7,
+    "extra": "scarf"
+   }
+  },
+  {
+   "say": "The mayor announced it on the first day of winter.",
+   "set": "cityhall",
+   "cam": "drone",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "talk",
+     "talk": false,
+     "z": -8,
+     "x": 0
+    }
+   ],
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ],
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "This morning I woke up and I could see my own breath.",
+   "set": "bedroom",
+   "cam": "high",
+   "hero": {
+    "pose": "sleep",
+    "in": "bed"
+   },
+   "fx": [
+    "snow",
+    "cold",
+    "zzz"
+   ]
+  },
+  {
+   "say": "I turned the heat up five degrees. Just five.",
+   "set": "bedroom",
+   "cam": "push",
+   "hero": {
+    "pose": "press",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "thermostat",
+     "text": "+5\u00b0",
+     "x": 1.2,
+     "y": 3.6,
+     "z": -2.8
+    }
+   ],
+   "focus": "prop:0"
+  },
+  {
+   "say": "My phone buzzed. $250, gone.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "-$250 heating"
+   },
+   "notif": {
+    "title": "My Bank",
+    "text": "Payment: -$250 to City Heating"
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "By breakfast I'd spent more on heat than on food all month.",
+   "set": "kitchen",
+   "cam": "push",
+   "hero": {
+    "pose": "count",
+    "face": "sad",
+    "hold": "money"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$400",
+     "x": -2,
+     "y": 5.2
+    }
+   ],
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "But people in my town got really creative.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "point",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 10,
+    "extra": "blanket"
+   },
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "My neighbor wore eleven jackets at the same time.",
+   "set": "street",
+   "cam": "push",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "walk",
+     "extra": "blanket",
+     "x": 0,
+     "z": 0
+    }
+   ],
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "A guy moved into the bakery because the ovens were always on.",
+   "set": "store",
+   "cam": "orbit",
+   "label": "BAKERY",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "baker",
+     "look": 7,
+     "pose": "dance",
+     "face": "happy"
+    }
+   ],
+   "crowd": {
+    "action": "idle",
+    "n": 6,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "And everyone started hugging strangers just to stay warm.",
+   "set": "park",
+   "cam": "push",
+   "hero": {
+    "pose": "hug",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "hug",
+    "n": 10,
+    "face": "happy"
+   },
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "The mayor wasn't happy. Nobody was paying anymore.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -3
+    }
+   ],
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "So he announced a new rule. Wearing more than one jacket now costs $1,000.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$1,000",
+    "bg": "#ff4f7b"
+   },
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "That night I saw two guards sneaking out of city hall.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "ots",
+   "hero": {
+    "pose": "sneak",
+    "face": "normal"
+   },
+   "npcs": [
+    {
+     "id": "g1",
+     "look": "guard",
+     "pose": "sneak",
+     "x": -2,
+     "z": -12,
+     "ry": 180,
+     "move": [
+      0,
+      -1.2
+     ]
+    },
+    {
+     "id": "g2",
+     "look": "guard",
+     "pose": "sneak",
+     "x": 1,
+     "z": -12.5,
+     "ry": 180,
+     "move": [
+      0,
+      -1.2
+     ]
+    }
+   ],
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "I followed them into a secret room underneath the building.",
+   "set": "lab",
+   "cam": "reveal",
+   "label": "DISABLE HEAT TAX",
+   "hero": {
+    "pose": "walk",
+    "face": "shock",
+    "move": [
+     0,
+     -0.6
+    ]
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "Inside was a giant machine, collecting every single heating payment in town.",
+   "set": "lab",
+   "cam": "pull",
+   "focus": "machine",
+   "label": "DISABLE HEAT TAX",
+   "screen": "$9,847,310",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "And right in the middle, one huge red button.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "DISABLE HEAT TAX",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "I looked around. No guards. No cameras. So I pressed it.",
+   "set": "lab",
+   "cam": "low",
+   "label": "DISABLE HEAT TAX",
+   "hero": {
+    "pose": "press",
+    "face": "angry"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "The next morning, heating was free. I was the town's biggest hero.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "Then my phone buzzed again. New rule. Air conditioning, $50 per degree.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "AC: $50 per degree"
+   },
+   "notif": {
+    "title": "City Hall",
+    "text": "New rule: air conditioning costs $50 per degree"
+   }
+  },
+  {
+   "say": "Summer is going to be fun.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   }
+  }
+ ]
+}

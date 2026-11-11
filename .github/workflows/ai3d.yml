@@ -1,0 +1,55 @@
+name: ai3d-stories
+on:
+  workflow_dispatch:
+    inputs:
+      stories:
+        description: 'JSON list of story ids in ai3d/stories, e.g. ["S01","S02"]'
+        required: true
+      seconds:
+        description: "Optional: only render the first N seconds (for tests)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+jobs:
+  story:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        story: ${{ fromJSON(inputs.stories) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install tools
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q kokoro soundfile
+          cd ai3d && npm init -y >/dev/null && npm i -s playwright@1.63.0 && npx playwright install --with-deps chromium >/dev/null
+      - name: Voiceover
+        run: mkdir -p out && python ai3d/tts.py "ai3d/stories/${{ matrix.story }}.json" out/voice.wav out/timing.json
+      - name: Render frames
+        run: node ai3d/render.js "ai3d/stories/${{ matrix.story }}.json" out/timing.json out/video.mp4 30 0 "${{ inputs.seconds }}"
+      - name: Mix and encode
+        run: |
+          python ai3d/audio.py "ai3d/stories/${{ matrix.story }}.json" out/timing.json out/sfx.wav out/music.wav
+          mkdir -p clips
+          ffmpeg -y -loglevel error -i out/video.mp4 -i out/voice.wav -i out/music.wav -i out/sfx.wav \
+            -filter_complex "[1:a]aresample=44100,volume=1.6[v];[2:a]volume=0.13[m];[3:a]volume=0.55[s];[v][m][s]amix=inputs=3:duration=first:normalize=0,alimiter=limit=0.95[a];[0:v]scale=1080:1920:flags=lanczos,unsharp=5:5:0.4[vv]" \
+            -map "[vv]" -map "[a]" -shortest -c:v libx264 -preset medium -crf 19 -pix_fmt yuv420p -c:a aac -b:a 192k -movflags +faststart "clips/${{ matrix.story }}.mp4"
+          ffprobe -v error -show_entries format=duration -of csv=p=0 "clips/${{ matrix.story }}.mp4"
+      - name: Push to a temporary branch
+        run: |
+          B="render-ai-${{ matrix.story }}"
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git checkout -b "$B"
+          cp out/timing.json "clips/${{ matrix.story }}.timing.json"
+          git add -f clips/
+          git commit -m "AI story ${{ matrix.story }} (temporary, deleted after delivery)"
+          git push -f origin "$B"

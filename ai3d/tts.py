@@ -8,7 +8,7 @@ voice = spec.get('voice', 'am_puck'); speed = spec.get('speed', 1.1)
 pipe = KPipeline(lang_code=voice[0])
 audio, words, beats, t = [], [], [], 0.0
 for i, b in enumerate(spec['beats']):
-    start, seg, n = t, [], 0
+    start, seg, n, pre = t, [], 0, ''
     for r in pipe(b['say'], voice=voice, speed=speed):
         a = r.audio
         a = a.detach().cpu().numpy() if hasattr(a, 'detach') else np.asarray(a, dtype=np.float32)
@@ -18,9 +18,11 @@ for i, b in enumerate(spec['beats']):
             txt = (tk.text or '').strip()
             if not txt: continue
             if not any(ch.isalnum() for ch in txt):
-                if words and words[-1]['t0'] >= start: words[-1]['w'] += txt
+                if txt in ('$', '£', '€', '#', '"', '(') : pre += txt
+                elif words and words[-1]['t0'] >= start: words[-1]['w'] += txt
                 continue
             if tk.start_ts is None or tk.end_ts is None: continue
+            txt, pre = pre + txt, ''
             words.append({'w': txt, 't0': round(off + tk.start_ts, 3), 't1': round(off + tk.end_ts, 3)}); got = True
         if not got:
             ws = r.graphemes.split(); d = len(a) / SR

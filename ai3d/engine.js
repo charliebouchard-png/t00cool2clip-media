@@ -58,7 +58,7 @@ function setupShot(s) {
   scene.fog = st.indoor ? null : new THREE.Fog(sc[2], st.fog[0], st.fog[1]);
   scene.background = new THREE.Color(st.indoor ? '#000' : sc[1]);
   const night = time === 'night', dark = st.dark;
-  hemi.intensity = dark ? 0.7 : night ? 1.1 : 2.1; hemi.color.set(night ? '#9fb4ff' : '#ffffff'); hemi.groundColor.set(night ? '#2a2f45' : '#8a7f6e');
+  hemi.intensity = dark ? 0.8 : night ? 1.7 : 2.1; hemi.color.set(night ? '#9fb4ff' : '#ffffff'); hemi.groundColor.set(night ? '#2a2f45' : '#8a7f6e');
   sun.intensity = dark ? 0.5 : night ? 0.6 : time === 'sunset' ? 2.2 : 2.6; sun.color.set(time === 'sunset' ? '#ffb27a' : night ? '#a9b8ff' : '#fff4e0');
   const A = st.hero; const ho = b.hero || {};
   if (ho.hide) hero.visible = false;
@@ -156,7 +156,7 @@ window.frame = (t) => {
   props.forEach(g => animProp(g, lt, cam));
   if (s.st.g.userData.tick) { s.st.g.userData.pressed = !!b.press && lt > 0.35; s.st.g.userData.tick(t); }
   const head = new THREE.Vector3(); (hero.visible ? hero.userData.head : (cast[Object.keys(cast)[0]] || hero).userData.head).getWorldPosition(head);
-  const fo = (b.fxAt === 'prop' && props[0]) ? props[0].position.clone().add(V(0, 1, 0)) : (hero.visible ? hero.position.clone().add(V(0, 3, 0)) : F);
+  const fo = (s.st.machine && (b.fx || []).includes('coins')) ? s.st.machine.clone().add(V(0, 3, 0)) : (b.fxAt === 'prop' && props[0]) ? props[0].position.clone().add(V(0, 1, 0)) : (hero.visible ? hero.position.clone().add(V(0, 3, 0)) : F);
   fx.update(b.fx, lt, fo, cam, head);
   sun.position.copy(F).add(V(14, 30, 16)); sun.target.position.copy(F);
   gl.render(scene, cam);

@@ -18,13 +18,13 @@ clap = rng.uniform(-1, 1, int(.12 * SR)) * np.exp(-np.arange(int(.12 * SR)) / SR
 beats = int(dur / b) + 1
 for k in range(beats):
     t = k * b; ch = prog[(k // 8) % 4]
-    if k >= 4: put(kick, t)
+    put(kick, t)
     put(hat, t + b / 2)
     if k % 2 == 1 and k >= 8: put(clap, t)
     put(tone(f(ch[0] - 24), b * .9, .16, 4, 'sine'), t)                       # bass
     for j in range(2): put(tone(f(ch[(k * 2 + j) % 3] + 12), b * .5, .045, 9), t + j * b / 2)   # pluck arp
     if k % 8 == 0:
         for m in ch: put(tone(f(m), b * 8, .025, .35), t)                     # pad
-fo = int(2.5 * SR); o[:int(.5 * SR)] *= np.linspace(0, 1, int(.5 * SR)); o[-fo:] *= np.linspace(1, 0, fo)
+fo = int(.3 * SR); o[:int(.05 * SR)] *= np.linspace(0, 1, int(.05 * SR)); o[-fo:] *= np.linspace(1, 0, fo)
 o = np.tanh(o * 1.2); o = o / np.max(np.abs(o)) * .8
 w = wave.open(out, 'wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((o * 32767).astype(np.int16).tobytes()); w.close()

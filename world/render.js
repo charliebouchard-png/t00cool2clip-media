@@ -6,6 +6,7 @@ const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.ttf': 'font/tt
 (async () => {
   const [specF, timF, ampF, out, fpsA] = process.argv.slice(2); const fps = +(fpsA || 30);
   const spec = JSON.parse(fs.readFileSync(specF, 'utf8'));
+  if (spec.cast) { const c = JSON.parse(fs.readFileSync(path.join(__dirname, 'cast.json'), 'utf8'))[spec.cast]; if (c) spec.look = { ...c.look, ...(spec.look || {}) }; }
   if (timF && timF !== '-') { const tm = JSON.parse(fs.readFileSync(timF, 'utf8')); spec.scenes.forEach((b, i) => { b.dur = tm[i].dur; b.speech = tm[i].speech; }); }
   else spec.scenes.forEach(b => { b.speech = b.say.split(' ').length / 2.7; b.dur = b.speech + .3; });
   const amp = ampF && ampF !== '-' ? JSON.parse(fs.readFileSync(ampF, 'utf8')) : null;

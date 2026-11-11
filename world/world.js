@@ -46,9 +46,18 @@ const torso = G([0, 0, 0]); hips.add(torso);
 { const pts = [[0, -.04], [.19, -.03], [.205, .04], [.2, .2], [.215, .36], [.2, .45], [.15, .52], [.08, .56], [0, .57]].map(([r, y]) => new THREE.Vector2(r, y));
   torso.add(mesh(new THREE.LatheGeometry(pts, 40), hoodie, [0, 0, 0], [1, 1, .7])); }
 torso.add(mesh(new THREE.TorusGeometry(.19, .03, 12, 40), hoodieDark, [0, -.025, 0], [1, .7, 1], [Math.PI / 2, 0, 0])); // hem band
-torso.add(mesh(new THREE.TorusGeometry(.13, .045, 12, 32), hoodieDark, [0, .5, -.05], [1, 1, 1], [1.35, 0, 0])); // hood
-torso.add(mesh(geo.sph(.1), hoodieDark, [0, .1, .1], [1.3, .55, .45]));   // pocket
-for (const x of [-.045, .045]) torso.add(mesh(new THREE.CylinderGeometry(.008, .008, .16), M(0xffffff, .6), [x, .4, .135], [1, 1, 1], [.12, 0, 0]));
+const hoodieBits = [];
+hoodieBits.push(torso.add(mesh(new THREE.TorusGeometry(.13, .045, 12, 32), hoodieDark, [0, .5, -.05], [1, 1, 1], [1.35, 0, 0])).children.at(-1)); // hood
+hoodieBits.push(torso.add(mesh(geo.sph(.1), hoodieDark, [0, .1, .1], [1.3, .55, .45])).children.at(-1));   // pocket
+for (const x of [-.045, .045]) hoodieBits.push(torso.add(mesh(new THREE.CylinderGeometry(.008, .008, .16), M(0xffffff, .6), [x, .4, .135], [1, 1, 1], [.12, 0, 0])).children.at(-1));
+// jacket / cardigan parts (hidden unless outfit needs them)
+const shirtM = M(0xffffff, .6), tieM = M(0xc0392b, .5), btnM = M(0xf1f1f1, .4);
+const jacketBits = [];
+{ const tri = new THREE.Shape(); tri.moveTo(-.075, .5); tri.lineTo(.075, .5); tri.lineTo(0, .25); tri.lineTo(-.075, .5);
+  jacketBits.push(mesh(new THREE.ShapeGeometry(tri), shirtM, [0, 0, .142]));
+  jacketBits.push(mesh(new THREE.BoxGeometry(.035, .2, .01), tieM, [0, .37, .147], [1, 1, 1], [0, 0, 0]));
+  for (const y of [.2, .1]) jacketBits.push(mesh(geo.sph(.012), btnM, [0, y, .14]));
+  jacketBits.forEach(b => torso.add(b)); }
 // chest badge: coin
 {
   const c = document.createElement('canvas'); c.width = c.height = 128; const x = c.getContext('2d');
@@ -71,9 +80,36 @@ for (const s of [-1, 1]) {
 }
 head.add(mesh(geo.sph(.034), skin, [0, .155, .215], [1, .9, 1.05]));             // nose
 // hair
-head.add(mesh(new THREE.SphereGeometry(.226, 48, 24, 0, Math.PI * 2, 0, Math.PI * .45), hairM, [0, .21, -.005], [1.01, 1.05, 1.0], [-.32, 0, 0]));
-for (const [x, y, z, r] of [[0, .4, .1, .085], [-.075, .385, .085, .07], [.07, .39, .09, .07], [.02, .42, .02, .09], [-.14, .34, .03, .07], [.14, .34, .03, .07]])
-  head.add(mesh(geo.sph(r), hairM, [x, y, z], [1.15, .8, 1]));
+const HAIR = {};
+const hairCap = () => mesh(new THREE.SphereGeometry(.226, 48, 24, 0, Math.PI * 2, 0, Math.PI * .45), hairM, [0, .21, -.005], [1.01, 1.05, 1.0], [-.32, 0, 0]);
+{ const g = G(); g.add(hairCap());
+  for (const [x, y, z, r] of [[0, .4, .1, .085], [-.075, .385, .085, .07], [.07, .39, .09, .07], [.02, .42, .02, .09], [-.14, .34, .03, .07], [.14, .34, .03, .07]]) g.add(mesh(geo.sph(r), hairM, [x, y, z], [1.15, .8, 1]));
+  HAIR.quiff = g; }
+{ const g = G(); g.add(hairCap());
+  g.add(mesh(geo.sph(.23), hairM, [0, .1, -.07], [1.06, 1.45, .82]));                       // back fall
+  for (const s of [-1, 1]) g.add(mesh(geo.cap(.06, .26), hairM, [s * .19, .06, .03], [1, 1, .9], [0, 0, s * .06])); // side strands
+  g.add(mesh(geo.sph(.2), hairM, [0, .37, .1], [1.05, .32, .55], [.25, 0, 0]));             // fringe
+  HAIR.long = g; }
+{ const g = G(); g.add(hairCap()); g.add(mesh(geo.sph(.095), hairM, [0, .46, -.07])); g.add(mesh(new THREE.TorusGeometry(.05, .015, 8, 20), M(0xe11d48, .5), [0, .41, -.055], [1, 1, 1], [1.2, 0, 0])); HAIR.bun = g; }
+{ const g = G(); let n = 0;
+  for (let i = 0; i < 70; i++) { const th = Math.acos(1 - (i + .5) / 70 * 1.25), ph = i * 2.39996;
+    const x = Math.sin(th) * Math.cos(ph), y = Math.cos(th), z = Math.sin(th) * Math.sin(ph);
+    if (z > .55 && y < .6) continue; g.add(mesh(geo.sph(.075, 12, 10), hairM, [x * .25, .2 + y * .26, z * .25 - .02])); }
+  HAIR.curly = g; }
+{ const g = G(); g.add(mesh(new THREE.SphereGeometry(.221, 48, 24, 0, Math.PI * 2, 0, Math.PI * .42), hairM, [0, .21, -.005], [1.0, 1.04, .99], [-.3, 0, 0])); HAIR.buzz = g; }
+HAIR.bald = G();
+for (const k in HAIR) { HAIR[k].visible = false; head.add(HAIR[k]); }
+HAIR.quiff.visible = true;
+// accessories
+const capM = M(0xe11d48, .6);
+const CAP = G(); CAP.add(mesh(new THREE.SphereGeometry(.235, 40, 20, 0, Math.PI * 2, 0, Math.PI * .5), capM, [0, .23, 0], [1, .95, 1.02], [-.15, 0, 0]));
+CAP.add(mesh(new THREE.CylinderGeometry(.16, .16, .015, 32, 1, false, 0, Math.PI), capM, [0, .29, .17], [1, 1, 1.15], [-.05, Math.PI / 2, 0])); CAP.visible = false; head.add(CAP);
+const glassM = M(0x111111, .3);
+const GLASSES = G(); for (const s of [-1, 1]) GLASSES.add(mesh(new THREE.TorusGeometry(.055, .008, 10, 32), glassM, [s * .078, .225, .215]));
+GLASSES.add(mesh(geo.cap(.006, .04), glassM, [0, .23, .22], [1, 1, 1], [0, 0, Math.PI / 2])); GLASSES.visible = false; head.add(GLASSES);
+const BEARD = G(); BEARD.add(mesh(geo.sph(.1), hairM, [0, -.01, .1], [1.55, .75, .95])); for (const s of [-1, 1]) BEARD.add(mesh(geo.sph(.07), hairM, [s * .13, .05, .08], [.8, 1.1, .9]));
+BEARD.add(mesh(geo.cap(.016, .07), hairM, [0, .118, .205], [1, 1, .8], [0, 0, Math.PI / 2])); BEARD.visible = false; head.add(BEARD);
+const EARR = G(); for (const s of [-1, 1]) EARR.add(mesh(geo.sph(.018), M(0xf5c542, .2, { metalness: .8 }), [s * .215, .12, .03])); EARR.visible = false; head.add(EARR);
 // eyes
 const eyes = [], lids = [], brows = [];
 for (const s of [-1, 1]) {
@@ -99,13 +135,14 @@ const lipTop = mesh(geo.cap(.009, .07), lipM, [0, .01, .012], [1, 1, .7], [0, 0,
 const lipBot = mesh(geo.cap(.01, .06), lipM, [0, -.01, .012], [1, 1, .7], [0, 0, Math.PI / 2]); mouth.add(lipBot);
 
 // arms
+const FOREARMS = [], CUFFS = [];
 function arm(s) {
   const sh = G([s * .2, .45, 0]); torso.add(sh);
   sh.add(mesh(geo.sph(.068), hoodie, [0, -.02, 0]));
   sh.add(mesh(geo.cap(.064, .2), hoodie, [0, -.15, 0]));
   const el = G([0, -.3, 0]); sh.add(el);
-  el.add(mesh(geo.cap(.057, .18), hoodie, [0, -.12, 0]));
-  el.add(mesh(new THREE.CylinderGeometry(.06, .062, .04, 20), hoodieDark, [0, -.25, 0]));   // cuff
+  const fore = mesh(geo.cap(.057, .18), hoodie, [0, -.12, 0]); el.add(fore); FOREARMS.push(fore);
+  const cuff = mesh(new THREE.CylinderGeometry(.06, .062, .04, 20), hoodieDark, [0, -.25, 0]); el.add(cuff); CUFFS.push(cuff);   // cuff
   const hand = G([0, -.3, 0]); el.add(hand);
   hand.add(mesh(geo.sph(.068), skin, [0, -.025, 0], [.85, 1.05, .55]));
   for (let i = 0; i < 4; i++) hand.add(mesh(geo.cap(.015, .05), skin, [(i - 1.5) * .022, -.085, 0], [1, 1, 1], [0, 0, (i - 1.5) * .06]));
@@ -132,6 +169,30 @@ const LL = leg(-1), RL = leg(1);
   x.fillStyle = g; x.fillRect(0, 0, 128, 128);
   const sh = mesh(new THREE.PlaneGeometry(1.1, .6), new THREE.MeshBasicMaterial({ map: new THREE.CanvasTexture(c), transparent: true, depthWrite: false }), [0, .002, .02], [1, 1, 1], [-Math.PI / 2, 0, 0]);
   man.add(sh);
+}
+
+// ---------- looks ----------
+const C = c => new THREE.Color(c);
+let HOT = '#ffd23f';
+const SKIN = { pale: 0xf2c4a6, light: 0xe9b08c, tan: 0xd39a6e, brown: 0xa86b45, dark: 0x6e4228 };
+function applyLook(L) {
+  L = L || {};
+  skin.color = C(SKIN[L.skin] ?? L.skin ?? SKIN.light);
+  hairM.color = C(L.hairColor ?? 0x4a2a18); browM.color = C(L.browColor ?? L.hairColor ?? 0x3a2010);
+  for (const k in HAIR) HAIR[k].visible = k === (L.hair || 'quiff');
+  const top = L.top || 'hoodie';
+  hoodie.color = C(L.topColor ?? 0xf3b52f); hoodieDark.color = C(L.topColor ?? 0xf3b52f).multiplyScalar(.82);
+  hoodieBits.forEach(b => b.visible = top === 'hoodie');
+  jacketBits.forEach(b => b.visible = top === 'jacket' || top === 'cardigan');
+  if (top === 'cardigan') jacketBits[1].visible = false;
+  tieM.color = C(L.tieColor ?? 0xc0392b);
+  FOREARMS.forEach(f => f.material = top === 'tee' ? skin : hoodie); CUFFS.forEach(c => c.visible = top !== 'tee');
+  jeans.color = C(L.legColor ?? 0x2e4366); shoeM.color = C(L.shoeColor ?? 0xf4f4f4);
+  lipM.color = C(L.lips ?? 0xc77b6a); irisM.color = C(L.eyes ?? 0x5b3a1e);
+  CAP.visible = !!L.cap; if (L.cap) capM.color = C(L.cap);
+  GLASSES.visible = !!L.glasses; BEARD.visible = !!L.beard; EARR.visible = !!L.earrings;
+  man.scale.setScalar(L.scale ?? 1);
+  HOT = L.hot || '#ffd23f';
 }
 
 // ---------- poses ----------
@@ -176,7 +237,7 @@ const SHOTS = {
 };
 
 window.init = async (spec, amp, fps) => {
-  SPEC = spec; AMP = amp || []; FPS = fps || 30;
+  SPEC = spec; AMP = amp || []; FPS = fps || 30; applyLook(spec.look);
   let t = 0;
   SC = [];
   for (const s of spec.scenes) {
@@ -297,10 +358,23 @@ function drawCaption(s, lt) {
   let fs = 128; ctx.font = `700 ${fs}px Fredoka`; while (ctx.measureText(word).width > W - 120) { fs -= 6; ctx.font = `700 ${fs}px Fredoka`; }
   ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
   ctx.lineWidth = 22; ctx.strokeStyle = '#000'; ctx.strokeText(word, 0, 0);
-  ctx.fillStyle = hot ? '#ffd23f' : '#fff'; ctx.fillText(word, 0, 0);
+  ctx.fillStyle = hot ? HOT : '#fff'; ctx.fillText(word, 0, 0);
   ctx.restore();
 }
 
+function drawHook(text, t) {
+  const a = Math.min(1, (SPEC.hookDur || 2.6) - t < .25 ? ((SPEC.hookDur || 2.6) - t) / .25 : 1);
+  const pop = t < .18 ? .8 + t / .18 * .2 : 1;
+  ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 330); ctx.scale(pop, pop); ctx.rotate(-.025);
+  const lines = text.split('\n'); let fs = 92; ctx.font = `700 ${fs}px Fredoka, Emoji`;
+  while (Math.max(...lines.map(l => ctx.measureText(l).width)) > W - 160) { fs -= 4; ctx.font = `700 ${fs}px Fredoka, Emoji`; }
+  const w = Math.max(...lines.map(l => ctx.measureText(l).width)) + 70, h = lines.length * fs * 1.12 + 44;
+  ctx.shadowColor = 'rgba(0,0,0,.4)'; ctx.shadowBlur = 24; ctx.shadowOffsetY = 10;
+  ctx.fillStyle = SPEC.hookBg || '#ffffff'; rr(-w / 2, -h / 2, w, h, 30); ctx.fill(); ctx.shadowColor = 'transparent';
+  ctx.fillStyle = SPEC.hookColor || '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  lines.forEach((l, i) => ctx.fillText(l, 0, -h / 2 + 22 + fs * 1.12 * (i + .5)));
+  ctx.restore();
+}
 function blinkAt(t) { const p = (t % 3.7); return p < .12 ? Math.sin(p / .12 * Math.PI) : 0; }
 
 window.frame = async (t) => {
@@ -368,7 +442,8 @@ window.frame = async (t) => {
   drawPlace(s, lt);
   drawCard(s, lt);
   drawCaption(s, lt);
-  if (s.end && lt > s.dur - 2.6) {
+  if (SPEC.hook && t < (SPEC.hookDur || 2.6)) drawHook(SPEC.hook, t);
+  if (false && s.end && lt > s.dur - 2.6) {
     const a = ease((lt - (s.dur - 2.6)) / .3); ctx.save(); ctx.globalAlpha = a;
     ctx.fillStyle = '#ff2d55'; rr(W / 2 - 300, 1560, 600, 130, 65); ctx.fill();
     ctx.fillStyle = '#fff'; ctx.font = '700 64px Fredoka'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(s.end, W / 2, 1627); ctx.restore();

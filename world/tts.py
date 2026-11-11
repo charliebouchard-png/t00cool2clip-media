@@ -1,7 +1,10 @@
 # python tts.py spec.json voice.wav timing.json amp.json [fps]
 import json, sys, numpy as np, soundfile as sf
 from kokoro import KPipeline
-spec = json.load(open(sys.argv[1])); SR = 24000; FPS = int(sys.argv[5]) if len(sys.argv) > 5 else 30
+spec = json.load(open(sys.argv[1])); SR = 24000
+if spec.get('cast'):
+    import os; c = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cast.json')))[spec['cast']]
+    for k in ('voice', 'speed', 'pitch'): spec.setdefault(k, c[k]); FPS = int(sys.argv[5]) if len(sys.argv) > 5 else 30
 voice = spec.get('voice', 'am_michael'); pipe = KPipeline(lang_code=voice[0])
 parts, timing = [], []
 for i, s in enumerate(spec['scenes']):
@@ -12,7 +15,7 @@ for i, s in enumerate(spec['scenes']):
         a = a.detach().cpu().numpy() if hasattr(a, 'detach') else np.asarray(a)
         chunks += [a, np.zeros(int(.08 * SR), dtype=np.float32)]
     a = np.concatenate(chunks)
-    gap = 2.8 if i == len(spec['scenes']) - 1 else .22
+    gap = .35 if i == len(spec['scenes']) - 1 else .22
     parts += [a, np.zeros(int(gap * SR), dtype=np.float32)]
     timing.append({'speech': round(len(a) / SR, 3), 'dur': round(len(a) / SR + gap, 3)}); print(i, timing[-1], flush=True)
 v = np.concatenate(parts); sf.write(sys.argv[2], v, SR); json.dump(timing, open(sys.argv[3], 'w'))

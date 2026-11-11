@@ -1,0 +1,119 @@
+{
+ "id": "W004",
+ "title": "The island where money is giant stones",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "pitch": 1.04,
+ "scenes": [
+  {
+   "say": "This is money. Yes, this giant stone! On the island of Yap, in the Pacific, people used huge stone wheels as money. The biggest weighs about as much as a CAR!",
+   "place": "Yap, Micronesia",
+   "flag": "🏝️",
+   "bg": "bg/yap/rai.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "pointL",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "4 tonnes",
+     "small": "the biggest stone",
+     "color": "#ea580c",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "MONEY.",
+    "CAR!"
+   ],
+   "from": -1
+  },
+  {
+   "say": "But Yap has no stone like this! So people sailed about four hundred kilometres to Palau, carved them by hand, and dragged them home on canoes and rafts. Absolute madness!",
+   "place": "Palau",
+   "flag": "🌊",
+   "bg": "bg/yap/palau.jpg",
+   "shot": "medium",
+   "gestures": [
+    "point",
+    "explain",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.3,
+     "big": "400 km",
+     "small": "by canoe!",
+     "color": "#2563eb",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "MADNESS!"
+   ]
+  },
+  {
+   "say": "So how do you pay with a stone that weighs a tonne? You don't move it! Everyone just agrees it belongs to someone else now. The stone stays. The owner changes!",
+   "place": "A stone money bank",
+   "flag": "🪨",
+   "bg": "bg/yap/bank.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "open",
+    "count"
+   ],
+   "hot": [
+    "DON'T"
+   ]
+  },
+  {
+   "say": "And the best bit? One stone sank to the bottom of the sea. But everyone agreed it was still down there... so people could STILL spend it! Invisible money!",
+   "place": "The Pacific Ocean",
+   "flag": "🌊",
+   "bg": "bg/yap/ocean.jpg",
+   "shot": "close",
+   "gestures": [
+    "explain",
+    "wow"
+   ],
+   "hot": [
+    "STILL",
+    "INVISIBLE"
+   ]
+  },
+  {
+   "say": "Sounds crazy? That's literally your bank account! You never see your money. It's just a record everyone trusts. The economist Milton Friedman made exactly this point about Yap!",
+   "place": "New York, USA",
+   "flag": "🇺🇸",
+   "bg": "bg/yap/fed.jpg",
+   "shot": "medium",
+   "gestures": [
+    "pointL",
+    "explain",
+    "open"
+   ],
+   "hot": [
+    "BANK"
+   ]
+  },
+  {
+   "say": "And Yap still uses the stones today, for big occasions like weddings! Money isn't the stone or the paper. It's a story we all believe. Follow for more!",
+   "place": "Back in Micronesia",
+   "flag": "🏝️",
+   "bg": "bg/yap/beach.jpg",
+   "shot": "close",
+   "gestures": [
+    "open",
+    "wave"
+   ],
+   "hot": [
+    "STORY"
+   ],
+   "end": "FOLLOW FOR MORE"
+  }
+ ]
+}

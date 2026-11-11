@@ -1,0 +1,128 @@
+{
+ "id": "W006",
+ "title": "When a tulip cost as much as a house",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "pitch": 1.04,
+ "scenes": [
+  {
+   "say": "Would you swap a HOUSE for a flower? In sixteen thirty seven, in the Netherlands, some people basically did! This is tulip mania!",
+   "place": "Keukenhof, Netherlands",
+   "flag": "🇳🇱",
+   "bg": "bg/tulip/keukenhof.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "shrug",
+    "wow"
+   ],
+   "hot": [
+    "HOUSE",
+    "MANIA!"
+   ],
+   "from": -1
+  },
+  {
+   "say": "Rare striped tulips were the ultimate flex. Funny thing? The stripes were caused by a virus! One famous bulb, the Semper Augustus, was reportedly valued at around ten thousand guilders. Enough for a fancy house in Amsterdam!",
+   "place": "Amsterdam",
+   "flag": "🏘️",
+   "bg": "bg/tulip/canal.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "pointL",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "10,000",
+     "small": "guilders for ONE bulb",
+     "color": "#e11d48",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "FLEX."
+   ]
+  },
+  {
+   "say": "For comparison, Rembrandt got about sixteen hundred guilders for his most famous painting. A flower beat the Night Watch!",
+   "place": "The Rijksmuseum",
+   "flag": "🖼️",
+   "bg": "bg/tulip/nightwatch.jpg",
+   "shot": "medium",
+   "gestures": [
+    "point",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.2,
+     "big": "1,600",
+     "small": "guilders for the painting",
+     "color": "#2563eb",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "BEAT"
+   ]
+  },
+  {
+   "say": "But here's the twist. People weren't even trading flowers! They traded promises to buy bulbs later, in pubs, flipping them again and again for higher prices!",
+   "place": "Haarlem",
+   "flag": "🍺",
+   "bg": "bg/tulip/spaarne.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "explain",
+    "count"
+   ],
+   "hot": [
+    "TWIST.",
+    "PUBS,"
+   ]
+  },
+  {
+   "say": "Then in February sixteen thirty seven, at an auction in Haarlem... nobody bought. Prices crashed in days! Oops!",
+   "place": "Grote Markt, Haarlem",
+   "flag": "📉",
+   "bg": "bg/tulip/haarlem.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "CRASH",
+     "color": "#e11d48",
+     "hold": 2.4
+    }
+   ],
+   "hot": [
+    "NOBODY",
+    "OOPS!"
+   ]
+  },
+  {
+   "say": "Fun fact: historians now say it didn't actually ruin the country. A lot of the drama came from a book written two hundred years later! Still... maybe don't buy a flower for the price of a house. Follow for more!",
+   "place": "Tulip fields",
+   "flag": "🌷",
+   "bg": "bg/tulip/windmill.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "shrug",
+    "wave"
+   ],
+   "hot": [
+    "DRAMA"
+   ],
+   "end": "FOLLOW FOR MORE"
+  }
+ ]
+}

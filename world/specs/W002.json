@@ -1,0 +1,152 @@
+{
+ "id": "W002",
+ "title": "The man who sold the Eiffel Tower… twice",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "pitch": 1.04,
+ "scenes": [
+  {
+   "say": "In nineteen twenty five, a man SOLD the Eiffel Tower. Like, the actual Eiffel Tower! And the craziest part? He tried it TWICE! Let me explain!",
+   "place": "Paris, France",
+   "flag": "🇫🇷",
+   "bg": "bg/eiffelcon/eiffel.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "pointL",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.08,
+     "big": "1925",
+     "small": "the year he sold it",
+     "color": "#2563eb",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "SOLD",
+    "TWICE!"
+   ],
+   "fy": 0.55,
+   "from": -1
+  },
+  {
+   "say": "His name was Victor Lustig. He read in the paper that the tower cost a fortune to repair. And he thought... what if I just sell it for scrap?",
+   "place": "Paris streets",
+   "flag": "📰",
+   "bg": "bg/eiffelcon/street.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "think",
+    "open"
+   ],
+   "hot": [
+    "SCRAP?"
+   ]
+  },
+  {
+   "say": "So he pretended to be a government official, booked a fancy hotel, and invited scrap dealers. Top secret, he said. Don't tell anyone! Which meant nobody checked!",
+   "place": "A fancy Paris hotel",
+   "flag": "🏨",
+   "bg": "bg/eiffelcon/hotel.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "pointL",
+    "open"
+   ],
+   "hot": [
+    "SECRET,"
+   ]
+  },
+  {
+   "say": "One dealer got nervous. So Lustig asked him for a bribe! And that's what convinced him. Because a real official would totally ask for a bribe, right?",
+   "place": "The scrap yard",
+   "flag": "🔩",
+   "bg": "bg/eiffelcon/scrap.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "shrug",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "70,000",
+     "small": "francs, reportedly",
+     "color": "#16a34a",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "BRIBE!"
+   ]
+  },
+  {
+   "say": "Lustig ran off to Austria with the cash. But the dealer was too embarrassed to tell the police! So Lustig came back... and tried to sell it AGAIN!",
+   "place": "Vienna, Austria",
+   "flag": "🇦🇹",
+   "bg": "bg/eiffelcon/vienna.jpg",
+   "shot": "wide",
+   "gestures": [
+    "point",
+    "think",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.7,
+     "big": "AGAIN?!",
+     "color": "#e11d48",
+     "hold": 2.6
+    }
+   ],
+   "hot": [
+    "AGAIN!"
+   ],
+   "from": 1
+  },
+  {
+   "say": "Then in America, he even conned Al Capone! Or so the story goes. He borrowed fifty thousand dollars, gave it back, and Capone was so impressed he tipped him! Legend!",
+   "place": "Chicago, USA",
+   "flag": "🇺🇸",
+   "bg": "bg/eiffelcon/chicago.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "open",
+    "wave"
+   ],
+   "cards": [
+    {
+     "at": 0.3,
+     "big": "$50,000",
+     "color": "#16a34a",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "CAPONE!"
+   ]
+  },
+  {
+   "say": "But his luck ran out, and he ended up in Alcatraz. The lesson? If a deal is secret, urgent and too good to be true... RUN! Follow for more!",
+   "place": "Alcatraz Island",
+   "flag": "🚔",
+   "bg": "bg/eiffelcon/alcatraz.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "wave"
+   ],
+   "hot": [
+    "RUN!"
+   ],
+   "end": "FOLLOW FOR MORE"
+  }
+ ]
+}

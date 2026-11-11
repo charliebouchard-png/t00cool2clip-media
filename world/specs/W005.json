@@ -1,0 +1,126 @@
+{
+ "id": "W005",
+ "title": "The 100 trillion dollar banknote",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "pitch": 1.04,
+ "scenes": [
+  {
+   "say": "This note says ONE HUNDRED TRILLION dollars. That's a one with fourteen zeros! And it still couldn't buy you much at all. Welcome to Zimbabwe!",
+   "place": "Zimbabwe",
+   "flag": "🇿🇼",
+   "bg": "bg/zim/note.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.08,
+     "big": "$100,000,000,000,000",
+     "color": "#16a34a",
+     "hold": 3.6
+    }
+   ],
+   "hot": [
+    "TRILLION"
+   ],
+   "from": -1
+  },
+  {
+   "say": "Zimbabwe was once called a breadbasket of the region, and early on, its dollar was worth MORE than the US dollar! So what went wrong?",
+   "place": "Zimbabwe farmland",
+   "flag": "🌾",
+   "bg": "bg/zim/farm.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "pointL",
+    "think"
+   ],
+   "hot": [
+    "MORE"
+   ]
+  },
+  {
+   "say": "Farming collapsed, the economy shrank, and the government did the one thing you should never do. It printed more and more money! More money, fewer things... prices EXPLODE!",
+   "place": "Reserve Bank, Harare",
+   "flag": "🏦",
+   "bg": "bg/zim/harare.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "shrug",
+    "wow"
+   ],
+   "hot": [
+    "PRINTED",
+    "EXPLODE!"
+   ]
+  },
+  {
+   "say": "By twenty oh eight, prices were roughly doubling every single day! Your lunch could cost more by the time you finished eating it! Shops were ordered to cut prices, so the shelves emptied even faster. People carried bricks of cash just to buy bread!",
+   "place": "The shops",
+   "flag": "🛒",
+   "bg": "bg/zim/shelves.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "explain",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.15,
+     "big": "79.6 billion %",
+     "small": "inflation in ONE month",
+     "color": "#e11d48",
+     "hold": 3.6
+    }
+   ],
+   "hot": [
+    "DOUBLING"
+   ]
+  },
+  {
+   "say": "And Zimbabwe wasn't the first! Germany did it in nineteen twenty three. Money was so worthless, people used banknotes as wallpaper!",
+   "place": "Berlin, Germany",
+   "flag": "🇩🇪",
+   "bg": "bg/zim/berlin.jpg",
+   "shot": "medium",
+   "gestures": [
+    "pointL",
+    "shrug",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.3,
+     "big": "1923",
+     "color": "#2563eb",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "WALLPAPER!"
+   ]
+  },
+  {
+   "say": "In the end, Zimbabwe gave up and used US dollars instead. And that hundred trillion note? Now people buy it online as a souvenir! Follow for more!",
+   "place": "Victoria Falls",
+   "flag": "🇿🇼",
+   "bg": "bg/zim/falls.jpg",
+   "shot": "close",
+   "gestures": [
+    "explain",
+    "wave"
+   ],
+   "hot": [
+    "SOUVENIR!"
+   ],
+   "end": "FOLLOW FOR MORE"
+  }
+ ]
+}

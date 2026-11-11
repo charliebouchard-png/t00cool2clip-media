@@ -184,7 +184,9 @@ window.init = async (spec, amp, fps) => {
     const words = s.say.split(/\s+/).filter(Boolean);
     const total = words.reduce((a, w) => a + w.length + 3, 0);
     let acc = 0; const wt = words.map(w => { const st = acc / total; acc += w.length + 3; return { w, st, en: acc / total }; });
-    SC.push({ ...s, t0: t, t1: t + s.dur, img, wt });
+    const sc = { ...s, t0: t, t1: t + s.dur, img, wt };
+    if (img) buildBackdrop(sc);
+    SC.push(sc);
     t += s.dur;
   }
   DUR = t;
@@ -192,13 +194,51 @@ window.init = async (spec, amp, fps) => {
   return { dur: DUR };
 };
 
+function texFrom(img, blur) {
+  const c = document.createElement('canvas'); const sc = Math.min(1, 1600 / img.width);
+  c.width = Math.round(img.width * sc); c.height = Math.round(img.height * sc);
+  const x = c.getContext('2d'); if (blur) x.filter = `blur(${blur}px) saturate(1.1)`; else x.filter = 'saturate(1.08)';
+  x.drawImage(img, 0, 0, c.width, c.height);
+  const t = new THREE.CanvasTexture(c); t.colorSpace = THREE.SRGBColorSpace; t.repeat.x = -1; t.offset.x = 1; t.anisotropy = 4; return t;
+}
+const BG_R = 10, BG_H = 16;
+function buildBackdrop(sc) {
+  const asp = sc.img.width / sc.img.height; const span = Math.min(Math.PI * 1.2, BG_H * asp / BG_R);
+  const g = new THREE.CylinderGeometry(BG_R, BG_R, BG_H, 96, 1, true, Math.PI - span / 2, span);
+  const sharp = texFrom(sc.img, 0), soft = texFrom(sc.img, 5);
+  const m = new THREE.MeshBasicMaterial({ map: sharp, side: THREE.BackSide, toneMapped: false });
+  const mesh = new THREE.Mesh(g, m); mesh.position.y = 2.0 - ((sc.fy ?? .45) - .45) * 6; mesh.rotation.y = -((sc.fx ?? .5) - .5) * span;
+  mesh.visible = false; scene.add(mesh);
+  sc.bg3 = { mesh, sharp, soft, span, yawMax: Math.max(.1, span / 2 - .5) };
+}
+const ANG = {
+  front: { yaw: 0, dy: 0, roll: 0 }, l34: { yaw: -.55, dy: .05, roll: 0 }, r34: { yaw: .55, dy: .05, roll: 0 },
+  low: { yaw: .2, dy: -.5, roll: 0 }, high: { yaw: -.25, dy: .6, roll: 0 }, dutchL: { yaw: -.3, dy: 0, roll: .09 }, dutchR: { yaw: .35, dy: -.1, roll: -.08 },
+};
+const ANG_CYCLE = ['front', 'r34', 'low', 'l34', 'high', 'dutchR', 'front', 'l34', 'dutchL', 'r34'];
+const SHOT_NEXT = { wide: ['medium', 'close'], medium: ['close', 'wide'], close: ['medium', 'wide'] };
+function shotPlan(sc, idx) {
+  if (sc._plan) return sc._plan;
+  const n = (sc.gestures || ['explain', 'open']).length; const plan = [];
+  let shot = sc.shot || 'medium';
+  for (let j = 0; j < n; j++) {
+    const c = sc.cams && sc.cams[j];
+    if (c) { plan.push({ shot: c[0], ang: c[1] }); shot = c[0]; continue; }
+    if (j > 0) shot = SHOT_NEXT[shot][(idx + j) % 2];
+    plan.push({ shot, ang: ANG_CYCLE[(idx * 3 + j * 2) % ANG_CYCLE.length] });
+  }
+  return (sc._plan = plan);
+}
 function ampAt(t) { if (!AMP.length) return (Math.sin(t * 17) * .5 + .5) * (Math.sin(t * 3.1) > -.3 ? .8 : 0); const i = Math.floor(t * FPS); return AMP[Math.min(AMP.length - 1, Math.max(0, i))] || 0; }
 
 function drawBg(s, lt, shot) {
   const img = s.img; const k = lt / s.dur;
   const zoomIn = lt < .28 ? 1 + (1 - ease(lt / .28)) * .35 : 1;
   const sc = (1.06 + k * .07) * zoomIn;
-  if (img) {
+  if (s.bg3) {
+    // backdrop is rendered in 3D; just clear
+    ctx.fillStyle = '#000'; ctx.fillRect(0, 0, W, H);
+  } else if (img) {
     const r = Math.max(W / img.width, H / img.height) * sc;
     const w = img.width * r, h = img.height * r;
     const fx = s.fx ?? .5, fy = s.fy ?? .45;
@@ -209,7 +249,8 @@ function drawBg(s, lt, shot) {
     const g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#7fb8ff'); g.addColorStop(.6, '#cfe6ff'); g.addColorStop(.61, '#9a9a8c'); g.addColorStop(1, '#6d6d62');
     ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
   }
-  // grade + vignette
+}
+function drawOverlay(lt) {
   const v = ctx.createRadialGradient(W / 2, H * .5, H * .25, W / 2, H * .5, H * .75);
   v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.45)'); ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
   if (lt < .18) { ctx.fillStyle = `rgba(255,255,255,${(1 - lt / .18) * .7})`; ctx.fillRect(0, 0, W, H); }
@@ -266,18 +307,28 @@ window.frame = async (t) => {
   const s = SC.find(x => t >= x.t0 && t < x.t1) || SC[SC.length - 1];
   const lt = t - s.t0, k = lt / s.dur, speaking = lt < (s.speech || s.dur);
   const amp = speaking ? Math.min(1, ampAt(t) * 1.6) : 0;
-  const shot = s.shot || 'medium', sh = SHOTS[shot];
-  // camera
-  const push = ease(k) * sh.push;
-  camera.position.set(sh.pos[0] + (s.camX || 0), sh.pos[1], sh.pos[2] - push);
-  camera.lookAt(sh.look[0] + (s.camX || 0) * .6, sh.look[1], sh.look[2]);
+  const idx = SC.indexOf(s);
+  const gsN = (s.gestures || ['explain', 'open']).length, segL = s.dur / gsN, si = Math.min(gsN - 1, Math.floor(lt / segL));
+  const plan = shotPlan(s, idx)[si]; const shot = plan.shot, sh = SHOTS[shot], an = ANG[plan.ang] || ANG.front;
+  const lts = lt - si * segL, ks = lts / segL;
+  // camera: orbit around the presenter with drift + punch-in at each cut
+  const ymax = s.bg3 ? s.bg3.yawMax : .3;
+  const yaw = Math.max(-ymax, Math.min(ymax, an.yaw + (ks - .5) * .14 * (idx % 2 ? 1 : -1)));
+  const dist = (sh.pos[2] - ease(ks) * sh.push) * (1 + .1 * (1 - ease(Math.min(1, lts / .35))));
+  const ly = sh.look[1] + (an.dy < 0 ? .08 : an.dy > 0 ? -.05 : 0);
+  const shake = .006 * Math.sin(t * 7.1) + .004 * Math.sin(t * 11.3);
+  camera.position.set(Math.sin(yaw) * dist + shake, sh.pos[1] + an.dy, Math.cos(yaw) * dist);
+  camera.up.set(Math.sin(an.roll), Math.cos(an.roll), 0);
+  camera.lookAt(0, ly + shake * .5, 0);
+  for (const o of SC) if (o.bg3) o.bg3.mesh.visible = o === s;
+  if (s.bg3) { const want = shot === 'wide' ? s.bg3.sharp : s.bg3.soft; if (s.bg3.mesh.material.map !== want) { s.bg3.mesh.material.map = want; s.bg3.mesh.material.needsUpdate = true; } }
   // body
   man.position.set(s.manX || 0, 0, 0);
-  man.rotation.y = (s.turn || 0) + Math.sin(t * .7) * .05;
+  man.rotation.y = (s.turn || 0) + yaw * .6 + Math.sin(t * .7) * .05;
   const breath = Math.sin(t * 2.2) * .008;
   hips.position.y = .8 + breath; torso.rotation.z = Math.sin(t * .9) * .015; torso.rotation.x = -.03 + amp * .03;
   // walk in for wide shots
-  const walking = shot === 'wide' && lt < 1.1;
+  const walking = shot === 'wide' && si === 0 && lt < 1.1;
   const wk = walking ? (1 - ease(lt / 1.1)) : 0;
   if (walking) { man.position.x += (s.from || -1) * wk * 1.6; man.rotation.y += (s.from || -1) * -wk * 1.2; }
   const ph = t * 9;
@@ -313,6 +364,7 @@ window.frame = async (t) => {
   drawBg(s, lt, shot);
   renderer.render(scene, camera);
   ctx.drawImage(renderer.domElement, 0, 0, W, H);
+  drawOverlay(lt);
   drawPlace(s, lt);
   drawCard(s, lt);
   drawCaption(s, lt);

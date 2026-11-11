@@ -1,0 +1,56 @@
+{
+ "street": {
+  "q": "Rue de Rivoli Paris",
+  "file": "File:Rue de Rivoli at Sunset.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rue_de_Rivoli_at_Sunset.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "DiscoA340",
+  "w": 1920,
+  "h": 2560
+ },
+ "hotel": {
+  "q": "Hotel de Crillon Paris",
+  "file": "File:DSC 7353-Hotel-Crillon-Pari.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DSC_7353-Hotel-Crillon-Pari.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Pline",
+  "w": 1920,
+  "h": 1277
+ },
+ "scrap": {
+  "q": "scrap metal yard",
+  "file": "File:Scrap metal yard.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Scrap_metal_yard.jpg",
+  "license": "CC0",
+  "artist": "Digitura",
+  "w": 1920,
+  "h": 1440
+ },
+ "vienna": {
+  "q": "Stephansplatz Vienna",
+  "file": "File:Stephansplatz Wien 4.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Stephansplatz_Wien_4.jpg",
+  "license": "CC BY-SA 2.5",
+  "artist": "b\u00f6hringer friedrich",
+  "w": 1920,
+  "h": 2202
+ },
+ "chicago": {
+  "q": "Chicago River skyline",
+  "file": "File:Chicago skyline from 16th Street bridge.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chicago_skyline_from_16th_Street_bridge.jpg",
+  "license": "CC BY 2.0",
+  "artist": "John Picken",
+  "w": 1920,
+  "h": 1144
+ },
+ "alcatraz": {
+  "q": "Alcatraz Island",
+  "file": "File:Alcatraz Island as seen from the East.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alcatraz_Island_as_seen_from_the_East.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Frank Schulenburg",
+  "w": 1920,
+  "h": 1200
+ }
+}

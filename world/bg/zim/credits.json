@@ -1,0 +1,56 @@
+{
+ "note": {
+  "q": "Reserve Bank of Zimbabwe",
+  "file": "File:Zimbabwe $100 trillion 2009 Obverse.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Zimbabwe_$100_trillion_2009_Obverse.jpg",
+  "license": "Public domain",
+  "artist": "Reserve Bank of Zimbabwe",
+  "w": 1764,
+  "h": 875
+ },
+ "farm": {
+  "q": "Zimbabwe farmland",
+  "file": "File:Maize maize .2025.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Maize_maize_.2025.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Busie-lee",
+  "w": 1920,
+  "h": 2560
+ },
+ "harare": {
+  "q": "Reserve Bank of Zimbabwe",
+  "file": "File:Reserve Bank of Zimbabwe F.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Reserve_Bank_of_Zimbabwe_F.png",
+  "license": "CC BY 2.0",
+  "artist": "Baynham Goredema from Johannesburg, South Africa",
+  "w": 1920,
+  "h": 1285
+ },
+ "shelves": {
+  "q": "empty supermarket shelves",
+  "file": "File:2020-03-15 Empty supermarket shelves in Australian supermarket 05.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2020-03-15_Empty_supermarket_shelves_in_Australian_supermarket_05.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Maksym Kozlenko",
+  "w": 1920,
+  "h": 1440
+ },
+ "berlin": {
+  "q": "Brandenburg Gate",
+  "file": "File:Berlin, Brandenburger Tor -- 2008 -- 0153.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Berlin,_Brandenburger_Tor_--_2008_--_0153.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Dietmar Rabich",
+  "w": 1920,
+  "h": 1469
+ },
+ "falls": {
+  "q": "Victoria Falls",
+  "file": "File:Mosi-oa-Tunya, Livingstone (20260519-P1075699).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mosi-oa-Tunya,_Livingstone_(20260519-P1075699).jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Matti Blume",
+  "w": 1920,
+  "h": 1440
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "id": "W003",
+ "title": "Why your snacks keep getting smaller",
+ "voice": "am_puck",
+ "speed": 1.1,
+ "pitch": 1.04,
+ "scenes": [
+  {
+   "say": "Have you noticed your snacks getting SMALLER, but the price staying the same? You're not crazy! It's called shrinkflation, and it's everywhere!",
+   "place": "The supermarket",
+   "flag": "🛒",
+   "bg": "bg/shrink/aisle.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "shrug",
+    "open"
+   ],
+   "hot": [
+    "SMALLER,",
+    "SHRINKFLATION,"
+   ],
+   "from": -1
+  },
+  {
+   "say": "Remember Toblerone? In twenty sixteen, the UK bars suddenly had massive gaps between the triangles! Same bar, less chocolate. People were FURIOUS!",
+   "place": "The Swiss Alps",
+   "flag": "🇨🇭",
+   "bg": "bg/shrink/matterhorn.jpg",
+   "shot": "medium",
+   "gestures": [
+    "pointL",
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.35,
+     "big": "2016",
+     "small": "the Toblerone gap year",
+     "color": "#2563eb",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "TOBLERONE?",
+    "FURIOUS!"
+   ]
+  },
+  {
+   "say": "Some Cadbury Freddo multipacks went from five bars to FOUR! I counted. Twice. I was very upset.",
+   "place": "Bournville, Birmingham",
+   "flag": "🍫",
+   "bg": "bg/shrink/bournville.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.25,
+     "big": "5 → 4",
+     "small": "bars in the pack",
+     "color": "#7c3aed",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "FOUR!"
+   ]
+  },
+  {
+   "say": "Quality Street tubs? Six hundred grams, down to five hundred and fifty. Fifty grams of chocolate... just gone! Where did it go?!",
+   "place": "Halifax, England",
+   "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+   "bg": "bg/shrink/halifax.jpg",
+   "shot": "close",
+   "gestures": [
+    "explain",
+    "shrug"
+   ],
+   "hot": [
+    "GONE!"
+   ]
+  },
+  {
+   "say": "So why do they do it? When cocoa, energy and wages get pricier, companies can raise the price, or quietly shrink the pack. And guess which one we notice less?",
+   "place": "Cocoa farm, Ghana",
+   "flag": "🇬🇭",
+   "bg": "bg/shrink/cocoa.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "count",
+    "think"
+   ],
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "Price ↑",
+     "small": "or pack ↓",
+     "color": "#ea580c",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "QUIETLY"
+   ]
+  },
+  {
+   "say": "Here's how to beat them. Check the tiny unit price on the shelf label. The price per hundred grams. That's the REAL price!",
+   "place": "Back at the shops",
+   "flag": "🏷️",
+   "bg": "bg/shrink/aisle2.jpg",
+   "shot": "medium",
+   "gestures": [
+    "point",
+    "count",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "£ per 100g",
+     "small": "the real price",
+     "color": "#16a34a",
+     "hold": 3.2
+    }
+   ],
+   "hot": [
+    "REAL"
+   ]
+  },
+  {
+   "say": "And it's not just chocolate! One popular toothpaste went from a hundred millilitres to seventy five. My teeth deserve better!",
+   "place": "The bathroom aisle",
+   "flag": "🪥",
+   "bg": "bg/shrink/aisle.jpg",
+   "fx": 0.25,
+   "shot": "close",
+   "gestures": [
+    "shrug",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.35,
+     "big": "100ml → 75ml",
+     "small": "same toothpaste",
+     "color": "#7c3aed",
+     "hold": 3
+    }
+   ]
+  },
+  {
+   "say": "So next time your crisps feel half empty... they probably are! Follow for more money secrets!",
+   "place": "London",
+   "flag": "🇬🇧",
+   "bg": "bg/shrink/london.jpg",
+   "shot": "close",
+   "gestures": [
+    "shrug",
+    "wave"
+   ],
+   "end": "FOLLOW FOR MORE"
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "aisle": {
+  "q": "supermarket aisle United Kingdom",
+  "file": "File:2024-05-22 Aisle 12, Morrisons, Inverness.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2024-05-22_Aisle_12,_Morrisons,_Inverness.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Xeverything11",
+  "w": 1920,
+  "h": 2560
+ },
+ "aisle2": {
+  "q": "supermarket aisle United Kingdom",
+  "file": "File:2024-05-22 Aisle 15, Morrisons, Inverness.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2024-05-22_Aisle_15,_Morrisons,_Inverness.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Xeverything11",
+  "w": 1920,
+  "h": 2560
+ },
+ "matterhorn": {
+  "q": "Matterhorn Zermatt",
+  "file": "File:CH.VS.Zermatt 2021-10-17 Matterhorn 8726.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:CH.VS.Zermatt_2021-10-17_Matterhorn_8726.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Roy Egloff",
+  "w": 1920,
+  "h": 1280
+ },
+ "bournville": {
+  "q": "Bournville village Birmingham",
+  "file": "File:Sign, Bournville Village Trust Estate.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Sign,_Bournville_Village_Trust_Estate.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "Rept0n1x",
+  "w": 1920,
+  "h": 1440
+ },
+ "halifax": {
+  "q": "Halifax West Yorkshire town centre",
+  "file": "File:Halifax town centre - geograph.org.uk - 3949892.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Halifax_town_centre_-_geograph.org.uk_-_3949892.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "John Slater\u00a0",
+  "w": 1600,
+  "h": 1200
+ },
+ "cocoa": {
+  "q": "cocoa farm Ghana",
+  "file": "File:A cocoa farm in Ghana.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A_cocoa_farm_in_Ghana.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "King Bangaba",
+  "w": 1920,
+  "h": 1440
+ },
+ "london": {
+  "q": "Tower Bridge London",
+  "file": "File:Tower Bridge golden hour.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_golden_hour.jpg",
+  "license": "CC BY-SA 2.5 ca",
+  "artist": "The Cosmonaut",
+  "w": 1920,
+  "h": 1333
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "rai": {
+  "q": "Rai stone Yap",
+  "file": "File:Community house of Yorlap (Yap Islands) with stone money made in Palau NOAA.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Community_house_of_Yorlap_(Yap_Islands)_with_stone_money_made_in_Palau_NOAA.jpg",
+  "license": "Public domain",
+  "artist": "Dr. James P. McVey, NOAA Sea Grant Program",
+  "w": 1784,
+  "h": 1172
+ },
+ "palau": {
+  "q": "Rock Islands Palau",
+  "file": "File:Rock Islands near German Channel, Palau (9971717656).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rock_Islands_near_German_Channel,_Palau_(9971717656).jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Matt Kieffer from London, United Kingdom",
+  "w": 1920,
+  "h": 1440
+ },
+ "bank": {
+  "q": "Rai stone Yap",
+  "file": "File:Ancient Yapese stone money - 8843919185.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ancient_Yapese_stone_money_-_8843919185.jpg",
+  "license": "CC0",
+  "artist": "Scot Nelson",
+  "w": 1920,
+  "h": 1280
+ },
+ "ocean": {
+  "q": "Pacific ocean waves aerial",
+  "file": "File:Amazing Reefs (^453 explore 08-25-2021) - Flickr - Kirt Edblom.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Amazing_Reefs_(%5E453_explore_08-25-2021)_-_Flickr_-_Kirt_Edblom.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Kirt Edblom from Kihei, Hi, United States",
+  "w": 1920,
+  "h": 1080
+ },
+ "fed": {
+  "q": "Federal Reserve Bank of New York building",
+  "file": "File:2013 Federal Reserve Bank of New York from west.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2013_Federal_Reserve_Bank_of_New_York_from_west.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Beyond My Ken",
+  "w": 1920,
+  "h": 1440
+ },
+ "beach": {
+  "q": "Yap island beach",
+  "file": "File:Operation Christmas Drop 16 161207-F-IX728-306.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Operation_Christmas_Drop_16_161207-F-IX728-306.jpg",
+  "license": "Public domain",
+  "artist": "Senior Airman Arielle Vasquez",
+  "w": 1920,
+  "h": 1215
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "keukenhof": {
+  "q": "Keukenhof tulips",
+  "file": "File:Keukenhof tulips - 17591061520.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Keukenhof_tulips_-_17591061520.jpg",
+  "license": "CC BY 2.0",
+  "artist": "Willem van Valk",
+  "w": 1920,
+  "h": 1280
+ },
+ "canal": {
+  "q": "Amsterdam canal houses Herengracht",
+  "file": "File:Amsterdam - canal houses (3416160482).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Amsterdam_-_canal_houses_(3416160482).jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Ernest McGray, Jr.",
+  "w": 1920,
+  "h": 1440
+ },
+ "nightwatch": {
+  "q": "The Night Watch Rembrandt",
+  "file": "File:La ronda de noche, por Rembrandt van Rijn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche,_por_Rembrandt_van_Rijn.jpg",
+  "license": "Public domain",
+  "artist": "Rembrandt",
+  "w": 1920,
+  "h": 1562
+ },
+ "spaarne": {
+  "q": "Haarlem Spaarne river",
+  "file": "File:Spaarne River Haarlem.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Spaarne_River_Haarlem.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Edi Weissmann",
+  "w": 1920,
+  "h": 1440
+ },
+ "haarlem": {
+  "q": "Grote Markt Haarlem",
+  "file": "File:Grote Markt Stadthuis Harlem.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Grote_Markt_Stadthuis_Harlem.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "\n\n\n  This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and se",
+  "w": 1920,
+  "h": 1091
+ },
+ "windmill": {
+  "q": "tulip field windmill Netherlands",
+  "file": "File:Claude Monet - Champ de tulipes en Hollande.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Claude_Monet_-_Champ_de_tulipes_en_Hollande.jpg",
+  "license": "Public domain",
+  "artist": "Claude Monet",
+  "w": 1920,
+  "h": 1264
+ }
+}

@@ -16,6 +16,11 @@ for i, s in enumerate(spec['scenes']):
     parts += [a, np.zeros(int(gap * SR), dtype=np.float32)]
     timing.append({'speech': round(len(a) / SR, 3), 'dur': round(len(a) / SR + gap, 3)}); print(i, timing[-1], flush=True)
 v = np.concatenate(parts); sf.write(sys.argv[2], v, SR); json.dump(timing, open(sys.argv[3], 'w'))
+pitch = spec.get('pitch', 1.0)
+if pitch != 1.0:
+    import subprocess
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', sys.argv[2], '-af', f'asetrate={int(SR*pitch)},aresample={SR},atempo={1/pitch:.5f}', sys.argv[2] + '.p.wav'], check=True)
+    v, _ = sf.read(sys.argv[2] + '.p.wav', dtype='float32'); import os; os.replace(sys.argv[2] + '.p.wav', sys.argv[2])
 hop = SR // FPS; n = len(v) // hop
 rms = np.array([np.sqrt(np.mean(v[j * hop:(j + 1) * hop] ** 2)) for j in range(n)])
 rms = rms / (np.percentile(rms, 95) + 1e-6); rms = np.clip(rms, 0, 1)

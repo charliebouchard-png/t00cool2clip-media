@@ -36,10 +36,11 @@ jobs:
       - name: Mix
         run: |
           D=$(python -c "import json;print(sum(t['dur'] for t in json.load(open('$RUNNER_TEMP/timing.json')))+1)")
-          SEED=$(echo "${{ matrix.id }}" | tr -dc 0-9); python explainer/music.py "$D" "${SEED:-7}" "$RUNNER_TEMP/music.wav"
+          SEED=$(echo "${{ matrix.id }}" | tr -dc 0-9); python world/music_up.py "$D" "${SEED:-7}" "$RUNNER_TEMP/music.wav"
+          python world/sfx.py "world/specs/${{ matrix.id }}.json" "$RUNNER_TEMP/timing.json" "$RUNNER_TEMP/sfx.wav"
           mkdir -p out
-          ffmpeg -y -loglevel error -i "$RUNNER_TEMP/video.mp4" -i "$RUNNER_TEMP/voice.wav" -i "$RUNNER_TEMP/music.wav" \
-            -filter_complex "[1:a]aresample=48000[v];[2:a]aresample=48000,volume=0.13[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" \
+          ffmpeg -y -loglevel error -i "$RUNNER_TEMP/video.mp4" -i "$RUNNER_TEMP/voice.wav" -i "$RUNNER_TEMP/music.wav" -i "$RUNNER_TEMP/sfx.wav" \
+            -filter_complex "[1:a]aresample=48000[v];[2:a]aresample=48000,volume=0.2[m];[3:a]volume=0.8[s];[v][m][s]amix=inputs=3:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" \
             -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -ar 48000 -shortest "out/${{ matrix.id }}.mp4"
           cp "$RUNNER_TEMP/timing.json" "out/${{ matrix.id }}.timing.json"; ls -la out
       - name: Push

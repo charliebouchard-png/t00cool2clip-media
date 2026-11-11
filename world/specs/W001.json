@@ -1,11 +1,11 @@
 {
  "id": "W001",
  "title": "How Ryanair makes money on £15 flights",
- "voice": "am_michael",
- "speed": 1.02,
+ "voice": "am_puck",
+ "speed": 1.1,
  "scenes": [
   {
-   "say": "This Ryanair flight cost me fifteen quid. The taxi to the airport cost forty. So how did Ryanair make over two billion euros profit last year?",
+   "say": "Wait... this Ryanair flight cost me fifteen quid?! The TAXI here cost forty! So how on earth did Ryanair make over two BILLION euros profit last year? Let me show you!",
    "place": "Dublin Airport",
    "flag": "🇮🇪",
    "bg": "bg/ryanair/dublin-airport.jpg",
@@ -27,7 +27,7 @@
    ]
   },
   {
-   "say": "Trick one. The ticket is just the bait. The real money is everything else. Bags. Seats. Priority boarding. That's almost five billion euros of extras.",
+   "say": "Trick number one! The ticket is just the bait. The real money? Everything else! Bags! Seats! Priority boarding! That's almost FIVE billion euros of extras. Crazy, right?",
    "place": "Airport check-in",
    "flag": "🧳",
    "bg": "bg/ryanair/checkin.jpg",
@@ -54,7 +54,7 @@
    ]
   },
   {
-   "say": "Trick two. Cheap airports. Ryanair will fly you to Paris.",
+   "say": "Trick two! Cheap airports. Ryanair will happily fly you to Paris!",
    "place": "Paris, France",
    "flag": "🇫🇷",
    "bg": "bg/ryanair/eiffel.jpg",
@@ -66,7 +66,7 @@
    ]
   },
   {
-   "say": "Well, Beauvais. About eighty five kilometres away. Small airports charge airlines much lower fees, so Ryanair saves millions.",
+   "say": "Well... Beauvais! About eighty five kilometres away! Ha! But small airports charge way lower fees, so Ryanair saves millions!",
    "place": "Beauvais, France",
    "flag": "😅",
    "bg": "bg/ryanair/beauvais.jpg",
@@ -89,7 +89,7 @@
    ]
   },
   {
-   "say": "Trick three. One type of plane. Almost every Ryanair jet is a Boeing seven three seven, bought hundreds at a time for big discounts. Same parts, same training, cheaper everything.",
+   "say": "Trick three! One type of plane! Almost every Ryanair jet is a Boeing seven three seven, bought hundreds at a time, for massive discounts! Same parts, same training, cheaper everything!",
    "place": "Boeing factory, USA",
    "flag": "🇺🇸",
    "bg": "bg/ryanair/renton.jpg",
@@ -115,7 +115,7 @@
    ]
   },
   {
-   "say": "Trick four. Planes that never sit still. A Ryanair jet lands, empties, refills and takes off again in about twenty five minutes. A plane on the ground makes no money.",
+   "say": "Trick four! Planes that never stop! A Ryanair jet lands, empties, refills and takes off again in about twenty five minutes! Because a plane on the ground makes zero money!",
    "place": "On the runway",
    "flag": "✈️",
    "bg": "bg/ryanair/stairs.jpg",
@@ -136,7 +136,7 @@
    ]
   },
   {
-   "say": "Trick five. No frills. No free food, no screens, and seats that don't recline. Tiny savings, times two hundred million passengers, add up to a fortune.",
+   "say": "And trick five! No frills! No free food, no screens, seats that don't even recline! Tiny savings, times two hundred million passengers? That's a fortune!",
    "place": "Inside a Ryanair jet",
    "flag": "💺",
    "bg": "bg/ryanair/cabin.jpg",
@@ -156,7 +156,7 @@
    ]
   },
   {
-   "say": "So that fifteen pound flight isn't a loss. It's the hook. Follow for more money secrets.",
+   "say": "So that fifteen pound flight isn't a loss at all. It's the hook! Genius, right? Follow for more money secrets!",
    "place": "Back in Dublin",
    "flag": "🇮🇪",
    "bg": "bg/ryanair/hapenny.jpg",
@@ -171,5 +171,6 @@
    ],
    "end": "FOLLOW FOR MORE"
   }
- ]
+ ],
+ "pitch": 1.04
 }

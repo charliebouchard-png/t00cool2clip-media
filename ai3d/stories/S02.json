@@ -1,0 +1,416 @@
+{
+ "id": "S02",
+ "title": "LYING TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 2,
+ "key": 2,
+ "bpm": 122,
+ "hot": [
+  "lie",
+  "lied",
+  "lying",
+  "scammer",
+  "scammers",
+  "mayor",
+  "machine",
+  "truth"
+ ],
+ "beats": [
+  {
+   "say": "In my town, every lie you tell costs $100.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "talk",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$100",
+     "x": 2.6,
+     "y": 5.4
+    }
+   ],
+   "crowd": {
+    "action": "walk",
+    "n": 8
+   }
+  },
+  {
+   "say": "A machine under city hall can hear every single word.",
+   "set": "cityhall",
+   "cam": "drone",
+   "hero": {
+    "pose": "point"
+   },
+   "props": [
+    {
+     "type": "drone",
+     "text": "LISTENING",
+     "x": -3,
+     "y": 7,
+     "z": -2
+    },
+    {
+     "type": "drone",
+     "text": "LISTENING",
+     "x": 4,
+     "y": 8,
+     "z": -6
+    }
+   ]
+  },
+  {
+   "say": "On the first day, every scammer in town went broke by lunchtime.",
+   "set": "street",
+   "cam": "low",
+   "focus": "npc:scam",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "scam",
+     "look": "scammer",
+     "pose": "phone",
+     "face": "shock",
+     "hold": "phone",
+     "holdText": "Balance: $0"
+    }
+   ],
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "One guy called my grandma and said he was from the bank.",
+   "set": "kitchen",
+   "cam": "push",
+   "focus": "npc:gran",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "gran",
+     "look": "grandma",
+     "pose": "phone",
+     "face": "normal",
+     "hold": "phone",
+     "holdText": "Unknown caller"
+    }
+   ]
+  },
+  {
+   "say": "His phone bill came to $47,000.",
+   "set": "street",
+   "cam": "close",
+   "focus": "npc:scam",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "scam",
+     "look": "scammer",
+     "pose": "shock",
+     "face": "shock"
+    }
+   ],
+   "big": {
+    "text": "$47,000",
+    "bg": "#ff4f7b"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "Then it happened to me. My friend texted, where are you?",
+   "set": "bedroom",
+   "cam": "push",
+   "hero": {
+    "pose": "sleep",
+    "in": "bed"
+   },
+   "notif": {
+    "title": "Jake",
+    "text": "where are you?? we said 9"
+   },
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "I typed, five minutes away. I was still in bed.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "in": "bed",
+    "face": "smug",
+    "hold": "phone",
+    "holdText": "5 mins away!"
+   }
+  },
+  {
+   "say": "$100, gone.",
+   "set": "bedroom",
+   "cam": "close",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$100",
+     "x": 1.6,
+     "y": 5.8
+    }
+   ],
+   "fx": [
+    "red",
+    "shake"
+   ]
+  },
+  {
+   "say": "Soon the whole town got scared of talking.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "crowd": {
+    "action": "sneak",
+    "n": 10,
+    "face": "sad"
+   }
+  },
+  {
+   "say": "Salesmen said, honestly, this car is terrible. Don't buy it.",
+   "set": "street",
+   "cam": "orbit",
+   "focus": "npc:sales",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "sales",
+     "look": "boss",
+     "pose": "talk",
+     "face": "sad",
+     "x": -2,
+     "z": -12
+    }
+   ],
+   "props": [
+    {
+     "type": "car",
+     "color": "#ff8a3d",
+     "x": 1.5,
+     "z": -12,
+     "speed": 0
+    }
+   ]
+  },
+  {
+   "say": "And restaurants put up signs saying the food is just okay.",
+   "set": "street",
+   "cam": "push",
+   "focus": "prop:0",
+   "hero": {
+    "hide": true
+   },
+   "props": [
+    {
+     "type": "sign",
+     "text": "FOOD IS\nJUST OKAY",
+     "x": -2,
+     "z": -6,
+     "w": 7,
+     "h": 4,
+     "color": "#e8363c"
+    }
+   ]
+  },
+  {
+   "say": "But the mayor gave a speech, and the machine went crazy.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "talk",
+     "talk": true,
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ],
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "Somehow, he never paid a cent.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "count",
+     "face": "smug",
+     "hold": "money",
+     "z": -3
+    }
+   ],
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "So that night, I snuck under city hall to find out why.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "ots",
+   "hero": {
+    "pose": "sneak",
+    "move": [
+     0,
+     -1.5
+    ]
+   },
+   "npcs": [
+    {
+     "id": "g1",
+     "look": "guard",
+     "pose": "idle",
+     "x": -5,
+     "z": -14
+    },
+    {
+     "id": "g2",
+     "look": "guard",
+     "pose": "idle",
+     "x": 5,
+     "z": -14
+    }
+   ]
+  },
+  {
+   "say": "Inside the machine, there was a list. Only one name was excused. His.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "MAYOR: EXEMPT",
+   "screen": "EXEMPT: MAYOR",
+   "hero": {
+    "hide": true
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "And a button that said, charge the mayor too.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "CHARGE MAYOR TOO",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "Obviously, I pressed it.",
+   "set": "lab",
+   "cam": "low",
+   "label": "CHARGE MAYOR TOO",
+   "hero": {
+    "pose": "press",
+    "face": "smug"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "His next speech cost him $3 million. Every cent went back to the town.",
+   "set": "cityhall",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti",
+    "cash"
+   ],
+   "big": {
+    "text": "-$3,000,000",
+    "bg": "#35b56b"
+   }
+  },
+  {
+   "say": "Everything was perfect. Then my mom made dinner and asked, do you like it?",
+   "set": "kitchen",
+   "cam": "push",
+   "hero": {
+    "pose": "sit",
+    "face": "normal"
+   },
+   "npcs": [
+    {
+     "id": "mom",
+     "look": 11,
+     "pose": "talk",
+     "talk": true,
+     "face": "happy",
+     "x": -3.5,
+     "z": -1,
+     "ry": 40
+    }
+   ]
+  },
+  {
+   "say": "I've never been so quiet in my life.",
+   "set": "kitchen",
+   "cam": "face",
+   "hero": {
+    "pose": "sit",
+    "face": "shock",
+    "talk": false
+   },
+   "fx": [
+    "question"
+   ]
+  }
+ ]
+}

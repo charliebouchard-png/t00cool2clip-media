@@ -1,0 +1,360 @@
+{
+ "id": "S09",
+ "title": "RAIN TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 9,
+ "key": 6,
+ "bpm": 118,
+ "hot": [
+  "rain",
+  "raindrop",
+  "umbrella",
+  "umbrellas",
+  "mayor",
+  "machine",
+  "free",
+  "drop"
+ ],
+ "beats": [
+  {
+   "say": "In my town, every raindrop that touches you costs 10 cents.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "talk",
+    "face": "normal",
+    "hold": "umbrella",
+    "holdText": "#e8363c"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-10\u00a2/drop",
+     "x": 2.8,
+     "y": 6.2
+    }
+   ],
+   "fx": [
+    "rain"
+   ],
+   "crowd": {
+    "action": "walk",
+    "n": 8,
+    "hold": "umbrella"
+   }
+  },
+  {
+   "say": "Sounds cheap, right? A normal rainy day is about 40,000 drops.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "-$4,000",
+    "bg": "#ff4f7b"
+   },
+   "fx": [
+    "rain",
+    "shake"
+   ]
+  },
+  {
+   "say": "I forgot my umbrella once. Just once. My card got declined at lunch.",
+   "set": "street",
+   "cam": "track",
+   "hero": {
+    "pose": "run",
+    "face": "shock",
+    "move": [
+     0,
+     2.5
+    ]
+   },
+   "fx": [
+    "rain",
+    "red"
+   ],
+   "notif": {
+    "title": "My Bank",
+    "text": "Card declined: rain charges -$1,920"
+   }
+  },
+  {
+   "say": "So everybody became an umbrella expert.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "point",
+    "hold": "umbrella",
+    "holdText": "#2ec4d6"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 12,
+    "hold": "umbrella"
+   },
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "People wore umbrella hats. Dogs wore umbrella hats.",
+   "set": "park",
+   "cam": "orbit",
+   "hero": {
+    "pose": "walk",
+    "hold": "umbrella",
+    "holdText": "#ffd23f",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 10,
+    "hold": "umbrella"
+   },
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "My neighbor walked under a truck for three miles.",
+   "set": "street",
+   "cam": "side",
+   "hero": {
+    "hide": true
+   },
+   "props": [
+    {
+     "type": "car",
+     "color": "#ffffff",
+     "x": 2,
+     "z": -28,
+     "speed": 3
+    }
+   ],
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "sneak",
+     "face": "happy",
+     "x": 0.5,
+     "z": -28,
+     "move": [
+      0,
+      3
+     ]
+    }
+   ],
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "And the richest man in town built a roof over his entire street.",
+   "set": "street",
+   "cam": "low",
+   "focus": "npc:rich",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "rich",
+     "look": "boss",
+     "pose": "count",
+     "face": "smug",
+     "hold": "money"
+    }
+   ],
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "Then the mayor banned umbrellas. Carrying one costs $1,000.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6,
+     "hold": "umbrella",
+     "holdText": "#1d1d22"
+    }
+   ],
+   "big": {
+    "text": "$1,000",
+    "bg": "#2b5cff"
+   },
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "Of course, he kept his.",
+   "set": "cityhall",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "idle",
+     "face": "smug",
+     "z": -6,
+     "hold": "umbrella",
+     "holdText": "#1d1d22"
+    }
+   ],
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "Everyone ran inside. The streets were empty for weeks.",
+   "set": "street",
+   "cam": "high",
+   "hero": {
+    "pose": "sad",
+    "face": "sad"
+   },
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "Then I noticed something. The rain only fell on our town. Never next door.",
+   "set": "rooftop",
+   "cam": "spin",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "fx": [
+    "rain",
+    "question"
+   ]
+  },
+  {
+   "say": "It was coming from a pipe. On top of city hall.",
+   "set": "cityhall",
+   "cam": "drone",
+   "focus": "set",
+   "hero": {
+    "hide": true
+   },
+   "props": [],
+   "fx": [
+    "rain"
+   ]
+  },
+  {
+   "say": "I climbed in and slid all the way down to a secret room.",
+   "set": "lab",
+   "cam": "reveal",
+   "label": "RAIN: OFF",
+   "screen": "RAIN MONEY: $12,004,500",
+   "hero": {
+    "pose": "walk",
+    "face": "shock",
+    "move": [
+     0,
+     -0.6
+    ]
+   }
+  },
+  {
+   "say": "A rain machine. Making storms on purpose, and counting every drop.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "RAIN: OFF",
+   "screen": "RAIN MONEY: $12,004,500",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "And a button. Rain machine, off.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "RAIN: OFF",
+   "screen": "RAIN MONEY: $12,004,500",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "No umbrella needed for this part.",
+   "set": "lab",
+   "cam": "low",
+   "label": "RAIN: OFF",
+   "screen": "RAIN MONEY: $12,004,500",
+   "hero": {
+    "pose": "press",
+    "face": "angry"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "The clouds disappeared. And all the rain money fell from the sky instead.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "cash",
+    "confetti"
+   ]
+  },
+  {
+   "say": "The next day, the mayor had a new idea. Showers, $5 a minute.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Showers $5/min"
+   },
+   "notif": {
+    "title": "City Hall",
+    "text": "New rule: showers now cost $5 per minute"
+   }
+  },
+  {
+   "say": "Don't stand too close to me this week.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "wave",
+    "face": "smug"
+   }
+  }
+ ]
+}

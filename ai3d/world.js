@@ -274,6 +274,10 @@ export function makeProp(p) {
     case 'money': { for (let i = 0; i < (p.n || 6); i++) { const m = box(1.4, 0.6, 0.7, mat('#5cbf6b')); m.position.set((R(i) - .5) * 2, 0.3 + Math.floor(i / 3) * 0.62, (R(i + 9) - .5) * 1.4); g.add(m); } break; }
     case 'fridge': { const b = box(2.6, 6, 2.2, mat('#eef1f5')); b.position.y = 3; g.add(b); const h = box(0.15, 1.6, 0.2, mat('#9aa3ad')); h.position.set(-1, 3.6, 1.15); g.add(h);
       if (p.text) { const s = new THREE.Mesh(new THREE.PlaneGeometry(2.0, 0.9), new THREE.MeshBasicMaterial({ map: labelTex(p.text, '#fff', p.color || '#e8363c', 512, 230) })); s.position.set(0, 4.8, 1.12); g.add(s); } break; }
+    case 'glassfridge': { const b = new THREE.Mesh(new THREE.BoxGeometry(2.8, 6, 2.4), new THREE.MeshLambertMaterial({ color: '#cfefff', transparent: true, opacity: 0.35, depthWrite: false })); b.position.y = 3; g.add(b);
+      const fr = box(2.9, 0.2, 2.5, mat('#ffffff')); fr.position.y = 6.05; g.add(fr); const fb = box(2.9, 0.2, 2.5, mat('#ffffff')); fb.position.y = 0.1; g.add(fb);
+      for (let i = 0; i < 3; i++) { const sh = box(2.6, 0.08, 2.2, mat('#e9edf3')); sh.position.y = 1.6 + i * 1.5; g.add(sh); }
+      const cols = ['#e8363c', '#ffd23f', '#35b56b', '#ff8a3d', '#5b8cff', '#ff5c8a']; for (let i = 0; i < 12; i++) { const it = box(0.5, 0.7, 0.5, mat(cols[i % 6])); it.position.set(-0.9 + (i % 4) * 0.6, 2.05 + Math.floor(i / 4) * 1.5, (R(i) - .5) * 1.2); g.add(it); } break; }
     case 'vault': { const d = new THREE.Mesh(new THREE.CylinderGeometry(3, 3, 0.8, 32), mat('#9aa3ad')); d.rotation.x = Math.PI / 2; d.position.y = 3.4; g.add(d); const w = new THREE.Mesh(new THREE.TorusGeometry(1, 0.15, 6, 16), mat('#5a6270')); w.position.set(0, 3.4, 0.45); w.userData.spinZ = 1; g.add(w); break; }
     case 'ice': { const c = new THREE.Mesh(new THREE.BoxGeometry(3, 5.5, 2.4), new THREE.MeshLambertMaterial({ color: '#bfefff', transparent: true, opacity: 0.45, depthWrite: false })); c.position.y = 2.7; g.add(c); break; }
     case 'bed': { const b = box(4.2, 1.2, 7, mat('#ffffff')); b.position.y = 0.6; g.add(b); const bl = box(4.3, 0.4, 4.4, mat(p.color || '#5b8cff')); bl.position.set(0, 1.3, 1.1); g.add(bl); break; }
@@ -287,7 +291,7 @@ export function animProp(g, lt, cam) {
   const p = g.userData.p; const k = back(lt / 0.35);
   if (p.type === 'tag') { g.scale.setScalar(Math.max(0.001, k)); g.position.y = g.userData.y0 + Math.sin(lt * 3) * 0.15; }
   if (p.type === 'drone') { g.position.y = g.userData.y0 + Math.sin(lt * 2 + g.userData.y0) * 0.3; g.children.forEach(c => { if (c.userData.spin) c.rotation.y = lt * 40; }); }
-  if (p.type === 'car') { g.position.z = g.userData.z0 + lt * (p.speed || 14); }
+  if (p.type === 'car') { g.position.z = g.userData.z0 + lt * (p.speed ?? 14); }
   if (g.userData.face && cam) g.quaternion.copy(cam.quaternion);
   if (g.userData.spinZ) g.rotation.z = lt * g.userData.spinZ;
   g.children.forEach(c => { if (c.userData.spinZ) c.rotation.z = lt * c.userData.spinZ; });

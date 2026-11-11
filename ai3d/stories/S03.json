@@ -1,0 +1,346 @@
+{
+ "id": "S03",
+ "title": "SLEEP TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 3,
+ "key": 5,
+ "bpm": 116,
+ "hot": [
+  "sleep",
+  "sleeping",
+  "nap",
+  "mayor",
+  "machine",
+  "dream",
+  "free",
+  "awake"
+ ],
+ "beats": [
+  {
+   "say": "In my town, sleeping costs $10 an hour.",
+   "set": "bedroom",
+   "time": "night",
+   "cam": "high",
+   "hero": {
+    "pose": "sleep",
+    "in": "bed"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$10/hr",
+     "x": -1,
+     "y": 5.5,
+     "z": -2
+    }
+   ],
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "A sensor in your pillow knows the second your eyes close.",
+   "set": "bedroom",
+   "time": "night",
+   "cam": "face",
+   "hero": {
+    "pose": "sleep",
+    "in": "bed"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "TRACKING",
+     "color": "#e8363c",
+     "x": 1,
+     "y": 3.5,
+     "z": -3
+    }
+   ],
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "I slept eight hours on Monday. That's $80 before breakfast.",
+   "set": "bedroom",
+   "cam": "close",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Sleep bill: -$80"
+   },
+   "notif": {
+    "title": "Sleep Office",
+    "text": "You slept 8 hours. $80 has been charged."
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "So everyone tried to stay awake.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "talk",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 10,
+    "face": "sad",
+    "hold": "mug"
+   }
+  },
+  {
+   "say": "The coffee shop sold more coffee in one day than in ten years.",
+   "set": "store",
+   "label": "COFFEE",
+   "cam": "orbit",
+   "hero": {
+    "pose": "talk",
+    "hold": "mug",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "dance",
+    "n": 9,
+    "hold": "mug",
+    "face": "shock"
+   }
+  },
+  {
+   "say": "People were dancing at 4am just to keep their eyes open.",
+   "set": "street",
+   "time": "night",
+   "cam": "orbit",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "dance",
+    "n": 12,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "My neighbor learned to sleep standing up, because standing doesn't count.",
+   "set": "street",
+   "cam": "push",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "idle",
+     "face": "sleep"
+    }
+   ],
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "And a guy fell asleep on a bench and got charged $240.",
+   "set": "park",
+   "cam": "low",
+   "focus": "npc:bench",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "bench",
+     "look": 21,
+     "pose": "lie",
+     "face": "sleep",
+     "x": 5,
+     "z": -3
+    }
+   ],
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$240",
+     "x": 5,
+     "y": 4.2,
+     "z": -3
+    }
+   ],
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "But then the mayor saw how many people were awake.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -3
+    }
+   ]
+  },
+  {
+   "say": "New rule. Being awake after midnight now costs $1,000.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$1,000",
+    "bg": "#9b64b8"
+   },
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "So you paid to sleep, and you paid to stay awake. There was no way to win.",
+   "set": "street",
+   "time": "night",
+   "cam": "high",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 12
+   }
+  },
+  {
+   "say": "Then I noticed the sleep sensors all sent their signal to one place.",
+   "set": "rooftop",
+   "time": "night",
+   "cam": "orbit",
+   "hero": {
+    "pose": "point",
+    "face": "normal"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "City hall. Under the floor. So I went down there with a flashlight.",
+   "set": "lab",
+   "cam": "reveal",
+   "label": "SLEEP TAX: OFF",
+   "screen": "SLEEPERS: 48,211",
+   "hero": {
+    "pose": "sneak",
+    "face": "shock",
+    "move": [
+     0,
+     -0.6
+    ]
+   }
+  },
+  {
+   "say": "There was a giant machine counting every person asleep in town.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "SLEEP TAX: OFF",
+   "screen": "SLEEPERS: 48,211",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "And one switch, sleep tax, off.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "SLEEP TAX: OFF",
+   "screen": "SLEEPERS: 48,211",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "I pressed it so hard I almost broke it.",
+   "set": "lab",
+   "cam": "low",
+   "label": "SLEEP TAX: OFF",
+   "screen": "SLEEPERS: 48,211",
+   "hero": {
+    "pose": "press",
+    "face": "angry"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "That night, the whole town slept for free. Eleven hours. Best night of my life.",
+   "set": "bedroom",
+   "time": "night",
+   "cam": "high",
+   "hero": {
+    "pose": "sleep",
+    "in": "bed"
+   },
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "When I woke up, there was a letter. Dreams now cost $5 each.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Dreams: $5 each"
+   },
+   "notif": {
+    "title": "Sleep Office",
+    "text": "New: every dream costs $5. Nightmares are free."
+   }
+  },
+  {
+   "say": "Last night I dreamed I was paying taxes. It cost me $5.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   }
+  }
+ ]
+}

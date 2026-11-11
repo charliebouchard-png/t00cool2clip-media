@@ -1,0 +1,356 @@
+{
+ "id": "S08",
+ "title": "TALKING TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 8,
+ "key": 1,
+ "bpm": 126,
+ "hot": [
+  "word",
+  "words",
+  "talk",
+  "talking",
+  "mayor",
+  "machine",
+  "free",
+  "quiet"
+ ],
+ "beats": [
+  {
+   "say": "In my town, every word you say costs $1.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "talk",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$1/word",
+     "x": 2.6,
+     "y": 5.4
+    }
+   ],
+   "crowd": {
+    "action": "walk",
+    "n": 8
+   }
+  },
+  {
+   "say": "That sentence cost me $9.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "big": {
+    "text": "-$9",
+    "bg": "#ff4f7b"
+   }
+  },
+  {
+   "say": "And that one cost me $5.",
+   "set": "street",
+   "cam": "close",
+   "hero": {
+    "pose": "angry",
+    "face": "angry"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$5",
+     "x": 1.8,
+     "y": 5.4
+    }
+   ]
+  },
+  {
+   "say": "So people stopped talking. Completely.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "idle",
+    "face": "normal",
+    "talk": false
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 12
+   }
+  },
+  {
+   "say": "Teachers taught with drawings. Weddings were silent.",
+   "set": "cityhall",
+   "cam": "orbit",
+   "hero": {
+    "hide": true
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 10,
+    "face": "happy"
+   },
+   "npcs": [
+    {
+     "id": "groom",
+     "look": 71,
+     "pose": "hug",
+     "face": "happy",
+     "x": -1
+    },
+    {
+     "id": "bride",
+     "look": 72,
+     "pose": "hug",
+     "face": "happy",
+     "x": 1,
+     "ry": 180
+    }
+   ],
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "My friend tried to order a pizza in sign language and got a sofa.",
+   "set": "store",
+   "cam": "push",
+   "focus": "npc:friend",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "friend",
+     "look": 73,
+     "pose": "wave",
+     "face": "shock"
+    }
+   ],
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "Long names became really expensive. Bartholomew changed his name to Bob.",
+   "set": "park",
+   "cam": "low",
+   "focus": "npc:bob",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "bob",
+     "look": 74,
+     "pose": "wave",
+     "face": "smug",
+     "hold": "sign",
+     "holdText": "BOB"
+    }
+   ]
+  },
+  {
+   "say": "Rich people talked all day just to show off.",
+   "set": "street",
+   "cam": "orbit",
+   "focus": "npc:rich",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "rich",
+     "look": "boss",
+     "pose": "talk",
+     "talk": true,
+     "face": "smug",
+     "hold": "money"
+    }
+   ],
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "But the mayor still gave a three hour speech every Monday. For free.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "talk",
+     "talk": true,
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "Then he made a new rule. Thinking out loud, $1,000.",
+   "set": "cityhall",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$1,000",
+    "bg": "#ff4f7b"
+   }
+  },
+  {
+   "say": "People got scared to even sneeze.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 10
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "So I wrote a note to myself. Find the machine.",
+   "set": "bedroom",
+   "time": "night",
+   "cam": "push",
+   "hero": {
+    "pose": "think",
+    "face": "normal",
+    "talk": false
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "I followed the wires from every microphone in town. They all went under city hall.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "ots",
+   "hero": {
+    "pose": "sneak",
+    "move": [
+     0,
+     -1.4
+    ]
+   },
+   "props": [
+    {
+     "type": "speaker",
+     "x": 4,
+     "z": -8
+    }
+   ]
+  },
+  {
+   "say": "Down there was a machine with a million tiny ears.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "WORDS: FREE",
+   "screen": "WORDS TODAY: 6,402,771",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "One button. Words, free.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "WORDS: FREE",
+   "screen": "WORDS TODAY: 6,402,771",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "I didn't say a word. I just pressed it.",
+   "set": "lab",
+   "cam": "low",
+   "label": "WORDS: FREE",
+   "screen": "WORDS TODAY: 6,402,771",
+   "hero": {
+    "pose": "press",
+    "face": "smug",
+    "talk": false
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "The whole town screamed at the same time. It was the loudest day in history.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "And just so you know, this whole video cost me $212.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "count",
+    "face": "sad",
+    "hold": "money"
+   },
+   "big": {
+    "text": "-$212",
+    "bg": "#ff4f7b"
+   }
+  },
+  {
+   "say": "Worth it. Follow so it wasn't for nothing.",
+   "set": "street",
+   "cam": "pull",
+   "hero": {
+    "pose": "wave",
+    "face": "happy"
+   }
+  }
+ ]
+}

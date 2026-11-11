@@ -1,0 +1,346 @@
+{
+ "id": "S07",
+ "title": "SUNLIGHT TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 7,
+ "key": 4,
+ "bpm": 114,
+ "hot": [
+  "sun",
+  "sunlight",
+  "dark",
+  "mayor",
+  "machine",
+  "free",
+  "moon"
+ ],
+ "beats": [
+  {
+   "say": "In my town, the sun costs $30 an hour.",
+   "set": "rooftop",
+   "cam": "low",
+   "hero": {
+    "pose": "talk",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "sun",
+     "x": 10,
+     "y": 30,
+     "z": -40
+    },
+    {
+     "type": "tag",
+     "text": "$30/hr",
+     "x": 2.6,
+     "y": 5.4
+    }
+   ]
+  },
+  {
+   "say": "If you don't pay, a giant curtain closes over your house.",
+   "set": "street",
+   "time": "night",
+   "cam": "drone",
+   "hero": {
+    "pose": "point",
+    "face": "shock"
+   }
+  },
+  {
+   "say": "On Monday I paid for one hour of sunlight. It was cloudy.",
+   "set": "rooftop",
+   "time": "sunset",
+   "cam": "orbit",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$30",
+     "x": 2.6,
+     "y": 5.4
+    }
+   ]
+  },
+  {
+   "say": "No refund.",
+   "set": "rooftop",
+   "time": "sunset",
+   "cam": "face",
+   "hero": {
+    "pose": "angry",
+    "face": "angry"
+   },
+   "big": {
+    "text": "NO REFUND",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "So most people just lived in the dark.",
+   "set": "street",
+   "time": "night",
+   "cam": "wide",
+   "hero": {
+    "pose": "walk",
+    "face": "sad",
+    "move": [
+     0,
+     -1
+    ]
+   },
+   "crowd": {
+    "action": "sneak",
+    "n": 10,
+    "face": "sad"
+   }
+  },
+  {
+   "say": "My neighbor covered himself in glow sticks and went to work like that.",
+   "set": "street",
+   "time": "night",
+   "cam": "track",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "walk",
+     "face": "happy",
+     "move": [
+      0,
+      1.8
+     ],
+     "z": -10
+    }
+   ]
+  },
+  {
+   "say": "Plants started following people with flashlights.",
+   "set": "park",
+   "time": "night",
+   "cam": "orbit",
+   "hero": {
+    "pose": "run",
+    "face": "shock",
+    "move": [
+     0,
+     2
+    ]
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "And the beach was empty. Except for one rich guy with a tan.",
+   "set": "park",
+   "cam": "push",
+   "focus": "npc:rich",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "rich",
+     "look": "boss",
+     "pose": "lie",
+     "face": "smug"
+    }
+   ],
+   "props": [
+    {
+     "type": "sun",
+     "x": -14,
+     "y": 26,
+     "z": -50
+    }
+   ]
+  },
+  {
+   "say": "Then the mayor sold moonlight too. $1,000 a night.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$1,000",
+    "bg": "#2b5cff"
+   },
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "Now it was dark all day and all night.",
+   "set": "street",
+   "time": "night",
+   "cam": "high",
+   "hero": {
+    "pose": "sad",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "sneak",
+    "n": 12,
+    "face": "sad"
+   }
+  },
+  {
+   "say": "I climbed the tallest building to see where the curtains were controlled from.",
+   "set": "rooftop",
+   "time": "night",
+   "cam": "spin",
+   "hero": {
+    "pose": "point",
+    "face": "normal"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "Every curtain had a cable. Every cable went to city hall.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "ots",
+   "hero": {
+    "pose": "sneak",
+    "move": [
+     0,
+     -1.4
+    ]
+   }
+  },
+  {
+   "say": "Under the building, there was a room full of light. All the sunshine they'd stolen.",
+   "set": "lab",
+   "cam": "reveal",
+   "label": "SUN: FREE",
+   "screen": "SUNLIGHT STORED: 99%",
+   "hero": {
+    "pose": "walk",
+    "face": "shock",
+    "move": [
+     0,
+     -0.6
+    ]
+   }
+  },
+  {
+   "say": "A giant machine, holding the sun hostage.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "SUN: FREE",
+   "screen": "SUNLIGHT STORED: 99%",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "And a button that said, sun, free.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "SUN: FREE",
+   "screen": "SUNLIGHT STORED: 99%",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "I wore my sunglasses for this part.",
+   "set": "lab",
+   "cam": "low",
+   "label": "SUN: FREE",
+   "screen": "SUNLIGHT STORED: 99%",
+   "hero": {
+    "pose": "press",
+    "face": "smug"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "Every curtain in town opened at once. The whole city cheered.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "props": [
+    {
+     "type": "sun",
+     "x": 0,
+     "y": 34,
+     "z": -70
+    }
+   ],
+   "fx": [
+    "confetti",
+    "flash"
+   ]
+  },
+  {
+   "say": "Then my phone buzzed. The rain is now a premium feature.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Rain+ $9.99"
+   },
+   "notif": {
+    "title": "Weather+",
+    "text": "Rain is now premium. Subscribe for $9.99"
+   }
+  },
+  {
+   "say": "Honestly? I'm not paying for that.",
+   "set": "street",
+   "cam": "pull",
+   "hero": {
+    "pose": "wave",
+    "face": "smug"
+   }
+  }
+ ]
+}

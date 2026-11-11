@@ -1,0 +1,355 @@
+{
+ "id": "S10",
+ "title": "BLACK FRIDAY TRAP",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 10,
+ "key": 8,
+ "bpm": 128,
+ "hot": [
+  "free",
+  "leave",
+  "leaving",
+  "exit",
+  "mayor",
+  "machine",
+  "door",
+  "friday"
+ ],
+ "beats": [
+  {
+   "say": "On Black Friday, the biggest store in my town made everything free.",
+   "set": "store",
+   "label": "EVERYTHING FREE",
+   "cam": "push",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "run",
+    "n": 10,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "TVs, free. Sofas, free. Snacks, free.",
+   "set": "store",
+   "label": "EVERYTHING FREE",
+   "cam": "orbit",
+   "hero": {
+    "pose": "carry",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "carry",
+    "n": 10,
+    "face": "happy"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "FREE",
+     "color": "#35b56b",
+     "x": 2.6,
+     "y": 5.4
+    }
+   ]
+  },
+  {
+   "say": "There was just one tiny rule. Leaving the store costs $5,000.",
+   "set": "store",
+   "label": "EXIT: $5,000",
+   "cam": "face",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "$5,000",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "shake",
+    "red"
+   ]
+  },
+  {
+   "say": "Nobody read the rule.",
+   "set": "store",
+   "label": "EXIT: $5,000",
+   "cam": "high",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "dance",
+    "n": 12,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "By night, four thousand people were stuck inside.",
+   "set": "store",
+   "label": "EXIT: $5,000",
+   "cam": "wide",
+   "hero": {
+    "pose": "sad",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 14,
+    "face": "sad"
+   }
+  },
+  {
+   "say": "So we did what anyone would do. We moved in.",
+   "set": "store",
+   "label": "HOME SWEET HOME",
+   "cam": "orbit",
+   "hero": {
+    "pose": "sit",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "sit",
+    "n": 10,
+    "face": "happy"
+   },
+   "props": [
+    {
+     "type": "bed",
+     "x": -3,
+     "z": -1,
+     "color": "#ff8fb1"
+    }
+   ]
+  },
+  {
+   "say": "Aisle five became a neighborhood. The frozen section became a beach.",
+   "set": "store",
+   "label": "HOME SWEET HOME",
+   "cam": "push",
+   "hero": {
+    "pose": "sit",
+    "face": "smug"
+   },
+   "crowd": {
+    "action": "sit",
+    "n": 6,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "My neighbor opened a barber shop in the cereal aisle.",
+   "set": "store",
+   "label": "HOME SWEET HOME",
+   "cam": "low",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "talk",
+     "talk": true,
+     "face": "happy",
+     "hold": "tool"
+    },
+    {
+     "id": "client",
+     "look": 81,
+     "pose": "sit",
+     "face": "shock",
+     "x": 1.8,
+     "ry": -30
+    }
+   ]
+  },
+  {
+   "say": "After a week, the store owner showed up. It was the mayor.",
+   "set": "store",
+   "label": "EXIT: $5,000",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "count",
+     "face": "smug",
+     "hold": "money",
+     "z": -1
+    }
+   ],
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "And he said, new rule. Staying overnight, $1,000 per night.",
+   "set": "store",
+   "label": "EXIT: $5,000",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -1
+    }
+   ],
+   "big": {
+    "text": "$1,000/night",
+    "bg": "#ff4f7b"
+   }
+  },
+  {
+   "say": "We were trapped. Paying to stay. Paying to leave.",
+   "set": "store",
+   "label": "EXIT: $5,000",
+   "cam": "high",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 12
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "Then I found something behind the shelf of free socks. A door. Staff only.",
+   "set": "store",
+   "label": "EXIT: $5,000",
+   "cam": "ots",
+   "hero": {
+    "pose": "sneak",
+    "move": [
+     0,
+     -1.2
+    ]
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "It went down to a room under the store, with a giant machine.",
+   "set": "lab",
+   "cam": "reveal",
+   "label": "EXIT: FREE",
+   "screen": "EXIT FEES: $20,000,000",
+   "hero": {
+    "pose": "walk",
+    "face": "shock",
+    "move": [
+     0,
+     -0.6
+    ]
+   }
+  },
+  {
+   "say": "It was counting every person stuck upstairs.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "EXIT: FREE",
+   "screen": "PEOPLE INSIDE: 4,012",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "And the button said, exit, free.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "EXIT: FREE",
+   "screen": "PEOPLE INSIDE: 4,012",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "Best deal of Black Friday.",
+   "set": "lab",
+   "cam": "low",
+   "label": "EXIT: FREE",
+   "screen": "PEOPLE INSIDE: 4,012",
+   "hero": {
+    "pose": "press",
+    "face": "smug"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "The doors flew open. Four thousand people ran out carrying free TVs.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "run",
+    "face": "happy",
+    "move": [
+     0,
+     1.5
+    ]
+   },
+   "crowd": {
+    "action": "carry",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "I got home, sat down, and my phone buzzed. Cyber Monday. Logging off costs $50.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Log off: $50"
+   },
+   "notif": {
+    "title": "Cyber Monday",
+    "text": "Logging off now costs $50. Happy shopping!"
+   }
+  },
+  {
+   "say": "So I guess I live here now.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "phone",
+    "face": "sad",
+    "hold": "phone",
+    "holdText": "online forever"
+   }
+  }
+ ]
+}

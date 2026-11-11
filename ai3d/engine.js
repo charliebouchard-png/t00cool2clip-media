@@ -84,7 +84,7 @@ const CAMS = {
   top: { a: V(0.01, 26, 3), b: V(0.01, 16, 2), lk: V(0, -2.6, 0) }, side: { a: V(9, 0.6, -3.5), b: V(9, 0.6, 3.5) },
   track: { a: V(1.6, 1.0, 7.5), b: V(1.4, 0.8, 6.2) }, drone: { a: V(0, 20, 48), b: V(0, 7, 15) },
   wide: { a: V(-10, 5, 15), b: V(-7.5, 4.2, 12.5) }, ots: { a: V(2.4, 1.8, -5.6), b: V(2.0, 1.5, -4.6), lk: V(0, -0.8, 12) },
-  reveal: { a: V(0, -1.6, 2.5), b: V(0, 3.5, 13), lk: V(0, 0.3, 0) }, dolly: { a: V(-4, 1.2, 8), b: V(4, 1.2, 8) },
+  reveal: { a: V(0, -1.6, 2.5), b: V(0, 3.5, 13), lk: V(0, 0.3, 0) }, dolly: { a: V(-4, 1.2, 8), b: V(4, 1.2, 8) }, far: { a: V(0.5, 1.6, 17), b: V(0.3, 0.8, 12) },
 };
 function camAt(s, lt) {
   const b = s.b; const name = b.cam || 'push'; const p = eio(lt / s.dur); const F = focusOf(s);

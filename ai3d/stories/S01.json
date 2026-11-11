@@ -327,7 +327,7 @@
   {
    "say": "Inside was a giant machine, collecting every single heating payment in town.",
    "set": "lab",
-   "cam": "pull",
+   "cam": "far",
    "focus": "machine",
    "label": "DISABLE HEAT TAX",
    "screen": "$9,847,310",

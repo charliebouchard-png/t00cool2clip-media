@@ -1,0 +1,310 @@
+{
+ "id": "S06",
+ "title": "GRAVITY SUBSCRIPTION",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 6,
+ "key": 9,
+ "bpm": 120,
+ "hot": [
+  "gravity",
+  "float",
+  "floating",
+  "mayor",
+  "machine",
+  "free",
+  "premium"
+ ],
+ "beats": [
+  {
+   "say": "In my town, gravity is a subscription. $20 a month.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "talk",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "$20/mo",
+     "x": 2.6,
+     "y": 5.4
+    }
+   ],
+   "crowd": {
+    "action": "float",
+    "n": 3
+   }
+  },
+  {
+   "say": "If you don't pay, you float.",
+   "set": "street",
+   "cam": "low",
+   "hero": {
+    "pose": "float",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "float",
+    "n": 6,
+    "face": "shock"
+   }
+  },
+  {
+   "say": "I forgot to update my card. I woke up stuck to the ceiling.",
+   "set": "bedroom",
+   "cam": "low",
+   "hero": {
+    "pose": "float",
+    "face": "shock",
+    "y": 3.2
+   },
+   "notif": {
+    "title": "Gravity+",
+    "text": "Payment failed. Gravity paused."
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "My cereal floated out of the bowl. My cat floated out of the window.",
+   "set": "kitchen",
+   "cam": "orbit",
+   "hero": {
+    "pose": "float",
+    "face": "sad"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "Half the town couldn't afford it, so people got creative.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "point",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "float",
+    "n": 12
+   }
+  },
+  {
+   "say": "Some people wore boots full of rocks.",
+   "set": "street",
+   "cam": "track",
+   "focus": "npc:rock",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "rock",
+     "look": 61,
+     "pose": "walk",
+     "face": "angry",
+     "move": [
+      0,
+      1.6
+     ],
+     "z": -10
+    }
+   ]
+  },
+  {
+   "say": "Some tied themselves to cars.",
+   "set": "street",
+   "cam": "side",
+   "hero": {
+    "hide": true
+   },
+   "props": [
+    {
+     "type": "car",
+     "color": "#5b8cff",
+     "x": -2.5,
+     "z": -30,
+     "speed": 9
+    }
+   ],
+   "crowd": {
+    "action": "float",
+    "n": 5,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "My neighbor just gave up and started a floating pizza delivery.",
+   "set": "rooftop",
+   "cam": "orbit",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "float",
+     "face": "happy",
+     "hold": "money"
+    }
+   ]
+  },
+  {
+   "say": "Then the mayor launched gravity premium. $1,000 a month to keep your stuff on the ground too.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$1,000/mo",
+    "bg": "#9b64b8"
+   }
+  },
+  {
+   "say": "Cars started floating. Houses started wobbling.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 12
+   },
+   "fx": [
+    "shake",
+    "red"
+   ]
+  },
+  {
+   "say": "I floated up so high I could see the whole city. And that's when I saw it.",
+   "set": "rooftop",
+   "cam": "spin",
+   "hero": {
+    "pose": "float",
+    "face": "shock"
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "A giant antenna on top of city hall, pointing at everyone who didn't pay.",
+   "set": "cityhall",
+   "cam": "drone",
+   "focus": "set",
+   "hero": {
+    "hide": true
+   },
+   "props": []
+  },
+  {
+   "say": "I floated straight down the chimney into the control room.",
+   "set": "lab",
+   "cam": "reveal",
+   "label": "GRAVITY: FREE",
+   "screen": "UNPAID: 31,550",
+   "hero": {
+    "pose": "float",
+    "face": "shock"
+   }
+  },
+  {
+   "say": "The gravity machine. Humming like a giant fridge.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "GRAVITY: FREE",
+   "screen": "UNPAID: 31,550",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "And one red button. Gravity, free for everyone.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "GRAVITY: FREE",
+   "screen": "UNPAID: 31,550",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "I grabbed the edge, pulled myself down, and pressed it.",
+   "set": "lab",
+   "cam": "low",
+   "label": "GRAVITY: FREE",
+   "screen": "UNPAID: 31,550",
+   "hero": {
+    "pose": "press",
+    "face": "angry"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "Everyone in town landed at the same time. Even my cat.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "jump",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "The next morning, an email. Air is now on a free trial.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Air: free trial"
+   },
+   "notif": {
+    "title": "Air+",
+    "text": "Your free trial of air ends in 7 days"
+   }
+  },
+  {
+   "say": "Seven days left. Pray for me.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "sad",
+    "face": "sad"
+   }
+  }
+ ]
+}

@@ -1,0 +1,367 @@
+{
+ "id": "S04",
+ "title": "FRIDGE TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 4,
+ "key": 7,
+ "bpm": 120,
+ "hot": [
+  "fridge",
+  "snack",
+  "snacks",
+  "mayor",
+  "machine",
+  "free",
+  "glass"
+ ],
+ "beats": [
+  {
+   "say": "In my town, opening your fridge costs $5 every time.",
+   "set": "kitchen",
+   "cam": "push",
+   "hero": {
+    "pose": "talk",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$5",
+     "x": 3.6,
+     "y": 6.6,
+     "z": -5
+    }
+   ]
+  },
+  {
+   "say": "The mayor said it would stop people wasting food.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "talk",
+     "talk": true,
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "My little brother opened it forty times before lunch.",
+   "set": "kitchen",
+   "cam": "orbit",
+   "focus": "npc:kid",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "kid",
+     "look": "kid",
+     "pose": "jump",
+     "face": "happy",
+     "x": 2.5,
+     "z": -3,
+     "ry": 160
+    }
+   ],
+   "props": [
+    {
+     "type": "tag",
+     "text": "x40",
+     "x": 2.5,
+     "y": 5,
+     "z": -3
+    }
+   ]
+  },
+  {
+   "say": "That's $200. On cheese.",
+   "set": "kitchen",
+   "cam": "face",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "-$200",
+    "bg": "#ff4f7b"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "So people got smart.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 9
+   }
+  },
+  {
+   "say": "My neighbor opened it once a week and took out everything at the same time.",
+   "set": "street",
+   "cam": "track",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "carry",
+     "face": "happy",
+     "move": [
+      0,
+      2.5
+     ],
+     "z": -12
+    }
+   ]
+  },
+  {
+   "say": "Families ate dinner standing in front of the open fridge so they only paid once.",
+   "set": "kitchen",
+   "cam": "push",
+   "focus": "fridge",
+   "hero": {
+    "pose": "count",
+    "face": "happy",
+    "x": 3,
+    "z": -2.5,
+    "ry": 180
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 4,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "And a guy just moved his whole fridge onto the street, with the door off.",
+   "set": "street",
+   "cam": "orbit",
+   "focus": "prop:0",
+   "hero": {
+    "hide": true
+   },
+   "props": [
+    {
+     "type": "fridge",
+     "text": "FREE?",
+     "x": -4,
+     "z": -8
+    }
+   ],
+   "crowd": {
+    "action": "cheer",
+    "n": 7,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "Then I had the best idea of my life. A glass fridge. You can see everything without opening it.",
+   "set": "kitchen",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ],
+   "props": [
+    {
+     "type": "glassfridge",
+     "x": -2.8,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "Within a week, everyone in town had one.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "wave",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "The mayor was furious.",
+   "set": "office",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -3
+    }
+   ],
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "New rule. Looking at food you didn't buy costs $1,000.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$1,000",
+    "bg": "#ff4f7b"
+   }
+  },
+  {
+   "say": "People walked around supermarkets with their eyes closed.",
+   "set": "store",
+   "cam": "orbit",
+   "hero": {
+    "pose": "walk",
+    "face": "sleep"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 8,
+    "face": "sleep"
+   }
+  },
+  {
+   "say": "I knew something was off, so I followed the fridge money.",
+   "set": "street",
+   "time": "night",
+   "cam": "ots",
+   "hero": {
+    "pose": "sneak",
+    "move": [
+     0,
+     -1.4
+    ]
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "It all went into a machine under city hall.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "FRIDGES: FREE",
+   "screen": "FRIDGE CASH: $4,120,000",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "With one big red button. Fridges, free.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "FRIDGES: FREE",
+   "screen": "FRIDGE CASH: $4,120,000",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "I didn't even think about it.",
+   "set": "lab",
+   "cam": "low",
+   "label": "FRIDGES: FREE",
+   "screen": "FRIDGE CASH: $4,120,000",
+   "hero": {
+    "pose": "press",
+    "face": "angry"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "The whole town opened their fridges at the same time. It was beautiful.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "The next day, a new rule. Every bite of food costs $1.",
+   "set": "kitchen",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "$1 per bite"
+   },
+   "notif": {
+    "title": "City Hall",
+    "text": "New rule: every bite of food costs $1"
+   }
+  },
+  {
+   "say": "So yeah. I'm on a diet now.",
+   "set": "kitchen",
+   "cam": "pull",
+   "hero": {
+    "pose": "sad",
+    "face": "sad"
+   }
+  }
+ ]
+}

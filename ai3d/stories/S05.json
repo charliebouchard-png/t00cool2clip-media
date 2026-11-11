@@ -1,0 +1,360 @@
+{
+ "id": "S05",
+ "title": "SCROLLING TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 5,
+ "key": 3,
+ "bpm": 124,
+ "hot": [
+  "scroll",
+  "swipe",
+  "phone",
+  "phones",
+  "mayor",
+  "machine",
+  "free",
+  "grandma"
+ ],
+ "beats": [
+  {
+   "say": "In my town, every swipe on your phone costs $1.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "phone",
+    "face": "normal",
+    "hold": "phone",
+    "holdText": "swipe = $1"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$1",
+     "x": 2.4,
+     "y": 5.4
+    }
+   ],
+   "crowd": {
+    "action": "walk",
+    "n": 8,
+    "hold": "phone"
+   }
+  },
+  {
+   "say": "Up, down, left, right. Every swipe.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "-$1 -$1 -$1"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "The first night, I scrolled for two hours without thinking.",
+   "set": "bedroom",
+   "time": "night",
+   "cam": "high",
+   "hero": {
+    "pose": "phone",
+    "in": "bed",
+    "face": "happy",
+    "hold": "phone",
+    "holdText": "so funny lol"
+   }
+  },
+  {
+   "say": "My bank called me. I owed $1,400.",
+   "set": "bedroom",
+   "time": "night",
+   "cam": "close",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "-$1,400",
+    "bg": "#ff4f7b"
+   },
+   "fx": [
+    "shake",
+    "red"
+   ]
+  },
+  {
+   "say": "So the whole town changed overnight.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "talk"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 12
+   }
+  },
+  {
+   "say": "People started talking to each other. In person. It was terrifying.",
+   "set": "park",
+   "cam": "orbit",
+   "hero": {
+    "pose": "talk",
+    "face": "shock"
+   },
+   "npcs": [
+    {
+     "id": "n1",
+     "look": 31,
+     "pose": "talk",
+     "talk": true,
+     "face": "happy",
+     "x": -2.5,
+     "ry": 70
+    }
+   ],
+   "crowd": {
+    "action": "talk",
+    "n": 8,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "Kids went outside and played with sticks.",
+   "set": "park",
+   "cam": "wide",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "kid",
+     "look": "kid",
+     "pose": "jump",
+     "face": "happy",
+     "hold": "tool",
+     "x": -1
+    },
+    {
+     "id": "kid2",
+     "look": 44,
+     "pose": "run",
+     "face": "happy",
+     "x": 2,
+     "move": [
+      -1.5,
+      0
+     ],
+     "ry": -90
+    }
+   ]
+  },
+  {
+   "say": "And the richest person in town was my grandma, because she never learned how to use her phone.",
+   "set": "kitchen",
+   "cam": "low",
+   "focus": "npc:gran",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "gran",
+     "look": "grandma",
+     "pose": "count",
+     "face": "smug",
+     "hold": "money"
+    }
+   ],
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "But the mayor noticed nobody was paying anymore.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -3
+    }
+   ]
+  },
+  {
+   "say": "New rule. Owning a book costs $1,000.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$1,000",
+    "bg": "#5b8cff"
+   },
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "People started hiding books in their freezers.",
+   "set": "kitchen",
+   "cam": "push",
+   "hero": {
+    "pose": "sneak",
+    "face": "shock"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "Then I noticed something weird. The mayor's phone never charged him.",
+   "set": "cityhall",
+   "cam": "ots",
+   "hero": {
+    "pose": "sneak"
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "phone",
+     "face": "happy",
+     "hold": "phone",
+     "holdText": "scroll scroll",
+     "z": -8,
+     "ry": 180
+    }
+   ],
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "I followed him through a door that said staff only, down to a hidden room.",
+   "set": "lab",
+   "cam": "reveal",
+   "label": "SWIPES: FREE",
+   "screen": "SWIPES TODAY: 2,811,094",
+   "hero": {
+    "pose": "walk",
+    "face": "shock",
+    "move": [
+     0,
+     -0.6
+    ]
+   }
+  },
+  {
+   "say": "There it was. The swipe machine. Counting every finger in town.",
+   "set": "lab",
+   "cam": "far",
+   "focus": "machine",
+   "label": "SWIPES: FREE",
+   "screen": "SWIPES TODAY: 2,811,094",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "And a big red button that said, swipes, free.",
+   "set": "lab",
+   "cam": "push",
+   "focus": "button",
+   "label": "SWIPES: FREE",
+   "screen": "SWIPES TODAY: 2,811,094",
+   "hero": {
+    "hide": true
+   }
+  },
+  {
+   "say": "I swiped it. I mean, I pressed it.",
+   "set": "lab",
+   "cam": "low",
+   "label": "SWIPES: FREE",
+   "screen": "SWIPES TODAY: 2,811,094",
+   "hero": {
+    "pose": "press",
+    "face": "smug"
+   },
+   "press": true,
+   "fx": [
+    "shake",
+    "flash",
+    "coins"
+   ]
+  },
+  {
+   "say": "Phones were free again. The town threw a party. Nobody looked up once.",
+   "set": "street",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy",
+    "hold": "phone",
+    "holdText": "FREE!!"
+   },
+   "crowd": {
+    "action": "phone",
+    "n": 12,
+    "hold": "phone",
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "Then this morning, a new rule. Watching videos costs $1 a second.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "$1 per second"
+   },
+   "notif": {
+    "title": "City Hall",
+    "text": "New rule: watching videos costs $1 per second"
+   }
+  },
+  {
+   "say": "Which means this video just cost you about $70. Sorry.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "wave",
+    "face": "smug"
+   },
+   "big": {
+    "text": "-$70",
+    "bg": "#ff4f7b",
+    "y": 0.25
+   }
+  }
+ ]
+}

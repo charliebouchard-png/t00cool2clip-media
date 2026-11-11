@@ -1,0 +1,4 @@
+{"id":"test","scenes":[
+{"say":"Ryanair sold me this flight for fifteen pounds. The taxi to the airport cost forty.","place":"Dublin, Ireland","flag":"🇮🇪","shot":"wide","gestures":["wave","point"],"cards":[{"at":0.1,"big":"£15","small":"flight to Spain"}]},
+{"say":"So how does it make two billion euros a year?","shot":"medium","gestures":["shrug","explain"]},
+{"say":"The ticket is just the bait.","shot":"close","gestures":["think","open"]}]}

@@ -1,0 +1,19 @@
+name: bg-fetch
+on:
+  workflow_dispatch:
+    inputs:
+      name: { description: 'batch name', required: true }
+      queries: { description: 'JSON list of search queries', required: true }
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install -q pillow
+      - run: python world/tools/commons.py "cand/${{ inputs.name }}" '${{ inputs.queries }}'
+      - run: |
+          B="bg-${{ inputs.name }}"
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git checkout -b "$B"; git add -f cand; git commit -qm "bg candidates ${{ inputs.name }}"; git push -f origin "$B"

@@ -37,3 +37,16 @@ Numbers: write them as words in `say` (TTS reads them better), digits in cards.
 - Captions: 1 sentence + 3–5 specific hashtags (no #fyp/#foryou spam, no follow-for-follow); vary wording every post.
 - Facts: verified with a source today; no misleading health/finance claims, no "get rich quick" promises, no dangerous challenges, no real private people.
 - AI disclosure: the voices are AI. Charlie should turn on TikTok's "AI-generated content" label (Settings > ... or the toggle when posting) — the Pipedream/Buffer post may not set it.
+
+## Style options (make every video look/feel different)
+Top-level `"style"`: {
+  "captionMode": "word" | "chunk" (3 words, active word highlighted) | "box" (word on a coloured sticker),
+  "captionFont": "Fredoka" | "ArchivoBlack" | "Bebas" | "Oswald" | "Poppins" | "Caveat",
+  "captionY": 1150–1400, "boxColor": "#fef08a", "boxText": "#111",
+  "grade": "none" | "warm" | "cool" | "punchy" | "retro" | "dreamy",
+  "transition": "flash" | "whip" | "zoom" | "glitch" | "cut",
+  "progress": true  (thin progress bar at top) }
+Top-level `"hook"` (text card for the first 2.6 s), `"hookBg"`, `"hookColor"`.
+Per scene: `"badge":"#3"` (countdown sticker), `"emoji":"😱","emojiAt":0.3` (emoji burst), `"poll":{"q":"Would YOU pay that?","a":"YES","b":"NO","at":0.3}` (comment bait, use once per video, late scene).
+Formats to rotate (never the same format twice in a day): countdown list (#5→#1), "crazy true story" narrative, "guess the price" (poll first, answer after), myth vs fact, "rating things out of 10", "I tried to explain X in 60 s", "then vs now" price comparison.
+Within a day no two videos may share the same presenter + captionMode + grade + format combination.

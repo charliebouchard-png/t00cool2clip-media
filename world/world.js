@@ -173,7 +173,7 @@ const LL = leg(-1), RL = leg(1);
 
 // ---------- looks ----------
 const C = c => new THREE.Color(c);
-let HOT = '#ffd23f';
+let HOT = '#ffd23f'; let ST = {};
 const SKIN = { pale: 0xf2c4a6, light: 0xe9b08c, tan: 0xd39a6e, brown: 0xa86b45, dark: 0x6e4228 };
 function applyLook(L) {
   L = L || {};
@@ -237,7 +237,7 @@ const SHOTS = {
 };
 
 window.init = async (spec, amp, fps) => {
-  SPEC = spec; AMP = amp || []; FPS = fps || 30; applyLook(spec.look);
+  SPEC = spec; AMP = amp || []; FPS = fps || 30; applyLook(spec.look); ST = spec.style || {};
   let t = 0;
   SC = [];
   for (const s of spec.scenes) {
@@ -251,7 +251,7 @@ window.init = async (spec, amp, fps) => {
     t += s.dur;
   }
   DUR = t;
-  await document.fonts.load('700 100px Fredoka'); await document.fonts.load('40px Emoji');
+  await document.fonts.load('700 100px Fredoka'); for (const f of ['ArchivoBlack', 'Bebas', 'Oswald', 'Poppins', 'Caveat']) await document.fonts.load(`700 80px ${f}`); await document.fonts.load('40px Emoji');
   return { dur: DUR };
 };
 
@@ -314,7 +314,6 @@ function drawBg(s, lt, shot) {
 function drawOverlay(lt) {
   const v = ctx.createRadialGradient(W / 2, H * .5, H * .25, W / 2, H * .5, H * .75);
   v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,.45)'); ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
-  if (lt < .18) { ctx.fillStyle = `rgba(255,255,255,${(1 - lt / .18) * .7})`; ctx.fillRect(0, 0, W, H); }
 }
 
 function drawPlace(s, lt) {
@@ -348,24 +347,70 @@ function drawCard(s, lt) {
   }
 }
 
+function capFont(px) { const f = ST.captionFont || 'Fredoka'; return `${f === 'Caveat' ? 700 : 700} ${f === 'Bebas' ? px * 1.25 : px}px ${f}`; }
+function isHot(s, word) { return /[0-9£€$%]/.test(word) || (s.hot || []).some(h => word.replace(/[^A-Z0-9£€$%.]/g, '').startsWith(h.toUpperCase())); }
 function drawCaption(s, lt) {
   const sp = s.speech || s.dur; const k = lt / sp; if (k > 1.02) return;
-  const cur = s.wt.find(w => k >= w.st && k < w.en) || (k >= 1 ? s.wt[s.wt.length - 1] : null); if (!cur) return;
-  const word = cur.w.toUpperCase(); const into = (k - cur.st) * sp;
-  const hot = /[0-9£€$%]/.test(word) || (s.hot || []).some(h => word.replace(/[^A-Z0-9£€$%.]/g, '').startsWith(h.toUpperCase()));
-  const sc = into < .08 ? .85 + into / .08 * .15 : 1;
-  ctx.save(); ctx.translate(W / 2, 1270); ctx.scale(sc, sc);
-  let fs = 128; ctx.font = `700 ${fs}px Fredoka`; while (ctx.measureText(word).width > W - 120) { fs -= 6; ctx.font = `700 ${fs}px Fredoka`; }
-  ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
-  ctx.lineWidth = 22; ctx.strokeStyle = '#000'; ctx.strokeText(word, 0, 0);
-  ctx.fillStyle = hot ? HOT : '#fff'; ctx.fillText(word, 0, 0);
+  const ci = s.wt.findIndex(w => k >= w.st && k < w.en); const idx = ci >= 0 ? ci : (k >= 1 ? s.wt.length - 1 : -1); if (idx < 0) return;
+  const cur = s.wt[idx]; const word = cur.w.toUpperCase(); const into = (k - cur.st) * sp;
+  const Y = ST.captionY || 1270, mode = ST.captionMode || 'word';
+  ctx.save(); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
+  if (mode === 'chunk') {
+    const g0 = Math.floor(idx / 3) * 3, grp = s.wt.slice(g0, g0 + 3).map(w => w.w.toUpperCase());
+    let fs = 96; ctx.font = capFont(fs); const GAP = () => fs * .32;
+    const sw = () => grp.reduce((a, w) => a + ctx.measureText(w).width, 0) + GAP() * (grp.length - 1);
+    while (sw() > W - 140) { fs -= 4; ctx.font = capFont(fs); }
+    let x = W / 2 - sw() / 2;
+    grp.forEach((w, j) => { const ww = ctx.measureText(w).width; const on = g0 + j === idx; const cx = x + ww / 2;
+      ctx.save(); ctx.translate(cx, Y); if (on) ctx.scale(1.1, 1.1);
+      ctx.lineWidth = 18; ctx.strokeStyle = '#000'; ctx.strokeText(w, 0, 0);
+      ctx.fillStyle = on ? HOT : '#fff'; ctx.fillText(w, 0, 0); ctx.restore(); x += ww + GAP(); });
+  } else if (mode === 'box') {
+    let fs = 110; ctx.font = capFont(fs); while (ctx.measureText(word).width > W - 200) { fs -= 6; ctx.font = capFont(fs); }
+    const w = ctx.measureText(word).width + 60, h = fs * 1.25; const sc = into < .08 ? .8 + into / .08 * .2 : 1;
+    ctx.translate(W / 2, Y); ctx.scale(sc, sc); ctx.rotate((idx % 2 ? 1 : -1) * .03);
+    ctx.fillStyle = isHot(s, word) ? HOT : (ST.boxColor || '#ffffff'); rr(-w / 2, -h / 2, w, h, 18); ctx.fill();
+    ctx.fillStyle = ST.boxText || '#111'; ctx.fillText(word, 0, 4);
+  } else {
+    const sc = into < .08 ? .85 + into / .08 * .15 : 1; ctx.translate(W / 2, Y); ctx.scale(sc, sc);
+    let fs = 128; ctx.font = capFont(fs); while (ctx.measureText(word).width > W - 120) { fs -= 6; ctx.font = capFont(fs); }
+    ctx.lineWidth = 22; ctx.strokeStyle = '#000'; ctx.strokeText(word, 0, 0);
+    ctx.fillStyle = isHot(s, word) ? HOT : '#fff'; ctx.fillText(word, 0, 0);
+  }
   ctx.restore();
+}
+
+const GRADES = { warm: 'sepia(.18) saturate(1.25) contrast(1.05)', cool: 'hue-rotate(-8deg) saturate(1.1) contrast(1.08) brightness(1.02)', punchy: 'saturate(1.45) contrast(1.15)', retro: 'sepia(.35) contrast(1.1) saturate(.9)', dreamy: 'saturate(1.2) brightness(1.06) contrast(.95)' };
+function drawExtras(s, lt, t) {
+  // progress bar
+  if (ST.progress) { ctx.fillStyle = 'rgba(255,255,255,.25)'; ctx.fillRect(0, 0, W, 12); ctx.fillStyle = HOT; ctx.fillRect(0, 0, W * Math.min(1, t / DUR), 12); }
+  // countdown badge
+  if (s.badge) { const a = ease(Math.min(1, lt / .3)); ctx.save(); ctx.translate(150, 330); ctx.rotate(-.12); ctx.scale(a, a);
+    ctx.fillStyle = HOT; ctx.beginPath(); ctx.arc(0, 0, 95, 0, 7); ctx.fill(); ctx.lineWidth = 8; ctx.strokeStyle = '#000'; ctx.stroke();
+    ctx.fillStyle = '#000'; ctx.font = '700 84px Fredoka'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(s.badge, 0, 6); ctx.restore(); }
+  // emoji burst
+  if (s.emoji) { const st = (s.emojiAt ?? .4) * s.dur, k = (lt - st) / 1.2; if (k > 0 && k < 1) { ctx.save(); ctx.globalAlpha = k < .8 ? 1 : (1 - k) / .2; ctx.font = `${130 + 60 * Math.sin(Math.min(1, k * 3) * Math.PI / 2)}px Emoji`; ctx.textAlign = 'center';
+    for (const [dx, dy, r] of [[-300, -40, -.3], [310, 20, .25], [0, -140, 0]]) { ctx.save(); ctx.translate(W / 2 + dx * Math.min(1, k * 2), 820 + dy - k * 120); ctx.rotate(r); ctx.fillText(s.emoji, 0, 0); ctx.restore(); } ctx.restore(); } }
+  // poll (comment bait)
+  if (s.poll) { const st = (s.poll.at ?? .3) * s.dur; if (lt > st) { const a = ease(Math.min(1, (lt - st) / .3)); ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 1560);
+    ctx.font = '700 50px Fredoka'; const qw = Math.max(ctx.measureText(s.poll.q).width + 80, 760);
+    ctx.fillStyle = 'rgba(255,255,255,.96)'; rr(-qw / 2, -150, qw, 290, 36); ctx.fill();
+    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(s.poll.q, 0, -90);
+    [[s.poll.a, '#22c55e', -1], [s.poll.b, '#ef4444', 1]].forEach(([txt, col, sd]) => { ctx.fillStyle = col; rr(sd * 20 + (sd < 0 ? -330 : 0), -20, 310, 120, 26); ctx.fill(); ctx.fillStyle = '#fff'; ctx.font = '700 54px Fredoka'; ctx.fillText(txt, sd * 185, 42); });
+    ctx.restore(); } }
+}
+function drawTransition(lt) {
+  const tr = ST.transition || 'flash'; if (lt > .22) return; const k = 1 - lt / .22;
+  if (tr === 'flash') { ctx.fillStyle = `rgba(255,255,255,${k * .7})`; ctx.fillRect(0, 0, W, H); }
+  else if (tr === 'whip') { ctx.save(); ctx.globalAlpha = .22 * k; for (let i = 1; i <= 3; i++) ctx.drawImage(out, i * 60 * k, 0); ctx.restore(); }
+  else if (tr === 'zoom') { ctx.save(); ctx.globalAlpha = .5 * k; const z = 1 + .25 * k; ctx.drawImage(out, W / 2 - W * z / 2, H / 2 - H * z / 2, W * z, H * z); ctx.restore(); }
+  else if (tr === 'glitch') { for (let i = 0; i < 6; i++) { const y = Math.random() * H, h = 20 + Math.random() * 80; ctx.drawImage(out, 0, y, W, h, (Math.random() - .5) * 80 * k, y, W, h); } ctx.fillStyle = `rgba(255,0,80,${.15 * k})`; ctx.fillRect(0, 0, W, H); }
 }
 
 function drawHook(text, t) {
   const a = Math.min(1, (SPEC.hookDur || 2.6) - t < .25 ? ((SPEC.hookDur || 2.6) - t) / .25 : 1);
   const pop = t < .18 ? .8 + t / .18 * .2 : 1;
-  ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 330); ctx.scale(pop, pop); ctx.rotate(-.025);
+  ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 430); ctx.scale(pop, pop); ctx.rotate(-.025);
   const lines = text.split('\n'); let fs = 92; ctx.font = `700 ${fs}px Fredoka, Emoji`;
   while (Math.max(...lines.map(l => ctx.measureText(l).width)) > W - 160) { fs -= 4; ctx.font = `700 ${fs}px Fredoka, Emoji`; }
   const w = Math.max(...lines.map(l => ctx.measureText(l).width)) + 70, h = lines.length * fs * 1.12 + 44;
@@ -437,10 +482,13 @@ window.frame = async (t) => {
   // compose
   drawBg(s, lt, shot);
   renderer.render(scene, camera);
-  ctx.drawImage(renderer.domElement, 0, 0, W, H);
+  if (ST.grade && GRADES[ST.grade]) ctx.filter = GRADES[ST.grade];
+  ctx.drawImage(renderer.domElement, 0, 0, W, H); ctx.filter = 'none';
   drawOverlay(lt);
+  drawTransition(lt);
   drawPlace(s, lt);
   drawCard(s, lt);
+  drawExtras(s, lt, t);
   drawCaption(s, lt);
   if (SPEC.hook && t < (SPEC.hookDur || 2.6)) drawHook(SPEC.hook, t);
   if (false && s.end && lt > s.dur - 2.6) {

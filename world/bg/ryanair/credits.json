@@ -1,0 +1,74 @@
+{
+ "dublin-airport": {
+  "q": "Ryanair Boeing 737-800 Dublin Airport",
+  "file": "File:The Ryanair's 737-800 on its stand in Dublin Airport..JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Ryanair%27s_737-800_on_its_stand_in_Dublin_Airport..JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "Fernando Timon",
+  "w": 1920,
+  "h": 1434
+ },
+ "checkin": {
+  "q": "airport check-in hall",
+  "file": "File:Check-in hall, Bristol Airport, Somerset, England in July 2024.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Check-in_hall,_Bristol_Airport,_Somerset,_England_in_July_2024.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Captain Galaxy",
+  "w": 1920,
+  "h": 1440
+ },
+ "eiffel": {
+  "q": "Eiffel Tower Champ de Mars",
+  "file": "File:Tour Eiffel Wikimedia Commons.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+  "license": "Public domain",
+  "artist": "Benh LIEU SONG",
+  "w": 1920,
+  "h": 3553
+ },
+ "beauvais": {
+  "q": "Beauvais Tille airport",
+  "file": "File:A\u00e9roport Beauvais - France , Aeropuerto Beauvais - Francia. - panoramio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:A%C3%A9roport_Beauvais_-_France_,_Aeropuerto_Beauvais_-_Francia._-_panoramio.jpg",
+  "license": "CC BY 3.0",
+  "artist": "McBodes",
+  "w": 1920,
+  "h": 1440
+ },
+ "renton": {
+  "q": "Boeing Renton factory",
+  "file": "File:Boeing Plant in Renton, 5-18-2010 (4622746048).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Boeing_Plant_in_Renton,_5-18-2010_(4622746048).jpg",
+  "license": "Public domain",
+  "artist": "U.S. Department of the Treasury",
+  "w": 1920,
+  "h": 1440
+ },
+ "stairs": {
+  "q": "Ryanair apron boarding stairs",
+  "file": "File:Embarque por escalerilla en un Boeing 737-800 de Ryanair.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Embarque_por_escalerilla_en_un_Boeing_737-800_de_Ryanair.jpg",
+  "license": "CC0",
+  "artist": "Wilfredor",
+  "w": 1920,
+  "h": 1280
+ },
+ "cabin": {
+  "q": "Ryanair cabin interior",
+  "file": "File:Interior Ryanair.jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Interior_Ryanair.jpeg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Robot8A",
+  "w": 1920,
+  "h": 1440
+ },
+ "hapenny": {
+  "q": "Ha penny Bridge Dublin",
+  "file": "File:Dublin Ha' Penny Bridge 1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dublin_Ha%27_Penny_Bridge_1.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Zairon",
+  "w": 1920,
+  "h": 1443
+ }
+}

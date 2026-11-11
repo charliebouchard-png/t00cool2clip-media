@@ -1,0 +1,175 @@
+{
+ "id": "W001",
+ "title": "How Ryanair makes money on £15 flights",
+ "voice": "am_michael",
+ "speed": 1.02,
+ "scenes": [
+  {
+   "say": "This Ryanair flight cost me fifteen quid. The taxi to the airport cost forty. So how did Ryanair make over two billion euros profit last year?",
+   "place": "Dublin Airport",
+   "flag": "🇮🇪",
+   "bg": "bg/ryanair/dublin-airport.jpg",
+   "fx": 0.62,
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "point",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.62,
+     "big": "€2.26bn",
+     "small": "profit in one year",
+     "hold": 3.4
+    }
+   ]
+  },
+  {
+   "say": "Trick one. The ticket is just the bait. The real money is everything else. Bags. Seats. Priority boarding. That's almost five billion euros of extras.",
+   "place": "Airport check-in",
+   "flag": "🧳",
+   "bg": "bg/ryanair/checkin.jpg",
+   "fx": 0.35,
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "count",
+    "open"
+   ],
+   "hot": [
+    "BAIT",
+    "BAGS",
+    "SEATS",
+    "PRIORITY"
+   ],
+   "cards": [
+    {
+     "at": 0.68,
+     "big": "€5bn",
+     "small": "from bags, seats & extras",
+     "color": "#e11d48"
+    }
+   ]
+  },
+  {
+   "say": "Trick two. Cheap airports. Ryanair will fly you to Paris.",
+   "place": "Paris, France",
+   "flag": "🇫🇷",
+   "bg": "bg/ryanair/eiffel.jpg",
+   "fy": 0.55,
+   "shot": "medium",
+   "gestures": [
+    "pointL",
+    "open"
+   ]
+  },
+  {
+   "say": "Well, Beauvais. About eighty five kilometres away. Small airports charge airlines much lower fees, so Ryanair saves millions.",
+   "place": "Beauvais, France",
+   "flag": "😅",
+   "bg": "bg/ryanair/beauvais.jpg",
+   "fx": 0.55,
+   "shot": "medium",
+   "gestures": [
+    "shrug",
+    "explain"
+   ],
+   "hot": [
+    "BEAUVAIS"
+   ],
+   "cards": [
+    {
+     "at": 0.12,
+     "big": "85 km",
+     "small": "from Paris",
+     "color": "#2563eb"
+    }
+   ]
+  },
+  {
+   "say": "Trick three. One type of plane. Almost every Ryanair jet is a Boeing seven three seven, bought hundreds at a time for big discounts. Same parts, same training, cheaper everything.",
+   "place": "Boeing factory, USA",
+   "flag": "🇺🇸",
+   "bg": "bg/ryanair/renton.jpg",
+   "fx": 0.4,
+   "shot": "wide",
+   "from": 1,
+   "gestures": [
+    "point",
+    "count",
+    "open"
+   ],
+   "hot": [
+    "ONE",
+    "BOEING"
+   ],
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "600+",
+     "small": "Boeing 737s",
+     "color": "#2563eb"
+    }
+   ]
+  },
+  {
+   "say": "Trick four. Planes that never sit still. A Ryanair jet lands, empties, refills and takes off again in about twenty five minutes. A plane on the ground makes no money.",
+   "place": "On the runway",
+   "flag": "✈️",
+   "bg": "bg/ryanair/stairs.jpg",
+   "fx": 0.5,
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "wow",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "25 min",
+     "small": "land to take-off",
+     "color": "#ea580c"
+    }
+   ]
+  },
+  {
+   "say": "Trick five. No frills. No free food, no screens, and seats that don't recline. Tiny savings, times two hundred million passengers, add up to a fortune.",
+   "place": "Inside a Ryanair jet",
+   "flag": "💺",
+   "bg": "bg/ryanair/cabin.jpg",
+   "fx": 0.5,
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "shrug",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "208m",
+     "small": "passengers a year"
+    }
+   ]
+  },
+  {
+   "say": "So that fifteen pound flight isn't a loss. It's the hook. Follow for more money secrets.",
+   "place": "Back in Dublin",
+   "flag": "🇮🇪",
+   "bg": "bg/ryanair/hapenny.jpg",
+   "fx": 0.5,
+   "shot": "close",
+   "gestures": [
+    "think",
+    "wave"
+   ],
+   "hot": [
+    "HOOK"
+   ],
+   "end": "FOLLOW FOR MORE"
+  }
+ ]
+}

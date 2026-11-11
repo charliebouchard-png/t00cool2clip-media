@@ -1,0 +1,49 @@
+name: world-videos
+on:
+  workflow_dispatch:
+    inputs:
+      ids: { description: 'JSON list of world spec ids', required: true }
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      matrix:
+        id: ${{ fromJSON(inputs.ids) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - uses: actions/setup-node@v4
+        with: { node-version: '20' }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+      - run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "kokoro>=0.9.4" soundfile numpy
+      - name: Voice
+        working-directory: world
+        run: python tts.py specs/${{ matrix.id }}.json "$RUNNER_TEMP/voice.wav" "$RUNNER_TEMP/timing.json" "$RUNNER_TEMP/amp.json"
+      - name: Browser
+        working-directory: world
+        run: |
+          npm init -y >/dev/null; npm i --silent playwright@1.49.1; npx playwright install --with-deps chromium
+      - name: Render
+        working-directory: world
+        run: node render.js specs/${{ matrix.id }}.json "$RUNNER_TEMP/timing.json" "$RUNNER_TEMP/amp.json" "$RUNNER_TEMP/video.mp4" 30
+      - name: Mix
+        run: |
+          D=$(python -c "import json;print(sum(t['dur'] for t in json.load(open('$RUNNER_TEMP/timing.json')))+1)")
+          SEED=$(echo "${{ matrix.id }}" | tr -dc 0-9); python explainer/music.py "$D" "${SEED:-7}" "$RUNNER_TEMP/music.wav"
+          mkdir -p out
+          ffmpeg -y -loglevel error -i "$RUNNER_TEMP/video.mp4" -i "$RUNNER_TEMP/voice.wav" -i "$RUNNER_TEMP/music.wav" \
+            -filter_complex "[1:a]aresample=48000[v];[2:a]aresample=48000,volume=0.13[m];[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11[a]" \
+            -map 0:v -map "[a]" -c:v copy -c:a aac -b:a 192k -ar 48000 -shortest "out/${{ matrix.id }}.mp4"
+          cp "$RUNNER_TEMP/timing.json" "out/${{ matrix.id }}.timing.json"; ls -la out
+      - name: Push
+        run: |
+          B="world-${{ matrix.id }}"
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git checkout -b "$B"; git add -f out/; git commit -qm "Rendered ${{ matrix.id }}"; git push -f origin "$B"

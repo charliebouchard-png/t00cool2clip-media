@@ -47,7 +47,7 @@ const torso = G([0, 0, 0]); hips.add(torso);
   torso.add(mesh(new THREE.LatheGeometry(pts, 40), hoodie, [0, 0, 0], [1, 1, .7])); }
 torso.add(mesh(new THREE.TorusGeometry(.19, .03, 12, 40), hoodieDark, [0, -.025, 0], [1, .7, 1], [Math.PI / 2, 0, 0])); // hem band
 torso.add(mesh(new THREE.TorusGeometry(.13, .045, 12, 32), hoodieDark, [0, .5, -.05], [1, 1, 1], [1.35, 0, 0])); // hood
-torso.add(mesh(new THREE.BoxGeometry(.24, .09, .02), hoodieDark, [0, .1, .138], [1, 1, 1], [0, 0, 0]));   // pocket
+torso.add(mesh(geo.sph(.1), hoodieDark, [0, .1, .1], [1.3, .55, .45]));   // pocket
 for (const x of [-.045, .045]) torso.add(mesh(new THREE.CylinderGeometry(.008, .008, .16), M(0xffffff, .6), [x, .4, .135], [1, 1, 1], [.12, 0, 0]));
 // chest badge: coin
 {

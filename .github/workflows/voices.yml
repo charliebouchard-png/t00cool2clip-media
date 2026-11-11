@@ -1,0 +1,23 @@
+name: voice-test
+on:
+  workflow_dispatch:
+    inputs:
+      cfg: { required: true }
+      text: { required: true }
+permissions:
+  contents: write
+jobs:
+  v:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+      - run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q "kokoro>=0.9.4" soundfile numpy
+      - run: python world/tools/voices.py out/voices '${{ inputs.cfg }}' "${{ inputs.text }}"
+      - run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git checkout -b voices; git add -f out/voices; git commit -qm voices; git push -f origin voices

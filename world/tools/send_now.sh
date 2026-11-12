@@ -5,7 +5,7 @@ set -e; ID=$1; SCHED=${2:-world/schedule_2026-11-12.json}
 [ -n "$PIPEDREAM_URL" ] || { echo "PIPEDREAM_URL not set"; exit 1; }
 R=/home/claude/t00cool2clip-media; [ -d $R ] || git clone -q https://github.com/charliebouchard-png/t00cool2clip-media $R
 O=/tmp/send; mkdir -p $O; cd $R; git pull -q origin main || true
-git fetch -q origin world-$ID; git show FETCH_HEAD:out/$ID.mp4 > $O/$ID.mp4
+if git ls-remote --exit-code origin render-ai-$ID >/dev/null 2>&1; then git fetch -q origin render-ai-$ID; git show FETCH_HEAD:clips/$ID.mp4 > $O/$ID.mp4; else git fetch -q origin world-$ID; git show FETCH_HEAD:out/$ID.mp4 > $O/$ID.mp4; fi
 Q=$(python3 -c "
 import json,urllib.parse
 x=[v for v in json.load(open('$SCHED')) if v['id']=='$ID'][0]

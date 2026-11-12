@@ -1,5 +1,10 @@
 # Learnings (newest first) — what top short-form videos do that we copy
 
+## 2026-11-12 OUR OWN DATA (TikTok, pulled 19:49)
+- "…costs $X in my town" absurd 3D stories (11 Nov): 91–1,029 views, most ~250–320; raindrop tax 1,029.
+- World fact videos: Ryanair 245, Zimbabwe 88, Tulips 8, daily-run can metal 23, Black Friday 27, Nvidia recap 41 (45 min), Nvidia timeline 1 (15 min).
+- ~12 posts on 12 Nov = too many; switched to 3/day (2 stories + 1 fact). Late news (Nvidia, a day old) underperformed.
+
 ## 2026-11-12 (from Charlie: Iman Gadzhi "Give Me 26 minutes, I'll Give You 10,000 hours of Claude Knowledge", 1.9M views)
 - Value-compression title/hook: "Give me X seconds, I'll give you Y years of Z" — promises a huge payoff for tiny time. Use as a hook card/title formula ("Give me 40 seconds, I'll explain 400 years of money").
 - Qualify the viewer in line 1 ("If you hate wasting money, watch this") — makes the right people stay.

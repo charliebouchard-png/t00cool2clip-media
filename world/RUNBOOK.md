@@ -1,4 +1,11 @@
-# Daily world videos — runbook for the scheduled Claude run
+# Daily videos — runbook for the scheduled Claude run
+
+## DAILY MIX (decided by Charlie 12 Nov 2026, from our own stats) — overrides anything below
+- 3 videos a day, no more: 2 "in my town" 3D stories (ai3d engine, see ai3d/STORY_GUIDE.md; IDs `A<YYMMDD>-<n>`) + 1 fact video with a world presenter (world engine; ID `D<YYMMDD>-1`).
+- Post times: 12:00 (story), 18:00 (strongest story), 20:30 (fact video). If late, keep ≥2 h gaps, last by 22:30.
+- Why: on 11 Nov the "…costs $X in my town" stories got 250–1,029 views each; world fact videos got 8–245. Posting ~12 times on 12 Nov split the audience. TikTok advises 1–4 posts/day.
+- Render stories with the `ai3d` workflow (input stories='["A…-1","A…-2"]'), fact video with `world-videos`. send_now.sh handles both.
+
 
 Goal: 5 new 60–75 s vertical videos a day for Charlie's TikTok (@t00cool2clip) + YouTube, a different 3D presenter (world/cast.json) per video explaining a topic while visiting real places. Maximise views and watch time.
 Repo: public github.com/charliebouchard-png/t00cool2clip-media, folder `world/` (clone to /home/claude/t00cool2clip-media). Writing guide: `world/STORY_GUIDE.md`.

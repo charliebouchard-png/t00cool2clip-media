@@ -6,9 +6,15 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); FONTS = os.path
 words = json.load(open(f"{W}/words.json"))
 YT = ["python3", os.path.expanduser("~/ytd/yt-dlp"), "-q", "--no-warnings", "--js-runtimes", "node", "--remote-components", "ejs:github", "--extractor-args", "youtube:player_client=mweb,web_embedded"]
 def ts(t): h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60; return f"{h}:{m:02d}:{s:05.2f}"
+import re as _re
+_BAD = _re.compile(r"\b(f+u+c+k\w*|s+h+i+t\w*|b+i+t+c+h\w*|c+u+n+t\w*|motherf\w*|d+i+c+k\w*)", _re.I)
+def censor(t): return _BAD.sub(lambda m: m.group(0)[0] + '*' * (len(m.group(0)) - 1), t)
 def esc(t): return t.replace('{', '(').replace('}', ')').replace('\n', '\\N')
 for i, c in enumerate(plan['clips'], 1):
-    st, en = float(c['start']), float(c['end']); dur = en - st
+    st, en = float(c['start']), float(c['end'])
+    _w = [w for w in words if w['s'] >= st - .3]; st = _w[0]['s'] - .15 if _w else st
+    _e = [w for w in words if w['e'] <= en + .3]; en = _e[-1]['e'] + .35 if _e else en
+    dur = en - st
     raw = f"{W}/raw_{i}.mp4"
     if not os.path.exists(raw):
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{max(0, st-1):.2f}", "-i", f"{W}/src.mp4", "-t", f"{dur+2:.2f}", "-vf", "scale=-2:1080", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", raw], check=True)
@@ -21,7 +27,7 @@ for i, c in enumerate(plan['clips'], 1):
         grp = ws[g:g + 3]
         for j, w in enumerate(grp):
             a = w['s'] - st + 1.0; b = (grp[j + 1]['s'] if j + 1 < len(grp) else (ws[g + 3]['s'] if g + 3 < len(ws) else w['e'] + .3)) - st + 1.0
-            txt = ' '.join(("{\\c&H3FD2FF&}" + esc(x['w'].upper()) + "{\\c&HFFFFFF&}") if k == j else esc(x['w'].upper()) for k, x in enumerate(grp))
+            txt = ' '.join(("{\\c&H3FD2FF&}" + esc(censor(x['w']).upper()) + "{\\c&HFFFFFF&}") if k == j else esc(censor(x['w']).upper()) for k, x in enumerate(grp))
             ev.append(f"Dialogue: 0,{ts(max(0,a))},{ts(max(a+.05,b))},Cap,,0,0,0,,{txt}")
     credit = esc(f"🎥 {plan['channel']}")
     ev.append(f"Dialogue: 0,{ts(0)},{ts(dur+2)},Credit,,0,0,0,,{credit}")

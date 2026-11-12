@@ -1,0 +1,134 @@
+{
+ "id": "X001",
+ "title": "Give me 40 seconds: 5 things you're overpaying for",
+ "target": "tiktok",
+ "cast": "kai",
+ "hook": "GIVE ME 40 SECONDS 💸",
+ "style": {
+  "captionMode": "box",
+  "captionFont": "Poppins",
+  "boxColor": "#ffffff",
+  "grade": "punchy",
+  "transition": "zoom",
+  "progress": true,
+  "camera": "glide"
+ },
+ "scenes": [
+  {
+   "say": "Give me forty seconds. You're overpaying for five things you buy all the time, but number one is sneaky.",
+   "place": "London",
+   "flag": "🇬🇧",
+   "bg": "bg/save5/street.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "count",
+    "pointL"
+   ],
+   "hot": [
+    "OVERPAYING",
+    "SNEAKY."
+   ]
+  },
+  {
+   "say": "Number five. Flights! Turn on price tracking in Google Flights, so you get a ping when your trip gets cheaper.",
+   "place": "The airport",
+   "flag": "✈️",
+   "bg": "bg/save5/departures.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "point",
+    "open"
+   ],
+   "badge": "#5",
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "Price drop!",
+     "small": "Google Flights alert",
+     "color": "#2563eb",
+     "hold": 2.6
+    }
+   ]
+  },
+  {
+   "say": "Number four. Late train? Many UK train companies owe you money back with Delay Repay. But most people never claim it!",
+   "place": "King's Cross, London",
+   "flag": "🚆",
+   "bg": "bg/save5/kingscross.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "explain",
+    "shrug"
+   ],
+   "badge": "#4",
+   "hot": [
+    "DELAY",
+    "REPAY."
+   ]
+  },
+  {
+   "say": "Number three. Food! Too Good To Go sells cafés' leftover food for about a third of the price, so it doesn't end up in the bin.",
+   "place": "Your local bakery",
+   "flag": "🥐",
+   "bg": "bg/save5/bakery.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "wow",
+    "open"
+   ],
+   "badge": "#3",
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "≈ ⅓ price",
+     "small": "leftover café food",
+     "color": "#16a34a",
+     "hold": 2.6
+    }
+   ],
+   "emoji": "🥐",
+   "emojiAt": 0.8
+  },
+  {
+   "say": "Number two. Amazon deals. Camel camel camel shows a product's price history, so you can spot a fake deal. Ever been fooled?",
+   "place": "Online deals",
+   "flag": "📦",
+   "bg": "bg/save5/shop.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "explain",
+    "open"
+   ],
+   "badge": "#2",
+   "poll": {
+    "q": "Ever bought a FAKE deal?",
+    "a": "YES 😩",
+    "b": "NO 😎",
+    "at": 0.62
+   }
+  },
+  {
+   "say": "And number one, the sneaky one. Ask an AI like Claude to write your complaint emails. Polite, firm, done in ten seconds. So next time you feel ripped off, just",
+   "place": "Back in London",
+   "flag": "🤖",
+   "bg": "bg/save5/street.jpg",
+   "fx": 0.3,
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "explain"
+   ],
+   "badge": "#1",
+   "hot": [
+    "CLAUDE",
+    "SNEAKY"
+   ]
+  }
+ ]
+}

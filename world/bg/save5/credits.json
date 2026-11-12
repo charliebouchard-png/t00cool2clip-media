@@ -1,0 +1,47 @@
+{
+ "kingscross": {
+  "q": "Kings Cross railway station concourse",
+  "file": "File:King's Cross Western Concourse.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:King%27s_Cross_Western_Concourse.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Colin",
+  "w": 1920,
+  "h": 1278
+ },
+ "bakery": {
+  "q": "bakery shop window pastries",
+  "file": "File:Pastries in a shop window along Madison Avenue.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pastries_in_a_shop_window_along_Madison_Avenue.jpg",
+  "license": "CC0",
+  "artist": "Tomwsulcer",
+  "w": 1920,
+  "h": 1253
+ },
+ "street": {
+  "q": "London street Soho",
+  "file": "File:Broadwick Street, Soho (33327209122).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Broadwick_Street,_Soho_(33327209122).jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Paul The Archivist",
+  "w": 1920,
+  "h": 1440
+ },
+ "departures": {
+  "q": "airport departures board",
+  "file": "File:47 Airport departures board free photo - Melbourne Airport timetable - Creative Commons Attribution.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:47_Airport_departures_board_free_photo_-_Melbourne_Airport_timetable_-_Creative_Commons_Attribution.jpg",
+  "license": "CC BY 3.0",
+  "artist": "Marek \u015alusarczyk (Tupungato) Photo portfolio",
+  "w": 1920,
+  "h": 1280
+ },
+ "shop": {
+  "q": "supermarket aisle United Kingdom",
+  "file": "File:2024-05-22 Aisle 15, Morrisons, Inverness.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2024-05-22_Aisle_15,_Morrisons,_Inverness.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Xeverything11",
+  "w": 1920,
+  "h": 2560
+ }
+}

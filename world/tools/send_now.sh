@@ -9,5 +9,5 @@ if git ls-remote --exit-code origin render-ai-$ID >/dev/null 2>&1; then git fetc
 Q=$(python3 -c "
 import json,urllib.parse
 x=[v for v in json.load(open('$SCHED')) if v['id']=='$ID'][0]
-print(urllib.parse.urlencode({'pipedream_upload_body':'1','title':x['yt_title'],'description':x['yt_description'],'tiktok_caption':x['tiktok_caption'],'filename':'$ID.mp4'}))")
+print(urllib.parse.urlencode({'pipedream_upload_body':'1','title':x['yt_title'],'description':x['yt_description'],'tiktok_caption':x['tiktok_caption'],'filename':'$ID.mp4', **({'skip_youtube':'1'} if '$PLATFORM'=='tiktok' else {})}))")
 curl -sS --max-time 300 -o /dev/null -w "$ID HTTP %{http_code}\n" -X POST "$PIPEDREAM_URL/?$Q" -H "Content-Type: video/mp4" --data-binary @$O/$ID.mp4

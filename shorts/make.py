@@ -11,7 +11,7 @@ for i, c in enumerate(plan['clips'], 1):
     st, en = float(c['start']), float(c['end']); dur = en - st
     raw = f"{W}/raw_{i}.mp4"
     if not os.path.exists(raw):
-        subprocess.run(YT + ["-f", "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/b[height<=1080]", "--download-sections", f"*{st-1:.2f}-{en+1:.2f}", "--force-keyframes-at-cuts", "--merge-output-format", "mp4", "-o", raw, "--", plan['video_id']], check=True)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{max(0, st-1):.2f}", "-i", f"{W}/src.mp4", "-t", f"{dur+2:.2f}", "-vf", "scale=-2:1080", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", raw], check=True)
     # ASS: hook title (top, whole clip) + 3-word caption chunks with active-word highlight
     ws = [w for w in words if st <= w['s'] < en]
     ev = []

@@ -1,6 +1,7 @@
 # python music_up.py seconds seed out.wav -- upbeat, happy pop bed (synth)
 import sys, numpy as np, wave
 dur, seed, out = float(sys.argv[1]), int(sys.argv[2]), sys.argv[3]; SR = 44100
+drop = float(sys.argv[4]) if len(sys.argv) > 4 else None  # music cuts out briefly before the twist
 rng = np.random.default_rng(seed); n = int(dur * SR); o = np.zeros(n)
 bpm = 118 + seed % 8; b = 60 / bpm; f = lambda m: 440 * 2 ** ((m - 69) / 12)
 progs = [[[60, 64, 67], [55, 59, 62], [57, 60, 64], [53, 57, 60]], [[62, 66, 69], [57, 61, 64], [59, 62, 66], [55, 59, 62]], [[65, 69, 72], [60, 64, 67], [62, 65, 69], [58, 62, 65]]]
@@ -26,5 +27,8 @@ for k in range(beats):
     if k % 8 == 0:
         for m in ch: put(tone(f(m), b * 8, .025, .35), t)                     # pad
 fo = int(.3 * SR); o[:int(.05 * SR)] *= np.linspace(0, 1, int(.05 * SR)); o[-fo:] *= np.linspace(1, 0, fo)
+if drop:
+    a, b = int((drop - .45) * SR), int(drop * SR)
+    if 0 < a < b < n: o[a:b] *= np.linspace(1, 0, b - a) ** 3 * 0 + np.exp(-np.linspace(0, 6, b - a))
 o = np.tanh(o * 1.2); o = o / np.max(np.abs(o)) * .8
 w = wave.open(out, 'wb'); w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((o * 32767).astype(np.int16).tobytes()); w.close()

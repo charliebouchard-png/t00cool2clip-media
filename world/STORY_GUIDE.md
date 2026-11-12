@@ -5,7 +5,9 @@ Spec file `world/specs/<ID>.json`:
 
 Cast (world/cast.json, each has its own look + voice): bob, maya, dev, zara, ollie, gran, kai. Use a DIFFERENT presenter for every video on the same day, and rotate so no presenter appears twice in a row across days. Match presenter to topic when it adds a joke (gran for "what £1 bought in 1970", dev for finance scams, ollie for UK prices).
 
-Target: 6–8 scenes, 165–195 words total => 62–75 s (TikTok pays only for 60s+). Each scene = one real place.
+Read world/PLAYBOOK.md first; it overrides anything below.
+Top-level `"target"`: "tiktok" (35–45 s: 4–6 scenes, ~105–145 words) or "youtube" (55–65 s: 6–8 scenes, ~170–205 words). Each scene = one real place. Speech runs ~3.3 words/s.
+Run `python3 world/tools/lint_spec.py world/specs/<ID>.json` and fix every FAIL before rendering.
 
 Scene keys:
 - say: what Bob says. Excited, happy, cheeky, first person to camera. Short punchy sentences, "!" and "?!" for energy, CAPS on 1–2 key words. Jokes: self-aware asides ("I counted. Twice."), reactions ("Absolute madness!", "Genius, right?").
@@ -18,6 +20,7 @@ Scene keys:
 - fx/fy: 0–1 focus of the photo; from: -1|1 walk-in side for wide shots.
 - No end card and no "follow for more" outro: the last line must LOOP into the first line (e.g. last line "...and that's why this flight cost me" -> first line "fifteen quid?!"). Put any follow ask mid-video ("follow, because trick three is the craziest") instead.
 
+Script formula: hook (paradox/shock, ≤12 words, 'you') -> foreshadow the payoff -> 2–3 escalating but/therefore details -> 'You see…' pivot -> explanation as a story -> twist in the last second that loops into the first line. See PLAYBOOK §3.
 Hook rules (first scene, first 2 seconds): open with a shocking specific claim or question ("This man SOLD the Eiffel Tower.", "This note says ONE HUNDRED TRILLION dollars."). No intro, no "Hi guys".
 Structure: hook -> "Let me explain!" -> 3–5 numbered tricks/steps, each in a new place -> twist/payoff -> follow CTA.
 Facts: only state things you verified today with a source; soften legends ("or so the story goes"). No tragedies, no rumours about real people, no copyrighted characters/music/clips.

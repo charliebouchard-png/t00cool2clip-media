@@ -13,9 +13,9 @@ for i, s in enumerate(spec['scenes']):
         a = r[2] if isinstance(r, tuple) else r.audio
         if a is None: continue
         a = a.detach().cpu().numpy() if hasattr(a, 'detach') else np.asarray(a)
-        chunks += [a, np.zeros(int(.08 * SR), dtype=np.float32)]
+        chunks += [a, np.zeros(int(.05 * SR), dtype=np.float32)]
     a = np.concatenate(chunks)
-    gap = .35 if i == len(spec['scenes']) - 1 else .22
+    gap = .3 if i == len(spec['scenes']) - 1 else .12
     parts += [a, np.zeros(int(gap * SR), dtype=np.float32)]
     timing.append({'speech': round(len(a) / SR, 3), 'dur': round(len(a) / SR + gap, 3)}); print(i, timing[-1], flush=True)
 v = np.concatenate(parts); sf.write(sys.argv[2], v, SR); json.dump(timing, open(sys.argv[3], 'w'))

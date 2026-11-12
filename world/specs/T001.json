@@ -1,0 +1,10 @@
+{"id":"T001","title":"A flower that cost more than a house","target":"tiktok","cast":"gran",
+ "hook":"ONE FLOWER =\nONE HOUSE?! 🌷",
+ "style":{"captionMode":"chunk","captionFont":"ArchivoBlack","grade":"warm","transition":"whip","progress":true,"camera":"glide"},
+ "scenes":[
+  {"say":"You could swap one tulip for a whole house. But only for one crazy winter, and the ending is brutal.","place":"Keukenhof, Netherlands","flag":"🇳🇱","bg":"bg/tulip/keukenhof.jpg","shot":"wide","from":-1,"gestures":["wave","pointL","shrug"],"hot":["HOUSE.","BRUTAL."]},
+  {"say":"In sixteen thirty seven, rich Dutch people went mad for striped tulips. So one bulb hit ten thousand guilders. That's a fancy canal house!","place":"Amsterdam","flag":"🏘️","bg":"bg/tulip/canal.jpg","shot":"medium","gestures":["explain","count","wow"],"cards":[{"at":0.55,"big":"10,000","small":"guilders for ONE bulb","color":"#e11d48"}],"badge":"#1"},
+  {"say":"Rembrandt got way less for his most famous painting. Sixteen hundred! A flower beat the Night Watch.","place":"The Rijksmuseum","flag":"🖼️","bg":"bg/tulip/nightwatch.jpg","shot":"close","gestures":["point","shrug","wow"],"cards":[{"at":0.3,"big":"1,600","small":"for the painting","color":"#2563eb"}],"emoji":"😱","emojiAt":0.75,"badge":"#2"},
+  {"say":"You see, nobody was buying flowers. They traded promises in pubs, and flipped them again and again. Would you have bought one?","place":"Haarlem","flag":"🍺","bg":"bg/tulip/spaarne.jpg","shot":"medium","gestures":["think","explain","open"],"poll":{"q":"Would YOU buy a £100k tulip?","a":"YES 🌷","b":"NO 🏠","at":0.62},"badge":"#3"},
+  {"say":"Then one day in Haarlem, nobody bid. Prices crashed in days. And the stripes that made them so special? A virus. So you could","place":"Grote Markt, Haarlem","flag":"📉","bg":"bg/tulip/haarlem.jpg","shot":"close","gestures":["wow","shrug"],"cards":[{"at":0.25,"big":"CRASH","color":"#e11d48","hold":2.2}],"hot":["VIRUS."]}
+ ]}

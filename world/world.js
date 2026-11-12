@@ -171,6 +171,19 @@ const LL = leg(-1), RL = leg(1);
   man.add(sh);
 }
 
+// ---------- toon outlines (inverted hull) ----------
+const outlineM = new THREE.MeshBasicMaterial({ color: 0x1b1b2f, side: THREE.BackSide });
+const NO_OUTLINE = new Set();
+[...eyes, ...lids, mouth, EARR, GLASSES].forEach(o => o.traverse(c => NO_OUTLINE.add(c)));
+eyes.forEach(l => l.parent.traverse(c => NO_OUTLINE.add(c)));
+jacketBits.forEach(b => NO_OUTLINE.add(b));
+const OUTLINES = [];
+const _toOutline = []; man.traverse(m => _toOutline.push(m));
+_toOutline.forEach(m => {
+  if (!m.isMesh || NO_OUTLINE.has(m) || m.material.transparent || m.geometry.type === 'PlaneGeometry' || m.geometry.type === 'CircleGeometry' || m.geometry.type === 'ShapeGeometry') return;
+  const o = new THREE.Mesh(m.geometry, outlineM); o.scale.setScalar(1.045); o.userData.outline = true; m.add(o); OUTLINES.push(o);
+});
+
 // ---------- looks ----------
 const C = c => new THREE.Color(c);
 let HOT = '#ffd23f'; let ST = {};
@@ -193,6 +206,7 @@ function applyLook(L) {
   GLASSES.visible = !!L.glasses; BEARD.visible = !!L.beard; EARR.visible = !!L.earrings;
   man.scale.setScalar(L.scale ?? 1);
   HOT = L.hot || '#ffd23f';
+  const ol = (ST && ST.outline) !== false; OUTLINES.forEach(o => o.visible = ol);
 }
 
 // ---------- poses ----------
@@ -237,7 +251,7 @@ const SHOTS = {
 };
 
 window.init = async (spec, amp, fps) => {
-  SPEC = spec; AMP = amp || []; FPS = fps || 30; applyLook(spec.look); ST = spec.style || {};
+  SPEC = spec; AMP = amp || []; FPS = fps || 30; ST = spec.style || {}; applyLook(spec.look);
   let t = 0;
   SC = [];
   for (const s of spec.scenes) {
@@ -357,7 +371,7 @@ function drawCaption(s, lt) {
   ctx.save(); ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.lineJoin = 'round';
   if (mode === 'chunk') {
     const g0 = Math.floor(idx / 3) * 3, grp = s.wt.slice(g0, g0 + 3).map(w => w.w.toUpperCase());
-    let fs = 96; ctx.font = capFont(fs); const GAP = () => fs * .32;
+    let fs = 96; ctx.font = capFont(fs); const GAP = () => fs * .45;
     const sw = () => grp.reduce((a, w) => a + ctx.measureText(w).width, 0) + GAP() * (grp.length - 1);
     while (sw() > W - 140) { fs -= 4; ctx.font = capFont(fs); }
     let x = W / 2 - sw() / 2;
@@ -393,10 +407,10 @@ function drawExtras(s, lt, t) {
     for (const [dx, dy, r] of [[-300, -40, -.3], [310, 20, .25], [0, -140, 0]]) { ctx.save(); ctx.translate(W / 2 + dx * Math.min(1, k * 2), 820 + dy - k * 120); ctx.rotate(r); ctx.fillText(s.emoji, 0, 0); ctx.restore(); } ctx.restore(); } }
   // poll (comment bait)
   if (s.poll) { const st = (s.poll.at ?? .3) * s.dur; if (lt > st) { const a = ease(Math.min(1, (lt - st) / .3)); ctx.save(); ctx.globalAlpha = a; ctx.translate(W / 2, 1560);
-    ctx.font = '700 50px Fredoka'; const qw = Math.max(ctx.measureText(s.poll.q).width + 80, 760);
-    ctx.fillStyle = 'rgba(255,255,255,.96)'; rr(-qw / 2, -150, qw, 290, 36); ctx.fill();
-    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(s.poll.q, 0, -90);
-    [[s.poll.a, '#22c55e', -1], [s.poll.b, '#ef4444', 1]].forEach(([txt, col, sd]) => { ctx.fillStyle = col; rr(sd * 20 + (sd < 0 ? -330 : 0), -20, 310, 120, 26); ctx.fill(); ctx.fillStyle = '#fff'; ctx.font = '700 54px Fredoka'; ctx.fillText(txt, sd * 185, 42); });
+    ctx.font = '700 60px Fredoka'; const qw = Math.max(ctx.measureText(s.poll.q).width + 90, 880);
+    ctx.fillStyle = 'rgba(255,255,255,.96)'; rr(-qw / 2, -165, qw, 320, 40); ctx.fill();
+    ctx.fillStyle = '#111'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(s.poll.q, 0, -95);
+    [[s.poll.a, '#22c55e', -1], [s.poll.b, '#ef4444', 1]].forEach(([txt, col, sd]) => { ctx.fillStyle = col; rr(sd * 20 + (sd < 0 ? -400 : 0), -20, 380, 135, 30); ctx.fill(); ctx.fillStyle = '#fff'; ctx.font = '700 64px Fredoka'; ctx.fillText(txt, sd * 210, 48); });
     ctx.restore(); } }
 }
 function drawTransition(lt) {
@@ -430,15 +444,24 @@ window.frame = async (t) => {
   const gsN = (s.gestures || ['explain', 'open']).length, segL = s.dur / gsN, si = Math.min(gsN - 1, Math.floor(lt / segL));
   const plan = shotPlan(s, idx)[si]; const shot = plan.shot, sh = SHOTS[shot], an = ANG[plan.ang] || ANG.front;
   const lts = lt - si * segL, ks = lts / segL;
-  // camera: orbit around the presenter with drift + punch-in at each cut
   const ymax = s.bg3 ? s.bg3.yawMax : .3;
-  const yaw = Math.max(-ymax, Math.min(ymax, an.yaw + (ks - .5) * .14 * (idx % 2 ? 1 : -1)));
-  const dist = (sh.pos[2] - ease(ks) * sh.push) * (1 + .1 * (1 - ease(Math.min(1, lts / .35))));
-  const ly = sh.look[1] + (an.dy < 0 ? .08 : an.dy > 0 ? -.05 : 0);
+  const glide = (ST.camera || 'glide') === 'glide';
+  function camState(pl, k, ltsx, punch) {
+    const shx = SHOTS[pl.shot], anx = ANG[pl.ang] || ANG.front;
+    const yw = Math.max(-ymax, Math.min(ymax, anx.yaw + (k - .5) * .14 * (idx % 2 ? 1 : -1)));
+    const d = (shx.pos[2] - ease(k) * shx.push) * (punch ? (1 + .1 * (1 - ease(Math.min(1, ltsx / .35)))) : 1);
+    return { yaw: yw, d, y: shx.pos[1] + anx.dy, ly: shx.look[1] + (anx.dy < 0 ? .08 : anx.dy > 0 ? -.05 : 0), roll: anx.roll };
+  }
+  let cs = camState(plan, ks, lts, !glide || si === 0);
+  if (glide && si > 0 && lts < .8) {   // smooth dolly glide between angles inside a scene (no hard cut)
+    const pv = camState(shotPlan(s, idx)[si - 1], 1, segL, false), e = ease(lts / .8);
+    cs = { yaw: lerp(pv.yaw, cs.yaw, e), d: lerp(pv.d, cs.d, e), y: lerp(pv.y, cs.y, e), ly: lerp(pv.ly, cs.ly, e), roll: lerp(pv.roll, cs.roll, e) };
+  }
+  const yaw = cs.yaw, dist = cs.d;
   const shake = .006 * Math.sin(t * 7.1) + .004 * Math.sin(t * 11.3);
-  camera.position.set(Math.sin(yaw) * dist + shake, sh.pos[1] + an.dy, Math.cos(yaw) * dist);
-  camera.up.set(Math.sin(an.roll), Math.cos(an.roll), 0);
-  camera.lookAt(0, ly + shake * .5, 0);
+  camera.position.set(Math.sin(yaw) * dist + shake, cs.y, Math.cos(yaw) * dist);
+  camera.up.set(Math.sin(cs.roll), Math.cos(cs.roll), 0);
+  camera.lookAt(0, cs.ly + shake * .5, 0);
   for (const o of SC) if (o.bg3) o.bg3.mesh.visible = o === s;
   if (s.bg3) { const want = shot === 'wide' ? s.bg3.sharp : s.bg3.soft; if (s.bg3.mesh.material.map !== want) { s.bg3.mesh.material.map = want; s.bg3.mesh.material.needsUpdate = true; } }
   // body

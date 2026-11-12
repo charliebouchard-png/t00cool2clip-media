@@ -36,7 +36,8 @@ jobs:
       - name: Mix
         run: |
           D=$(python -c "import json;print(sum(t['dur'] for t in json.load(open('$RUNNER_TEMP/timing.json')))+1)")
-          SEED=$(echo "${{ matrix.id }}" | tr -dc 0-9); python world/music_up.py "$D" "${SEED:-7}" "$RUNNER_TEMP/music.wav"
+          SEED=$(echo "${{ matrix.id }}" | tr -dc 0-9); DROP=$(python -c "import json;t=json.load(open('$RUNNER_TEMP/timing.json'));print(sum(x['dur'] for x in t[:-1]))")
+          python world/music_up.py "$D" "${SEED:-7}" "$RUNNER_TEMP/music.wav" "$DROP"
           python world/sfx.py "world/specs/${{ matrix.id }}.json" "$RUNNER_TEMP/timing.json" "$RUNNER_TEMP/sfx.wav"
           mkdir -p out
           ffmpeg -y -loglevel error -i "$RUNNER_TEMP/video.mp4" -i "$RUNNER_TEMP/voice.wav" -i "$RUNNER_TEMP/music.wav" -i "$RUNNER_TEMP/sfx.wav" \

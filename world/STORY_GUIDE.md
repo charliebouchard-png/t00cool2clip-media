@@ -3,7 +3,7 @@
 Spec file `world/specs/<ID>.json`:
 {"id","title","cast":"<cast key>","hook":"LINE 1\nLINE 2 😳","scenes":[...]}
 
-Cast (world/cast.json, each has its own look + voice): bob, maya, dev, zara, ollie, gran, kai. Use a DIFFERENT presenter for every video on the same day, and rotate so no presenter appears twice in a row across days. Match presenter to topic when it adds a joke (gran for "what £1 bought in 1970", dev for finance scams, ollie for UK prices).
+Cast (world/cast.json, each has its own look + voice; since 12 Nov 2026 all presenters use the chunky blocky toy body, look.body = "blocky" — keep them ORIGINAL: never recreate Steve/Alex or any Minecraft or other game character, skin, logo or item, and never name Minecraft in scripts, captions or hashtags): bob, maya, dev, zara, ollie, gran, kai. Use a DIFFERENT presenter for every video on the same day, and rotate so no presenter appears twice in a row across days. Match presenter to topic when it adds a joke (gran for "what £1 bought in 1970", dev for finance scams, ollie for UK prices).
 
 Read world/PLAYBOOK.md first; it overrides anything below.
 Top-level `"target"`: "tiktok" (35–45 s: 4–6 scenes, ~105–145 words) or "youtube" (55–65 s: 6–8 scenes, ~170–205 words). Each scene = one real place. Speech runs ~3.3 words/s.

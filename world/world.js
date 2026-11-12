@@ -162,6 +162,71 @@ function leg(s) {
   return { hp, kn, ft };
 }
 const LL = leg(-1), RL = leg(1);
+
+// ---------- blocky body (original chunky toy-figure style; enabled with look.body = "blocky") ----------
+const ROUND = []; man.traverse(m => { if (m.isMesh) ROUND.push(m); });
+const BLOCK = [];
+const BX = (w, h, d) => new THREE.BoxGeometry(w, h, d);
+function bm(parent, g, m, p, extra) { const o = mesh(g, m, p); if (extra) extra(o); parent.add(o); BLOCK.push(o); return o; }
+const BH = { size: .5, cy: .26 };                // chunky oversized head
+const FZ = BH.size / 2;                          // head front face z
+bm(torso, BX(.42, .56, .26), hoodie, [0, .27, 0]);                                   // body
+const bHood = [bm(torso, BX(.34, .16, .1), hoodieDark, [0, .5, -.15]),               // hood
+               bm(torso, BX(.24, .1, .03), hoodieDark, [0, .1, .135])];             // pocket
+const bHem = bm(torso, BX(.43, .05, .27), hoodieDark, [0, .0, 0]);
+bm(neck, BX(.14, .1, .14), skin, [0, .03, 0]);
+bm(head, BX(BH.size, BH.size, BH.size), skin, [0, BH.cy, 0]);                         // head cube
+for (const sx of [-1, 1]) bm(head, BX(.04, .1, .08), skin, [sx * (FZ + .02), BH.cy - .02, 0]); // ears
+bm(head, BX(.07, .06, .05), skin, [0, BH.cy - .04, FZ + .02]);                        // nose
+for (const sx of [-1, 1]) bm(head, BX(.07, .035, .01), M(0xf09a8a, .6), [sx * .15, BH.cy - .07, FZ + .006]); // cheeks
+// face (animated)
+const bEyes = [], bPupils = [], bBrows = [];
+for (const sx of [-1, 1]) {
+  const w = bm(head, BX(.12, .13, .02), whiteM, [sx * .11, BH.cy + .05, FZ + .01]); bEyes.push(w);
+  const pu = bm(head, BX(.06, .07, .02), pupilM, [sx * .11, BH.cy + .04, FZ + .022]); bPupils.push(pu);
+  bm(pu, BX(.02, .02, .01), whiteM, [-.012, .016, .011]);
+  const br = bm(head, BX(.13, .03, .03), browM, [sx * .11, BH.cy + .15, FZ + .015]); br.userData.s = sx; bBrows.push(br);
+}
+const bMouth = bm(head, BX(.15, .03, .02), mouthM, [0, BH.cy - .13, FZ + .022]);
+const bTeeth = bm(head, BX(.12, .025, .02), teethM, [0, BH.cy - .12, FZ + .028]);
+// hair styles
+const BHAIR = {}; const topSlab = () => BX(BH.size + .03, .09, BH.size + .03);
+{ const g = G(); g.add(mesh(topSlab(), hairM, [0, BH.cy + .29, 0])); g.add(mesh(BX(.3, .1, .16), hairM, [.04, BH.cy + .36, .14], [1, 1, 1], [.25, 0, 0]));
+  g.add(mesh(BX(BH.size + .03, .2, .06), hairM, [0, BH.cy + .17, -FZ - .02])); BHAIR.quiff = g; }
+{ const g = G(); g.add(mesh(topSlab(), hairM, [0, BH.cy + .29, 0])); g.add(mesh(BX(BH.size + .04, .62, .08), hairM, [0, BH.cy - .02, -FZ - .03]));
+  for (const sx of [-1, 1]) g.add(mesh(BX(.06, .5, .3), hairM, [sx * (FZ + .02), BH.cy + .02, -.08]));
+  g.add(mesh(BX(BH.size + .02, .07, .05), hairM, [0, BH.cy + .23, FZ + .01])); BHAIR.long = g; }
+{ const g = G(); g.add(mesh(topSlab(), hairM, [0, BH.cy + .29, 0])); g.add(mesh(BX(.18, .16, .16), hairM, [0, BH.cy + .4, -.12]));
+  g.add(mesh(BX(.2, .04, .18), M(0xe11d48, .5), [0, BH.cy + .335, -.12])); BHAIR.bun = g; }
+{ const g = G(); for (let i = 0; i < 4; i++) for (let j = 0; j < 4; j++) g.add(mesh(BX(.15, .15, .15), hairM, [(i - 1.5) * .13, BH.cy + .3 + ((i + j) % 2) * .03, (j - 1.5) * .13]));
+  for (const sx of [-1, 1]) g.add(mesh(BX(.08, .3, .4), hairM, [sx * (FZ + .02), BH.cy + .12, -.05])); BHAIR.curly = g; }
+{ const g = G(); g.add(mesh(BX(BH.size + .02, .05, BH.size + .02), hairM, [0, BH.cy + .27, 0])); BHAIR.buzz = g; }
+BHAIR.bald = G();
+for (const k in BHAIR) { BHAIR[k].visible = false; head.add(BHAIR[k]); BHAIR[k].traverse(m => m.isMesh && BLOCK.push(m)); }
+const bCap = G(); bCap.add(mesh(BX(BH.size + .05, .14, BH.size + .05), capM, [0, BH.cy + .31, 0])); bCap.add(mesh(BX(BH.size + .04, .03, .22), capM, [0, BH.cy + .25, FZ + .1])); head.add(bCap); bCap.traverse(m => m.isMesh && BLOCK.push(m));
+const bGlasses = G(); for (const sx of [-1, 1]) { for (const [x, y, w, h] of [[0, .085, .17, .025], [0, -.085, .17, .025], [-.085, 0, .025, .17], [.085, 0, .025, .17]]) bGlasses.add(mesh(BX(w, h, .02), glassM, [sx * .11 + x, BH.cy + .05 + y, FZ + .03])); }
+bGlasses.add(mesh(BX(.06, .025, .02), glassM, [0, BH.cy + .08, FZ + .03])); head.add(bGlasses); bGlasses.traverse(m => m.isMesh && BLOCK.push(m));
+const bBeard = G(); bBeard.add(mesh(BX(BH.size + .02, .16, .06), hairM, [0, BH.cy - .19, FZ - .02])); for (const sx of [-1, 1]) bBeard.add(mesh(BX(.06, .22, .3), hairM, [sx * (FZ + .01), BH.cy - .12, .05]));
+bBeard.add(mesh(BX(.2, .035, .02), hairM, [0, BH.cy - .09, FZ + .03])); head.add(bBeard); bBeard.traverse(m => m.isMesh && BLOCK.push(m));
+const bEarr = G(); for (const sx of [-1, 1]) bEarr.add(mesh(BX(.035, .035, .035), M(0xf5c542, .2, { metalness: .8 }), [sx * (FZ + .04), BH.cy - .1, .02])); head.add(bEarr); bEarr.traverse(m => m.isMesh && BLOCK.push(m));
+// tie / shirt front for jackets
+const bJacket = [bm(torso, BX(.12, .2, .01), shirtM, [0, .44, .135]), bm(torso, BX(.05, .24, .015), tieM, [0, .38, .142])];
+// limbs
+const bFore = [], bCuffs = [];
+for (const A of [L, R]) {
+  bm(A.sh, BX(.14, .34, .14), hoodie, [0, -.14, 0]);
+  bFore.push(bm(A.el, BX(.13, .26, .13), hoodie, [0, -.12, 0]));
+  bCuffs.push(bm(A.el, BX(.14, .04, .14), hoodieDark, [0, -.24, 0]));
+  bm(A.hand, BX(.12, .12, .1), skin, [0, -.02, 0]);
+  bm(A.hand, BX(.04, .07, .05), skin, [A.s * -.07, .0, .03]);
+}
+for (const Lg of [LL, RL]) {
+  bm(Lg.hp, BX(.18, .42, .19), jeans, [0, -.2, 0]);
+  bm(Lg.kn, BX(.17, .38, .18), jeans, [0, -.17, 0]);
+  bm(Lg.ft, BX(.19, .09, .28), shoeM, [0, -.02, .04]);
+  bm(Lg.ft, BX(.2, .03, .29), soleM, [0, -.07, .04]);
+}
+let BLOCKY = false; const ARMS = [L, R];
 // contact shadow
 {
   const c = document.createElement('canvas'); c.width = c.height = 128; const x = c.getContext('2d');
@@ -177,6 +242,7 @@ const NO_OUTLINE = new Set();
 [...eyes, ...lids, mouth, EARR, GLASSES].forEach(o => o.traverse(c => NO_OUTLINE.add(c)));
 eyes.forEach(l => l.parent.traverse(c => NO_OUTLINE.add(c)));
 jacketBits.forEach(b => NO_OUTLINE.add(b));
+[...bEyes, ...bPupils, bMouth, bTeeth, ...bJacket, bGlasses, bEarr].forEach(o => o.traverse(c => NO_OUTLINE.add(c)));
 const OUTLINES = [];
 const _toOutline = []; man.traverse(m => _toOutline.push(m));
 _toOutline.forEach(m => {
@@ -204,6 +270,18 @@ function applyLook(L) {
   lipM.color = C(L.lips ?? 0xc77b6a); irisM.color = C(L.eyes ?? 0x5b3a1e);
   CAP.visible = !!L.cap; if (L.cap) capM.color = C(L.cap);
   GLASSES.visible = !!L.glasses; BEARD.visible = !!L.beard; EARR.visible = !!L.earrings;
+  BLOCKY = L.body === 'blocky';
+  ROUND.forEach(m => { if (BLOCKY) { m.userData.wasVis ??= m.visible; m.visible = false; } });
+  if (BLOCKY) {
+    BLOCK.forEach(m => m.visible = true);
+    for (const k in BHAIR) BHAIR[k].visible = k === (L.hair || 'quiff');
+    for (const k in HAIR) HAIR[k].visible = false;
+    bHood.forEach(b => b.visible = top === 'hoodie'); bHem.visible = top !== 'tee';
+    bJacket.forEach(b => b.visible = top === 'jacket' || top === 'cardigan'); if (top === 'cardigan') bJacket[1].visible = false;
+    bFore.forEach(f => f.material = top === 'tee' ? skin : hoodie); bCuffs.forEach(c => c.visible = top !== 'tee');
+    bCap.visible = !!L.cap; bGlasses.visible = !!L.glasses; bBeard.visible = !!L.beard; bEarr.visible = !!L.earrings;
+    for (const A of ARMS) A.sh.position.x = A.s * .28;
+  } else { BLOCK.forEach(m => m.visible = false); for (const k in BHAIR) BHAIR[k].visible = false; [bCap, bGlasses, bBeard, bEarr].forEach(g => g.visible = false); for (const A of ARMS) A.sh.position.x = A.s * .2; }
   man.scale.setScalar(L.scale ?? 1);
   HOT = L.hot || '#ffd23f';
   const ol = (ST && ST.outline) !== false; OUTLINES.forEach(o => o.visible = ol);
@@ -502,6 +580,14 @@ window.frame = async (t) => {
   const gx = Math.sin(t * .5) * .12, gy = Math.sin(t * .37) * .06;
   for (const e of eyes) e.rotation.set(-gy, gx + (gs[gi] === 'point' ? .35 * gIn : gs[gi] === 'pointL' ? -.35 * gIn : 0), 0);
 
+  if (BLOCKY) {
+    bMouth.scale.set(1 - open * .2, 1 + open * 3.2, 1); bMouth.position.y = BH.cy - .13 - open * .04;
+    bTeeth.visible = open > .15; bTeeth.position.y = BH.cy - .12 + open * .005;
+    for (const b of bBrows) { b.position.y = BH.cy + .15 + amp * .01 + surprised * .025; b.rotation.z = b.userData.s * (-.1 + surprised * .2 - (gs[gi] === 'think' ? .25 * gIn * b.userData.s : 0)); }
+    const blk = Math.max(.08, 1 - blinkAt(t + (s.t0 % 1.3)));
+    const px = gx * .14 + (gs[gi] === 'point' ? .02 * gIn : gs[gi] === 'pointL' ? -.02 * gIn : 0), py = gy * .15;
+    bEyes.forEach(e => e.scale.y = blk); bPupils.forEach((p, i) => { p.position.x = (i ? .11 : -.11) + px; p.position.y = BH.cy + .04 + py; p.scale.y = blk; });
+  }
   // compose
   drawBg(s, lt, shot);
   renderer.render(scene, camera);

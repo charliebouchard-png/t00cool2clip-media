@@ -10,7 +10,8 @@
    "hairColor": "#4a2a18",
    "top": "hoodie",
    "topColor": "#f3b52f",
-   "hot": "#ffd23f"
+   "hot": "#ffd23f",
+   "body": "blocky"
   }
  },
  "maya": {
@@ -23,12 +24,13 @@
    "hair": "long",
    "hairColor": "#1c1210",
    "top": "tee",
-   "topColor": "#14b8a6",
+   "topColor": "#f97316",
    "lips": "#b04a5a",
    "earrings": true,
    "legColor": "#1f2937",
-   "hot": "#5eead4",
-   "scale": 0.96
+   "hot": "#fdba74",
+   "scale": 0.96,
+   "body": "blocky"
   }
  },
  "dev": {
@@ -47,7 +49,8 @@
    "tieColor": "#f59e0b",
    "legColor": "#111827",
    "shoeColor": "#3b2a1a",
-   "hot": "#fbbf24"
+   "hot": "#fbbf24",
+   "body": "blocky"
   }
  },
  "zara": {
@@ -65,7 +68,8 @@
    "earrings": true,
    "legColor": "#e5e7eb",
    "hot": "#f9a8d4",
-   "scale": 0.97
+   "scale": 0.97,
+   "body": "blocky"
   }
  },
  "ollie": {
@@ -81,7 +85,8 @@
    "top": "tee",
    "topColor": "#dc2626",
    "legColor": "#374151",
-   "hot": "#fde047"
+   "hot": "#fde047",
+   "body": "blocky"
   }
  },
  "gran": {
@@ -102,7 +107,8 @@
    "legColor": "#4b5563",
    "shoeColor": "#6b4f3a",
    "hot": "#c4b5fd",
-   "scale": 0.92
+   "scale": 0.92,
+   "body": "blocky"
   }
  },
  "kai": {
@@ -118,7 +124,8 @@
    "topColor": "#16a34a",
    "glasses": true,
    "legColor": "#1f2937",
-   "hot": "#86efac"
+   "hot": "#86efac",
+   "body": "blocky"
   }
  }
 }

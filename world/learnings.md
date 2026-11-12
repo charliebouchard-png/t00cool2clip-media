@@ -1,10 +1,20 @@
 # Learnings (newest first) — what top short-form videos do that we copy
 
+## 2026-11-12
+- OUR STATS (Metricool, TikTok, last 3 weeks): brand/everyday "how X makes money" videos (Ryanair 394 views, car wash 335, Greggs 321, gym 310) beat generic "Did you know 🤔 #fyp" posts (~22–30 views each) by >10x. Specific, keyword-rich captions about something people already know win; #fyp spam does nothing. -> Today: everyday hooks people recognise (Black Friday, Christmas cards/stamps, the drink can), specific captions, no #fyp.
+- LENGTH: 2026 Shorts data says single-idea clips win at 15–20 s and STORIES at 45–58 s; 25–40 s is the weak middle (taletok). 50–60 s gets the best watch-through (~76%, anijam). -> All 3 today are ~57–62 s stories (target "youtube"), not 35–45 s.
+- RETENTION: most viewers drop in the middle 40%; land the payoff 3–5 s before the end; replay rate >15% = loop potential. -> Mid-video pattern interrupts (badge + emoji burst + card around the 40–60% mark), payoff then a one-line loop back to the hook.
+- CAPTIONS: ~85% watch first with sound off; burned-in 1–3 words per frame beats auto-captions. -> chunk/box/word caption modes, hook card in frame 1.
+- FORMAT: TikTok's November winners are reveal formats ("last slide shows what really happened" carousels) and seasonal switches (Christmas content from 1 Nov, Black Friday). Rotate hook structures (question, specific claim, myth-bust) every few posts so the feed doesn't see a template. -> Today: guess-the-price (poll first), myth vs fact, then vs now.
+- vidIQ was out of credits today (couldn't pull outliers); research came from web sources + our own Metricool stats.
+
 ## 2026-11-11 (seed)
 - Top Shorts in our space (e.g. "If your shorts get under 1,000 views", 2.7M views) win on: a pain/curiosity title, proof in the first 20 s, a numbered list promised up front, a visual change every 5–10 s, stories over lectures, and explicit comment prompts (77k comments).
 - Our early TikToks flopped from: 10 posts in 10 minutes at 3 a.m., vague captions ("Did you know this?"), 5-minute landscape videos on TikTok, reposted clips. Best performers: a 17 s original product clip (251 views) and a specific shocking story caption (88 views).
 - Applied: hook card in frame 1, open loop by 3 s, cuts every 2–3 s, 60–70 s, looped ending, poll for comments, 5 posts/day spaced ≥2 h.
 
 ## Engine wishlist
+- Backdrop framing: fx/fy on the curved backdrop is not intuitive (higher fy shows the TOP of the photo) and tall shots zoom in hard; a "fit whole image" option would help paintings, cards and engravings.
+- Wider badges (text like "MYTH 1") — the round badge only fits ~2 characters.
 - Two presenters talking to each other (dialogue format).
 - Real-world 3D props (giant coin, stone wheel) next to the presenter.

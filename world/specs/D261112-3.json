@@ -1,0 +1,151 @@
+{
+ "id": "D261112-3",
+ "title": "The first Christmas card was a scandal",
+ "target": "youtube",
+ "cast": "gran",
+ "hook": "1ST XMAS CARD\n= SCANDAL?! 🎄",
+ "style": {
+  "captionMode": "word",
+  "captionFont": "Fredoka",
+  "grade": "retro",
+  "transition": "zoom",
+  "progress": true,
+  "camera": "glide"
+ },
+ "scenes": [
+  {
+   "say": "Your Christmas cards started with a SCANDAL. A naughty picture, a very busy man, and a price that'll make you spit out your tea!",
+   "place": "Your mantelpiece",
+   "flag": "🎄",
+   "bg": "bg/xmascard/mantel.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "pointL",
+    "wow"
+   ],
+   "hot": [
+    "SCANDAL."
+   ]
+  },
+  {
+   "say": "London, eighteen forty three. This is Henry Cole. He's drowning in letters he can't be bothered to answer. So, lazy genius, he gets an artist friend to draw ONE card for everybody!",
+   "place": "London, 1843",
+   "flag": "🇬🇧",
+   "bg": "bg/xmascard/cole.jpg",
+   "shot": "medium",
+   "gestures": [
+    "point",
+    "explain",
+    "count"
+   ],
+   "cards": [
+    {
+     "at": 0.12,
+     "big": "1843",
+     "small": "the first Christmas card",
+     "color": "#7c3aed"
+    }
+   ]
+  },
+  {
+   "say": "So posting it was cheap, because Henry helped bring in the Penny Post. One penny, to send a letter anywhere in Britain. Lovely!",
+   "place": "The Penny Black",
+   "flag": "✉️",
+   "bg": "bg/xmascard/pennyblack.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "open",
+    "count"
+   ],
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "1p",
+     "small": "to post a letter in 1840",
+     "color": "#16a34a"
+    }
+   ]
+  },
+  {
+   "say": "But look at the picture! A family raising glasses of wine, and a little girl having a sip! The anti drink lot were FURIOUS. Scandalous!",
+   "place": "The card itself",
+   "flag": "🍷",
+   "bg": "bg/xmascard/card1843.jpg",
+   "shot": "wide",
+   "gestures": [
+    "pointL",
+    "wow",
+    "shrug"
+   ],
+   "emoji": "😱",
+   "emojiAt": 0.45,
+   "hot": [
+    "FURIOUS."
+   ]
+  },
+  {
+   "say": "He printed a thousand and sold them for a shilling each. That's five pence now, but back then it was a LOT for a card. So it flopped! Mind you, his museum now keeps over thirty thousand cards.",
+   "place": "V&A, London",
+   "flag": "🏛️",
+   "bg": "bg/xmascard/vam.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "shrug",
+    "explain"
+   ],
+   "cards": [
+    {
+     "at": 0.35,
+     "big": "1 shilling",
+     "small": "per card (5p today)",
+     "color": "#ea580c"
+    }
+   ]
+  },
+  {
+   "say": "So what about posting a card now? A first class stamp is one pound eighty! It was a penny, darling. I nearly fainted.",
+   "place": "Your local postbox",
+   "flag": "📮",
+   "bg": "bg/xmascard/postbox.jpg",
+   "shot": "medium",
+   "fy": 0.4,
+   "gestures": [
+    "wow",
+    "explain",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "£1.80",
+     "small": "first class stamp, 2026",
+     "color": "#e11d48"
+    }
+   ],
+   "hot": [
+    "FAINTED."
+   ]
+  },
+  {
+   "say": "And that flop? One of Henry's cards sold for twenty THOUSAND pounds in two thousand and one! Would you pay that? Because every card you send copies him. So yes,",
+   "place": "Devizes, Wiltshire",
+   "flag": "💷",
+   "bg": "bg/xmascard/devizes.jpg",
+   "shot": "close",
+   "gestures": [
+    "point",
+    "think"
+   ],
+   "poll": {
+    "q": "£20,000 for ONE card?",
+    "a": "WORTH IT 🎄",
+    "b": "MAD 🤯",
+    "at": 0.4
+   }
+  }
+ ]
+}

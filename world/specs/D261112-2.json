@@ -1,0 +1,146 @@
+{
+ "id": "D261112-2",
+ "title": "Black Friday: 3 myths busted",
+ "target": "youtube",
+ "cast": "maya",
+ "hook": "BLACK FRIDAY\nMYTHS BUSTED 🛍️",
+ "style": {
+  "captionMode": "chunk",
+  "captionFont": "Poppins",
+  "grade": "cool",
+  "transition": "whip",
+  "progress": true,
+  "camera": "glide"
+ },
+ "scenes": [
+  {
+   "say": "Everything you know about Black Friday is wrong. Three myths, but the last one is costing you money!",
+   "place": "Black Friday, everywhere",
+   "flag": "🛍️",
+   "bg": "bg/blackfriday/shop.jpg",
+   "shot": "wide",
+   "from": 1,
+   "fy": 0.4,
+   "gestures": [
+    "wave",
+    "point",
+    "shrug"
+   ],
+   "hot": [
+    "WRONG.",
+    "MONEY!"
+   ]
+  },
+  {
+   "say": "Myth one. It's named after shops making a profit. Nope! The first Black Friday was a CRASH, in New York, in eighteen sixty nine. The price of gold fell off a cliff!",
+   "place": "New York Gold Room",
+   "flag": "📉",
+   "bg": "bg/blackfriday/goldroom.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "wow",
+    "explain"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "1869",
+     "small": "the FIRST Black Friday: a crash",
+     "color": "#e11d48"
+    }
+   ],
+   "badge": "#1"
+  },
+  {
+   "say": "So where's the shopping from? Philadelphia, in the nineteen fifties! The day after Thanksgiving, the city got rammed with shoppers, plus fans for a giant football game on Saturday.",
+   "place": "Philadelphia, USA",
+   "flag": "🇺🇸",
+   "bg": "bg/blackfriday/cityhall.jpg",
+   "shot": "wide",
+   "fy": 0.35,
+   "gestures": [
+    "think",
+    "pointL",
+    "open"
+   ],
+   "badge": "#2"
+  },
+  {
+   "say": "The police had to work super long shifts. So THEY called it Black Friday, and they did not mean it nicely! Shops tried to rename it Big Friday. Nobody bought it.",
+   "place": "Philly police",
+   "flag": "👮",
+   "bg": "bg/blackfriday/police.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "shrug",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.62,
+     "big": "BIG FRIDAY",
+     "small": "the rename that flopped",
+     "color": "#7c3aed",
+     "hold": 2.6
+    }
+   ],
+   "emoji": "🙄",
+   "emojiAt": 0.85
+  },
+  {
+   "say": "Then in the late nineteen eighties, shops spun the story. Red ink means losing money, black ink means profit. So, black Friday! Sneaky, right?",
+   "place": "The shop's money book",
+   "flag": "📒",
+   "bg": "bg/blackfriday/ledger.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "explain",
+    "point"
+   ],
+   "hot": [
+    "SNEAKY,"
+   ]
+  },
+  {
+   "say": "Myth three. It's the cheapest day of the year. But Which? tracked over two hundred deals for a whole year. Ninety eight percent were the same price or cheaper on other days!",
+   "place": "Oxford Street, London",
+   "flag": "🇬🇧",
+   "bg": "bg/blackfriday/oxford.jpg",
+   "shot": "medium",
+   "gestures": [
+    "pointL",
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "98%",
+     "small": "same price or cheaper on other days",
+     "color": "#e11d48"
+    }
+   ],
+   "badge": "#3"
+  },
+  {
+   "say": "Only two percent were cheapest on the day itself. So, would you still queue up? Because here's the truth.",
+   "place": "The queue",
+   "flag": "⛺",
+   "bg": "bg/blackfriday/queue.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "open"
+   ],
+   "poll": {
+    "q": "Will YOU shop Black Friday?",
+    "a": "YES 🛍️",
+    "b": "NO WAY 🙅",
+    "at": 0.35
+   }
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "id": "D261112-1",
+ "title": "The drink-can metal on top of the Washington Monument",
+ "target": "youtube",
+ "cast": "kai",
+ "hook": "TOP = A\nDRINK CAN?! 🥫",
+ "style": {
+  "captionMode": "box",
+  "captionFont": "Bebas",
+  "boxColor": "#86efac",
+  "boxText": "#111",
+  "grade": "punchy",
+  "transition": "glitch",
+  "progress": true,
+  "camera": "glide"
+ },
+ "scenes": [
+  {
+   "say": "This tower's tip is made of your drink can metal. And in eighteen eighty four, that was a HUGE flex. Guess why!",
+   "place": "Washington, D.C., USA",
+   "flag": "🇺🇸",
+   "bg": "bg/aluminium/monument.jpg",
+   "shot": "wide",
+   "from": -1,
+   "fy": 0.35,
+   "gestures": [
+    "wave",
+    "pointL",
+    "shrug"
+   ],
+   "hot": [
+    "FLEX."
+   ]
+  },
+  {
+   "say": "This is it. A small pyramid of aluminium, about a hundred ounces. So quick, what cost more back then? Aluminium, or silver?",
+   "place": "Setting the tip, 1884",
+   "flag": "🔺",
+   "bg": "bg/aluminium/apex.jpg",
+   "shot": "wide",
+   "gestures": [
+    "point",
+    "think",
+    "count"
+   ],
+   "poll": {
+    "q": "1884: what cost MORE?",
+    "a": "ALUMINIUM 🥫",
+    "b": "SILVER 🥈",
+    "at": 0.55
+   }
+  },
+  {
+   "say": "Aluminium! TWICE the price of silver. So before it went up, it sat in a posh New York jewellery shop, like a diamond.",
+   "place": "New York, USA",
+   "flag": "💎",
+   "bg": "bg/aluminium/newyork.jpg",
+   "shot": "medium",
+   "gestures": [
+    "wow",
+    "explain",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.25,
+     "big": "2x",
+     "small": "the price of silver in 1884",
+     "color": "#16a34a"
+    }
+   ],
+   "emoji": "😱",
+   "emojiAt": 0.15
+  },
+  {
+   "say": "But the French were even crazier. At the huge Paris fair in eighteen fifty five, bars of aluminium were shown off like treasure!",
+   "place": "Paris, France",
+   "flag": "🇫🇷",
+   "bg": "bg/aluminium/paris.jpg",
+   "shot": "wide",
+   "gestures": [
+    "pointL",
+    "explain",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "1855",
+     "small": "shown off like treasure",
+     "color": "#2563eb"
+    }
+   ],
+   "badge": "#1"
+  },
+  {
+   "say": "Then Emperor Napoleon the Third got aluminium forks, only for his MOST important guests. Everyone else? Stuck with boring old gold, or so the story goes!",
+   "place": "The Emperor's table",
+   "flag": "👑",
+   "bg": "bg/aluminium/napoleon.jpg",
+   "shot": "medium",
+   "fx": 0.5,
+   "fy": 0.3,
+   "gestures": [
+    "count",
+    "shrug",
+    "explain"
+   ],
+   "hot": [
+    "GOLD,"
+   ],
+   "badge": "#2",
+   "emoji": "🍴",
+   "emojiAt": 0.3
+  },
+  {
+   "say": "So what went wrong? In eighteen eighty six, a twenty two year old from this college in Ohio found a cheap way to make it, with electricity!",
+   "place": "Oberlin, Ohio",
+   "flag": "⚡",
+   "bg": "bg/aluminium/oberlin.jpg",
+   "shot": "wide",
+   "gestures": [
+    "think",
+    "point",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "1886",
+     "small": "the cheap way is found",
+     "color": "#ea580c"
+    }
+   ],
+   "badge": "#3"
+  },
+  {
+   "say": "You see, there's loads of aluminium in rocks like these. It was just super hard to get out. So the price crashed.",
+   "place": "A bauxite mine, Italy",
+   "flag": "🪨",
+   "bg": "bg/aluminium/bauxite.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "pointL",
+    "shrug"
+   ],
+   "hot": [
+    "CRASHED."
+   ]
+  },
+  {
+   "say": "Now we squash it and bin it. Would you swap your gold for it? Because back then, this tower's tip",
+   "place": "Your recycling bin",
+   "flag": "♻️",
+   "bg": "bg/aluminium/cans.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "open"
+   ]
+  }
+ ]
+}

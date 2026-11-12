@@ -1,0 +1,65 @@
+{
+ "shop": {
+  "q": "Black Friday shopping",
+  "file": "File:Black Friday shopping 2022 in Indooroopilly Shopping Centre, Australia, 08.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Black_Friday_shopping_2022_in_Indooroopilly_Shopping_Centre,_Australia,_08.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Kgbo",
+  "w": 1920,
+  "h": 2560
+ },
+ "goldroom": {
+  "q": "Gold Room New York 1869",
+  "file": "File:Scene in the New York Gold room during the excitement of September 24th, 1869 LCCN2004667828.tif",
+  "page": "https://commons.wikimedia.org/wiki/File:Scene_in_the_New_York_Gold_room_during_the_excitement_of_September_24th,_1869_LCCN2004667828.tif",
+  "license": "Public domain",
+  "artist": "Miscellaneous Items in High Demand, PPOC, Library of Congress",
+  "w": 1280,
+  "h": 894
+ },
+ "cityhall": {
+  "q": "Philadelphia City Hall",
+  "file": "File:Philadelphia City Hall - 2.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Philadelphia_City_Hall_-_2.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Max Binder",
+  "w": 1920,
+  "h": 2553
+ },
+ "police": {
+  "q": "Philadelphia police",
+  "file": "File:Police patrol marching outside Baldwin Locomotive Works, Philadelphia LCCN2014684537.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Police_patrol_marching_outside_Baldwin_Locomotive_Works,_Philadelphia_LCCN2014684537.jpg",
+  "license": "Public domain",
+  "artist": "Bain News Service, publisher",
+  "w": 1920,
+  "h": 1383
+ },
+ "ledger": {
+  "q": "accounting ledger",
+  "file": "File:Ledger.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Ledger.png",
+  "license": "CC0",
+  "artist": "RaphaelQS",
+  "w": 1706,
+  "h": 896
+ },
+ "oxford": {
+  "q": "Oxford Street London Christmas",
+  "file": "File:View of the Oxford Street Christmas lights from Oxford Street - geograph.org.uk - 7679573.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:View_of_the_Oxford_Street_Christmas_lights_from_Oxford_Street_-_geograph.org.uk_-_7679573.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Robert Lamb ",
+  "w": 1920,
+  "h": 1280
+ },
+ "queue": {
+  "q": "Black Friday shopping",
+  "file": "File:Camping overnight at Best Buy in Richfield, MN for Black Friday deals, Nov 22, 2012.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Camping_overnight_at_Best_Buy_in_Richfield,_MN_for_Black_Friday_deals,_Nov_22,_2012.jpg",
+  "license": "CC BY 4.0",
+  "artist": "Myotus",
+  "w": 1920,
+  "h": 1434
+ }
+}

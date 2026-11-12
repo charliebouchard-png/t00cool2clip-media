@@ -1,0 +1,35 @@
+name: transcribe
+on:
+  workflow_dispatch:
+    inputs:
+      name: { description: 'clip batch name (branch clipsrc-<name> holds clipsrc/<name>/audio.opus)', required: true }
+      model: { description: 'faster-whisper model', required: false, default: 'base.en' }
+permissions:
+  contents: write
+jobs:
+  t:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: 'clipsrc-${{ inputs.name }}' }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install -q faster-whisper
+      - run: |
+          python - <<'PY'
+          import json
+          from faster_whisper import WhisperModel
+          d = "clipsrc/${{ inputs.name }}"
+          m = WhisperModel("${{ inputs.model }}", device="cpu", compute_type="int8")
+          segs, info = m.transcribe(f"{d}/audio.opus", word_timestamps=True, vad_filter=True, beam_size=1)
+          words, lines = [], []
+          for s in segs:
+              lines.append(f"[{int(s.start//60)}:{int(s.start%60):02d}] {s.text.strip()}")
+              for w in (s.words or []): words.append({"w": w.word.strip(), "s": round(w.start, 2), "e": round(w.end, 2)})
+          json.dump(words, open(f"{d}/words.json", "w")); open(f"{d}/transcript.txt", "w").write("\n".join(lines))
+          print(len(words), "words")
+          PY
+      - run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add -f clipsrc; git commit -qm "transcript ${{ inputs.name }}"; git push origin HEAD:clipsrc-${{ inputs.name }}

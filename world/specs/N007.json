@@ -1,0 +1,111 @@
+{
+ "title": "Why one man quitting crashed a $4 trillion company",
+ "target": "tiktok",
+ "cast": "bob",
+ "hook": "1 MAN QUITS,\n$440BN GONE 🤯",
+ "style": {
+  "captionMode": "chunk",
+  "captionFont": "Fredoka",
+  "grade": "cool",
+  "transition": "flash"
+ },
+ "scenes": [
+  {
+   "say": "Okay? What just happened? One man quit his job and four hundred and forty billion dollars vanished. So how does that even work?",
+   "place": "Wall Street",
+   "flag": "🏦",
+   "bg": "bg/nvidia/wallst.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "-$440bn",
+     "color": "#e11d48",
+     "hold": 2.6
+    }
+   ],
+   "from": 1
+  },
+  {
+   "say": "You see, a share price isn't what a company is worth today. So it's really what people think it'll be worth in the future.",
+   "place": "New York Stock Exchange",
+   "flag": "🏛️",
+   "bg": "bg/nvidia/nyse.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "count",
+    "open"
+   ]
+  },
+  {
+   "say": "And for thirty three years, Nvidia's future was Jensen Huang. So when he left, people panicked. Experts call it key person risk.",
+   "place": "Silicon Valley",
+   "flag": "💻",
+   "bg": "bg/nvidia/valley.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "explain",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "Key person risk",
+     "color": "#7c3aed",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "say": "It's like your football team losing its manager the night before the final. Same players, but everyone's suddenly nervous.",
+   "place": "Golden Gate Bridge",
+   "flag": "⚽",
+   "bg": "bg/nvidia/goldengate.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "shrug",
+    "open"
+   ],
+   "emoji": "⚽",
+   "emojiAt": 0.6
+  },
+  {
+   "say": "But here's the twist. The chips, the factories and the customers didn't go anywhere. So some experts aren't worried at all. Would you be?",
+   "place": "Inside a data centre",
+   "flag": "🖥️",
+   "bg": "bg/nvidia/datacenter.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "explain",
+    "wave"
+   ],
+   "poll": {
+    "q": "Panic or chill?",
+    "a": "PANIC",
+    "b": "CHILL",
+    "at": 0.55
+   }
+  },
+  {
+   "say": "So that's how one resignation became a four hundred and forty billion dollar wobble. And everyone asked,",
+   "place": "Nasdaq, Times Square",
+   "flag": "📉",
+   "bg": "bg/nvidia/nasdaq.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "shrug"
+   ]
+  }
+ ],
+ "id": "N007"
+}

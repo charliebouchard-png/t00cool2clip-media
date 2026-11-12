@@ -1,0 +1,146 @@
+{
+ "nasdaq": {
+  "q": "Nasdaq MarketSite Times Square",
+  "file": "File:Nasdaq MarketSite (51494550508).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg",
+  "license": "CC BY 2.0",
+  "artist": "ajay_suresh",
+  "w": 1920,
+  "h": 1920
+ },
+ "nyse": {
+  "q": "New York Stock Exchange facade",
+  "file": "File:New York Stock Exchange 20170311.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:New_York_Stock_Exchange_20170311.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Suicasmo",
+  "w": 1920,
+  "h": 1280
+ },
+ "wallst": {
+  "q": "Wall Street sign New York",
+  "file": "File:Wall Street Sign April 2022.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_Sign_April_2022.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Kidfly182",
+  "w": 1920,
+  "h": 1440
+ },
+ "datacenter": {
+  "q": "data center server racks",
+  "file": "File:Datacenter Server Racks (22370909788).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Datacenter_Server_Racks_(22370909788).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Carl Lender from Sunrise, USA",
+  "w": 1920,
+  "h": 1280
+ },
+ "gpu": {
+  "q": "graphics card GPU",
+  "file": "File:Graphics Card Diamond Viper 330 with Nvidia (RIVA 128) GPU.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Graphics_Card_Diamond_Viper_330_with_Nvidia_(RIVA_128)_GPU.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Timothy Borkowski",
+  "w": 1920,
+  "h": 1355
+ },
+ "chip": {
+  "q": "graphics card GPU",
+  "file": "File:AMD Fiji GPU package with GPU, HBM memory and interposer.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:AMD_Fiji_GPU_package_with_GPU,_HBM_memory_and_interposer.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "C. Spille/pcgameshardware.de",
+  "w": 1920,
+  "h": 1285
+ },
+ "dennys": {
+  "q": "Dennys restaurant",
+  "file": "File:Denny's restaurant in Niagara Falls, Ontario- panoramio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Denny%27s_restaurant_in_Niagara_Falls,_Ontario-_panoramio.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Idawriter",
+  "w": 1920,
+  "h": 1440
+ },
+ "applepark": {
+  "q": "Apple Park Cupertino",
+  "file": "File:Apple park cupertino 2019.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Apple_park_cupertino_2019.jpg",
+  "license": "CC BY-SA 3.0 de",
+  "artist": "Arne M\u00fcseler",
+  "w": 1920,
+  "h": 1079
+ },
+ "microsoft": {
+  "q": "Microsoft Redmond campus",
+  "file": "File:Building92microsoft.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Building92microsoft.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "w": 1920,
+  "h": 1280
+ },
+ "amd": {
+  "q": "AMD headquarters Santa Clara",
+  "file": "File:2485 Augustine Drive headquarters in Santa Clara, California.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2485_Augustine_Drive_headquarters_in_Santa_Clara,_California.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "w": 1920,
+  "h": 1420
+ },
+ "whitehouse": {
+  "q": "White House north facade",
+  "file": "File:The White House June 2024.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_White_House_June_2024.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "DJTechYT",
+  "w": 1920,
+  "h": 1440
+ },
+ "taipei": {
+  "q": "Taipei 101",
+  "file": "File:Taipei 101 2009 amk.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taipei_101_2009_amk.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "AngMoKio",
+  "w": 1920,
+  "h": 3060
+ },
+ "sanjose": {
+  "q": "San Jose California downtown",
+  "file": "File:Downtown San Jose Intersection, San Jose, California (45240384021).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Downtown_San_Jose_Intersection,_San_Jose,_California_(45240384021).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Will Buckner",
+  "w": 1920,
+  "h": 1465
+ },
+ "valley": {
+  "q": "Silicon Valley aerial",
+  "file": "File:Silicon Valley, facing southward towards Downtown San Jose, 2014.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Silicon_Valley,_facing_southward_towards_Downtown_San_Jose,_2014.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Coolcaesar",
+  "w": 1920,
+  "h": 1352
+ },
+ "goldengate": {
+  "q": "Golden Gate Bridge",
+  "file": "File:Golden Gate Bridge Yang Ming Line.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_Yang_Ming_Line.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Cary Bass",
+  "w": 1920,
+  "h": 1440
+ },
+ "timessq": {
+  "q": "Times Square night",
+  "file": "File:Times Square 20190726.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Times_Square_20190726.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Nkon21",
+  "w": 1920,
+  "h": 1758
+ }
+}

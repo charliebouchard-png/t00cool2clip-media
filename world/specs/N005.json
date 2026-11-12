@@ -1,0 +1,103 @@
+{
+ "title": "3 winners from Nvidia's worst morning",
+ "target": "tiktok",
+ "cast": "zara",
+ "hook": "WHO WON FROM\nNVIDIA'S CHAOS? 🏆",
+ "style": {
+  "captionMode": "word",
+  "captionFont": "Fredoka",
+  "grade": "punchy",
+  "transition": "whip",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "Okay? What just happened? Nvidia had a terrible morning, but somebody always wins. So here are three winners you didn't expect, and number one got the fastest promotion ever.",
+   "place": "Times Square, New York",
+   "flag": "🏆",
+   "bg": "bg/nvidia/timessq.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "count",
+    "pointL"
+   ],
+   "from": 1
+  },
+  {
+   "say": "Number three. Its rivals! Shares in AMD and Broadcom got a boost, because investors went shopping for other chip makers instead. So their morning was great.",
+   "place": "Santa Clara, California",
+   "flag": "📈",
+   "bg": "bg/nvidia/amd.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "point",
+    "open"
+   ],
+   "badge": "#3"
+  },
+  {
+   "say": "Number two. Apple and Microsoft. Nvidia slipped to third place, so they're the two most valuable companies again. Awkward! But they're not complaining.",
+   "place": "Apple Park, California",
+   "flag": "🍎",
+   "bg": "bg/nvidia/applepark.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "shrug",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "#3",
+     "small": "Nvidia's new rank",
+     "color": "#e11d48",
+     "hold": 3.0
+    }
+   ],
+   "badge": "#2"
+  },
+  {
+   "say": "And number one. Colette Kress! She went from money boss to running the whole company, overnight. Would you take that job?",
+   "place": "New York Stock Exchange",
+   "flag": "👑",
+   "bg": "bg/nvidia/nyse.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "explain",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.3,
+     "big": "CFO → CEO",
+     "small": "overnight",
+     "color": "#16a34a",
+     "hold": 3.0
+    }
+   ],
+   "badge": "#1",
+   "poll": {
+    "q": "Would YOU take the job?",
+    "a": "YES 💼",
+    "b": "NO WAY 😅",
+    "at": 0.6
+   }
+  },
+  {
+   "say": "And everyone else? Refreshing their apps every two minutes, so confused, and going,",
+   "place": "Wall Street",
+   "flag": "📱",
+   "bg": "bg/nvidia/wallst.jpg",
+   "shot": "medium",
+   "gestures": [
+    "shrug",
+    "wave"
+   ]
+  }
+ ],
+ "id": "N005"
+}

@@ -1,0 +1,112 @@
+{
+ "title": "Nvidia lost $440 billion in a morning. How much is that?",
+ "target": "tiktok",
+ "cast": "gran",
+ "hook": "$440 BILLION\nGONE?! 👵",
+ "style": {
+  "captionMode": "box",
+  "captionFont": "Bebas",
+  "boxColor": "#fef08a",
+  "grade": "warm",
+  "transition": "zoom"
+ },
+ "scenes": [
+  {
+   "say": "Okay? What just happened? Nvidia just lost four hundred and forty billion dollars before lunch. But in my day, a billion was a lot of money!",
+   "place": "Wall Street",
+   "flag": "🏦",
+   "bg": "bg/nvidia/wallst.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.62,
+     "big": "$440bn",
+     "small": "lost at the low",
+     "color": "#e11d48",
+     "hold": 2.8
+    }
+   ],
+   "from": -1
+  },
+  {
+   "say": "So how much is that? Split it between every American, and you'd each get about thirteen hundred dollars. I'd buy a new kettle.",
+   "place": "New York",
+   "flag": "🗽",
+   "bg": "bg/nvidia/timessq.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "explain",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "$1,300",
+     "small": "each, for every American",
+     "color": "#16a34a",
+     "hold": 3.0
+    }
+   ],
+   "emoji": "🫖",
+   "emojiAt": 0.85
+  },
+  {
+   "say": "It's also more than twice what Nvidia earned in a whole year. So it's gone in one morning! I lose my glasses slower than that.",
+   "place": "Nasdaq, Times Square",
+   "flag": "📉",
+   "bg": "bg/nvidia/nasdaq.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "shrug",
+    "think"
+   ],
+   "cards": [
+    {
+     "at": 0.2,
+     "big": "2x",
+     "small": "its yearly revenue",
+     "color": "#2563eb",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "say": "Why? Because the boss quit. When one person is the whole story, investors panic. You see, it's like the chippy losing its best chef.",
+   "place": "San Jose, California",
+   "flag": "🍟",
+   "bg": "bg/nvidia/sanjose.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "count",
+    "open"
+   ]
+  },
+  {
+   "say": "But here's the twist. Lots of experts say the business is fine. So would you panic, or keep calm and have a biscuit? Because the whole of Wall Street is going,",
+   "place": "New York Stock Exchange",
+   "flag": "🍪",
+   "bg": "bg/nvidia/nyse.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "explain",
+    "wave"
+   ],
+   "poll": {
+    "q": "Would YOU panic?",
+    "a": "PANIC 😱",
+    "b": "BISCUIT 🍪",
+    "at": 0.5
+   }
+  }
+ ],
+ "id": "N003"
+}

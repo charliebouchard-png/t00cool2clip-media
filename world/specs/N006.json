@@ -1,0 +1,100 @@
+{
+ "title": "Nvidia: from a Denny's diner to $5 trillion",
+ "target": "tiktok",
+ "cast": "kai",
+ "hook": "FROM A DINER\nTO $5 TRILLION 🍳",
+ "style": {
+  "captionMode": "box",
+  "captionFont": "ArchivoBlack",
+  "boxColor": "#bbf7d0",
+  "grade": "retro",
+  "transition": "zoom"
+ },
+ "scenes": [
+  {
+   "say": "Okay? What just happened? Nvidia just lost its founder, so let's see how a company that started in a diner got this big.",
+   "place": "Silicon Valley",
+   "flag": "💻",
+   "bg": "bg/nvidia/valley.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "pointL",
+    "shrug"
+   ],
+   "from": -1
+  },
+  {
+   "say": "Nineteen ninety three. Three friends plan a graphics chip company in a Denny's diner in San Jose. You can't make this up.",
+   "place": "A Denny's diner",
+   "flag": "🍳",
+   "bg": "bg/nvidia/dennys.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "count",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.25,
+     "big": "1993",
+     "small": "the plan starts here",
+     "color": "#2563eb",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "say": "Then the late nineties. Their graphics cards help make video games look amazing, so gamers fall in love.",
+   "place": "Inside a 1990s PC",
+   "flag": "🎮",
+   "bg": "bg/nvidia/gpu.jpg",
+   "shot": "close",
+   "gestures": [
+    "explain",
+    "wow",
+    "open"
+   ]
+  },
+  {
+   "say": "But here's the twist. Those same chips turned out to be perfect for AI. So when the AI boom hit, everyone needed Nvidia.",
+   "place": "Inside a data centre",
+   "flag": "🤖",
+   "bg": "bg/nvidia/datacenter.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "explain",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "$215.9bn",
+     "small": "revenue last year",
+     "color": "#16a34a",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "say": "At its peak, it was worth nearly five trillion dollars. And now the man who built it has resigned. So from a diner to that, and everyone's asking,",
+   "place": "Nasdaq, Times Square",
+   "flag": "📉",
+   "bg": "bg/nvidia/nasdaq.jpg",
+   "shot": "close",
+   "gestures": [
+    "count",
+    "shrug"
+   ],
+   "poll": {
+    "q": "Will Nvidia be OK?",
+    "a": "YES 📈",
+    "b": "NO 📉",
+    "at": 0.35
+   }
+  }
+ ],
+ "id": "N006"
+}

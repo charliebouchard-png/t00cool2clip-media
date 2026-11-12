@@ -1,0 +1,136 @@
+{
+ "title": "The Nvidia scandal in 40 seconds",
+ "target": "tiktok",
+ "cast": "dev",
+ "hook": "NVIDIA'S BOSS\nJUST QUIT 😳",
+ "style": {
+  "captionMode": "word",
+  "captionFont": "ArchivoBlack",
+  "grade": "cool",
+  "transition": "glitch",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "Okay? What just happened? The boss of a four trillion dollar company just quit, and you'll want to hear why.",
+   "place": "Times Square, New York",
+   "flag": "🗽",
+   "bg": "bg/nvidia/timessq.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "shrug",
+    "pointL"
+   ],
+   "hot": [
+    "QUIT,"
+   ],
+   "from": -1
+  },
+  {
+   "say": "Jensen Huang started Nvidia in nineteen ninety three, so he ran it for thirty three years. He's basically the king of AI chips.",
+   "place": "Silicon Valley",
+   "flag": "💻",
+   "bg": "bg/nvidia/valley.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "count",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.35,
+     "big": "33 years",
+     "small": "as Nvidia's boss",
+     "color": "#2563eb",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "say": "But this week he sent staff a memo admitting, quote, I was unfaithful to my wife. And then it got worse.",
+   "place": "San Jose, California",
+   "flag": "📝",
+   "bg": "bg/nvidia/sanjose.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "wow",
+    "shrug"
+   ],
+   "hot": [
+    "UNFAITHFUL"
+   ]
+  },
+  {
+   "say": "Reports say US officials believed a woman he was involved with was linked to Chinese spies. But Nvidia says it has no reason to think any secrets leaked.",
+   "place": "Washington, D.C.",
+   "flag": "🕵️",
+   "bg": "bg/nvidia/whitehouse.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "pointL",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.15,
+     "big": "REPORTED",
+     "small": "not confirmed",
+     "color": "#ea580c",
+     "hold": 2.6
+    }
+   ]
+  },
+  {
+   "say": "So he resigned, effective immediately, and the money guy, sorry, the CFO, Colette Kress, is running things for now.",
+   "place": "New York Stock Exchange",
+   "flag": "🏛️",
+   "bg": "bg/nvidia/nyse.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "explain",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "Colette Kress",
+     "small": "interim CEO",
+     "color": "#16a34a",
+     "hold": 3.0
+    }
+   ]
+  },
+  {
+   "say": "And the stock fell as much as thirteen percent, wiping out about four hundred and forty billion dollars. So everyone's asking.",
+   "place": "Nasdaq, Times Square",
+   "flag": "📉",
+   "bg": "bg/nvidia/nasdaq.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.15,
+     "big": "-$440bn",
+     "small": "at the low",
+     "color": "#e11d48",
+     "hold": 2.6
+    }
+   ],
+   "poll": {
+    "q": "Should he have resigned?",
+    "a": "YES",
+    "b": "NO",
+    "at": 0.6
+   }
+  }
+ ],
+ "id": "N001"
+}

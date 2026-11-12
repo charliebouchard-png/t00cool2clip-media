@@ -1,0 +1,128 @@
+{
+ "title": "5 days that ended Jensen Huang's reign at Nvidia",
+ "target": "tiktok",
+ "cast": "maya",
+ "hook": "5 DAYS THAT\nBROKE NVIDIA 📉",
+ "style": {
+  "captionMode": "chunk",
+  "captionFont": "Oswald",
+  "grade": "punchy",
+  "transition": "whip",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "Okay? What just happened? In just five days, the most powerful man in AI lost his job. So here's your timeline, but day five is brutal.",
+   "place": "Silicon Valley",
+   "flag": "💻",
+   "bg": "bg/nvidia/valley.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "count",
+    "pointL"
+   ],
+   "hot": [
+    "FIVE",
+    "BRUTAL."
+   ],
+   "from": 1
+  },
+  {
+   "say": "Sunday. Jensen Huang tells his staff in a memo that he was unfaithful to his wife. But you ain't seen nothing yet.",
+   "place": "San Jose, California",
+   "flag": "📝",
+   "bg": "bg/nvidia/sanjose.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "think",
+    "shrug"
+   ],
+   "badge": "SUN"
+  },
+  {
+   "say": "Then the reports land. The New York Times says there was a second relationship, with an employee. And others say US officials linked a woman to Chinese spies, so things get serious.",
+   "place": "Washington, D.C.",
+   "flag": "🗞️",
+   "bg": "bg/nvidia/whitehouse.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "wow",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.2,
+     "big": "REPORTS",
+     "small": "not confirmed",
+     "color": "#ea580c",
+     "hold": 2.4
+    }
+   ]
+  },
+  {
+   "say": "Wednesday. The Wall Street Journal says the board is getting ready to push him out. So Nvidia's stock starts to wobble.",
+   "place": "Wall Street",
+   "flag": "🏦",
+   "bg": "bg/nvidia/wallst.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "pointL",
+    "shrug"
+   ],
+   "badge": "WED"
+  },
+  {
+   "say": "Thursday. He resigns, effective immediately. So the finance boss, Colette Kress, takes over for now, and Nvidia gets its first ever chair.",
+   "place": "New York Stock Exchange",
+   "flag": "🏛️",
+   "bg": "bg/nvidia/nyse.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "explain",
+    "open"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "Interim CEO",
+     "small": "Colette Kress",
+     "color": "#16a34a",
+     "hold": 3.0
+    }
+   ],
+   "badge": "THU"
+  },
+  {
+   "say": "And the stock? Down as much as thirteen percent. So was the board right? Tell me below, because the whole internet is going,",
+   "place": "Nasdaq, Times Square",
+   "flag": "📉",
+   "bg": "bg/nvidia/nasdaq.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.12,
+     "big": "-13%",
+     "small": "at the worst point",
+     "color": "#e11d48",
+     "hold": 2.4
+    }
+   ],
+   "poll": {
+    "q": "Was the board right?",
+    "a": "YES",
+    "b": "NO",
+    "at": 0.45
+   }
+  }
+ ],
+ "id": "N002"
+}

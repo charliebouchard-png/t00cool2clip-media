@@ -1,0 +1,105 @@
+{
+ "title": "Job advert: Nvidia needs a new boss",
+ "target": "tiktok",
+ "cast": "ollie",
+ "hook": "JOB ADVERT:\nNVIDIA CEO 📋",
+ "style": {
+  "captionMode": "chunk",
+  "captionFont": "Poppins",
+  "grade": "dreamy",
+  "transition": "flash",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "Okay? What just happened? Nvidia needs a new boss, so I've written your job advert for them. But number three is the best bit.",
+   "place": "Silicon Valley",
+   "flag": "📋",
+   "bg": "bg/nvidia/valley.jpg",
+   "shot": "wide",
+   "gestures": [
+    "wave",
+    "count",
+    "pointL"
+   ],
+   "from": -1
+  },
+  {
+   "say": "Wanted. One boss for a company that was worth nearly five trillion dollars. So, you know, no pressure!",
+   "place": "Santa Clara, California",
+   "flag": "💼",
+   "bg": "bg/nvidia/amd.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "wow",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.4,
+     "big": "~$5 trillion",
+     "small": "at its peak",
+     "color": "#16a34a",
+     "hold": 3.0
+    }
+   ],
+   "badge": "#1"
+  },
+  {
+   "say": "Must understand AI chips, which basically power the whole AI boom. So if you think a GPU is a new burger, maybe not you.",
+   "place": "Inside a data centre",
+   "flag": "🖥️",
+   "bg": "bg/nvidia/datacenter.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "explain",
+    "shrug"
+   ],
+   "badge": "#2",
+   "emoji": "🍔",
+   "emojiAt": 0.75
+  },
+  {
+   "say": "The candidates? Colette Kress is doing it for now. And President Trump said Apple's Tim Cook should take over. Who would you pick?",
+   "place": "Apple Park, California",
+   "flag": "🍎",
+   "bg": "bg/nvidia/applepark.jpg",
+   "shot": "medium",
+   "gestures": [
+    "count",
+    "pointL",
+    "open"
+   ],
+   "badge": "#3",
+   "poll": {
+    "q": "Who should run Nvidia?",
+    "a": "KRESS",
+    "b": "COOK",
+    "at": 0.55
+   }
+  },
+  {
+   "say": "One analyst said there are massive shoes to fill. So if you've got big feet and a leather jacket, send your CV, because right now the whole of Nvidia is going,",
+   "place": "Golden Gate Bridge",
+   "flag": "👟",
+   "bg": "bg/nvidia/goldengate.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "wave"
+   ],
+   "cards": [
+    {
+     "at": 0.15,
+     "big": "Massive shoes",
+     "small": "to fill — Oppenheimer",
+     "color": "#7c3aed",
+     "hold": 2.6
+    }
+   ]
+  }
+ ],
+ "id": "N004"
+}

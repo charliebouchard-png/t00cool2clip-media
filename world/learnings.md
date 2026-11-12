@@ -1,5 +1,11 @@
 # Learnings (newest first) — what top short-form videos do that we copy
 
+## 2026-11-12 (from Charlie: Iman Gadzhi "Give Me 26 minutes, I'll Give You 10,000 hours of Claude Knowledge", 1.9M views)
+- Value-compression title/hook: "Give me X seconds, I'll give you Y years of Z" — promises a huge payoff for tiny time. Use as a hook card/title formula ("Give me 40 seconds, I'll explain 400 years of money").
+- Qualify the viewer in line 1 ("If you hate wasting money, watch this") — makes the right people stay.
+- Clear numbered progression (tip 1→10, beginner→advanced) + callbacks to an earlier promise reward watching to the end.
+- Riding a hot topic (Claude/AI) with a famous comparison (Jarvis/Tony Stark) makes an abstract idea concrete.
+
 ## 2026-11-12
 - OUR STATS (Metricool, TikTok, last 3 weeks): brand/everyday "how X makes money" videos (Ryanair 394 views, car wash 335, Greggs 321, gym 310) beat generic "Did you know 🤔 #fyp" posts (~22–30 views each) by >10x. Specific, keyword-rich captions about something people already know win; #fyp spam does nothing. -> Today: everyday hooks people recognise (Black Friday, Christmas cards/stamps, the drink can), specific captions, no #fyp.
 - LENGTH: 2026 Shorts data says single-idea clips win at 15–20 s and STORIES at 45–58 s; 25–40 s is the weak middle (taletok). 50–60 s gets the best watch-through (~76%, anijam). -> All 3 today are ~57–62 s stories (target "youtube"), not 35–45 s.

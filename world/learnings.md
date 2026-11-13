@@ -1,5 +1,12 @@
 # Learnings (newest first) — what top short-form videos do that we copy
 
+## 2026-11-13 (daily run, TikTok via yt-dlp 05:15 UK)
+- Still the same split: 11 Nov "in my town" stories 91–1,030 views (raindrop 1,030, word tax 321, swipe 302, sleep 254, sun 91 = weakest); 12 Nov world fact videos 8–88 (+Ryanair 246). Nvidia "resigned" news videos 14–45: late/news-recap facts flop.
+- Top story pattern: a tax on something EVERY viewer does constantly and physically (raindrops, words, swipes) + a self-referential line ("this video cost me $212") beats abstract ones (sunlight, gravity). -> Today: STEP tax (everyone walks; comment bait "tell me your steps, I'll tell you what you owe") and CHRISTMAS-before-December tax ("I just said it, -$50"), riding the live "is November too early for Christmas?" debate.
+- All 10 earlier stories end the same way (secret lab, machine, button). Feed may read it as a template -> today's twists avoid the lab: a loophole (take shoes off) and the mayor caught breaking his own rule.
+- Fact video tied to TODAY (Friday 13th, the 3rd of 2026 = the max a year can have) rather than day-old news; posted 20:30 while the date is still live.
+- Web trend lists were generic this week (no single dominant sound/format we can use); vidIQ not used (credits).
+
 ## 2026-11-12 OUR OWN DATA (TikTok, pulled 19:49)
 - "…costs $X in my town" absurd 3D stories (11 Nov): 91–1,029 views, most ~250–320; raindrop tax 1,029.
 - World fact videos: Ryanair 245, Zimbabwe 88, Tulips 8, daily-run can metal 23, Black Friday 27, Nvidia recap 41 (45 min), Nvidia timeline 1 (15 min).

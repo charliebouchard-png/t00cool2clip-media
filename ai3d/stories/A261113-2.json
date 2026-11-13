@@ -1,0 +1,333 @@
+{
+ "id": "A261113-2",
+ "title": "CHRISTMAS TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 213,
+ "key": 9,
+ "bpm": 126,
+ "hot": [
+  "christmas",
+  "december",
+  "lights",
+  "santa",
+  "mayor",
+  "songs",
+  "tree",
+  "january"
+ ],
+ "beats": [
+  {
+   "say": "In my town, saying Christmas before December costs $50.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "talk",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-$50/WORD",
+     "x": 2.8,
+     "y": 6.2
+    }
+   ],
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "I just said it. There goes fifty dollars.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "-$50"
+   },
+   "notif": {
+    "title": "Christmas Office",
+    "text": "You said the C-word in November. -$50."
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "Christmas lights? $10 a bulb. Every night.",
+   "set": "street",
+   "time": "night",
+   "cam": "drone",
+   "label": "LIGHTS: $10/BULB",
+   "hero": {
+    "pose": "count",
+    "face": "sad",
+    "hold": "money"
+   }
+  },
+  {
+   "say": "Playing a Christmas song in a shop? $500 a song.",
+   "set": "store",
+   "cam": "orbit",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 8,
+    "face": "shock"
+   },
+   "props": [
+    {
+     "type": "speaker",
+     "x": -4,
+     "z": -3
+    }
+   ],
+   "big": {
+    "text": "$500/SONG",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "So the whole town went undercover.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "sneak",
+    "face": "smug"
+   },
+   "crowd": {
+    "action": "sneak",
+    "n": 10,
+    "face": "normal"
+   }
+  },
+  {
+   "say": "We called it the big December thing. Santa became the beard guy.",
+   "set": "park",
+   "cam": "orbit",
+   "hero": {
+    "pose": "talk",
+    "face": "smug"
+   },
+   "crowd": {
+    "action": "talk",
+    "n": 8,
+    "face": "happy"
+   },
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "My neighbor hid a tiny tree inside his fridge.",
+   "set": "kitchen",
+   "cam": "push",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "sneak",
+     "face": "shock"
+    }
+   ],
+   "props": [
+    {
+     "type": "glassfridge",
+     "x": 2,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "The shops were furious. Their mince pies had been out since August.",
+   "set": "store",
+   "cam": "low",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 8,
+    "face": "sad"
+   }
+  },
+  {
+   "say": "Then, on November the thirteenth, someone spotted the mayor's house.",
+   "set": "street",
+   "time": "night",
+   "cam": "reveal",
+   "hero": {
+    "pose": "point",
+    "face": "shock"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "Twelve thousand Christmas lights. On every wall.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "drone",
+   "focus": "set",
+   "hero": {
+    "hide": true
+   },
+   "big": {
+    "text": "12,000 LIGHTS",
+    "bg": "#16a34a"
+   },
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "That's $120,000 a night. The whole town came to watch him pay.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "wide",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "jump",
+    "n": 12,
+    "face": "happy"
+   },
+   "big": {
+    "text": "-$120,000",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "He went red. Then he said, fine. Christmas starts now.",
+   "set": "cityhall",
+   "time": "night",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "angry",
+     "z": -6
+    }
+   ],
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "Two seconds later, every house in town lit up.",
+   "set": "street",
+   "time": "night",
+   "cam": "drone",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "snow",
+    "confetti",
+    "flash"
+   ]
+  },
+  {
+   "say": "The songs came back. The beard guy was Santa again.",
+   "set": "store",
+   "cam": "orbit",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "dance",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "Then he added one tiny rule.",
+   "set": "cityhall",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "idle",
+     "face": "smug",
+     "z": -6
+    }
+   ]
+  },
+  {
+   "say": "Taking your decorations down in January costs $1,000.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Take down: $1,000"
+   },
+   "notif": {
+    "title": "City Hall",
+    "text": "Removing decorations: $1,000. Merry Christmas!"
+   },
+   "big": {
+    "text": "$1,000",
+    "bg": "#9b64b8"
+   }
+  },
+  {
+   "say": "So my tree is staying up until next Christmas.",
+   "set": "bedroom",
+   "cam": "high",
+   "hero": {
+    "pose": "hug",
+    "face": "happy"
+   },
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "Be honest. Is the middle of November too early for Christmas?",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

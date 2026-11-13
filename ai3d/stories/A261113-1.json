@@ -1,0 +1,311 @@
+{
+ "id": "A261113-1",
+ "title": "STEP TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 113,
+ "key": 2,
+ "bpm": 124,
+ "hot": [
+  "step",
+  "steps",
+  "hopping",
+  "hop",
+  "shoes",
+  "barefoot",
+  "mayor",
+  "socks"
+ ],
+ "beats": [
+  {
+   "say": "In my town, every step you take costs 5 cents.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "walk",
+    "face": "normal"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "-5¢/step",
+     "x": 2.8,
+     "y": 6.2
+    }
+   ]
+  },
+  {
+   "say": "Walking to work and back is two thousand steps. That's $100 a day.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "-$100/DAY",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "I went for one morning jog. My bank called me.",
+   "set": "park",
+   "cam": "track",
+   "hero": {
+    "pose": "run",
+    "face": "shock",
+    "move": [
+     0,
+     2.5
+    ]
+   },
+   "notif": {
+    "title": "My Bank",
+    "text": "Jog detected: -$240. Are you OK?"
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "Then someone found a loophole. Hopping on one foot only counts as half a step.",
+   "set": "street",
+   "cam": "low",
+   "label": "HOP = ½ STEP",
+   "hero": {
+    "pose": "jump",
+    "face": "happy"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "Within a week, the whole town was hopping.",
+   "set": "street",
+   "cam": "drone",
+   "label": "HOP = ½ STEP",
+   "hero": {
+    "pose": "jump",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "jump",
+    "n": 12,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "My neighbor hopped to work every single day. Now one of his legs is huge.",
+   "set": "street",
+   "cam": "push",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "jump",
+     "face": "smug"
+    }
+   ]
+  },
+  {
+   "say": "The rich guy just paid people to carry him everywhere.",
+   "set": "park",
+   "cam": "side",
+   "focus": "npc:rich",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "rich",
+     "look": "boss",
+     "pose": "sit",
+     "face": "smug",
+     "hold": "money"
+    }
+   ],
+   "crowd": {
+    "action": "carry",
+    "n": 6,
+    "face": "sad"
+   }
+  },
+  {
+   "say": "But then the mayor saw his step money falling.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -3
+    }
+   ],
+   "screen": "STEP MONEY: -87%"
+  },
+  {
+   "say": "New rule. Hopping costs double. And standing still is two dollars a minute.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "big": {
+    "text": "$2/MIN",
+    "bg": "#9b64b8"
+   },
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "You couldn't walk. You couldn't hop. You couldn't even stand.",
+   "set": "street",
+   "cam": "high",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 12
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "Then I noticed something. The step counters were in our shoes. Not our feet.",
+   "set": "rooftop",
+   "cam": "orbit",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "So I took my shoes off.",
+   "set": "street",
+   "cam": "close",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   },
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "say": "Zero steps. Zero dollars. I walked across the whole town for free.",
+   "set": "street",
+   "cam": "track",
+   "label": "BAREFOOT = FREE",
+   "hero": {
+    "pose": "walk",
+    "face": "happy",
+    "move": [
+     0,
+     2.5
+    ]
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "By lunch, nobody in town was wearing shoes.",
+   "set": "park",
+   "cam": "orbit",
+   "label": "BAREFOOT = FREE",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "dance",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "The mayor was so angry he stomped his foot. That cost him five cents.",
+   "set": "cityhall",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -6
+    }
+   ],
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "The next morning, a new rule. Socks cost $10. Per toe.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "Socks: $10/toe"
+   },
+   "notif": {
+    "title": "City Hall",
+    "text": "New rule: socks now cost $10 per toe."
+   },
+   "big": {
+    "text": "$10/TOE",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "How many steps did you do today? Tell me, and I'll tell you what you owe.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

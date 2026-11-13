@@ -1,0 +1,65 @@
+{
+ "midtown": {
+  "q": "Manhattan skyscrapers Midtown",
+  "file": "File:Skyscrapers of Midtown Manhattan in New York City.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyscrapers_of_Midtown_Manhattan_in_New_York_City.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Marc-Lautenbacher",
+  "w": 1920,
+  "h": 1280
+ },
+ "rockefeller": {
+  "q": "Manhattan skyscrapers Midtown",
+  "file": "File:30 Rockefeller Plaza viewed from 5th Avenue, August 29, 2024.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:30_Rockefeller_Plaza_viewed_from_5th_Avenue,_August_29,_2024.jpg",
+  "license": "CC0",
+  "artist": "D. Benjamin Miller",
+  "w": 1920,
+  "h": 1536
+ },
+ "plane": {
+  "q": "Lufthansa Airbus cabin",
+  "file": "File:Lufthansa A380 economy cabin.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lufthansa_A380_economy_cabin.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Pawel Drozd and Elzbieta Czerwinska-Drozd",
+  "w": 1536,
+  "h": 2056
+ },
+ "inscription": {
+  "q": "Roman numerals inscription",
+  "file": "File:Luxembourg Cathédrale Notre-Dame Latin inscription 1613.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Luxembourg_Cath%C3%A9drale_Notre-Dame_Latin_inscription_1613.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Cayambe",
+  "w": 1920,
+  "h": 1153
+ },
+ "colosseum": {
+  "q": "Colosseum Rome",
+  "file": "File:Colosseum of Rome and Roman forum.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Colosseum_of_Rome_and_Roman_forum.jpg",
+  "license": "CC0",
+  "artist": "Wilfredor",
+  "w": 1920,
+  "h": 1136
+ },
+ "madrid": {
+  "q": "Puerta del Sol Madrid",
+  "file": "File:2026-09-03 - Puerta del Sol in Madrid Spain.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2026-09-03_-_Puerta_del_Sol_in_Madrid_Spain.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Matt Joseph",
+  "w": 1920,
+  "h": 1440
+ },
+ "athens": {
+  "q": "Athens Plaka",
+  "file": "File:The Acropolis of Athens from Plaka on March 23, 2020.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Acropolis_of_Athens_from_Plaka_on_March_23,_2020.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "George E. Koronaios",
+  "w": 1920,
+  "h": 1280
+ }
+}

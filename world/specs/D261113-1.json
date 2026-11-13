@@ -1,0 +1,161 @@
+{
+ "id": "D261113-1",
+ "title": "Friday the 13th isn't unlucky everywhere",
+ "target": "youtube",
+ "cast": "zara",
+ "hook": "3rd FRIDAY 13th\nTHIS YEAR?! 😱",
+ "style": {
+  "captionMode": "chunk",
+  "captionFont": "Oswald",
+  "captionY": 1250,
+  "grade": "cool",
+  "transition": "whip",
+  "progress": true,
+  "camera": "glide"
+ },
+ "scenes": [
+  {
+   "say": "Friday the thirteenth! And it's the THIRD one this year. That's the most a year can ever get! But for you, it depends where you live. In some countries today is normal, and one thinks thirteen is LUCKY!",
+   "place": "New York, USA",
+   "flag": "🇺🇸",
+   "bg": "bg/friday13/midtown.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "count",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.3,
+     "big": "3",
+     "small": "Friday 13ths in 2026: Feb, Mar, Nov",
+     "color": "#7c3aed"
+    }
+   ],
+   "hot": [
+    "THIRD",
+    "LUCKY!"
+   ]
+  },
+  {
+   "say": "So first, towers. Loads of buildings jump from floor twelve straight to fourteen. Lift maker Otis once guessed eighty five percent of its button panels skip thirteen! So you might be on floor thirteen right now.",
+   "place": "Fifth Avenue, New York",
+   "flag": "🛗",
+   "bg": "bg/friday13/rockefeller.jpg",
+   "shot": "medium",
+   "fy": 0.35,
+   "gestures": [
+    "pointL",
+    "explain",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "85%",
+     "small": "of Otis lift panels skip 13",
+     "color": "#e11d48"
+    }
+   ],
+   "badge": "#1"
+  },
+  {
+   "say": "But planes do it too! Lufthansa has no row thirteen. AND no row seventeen. Wait, why seventeen?!",
+   "place": "Lufthansa A380 cabin",
+   "flag": "✈️",
+   "bg": "bg/friday13/plane.jpg",
+   "shot": "medium",
+   "gestures": [
+    "point",
+    "count",
+    "think"
+   ],
+   "badge": "#2",
+   "emoji": "🤔",
+   "emojiAt": 0.7
+  },
+  {
+   "say": "Because in Italy, seventeen is the scary one. In Roman numbers it's X V I I. So shuffle it and you get VIXI, Latin for 'I have lived'. As in, game over!",
+   "place": "A Latin inscription",
+   "flag": "🏛️",
+   "bg": "bg/friday13/inscription.jpg",
+   "shot": "wide",
+   "gestures": [
+    "explain",
+    "count",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "XVII → VIXI",
+     "small": "'I have lived'",
+     "color": "#ea580c"
+    }
+   ],
+   "badge": "#3",
+   "hot": [
+    "VIXI,"
+   ]
+  },
+  {
+   "say": "So Italians fear Friday the seventeenth. But thirteen? It's LUCKY! From an old football betting game, 'fare tredici', doing thirteen, means hitting the jackpot!",
+   "place": "Rome, Italy",
+   "flag": "🇮🇹",
+   "bg": "bg/friday13/colosseum.jpg",
+   "shot": "wide",
+   "from": 1,
+   "gestures": [
+    "wow",
+    "open",
+    "explain"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "13 = 🍀",
+     "small": "lucky in Italy",
+     "color": "#16a34a"
+    }
+   ],
+   "emoji": "🍀",
+   "emojiAt": 0.35
+  },
+  {
+   "say": "And in Spain and Greece, the unlucky day is TUESDAY the thirteenth! So, would YOU get on a plane today?",
+   "place": "Madrid, Spain",
+   "flag": "🇪🇸",
+   "bg": "bg/friday13/madrid.jpg",
+   "shot": "medium",
+   "gestures": [
+    "pointL",
+    "think",
+    "open"
+   ],
+   "poll": {
+    "q": "Fly on Friday 13th?",
+    "a": "YES ✈️",
+    "b": "NO WAY 😱",
+    "at": 0.55
+   },
+   "badge": "#4"
+  },
+  {
+   "say": "But here's the twist. Statistically, you're no more likely to have an accident today than any other day. Which is lucky, because today is",
+   "place": "Athens, Greece",
+   "flag": "🇬🇷",
+   "bg": "bg/friday13/athens.jpg",
+   "shot": "close",
+   "gestures": [
+    "explain",
+    "shrug",
+    "wow"
+   ],
+   "hot": [
+    "twist."
+   ]
+  }
+ ]
+}

@@ -6,6 +6,57 @@ R = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); FONTS = os.path
 words = json.load(open(f"{W}/words.json"))
 YT = ["python3", os.path.expanduser("~/ytd/yt-dlp"), "-q", "--no-warnings", "--js-runtimes", "node", "--remote-components", "ejs:github", "--extractor-args", "youtube:player_client=mweb,web_embedded"]
 def ts(t): h = int(t // 3600); m = int(t % 3600 // 60); s = t % 60; return f"{h}:{m:02d}:{s:05.2f}"
+
+# --- face-tracked 9:16 crop (falls back to blurred-background layout when no faces) ---
+def face_track(path, dur):
+    try:
+        import cv2
+    except Exception:
+        print('opencv missing: pip install --break-system-packages opencv-python-headless'); return None
+    xml = os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "haarcascade_frontalface_default.xml")
+    casc = cv2.CascadeClassifier(xml)
+    if casc.empty():
+        return None
+    cap = cv2.VideoCapture(path); fps = cap.get(cv2.CAP_PROP_FPS) or 30
+    W0 = cap.get(cv2.CAP_PROP_FRAME_WIDTH); H0 = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+    if not W0 or W0 / max(H0, 1) < 1.2:
+        return None  # already vertical-ish
+    pts = []; t = 1.0
+    while t < dur + 1.0:
+        cap.set(cv2.CAP_PROP_POS_MSEC, t * 1000); ok, fr = cap.read()
+        if not ok: break
+        g = cv2.cvtColor(cv2.resize(fr, (int(W0 * 360 / H0), 360)), cv2.COLOR_BGR2GRAY)
+        f = casc.detectMultiScale(g, 1.15, 6, minSize=(28, 28))
+        if len(f):
+            x, y, w, h = max(f, key=lambda r: r[2] * r[3]); pts.append((t - 1.0, (x + w / 2) / g.shape[1]))
+        else:
+            pts.append((t - 1.0, None))
+        t += 0.5
+    cap.release()
+    hits = [p for p in pts if p[1] is not None]
+    if len(hits) < max(3, 0.35 * len(pts)):
+        return None
+    # fill gaps with last seen, then median-smooth and merge into steady segments
+    last = hits[0][1]; xs = []
+    for tt, v in pts:
+        last = v if v is not None else last; xs.append((tt, last))
+    sm = []
+    for k in range(len(xs)):
+        win = sorted(v for _, v in xs[max(0, k - 2):k + 3]); sm.append((xs[k][0], win[len(win) // 2]))
+    segs = [[sm[0][0], sm[0][1]]]
+    for tt, v in sm[1:]:
+        if abs(v - segs[-1][1]) > 0.12: segs.append([tt, v])
+    segs = segs[:14]
+    return segs, W0 / H0
+
+def crop_expr(segs, ar):
+    # source scaled to 1920 tall -> width = 1920*ar; crop 1080 wide centred on face x (clamped)
+    SW = 1920 * ar
+    def cx(v): return max(0, min(SW - 1080, v * SW - 540))
+    e = f"{cx(segs[-1][1]):.0f}"
+    for k in range(len(segs) - 2, -1, -1):
+        e = f"if(lt(t,{segs[k + 1][0]:.2f}),{cx(segs[k][1]):.0f},{e})"
+    return e
 import re as _re
 _BAD = _re.compile(r"\b(f+u+c+k\w*|s+h+i+t\w*|b+i+t+c+h\w*|c+u+n+t\w*|motherf\w*|d+i+c+k\w*)", _re.I)
 def censor(t): return _BAD.sub(lambda m: m.group(0)[0] + '*' * (len(m.group(0)) - 1), t)
@@ -47,9 +98,16 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n"
     open(f"{W}/sub_{i}.ass", "w").write(ass)
     out = f"{W}/final_{i}.mp4"
-    vf = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:3,eq=brightness=-0.18[bg];"
-          f"[b]scale=1080:-2,zoompan=z='min(1+0.0006*on,1.08)':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x608:fps=30[fg];"
-          f"[bg][fg]overlay=0:(H-h)/2-40,subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")
+    ft = face_track(raw, dur)
+    if ft:
+        segs, ar = ft
+        vf = (f"[0:v]scale=-2:1920,crop=1080:1920:'{crop_expr(segs, ar)}':0,"
+              f"subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")
+        print(f"clip {i}: face-tracked crop, {len(segs)} segment(s)")
+    else:
+      vf = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:3,eq=brightness=-0.18[bg];"
+            f"[b]scale=1080:-2,zoompan=z='min(1+0.0006*on,1.08)':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x608:fps=30[fg];"
+            f"[bg][fg]overlay=0:(H-h)/2-40,subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1.0", "-i", raw, "-t", f"{dur:.2f}", "-filter_complex", vf, "-map", "[v]", "-map", "0:a",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-af", "loudnorm=I=-14:TP=-1.5", "-movflags", "+faststart", out], check=True)
     print(out, round(dur, 1), "s")

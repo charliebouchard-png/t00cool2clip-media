@@ -12,9 +12,14 @@ Charlie's split (12 Nov 2026): YouTube Shorts = clips; TikTok = the AI videos. E
 - `bash shorts/fetch.sh <name> <video_id> "<download_url>"` (name = `y<YYMMDD>`). ~5–10 min. Gives /tmp/shorts/<name>/transcript.txt and words.json.
 ## 3. Choose the 5 best moments (read the whole transcript)
 - 25–55 s each, non-overlapping, each understandable with no context, starting on a strong line (a claim, a question, a reaction) and ending right after the payoff/laugh. Funniest/most surprising first.
+- Clip START: the first spoken word must land in the first 0.5 s — never open on silence, laughter or a host's setup line. Cut straight into the most surprising sentence, then let the context follow.
+- Clip END: stop on the laugh/payoff; if possible end on a line that makes the start make sense again (loop).
+- Hook = an open question or a bold claim that makes them NEED the answer ("SHE SAID WHAT\\NAT THE OSCARS?"), not a label ("HUNGER GAMES STAR'S\\NSURVIVAL PLAN").
 - Hook (top text, 2 lines, ≤8 words, CAPS, use \\N for the line break, NO emoji — they render as blanks), title (≤70 chars + " #shorts", emoji ok), 1-line description.
 - Write shorts/plans/<name>.json: {"name","video_id","source_title","channel","clips":[{"start","end","hook","title","description"}]} (start/end in seconds of the source).
 ## 4. Make, check, store
+- Needs OpenCV for the face-tracked crop: `python3 -c 'import cv2' || pip install --break-system-packages opencv-python-headless`.
+- make.py now crops FULL-SCREEN 9:16 on the speaker's face (follows the face as it moves / as the shot changes). If it can't find faces it falls back to the old small-video-on-blur layout — that layout performs worse, so prefer source videos where faces fill the shot (podcasts, streamers, face-cam).
 - `python3 shorts/make.py shorts/plans/<name>.json` (≈3–4 min per clip) -> /tmp/shorts/<name>/final_<n>.mp4 (9:16, blurred background, captions with active word, swear words masked, hook title, channel credit).
 - Check each: duration, and look at 2 frames (hook readable, captions not covering faces).
 - `bash shorts/push_out.sh <name>`; commit the plan to main (attribution lines from your system prompt).

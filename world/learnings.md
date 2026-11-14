@@ -1,5 +1,14 @@
 # Learnings (newest first) — what top short-form videos do that we copy
 
+## 2026-11-14 (daily run, TikTok via yt-dlp 05:15 UK)
+- Friday-13th fact video (posted 21:29 on the day itself) got 238 views in ~8 h = our best world fact video since Ryanair. Same-day date hooks work; day-old news (Nvidia 1–48) doesn't. -> Today's fact video is about something happening TODAY in London (Lord Mayor's Show, 14 Nov: 1215 King John deal, 1757 £2m coach, 6,500 people, river boats back for the 1st time since 2017) and goes out while it's still "today".
+- PROBLEM: yesterday's 2 stories (A261113-1 step tax, A261113-2 Christmas tax) rendered fine but do NOT appear on @t00cool2clip — the 12:00/18:00 sends seem to have failed (Pipedream/Buffer fix commits landed later that night). Check the HTTP code AND that the post actually shows on the profile after each send.
+- A separate task posted 10 "como se dice" meme clips 01:34–02:01 today (0–181 views; one hit 181, most <35). Bursts of many posts in 30 min again split reach — keep our 3 spaced.
+- Stories keep the winning "physical thing everyone does" rule: today LOOKING at prices (tied to Black Friday in 2 weeks) and YAWNING (contagious = built-in viewer participation: "did you yawn? pay up"). Twists avoid the lab/machine template: look-away loophole + mayor's salary hits $0; boring mayor gets rich from yawns until my sock-drawer speech out-bores him.
+- Fact style rotated vs yesterday (zara/chunk/Oswald/cool/whip) -> ollie/box/Fredoka/warm/zoom. Medium shots hide the backdrop (the coach was invisible in a still) — use "wide" when the place IS the point.
+- bg-fetch fails if a query contains an apostrophe (breaks '${{ inputs.queries }}' quoting) — write "Lord Mayors Show".
+- Web trend lists still generic (no usable sound/format); vidIQ not used (credits).
+
 ## 2026-11-13 (daily run, TikTok via yt-dlp 05:15 UK)
 - Still the same split: 11 Nov "in my town" stories 91–1,030 views (raindrop 1,030, word tax 321, swipe 302, sleep 254, sun 91 = weakest); 12 Nov world fact videos 8–88 (+Ryanair 246). Nvidia "resigned" news videos 14–45: late/news-recap facts flop.
 - Top story pattern: a tax on something EVERY viewer does constantly and physically (raindrops, words, swipes) + a self-referential line ("this video cost me $212") beats abstract ones (sunlight, gravity). -> Today: STEP tax (everyone walks; comment bait "tell me your steps, I'll tell you what you owe") and CHRISTMAS-before-December tax ("I just said it, -$50"), riding the live "is November too early for Christmas?" debate.

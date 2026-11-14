@@ -1,0 +1,175 @@
+{
+ "id": "D261114-1",
+ "title": "London's parade for a mayor who isn't the Mayor of London",
+ "target": "youtube",
+ "cast": "ollie",
+ "hook": "3-MILE PARADE\nFOR THE WRONG MAYOR?! 🤔",
+ "style": {
+  "captionMode": "box",
+  "captionFont": "Fredoka",
+  "captionY": 1300,
+  "boxColor": "#fef08a",
+  "boxText": "#111",
+  "grade": "warm",
+  "transition": "zoom",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "London has a THREE mile parade today. But not for the Mayor of London! It's for the OTHER mayor. So here's three facts you didn't know, and the last one is happening right now.",
+   "place": "City of London",
+   "flag": "🇬🇧",
+   "bg": "bg/lordmayor/skyline.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "pointL",
+    "count"
+   ],
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "3 MILES",
+     "small": "of parade, today",
+     "color": "#2563eb"
+    }
+   ],
+   "hot": [
+    "THREE",
+    "OTHER"
+   ]
+  },
+  {
+   "say": "He's the Lord Mayor of the City, the tiny old money part of London. So in twelve fifteen, King John made a deal. The City could pick its own mayor every year. But each new one had to swear loyalty to the King.",
+   "place": "Guildhall, London",
+   "flag": "👑",
+   "bg": "bg/lordmayor/guildhall.jpg",
+   "shot": "wide",
+   "gestures": [
+    "explain",
+    "count",
+    "point"
+   ],
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "1215",
+     "small": "King John's deal",
+     "color": "#7c3aed"
+    }
+   ],
+   "badge": "#1",
+   "from": -1
+  },
+  {
+   "say": "Eight hundred years later, he STILL does it, right here at the Royal Courts of Justice. And today is also the King's real birthday!",
+   "place": "Royal Courts of Justice",
+   "flag": "⚖️",
+   "bg": "bg/lordmayor/courts.jpg",
+   "shot": "wide",
+   "from": 1,
+   "gestures": [
+    "pointL",
+    "wow",
+    "open"
+   ],
+   "emoji": "🎂",
+   "emojiAt": 0.75,
+   "hot": [
+    "STILL"
+   ]
+  },
+  {
+   "say": "Fact two. He gets there in a golden coach from seventeen fifty seven. It cost one thousand and sixty five pounds. Now? About TWO MILLION! Six horses pull it. Two fewer than the King's.",
+   "place": "The Lord Mayor's State Coach",
+   "flag": "🐎",
+   "bg": "bg/lordmayor/coach.jpg",
+   "shot": "wide",
+   "gestures": [
+    "point",
+    "count",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "£2m",
+     "small": "the coach today (£1,065 in 1757)",
+     "color": "#ea580c"
+    }
+   ],
+   "badge": "#2",
+   "hot": [
+    "TWO",
+    "MILLION!"
+   ],
+   "from": 1
+  },
+  {
+   "say": "But the parade behind him is massive. Six thousand five hundred people, two hundred and fifty horses, over fifty floats. It takes an hour and a quarter just to walk past you!",
+   "place": "Lord Mayor's Show",
+   "flag": "🎺",
+   "bg": "bg/lordmayor/parade.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wow",
+    "explain",
+    "count"
+   ],
+   "cards": [
+    {
+     "at": 0.35,
+     "big": "6,500",
+     "small": "people in the parade",
+     "color": "#16a34a"
+    }
+   ],
+   "emoji": "😳",
+   "emojiAt": 0.85
+  },
+  {
+   "say": "Fact three. It all started on the River Thames, by boat. But this year, the boats are BACK, for the first time since twenty seventeen!",
+   "place": "River Thames",
+   "flag": "🚣",
+   "bg": "bg/lordmayor/thames.jpg",
+   "shot": "medium",
+   "gestures": [
+    "pointL",
+    "wow",
+    "open"
+   ],
+   "badge": "#3",
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "BOATS BACK",
+     "small": "first time since 2017",
+     "color": "#e11d48"
+    }
+   ],
+   "hot": [
+    "BACK,"
+   ]
+  },
+  {
+   "say": "So, would YOU swear loyalty to a king for a golden coach? Because every November, that's exactly why",
+   "place": "Mansion House, London",
+   "flag": "🏛️",
+   "bg": "bg/lordmayor/mansion.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "shrug",
+    "point"
+   ],
+   "poll": {
+    "q": "Loyalty for a gold coach?",
+    "a": "DEAL 🐎",
+    "b": "NO WAY 👑",
+    "at": 0.35
+   }
+  }
+ ]
+}

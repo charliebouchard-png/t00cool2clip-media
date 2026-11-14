@@ -1,0 +1,65 @@
+{
+ "skyline": {
+  "q": "City of London skyline",
+  "file": "File:City of London skyline from London City Hall - Sept 2015 - Crop Aligned.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:City_of_London_skyline_from_London_City_Hall_-_Sept_2015_-_Crop_Aligned.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "User:Colin and Kim Hansen",
+  "w": 1920,
+  "h": 1062
+ },
+ "guildhall": {
+  "q": "Guildhall London",
+  "file": "File:Guildhall, Londres, Inglaterra, 2014-08-11, DD 139.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Guildhall,_Londres,_Inglaterra,_2014-08-11,_DD_139.JPG",
+  "license": "CC BY-SA 4.0",
+  "artist": "Diego Delso",
+  "w": 1920,
+  "h": 1390
+ },
+ "courts": {
+  "q": "Royal Courts of Justice Strand",
+  "file": "File:Royal Courts of Justice - geograph.org.uk - 5175755.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Royal_Courts_of_Justice_-_geograph.org.uk_-_5175755.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Alan Hughes ",
+  "w": 1920,
+  "h": 1440
+ },
+ "coach": {
+  "q": "Lord Mayor State Coach London",
+  "file": "File:Museum of London - Lord Mayor's State Coach.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Museum_of_London_-_Lord_Mayor%27s_State_Coach.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Photograph by Mike Peel (www.mikepeel.net).",
+  "w": 1920,
+  "h": 1280
+ },
+ "parade": {
+  "q": "Lord Mayors Show London procession",
+  "file": "File:Coachman in red cape London Nov 2011.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Coachman_in_red_cape_London_Nov_2011.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Rodolph (talk) (Uploads)",
+  "w": 1920,
+  "h": 2877
+ },
+ "thames": {
+  "q": "Lord Mayors Show London procession",
+  "file": "File:British School, 17th century - The Lord Mayor's Water-Procession on the Thames - RCIN 402608 - Royal Collection.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:British_School,_17th_century_-_The_Lord_Mayor%27s_Water-Procession_on_the_Thames_-_RCIN_402608_-_Royal_Collection.jpg",
+  "license": "Public domain",
+  "artist": "\nanonymous ",
+  "w": 1920,
+  "h": 1098
+ },
+ "mansion": {
+  "q": "Mansion House London",
+  "file": "File:Mansion House, City of London (40478193673).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mansion_House,_City_of_London_(40478193673).jpg",
+  "license": "CC BY 2.0",
+  "artist": "Michael Gwyther-Jones from London, UK",
+  "w": 1920,
+  "h": 1481
+ }
+}

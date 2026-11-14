@@ -8,6 +8,7 @@
 - Fact style rotated vs yesterday (zara/chunk/Oswald/cool/whip) -> ollie/box/Fredoka/warm/zoom. Medium shots hide the backdrop (the coach was invisible in a still) — use "wide" when the place IS the point.
 - bg-fetch fails if a query contains an apostrophe (breaks '${{ inputs.queries }}' quoting) — write "Lord Mayors Show".
 - Web trend lists still generic (no usable sound/format); vidIQ not used (credits).
+- 20:35 check: all 3 posted fine (HTTP 200, visible on profile). But the stories are far below 11 Nov: look tax 12 views after 8.5 h, yawn tax 13 after 2.5 h (vs 250–1,030 on 11 Nov). Possible causes: 13 posts in 24 h on the account (10 'como se dice' clips at 01:30) diluting reach, or the format wearing off. Look at this in the 16 Nov weekly review before making more of the same.
 
 ## 2026-11-13 (daily run, TikTok via yt-dlp 05:15 UK)
 - Still the same split: 11 Nov "in my town" stories 91–1,030 views (raindrop 1,030, word tax 321, swipe 302, sleep 254, sun 91 = weakest); 12 Nov world fact videos 8–88 (+Ryanair 246). Nvidia "resigned" news videos 14–45: late/news-recap facts flop.

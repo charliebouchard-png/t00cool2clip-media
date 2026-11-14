@@ -1,0 +1,322 @@
+{
+ "id": "A261114-1",
+ "title": "LOOK TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1141,
+ "key": 7,
+ "bpm": 118,
+ "hot": [
+  "look",
+  "looked",
+  "price",
+  "eyes",
+  "closed",
+  "away",
+  "starers",
+  "mayor"
+ ],
+ "beats": [
+  {
+   "say": "In my town, every time you look at a price, it goes up a dollar.",
+   "set": "store",
+   "cam": "push",
+   "hero": {
+    "pose": "point",
+    "face": "normal"
+   },
+   "label": "LOOK TAX",
+   "props": [
+    {
+     "type": "tag",
+     "text": "+$1 PER LOOK",
+     "x": 2.8,
+     "y": 6.2
+    }
+   ]
+  },
+  {
+   "say": "I looked at a sandwich for ten seconds. It cost me forty dollars.",
+   "set": "store",
+   "cam": "face",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "$40 SANDWICH",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "So everyone started shopping with their eyes closed.",
+   "set": "store",
+   "cam": "wide",
+   "label": "EYES CLOSED",
+   "hero": {
+    "pose": "sneak",
+    "face": "sleep"
+   },
+   "crowd": {
+    "action": "sneak",
+    "n": 8,
+    "face": "sleep"
+   }
+  },
+  {
+   "say": "My neighbor went in for milk. He came out with a fridge.",
+   "set": "street",
+   "cam": "side",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "pose": "carry",
+     "face": "happy",
+     "look": "neighbor"
+    }
+   ],
+   "props": [
+    {
+     "type": "fridge",
+     "x": 1.2
+    }
+   ],
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "My grandma bought forty seven lamps. She doesn't even like light.",
+   "set": "kitchen",
+   "cam": "low",
+   "focus": "npc:gran",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "gran",
+     "pose": "cheer",
+     "face": "happy",
+     "look": "grandma"
+    }
+   ],
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "Then the shops fought back. They hired professional starers.",
+   "set": "store",
+   "cam": "orbit",
+   "label": "PRO STARERS",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 8,
+    "face": "shock"
+   }
+  },
+  {
+   "say": "People who stare at prices all day. Bread hit a thousand dollars by lunch.",
+   "set": "store",
+   "cam": "close",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "big": {
+    "text": "$1,000 BREAD",
+    "bg": "#9b64b8"
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "Then the mayor added one more rule. Looking at your bank app counts too.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "I checked my balance once. Then twice. Then I panicked and checked it again.",
+   "set": "bedroom",
+   "cam": "face",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "-$1 -$1 -$1"
+   },
+   "notif": {
+    "title": "My Bank",
+    "text": "You looked again. -$1"
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "Nobody in town looked at anything anymore.",
+   "set": "street",
+   "cam": "high",
+   "hero": {
+    "pose": "panic",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 12,
+    "face": "shock"
+   }
+  },
+  {
+   "say": "Then I had a thought. Prices go up when you look. But what if you look away?",
+   "set": "rooftop",
+   "cam": "orbit",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "I didn't look at my car for one whole week.",
+   "set": "street",
+   "cam": "track",
+   "hero": {
+    "pose": "walk",
+    "face": "smug",
+    "move": [
+     0,
+     2.5
+    ]
+   },
+   "props": [
+    {
+     "type": "car",
+     "x": 2.5
+    },
+    {
+     "type": "tag",
+     "text": "DON'T LOOK",
+     "x": 2.8,
+     "y": 6.2
+    }
+   ]
+  },
+  {
+   "say": "Its price dropped to one dollar.",
+   "set": "street",
+   "cam": "close",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "big": {
+    "text": "$1 CAR",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "coins",
+    "flash"
+   ]
+  },
+  {
+   "say": "Now the whole town stares at the sky. And the shops are basically free.",
+   "set": "park",
+   "cam": "drone",
+   "label": "LOOK AWAY = CHEAP",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "dance",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "The mayor tried it too. He looked away from his salary.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "think",
+     "face": "smug",
+     "z": -3
+    }
+   ],
+   "screen": "MAYOR SALARY: $0"
+  },
+  {
+   "say": "It went to zero.",
+   "set": "office",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -3
+    }
+   ],
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "Black Friday is in two weeks. What would you buy with your eyes closed?",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

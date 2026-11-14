@@ -1,0 +1,303 @@
+{
+ "id": "A261114-2",
+ "title": "YAWN TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1142,
+ "key": 4,
+ "bpm": 112,
+ "hot": [
+  "yawn",
+  "yawned",
+  "yawns",
+  "contagious",
+  "boring",
+  "speech",
+  "mayor",
+  "rich"
+ ],
+ "beats": [
+  {
+   "say": "In my town, every yawn costs five dollars. And yawns are contagious.",
+   "set": "street",
+   "cam": "push",
+   "label": "YAWN TAX",
+   "hero": {
+    "pose": "idle",
+    "face": "shock"
+   },
+   "props": [
+    {
+     "type": "tag",
+     "text": "$5 / YAWN",
+     "x": 2.8,
+     "y": 6.2
+    }
+   ],
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "One guy yawned on the bus. Twelve people yawned back.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "sad",
+    "face": "sleep"
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 12,
+    "face": "sleep"
+   },
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "That bus paid sixty dollars in four seconds.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "-$60",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "Then someone read the small print. The money goes to whoever MADE you yawn.",
+   "set": "office",
+   "cam": "push",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "screen": "YOU YAWN → $5 TO WHOEVER STARTED IT",
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "So people started yawning on purpose. Huge, loud, fake yawns.",
+   "set": "park",
+   "cam": "close",
+   "label": "FAKE YAWNS",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "talk",
+    "n": 8,
+    "face": "shock"
+   }
+  },
+  {
+   "say": "My neighbor yawned once at a football match. He made eight hundred dollars.",
+   "set": "park",
+   "cam": "side",
+   "focus": "npc:neighbor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "neighbor",
+     "pose": "cheer",
+     "face": "smug",
+     "hold": "money",
+     "look": "neighbor"
+    }
+   ],
+   "big": {
+    "text": "+$800",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "Coffee was the only defence. A cup went up to fifty dollars.",
+   "set": "kitchen",
+   "cam": "low",
+   "hero": {
+    "pose": "talk",
+    "face": "sad",
+    "hold": "mug"
+   },
+   "big": {
+    "text": "$50 COFFEE",
+    "bg": "#9b64b8"
+   }
+  },
+  {
+   "say": "So the mayor banned boring things. Maths class. Queues. Waiting rooms.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "label": "BORING = BANNED",
+   "props": [
+    {
+     "type": "speaker",
+     "x": -6,
+     "z": -4
+    }
+   ]
+  },
+  {
+   "say": "Except for one thing. The mayor's own weekly speech.",
+   "set": "cityhall",
+   "cam": "wide",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "talk",
+     "face": "normal",
+     "z": -6
+    }
+   ],
+   "crowd": {
+    "action": "sit",
+    "n": 10,
+    "face": "sleep"
+   },
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "It was so boring, the whole town yawned at once.",
+   "set": "cityhall",
+   "cam": "high",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "talk",
+     "face": "smug",
+     "z": -6
+    }
+   ],
+   "crowd": {
+    "action": "sit",
+    "n": 12,
+    "face": "shock"
+   },
+   "fx": [
+    "zzz",
+    "shake"
+   ]
+  },
+  {
+   "say": "Ten thousand yawns. Fifty thousand dollars. All to the mayor.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "count",
+     "face": "smug",
+     "z": -3,
+     "hold": "money"
+    }
+   ],
+   "big": {
+    "text": "+$50,000",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "So I signed up to give a speech too. About my sock drawer. For two hours.",
+   "set": "rooftop",
+   "cam": "orbit",
+   "hero": {
+    "pose": "talk",
+    "face": "smug"
+   },
+   "label": "SOCK DRAWER SPEECH",
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "The mayor came to watch. Ten minutes in, he yawned first.",
+   "set": "cityhall",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "sad",
+     "face": "shock",
+     "z": -6
+    }
+   ],
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "say": "Then the whole town yawned back at me. I'm rich now.",
+   "set": "park",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy",
+    "hold": "money"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "sleep"
+   },
+   "fx": [
+    "confetti",
+    "cash"
+   ]
+  },
+  {
+   "say": "So be honest. Did you yawn reading this? That's five dollars. Pay up.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

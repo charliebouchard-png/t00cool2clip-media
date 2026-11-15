@@ -47,7 +47,7 @@ def build(day):
                          "branch": br, "path": f"out/{name}/final_{n}.mp4",
                          "preview": f"{CDN}{br}/previews/{name}/{n}.mp4", "thumb": f"{CDN}{br}/previews/{name}/{n}.jpg",
                          "title": c["title"][:100], "hook": c.get("hook", "").replace("\\N", " "),
-                         "yt_description": (c.get("description", "") + "\n\n" + credit + "\n\n" + " ".join(tags)).strip(),
+                         "yt_description": (("" if c.get("description", "").startswith("From ") else c.get("description", "") + "\n\n") + credit + "\n\n" + " ".join(tags)).strip(),
                          "tiktok_caption": c.get("tiktok_caption") or (c["title"].replace("#shorts", "").strip() + " " + " ".join(t for t in tags if t != "#shorts")),
                          "score": float(c.get("score", 5))})
         rows.sort(key=lambda r: -r["score"]); per_src.append(rows)
@@ -81,11 +81,15 @@ def build(day):
     if ai_rows:
         total = len(order) + len(ai_rows)
         for j, a in enumerate(ai_rows): order.insert(min(len(order), round((j + 1) * total / (len(ai_rows) + 1)) - 1), a)
-    # platforms: everything to Shorts; TikTok = all AI + best clips until TIKTOK_MAX
+    # platforms: everything to Shorts; TikTok = every AI video + clips spread evenly through the day (best of each stretch),
+    # so TikTok gets ~1 post every 30–40 min instead of a burst, and never more than TIKTOK_MAX
     tk = {r["id"] for r in ai_rows}
-    for r in sorted((r for r in order if r["kind"] == "clip"), key=lambda r: -r["score"]):
-        if len(tk) >= TIKTOK_MAX: break
-        tk.add(r["id"])
+    k = max(0, TIKTOK_MAX - len(tk)); clips = [i for i, r in enumerate(order) if r["kind"] == "clip"]
+    if k and clips:
+        span = len(clips) / k
+        for j in range(k):
+            win = [order[i] for i in clips[int(j * span):max(int((j + 1) * span), int(j * span) + 1)] if order[i]["id"] not in tk]
+            if win: tk.add(max(win, key=lambda r: r["score"])["id"])
     for r in order: r["platforms"] = ["youtube"] + (["tiktok"] if r["id"] in tk else [])
     q = {"day": day, "gap_min": GAP_MIN, "items": order}
     json.dump(q, open(os.path.join(d, "queue.json"), "w"), indent=1)
@@ -96,11 +100,12 @@ def batches(day):
     ok = [r for r in q["items"] if r.get("qc", {}).get("pass", True)]
     h = os.path.join(d, "hud"); os.makedirs(h, exist_ok=True)
     for f in glob.glob(f"{h}/batch_*.json"): os.remove(f)
+    thumbs = json.load(open(f"{h}/thumbs.json")) if os.path.exists(f"{h}/thumbs.json") else {}  # {item id: HUD asset url}
     for k in range(0, len(ok), BATCH):
         part = ok[k:k + BATCH]; b = k // BATCH + 1
         json.dump({"day": day, "n": b, "status": "pending", "createdAt": day + "T00:00:00Z",
                    "items": [{"id": r["id"], "kind": r["kind"], "title": r["title"], "hook": r.get("hook", ""), "source": r["source"],
-                              "platforms": r["platforms"], "preview": r["preview"], "thumb": r["thumb"], "score": r["score"],
+                              "platforms": r["platforms"], "preview": r["preview"], "thumb": r["thumb"], "thumbAsset": thumbs.get(r["id"], ""), "score": r["score"],
                               "dur": r.get("qc", {}).get("dur"), "warn": r.get("qc", {}).get("warn", []), "skip": False, "state": "waiting"}
                              for r in part]}, open(f"{h}/batch_{b}.json", "w"), indent=1)
     failed = [r["id"] for r in q["items"] if not r.get("qc", {}).get("pass", True)]

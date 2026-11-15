@@ -6,7 +6,7 @@
 set -e; DAY=$1; ID=$2; [ -n "$PIPEDREAM_URL" ] || { echo "PIPEDREAM_URL not set"; exit 1; }
 R=$(cd "$(dirname "$0")/.." && pwd); D=$R/clipdesk/days/$DAY; M=/tmp/clipdesk/$DAY/media; mkdir -p $M
 [ -f $D/posted.json ] || echo '[]' > $D/posted.json
-python3 -c "import json,sys; sys.exit(1 if any(x['id']=='$ID' for x in json.load(open('$D/posted.json'))) else 0)" || { echo "$ID already posted, skipping"; exit 0; }
+python3 -c "import json,sys; sys.exit(1 if any(x['id']=='$ID' and x.get('http')==200 for x in json.load(open('$D/posted.json'))) else 0)" || { echo "$ID already posted, skipping"; exit 0; }
 read BR P <<<"$(python3 -c "import json;x=[i for i in json.load(open('$D/queue.json'))['items'] if i['id']=='$ID'][0];print(x['branch'],x['path'])")"
 if [ ! -s $M/$ID.mp4 ]; then git -C $R fetch -q origin $BR; git -C $R show FETCH_HEAD:$P > $M/$ID.mp4; fi
 Q=$(python3 -c "

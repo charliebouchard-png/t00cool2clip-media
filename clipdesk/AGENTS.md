@@ -103,7 +103,7 @@ yellow, hook title, swear words masked, loudness -14 LUFS, channel credit. Check
 4. `python3 clipdesk/queue.py batches <DAY>` → clipdesk/days/<DAY>/hud/batch_<n>.json (10 per batch) + stats.json.
 5. Thumbnails into the HUD: upload every item's preview jpg (from the cd-* branches / cd-ai-<Y>: previews/.../<n>.jpg; `git show`
    them to /tmp/clipdesk/<DAY>/thumbs/) with the Artifact tool: action publish, url = HUD, asset: true, file_paths (≤25 per call).
-   Put each returned url in that item's `thumbAsset` in the batch json.
+   Save {item id: returned url} to clipdesk/days/<DAY>/hud/thumbs.json, then re-run `queue.py batches <DAY>` (it fills thumbAsset).
 6. Write each batch to the HUD: `ArtifactData set` collection `batches`, doc_id `<DAY>-b<n>`, file_path = the batch json
    (status "pending"). Never overwrite a batch doc that is already approved/posting/done.
 7. Commit clipdesk/days/<DAY>/ (queue.json, qc.json, research.json, ai.json, hud/) + plans; push to main

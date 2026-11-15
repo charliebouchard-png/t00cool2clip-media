@@ -113,7 +113,7 @@ for i, c in enumerate(plan['clips'], 1):
             a = w['s'] - st + pre; b = (grp[j + 1]['s'] if j + 1 < len(grp) else (ws[g + 3]['s'] if g + 3 < len(ws) else w['e'] + .3)) - st + pre
             txt = ' '.join(("{\\c&H3FD2FF&}" + esc(censor(x['w']).upper()) + "{\\c&HFFFFFF&}") if k == j else esc(censor(x['w']).upper()) for k, x in enumerate(grp))
             ev.append(f"Dialogue: 0,{ts(max(0,a))},{ts(max(a+.05,b))},Cap,,0,0,0,,{txt}")
-    credit = esc(f"🎥 {plan['channel']}")
+    credit = esc(f"via {plan['channel']}")
     ev.append(f"Dialogue: 0,{ts(0)},{ts(dur+2)},Credit,,0,0,0,,{credit}")
     ass = f"""[Script Info]
 ScriptType: v4.00+

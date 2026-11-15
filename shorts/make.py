@@ -58,7 +58,7 @@ def crop_expr(segs, ar):
         e = f"if(lt(t,{segs[k + 1][0]:.2f}),{cx(segs[k][1]):.0f},{e})"
     return e
 import re as _re
-_BAD = _re.compile(r"\b(f+u+c+k\w*|s+h+i+t\w*|b+i+t+c+h\w*|c+u+n+t\w*|motherf\w*|d+i+c+k\w*)", _re.I)
+_BAD = _re.compile(r"\b(f+u+c+k\w*|s+h+i+t\w*|b+i+t+c+h\w*|c+u+n+t\w*|motherf\w*|d+i+c+k\w*|n+i+g+g\w*|wank\w*|f\*+\w*|sh\*+\w*)", _re.I)
 def censor(t): return _BAD.sub(lambda m: m.group(0)[0] + '*' * (len(m.group(0)) - 1), t)
 def esc(t): return t.replace('{', '(').replace('}', ')').replace('\n', '\\N')
 FAST = plan.get('fast', True)  # Agent 3: jump-cut dead air (gaps > GAP s between words)
@@ -131,6 +131,8 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n"
     open(f"{W}/sub_{i}.ass", "w").write(ass)
     out = f"{W}/final_{i}.mp4"
+    # Agent 3: mute every masked word in the audio too (swears + slurs), so Shorts stay ad-friendly
+    mute = [(max(0, remap(w['s']) + pre - .04), remap(w['e']) + pre + .04) for w in ws0 if _BAD.search(w['w'])] if plan.get('bleep', True) else []
     ft = face_track(raw, dur, pre) if os.environ.get('NOFACE') != '1' else None
     if ft:
         segs, ar = ft
@@ -142,5 +144,5 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
             f"[b]scale=1080:-2,zoompan=z='min(1+0.0006*on,1.08)':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x608:fps=30[fg];"
             f"[bg][fg]overlay=0:(H-h)/2-40,subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-t", f"{dur:.2f}", "-filter_complex", vf, "-map", "[v]", "-map", "0:a",
-                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-af", "loudnorm=I=-14:TP=-1.5", "-movflags", "+faststart", out], check=True)
+                    "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-af", (("volume=enable='" + "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in mute) + "':volume=0,") if mute else "") + "loudnorm=I=-14:TP=-1.5", "-movflags", "+faststart", out], check=True)
     print(out, round(dur, 1), "s")

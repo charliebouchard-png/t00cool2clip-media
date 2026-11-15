@@ -7,7 +7,8 @@ The Pipedream link is in the task prompt only; export it as PIPEDREAM_URL; never
 
 1. `git pull` in /home/claude/t00cool2clip-media (clone if missing). `get control/system`: if `paused` is true → set agents/a8
    {state:"waiting", task:"Paused by you — nothing posting"}, add one feed event, stop.
-2. `query batches` where status in ["approved","posting"] (limit 50). Order by day, then n. Flatten their items in order, keeping
+2. `query batches` where status in ["approved","posting"] (limit 50). SKIP any batch that has a `campaign` field: those are
+   Content Rewards clips that must be submitted on contentrewards.com within 30 min of posting, so the live session posts them. Order by day, then n. Flatten their items in order, keeping
    those with skip false and state not "posted"/"failed". Ignore items whose day folder has no queue.json. Nothing left → set a8
    {state: "idle", task: "Nothing approved to post"} (if pending batches exist: "Waiting for your approval — N videos"), stop.
 3. TikTok cap: count today's (London date) TikTok posts across all clipdesk/days/*/posted.json entries whose `at` is today and whose

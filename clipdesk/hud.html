@@ -251,7 +251,7 @@ function renderBatches(){const bs=[...S.batches].sort((a,b)=>(b.day||"").localeC
  if(!bs.length){$("batches").innerHTML='<div class="empty">Nothing waiting. The 02:50 build run drops today\'s batches here, ten videos at a time. Tap <b>Approve</b> on a batch and Agent 8 posts it, one video every 10 minutes.</div>';return}
  $("batches").innerHTML=bs.map(b=>{const live=b.items.filter(i=>!i.skip);const tk=live.filter(i=>(i.platforms||[]).includes("tiktok")).length;
   const pend=b.status==="pending";
-  return `<div class="batch ${esc(b.status)}" data-id="${esc(b._id)}"><div class="bh"><div><h3>Batch ${String(b.n).padStart(2,"0")} · ${esc(b.day)}</h3>
+  return `<div class="batch ${esc(b.status)}" data-id="${esc(b._id)}"><div class="bh"><div><h3>${b.campaign?`💰 ${esc(b.campaign)}`:`Batch ${String(b.n).padStart(2,"0")}`} · ${esc(b.day)}</h3>${b.rules?`<div class="meta">${esc(b.rules)}</div>`:""}
   <div class="meta">${live.length} videos · ${tk} to TikTok · ${live.length} to Shorts · <span class="lbl" style="letter-spacing:.12em">${esc(LABEL[b.status]||b.status)}</span></div></div>
   <div class="appr-actions">${pend&&canWrite?`<button class="go" data-act="approve">Approve batch</button><button class="no" data-act="reject">Reject</button>`:""}${b.status==="approved"&&canWrite?`<button class="no" data-act="unapprove">Hold</button>`:""}</div></div>
   <div class="items">${b.items.map((i,k)=>`<div class="it ${i.skip?"skip":""}"><div class="thumb" ${i.thumbAsset?`style="background-image:url('${esc(i.thumbAsset)}')"`:""}>${i.thumbAsset?"":esc(i.kind==="ai"?"AI":"CLIP")}</div>

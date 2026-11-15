@@ -16,10 +16,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { fetch-depth: 1 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
       - name: Tools
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
-          pip install -q opencv-python-headless
+          pip install -q "numpy<2" "opencv-python-headless==4.10.0.84"
+          python -c "import cv2; print(cv2.__version__, hasattr(cv2,'CascadeClassifier'))"
       - name: Source + words
         env: { SRC: '${{ inputs.src_url }}', N: '${{ inputs.name }}' }
         run: |
@@ -31,10 +34,10 @@ jobs:
         env: { N: '${{ inputs.name }}' }
         run: |
           set +e
-          C=$(python3 -c "import json;print(len(json.load(open('shorts/plans/$N.json'))['clips']))")
+          C=$(python -c "import json;print(len(json.load(open('shorts/plans/$N.json'))['clips']))")
           A=$(seq -s, 1 2 $C); B=$(seq -s, 2 2 $C)
-          ONLY=$A python3 shorts/make.py shorts/plans/$N.json > /tmp/a.log 2>&1 & P1=$!
-          [ -n "$B" ] && { ONLY=$B python3 shorts/make.py shorts/plans/$N.json > /tmp/b.log 2>&1 & P2=$!; }
+          ONLY=$A python shorts/make.py shorts/plans/$N.json > /tmp/a.log 2>&1 & P1=$!
+          [ -n "$B" ] && { ONLY=$B python shorts/make.py shorts/plans/$N.json > /tmp/b.log 2>&1 & P2=$!; }
           wait $P1; R1=$?; R2=0; [ -n "$P2" ] && { wait $P2; R2=$?; }
           cat /tmp/a.log /tmp/b.log 2>/dev/null; ls /tmp/shorts/$N/final_*.mp4 | wc -l; [ $R1 = 0 ] && [ $R2 = 0 ]
       - name: Previews + push

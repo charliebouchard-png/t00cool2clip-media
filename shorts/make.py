@@ -133,7 +133,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     out = f"{W}/final_{i}.mp4"
     # Agent 3: mute every masked word in the audio too (swears + slurs), so Shorts stay ad-friendly
     mute = [(max(0, remap(w['s']) + pre - .04), remap(w['e']) + pre + .04) for w in ws0 if _BAD.search(w['w'])] if plan.get('bleep', True) else []
-    ft = face_track(raw, dur, pre) if os.environ.get('NOFACE') != '1' else None
+    ft = face_track(raw, dur, pre) if os.environ.get('NOFACE') != '1' and not plan.get('noface') else None
     if ft:
         segs, ar = ft
         vf = (f"[0:v]scale=-2:1920,crop=1080:1920:'{crop_expr(segs, ar)}':0,"

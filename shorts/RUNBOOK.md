@@ -21,7 +21,7 @@ Charlie's split (12 Nov 2026): YouTube Shorts = clips; TikTok = the AI videos. E
 - Needs OpenCV for the face-tracked crop: `python3 -c 'import cv2' || pip install --break-system-packages opencv-python-headless`.
 - make.py now crops FULL-SCREEN 9:16 on the speaker's face (follows the face as it moves / as the shot changes). If it can't find faces it falls back to the old small-video-on-blur layout — that layout performs worse, so prefer source videos where faces fill the shot (podcasts, streamers, face-cam).
 - `python3 shorts/make.py shorts/plans/<name>.json` (≈2 min per clip; jump-cuts dead air >0.35 s by default — set "fast": false on a clip or plan to keep pauses; ONLY=1,3 env renders just those clips) -> /tmp/shorts/<name>/final_<n>.mp4 (9:16, blurred background, captions with active word, swear words masked, hook title, channel credit).
-- Check each: duration, and look at 2 frames (hook readable, captions not covering faces).
+- Check each: duration, and look at 2 frames (hook readable, captions not covering faces). If the source has its OWN burned-in captions or on-screen questions at the bottom (quiz shows, edited podcasts), set "noface": true in the plan so the whole frame stays visible instead of a cropped mess.
 - `bash shorts/push_out.sh <name>`; commit the plan to main (attribution lines from your system prompt).
 ## 5. Post (YouTube only)
 - Only if world/PIPEDREAM_ROUTING_READY exists (it means Charlie updated Pipedream so skip_tiktok works). If it doesn't, don't post; tell Charlie the clips are ready and that the Pipedream step needs updating.

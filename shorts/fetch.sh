@@ -10,6 +10,7 @@ ffmpeg -y -loglevel error -i $W/src.mp4 -vn -ac 1 -ar 16000 -c:a libopus -b:a 20
 T=$(mktemp -d); cd $T; git init -q; git remote add origin "$(git -C $R remote get-url origin)"
 mkdir -p clipsrc/$NAME; cp $W/audio.opus clipsrc/$NAME/; git add clipsrc; git -c user.name=claude -c user.email=claude@users.noreply.github.com commit -qm "audio $NAME"; git push -q -f origin HEAD:clipsrc-$NAME
 jq -n --arg n "$NAME" '{ref:"main",inputs:{name:$n}}' | gh api -X POST repos/charliebouchard-png/t00cool2clip-media/actions/workflows/transcribe.yml/dispatches --input -
-sleep 25; while [ "$(gh run list -R charliebouchard-png/t00cool2clip-media -w transcribe -L 1 --json status -q '.[0].status')" != completed ]; do sleep 20; done
-git fetch -q origin clipsrc-$NAME; git show FETCH_HEAD:clipsrc/$NAME/words.json > $W/words.json; git show FETCH_HEAD:clipsrc/$NAME/transcript.txt > $W/transcript.txt
+# wait for THIS batch's transcript to land on its own branch (safe to run several fetches in parallel)
+for k in $(seq 1 180); do sleep 20; git fetch -q origin clipsrc-$NAME 2>/dev/null && git cat-file -e FETCH_HEAD:clipsrc/$NAME/transcript.txt 2>/dev/null && break; done
+ git show FETCH_HEAD:clipsrc/$NAME/words.json > $W/words.json; git show FETCH_HEAD:clipsrc/$NAME/transcript.txt > $W/transcript.txt
 echo "transcript: $W/transcript.txt ($(wc -l < $W/transcript.txt) lines)"; rm -rf $T

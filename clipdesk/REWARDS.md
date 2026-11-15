@@ -1,7 +1,7 @@
 # Content Rewards sweep (Whop clipping campaigns)
 
-Charlie wants ClipDesk to earn from Content Rewards campaigns. Status: RESEARCH ONLY (his call, 2026-11-15) — do not join,
-post or submit anything for a campaign until he says so. Campaign clips would go on @t00cool2clip.
+Charlie wants ClipDesk to earn from Content Rewards campaigns. Status (2026-11-15 evening): Charlie OK'd joining 5 campaigns (below). Clips go to the HUD approval box; nothing is posted
+or submitted until he approves there. Campaign clips would go on @t00cool2clip.
 
 ## How to sweep
 Needs Charlie signed in to Whop in the Claude desktop app's built-in browser (sites whop.com + contentrewards.com allowed).
@@ -43,3 +43,17 @@ Content Rewards data: 432 campaigns with 15+ approved clips; average views per a
 - Growth research (ClipFlip 44K clips; clipper guides): 7–15 s clips get the highest average views on TikTok (Shorts can go 45–60 s);
   first frame must already be interesting (decision in ~0.8 s); a cut every 2–3 s; one niche (~3 posts/day for 2+ weeks) so the
   algorithm finds an audience; mixed niches and unedited re-uploads get stuck at ~200 views; post on new campaigns within hours.
+
+## Joined 2026-11-15 (niche: Creators & Streamers)
+Plans: shorts/plans/{milk4,clash1,hslj5,thread1,thread2}.json (renders on branches cd-<name>).
+- MilkXP Ep 4 (Clip Farm, $1.25/1K): watermark clipdesk/assets/milkxp_wm.png, tag @milkxpofficial, no swearing, no other drinks/brands,
+  no health/best claims, positive only, keep up 30 days, don't comment on their videos, submit demographics.
+- Clash x HOH NFL trivia (Clip Farm, $1.25/1K, min $3.75 TT / $6.25 YT): @Clash.hoh (TikTok) / @Clash (YouTube), ≥10 s, no swearing,
+  no other sports brands, say where the full episode is.
+- HardScope Love & Justice Ep 5 (Clip Farm, $1/1K): #loveandjustice, @hardscope / @HardScopeTV, ≥7 s, never mention FaZe, no politics,
+  no explicit content, Ep 5 only, no duplicate submissions to other agencies.
+- ThreadGuy (Reach, $1/1K, payout from 10K views, $10 min): #ThreadGuy in caption, ThreadGuy must be the main focus, never negative,
+  no logos of any kind, ≥50% audience in US/CA/UK/AU/NZ, submit within 30 min of posting, no AI content / botting (one strike = banned
+  from all Reach campaigns).
+- IShowSpeed x Expedia (Reach): footage 2:56:29→end of youtube.com/live/Kyv61l2vF6M, must feature Expedia, #IShowSpeed, submit
+  within 30 min. BLOCKED: stream is 3 h, OpusClip caps at 30 min and YouTube bot-checks GitHub runners. Needs the file from Charlie.

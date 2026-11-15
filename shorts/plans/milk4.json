@@ -77,8 +77,8 @@
    "score": 8
   },
   {
-   "start": 317,
-   "end": 346,
+   "start": 335,
+   "end": 352,
    "hook": "WHO LASTS\\NTHE LONGEST?",
    "title": "He did nothing the longest and won \ud83c\udfc6 @milkxpofficial #shorts",
    "description": "From MilkXP: Doing Nothing Challenge vs a Real Teacher | Milk XP Ep 4",
@@ -93,5 +93,6 @@
  ],
  "watermark": "clipdesk/assets/milkxp_wm.png",
  "bleep": true,
- "wm_y": 1660
+ "wm_y": 1660,
+ "noface": true
 }

@@ -4,6 +4,7 @@
 
 - **How many:** the button's message gives the number, e.g. "find 20". If it doesn't say, find 20.
 - **Where:** use the areas it gives. If it gives none, use Surrey, London (SW/N/W) and Essex.
+- **Never Northamptonshire.** Charlie's rule: no leads anywhere in Northamptonshire (Northampton, Kettering, Corby, Wellingborough, Daventry, Rushden, Towcester, Brackley, Oundle and every village around them, and any NN postcode). Don't search there, and skip any business based there even if it turns up elsewhere. `add.py` also refuses them.
 - **No sending:** pitches only go out when Charlie presses "Send emails".
 
 ## Setup

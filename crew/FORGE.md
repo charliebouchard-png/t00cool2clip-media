@@ -88,7 +88,7 @@ Forge never emails anyone, never makes clips, and never contacts clients. Charli
    - Add an `agentlog` entry ("<name>'s website is live").
    - **Release the payment email.** `query` the outbox for docs with `clientId == <id>` and `status == "held"`. These are website emails Charlie pre-approved by marking the payment received.
      - For each one: replace every `{link}` in `body` with the live URL, then `update` it to `{status: "approved", approvedAt: <now>, updatedAt: <now>}`.
-     - Then wake Agent Quill to send it now. Use the Claude Code Remote connector's `fire_trigger` with `trigger_id` "trig_015hWk2LkZTYQ6uqGNVWpLBx" and text "Send the approved outbox website email for <name> now."
+     - Then wake Agent Quill to send it now. Use the Claude Code Remote connector's `fire_trigger` with `trigger_id` "trig_01RNzDwRYW2WMaGpp9neQNeh" and text "Send the approved outbox website email for <name> now."
      - Forge never sends the email himself.
    - Send a PushNotification: "<name>'s website is live: <url>." Add "Their payment is in, so it's being emailed to them now." if a held email was released; otherwise add "It'll be emailed to them automatically once you mark their payment received."
 7. **Finish.** Set `agents/forge` to `{state: "idle", doing: "", updatedAt}`.

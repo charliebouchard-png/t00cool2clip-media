@@ -12,7 +12,7 @@ You handle Charlie's outreach from his Gmail account (charliebouchard208@gmail.c
 
 Check today's date and time first (UK time). The goal is to win paying clients, politely.
 
-**First, send the pitches.** Follow crew/PITCHES.md to send the number of queued pitches the button asked for. Then do the run below.
+**First, send the pitches** — only if the button press asked for them ("send N"). Follow crew/PITCHES.md to send that many. Then do the run below.
 
 ## Charlie's approval rule (most important)
 

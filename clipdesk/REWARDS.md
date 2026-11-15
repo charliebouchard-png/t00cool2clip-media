@@ -29,3 +29,17 @@ Score = CPM × budget left ÷ (clippers + 5). Note each campaign's minPayout: a 
 Also seen: Perplexity x Ecomm Cowboy podcast ($2, $15.9K, 24 clippers), Frontier x Phantom X stream ($2.50, $12K, 0 — TT/IG/X only),
 The Loaded Tea Shop Uber clips ($1, $50K, 1 — their footage + watermark), CNPL pickleball ($1.50, $2.5K, 1).
 Skipped: Gumbo / Roobet (gambling), UNO (200K+ pages only), UGC campaigns (need Charlie on camera).
+
+## What actually gets views (research 2026-11-15)
+Content Rewards data: 432 campaigns with 15+ approved clips; average views per approved clip (mean, skewed by big pages).
+- Highest per clip: sound/music meme campaigns (category avg 58K; Harlow Dolce "Wrong Number" 188K, ChainsFR Como Se Dice 125K),
+  streamer/YouTuber personal-brand clipping (Nico Grigg 167K, ThreadGuy 99K, Michael Sartain 95K, Sabri Malle 88K; JasonTheWeen
+  102M views total from 20K clips), lifestyle/high-energy (Deniz Inan 100K).
+- Lowest per clip: tech/apps 1.4K, movie/TV clips 1.7–1.8K, sports 3K, podcasts 3.8K, gaming 4K, interview podcasts 1.4K.
+- Top clips look like: streamer IRL drama/flex moments ("Joe Bart still doesn't believe Jason owns the Maybach 😭"), meme caption
+  over the trending song ("WE are listening to this🔥"), award-show/live moments. Short, start mid-action, creator @'d in caption.
+- Our own TikTok (@t00cool2clip, last 60 posts): 0–376 views each, best ever 1,037 ("in my town" raindrop tax). Our 10 Como Se Dice
+  edits got 17–376 while that campaign averages 125K per clip -> the gap is account reach/trust, not the campaign.
+- Growth research (ClipFlip 44K clips; clipper guides): 7–15 s clips get the highest average views on TikTok (Shorts can go 45–60 s);
+  first frame must already be interesting (decision in ~0.8 s); a cut every 2–3 s; one niche (~3 posts/day for 2+ weeks) so the
+  algorithm finds an audience; mixed niches and unedited re-uploads get stuck at ~200 views; post on new campaigns within hours.

@@ -61,23 +61,57 @@ import re as _re
 _BAD = _re.compile(r"\b(f+u+c+k\w*|s+h+i+t\w*|b+i+t+c+h\w*|c+u+n+t\w*|motherf\w*|d+i+c+k\w*)", _re.I)
 def censor(t): return _BAD.sub(lambda m: m.group(0)[0] + '*' * (len(m.group(0)) - 1), t)
 def esc(t): return t.replace('{', '(').replace('}', ')').replace('\n', '\\N')
+FAST = plan.get('fast', True)  # Agent 3: jump-cut dead air (gaps > GAP s between words)
+GAP = float(plan.get('gap', 0.35))
+ONLY = [int(x) for x in os.environ.get('ONLY', '').split(',') if x]
 for i, c in enumerate(plan['clips'], 1):
+    if ONLY and i not in ONLY: continue
     st, en = float(c['start']), float(c['end'])
     _w = [w for w in words if w['s'] >= st - .3]; st = _w[0]['s'] - .15 if _w else st
     _e = [w for w in words if w['e'] <= en + .3]; en = _e[-1]['e'] + .35 if _e else en
-    dur = en - st
+    ws0 = [w for w in words if st <= w['s'] < en]
+    # keep-intervals (source time): speech runs, dead air between them removed
+    iv = [[st, en]]
+    if FAST and c.get('fast', True) and len(ws0) > 2:
+        iv = [[st, None]]
+        for a, b in zip(ws0, ws0[1:]):
+            if b['s'] - a['e'] > GAP:
+                iv[-1][1] = a['e'] + .12; iv.append([b['s'] - .08, None])
+        iv[-1][1] = en
+        iv = [x for x in iv if x[1] - x[0] > .15]
+    def remap(t):
+        o = 0.0
+        for a, b in iv:
+            if t < a: return o
+            if t <= b: return o + t - a
+            o += b - a
+        return o
+    dur = sum(b - a for a, b in iv)
     raw = f"{W}/raw_{i}.mp4"
     if not os.path.exists(raw):
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{max(0, st-1):.2f}", "-i", f"{W}/src.mp4", "-t", f"{dur+2:.2f}", "-vf", "scale=-2:1080", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", raw], check=True)
+        if len(iv) == 1:
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{max(0, st-1):.2f}", "-i", f"{W}/src.mp4", "-t", f"{dur+2:.2f}", "-vf", "scale=-2:1080", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", raw], check=True)
+            pre = min(1.0, st)
+        else:
+            # 1 s pre-roll of the first interval, then the speech runs back to back
+            a0 = max(0, iv[0][0] - 1); pre = iv[0][0] - a0; iv2 = [[a0, iv[0][1]]] + iv[1:]
+            T0 = a0; fc = []
+            for k, (a, b) in enumerate(iv2):
+                fc.append(f"[0:v]trim={a-T0:.3f}:{b-T0:.3f},setpts=PTS-STARTPTS,scale=-2:1080[v{k}];[0:a]atrim={a-T0:.3f}:{b-T0:.3f},asetpts=PTS-STARTPTS,afade=t=in:d=0.02,afade=t=out:st={max(0,b-a-0.03):.3f}:d=0.03[a{k}]")
+            fc.append(''.join(f"[v{k}][a{k}]" for k in range(len(iv2))) + f"concat=n={len(iv2)}:v=1:a=1[v][a]")
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{T0:.2f}", "-t", f"{iv[-1][1]-T0+.5:.2f}", "-i", f"{W}/src.mp4", "-filter_complex", ';'.join(fc), "-map", "[v]", "-map", "[a]", "-r", "30", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-c:a", "aac", "-b:a", "192k", raw], check=True)
+        open(f"{W}/raw_{i}.pre", "w").write(str(pre))
+    pre = float(open(f"{W}/raw_{i}.pre").read()) if os.path.exists(f"{W}/raw_{i}.pre") else 1.0
+    print(f"clip {i}: {en-st:.1f}s -> {dur:.1f}s after jump cuts ({len(iv)} runs)")
     # ASS: hook title (top, whole clip) + 3-word caption chunks with active-word highlight
-    ws = [w for w in words if st <= w['s'] < en]
+    ws = [dict(w, s=remap(w['s']) + st, e=remap(w['e']) + st) for w in ws0]
     ev = []
     hook = esc(c['hook'])
     ev.append(f"Dialogue: 1,{ts(0)},{ts(dur)},Hook,,0,0,0,,{hook}")
     for g in range(0, len(ws), 3):
         grp = ws[g:g + 3]
         for j, w in enumerate(grp):
-            a = w['s'] - st + 1.0; b = (grp[j + 1]['s'] if j + 1 < len(grp) else (ws[g + 3]['s'] if g + 3 < len(ws) else w['e'] + .3)) - st + 1.0
+            a = w['s'] - st + pre; b = (grp[j + 1]['s'] if j + 1 < len(grp) else (ws[g + 3]['s'] if g + 3 < len(ws) else w['e'] + .3)) - st + pre
             txt = ' '.join(("{\\c&H3FD2FF&}" + esc(censor(x['w']).upper()) + "{\\c&HFFFFFF&}") if k == j else esc(censor(x['w']).upper()) for k, x in enumerate(grp))
             ev.append(f"Dialogue: 0,{ts(max(0,a))},{ts(max(a+.05,b))},Cap,,0,0,0,,{txt}")
     credit = esc(f"🎥 {plan['channel']}")
@@ -98,7 +132,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """ + "\n".join(ev) + "\n"
     open(f"{W}/sub_{i}.ass", "w").write(ass)
     out = f"{W}/final_{i}.mp4"
-    ft = face_track(raw, dur)
+    ft = face_track(raw, dur) if os.environ.get('NOFACE') != '1' else None
     if ft:
         segs, ar = ft
         vf = (f"[0:v]scale=-2:1920,crop=1080:1920:'{crop_expr(segs, ar)}':0,"
@@ -108,6 +142,6 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
       vf = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:3,eq=brightness=-0.18[bg];"
             f"[b]scale=1080:-2,zoompan=z='min(1+0.0006*on,1.08)':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x608:fps=30[fg];"
             f"[bg][fg]overlay=0:(H-h)/2-40,subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1.0", "-i", raw, "-t", f"{dur:.2f}", "-filter_complex", vf, "-map", "[v]", "-map", "0:a",
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{pre:.3f}", "-i", raw, "-t", f"{dur:.2f}", "-filter_complex", vf, "-map", "[v]", "-map", "0:a",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-af", "loudnorm=I=-14:TP=-1.5", "-movflags", "+faststart", out], check=True)
     print(out, round(dur, 1), "s")

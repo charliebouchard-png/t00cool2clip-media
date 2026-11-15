@@ -1,0 +1,170 @@
+{
+ "id": "D261115-1",
+ "title": "The $60,000 deal that built your phone",
+ "target": "youtube",
+ "cast": "dev",
+ "hook": "$60,000 DEAL\nBUILT YOUR PHONE 📱",
+ "style": {
+  "captionMode": "word",
+  "captionFont": "ArchivoBlack",
+  "captionY": 1280,
+  "grade": "retro",
+  "transition": "glitch",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "Fifty five years ago TODAY, a calculator firm owned your phone's brain. Then they sold it back for sixty thousand dollars! Here's how, and the ending really hurts.",
+   "place": "Intel 4004 chip plan, 1971",
+   "flag": "💾",
+   "bg": "bg/chip4004/layout.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "point",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "$60,000",
+     "small": "the price of the deal",
+     "color": "#16a34a"
+    }
+   ],
+   "hot": [
+    "TODAY,",
+    "brain"
+   ]
+  },
+  {
+   "say": "In nineteen sixty nine, a Japanese company called Busicom wanted a fancy new desk calculator. So they asked a tiny American company to build TWELVE chips for it.",
+   "place": "Busicom calculator, Japan",
+   "flag": "🇯🇵",
+   "bg": "bg/chip4004/calculator.jpg",
+   "shot": "wide",
+   "from": 1,
+   "gestures": [
+    "explain",
+    "count",
+    "pointL"
+   ],
+   "badge": "#1",
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "12 CHIPS",
+     "small": "Busicom's plan",
+     "color": "#2563eb"
+    }
+   ],
+   "hot": [
+    "Busicom",
+    "TWELVE"
+   ]
+  },
+  {
+   "say": "That company was Intel. But its engineers said, why twelve? We'll do it with FOUR. And one of them can be programmed to do almost anything! Genius, right?",
+   "place": "Intel, Santa Clara",
+   "flag": "🇺🇸",
+   "bg": "bg/chip4004/intelhq.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "shrug",
+    "count",
+    "wow"
+   ],
+   "badge": "#2",
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "4 CHIPS",
+     "small": "Intel's idea",
+     "color": "#7c3aed"
+    }
+   ],
+   "hot": [
+    "Intel.",
+    "FOUR."
+   ]
+  },
+  {
+   "say": "That one was the four thousand and four. Two thousand three hundred transistors, on a chip smaller than your fingernail. The world's first microprocessor! But Busicom paid for it, so Busicom owned it.",
+   "place": "The Intel 4004",
+   "flag": "🧠",
+   "bg": "bg/chip4004/board.jpg",
+   "shot": "wide",
+   "from": 1,
+   "gestures": [
+    "point",
+    "explain",
+    "shrug"
+   ],
+   "cards": [
+    {
+     "at": 0.4,
+     "big": "2,300",
+     "small": "transistors",
+     "color": "#ea580c"
+    }
+   ],
+   "emoji": "😳",
+   "emojiAt": 0.88,
+   "hot": [
+    "first",
+    "microprocessor!",
+    "owned"
+   ]
+  },
+  {
+   "say": "So in May nineteen seventy one, Intel gave Busicom back its sixty thousand dollars. That's it! In return, it could sell the chip to everyone else. On November fifteenth, the very first advert came out.",
+   "place": "Science Museum, Tokyo",
+   "flag": "🏛️",
+   "bg": "bg/chip4004/museum.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "count",
+    "pointL",
+    "open"
+   ],
+   "badge": "#3",
+   "cards": [
+    {
+     "at": 0.7,
+     "big": "15 NOV 1971",
+     "small": "the first advert",
+     "color": "#e11d48"
+    }
+   ],
+   "hot": [
+    "everyone"
+   ]
+  },
+  {
+   "say": "Fast forward. Today one phone chip has NINETEEN BILLION transistors. That's eight MILLION times more! And Busicom? It went bust in nineteen seventy four. So, would YOU have taken the sixty thousand dollars?",
+   "place": "Inside your phone",
+   "flag": "📱",
+   "bg": "bg/chip4004/modern.jpg",
+   "shot": "close",
+   "gestures": [
+    "wow",
+    "shrug",
+    "think"
+   ],
+   "poll": {
+    "q": "Take the $60,000?",
+    "a": "TAKE IT 💵",
+    "b": "KEEP IT 🧠",
+    "at": 0.6
+   },
+   "hot": [
+    "NINETEEN",
+    "BILLION",
+    "bust"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "layout": {
+  "q": "Intel 4004",
+  "file": "File:Chip layout from the development phase of the Intel 4004 from 1971, the first microprocessor of the world (cropped and edited image).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chip_layout_from_the_development_phase_of_the_Intel_4004_from_1971,_the_first_microprocessor_of_the_world_(cropped_and_edited_image).jpg",
+  "license": "CC0",
+  "artist": "Intel 4004 Chip Layout (29983532570).jpg: Wolfgang Stief from Tittmoning, Germany\nderivative work, the rectangular versi",
+  "w": 1920,
+  "h": 1429
+ },
+ "calculator": {
+  "q": "Busicom calculator",
+  "file": "File:Busicom calculator.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Busicom_calculator.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Strawberry Melon Mango",
+  "w": 1920,
+  "h": 1920
+ },
+ "intelhq": {
+  "q": "Intel headquarters Santa Clara",
+  "file": "File:Intel HQ exterior 2.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_HQ_exterior_2.JPG",
+  "license": "CC BY-SA 3.0",
+  "artist": "BrokenSphere",
+  "w": 1920,
+  "h": 1440
+ },
+ "board": {
+  "q": "Busicom calculator",
+  "file": "File:Intel 4004 on Busicom calculator circuit board.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_4004_on_Busicom_calculator_circuit_board.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "MaltaGC",
+  "w": 1636,
+  "h": 1420
+ },
+ "museum": {
+  "q": "Intel 4004",
+  "file": "File:Intel 4004 and 8080 exhibit - National Museum of Nature and Science, Tokyo - DSC07315.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_4004_and_8080_exhibit_-_National_Museum_of_Nature_and_Science,_Tokyo_-_DSC07315.JPG",
+  "license": "CC0",
+  "artist": "Daderot",
+  "w": 1920,
+  "h": 1280
+ },
+ "modern": {
+  "q": "smartphone circuit board",
+  "file": "File:Electronics PCB circuit board 009 (51132659019).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Electronics_PCB_circuit_board_009_(51132659019).jpg",
+  "license": "CC0",
+  "artist": "Jan Helebrant",
+  "w": 1920,
+  "h": 1080
+ }
+}

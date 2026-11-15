@@ -15,7 +15,7 @@ Work unattended; never ask questions. If a step fails, log it to the HUD and car
   docs: collection `feed`, doc_id `<YYYYMMDDTHHMMSS>-a<N>` (UTC), data {at: ISO UTC, agent: N, level: info|ok|warn|err, text: one
   plain sentence a human enjoys reading, with real names/numbers}. Aim for 30–60 feed events per run. First write the
   agents docs with `get` once to learn their `version`, then pin writes with if_version (or `set` new feed docs without it).
-- HAND-OFFS (the HUD's office view animates these: the sender walks from its desk to the receiver's carrying the label). Whenever one
+- HAND-OFFS (the HUD's estate view animates these: the sender leaves its mansion and walks down the road to the receiver's house carrying the label). Whenever one
   agent passes work to another, add a feed doc with two extra fields: `to` (receiving agent number) and `item` (≤14 chars, e.g.
   "5 links", "news story", "50 moments", "4 AI videos") plus `kind`: "link" | "intel" | "video". Do these every run, in order as they
   happen: 1→6 "5 links" (link), 1→5 "trends" (intel), 2→5 "news story" (intel), 6→4 "N moments" (video), 4→3 "captions" (intel),

@@ -140,8 +140,8 @@ a{color:var(--arc)}
   <div class="ticker" aria-label="Live activity ticker"><div class="tag">LIVE</div><div class="tk"><div class="tk-in" id="tk"><span><i>SYS</i>Waiting for the first agent report…</span></div></div></div>
 
   <section class="panel office-panel">
-    <div class="phead"><h2>The office</h2><div class="appr-actions"><span class="lbl" id="officeNote">Live · hand-offs walk desk to desk</span><button id="replayBtn">Replay today</button></div></div>
-    <div class="office" id="officeWrap"><canvas id="office" aria-label="Agents at their desks; when one hands work to another you see them walk it over"></canvas></div>
+    <div class="phead"><h2>The estate</h2><div class="appr-actions"><span class="lbl" id="officeNote">Live · agents walk house to house</span><button id="replayBtn">Replay today</button></div></div>
+    <div class="office" id="officeWrap"><canvas id="office" aria-label="Each agent lives in its own mansion; when one hands work to another you see them leave home and walk to that agent's house"></canvas></div>
   </section>
 
   <section class="status">
@@ -261,76 +261,89 @@ function renderBatches(){const bs=[...S.batches].sort((a,b)=>(b.day||"").localeC
    ${(i.warn||[]).length?`<span class="warnx">⚠ ${esc(i.warn.join(", "))}</span>`:""}</div></div>
    <div class="acts">${i.preview?`<a href="${esc(i.preview)}" target="_blank" rel="noopener">Watch ↗</a>`:""}${(pend||b.status==="approved")&&canWrite&&i.state!=="posted"?`<button data-act="skip" data-k="${k}">${i.skip?"Keep":"Skip"}</button>`:""}</div></div>`).join("")}</div></div>`}).join("")}
 
-/* ---------- THE OFFICE: 8 desks; hand-offs (feed events with a `to`) are walked over ---------- */
+/* ---------- THE ESTATE: every agent lives in its own mansion; hand-offs (feed events with a `to`) are walked house to house ---------- */
 const OFF=(()=>{
- const cv=$("office"),cx=cv.getContext("2d");let W=0,H=0,DPR=1,cols=4,desks=[],walkers=[],queue=[],busy=false,t0=performance.now();
+ const cv=$("office"),cx=cv.getContext("2d");let W=0,H=0,DPR=1,vert=false,homes=[],walkers=[],queue=[],busy=false,t0=performance.now(),roadY=0,roadX=0;
  const COL=["#5fe3ff","#ffb547","#4dffb0","#ff7ad9","#ffd27a","#8f9bff","#ff6b6b","#b4ff6b"];
  const NAME=["TREND","NEWS","EDITOR","COPY","AI GEN","CLIPPER","QC","POSTER"];
  const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
- function layout(){const w=$("officeWrap").clientWidth;cols=w<620?2:4;const rows=8/cols;W=w;const cellH=cols===4?150:140;H=rows*cellH+40;DPR=Math.min(2,devicePixelRatio||1);
-  cv.width=W*DPR;cv.height=H*DPR;cv.style.height=H+"px";cx.setTransform(DPR,0,0,DPR,0,0);
-  const cw=W/cols;desks=[];for(let i=0;i<8;i++){const c=i%cols,r=Math.floor(i/cols);const x=c*cw+cw/2,y=20+r*cellH+46;
-   desks.push({x,y,seat:{x,y:y+40},stand:{x:x+Math.min(46,cw*.28),y:y+42},aisle:y+cellH/2+18,cw,cellH})}
-  walkers.forEach(w=>{const d=desks[w.home];if(!w.path){w.x=d.seat.x;w.y=d.seat.y}})}
- function seat(i){return {home:i,x:0,y:0,path:null,carry:null,flash:0}}
- for(let i=0;i<8;i++)walkers.push(seat(i));
- function pathTo(a,b){const A=desks[a],B=desks[b];const gx=(x)=>{const c=Math.round(x/A.cw);return Math.max(8,Math.min(W-8,c*A.cw))};
-  const p=[{x:A.seat.x,y:A.seat.y},{x:A.seat.x,y:A.aisle}];
-  if(A.aisle!==B.aisle){const g=gx((A.seat.x+B.seat.x)/2);p.push({x:g,y:A.aisle},{x:g,y:B.aisle})}
-  p.push({x:B.stand.x,y:B.aisle},{x:B.stand.x,y:B.stand.y});return p}
+ // deterministic little variations per mansion
+ const V=[...Array(8)].map((_,i)=>({pool:i%3!==1,wings:i%2===0,trees:2+(i*7)%3,gate:i%4===0}));
+ function layout(){const w=$("officeWrap").clientWidth;W=w;vert=w<620;DPR=Math.min(2,devicePixelRatio||1);
+  if(!vert){H=380;roadY=H/2;const cw=W/4;homes=[];for(let i=0;i<8;i++){const c=i%4,top=i<4;const x=c*cw+cw/2,y=top?roadY-105:roadY+105;
+    homes.push({x,y,top,cw,ch:150,door:{x,y:top?y+38:y-38},curb:{x,y:top?roadY-14:roadY+14},face:top?1:-1})}}
+  else{const rows=4,ch=170;H=rows*ch+20;roadX=W/2;const cw=W/2;homes=[];for(let i=0;i<8;i++){const left=i%2===0,r=Math.floor(i/2);const x=left?cw/2-4:W-cw/2+4,y=20+r*ch+ch/2;
+    homes.push({x,y,left,cw,ch,door:{x:left?x+Math.min(46,cw*.3):x-Math.min(46,cw*.3),y:y+30},curb:{x:left?roadX-14:roadX+14,y:y+30},face:0})}}
+  cv.width=W*DPR;cv.height=H*DPR;cv.style.height=H+"px";cx.setTransform(DPR,0,0,DPR,0,0)}
+ for(let i=0;i<8;i++)walkers.push({x:0,y:0,path:null,carry:null,out:false,pause:0,flash:0});
+ function pathTo(a,b){const A=homes[a],B=homes[b];
+  if(!vert)return [A.door,{x:A.door.x,y:A.curb.y},{x:A.door.x,y:roadY},{x:B.door.x,y:roadY},{x:B.door.x,y:B.curb.y},B.door];
+  return [A.door,{x:A.curb.x,y:A.door.y},{x:roadX,y:A.door.y},{x:roadX,y:B.door.y},{x:B.curb.x,y:B.door.y},B.door]}
  function go(from,to,label,kind){queue.push({from,to,label,kind});pump()}
- function pump(){if(busy||!queue.length||!desks.length)return;busy=true;const j=queue.shift();const w=walkers[j.from];
-  const out=pathTo(j.from,j.to);w.carry={label:j.label,kind:j.kind};
-  if(reduce){walkers[j.to].flash=1;w.carry=null;busy=false;setTimeout(pump,400);return}
-  w.path={pts:out,seg:0,u:0,speed:150,then:()=>{walkers[j.to].flash=1;w.carry=null;w.pause=900;
-   w.path={pts:[...out].reverse(),seg:0,u:0,speed:170,then:()=>{w.path=null;busy=false;setTimeout(pump,250)}}}}}
- function step(dt){walkers.forEach(w=>{if(w.flash>0)w.flash=Math.max(0,w.flash-dt/1600);
-  if(w.pause>0){w.pause-=dt;return}
-  if(!w.path){const d=desks[w.home];w.x=d.seat.x;w.y=d.seat.y;return}
+ function pump(){if(busy||!queue.length||!homes.length)return;busy=true;const j=queue.shift();const w=walkers[j.from];
+  if(reduce){walkers[j.to].flash=1;busy=false;setTimeout(pump,400);return}
+  const out=pathTo(j.from,j.to);w.carry={label:j.label,kind:j.kind};w.out=true;w.dest=j.to;w.x=out[0].x;w.y=out[0].y;
+  w.path={pts:out,seg:0,u:0,speed:160,then:()=>{walkers[j.to].flash=1;w.carry=null;w.pause=1100;
+   w.path={pts:[...out].reverse(),seg:0,u:0,speed:180,then:()=>{w.path=null;w.out=false;busy=false;setTimeout(pump,250)}}}}}
+ function step(dt){walkers.forEach(w=>{if(w.flash>0)w.flash=Math.max(0,w.flash-dt/1800);
+  if(w.pause>0){w.pause-=dt;return} if(!w.path)return;
   const P=w.path,a=P.pts[P.seg],b=P.pts[P.seg+1];if(!b){const f=P.then;w.path=null;f&&f();return}
   const L=Math.hypot(b.x-a.x,b.y-a.y)||1;P.u+=P.speed*dt/1000/L;if(P.u>=1){P.seg++;P.u=0;w.x=b.x;w.y=b.y}else{w.x=a.x+(b.x-a.x)*P.u;w.y=a.y+(b.y-a.y)*P.u}})}
  function rr(x,y,w,h,r){cx.beginPath();cx.moveTo(x+r,y);cx.arcTo(x+w,y,x+w,y+h,r);cx.arcTo(x+w,y+h,x,y+h,r);cx.arcTo(x,y+h,x,y,r);cx.arcTo(x,y,x+w,y,r);cx.closePath()}
+ function tree(x,y,r){cx.fillStyle="rgba(0,0,0,.35)";cx.beginPath();cx.ellipse(x+3,y+4,r,r*.7,0,0,7);cx.fill();
+  const g=cx.createRadialGradient(x-r*.3,y-r*.3,1,x,y,r);g.addColorStop(0,"#1f6b52");g.addColorStop(1,"#0b2a24");cx.fillStyle=g;cx.beginPath();cx.arc(x,y,r,0,7);cx.fill()}
+ function mansion(h,i,T){const a=S.agents["a"+(i+1)]||{},st=a.state||"idle",col=COL[i],work=st==="working",v=V[i];
+  const bw=Math.min(h.cw*.58,150),bh=56;const bx=h.x-bw/2,by=h.y-bh/2;
+  // plot / lawn
+  cx.fillStyle="rgba(77,255,176,.035)";cx.strokeStyle="rgba(95,227,255,.12)";cx.lineWidth=1;rr(h.x-h.cw*.46,h.y-h.ch*.42,h.cw*.92,h.ch*.84,10);cx.fill();cx.stroke();
+  // driveway to the door
+  cx.fillStyle="#0e2231";if(!vert){const y0=Math.min(h.door.y,h.curb.y),y1=Math.max(h.door.y,h.curb.y);cx.fillRect(h.door.x-7,y0,14,y1-y0)}else{const x0=Math.min(h.door.x,h.curb.x),x1=Math.max(h.door.x,h.curb.x);cx.fillRect(x0,h.door.y-7,x1-x0,14)}
+  // pool
+  if(v.pool){const px=vert?(h.left?bx-4:bx+bw-30):bx+bw-26,py=vert?h.y-h.ch*.36:(h.top?by-30:by+bh+8);cx.fillStyle="#0b4a66";rr(px,py,34,20,5);cx.fill();cx.strokeStyle="rgba(95,227,255,.6)";cx.stroke();
+   cx.strokeStyle="rgba(180,240,255,.35)";cx.beginPath();cx.moveTo(px+5,py+8+Math.sin(T*2+i)*2);cx.lineTo(px+29,py+8+Math.cos(T*2+i)*2);cx.stroke()}
+  // trees
+  for(let k=0;k<v.trees;k++){const s=k%2?1:-1;tree(h.x+s*(h.cw*.36),h.y+(k-1)*18*(vert?1:h.face||1),7+k%2*2)}
+  // house shadow, wings, main block, roof ridge
+  cx.fillStyle="rgba(0,0,0,.4)";rr(bx+5,by+6,bw,bh,4);cx.fill();
+  if(v.wings){cx.fillStyle="#13293a";rr(bx-12,by+10,20,bh-20,3);cx.fill();rr(bx+bw-8,by+10,20,bh-20,3);cx.fill()}
+  const roof=cx.createLinearGradient(bx,by,bx,by+bh);roof.addColorStop(0,"#1b3b52");roof.addColorStop(.5,"#102536");roof.addColorStop(1,"#1b3b52");cx.fillStyle=roof;rr(bx,by,bw,bh,4);cx.fill();
+  cx.strokeStyle=work?col:"rgba(95,227,255,.3)";cx.lineWidth=work?1.6:1;cx.stroke();cx.strokeStyle="rgba(95,227,255,.22)";cx.beginPath();cx.moveTo(bx+8,h.y);cx.lineTo(bx+bw-8,h.y);cx.stroke();
+  // skylights = windows: lit in the agent's colour while it works
+  const n=4;for(let k=0;k<n;k++){const wx=bx+12+k*((bw-24)/(n-1))-5;for(const wy of [by+9,by+bh-17]){
+   cx.fillStyle=work?col:(st==="done"?"rgba(77,255,176,.35)":st==="error"?"rgba(255,84,104,.5)":"rgba(255,210,122,.16)");
+   cx.globalAlpha=work?(.55+.4*Math.abs(Math.sin(T*2.4+k+i))):1;cx.fillRect(wx,wy,10,8);cx.globalAlpha=1}}
+  // door
+  cx.fillStyle=walkers[i].out?"#03121b":col;rr(h.door.x-6,h.door.y-(vert?6:(h.top?8:0)),12,8,2);cx.fill();
+  // gate posts
+  if(v.gate){cx.fillStyle="rgba(95,227,255,.4)";const gx=vert?h.curb.x:h.door.x,gy=vert?h.door.y:h.curb.y;if(!vert){cx.fillRect(gx-12,gy-2,3,4);cx.fillRect(gx+9,gy-2,3,4)}else{cx.fillRect(gx-2,gy-12,4,3);cx.fillRect(gx-2,gy+9,4,3)}}
+  // name sign on the roof
+  cx.font="700 10px 'Chakra Petch',sans-serif";cx.textAlign="center";const lab=`A${i+1} · ${NAME[i]}`;const tw=cx.measureText(lab).width+10;
+  cx.fillStyle="rgba(3,18,27,.85)";rr(h.x-tw/2,h.y-8,tw,15,3);cx.fill();cx.fillStyle=col;cx.fillText(lab,h.x,h.y+3);
+  // status line under the plot
+  cx.font="500 9px 'IBM Plex Mono',monospace";cx.fillStyle=st==="error"?"#ff5468":st==="done"?"#4dffb0":work?col:"#4b6b7e";
+  const sy=vert?h.y+h.ch*.42-8:(h.top?h.y-h.ch*.42+12:h.y+h.ch*.42-6);cx.fillText((walkers[i].out?`OUT · VISITING A${walkers[i].dest+1}'S HOUSE`:st.toUpperCase()+" · "+(a.task||"at home")).slice(0,Math.floor(h.cw/6)),h.x,sy);
+  if(walkers[i].flash>0){cx.strokeStyle=col;cx.globalAlpha=walkers[i].flash;cx.lineWidth=2;cx.beginPath();cx.arc(h.door.x,h.door.y,10+30*(1-walkers[i].flash),0,7);cx.stroke();cx.globalAlpha=1}}
  function draw(now){const T=(now-t0)/1000;cx.clearRect(0,0,W,H);
-  // floor grid
-  cx.strokeStyle="rgba(95,227,255,.06)";cx.lineWidth=1;for(let x=0;x<W;x+=24){cx.beginPath();cx.moveTo(x,0);cx.lineTo(x,H);cx.stroke()}for(let y=0;y<H;y+=24){cx.beginPath();cx.moveTo(0,y);cx.lineTo(W,y);cx.stroke()}
-  // back wall + aisles
-  cx.fillStyle="rgba(95,227,255,.05)";cx.fillRect(0,0,W,10);cx.fillStyle="rgba(95,227,255,.5)";cx.fillRect(0,9,W,1);
-  [...new Set(desks.map(d=>d.aisle))].forEach(y=>{cx.setLineDash([6,8]);cx.strokeStyle="rgba(95,227,255,.10)";cx.beginPath();cx.moveTo(8,y);cx.lineTo(W-8,y);cx.stroke();cx.setLineDash([])});
-  desks.forEach((d,i)=>{const a=S.agents["a"+(i+1)]||{},st=a.state||"idle",col=COL[i],work=st==="working";
-   const dw=Math.min(118,d.cw*.7),dh=34;
-   // desk glow ring
-   cx.save();cx.globalAlpha=.9;cx.strokeStyle=work?col:"rgba(95,227,255,.25)";cx.lineWidth=1.2;rr(d.x-dw/2,d.y-dh/2,dw,dh,4);cx.fillStyle="#0a1a28";cx.fill();cx.stroke();
-   // monitor
-   const mw=dw*.46,mh=16;cx.fillStyle=work?col:"#163247";cx.globalAlpha=work?(.55+.35*Math.abs(Math.sin(T*3+i))):.7;rr(d.x-mw/2,d.y-dh/2-mh+6,mw,mh,2);cx.fill();cx.globalAlpha=1;
-   if(work){cx.fillStyle="#03121b";for(let k=0;k<3;k++){const ww=(mw-10)*(.4+.5*Math.abs(Math.sin(T*2+k+i)));cx.fillRect(d.x-mw/2+5,d.y-dh/2-mh+9+k*4,ww,2)}}
-   cx.restore();
-   // chair (empty while its agent is out walking)
-   cx.fillStyle="#0b1d2b";cx.strokeStyle="rgba(95,227,255,.22)";cx.lineWidth=1;rr(d.seat.x-13,d.seat.y-6,26,22,7);cx.fill();cx.stroke();
-   // desk clutter: keyboard + a little plant / mug
-   cx.fillStyle="rgba(95,227,255,.18)";cx.fillRect(d.x-dw*.18,d.y+9,dw*.36,4);
-   cx.fillStyle=i%2?"#2f7d5c":"#5a4a2a";cx.beginPath();cx.arc(d.x+dw/2-10,d.y-6,4,0,7);cx.fill();
-   // name plate
-   cx.font="600 10px 'Chakra Petch',sans-serif";cx.textAlign="center";cx.fillStyle=col;cx.fillText(`A${i+1} · ${NAME[i]}`,d.x,d.y+5);
-   // status under chair
-   cx.font="500 9px 'IBM Plex Mono',monospace";cx.fillStyle=st==="error"?"#ff5468":st==="done"?"#4dffb0":work?col:"#4b6b7e";
-   const task=(a.task||"standing by");cx.fillText((st.toUpperCase()+" · "+task).slice(0,Math.floor(d.cw/6)),d.x,d.y+70);
-   if(walkers[i].flash>0){cx.strokeStyle=COL[i];cx.globalAlpha=walkers[i].flash;cx.lineWidth=2;cx.beginPath();cx.arc(d.x,d.y,dw*.62*(1.2-walkers[i].flash*.2),0,7);cx.stroke();cx.globalAlpha=1}
-  });
-  walkers.forEach((w,i)=>{const col=COL[i],moving=!!w.path&&!w.pause,bob=moving?Math.sin(performance.now()/90)*1.6:0,typing=(S.agents["a"+(i+1)]||{}).state==="working"&&!w.path;
+  cx.fillStyle="#04101a";cx.fillRect(0,0,W,H);
+  // road with lane dashes + street lights
+  cx.fillStyle="#0a1722";if(!vert)cx.fillRect(0,roadY-14,W,28);else cx.fillRect(roadX-14,0,28,H);
+  cx.strokeStyle="rgba(255,210,122,.45)";cx.setLineDash([10,12]);cx.lineWidth=1.5;cx.beginPath();if(!vert){cx.moveTo(0,roadY);cx.lineTo(W,roadY)}else{cx.moveTo(roadX,0);cx.lineTo(roadX,H)}cx.stroke();cx.setLineDash([]);
+  for(let k=1;k<8;k++){const p=k/8;const lx=vert?roadX+20:W*p,ly=vert?H*p:roadY-20;const g=cx.createRadialGradient(lx,ly,0,lx,ly,22);g.addColorStop(0,"rgba(255,210,122,.18)");g.addColorStop(1,"rgba(255,210,122,0)");cx.fillStyle=g;cx.beginPath();cx.arc(lx,ly,22,0,7);cx.fill();cx.fillStyle="#ffd27a";cx.fillRect(lx-1,ly-1,2,2)}
+  homes.forEach((h,i)=>mansion(h,i,T));
+  walkers.forEach((w,i)=>{if(!w.out||w.pause>0&&!w.path)return;const col=COL[i],bob=w.path&&!w.pause?Math.sin(performance.now()/90)*1.4:0;
    cx.save();cx.translate(w.x,w.y+bob);
-   cx.fillStyle="rgba(0,0,0,.35)";cx.beginPath();cx.ellipse(0,12,11,4,0,0,7);cx.fill();
-   cx.fillStyle="#0d2232";cx.strokeStyle=col;cx.lineWidth=1.5;cx.beginPath();cx.ellipse(0,4,10,9,0,0,7);cx.fill();cx.stroke(); // body
-   if(typing){cx.strokeStyle=col;cx.lineWidth=2;const k=Math.sin(performance.now()/80)*2;cx.beginPath();cx.moveTo(-8,0);cx.lineTo(-6,-8+k);cx.moveTo(8,0);cx.lineTo(6,-8-k);cx.stroke()}
-   cx.fillStyle=col;cx.beginPath();cx.arc(0,-8,6,0,7);cx.fill(); // head
-   cx.fillStyle="#03121b";cx.fillRect(-3,-9,6,2); // visor
-   if(w.carry){const lab=w.carry.label,ic=w.carry.kind==="video"?"▶":w.carry.kind==="link"?"⛓":"✦";cx.font="600 10px 'Chakra Petch',sans-serif";const tw=cx.measureText(ic+" "+lab).width+12;
-    cx.fillStyle="rgba(3,18,27,.92)";cx.strokeStyle=col;rr(-tw/2,-36,tw,17,3);cx.fill();cx.stroke();cx.fillStyle=col;cx.textAlign="center";cx.fillText(ic+" "+lab,0,-24)}
+   cx.fillStyle="rgba(0,0,0,.4)";cx.beginPath();cx.ellipse(0,10,9,3.5,0,0,7);cx.fill();
+   cx.fillStyle="#0d2232";cx.strokeStyle=col;cx.lineWidth=1.5;cx.beginPath();cx.ellipse(0,3,8,8,0,0,7);cx.fill();cx.stroke();
+   cx.fillStyle=col;cx.beginPath();cx.arc(0,-8,5.5,0,7);cx.fill();cx.fillStyle="#03121b";cx.fillRect(-3,-9,6,2);
+   if(w.carry){const ic=w.carry.kind==="video"?"▶":w.carry.kind==="link"?"⛓":"✦";cx.font="600 10px 'Chakra Petch',sans-serif";const lab=ic+" "+w.carry.label,tw=cx.measureText(lab).width+12;
+    cx.fillStyle="rgba(3,18,27,.92)";cx.strokeStyle=col;rr(-tw/2,-34,tw,17,3);cx.fill();cx.stroke();cx.fillStyle=col;cx.textAlign="center";cx.fillText(lab,0,-22)}
    cx.restore()});
  }
  let last=performance.now();function loop(now){step(Math.min(64,now-last));last=now;draw(now);requestAnimationFrame(loop)}
- addEventListener("resize",()=>{layout()});
+ addEventListener("resize",layout);
  return {start(){layout();requestAnimationFrame(loop)},go,clear(){queue.length=0}};
 })();
+
 let seenHand=new Set(),feedPrimed=false;
 function handoffs(list){return list.filter(e=>e.to&&e.agent&&e.to!==e.agent&&e.to>=1&&e.to<=8)}
 function onFeed(docs){const hs=handoffs(docs);

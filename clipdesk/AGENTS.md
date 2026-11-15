@@ -66,8 +66,9 @@ yt_description, tiktok_caption, score 1–10}] (Agent 4's rules below).
 ## Agent 6 — Long-form clipper (10 clips × 5 sources = 50)
 1. For all 5 sources call the AI Producer by OpusClip tool `start_link_download` (free, ≤30 min videos) → direct download URLs.
    If a source fails, replace it with Agent 1's next pick.
-2. Transcribe all 5 in parallel: `bash shorts/fetch.sh c<Y>-<k> <video_id> "<download_url>"` (k = 1..5; run each with
-   run_in_background and wait for all; ~5–10 min). Output /tmp/shorts/c<Y>-<k>/transcript.txt + words.json.
+2. Transcribe all 5 in parallel on GitHub straight from the URLs (no local download; 4K sources are several GB):
+   `bash clipdesk/transcribe_url.sh c<Y>-<k> "<download_url>"` (k = 1..5; start all 5 with run_in_background and wait; ~5–10 min).
+   Output /tmp/shorts/c<Y>-<k>/transcript.txt + words.json.
 3. Read every transcript in full and pick the 10 best standalone moments per source (shorts/RUNBOOK.md section 3 rules: first word in
    the first 0.5 s, strongest line first, ends on the payoff, understandable with zero context, 20–50 s, non-overlapping).
    Give each a `score` 1–10 (how likely to stop a scroll and get rewatched). Drop weak ones rather than padding — 7 great beats 10 meh;
@@ -75,7 +76,8 @@ yt_description, tiktok_caption, score 1–10}] (Agent 4's rules below).
 4. Write shorts/plans/c<Y>-<k>.json: {"name","video_id","source_title","channel","fast":true,
    "clips":[{"start","end","hook","title","description","tiktok_caption","hashtags":[...],"score"}]}; commit + push to main.
 5. Render on GitHub (Agent 3), all 5 at once:
-   `gh workflow run clipdesk-render.yml -R charliebouchard-png/t00cool2clip-media -f name=c<Y>-<k> -f src_url="<download_url>"`
+   `bash clipdesk/dispatch.sh clipdesk-render.yml name=c<Y>-<k> src_url="<fresh download_url>"` (download URLs expire after 1 hour:
+   call start_link_download again right before dispatching)
    Each takes ~10–20 min and pushes branch cd-c<Y>-<k> (finals + 540p previews + thumbs). If one fails (gh run view --log-failed),
    fix and re-run, or render locally with `python3 shorts/make.py` + push like the workflow does.
 

@@ -1,5 +1,16 @@
 # Learnings (newest first) — what top short-form videos do that we copy
 
+## 2026-11-15 (daily run, TikTok via yt-dlp 05:15 UK)
+- 14 Nov numbers after ~17 h: Lord Mayor fact video 45, yawn tax 15, look tax 12. Fact videos tied to TODAY now beat the stories two days running (Fri-13th 247, Lord Mayor 45 vs stories 12–15). The 11 Nov story wave (91–1,037) has not come back in 3 days.
+- The "como se dice" burst from the other task (10 clips 01:34–02:01, 14 Nov) still out-reached our stories: 4 of them got 241–367. That means the account isn't suppressed — our story posts are losing in the seed test. Likely cause: same first line every time ("In my town, X costs $Y") = templated look in the first second.
+- Applied today: neither story opens with "In my town". Both start with a first-person consequence + number ("The self checkout in my town just charged me twenty dollars. For a banana." / "I pressed snooze three times this morning. It cost me thirty dollars.") and only explain the rule in beat 2. Topics are things people did THIS WEEK (self-checkout "unexpected item in the bagging area"; snooze, posted Sunday 18:00 the night before Monday).
+- Twists avoid the lab/machine template again: machine-vs-machine fine loop → free shopping; snooze money rerouted to the earliest riser → gran owns the town, bedtime 8pm.
+- Fact video = a dated anniversary that's literally today (Intel 4004 first advertised in Electronic News, 15 Nov 1971; Busicom's $60,000 returned May 1971; Busicom bust 1974 — sources: Intel Virtual Vault, IEEE Spectrum Chip Hall of Fame, Wikipedia). Money angle in the hook ("$60,000 deal built your phone"). Style rotated: dev / word captions / ArchivoBlack / retro / glitch.
+- Engine note: in ai3d, a "bed" prop with cam "close" = hero hidden (black first frame). Use hero {"pose":"sleep","in":"bed"} + cam "high" (S03 pattern). NPCs can't go "in" a bed.
+- bg-fetch sheets: ffmpeg's glob tiler silently drops some Commons JPEGs (bad DQT) and shifts the numbering — build contact sheets with PIL instead.
+- I'm A Celebrity starts Mon 16 Nov 21:00 on ITV — possible hook for tomorrow (jungle/bushtucker-style "tax"), no real contestants.
+- Web trend lists still generic; vidIQ not used (credits).
+
 ## 2026-11-14 (daily run, TikTok via yt-dlp 05:15 UK)
 - Friday-13th fact video (posted 21:29 on the day itself) got 238 views in ~8 h = our best world fact video since Ryanair. Same-day date hooks work; day-old news (Nvidia 1–48) doesn't. -> Today's fact video is about something happening TODAY in London (Lord Mayor's Show, 14 Nov: 1215 King John deal, 1757 £2m coach, 6,500 people, river boats back for the 1st time since 2017) and goes out while it's still "today".
 - PROBLEM: yesterday's 2 stories (A261113-1 step tax, A261113-2 Christmas tax) rendered fine but do NOT appear on @t00cool2clip — the 12:00/18:00 sends seem to have failed (Pipedream/Buffer fix commits landed later that night). Check the HTTP code AND that the post actually shows on the profile after each send.

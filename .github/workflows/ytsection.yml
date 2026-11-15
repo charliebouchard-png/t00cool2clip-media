@@ -1,0 +1,28 @@
+name: ytsection
+# Downloads a section of a YouTube video (e.g. one segment of a long stream VOD) and publishes it as a release asset
+# so other workflows / sessions can fetch it by URL: releases/download/src-<name>/<name>.mp4
+on:
+  workflow_dispatch:
+    inputs:
+      name: { required: true }
+      url: { required: true }
+      start: { description: 'e.g. 2:56:29', required: true }
+      end: { description: 'e.g. inf or 3:04:11', required: true, default: 'inf' }
+permissions:
+  contents: write
+jobs:
+  dl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg >/dev/null
+          curl -sSL -o yt-dlp https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp && chmod +x yt-dlp
+          ./yt-dlp --no-warnings --js-runtimes node --remote-components ejs:github -f "bv*[height<=1080]+ba/b[height<=1080]" \
+            --download-sections "*${{ inputs.start }}-${{ inputs.end }}" --force-keyframes-at-cuts --merge-output-format mp4 \
+            -o "${{ inputs.name }}.mp4" "${{ inputs.url }}" || \
+          ./yt-dlp --no-warnings --js-runtimes node --remote-components ejs:github --extractor-args youtube:player_client=mweb,web_embedded,tv \
+            -f "bv*[height<=1080]+ba/b" --download-sections "*${{ inputs.start }}-${{ inputs.end }}" --merge-output-format mp4 -o "${{ inputs.name }}.mp4" "${{ inputs.url }}"
+          ls -la *.mp4
+          gh release create "src-${{ inputs.name }}" "${{ inputs.name }}.mp4" -R ${{ github.repository }} -t "src ${{ inputs.name }}" -n "clip source" || gh release upload "src-${{ inputs.name }}" "${{ inputs.name }}.mp4" --clobber -R ${{ github.repository }}
+        env: { GH_TOKEN: '${{ github.token }}' }

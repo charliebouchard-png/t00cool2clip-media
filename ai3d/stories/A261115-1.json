@@ -1,0 +1,296 @@
+{
+ "id": "A261115-1",
+ "title": "BAGGING AREA TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1151,
+ "key": 3,
+ "bpm": 122,
+ "hot": [
+  "unexpected",
+  "bagging",
+  "banana",
+  "sigh",
+  "mayor",
+  "second",
+  "fined",
+  "free"
+ ],
+ "beats": [
+  {
+   "say": "The self checkout in my town just charged me twenty dollars. For a banana.",
+   "set": "store",
+   "cam": "push",
+   "label": "SELF CHECKOUT",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "-$20",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "Because here, every unexpected item in the bagging area is a twenty dollar fine.",
+   "set": "store",
+   "cam": "wide",
+   "hero": {
+    "pose": "point",
+    "face": "angry"
+   },
+   "props": [
+    {
+     "type": "sign",
+     "text": "UNEXPECTED ITEM = $20",
+     "x": -4,
+     "z": -2
+    }
+   ],
+   "notif": {
+    "title": "Self Checkout",
+    "text": "Unexpected item in the bagging area. -$20"
+   }
+  },
+  {
+   "say": "My own shopping bag? Unexpected. Another twenty.",
+   "set": "store",
+   "cam": "face",
+   "hero": {
+    "pose": "angry",
+    "face": "angry",
+    "hold": "money"
+   },
+   "big": {
+    "text": "-$40",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "Then I sighed at it. It counted the sigh as an item.",
+   "set": "store",
+   "cam": "ots",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "big": {
+    "text": "-$60",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "The queue behind me panicked. Nobody would touch the scale.",
+   "set": "store",
+   "cam": "wide",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 10,
+    "face": "shock"
+   }
+  },
+  {
+   "say": "So the whole town stopped using bags. Everyone carried their shopping home in their arms.",
+   "set": "street",
+   "cam": "track",
+   "label": "NO BAGS",
+   "hero": {
+    "pose": "carry",
+    "face": "normal"
+   },
+   "crowd": {
+    "action": "carry",
+    "n": 10,
+    "face": "sad"
+   }
+  },
+  {
+   "say": "The supermarket still made two million dollars in one week.",
+   "set": "store",
+   "cam": "drone",
+   "hero": {
+    "pose": "sad",
+    "face": "sad"
+   },
+   "big": {
+    "text": "+$2,000,000",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "Then it got worse. It started fining people just for standing near it.",
+   "set": "store",
+   "cam": "side",
+   "hero": {
+    "pose": "run",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "run",
+    "n": 8,
+    "face": "shock"
+   },
+   "fx": [
+    "red"
+   ]
+  },
+  {
+   "say": "So the mayor came down to switch it off personally.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "look": "mayor",
+     "z": -6
+    }
+   ]
+  },
+  {
+   "say": "He leaned on the scale. Unexpected mayor in the bagging area.",
+   "set": "store",
+   "cam": "close",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "shock",
+     "face": "shock",
+     "look": "mayor",
+     "x": 5,
+     "z": 2
+    }
+   ],
+   "notif": {
+    "title": "Self Checkout",
+    "text": "Unexpected MAYOR in the bagging area."
+   },
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "say": "One thousand dollars. He paid in coins. The coins were also unexpected.",
+   "set": "store",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "facepalm",
+     "face": "sad",
+     "look": "mayor",
+     "x": 5,
+     "z": 2,
+     "hold": "money"
+    }
+   ],
+   "big": {
+    "text": "-$1,000",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "That's when I had an idea.",
+   "set": "rooftop",
+   "cam": "orbit",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "fx": [
+    "question"
+   ],
+   "time": "sunset"
+  },
+  {
+   "say": "I bought a second self checkout. And put it in the bagging area of the first one.",
+   "set": "store",
+   "cam": "reveal",
+   "hero": {
+    "pose": "carry",
+    "face": "smug"
+   },
+   "label": "MACHINE VS MACHINE"
+  },
+  {
+   "say": "Unexpected item. Unexpected item. They fined each other all night.",
+   "set": "store",
+   "cam": "spin",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "notif": {
+    "title": "Self Checkout",
+    "text": "Unexpected item. Unexpected item. Unexpected item."
+   },
+   "fx": [
+    "alert",
+    "shake"
+   ]
+  },
+  {
+   "say": "By morning, the store owed everyone money. Free shopping for a year.",
+   "set": "store",
+   "cam": "wide",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "big": {
+    "text": "FREE",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "confetti",
+    "cash"
+   ]
+  },
+  {
+   "say": "So what's the most unexpected item YOU have put in the bagging area?",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

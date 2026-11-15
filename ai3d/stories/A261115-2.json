@@ -1,0 +1,313 @@
+{
+ "id": "A261115-2",
+ "title": "SNOOZE TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1152,
+ "key": 10,
+ "bpm": 116,
+ "hot": [
+  "snooze",
+  "Monday",
+  "alarm",
+  "mayor",
+  "asleep",
+  "gran",
+  "bedtime",
+  "owe"
+ ],
+ "beats": [
+  {
+   "say": "I pressed snooze three times this morning. It cost me thirty dollars.",
+   "set": "bedroom",
+   "cam": "high",
+   "hero": {
+    "pose": "sleep",
+    "in": "bed"
+   },
+   "big": {
+    "text": "-$30",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "zzz"
+   ],
+   "props": [
+    {
+     "type": "tag",
+     "text": "SNOOZE x3",
+     "x": -1,
+     "y": 5.5,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "Because in my town, the snooze button costs ten dollars a press.",
+   "set": "bedroom",
+   "cam": "close",
+   "label": "SNOOZE TAX",
+   "hero": {
+    "pose": "phone",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "SNOOZE = $10"
+   },
+   "notif": {
+    "title": "Alarm",
+    "text": "Snooze? That'll be $10."
+   }
+  },
+  {
+   "say": "And on Mondays, the whole town is late AND broke.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "walk",
+    "face": "sleep"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 10,
+    "face": "sleep"
+   },
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "Forty eight thousand snoozes. Before eight a.m.",
+   "set": "office",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "screen": "SNOOZES TODAY: 48,210",
+   "big": {
+    "text": "48,210",
+    "bg": "#9b64b8"
+   }
+  },
+  {
+   "say": "So people got clever. They hid their phones across the room.",
+   "set": "bedroom",
+   "cam": "side",
+   "hero": {
+    "pose": "sneak",
+    "face": "smug",
+    "hold": "phone"
+   }
+  },
+  {
+   "say": "Then the alarms got clever too. They grew legs and ran away.",
+   "set": "bedroom",
+   "cam": "low",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "fx": [
+    "alert",
+    "question"
+   ]
+  },
+  {
+   "say": "I chased mine down the street in my pyjamas.",
+   "set": "street",
+   "cam": "track",
+   "hero": {
+    "pose": "run",
+    "face": "angry"
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 6,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "Half the town was chasing alarm clocks. It was the most exercise we'd ever done.",
+   "set": "park",
+   "cam": "wide",
+   "label": "ALARM CHASE",
+   "hero": {
+    "pose": "run",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "run",
+    "n": 12,
+    "face": "shock"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "Then we found out where the snooze money goes.",
+   "set": "cityhall",
+   "cam": "low",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "The mayor. Four hundred thousand dollars. In one Monday.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "pose": "count",
+     "face": "smug",
+     "look": "mayor",
+     "z": -3,
+     "hold": "money"
+    }
+   ],
+   "big": {
+    "text": "+$400,000",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "So everyone stormed city hall. At six a.m.",
+   "set": "cityhall",
+   "cam": "wide",
+   "hero": {
+    "pose": "angry",
+    "face": "angry"
+   },
+   "crowd": {
+    "action": "run",
+    "n": 12,
+    "face": "shock"
+   },
+   "time": "sunset"
+  },
+  {
+   "say": "But the mayor wasn't at work. He'd pressed snooze too.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:mayor",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "idle",
+     "face": "sleep",
+     "z": -3
+    }
+   ],
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "So we changed the rule. Snooze money now goes to whoever wakes up first.",
+   "set": "cityhall",
+   "cam": "orbit",
+   "label": "NEW RULE",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 10,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "Next morning, my gran was up at four a.m.",
+   "set": "kitchen",
+   "cam": "face",
+   "focus": "npc:gran",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "gran",
+     "pose": "cheer",
+     "face": "happy",
+     "look": "grandma",
+     "hold": "mug"
+    }
+   ],
+   "time": "night"
+  },
+  {
+   "say": "By Friday, she owned the whole town.",
+   "set": "office",
+   "cam": "push",
+   "focus": "npc:gran",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "gran",
+     "pose": "count",
+     "face": "smug",
+     "look": "grandma",
+     "z": -3,
+     "hold": "money"
+    }
+   ],
+   "big": {
+    "text": "+$1,000,000",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "Her first new law? Bedtime is eight p.m. For everyone.",
+   "set": "cityhall",
+   "cam": "low",
+   "focus": "npc:gran",
+   "hero": {
+    "hide": true
+   },
+   "npcs": [
+    {
+     "id": "gran",
+     "pose": "point",
+     "face": "smug",
+     "look": "grandma",
+     "z": -6
+    }
+   ],
+   "label": "BEDTIME 8PM",
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "say": "So how many times did YOU hit snooze today? Tell me, and I'll tell you what you owe.",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

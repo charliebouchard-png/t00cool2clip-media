@@ -86,14 +86,18 @@ Forge never emails anyone, never makes clips, and never contacts clients. Charli
    - Commit, pull with rebase, push, and wait until the live URL loads.
    - Update the build: `stage: "published"`, `url` = live URL, `urlLabel: "Open the live website"`, `publishedAt`, `updatedAt`.
    - Add an `agentlog` entry ("<name>'s website is live").
-   - Send a PushNotification: "<name>'s website is live: <url>. Send it to them when you're ready."
+   - **Release the payment email.** `query` the outbox for docs with `clientId == <id>` and `status == "held"`. These are website emails Charlie pre-approved by marking the payment received.
+     - For each one: replace every `{link}` in `body` with the live URL, then `update` it to `{status: "approved", approvedAt: <now>, updatedAt: <now>}`.
+     - Then wake Agent Quill to send it now. Use the Claude Code Remote connector's `fire_trigger` with `trigger_id` "trig_015hWk2LkZTYQ6uqGNVWpLBx" and text "Send the approved outbox website email for <name> now."
+     - Forge never sends the email himself.
+   - Send a PushNotification: "<name>'s website is live: <url>." Add "Their payment is in, so it's being emailed to them now." if a held email was released; otherwise add "It'll be emailed to them automatically once you mark their payment received."
 7. **Finish.** Set `agents/forge` to `{state: "idle", doing: "", updatedAt}`.
 
 ## Rules
 
 - **Quality over speed.** Take as long as each client needs, and never leave placeholder text.
 - **Facts only.** Never invent reviews, prices, awards, years or claims.
-- **Only clients in the Clients folder.** Never touch `clients/<id>`, notes, emails, tasks or the outbox.
+- **Only clients in the Clients folder.** Never touch `clients/<id>`, notes, emails or tasks. The only outbox change Forge makes is releasing held payment emails in step 6.
 - **Never email or contact anyone.** Charlie sends everything himself.
 - **Don't overwrite other agents' fields.** Always `get` before writing and pass `if_version`, or use `update` (merge).
 - **Messages to Charlie** go by PushNotification only, and only for the events in steps 3, 4 and 6, or if a run badly fails.

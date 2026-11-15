@@ -143,6 +143,11 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
       vf = ("[0:v]split[a][b];[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=24:3,eq=brightness=-0.18[bg];"
             f"[b]scale=1080:-2,zoompan=z='min(1+0.0006*on,1.08)':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s=1080x608:fps=30[fg];"
             f"[bg][fg]overlay=0:(H-h)/2-40,subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw, "-t", f"{dur:.2f}", "-filter_complex", vf, "-map", "[v]", "-map", "0:a",
+    extra_in = []
+    if plan.get('watermark'):  # campaign-required watermark (e.g. MilkXP): plan["watermark"] = repo-relative png
+        wm = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), plan['watermark'])
+        extra_in = ["-loop", "1", "-i", wm]
+        vf = vf[:-3] + f"[v0];[1:v]scale={int(plan.get('wm_w', 380))}:-1[wm];[v0][wm]overlay=(W-w)/2:{int(plan.get('wm_y', 1290))}:shortest=1[v]"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw] + extra_in + ["-t", f"{dur:.2f}", "-filter_complex", vf, "-map", "[v]", "-map", "0:a",
                     "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "160k", "-af", (("volume=enable='" + "+".join(f"between(t,{a:.2f},{b:.2f})" for a, b in mute) + "':volume=0,") if mute else "") + "loudnorm=I=-14:TP=-1.5", "-movflags", "+faststart", out], check=True)
     print(out, round(dur, 1), "s")

@@ -1,0 +1,372 @@
+<title>ClipDesk Mk II</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: arc-reactor HUD — status ring + live ticker across the top, agents | approval box below, intel + log at the foot. Single committed dark look. */
+:root{
+  --void:#03070c; --panel:#07121c; --panel2:#0a1826; --line:#123247; --line2:#1d4a66;
+  --arc:#5fe3ff; --arc-dim:#2a8fb0; --ink:#d9f4ff; --mute:#7fa6bb; --faint:#4b6b7e;
+  --amber:#ffb547; --red:#ff5468; --green:#4dffb0; --gold:#ffd27a;
+  --display:"Chakra Petch","Rajdhani","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{background:var(--void);color:var(--ink)}
+body{font:14px/1.45 var(--mono);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:14px 40px;
+  background-image:radial-gradient(1200px 500px at 50% -120px,rgba(95,227,255,.10),transparent 70%),
+  linear-gradient(rgba(95,227,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(95,227,255,.035) 1px,transparent 1px);
+  background-size:auto,32px 32px,32px 32px;min-height:100%}
+.wrap{max-width:1280px;margin:0 auto;display:grid;gap:14px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+.lbl{font:600 11px/1 var(--display);letter-spacing:.18em;text-transform:uppercase;color:var(--arc-dim)}
+.panel{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);position:relative;padding:14px;min-width:0;
+  clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,14px 100%,0 calc(100% - 14px))}
+.panel::before{content:"";position:absolute;inset:0;pointer-events:none;border-top:2px solid var(--arc);width:46px;opacity:.8}
+.phead{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:10px}
+.phead h2{font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--arc)}
+button{font:600 12px/1 var(--display);letter-spacing:.12em;text-transform:uppercase;cursor:pointer;border:1px solid var(--arc-dim);background:rgba(95,227,255,.06);color:var(--arc);padding:9px 12px}
+button:hover{background:rgba(95,227,255,.14)} button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+button[disabled]{opacity:.4;cursor:default}
+button.go{background:var(--arc);color:#01212b;border-color:var(--arc)} button.go:hover{background:#9cf0ff}
+button.no{border-color:#6b2a35;color:var(--red);background:rgba(255,84,104,.06)}
+a{color:var(--arc)}
+
+/* top bar */
+.top{display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center}
+.brand h1{font-size:clamp(22px,4vw,34px);font-weight:700;letter-spacing:.12em;line-height:1}
+.brand h1 b{color:var(--arc)}
+.brand p{margin:6px 0 0;color:var(--mute);font-size:12px;letter-spacing:.06em}
+.sys{display:flex;gap:10px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.clock{font:600 22px/1 var(--display);letter-spacing:.08em;font-variant-numeric:tabular-nums}
+.pill{font:600 11px/1 var(--display);letter-spacing:.16em;padding:7px 10px;border:1px solid currentColor;text-transform:uppercase}
+.pill.on{color:var(--green)} .pill.off{color:var(--amber)} .pill.wait{color:var(--mute)}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:currentColor;margin-right:7px;box-shadow:0 0 10px currentColor;animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.35}}
+
+/* ticker */
+.ticker{border:1px solid var(--line);background:#020a11;display:flex;align-items:stretch;overflow:hidden;min-width:0}
+.ticker .tag{font:700 12px/1 var(--display);letter-spacing:.18em;background:var(--arc);color:#01212b;padding:10px 12px;white-space:nowrap;display:flex;align-items:center}
+.tk{flex:1;overflow:hidden;position:relative;min-width:0}
+.tk-in{display:inline-flex;gap:38px;white-space:nowrap;padding:10px 0 10px 20px;animation:scroll 70s linear infinite;will-change:transform}
+.tk:hover .tk-in{animation-play-state:paused}
+@keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tk-in span{color:var(--ink)} .tk-in i{font-style:normal;color:var(--arc-dim);margin-right:8px}
+
+/* status row */
+.status{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:14px}
+.reactor{display:grid;place-items:center;padding:8px}
+.reactor svg{width:100%;max-width:240px;height:auto}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;align-content:start}
+.stat{border:1px solid var(--line);padding:10px 12px;background:rgba(2,10,17,.6)}
+.stat b{display:block;font:600 26px/1.1 var(--display);font-variant-numeric:tabular-nums;color:var(--ink)}
+.stat small{color:var(--mute);font-size:11px}
+.stat.warn b{color:var(--amber)} .stat.ok b{color:var(--green)}
+.bar{height:4px;background:#0c2232;margin-top:8px} .bar i{display:block;height:100%;background:var(--arc)}
+
+/* main */
+.main{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:14px;align-items:start}
+.agents{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.agent{border:1px solid var(--line);padding:10px;background:rgba(2,10,17,.55);display:grid;gap:6px;min-width:0}
+.agent .h{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.agent .n{font:700 12px/1 var(--display);letter-spacing:.12em;color:var(--arc)}
+.agent .t{font:600 14px/1.2 var(--display);color:var(--ink)}
+.agent .task{color:var(--mute);font-size:12px;min-height:2.9em;overflow-wrap:anywhere}
+.agent .ts{color:var(--faint);font-size:11px}
+.st{font:600 10px/1 var(--display);letter-spacing:.16em;padding:4px 6px;border:1px solid;text-transform:uppercase;white-space:nowrap}
+.st.working{color:var(--arc);border-color:var(--arc)} .st.working::before{content:"";display:inline-block;width:6px;height:6px;background:currentColor;margin-right:5px;animation:pulse 1s infinite}
+.st.done{color:var(--green);border-color:#1f6b52} .st.idle{color:var(--faint);border-color:var(--line)}
+.st.error{color:var(--red);border-color:#6b2a35} .st.waiting{color:var(--amber);border-color:#6b5022}
+.agent.working{border-color:var(--arc-dim);box-shadow:inset 0 0 18px rgba(95,227,255,.08)}
+
+/* approval box */
+.appr-actions{display:flex;gap:8px;flex-wrap:wrap}
+.batches{display:grid;gap:12px}
+.batch{border:1px solid var(--line2);background:rgba(2,10,17,.6)}
+.batch.approved,.batch.posting{border-color:#1f6b52} .batch.done{opacity:.6} .batch.rejected{opacity:.45;border-color:#6b2a35}
+.bh{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 12px;border-bottom:1px solid var(--line);flex-wrap:wrap}
+.bh h3{font-size:15px;letter-spacing:.1em}
+.bh .meta{color:var(--mute);font-size:12px}
+.items{display:grid}
+.it{display:grid;grid-template-columns:54px minmax(0,1fr) auto;gap:10px;align-items:center;padding:8px 12px;border-bottom:1px solid rgba(18,50,71,.6)}
+.it:last-child{border-bottom:0}
+.it.skip{opacity:.38} .it.skip .tt{text-decoration:line-through}
+.thumb{width:54px;aspect-ratio:9/16;max-width:100%;background:#0b1c2a center/cover no-repeat;border:1px solid var(--line);display:grid;place-items:center;color:var(--faint);font:600 9px/1 var(--display);letter-spacing:.1em}
+.tt{font:600 13px/1.25 var(--display);color:var(--ink);overflow-wrap:anywhere}
+.sub{color:var(--mute);font-size:11px;margin-top:3px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.chip{font:600 10px/1 var(--display);letter-spacing:.1em;padding:3px 5px;border:1px solid var(--line2);color:var(--mute);text-transform:uppercase}
+.chip.tt-k{color:#ff7ad9;border-color:#5a2a4f} .chip.yt{color:#ff6b6b;border-color:#5b2a2a} .chip.ai{color:var(--gold);border-color:#5b4a22}
+.chip.posted{color:var(--green);border-color:#1f6b52} .chip.failed{color:var(--red);border-color:#6b2a35}
+.warnx{color:var(--amber)}
+.it .acts{display:flex;gap:6px;align-items:center}
+.it .acts button{padding:7px 8px;font-size:10px}
+.empty{color:var(--mute);padding:18px 12px;border:1px dashed var(--line2);text-align:left;line-height:1.6}
+
+/* lower */
+.lower{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:14px;align-items:start}
+.intel ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
+.intel li{border-left:2px solid var(--arc-dim);padding:2px 0 2px 10px}
+.intel li b{font:600 13px/1.3 var(--display);color:var(--ink);display:block}
+.intel li span{color:var(--mute);font-size:12px}
+.intel .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.log{max-height:420px;overflow:auto;display:grid;gap:2px;font-size:12px}
+.log div{display:grid;grid-template-columns:62px 34px minmax(0,1fr);gap:8px;padding:4px 0;border-bottom:1px solid rgba(18,50,71,.5)}
+.log time{color:var(--faint);font-variant-numeric:tabular-nums}
+.log .a{color:var(--arc);font-weight:600}
+.log .ok{color:var(--green)} .log .warn{color:var(--amber)} .log .err{color:var(--red)}
+.note{color:var(--mute);font-size:12px}
+.toast{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--arc);color:#01212b;font:600 13px/1 var(--display);letter-spacing:.08em;padding:11px 16px;z-index:20}
+
+.office{position:relative;width:100%;border:1px solid var(--line);background:#020a11;overflow:hidden}
+.office canvas{display:block;width:100%;height:auto}
+@media (max-width:980px){.main,.lower{grid-template-columns:1fr}.status{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.top{grid-template-columns:1fr}.sys{justify-content:flex-start}.agents{grid-template-columns:1fr}.intel .cols{grid-template-columns:1fr}
+  .it{grid-template-columns:44px minmax(0,1fr)}.it .acts{grid-column:1/-1;justify-content:flex-end}.thumb{width:44px}}
+@media (prefers-reduced-motion:reduce){.tk-in{animation:none;flex-wrap:wrap;white-space:normal}.dot,.st.working::before{animation:none}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="brand"><h1>CLIPDESK <b>MK·II</b></h1><p>8-agent content operations · TikTok + YouTube Shorts</p></div>
+    <div></div>
+    <div class="sys">
+      <span id="sysPill" class="pill wait"><span class="dot"></span>Connecting</span>
+      <span class="clock" id="clock">--:--:--</span>
+      <button id="pauseBtn" hidden>Pause posting</button>
+    </div>
+  </header>
+
+  <div class="ticker" aria-label="Live activity ticker"><div class="tag">LIVE</div><div class="tk"><div class="tk-in" id="tk"><span><i>SYS</i>Waiting for the first agent report…</span></div></div></div>
+
+  <section class="panel office-panel">
+    <div class="phead"><h2>The office</h2><div class="appr-actions"><span class="lbl" id="officeNote">Live · hand-offs walk desk to desk</span><button id="replayBtn">Replay today</button></div></div>
+    <div class="office" id="officeWrap"><canvas id="office" aria-label="Agents at their desks; when one hands work to another you see them walk it over"></canvas></div>
+  </section>
+
+  <section class="status">
+    <div class="panel reactor">
+      <svg viewBox="0 0 240 240" role="img" aria-labelledby="rtitle"><title id="rtitle">Posts today against the 50 target</title>
+        <defs><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+        <circle cx="120" cy="120" r="108" fill="none" stroke="#123247" stroke-width="1"/>
+        <g id="segs"></g>
+        <circle cx="120" cy="120" r="70" fill="#03101a" stroke="#1d4a66" stroke-width="1"/>
+        <circle cx="120" cy="120" r="62" fill="none" stroke="#5fe3ff" stroke-opacity=".25" stroke-dasharray="2 6"/>
+        <text x="120" y="112" text-anchor="middle" fill="#d9f4ff" font-family="Chakra Petch, sans-serif" font-weight="700" font-size="44" id="rNum">0</text>
+        <text x="120" y="136" text-anchor="middle" fill="#7fa6bb" font-family="IBM Plex Mono, monospace" font-size="11" id="rSub">OF 50 POSTED</text>
+        <text x="120" y="156" text-anchor="middle" fill="#2a8fb0" font-family="Chakra Petch, sans-serif" font-size="10" letter-spacing="2" id="rDay">TODAY</text>
+      </svg>
+    </div>
+    <div class="panel">
+      <div class="phead"><h2>System status</h2><span class="lbl" id="lastRun">No run yet</span></div>
+      <div class="stats" id="stats">
+        <div class="stat"><span class="lbl">Made today</span><b id="sMade">0</b><small>clips + AI videos</small></div>
+        <div class="stat ok"><span class="lbl">QC passed</span><b id="sQc">0</b><small id="sQcF">by Agent 7</small></div>
+        <div class="stat warn"><span class="lbl">Awaiting you</span><b id="sWait">0</b><small>in the approval box</small></div>
+        <div class="stat"><span class="lbl">Next post</span><b id="sNext">--:--</b><small id="sNextT">nothing queued</small></div>
+        <div class="stat"><span class="lbl">YouTube Shorts</span><b id="sYt">0</b><small>posted today</small></div>
+        <div class="stat"><span class="lbl">TikTok</span><b id="sTk">0</b><small>of ~15/day API cap</small><div class="bar"><i id="tkBar" style="width:0"></i></div></div>
+        <div class="stat"><span class="lbl">Approved queue</span><b id="sQ">0</b><small>waiting to post</small></div>
+        <div class="stat"><span class="lbl">Spacing</span><b>10 min</b><small>between posts</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main">
+    <div class="panel">
+      <div class="phead"><h2>Agents</h2><span class="lbl">Live state</span></div>
+      <div class="agents" id="agents"></div>
+    </div>
+    <div class="panel" id="approval">
+      <div class="phead"><h2>Approval box</h2>
+        <div class="appr-actions"><button class="go" id="approveAll" disabled>Approve all waiting</button></div></div>
+      <div class="batches" id="batches"><div class="empty">Nothing waiting. The 02:50 build run drops today's batches here, ten videos at a time. Tap <b>Approve</b> on a batch and Agent 8 posts it, one video every 10 minutes.</div></div>
+    </div>
+  </section>
+
+  <section class="lower">
+    <div class="panel intel">
+      <div class="phead"><h2>Intel</h2><span class="lbl" id="intelDay">Agents 1 + 2</span></div>
+      <div class="cols">
+        <div><div class="lbl" style="margin-bottom:8px">Trending now</div><ul id="trends"><li><span>Agent 1 reports here after the 02:50 run.</span></li></ul></div>
+        <div><div class="lbl" style="margin-bottom:8px">World events</div><ul id="news"><li><span>Agent 2 reports here after the 02:50 run.</span></li></ul></div>
+      </div>
+      <div class="lbl" style="margin:14px 0 8px">Today's source videos</div><ul id="sources"><li><span>The 5 long videos Agent 1 picks for Agent 6.</span></li></ul>
+    </div>
+    <div class="panel">
+      <div class="phead"><h2>Activity log</h2><span class="lbl">Newest first</span></div>
+      <div class="log" id="log"><div><time>--:--</time><span class="a">SYS</span><span>No activity yet.</span></div></div>
+    </div>
+  </section>
+  <p class="note" id="foot">Videos only post after you approve them. Agent 8 posts approved items at the next hourly slot (07:05–23:05 UK), 10 minutes apart.</p>
+</div>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+const AG=[["1","Trend & link research"],["2","World news"],["3","Fast editor"],["4","Captions & hashtags"],["5","AI video generator"],["6","Long-form clipper"],["7","Quality control"],["8","Auto-poster"]];
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const ukTime=d=>new Date(d).toLocaleTimeString("en-GB",{timeZone:"Europe/London",hour:"2-digit",minute:"2-digit"});
+const ukDay=()=>new Date().toLocaleDateString("en-CA",{timeZone:"Europe/London"});
+let db=null, canWrite=true, S={feed:[],agents:{},batches:[],stats:{},intel:{},control:{}};
+function toast(t){const e=$("toast");e.textContent=t;e.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>e.hidden=true,2600)}
+setInterval(()=>{$("clock").textContent=new Date().toLocaleTimeString("en-GB",{timeZone:"Europe/London"})},1000);
+
+// reactor: 50 segments
+(function(){const g=$("segs");let h="";for(let i=0;i<50;i++){const a0=(i/50)*2*Math.PI-Math.PI/2+.012,a1=((i+1)/50)*2*Math.PI-Math.PI/2-.012;
+ const p=(r,a)=>[120+r*Math.cos(a),120+r*Math.sin(a)].map(n=>n.toFixed(2)).join(",");
+ h+=`<path id="sg${i}" d="M${p(98,a0)} A98 98 0 0 1 ${p(98,a1)} L${p(82,a1)} A82 82 0 0 0 ${p(82,a0)} Z" fill="#0c2232"/>`}g.innerHTML=h})();
+
+function renderAgents(){$("agents").innerHTML=AG.map(([n,t])=>{const a=S.agents["a"+n]||{};const st=a.state||"idle";
+ return `<div class="agent ${st}"><div class="h"><span class="n">AGENT ${n}</span><span class="st ${esc(st)}">${esc(st)}</span></div>
+ <div class="t">${esc(t)}</div><div class="task">${esc(a.task||"Standing by")}</div><div class="ts">${a.updatedAt?"Updated "+ukTime(a.updatedAt):"—"}${a.count?` · ${a.count} today`:""}</div></div>`}).join("")}
+
+function renderFeed(){const f=S.feed;
+ if(f.length){const items=f.slice(0,18).map(e=>`<span><i>${e.agent?"A"+esc(e.agent):"SYS"} ${ukTime(e.at)}</i>${esc(e.text)}</span>`).join("");$("tk").innerHTML=items+items}
+ $("log").innerHTML=f.length?f.map(e=>`<div><time>${ukTime(e.at)}</time><span class="a">${e.agent?"A"+esc(e.agent):"SYS"}</span><span class="${esc(e.level||"")}">${esc(e.text)}</span></div>`).join(""):'<div><time>--:--</time><span class="a">SYS</span><span>No activity yet.</span></div>'}
+
+function renderStats(){const s=S.stats||{};const today=ukDay();const live=s.day===today;
+ const posted=live?(s.posted||0):0, target=s.target||50;
+ for(let i=0;i<50;i++){const el=$("sg"+i);if(el)el.setAttribute("fill",i<Math.round(posted/target*50)?"#5fe3ff":"#0c2232");el&&el.setAttribute("filter",i<Math.round(posted/target*50)?"url(#glow)":"")}
+ $("rNum").textContent=posted;$("rSub").textContent=`OF ${target} POSTED`;$("rDay").textContent=new Date().toLocaleDateString("en-GB",{weekday:"short",day:"numeric",month:"short",timeZone:"Europe/London"}).toUpperCase();
+ $("sMade").textContent=live?(s.made||0):0;$("sQc").textContent=live?(s.qcPassed||0):0;$("sQcF").textContent=live&&s.qcFailed?`${s.qcFailed} rejected by Agent 7`:"by Agent 7";
+ $("sYt").textContent=live?(s.youtube||0):0;$("sTk").textContent=live?(s.tiktok||0):0;$("tkBar").style.width=Math.min(100,(live?(s.tiktok||0):0)/15*100)+"%";
+ $("lastRun").textContent=s.lastRun?"Last build "+new Date(s.lastRun).toLocaleString("en-GB",{timeZone:"Europe/London",weekday:"short",hour:"2-digit",minute:"2-digit"}):"No run yet";
+ const wait=S.batches.filter(b=>b.status==="pending").reduce((n,b)=>n+b.items.filter(i=>!i.skip).length,0);$("sWait").textContent=wait;
+ const q=S.batches.filter(b=>b.status==="approved"||b.status==="posting").reduce((n,b)=>n+b.items.filter(i=>!i.skip&&i.state!=="posted"&&i.state!=="failed").length,0);$("sQ").textContent=q;
+ $("sNext").textContent=s.nextPostAt?ukTime(s.nextPostAt):"--:--";$("sNextT").textContent=s.nextTitle?s.nextTitle:"nothing queued";
+ $("approveAll").disabled=!canWrite||!S.batches.some(b=>b.status==="pending");
+ const paused=!!S.control.paused;const pill=$("sysPill");pill.className="pill "+(paused?"off":"on");pill.innerHTML=`<span class="dot"></span>${paused?"Posting paused":"Online"}`;
+ const pb=$("pauseBtn");pb.hidden=!canWrite;pb.textContent=paused?"Resume posting":"Pause posting";pb.className=paused?"go":"no"}
+
+function renderIntel(){const n=S.intel||{};
+ const li=(arr,f)=>arr&&arr.length?arr.map(f).join(""):null;
+ $("trends").innerHTML=li(n.trends,t=>`<li><b>${esc(t.title)}</b><span>${esc(t.why||"")}</span></li>`)||"<li><span>Agent 1 reports here after the 02:50 run.</span></li>";
+ $("news").innerHTML=li(n.news,t=>`<li><b>${esc(t.title)}</b><span>${esc(t.angle||"")}</span></li>`)||"<li><span>Agent 2 reports here after the 02:50 run.</span></li>";
+ $("sources").innerHTML=li(n.sources,t=>`<li><b>${t.url?`<a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.title)}</a>`:esc(t.title)}</b><span>${esc(t.channel||"")}${t.views?" · "+esc(t.views)+" views":""}${t.clips?" · "+esc(t.clips)+" clips":""}</span></li>`)||"<li><span>The 5 long videos Agent 1 picks for Agent 6.</span></li>";
+ $("intelDay").textContent=n.day?"Report for "+n.day:"Agents 1 + 2"}
+
+const LABEL={pending:"Waiting for you",approved:"Approved · queued",posting:"Posting",done:"All posted",rejected:"Rejected"};
+function renderBatches(){const bs=[...S.batches].sort((a,b)=>(b.day||"").localeCompare(a.day||"")||(a.n||0)-(b.n||0));
+ if(!bs.length){$("batches").innerHTML='<div class="empty">Nothing waiting. The 02:50 build run drops today\'s batches here, ten videos at a time. Tap <b>Approve</b> on a batch and Agent 8 posts it, one video every 10 minutes.</div>';return}
+ $("batches").innerHTML=bs.map(b=>{const live=b.items.filter(i=>!i.skip);const tk=live.filter(i=>(i.platforms||[]).includes("tiktok")).length;
+  const pend=b.status==="pending";
+  return `<div class="batch ${esc(b.status)}" data-id="${esc(b._id)}"><div class="bh"><div><h3>Batch ${String(b.n).padStart(2,"0")} · ${esc(b.day)}</h3>
+  <div class="meta">${live.length} videos · ${tk} to TikTok · ${live.length} to Shorts · <span class="lbl" style="letter-spacing:.12em">${esc(LABEL[b.status]||b.status)}</span></div></div>
+  <div class="appr-actions">${pend&&canWrite?`<button class="go" data-act="approve">Approve batch</button><button class="no" data-act="reject">Reject</button>`:""}${b.status==="approved"&&canWrite?`<button class="no" data-act="unapprove">Hold</button>`:""}</div></div>
+  <div class="items">${b.items.map((i,k)=>`<div class="it ${i.skip?"skip":""}"><div class="thumb" ${i.thumbAsset?`style="background-image:url('${esc(i.thumbAsset)}')"`:""}>${i.thumbAsset?"":esc(i.kind==="ai"?"AI":"CLIP")}</div>
+   <div style="min-width:0"><div class="tt">${esc(i.title)}</div><div class="sub">${i.kind==="ai"?'<span class="chip ai">AI</span>':""}<span>${esc(i.source||"")}</span>${i.dur?`<span>${esc(i.dur)}s</span>`:""}
+   ${(i.platforms||[]).includes("youtube")?'<span class="chip yt">Shorts</span>':""}${(i.platforms||[]).includes("tiktok")?'<span class="chip tt-k">TikTok</span>':""}
+   ${i.state==="posted"?`<span class="chip posted">Posted ${i.postedAt?ukTime(i.postedAt):""}</span>`:""}${i.state==="failed"?'<span class="chip failed">Failed</span>':""}
+   ${(i.warn||[]).length?`<span class="warnx">⚠ ${esc(i.warn.join(", "))}</span>`:""}</div></div>
+   <div class="acts">${i.preview?`<a href="${esc(i.preview)}" target="_blank" rel="noopener">Watch ↗</a>`:""}${(pend||b.status==="approved")&&canWrite&&i.state!=="posted"?`<button data-act="skip" data-k="${k}">${i.skip?"Keep":"Skip"}</button>`:""}</div></div>`).join("")}</div></div>`}).join("")}
+
+/* ---------- THE OFFICE: 8 desks; hand-offs (feed events with a `to`) are walked over ---------- */
+const OFF=(()=>{
+ const cv=$("office"),cx=cv.getContext("2d");let W=0,H=0,DPR=1,cols=4,desks=[],walkers=[],queue=[],busy=false,t0=performance.now();
+ const COL=["#5fe3ff","#ffb547","#4dffb0","#ff7ad9","#ffd27a","#8f9bff","#ff6b6b","#b4ff6b"];
+ const NAME=["TREND","NEWS","EDITOR","COPY","AI GEN","CLIPPER","QC","POSTER"];
+ const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
+ function layout(){const w=$("officeWrap").clientWidth;cols=w<620?2:4;const rows=8/cols;W=w;const cellH=cols===4?150:140;H=rows*cellH+40;DPR=Math.min(2,devicePixelRatio||1);
+  cv.width=W*DPR;cv.height=H*DPR;cv.style.height=H+"px";cx.setTransform(DPR,0,0,DPR,0,0);
+  const cw=W/cols;desks=[];for(let i=0;i<8;i++){const c=i%cols,r=Math.floor(i/cols);const x=c*cw+cw/2,y=20+r*cellH+46;
+   desks.push({x,y,seat:{x,y:y+40},stand:{x:x+Math.min(46,cw*.28),y:y+42},aisle:y+cellH/2+18,cw,cellH})}
+  walkers.forEach(w=>{const d=desks[w.home];if(!w.path){w.x=d.seat.x;w.y=d.seat.y}})}
+ function seat(i){return {home:i,x:0,y:0,path:null,carry:null,flash:0}}
+ for(let i=0;i<8;i++)walkers.push(seat(i));
+ function pathTo(a,b){const A=desks[a],B=desks[b];const gx=(x)=>{const c=Math.round(x/A.cw);return Math.max(8,Math.min(W-8,c*A.cw))};
+  const p=[{x:A.seat.x,y:A.seat.y},{x:A.seat.x,y:A.aisle}];
+  if(A.aisle!==B.aisle){const g=gx((A.seat.x+B.seat.x)/2);p.push({x:g,y:A.aisle},{x:g,y:B.aisle})}
+  p.push({x:B.stand.x,y:B.aisle},{x:B.stand.x,y:B.stand.y});return p}
+ function go(from,to,label,kind){queue.push({from,to,label,kind});pump()}
+ function pump(){if(busy||!queue.length||!desks.length)return;busy=true;const j=queue.shift();const w=walkers[j.from];
+  const out=pathTo(j.from,j.to);w.carry={label:j.label,kind:j.kind};
+  if(reduce){walkers[j.to].flash=1;w.carry=null;busy=false;setTimeout(pump,400);return}
+  w.path={pts:out,seg:0,u:0,speed:150,then:()=>{walkers[j.to].flash=1;w.carry=null;w.pause=900;
+   w.path={pts:[...out].reverse(),seg:0,u:0,speed:170,then:()=>{w.path=null;busy=false;setTimeout(pump,250)}}}}}
+ function step(dt){walkers.forEach(w=>{if(w.flash>0)w.flash=Math.max(0,w.flash-dt/1600);
+  if(w.pause>0){w.pause-=dt;return}
+  if(!w.path){const d=desks[w.home];w.x=d.seat.x;w.y=d.seat.y;return}
+  const P=w.path,a=P.pts[P.seg],b=P.pts[P.seg+1];if(!b){const f=P.then;w.path=null;f&&f();return}
+  const L=Math.hypot(b.x-a.x,b.y-a.y)||1;P.u+=P.speed*dt/1000/L;if(P.u>=1){P.seg++;P.u=0;w.x=b.x;w.y=b.y}else{w.x=a.x+(b.x-a.x)*P.u;w.y=a.y+(b.y-a.y)*P.u}})}
+ function rr(x,y,w,h,r){cx.beginPath();cx.moveTo(x+r,y);cx.arcTo(x+w,y,x+w,y+h,r);cx.arcTo(x+w,y+h,x,y+h,r);cx.arcTo(x,y+h,x,y,r);cx.arcTo(x,y,x+w,y,r);cx.closePath()}
+ function draw(now){const T=(now-t0)/1000;cx.clearRect(0,0,W,H);
+  // floor grid
+  cx.strokeStyle="rgba(95,227,255,.06)";cx.lineWidth=1;for(let x=0;x<W;x+=24){cx.beginPath();cx.moveTo(x,0);cx.lineTo(x,H);cx.stroke()}for(let y=0;y<H;y+=24){cx.beginPath();cx.moveTo(0,y);cx.lineTo(W,y);cx.stroke()}
+  // back wall + aisles
+  cx.fillStyle="rgba(95,227,255,.05)";cx.fillRect(0,0,W,10);cx.fillStyle="rgba(95,227,255,.5)";cx.fillRect(0,9,W,1);
+  [...new Set(desks.map(d=>d.aisle))].forEach(y=>{cx.setLineDash([6,8]);cx.strokeStyle="rgba(95,227,255,.10)";cx.beginPath();cx.moveTo(8,y);cx.lineTo(W-8,y);cx.stroke();cx.setLineDash([])});
+  desks.forEach((d,i)=>{const a=S.agents["a"+(i+1)]||{},st=a.state||"idle",col=COL[i],work=st==="working";
+   const dw=Math.min(118,d.cw*.7),dh=34;
+   // desk glow ring
+   cx.save();cx.globalAlpha=.9;cx.strokeStyle=work?col:"rgba(95,227,255,.25)";cx.lineWidth=1.2;rr(d.x-dw/2,d.y-dh/2,dw,dh,4);cx.fillStyle="#0a1a28";cx.fill();cx.stroke();
+   // monitor
+   const mw=dw*.46,mh=16;cx.fillStyle=work?col:"#163247";cx.globalAlpha=work?(.55+.35*Math.abs(Math.sin(T*3+i))):.7;rr(d.x-mw/2,d.y-dh/2-mh+6,mw,mh,2);cx.fill();cx.globalAlpha=1;
+   if(work){cx.fillStyle="#03121b";for(let k=0;k<3;k++){const ww=(mw-10)*(.4+.5*Math.abs(Math.sin(T*2+k+i)));cx.fillRect(d.x-mw/2+5,d.y-dh/2-mh+9+k*4,ww,2)}}
+   cx.restore();
+   // chair (empty while its agent is out walking)
+   cx.fillStyle="#0b1d2b";cx.strokeStyle="rgba(95,227,255,.22)";cx.lineWidth=1;rr(d.seat.x-13,d.seat.y-6,26,22,7);cx.fill();cx.stroke();
+   // desk clutter: keyboard + a little plant / mug
+   cx.fillStyle="rgba(95,227,255,.18)";cx.fillRect(d.x-dw*.18,d.y+9,dw*.36,4);
+   cx.fillStyle=i%2?"#2f7d5c":"#5a4a2a";cx.beginPath();cx.arc(d.x+dw/2-10,d.y-6,4,0,7);cx.fill();
+   // name plate
+   cx.font="600 10px 'Chakra Petch',sans-serif";cx.textAlign="center";cx.fillStyle=col;cx.fillText(`A${i+1} · ${NAME[i]}`,d.x,d.y+5);
+   // status under chair
+   cx.font="500 9px 'IBM Plex Mono',monospace";cx.fillStyle=st==="error"?"#ff5468":st==="done"?"#4dffb0":work?col:"#4b6b7e";
+   const task=(a.task||"standing by");cx.fillText((st.toUpperCase()+" · "+task).slice(0,Math.floor(d.cw/6)),d.x,d.y+70);
+   if(walkers[i].flash>0){cx.strokeStyle=COL[i];cx.globalAlpha=walkers[i].flash;cx.lineWidth=2;cx.beginPath();cx.arc(d.x,d.y,dw*.62*(1.2-walkers[i].flash*.2),0,7);cx.stroke();cx.globalAlpha=1}
+  });
+  walkers.forEach((w,i)=>{const col=COL[i],moving=!!w.path&&!w.pause,bob=moving?Math.sin(performance.now()/90)*1.6:0,typing=(S.agents["a"+(i+1)]||{}).state==="working"&&!w.path;
+   cx.save();cx.translate(w.x,w.y+bob);
+   cx.fillStyle="rgba(0,0,0,.35)";cx.beginPath();cx.ellipse(0,12,11,4,0,0,7);cx.fill();
+   cx.fillStyle="#0d2232";cx.strokeStyle=col;cx.lineWidth=1.5;cx.beginPath();cx.ellipse(0,4,10,9,0,0,7);cx.fill();cx.stroke(); // body
+   if(typing){cx.strokeStyle=col;cx.lineWidth=2;const k=Math.sin(performance.now()/80)*2;cx.beginPath();cx.moveTo(-8,0);cx.lineTo(-6,-8+k);cx.moveTo(8,0);cx.lineTo(6,-8-k);cx.stroke()}
+   cx.fillStyle=col;cx.beginPath();cx.arc(0,-8,6,0,7);cx.fill(); // head
+   cx.fillStyle="#03121b";cx.fillRect(-3,-9,6,2); // visor
+   if(w.carry){const lab=w.carry.label,ic=w.carry.kind==="video"?"▶":w.carry.kind==="link"?"⛓":"✦";cx.font="600 10px 'Chakra Petch',sans-serif";const tw=cx.measureText(ic+" "+lab).width+12;
+    cx.fillStyle="rgba(3,18,27,.92)";cx.strokeStyle=col;rr(-tw/2,-36,tw,17,3);cx.fill();cx.stroke();cx.fillStyle=col;cx.textAlign="center";cx.fillText(ic+" "+lab,0,-24)}
+   cx.restore()});
+ }
+ let last=performance.now();function loop(now){step(Math.min(64,now-last));last=now;draw(now);requestAnimationFrame(loop)}
+ addEventListener("resize",()=>{layout()});
+ return {start(){layout();requestAnimationFrame(loop)},go,clear(){queue.length=0}};
+})();
+let seenHand=new Set(),feedPrimed=false;
+function handoffs(list){return list.filter(e=>e.to&&e.agent&&e.to!==e.agent&&e.to>=1&&e.to<=8)}
+function onFeed(docs){const hs=handoffs(docs);
+ if(!feedPrimed){feedPrimed=true;hs.forEach(e=>seenHand.add(e.at+e.agent+e.to));const lastH=hs[0];if(lastH)OFF.go(lastH.agent-1,lastH.to-1,lastH.item||"work",lastH.kind);return}
+ hs.slice().reverse().forEach(e=>{const k=e.at+e.agent+e.to;if(!seenHand.has(k)){seenHand.add(k);OFF.go(e.agent-1,e.to-1,e.item||"work",e.kind)}})}
+$("replayBtn").addEventListener("click",()=>{const today=ukDay();OFF.clear();const hs=handoffs(S.feed).filter(e=>new Date(e.at).toLocaleDateString("en-CA",{timeZone:"Europe/London"})===today).reverse();
+ const list=hs.length?hs:[{agent:1,to:6,item:"5 links",kind:"link"},{agent:2,to:5,item:"news story",kind:"intel"},{agent:6,to:4,item:"50 moments",kind:"video"},{agent:4,to:3,item:"captions",kind:"intel"},{agent:3,to:7,item:"50 clips",kind:"video"},{agent:5,to:7,item:"4 AI videos",kind:"video"},{agent:7,to:8,item:"batches",kind:"video"}];
+ list.forEach(e=>OFF.go(e.agent-1,e.to-1,e.item||"work",e.kind));toast(hs.length?`Replaying ${hs.length} hand-offs from today`:"No hand-offs yet today — showing the daily flow")});
+OFF.start();
+
+function renderAll(){renderAgents();renderFeed();renderStats();renderIntel();renderBatches()}
+renderAll();
+
+async function setBatch(id,patch){if(!db)return;try{await db.doc("batches/"+id).update(patch)}catch(e){toast(e.code==="invalid_argument"?"You can view this box but not approve.":"Couldn't save — try again.");throw e}}
+$("batches").addEventListener("click",async ev=>{const btn=ev.target.closest("button[data-act]");if(!btn)return;const card=btn.closest(".batch");const id=card.dataset.id;const b=S.batches.find(x=>x._id===id);if(!b)return;btn.disabled=true;
+ try{const act=btn.dataset.act;
+  if(act==="approve"){await setBatch(id,{status:"approved",approvedAt:new Date().toISOString()});toast(`Batch ${b.n} approved — posting starts at the next slot`)}
+  else if(act==="reject"){await setBatch(id,{status:"rejected",rejectedAt:new Date().toISOString()});toast(`Batch ${b.n} rejected`)}
+  else if(act==="unapprove"){await setBatch(id,{status:"pending"});toast(`Batch ${b.n} on hold`)}
+  else if(act==="skip"){const items=b.items.map((x,k)=>k===+btn.dataset.k?{...x,skip:!x.skip}:{...x});await setBatch(id,{items})}
+ }catch(e){}finally{btn.disabled=false}});
+$("approveAll").addEventListener("click",async()=>{const ps=S.batches.filter(b=>b.status==="pending");$("approveAll").disabled=true;
+ for(const b of ps){try{await setBatch(b._id,{status:"approved",approvedAt:new Date().toISOString()})}catch(e){break}}toast(`${ps.length} batch${ps.length===1?"":"es"} approved`)});
+$("pauseBtn").addEventListener("click",async()=>{if(!db)return;const p=!S.control.paused;try{await db.doc("control/system").set({paused:p,changedAt:new Date().toISOString()});toast(p?"Posting paused — nothing new will post":"Posting resumed")}catch(e){toast("Couldn't change it — try again.")}});
+
+(async()=>{
+ const t=setTimeout(()=>{const p=$("sysPill");p.className="pill off";p.innerHTML='<span class="dot"></span>Offline · data unreachable'},10000);
+ db=await claude.use("db");
+ if(!db){clearTimeout(t);const p=$("sysPill");p.className="pill off";p.innerHTML='<span class="dot"></span>Sign in to see live data';return}
+ try{const user=await claude.use("user");const w=user?await user.can("data.write"):null;canWrite=w!==false}catch(e){}
+ const fail=e=>{clearTimeout(t);const p=$("sysPill");p.className="pill off";p.innerHTML='<span class="dot"></span>Live link lost — reopen the page'};
+ db.collection("feed").orderBy("at","desc").limit(80).onSnapshot(s=>{if(!s.metadata.fromCache)clearTimeout(t);S.feed=s.docs.map(d=>d.data());renderFeed();if(!s.metadata.fromCache||feedPrimed)onFeed(S.feed)},fail);
+ db.collection("agents").onSnapshot(s=>{S.agents={};s.docs.forEach(d=>S.agents[d.id]=d.data());renderAgents()},fail);
+ db.collection("batches").orderBy("day","desc").limit(40).onSnapshot(s=>{S.batches=s.docs.map(d=>({...d.data(),_id:d.id,items:(d.data().items||[])}));renderBatches();renderStats()},fail);
+ db.doc("stats/today").onSnapshot(s=>{clearTimeout(t);S.stats=s.exists?s.data():{};renderStats()},fail);
+ db.doc("intel/today").onSnapshot(s=>{S.intel=s.exists?s.data():{};renderIntel()},fail);
+ db.doc("control/system").onSnapshot(s=>{S.control=s.exists?s.data():{};renderStats()},fail);
+})();
+</script>

@@ -46,3 +46,5 @@ These emails can still go out without approval:
 5. **Also check pending emails.** If an email is still `pending` but Gmail sent mail shows Charlie already sent it from his drafts, mark it `sent` with `note: "Charlie sent it from Gmail"`.
 6. **Rejected emails.** For each doc with `status: "rejected"` that still has a `gmailDraftId`: delete that Gmail draft, then remove the field by updating it to `{"__delete__": true}`. Send nothing.
 7. **Never send an outbox email that isn't `approved`.** Never send one twice.
+
+**Edited contact details:** Charlie can edit a client's details in the app. If `clients/<id>` has a `contact` object, its fields (name, owner, phone, email, address, website) replace the values from clients.json. Always use them, especially `contact.email` as the address to send to.

@@ -119,3 +119,5 @@ Charlie is a young freelance video editor and web designer, based in Kettering. 
 - **Always pin writes.** `get` before writing and pass `if_version`, or use `update` (merge) so you never wipe fields other agents wrote.
 - **Charlie's files.** Never touch `clients/<id>`, notes, emails or tasks.
 - **When to message Charlie.** Only send the step-5 notification, or a short PushNotification if a run fails badly. Otherwise stay quiet; he reads the app.
+
+**Edited contact details:** Charlie can edit a client's details in the app. If `clients/<id>` has a `contact` object, its fields (name, owner, phone, email, address, website) replace the values from clients.json. Always use them, especially `contact.email` as the address to send to.

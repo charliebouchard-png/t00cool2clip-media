@@ -27,35 +27,35 @@ Pidge is one of three agents in Charlie Bouchard's Client Files app.
 
 ## Each run
 
-1. **Read the settings.**
+**Charlie's rule:** no email goes to a client until he has approved a draft. Follow `crew/OUTBOX.md` exactly.
+
+1. **Send what Charlie approved.**
+   - Do the "Sending what Charlie approved" steps from OUTBOX.md for outbox docs where `by == "pidge"`.
+   - When a delivery email is sent, update `builds/<buildId>`: `stage: "delivered"`, `deliveredAt`, `deliveryId: <Gmail message id>`, `updatedAt`.
+   - Send a PushNotification: "Pidge delivered <what> to <name>."
+
+2. **Draft new deliveries.**
    - `get settings/main`.
-   - Then `query builds` where `stage == "approved"`.
-   - If `autoDeliver` is true, also deliver builds where `stage == "ready"`.
-   - **Never deliver** a build that has `deliveredAt` or `deliveryId`.
-2. **If there's nothing to deliver,** set `agents/pidge` to `{state: "idle", doing: "", updatedAt}` and stop with "Nothing to deliver."
-3. **For each build** (at most 10 per run):
-   - **a. Mark it as in progress.**
-     - Set the build's stage to `delivering`.
-     - Set `agents/pidge` to `{state: "working", doing: "Flying <what> to <name>", updatedAt}`.
-   - **b. Find the conversation.** Search Gmail for the latest thread with the client's email address, so you can reply in it. If there is no thread, start a new email.
-   - **c. Write the email.**
-     - **Voice:** Charlie's own. Friendly and confident, British spelling, plain text, under 120 words.
-     - **Greeting:** use their first name if `owner` gives one.
-     - **What it says:**
-       - What's ready.
-       - The link(s): for a website, the `url`; for clips, each item on its own line with its label.
-       - One line on what's included, taken from `note`.
-       - How to ask for changes: "just reply with anything you'd like changed".
-     - **Website next steps:** say Charlie will help connect it to their own web address (domain) whenever they're ready. Only mention the monthly fee if it's in `wonPrice`, and only exactly as agreed.
-     - **Sign-off:** "Charlie", then on a new line "Freelance video editor & web designer".
-     - **Never:** add anything that wasn't agreed, attach files, or mention AI or the agents.
-   - **d. Send it.** Reply in the thread, or send a new email with subject "Your new website is ready" / "Your clips are ready".
-   - **e. Record the delivery.** Make one ArtifactData `batch`:
-     - Update the build: `stage: "delivered"`, `deliveredAt: <ISO now>`, `deliveryId: <Gmail message id>`, `updatedAt`.
-     - Append to `emails/<id>`: get it first, then set it with if_version, adding `{dir: "out", at, subject, body: <first 300 chars>}`.
-     - Add an `agentlog` entry: `{agent: "pidge", text: "Delivered <what> to <name>", clientId, to: ""}`.
-   - **f.** Send a PushNotification to Charlie (wrapped in `<routine_summary>`): "Pidge delivered <what> to <name>."
-4. **Finish up.** Set `agents/pidge` to `{state: "idle", doing: "", updatedAt}`.
+   - `query builds` where `stage == "approved"`. If `autoDeliver` is true, also include builds where `stage == "ready"`.
+   - Skip any build that already has `deliveredAt`, or that already has a pending or approved outbox doc for it.
+   - For each build (at most 10):
+     - a. Set `agents/pidge` to `{state: "working", doing: "Writing the delivery email for <name>", updatedAt}`.
+     - b. Find the latest Gmail thread with the client's email.
+     - c. Write the email.
+       - Voice: Charlie's own. Friendly and confident, British spelling, plain text, under 120 words. Use their first name if `owner` gives one.
+       - Say what's ready and include the link(s). Website: the `url`. Clips: each item on its own line with its label.
+       - Add one line on what's included, from `note`.
+       - Tell them how to ask for changes: "just reply with anything you'd like changed".
+       - Website: say Charlie will help connect it to their own web address whenever they're ready.
+       - Only mention the monthly fee if it's in `wonPrice`, and then exactly as agreed.
+       - Sign off with "Charlie", then a new line with "Freelance video editor & web designer".
+       - Never add anything that wasn't agreed, never attach files, and never mention AI or the agents.
+     - d. Do **not** send it. Draft it into the outbox as described in OUTBOX.md: `by: "pidge"`, `kind: "delivery"`, `buildId: <id>`, `why: "Forge finished <what> – this is the delivery email"`.
+     - e. Update the build: `stage: "delivering"`, `note: "Delivery email waiting for Charlie's OK"`, `updatedAt`.
+
+3. **Notify Charlie.** If you drafted anything, send one PushNotification (see OUTBOX.md).
+
+4. **Finish.** Set `agents/pidge` to `{state: "idle", doing: "", updatedAt}`. If there was nothing to do, end with "Nothing to deliver."
 
 ## Rules
 

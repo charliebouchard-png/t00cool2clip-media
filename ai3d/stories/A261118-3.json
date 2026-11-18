@@ -1,0 +1,276 @@
+{
+ "id": "A261118-3",
+ "title": "BALANCE CHECK TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1183,
+ "key": 5,
+ "bpm": 128,
+ "hot": [
+  "checked",
+  "balance",
+  "dollar",
+  "Bitcoin",
+  "Black",
+  "bank",
+  "free",
+  "YOU"
+ ],
+ "beats": [
+  {
+   "say": "I checked my bank balance thirty times yesterday. It cost me thirty dollars.",
+   "set": "bedroom",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "BALANCE: -$30"
+   },
+   "big": {
+    "text": "-$30",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "Because in my town, checking your balance costs a dollar. Every time.",
+   "set": "store",
+   "cam": "wide",
+   "hero": {
+    "pose": "point",
+    "face": "angry"
+   },
+   "label": "BALANCE TAX",
+   "props": [
+    {
+     "type": "sign",
+     "text": "CHECK BALANCE = $1",
+     "x": -4,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "So I checked how much it costs to check. That cost a dollar.",
+   "set": "bedroom",
+   "cam": "close",
+   "hero": {
+    "pose": "phone",
+    "face": "sad",
+    "hold": "phone",
+    "holdText": "-$1"
+   },
+   "notif": {
+    "title": "My Bank",
+    "text": "Balance viewed. -$1"
+   }
+  },
+  {
+   "say": "Then Bitcoin dropped. Everyone opened their apps at the same time.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "phone",
+    "n": 12,
+    "face": "shock"
+   },
+   "fx": [
+    "red",
+    "shake"
+   ]
+  },
+  {
+   "say": "Two million checks in one hour. The bank made more money than Bitcoin.",
+   "set": "office",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "screen": "CHECKS TODAY: 2,004,118",
+   "big": {
+    "text": "+$2,000,000",
+    "bg": "#9b64b8"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "My neighbour checked so often, his balance was just the checking fee.",
+   "set": "street",
+   "cam": "ots",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:neighbor",
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "facepalm",
+     "face": "sad",
+     "z": -2,
+     "hold": "phone"
+    }
+   ]
+  },
+  {
+   "say": "So the whole town stopped checking. Nobody knew how much money they had.",
+   "set": "park",
+   "cam": "wide",
+   "hero": {
+    "pose": "idle",
+    "face": "normal"
+   },
+   "crowd": {
+    "action": "idle",
+    "n": 10,
+    "face": "happy"
+   },
+   "label": "NO CHECKING"
+  },
+  {
+   "say": "And when you don't know, you feel rich.",
+   "set": "park",
+   "cam": "orbit",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "Black Friday came. Everyone bought everything.",
+   "set": "store",
+   "cam": "track",
+   "hero": {
+    "pose": "carry",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "carry",
+    "n": 12,
+    "face": "happy"
+   },
+   "label": "BLACK FRIDAY",
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "Then the bills arrived. Nobody dared to look.",
+   "set": "kitchen",
+   "cam": "face",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "That's when I had an idea.",
+   "set": "rooftop",
+   "cam": "low",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "time": "sunset",
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "I opened my own bank. In my kitchen. Checking your balance? Free.",
+   "set": "kitchen",
+   "cam": "reveal",
+   "hero": {
+    "pose": "talk",
+    "face": "smug"
+   },
+   "props": [
+    {
+     "type": "sign",
+     "text": "MY BANK: CHECKING FREE",
+     "x": 4,
+     "z": -2
+    }
+   ],
+   "big": {
+    "text": "FREE",
+    "bg": "#2fae5b"
+   }
+  },
+  {
+   "say": "The queue went round the block.",
+   "set": "street",
+   "cam": "high",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 12,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "By Friday, the whole town had switched. Even the old bank's manager.",
+   "set": "kitchen",
+   "cam": "close",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:boss",
+   "npcs": [
+    {
+     "id": "boss",
+     "look": "boss",
+     "pose": "phone",
+     "face": "shock",
+     "z": -2,
+     "hold": "phone"
+    }
+   ]
+  },
+  {
+   "say": "Now the old bank checks MY app every morning. One dollar a time.",
+   "set": "office",
+   "cam": "spin",
+   "hero": {
+    "pose": "count",
+    "face": "smug",
+    "hold": "money"
+   },
+   "big": {
+    "text": "+$1",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "So be honest. How many times did YOU check your bank app this week?",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

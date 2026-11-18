@@ -1,0 +1,304 @@
+{
+ "id": "A261118-1",
+ "title": "WISH TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1181,
+ "key": 2,
+ "bpm": 118,
+ "hot": [
+  "meteor",
+  "wish",
+  "fifteen",
+  "sneezed",
+  "mayor",
+  "stop",
+  "supermoon",
+  "YOU"
+ ],
+ "beats": [
+  {
+   "say": "I stayed up to watch the meteor shower last night. It cost me a hundred and fifty dollars.",
+   "set": "rooftop",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "time": "night",
+   "big": {
+    "text": "-$150",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "Because in my town, every wish on a shooting star costs ten dollars.",
+   "set": "rooftop",
+   "cam": "wide",
+   "hero": {
+    "pose": "point",
+    "face": "angry"
+   },
+   "time": "night",
+   "label": "WISH TAX",
+   "props": [
+    {
+     "type": "sign",
+     "text": "1 WISH = $10",
+     "x": -4,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "And this week, there were fifteen of them an hour.",
+   "set": "rooftop",
+   "cam": "drone",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "time": "night",
+   "big": {
+    "text": "15 AN HOUR",
+    "bg": "#9b64b8"
+   },
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "say": "Every time one flew past, my phone buzzed. Wish received. Minus ten.",
+   "set": "rooftop",
+   "cam": "close",
+   "hero": {
+    "pose": "phone",
+    "face": "sad",
+    "hold": "phone",
+    "holdText": "-$10"
+   },
+   "time": "night",
+   "notif": {
+    "title": "Wish Office",
+    "text": "Wish received. -$10"
+   }
+  },
+  {
+   "say": "By two a.m., the whole street was on the rooftops, eyes shut, wishing.",
+   "set": "street",
+   "cam": "high",
+   "hero": {
+    "pose": "think",
+    "face": "sleep"
+   },
+   "time": "night",
+   "crowd": {
+    "action": "idle",
+    "n": 12,
+    "face": "sleep"
+   },
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "One guy wished for more money. He's now poorer.",
+   "set": "street",
+   "cam": "face",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:neighbor",
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "facepalm",
+     "face": "sad",
+     "z": -2
+    }
+   ],
+   "big": {
+    "text": "-$10",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "Then I sneezed during a meteor. It counted as a wish.",
+   "set": "rooftop",
+   "cam": "ots",
+   "hero": {
+    "pose": "facepalm",
+    "face": "shock"
+   },
+   "time": "night",
+   "fx": [
+    "question",
+    "shake"
+   ]
+  },
+  {
+   "say": "So people started walking around with their eyes covered. No see, no wish.",
+   "set": "street",
+   "cam": "track",
+   "hero": {
+    "pose": "walk",
+    "face": "sad"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 10,
+    "face": "sleep"
+   },
+   "label": "EYES SHUT"
+  },
+  {
+   "say": "Half the town walked into lamp posts. Still cheaper.",
+   "set": "street",
+   "cam": "side",
+   "hero": {
+    "pose": "run",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 8,
+    "face": "shock"
+   },
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "So where does the wish money go?",
+   "set": "cityhall",
+   "cam": "low",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "The mayor. On his roof. With a telescope. Counting.",
+   "set": "rooftop",
+   "cam": "push",
+   "hero": {
+    "hide": true
+   },
+   "time": "night",
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "count",
+     "face": "smug",
+     "z": -3,
+     "hold": "money"
+    }
+   ],
+   "big": {
+    "text": "+$90,000",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "But on the last night, he got greedy. He made a wish of his own.",
+   "set": "rooftop",
+   "cam": "orbit",
+   "hero": {
+    "hide": true
+   },
+   "time": "night",
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "think",
+     "face": "smug",
+     "z": -3
+    }
+   ]
+  },
+  {
+   "say": "I wish everyone would stop wishing.",
+   "set": "rooftop",
+   "cam": "close",
+   "hero": {
+    "hide": true
+   },
+   "time": "night",
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -2
+    }
+   ],
+   "label": "THE MAYOR'S WISH",
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "say": "It came true. Nobody wished again. He went completely broke.",
+   "set": "cityhall",
+   "cam": "wide",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "big": {
+    "text": "$0",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "Now he's planning a howling tax for next week's supermoon.",
+   "set": "cityhall",
+   "cam": "reveal",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "props": [
+    {
+     "type": "sign",
+     "text": "SUPERMOON: HOWL = $5",
+     "x": 4,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "So what would YOU wish for, if it cost ten dollars?",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

@@ -1,0 +1,296 @@
+{
+ "id": "A261118-2",
+ "title": "SCREAM TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1182,
+ "key": 7,
+ "bpm": 124,
+ "hot": [
+  "screamed",
+  "spider",
+  "jungle",
+  "bugs",
+  "mayor",
+  "cockroach",
+  "forty",
+  "YOU"
+ ],
+ "beats": [
+  {
+   "say": "I screamed at a spider in the bath this morning. It cost me twenty dollars.",
+   "set": "bedroom",
+   "cam": "push",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "big": {
+    "text": "-$20",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "alert",
+    "shake"
+   ]
+  },
+  {
+   "say": "Because in my town, every scream costs five dollars. And I screamed four times.",
+   "set": "bedroom",
+   "cam": "close",
+   "hero": {
+    "pose": "phone",
+    "face": "angry",
+    "hold": "phone",
+    "holdText": "4 SCREAMS = $20"
+   },
+   "label": "SCREAM TAX",
+   "notif": {
+    "title": "City Hall",
+    "text": "Scream detected. -$5"
+   }
+  },
+  {
+   "say": "Fine. I'll just stay calm. How hard can it be?",
+   "set": "kitchen",
+   "cam": "face",
+   "hero": {
+    "pose": "think",
+    "face": "smug",
+    "hold": "mug"
+   }
+  },
+  {
+   "say": "Then the jungle show started on TV.",
+   "set": "kitchen",
+   "cam": "wide",
+   "hero": {
+    "pose": "sit",
+    "face": "normal"
+   },
+   "label": "JUNGLE SHOW"
+  },
+  {
+   "say": "Someone had to eat a bug on live TV. The whole town screamed at once.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 12,
+    "face": "shock"
+   },
+   "fx": [
+    "shake",
+    "red"
+   ]
+  },
+  {
+   "say": "Eighty thousand screams. In one bushtucker trial.",
+   "set": "office",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "screen": "SCREAMS TONIGHT: 80,412",
+   "big": {
+    "text": "80,412",
+    "bg": "#9b64b8"
+   }
+  },
+  {
+   "say": "My neighbour screamed so hard at the TV, he screamed at the bill too.",
+   "set": "street",
+   "cam": "ots",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:neighbor",
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -2
+    }
+   ],
+   "big": {
+    "text": "-$10",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "So people started watching with pillows over their faces.",
+   "set": "bedroom",
+   "cam": "side",
+   "hero": {
+    "pose": "sit",
+    "face": "sleep"
+   },
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "Every night at nine, silence. Then muffled screaming.",
+   "set": "street",
+   "cam": "high",
+   "hero": {
+    "pose": "sneak",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "sneak",
+    "n": 10,
+    "face": "shock"
+   },
+   "time": "night"
+  },
+  {
+   "say": "So where does the scream money go?",
+   "set": "cityhall",
+   "cam": "low",
+   "hero": {
+    "pose": "think",
+    "face": "normal"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "The mayor. Half a million dollars. And he's never screamed once.",
+   "set": "office",
+   "cam": "push",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "count",
+     "face": "smug",
+     "z": -3,
+     "hold": "money"
+    }
+   ],
+   "big": {
+    "text": "+$500,000",
+    "bg": "#2fae5b"
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "So we voted. The mayor had to do a trial of his own.",
+   "set": "cityhall",
+   "cam": "wide",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "label": "MAYOR'S TRIAL"
+  },
+  {
+   "say": "One cockroach. Live. On the steps of city hall.",
+   "set": "cityhall",
+   "cam": "close",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "shock",
+     "face": "shock",
+     "z": -2
+    }
+   ],
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "He screamed forty seven times. Two hundred and thirty five dollars.",
+   "set": "cityhall",
+   "cam": "spin",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "panic",
+     "face": "shock",
+     "z": -2
+    }
+   ],
+   "big": {
+    "text": "-$235",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "shake",
+    "flash"
+   ]
+  },
+  {
+   "say": "Then he tripped and screamed all the way down the steps. Another thousand.",
+   "set": "cityhall",
+   "cam": "reveal",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "jump",
+    "n": 10,
+    "face": "happy"
+   },
+   "big": {
+    "text": "-$1,000",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "confetti",
+    "cash"
+   ]
+  },
+  {
+   "say": "The scream tax was cancelled the next morning. Weird.",
+   "set": "cityhall",
+   "cam": "orbit",
+   "hero": {
+    "pose": "cheer",
+    "face": "smug"
+   },
+   "label": "TAX CANCELLED"
+  },
+  {
+   "say": "So what makes YOU scream? Spiders, or your bank balance?",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

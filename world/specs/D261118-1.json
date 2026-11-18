@@ -1,0 +1,144 @@
+{
+ "id": "D261118-1",
+ "title": "Nvidia makes $1.27 billion a day",
+ "target": "tiktok",
+ "cast": "bob",
+ "hook": "$1.27 BILLION\nEVERY DAY 🤑",
+ "style": {
+  "captionMode": "chunk",
+  "captionFont": "Poppins",
+  "captionY": 1300,
+  "grade": "punchy",
+  "transition": "whip",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "One point two seven BILLION dollars. A DAY! That's what Nvidia just made. But the boss isn't even there! I'll show you three numbers. The last one's sneaky!",
+   "place": "Nvidia HQ, Santa Clara",
+   "flag": "🇺🇸",
+   "bg": "bg/d261118-1/hq.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "point",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.62,
+     "big": "$1.27B",
+     "small": "revenue per day",
+     "color": "#16a34a"
+    }
+   ],
+   "hot": [
+    "BILLION",
+    "DAY!",
+    "Nvidia"
+   ]
+  },
+  {
+   "say": "Last night at four twenty, New York time, Nvidia said it took in one hundred and fifteen point eight billion dollars. In three months! So that's more than DOUBLE last year.",
+   "place": "Wall Street, New York",
+   "flag": "💵",
+   "bg": "bg/d261118-1/wallst.jpg",
+   "shot": "wide",
+   "from": 1,
+   "gestures": [
+    "explain",
+    "count",
+    "wow"
+   ],
+   "badge": "#1",
+   "cards": [
+    {
+     "at": 0.55,
+     "big": "$115.8B",
+     "small": "in 3 months (+103%)",
+     "color": "#2563eb"
+    }
+   ],
+   "hot": [
+    "DOUBLE"
+   ]
+  },
+  {
+   "say": "So where's it from? A hundred and seven billion came from data centres. Basically giant rooms full of AI chips. But every AI app you use needs them.",
+   "place": "A data centre",
+   "flag": "🖥️",
+   "bg": "bg/d261118-1/servers.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "shrug",
+    "pointL",
+    "explain"
+   ],
+   "badge": "#2",
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "$107.6B",
+     "small": "from data centres",
+     "color": "#7c3aed"
+    }
+   ],
+   "hot": [
+    "data",
+    "centres.",
+    "AI"
+   ]
+  },
+  {
+   "say": "And the boss? Jensen Huang resigned as CEO last week. So the money chief, Colette Kress, is running things for now. Her first report? A RECORD. Shares jumped about four and a half percent after hours!",
+   "place": "Nasdaq, Times Square",
+   "flag": "📈",
+   "bg": "bg/d261118-1/nasdaq.jpg",
+   "shot": "medium",
+   "gestures": [
+    "think",
+    "point",
+    "wow"
+   ],
+   "badge": "#3",
+   "cards": [
+    {
+     "at": 0.8,
+     "big": "+4.5%",
+     "small": "after hours",
+     "color": "#ea580c"
+    }
+   ],
+   "emoji": "🤯",
+   "emojiAt": 0.6,
+   "hot": [
+    "resigned",
+    "RECORD."
+   ]
+  },
+  {
+   "say": "Next quarter they expect a hundred and thirty billion. But that quarter has an EXTRA week in it. Sneaky! So how much did YOU make yesterday? Because Nvidia made",
+   "place": "Nvidia Voyager, Santa Clara",
+   "flag": "🤑",
+   "bg": "bg/d261118-1/voyager.jpg",
+   "shot": "close",
+   "gestures": [
+    "count",
+    "shrug",
+    "point"
+   ],
+   "poll": {
+    "q": "Guess YOUR daily pay vs Nvidia?",
+    "a": "LESS 😭",
+    "b": "WAY LESS 💀",
+    "at": 0.55
+   },
+   "hot": [
+    "EXTRA",
+    "YOU"
+   ]
+  }
+ ]
+}

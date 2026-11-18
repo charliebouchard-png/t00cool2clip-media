@@ -1,0 +1,47 @@
+{
+ "hq": {
+  "q": "Nvidia headquarters Santa Clara",
+  "file": "File:NVIDIA Headquarters.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:NVIDIA_Headquarters.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "w": 1920,
+  "h": 1175
+ },
+ "wallst": {
+  "q": "Wall Street sign New York",
+  "file": "File:Wall Street - New York Stock Exchange.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Carlos Delgado",
+  "w": 1920,
+  "h": 1440
+ },
+ "servers": {
+  "q": "data center server racks",
+  "file": "File:Racks Amravati Data Center.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Racks_Amravati_Data_Center.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "PiDatacenters",
+  "w": 1920,
+  "h": 1281
+ },
+ "nasdaq": {
+  "q": "Nasdaq MarketSite Times Square",
+  "file": "File:Nasdaq MarketSite (51494550508).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg",
+  "license": "CC BY 2.0",
+  "artist": "ajay_suresh",
+  "w": 1920,
+  "h": 1920
+ },
+ "voyager": {
+  "q": "Nvidia headquarters Santa Clara",
+  "file": "File:2788-2888 San Tomas Expwy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2788-2888_San_Tomas_Expwy.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "Coolcaesar",
+  "w": 1920,
+  "h": 1292
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "id": "A261119-1",
+ "title": "DOWNLOAD TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1191,
+ "key": 7,
+ "bpm": 126,
+ "hot": [
+  "gig",
+  "dollar",
+  "download",
+  "game",
+  "Wi-Fi",
+  "free",
+  "YOU",
+  "Monday"
+ ],
+ "beats": [
+  {
+   "say": "The biggest game ever just came out. Downloading it cost me two hundred dollars.",
+   "set": "bedroom",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock",
+    "hold": "phone",
+    "holdText": "DOWNLOAD: -$212"
+   },
+   "big": {
+    "text": "-$212",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "Because in my town, every gig you download costs a dollar.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "point",
+    "face": "angry"
+   },
+   "label": "DOWNLOAD TAX",
+   "props": [
+    {
+     "type": "sign",
+     "text": "1 GIG = $1",
+     "x": -4,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "The game is two hundred and twelve gigs. Plus a day one update.",
+   "set": "bedroom",
+   "cam": "close",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "notif": {
+    "title": "Update",
+    "text": "+40 GB required"
+   }
+  },
+  {
+   "say": "At midnight, the whole town hit download at the same time.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "panic",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "phone",
+    "n": 12,
+    "face": "shock"
+   },
+   "time": "night",
+   "fx": [
+    "red",
+    "shake"
+   ]
+  },
+  {
+   "say": "The town hall made four million dollars before sunrise.",
+   "set": "cityhall",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "screen": "DOWNLOADS: 19,204 GB",
+   "big": {
+    "text": "+$4,000,000",
+    "bg": "#9b64b8"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "The mayor bought a gold car. Then he tried to download the game.",
+   "set": "cityhall",
+   "cam": "ots",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "phone",
+     "face": "smug",
+     "z": -2,
+     "hold": "phone"
+    }
+   ]
+  },
+  {
+   "say": "It cost him two hundred dollars. He did not like that.",
+   "set": "cityhall",
+   "cam": "face",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "angry",
+     "face": "angry",
+     "z": -2
+    }
+   ],
+   "fx": [
+    "shake"
+   ]
+  },
+  {
+   "say": "So people got clever. My neighbour downloaded it one gig a day.",
+   "set": "kitchen",
+   "cam": "side",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "label": "1 GIG A DAY"
+  },
+  {
+   "say": "He'll be able to play it in July.",
+   "set": "kitchen",
+   "cam": "close",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "big": {
+    "text": "JULY",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "Then I noticed something. The tax only counts downloads.",
+   "set": "rooftop",
+   "cam": "low",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "time": "sunset",
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "Not uploads.",
+   "set": "rooftop",
+   "cam": "push",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   },
+   "big": {
+    "text": "UPLOADS = FREE",
+    "bg": "#2fae5b"
+   }
+  },
+  {
+   "say": "So I uploaded the game to my friend. He uploaded it back to me.",
+   "set": "office",
+   "cam": "track",
+   "hero": {
+    "pose": "press",
+    "face": "happy"
+   },
+   "screen": "UPLOADING... 212 GB",
+   "fx": [
+    "flash"
+   ]
+  },
+  {
+   "say": "By lunchtime, the whole town was uploading to each other. Nobody paid a cent.",
+   "set": "park",
+   "cam": "wide",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "The mayor brought in an upload tax.",
+   "set": "cityhall",
+   "cam": "reveal",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "label": "UPLOAD TAX",
+   "fx": [
+    "alert"
+   ]
+  },
+  {
+   "say": "So now I just walk to my friend's house. Walking is still free. For now.",
+   "set": "street",
+   "cam": "track",
+   "hero": {
+    "pose": "walk",
+    "face": "smug"
+   },
+   "crowd": {
+    "action": "walk",
+    "n": 8,
+    "face": "happy"
+   }
+  },
+  {
+   "say": "Be honest. Did YOU call in sick today to play it?",
+   "set": "bedroom",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

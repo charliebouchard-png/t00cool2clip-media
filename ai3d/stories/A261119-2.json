@@ -1,0 +1,268 @@
+{
+ "id": "A261119-2",
+ "title": "COLD TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1192,
+ "key": 2,
+ "bpm": 118,
+ "hot": [
+  "cold",
+  "five",
+  "dollars",
+  "heating",
+  "mayor",
+  "jumper",
+  "YOU",
+  "free"
+ ],
+ "beats": [
+  {
+   "say": "I said it's freezing four times before breakfast. That's twenty dollars gone.",
+   "set": "kitchen",
+   "cam": "push",
+   "hero": {
+    "pose": "shiver",
+    "face": "sad",
+    "hold": "mug"
+   },
+   "big": {
+    "text": "-$20",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "cold",
+    "snow"
+   ]
+  },
+  {
+   "say": "In my town, saying it's cold costs five dollars. Every time.",
+   "set": "street",
+   "cam": "wide",
+   "hero": {
+    "pose": "shiver",
+    "face": "angry"
+   },
+   "label": "COLD TAX",
+   "props": [
+    {
+     "type": "sign",
+     "text": "\"IT'S COLD\" = $5",
+     "x": -4,
+     "z": -2
+    }
+   ],
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "November hit. The whole town said it at once.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "shiver",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "panic",
+    "n": 12,
+    "face": "shock"
+   },
+   "fx": [
+    "snow",
+    "shake"
+   ]
+  },
+  {
+   "say": "The bus stop alone made three thousand dollars on Monday.",
+   "set": "street",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "big": {
+    "text": "+$3,000",
+    "bg": "#9b64b8"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "So we stopped saying cold. We started saying chilly.",
+   "set": "park",
+   "cam": "side",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "label": "CHILLY?"
+  },
+  {
+   "say": "The mayor taxed chilly. Then nippy. Then brrr.",
+   "set": "cityhall",
+   "cam": "ots",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "point",
+     "face": "smug",
+     "z": -2
+    }
+   ],
+   "screen": "BANNED: CHILLY, NIPPY, BRRR"
+  },
+  {
+   "say": "My gran got fined for shivering too loudly.",
+   "set": "kitchen",
+   "cam": "close",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "big": {
+    "text": "-$5",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "So people just turned the heating up instead.",
+   "set": "bedroom",
+   "cam": "orbit",
+   "hero": {
+    "pose": "sit",
+    "face": "happy"
+   },
+   "props": [
+    {
+     "type": "thermostat",
+     "text": "28\u00b0"
+    }
+   ]
+  },
+  {
+   "say": "Then the mayor taxed the heating.",
+   "set": "cityhall",
+   "cam": "reveal",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "label": "HEATING TAX",
+   "fx": [
+    "alert",
+    "red"
+   ]
+  },
+  {
+   "say": "That's when I had an idea.",
+   "set": "rooftop",
+   "cam": "low",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "time": "sunset",
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "I started saying it's warm. All day. In a T-shirt.",
+   "set": "street",
+   "cam": "track",
+   "hero": {
+    "pose": "walk",
+    "face": "smug"
+   },
+   "fx": [
+    "snow"
+   ],
+   "big": {
+    "text": "\"IT'S WARM\"",
+    "bg": "#2fae5b"
+   }
+  },
+  {
+   "say": "There's no tax on warm. The whole town copied me.",
+   "set": "park",
+   "cam": "wide",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "snow",
+    "confetti"
+   ]
+  },
+  {
+   "say": "The town hall's money ran dry by Friday.",
+   "set": "office",
+   "cam": "push",
+   "hero": {
+    "pose": "count",
+    "face": "smug"
+   },
+   "screen": "COLD TAX TODAY: $0"
+  },
+  {
+   "say": "And the mayor? He walked out of his office and said it.",
+   "set": "cityhall",
+   "cam": "face",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:mayor",
+   "npcs": [
+    {
+     "id": "mayor",
+     "look": "mayor",
+     "pose": "shiver",
+     "face": "sad",
+     "z": -2
+    }
+   ],
+   "fx": [
+    "snow"
+   ]
+  },
+  {
+   "say": "It's cold. Five dollars, please.",
+   "set": "cityhall",
+   "cam": "close",
+   "hero": {
+    "pose": "point",
+    "face": "happy",
+    "hold": "money"
+   },
+   "fx": [
+    "coins"
+   ]
+  },
+  {
+   "say": "Be honest. How many times did YOU say it's cold today?",
+   "set": "street",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   },
+   "fx": [
+    "snow"
+   ]
+  }
+ ]
+}

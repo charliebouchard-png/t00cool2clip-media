@@ -1,0 +1,271 @@
+{
+ "id": "A261119-3",
+ "title": "FRIDGE TAX",
+ "voice": "am_puck",
+ "speed": 1.12,
+ "seed": 1193,
+ "key": 9,
+ "bpm": 122,
+ "hot": [
+  "fridge",
+  "two",
+  "dollars",
+  "open",
+  "snack",
+  "midnight",
+  "YOU",
+  "free"
+ ],
+ "beats": [
+  {
+   "say": "I opened the fridge eleven times last night. It cost me twenty two dollars.",
+   "set": "kitchen",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "props": [
+    {
+     "type": "fridge"
+    }
+   ],
+   "big": {
+    "text": "-$22",
+    "bg": "#e8363c"
+   },
+   "fx": [
+    "alert"
+   ],
+   "time": "night"
+  },
+  {
+   "say": "In my town, every time you open the fridge, it charges you two dollars.",
+   "set": "store",
+   "cam": "wide",
+   "hero": {
+    "pose": "point",
+    "face": "angry"
+   },
+   "label": "FRIDGE TAX",
+   "props": [
+    {
+     "type": "sign",
+     "text": "OPEN FRIDGE = $2",
+     "x": -4,
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "Even if you just look. Even if nothing new is in there.",
+   "set": "kitchen",
+   "cam": "close",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad"
+   },
+   "props": [
+    {
+     "type": "glassfridge"
+    }
+   ],
+   "notif": {
+    "title": "Fridge",
+    "text": "Door opened. -$2"
+   }
+  },
+  {
+   "say": "Which, let's be honest, is every single time.",
+   "set": "kitchen",
+   "cam": "side",
+   "hero": {
+    "pose": "think",
+    "face": "sad"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "The midnight snack queue cost the town a fortune.",
+   "set": "street",
+   "cam": "drone",
+   "hero": {
+    "pose": "sneak",
+    "face": "shock"
+   },
+   "crowd": {
+    "action": "sneak",
+    "n": 10,
+    "face": "sleep"
+   },
+   "time": "night",
+   "fx": [
+    "zzz"
+   ]
+  },
+  {
+   "say": "The fridge company made more money than the supermarket.",
+   "set": "office",
+   "cam": "push",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "screen": "FRIDGE OPENS TODAY: 1,388,240",
+   "big": {
+    "text": "+$2,776,480",
+    "bg": "#9b64b8"
+   },
+   "fx": [
+    "cash"
+   ]
+  },
+  {
+   "say": "So people got clever. My neighbour switched to a glass fridge.",
+   "set": "store",
+   "cam": "ots",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:neighbor",
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "point",
+     "face": "smug",
+     "z": -2
+    }
+   ],
+   "props": [
+    {
+     "type": "glassfridge"
+    }
+   ]
+  },
+  {
+   "say": "He just stares at the food now. For free. For hours.",
+   "set": "kitchen",
+   "cam": "face",
+   "hero": {
+    "hide": true
+   },
+   "focus": "npc:neighbor",
+   "npcs": [
+    {
+     "id": "neighbor",
+     "look": "neighbor",
+     "pose": "sit",
+     "face": "normal",
+     "z": -2
+    }
+   ]
+  },
+  {
+   "say": "Then the mayor taxed staring.",
+   "set": "cityhall",
+   "cam": "reveal",
+   "hero": {
+    "pose": "shock",
+    "face": "shock"
+   },
+   "label": "STARE TAX",
+   "fx": [
+    "alert",
+    "red"
+   ]
+  },
+  {
+   "say": "That's when I had my best idea ever.",
+   "set": "rooftop",
+   "cam": "low",
+   "hero": {
+    "pose": "think",
+    "face": "smug"
+   },
+   "time": "sunset",
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "I took the door off my fridge.",
+   "set": "kitchen",
+   "cam": "push",
+   "hero": {
+    "pose": "carry",
+    "face": "happy"
+   },
+   "big": {
+    "text": "NO DOOR",
+    "bg": "#2fae5b"
+   }
+  },
+  {
+   "say": "No door, no opening. No opening, no tax.",
+   "set": "kitchen",
+   "cam": "orbit",
+   "hero": {
+    "pose": "dance",
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "The whole town did the same. Snacks for everyone.",
+   "set": "park",
+   "cam": "wide",
+   "hero": {
+    "pose": "cheer",
+    "face": "happy"
+   },
+   "crowd": {
+    "action": "cheer",
+    "n": 12,
+    "face": "happy"
+   },
+   "fx": [
+    "confetti"
+   ]
+  },
+  {
+   "say": "There was just one problem.",
+   "set": "kitchen",
+   "cam": "close",
+   "hero": {
+    "pose": "think",
+    "face": "shock"
+   },
+   "fx": [
+    "question"
+   ]
+  },
+  {
+   "say": "It's a fridge with no door. Everything's warm. My milk's gone off.",
+   "set": "kitchen",
+   "cam": "spin",
+   "hero": {
+    "pose": "facepalm",
+    "face": "sad",
+    "hold": "mug"
+   },
+   "big": {
+    "text": "WARM MILK",
+    "bg": "#e8363c"
+   }
+  },
+  {
+   "say": "Be honest. How many times did YOU open the fridge today for nothing?",
+   "set": "kitchen",
+   "cam": "pull",
+   "hero": {
+    "pose": "point",
+    "face": "smug"
+   }
+  }
+ ]
+}

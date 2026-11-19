@@ -1,0 +1,47 @@
+{
+ "miami": {
+  "q": "Miami skyline night",
+  "file": "File:Night Panorama Miami Florida 5462.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Night_Panorama_Miami_Florida_5462.jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Dori",
+  "w": 1920,
+  "h": 1280
+ },
+ "edinburgh": {
+  "q": "Edinburgh skyline",
+  "file": "File:Edinburgh skyline - geograph.org.uk - 1985698.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Edinburgh_skyline_-_geograph.org.uk_-_1985698.jpg",
+  "license": "CC BY-SA 2.0",
+  "artist": "Calum McRoberts ",
+  "w": 1920,
+  "h": 1280
+ },
+ "timessq": {
+  "q": "Times Square night",
+  "file": "File:1 times square night 2013.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:1_times_square_night_2013.jpg",
+  "license": "CC BY-SA 4.0",
+  "artist": "chensiyuan",
+  "w": 1920,
+  "h": 1281
+ },
+ "hollywood": {
+  "q": "Hollywood Sign",
+  "file": "File:Hollywood Sign (Zuschnitt).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hollywood_Sign_(Zuschnitt).jpg",
+  "license": "CC BY-SA 3.0",
+  "artist": "Thomas Wolf, www.foto-tw.de",
+  "w": 1920,
+  "h": 1200
+ },
+ "oceandrive": {
+  "q": "Ocean Drive Miami Beach",
+  "file": "File:Miami Beach - Ocean Drive (2023).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Miami_Beach_-_Ocean_Drive_(2023).jpg",
+  "license": "CC BY 4.0",
+  "artist": "P. Hughes",
+  "w": 1920,
+  "h": 1081
+ }
+}

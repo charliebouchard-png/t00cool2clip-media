@@ -1,0 +1,145 @@
+{
+ "id": "D261119-1",
+ "title": "GTA 6 made $1.65 billion before launch",
+ "target": "tiktok",
+ "cast": "kai",
+ "hook": "$1.65 BILLION\nBEFORE DAY ONE 🎮",
+ "style": {
+  "captionMode": "box",
+  "captionFont": "Bebas",
+  "captionY": 1320,
+  "boxColor": "#fef08a",
+  "boxText": "#111",
+  "grade": "cool",
+  "transition": "zoom",
+  "progress": true
+ },
+ "scenes": [
+  {
+   "say": "One point six five BILLION dollars. Before YOU even played it! But GTA 6 only comes out TODAY. So here are three numbers, and the last one is wild!",
+   "place": "Miami, Florida",
+   "flag": "🌴",
+   "bg": "bg/d261119-1/miami.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "wave",
+    "point",
+    "wow"
+   ],
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "$1.65B",
+     "small": "in pre-orders (reported)",
+     "color": "#16a34a"
+    }
+   ],
+   "hot": [
+    "BILLION",
+    "YOU",
+    "TODAY."
+   ]
+  },
+  {
+   "say": "Number three. Thirteen YEARS! You waited since GTA 5 came out in twenty thirteen. But this whole series started right here, in Scotland!",
+   "place": "Edinburgh, Scotland",
+   "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+   "bg": "bg/d261119-1/edinburgh.jpg",
+   "shot": "wide",
+   "from": 1,
+   "gestures": [
+    "count",
+    "explain",
+    "pointL"
+   ],
+   "badge": "#3",
+   "cards": [
+    {
+     "at": 0.45,
+     "big": "13 YEARS",
+     "small": "since GTA 5 (2013)",
+     "color": "#2563eb"
+    }
+   ],
+   "hot": [
+    "YEARS!",
+    "Scotland!"
+   ]
+  },
+  {
+   "say": "Number two. GTA 5's pre-orders were about eight hundred million dollars. So GTA 6 nearly DOUBLED it! And that's before the shops even opened.",
+   "place": "Times Square, New York",
+   "flag": "🗽",
+   "bg": "bg/d261119-1/timessq.jpg",
+   "shot": "medium",
+   "gestures": [
+    "explain",
+    "shrug",
+    "wow"
+   ],
+   "badge": "#2",
+   "cards": [
+    {
+     "at": 0.6,
+     "big": "~2x",
+     "small": "GTA 5's ~$800M pre-orders",
+     "color": "#ea580c"
+    }
+   ],
+   "emoji": "🤯",
+   "emojiAt": 0.75,
+   "hot": [
+    "DOUBLED"
+   ]
+  },
+  {
+   "say": "Number one. The biggest film EVER, Avengers Endgame, made two point nine four billion. In total! But GTA 6 is already past HALFWAY. On day zero!",
+   "place": "Hollywood, Los Angeles",
+   "flag": "🎬",
+   "bg": "bg/d261119-1/hollywood.jpg",
+   "shot": "wide",
+   "from": -1,
+   "gestures": [
+    "point",
+    "count",
+    "wow"
+   ],
+   "badge": "#1",
+   "cards": [
+    {
+     "at": 0.5,
+     "big": "$2.94B",
+     "small": "Endgame, all-time box office",
+     "color": "#7c3aed"
+    }
+   ],
+   "hot": [
+    "EVER,",
+    "HALFWAY."
+   ]
+  },
+  {
+   "say": "So it's set in a made-up Miami, and it's out right now. So did YOU call in sick today? Because gamers already paid",
+   "place": "Ocean Drive, Miami Beach",
+   "flag": "🎮",
+   "bg": "bg/d261119-1/oceandrive.jpg",
+   "shot": "close",
+   "gestures": [
+    "think",
+    "shrug",
+    "point"
+   ],
+   "poll": {
+    "q": "Skipping work to play?",
+    "a": "OBVIOUSLY 🎮",
+    "b": "I'M AT WORK 😭",
+    "at": 0.45
+   },
+   "hot": [
+    "YOU",
+    "sick"
+   ]
+  }
+ ]
+}

@@ -168,6 +168,9 @@ def tel(p):
 
 def build(r):
     c = CAT[r['cat']]
+    if r.get('country') == 'US':
+        from plib import americanize
+        c = {k: (americanize(v) if isinstance(v, str) else [tuple(americanize(x) for x in i) for i in v] if isinstance(v, list) else v) for k, v in c.items()}
     fonts = FONTS[c['font']]
     t = r['town']; trade = r.get('trade') or ''
     fill = lambda s: s.replace('{t}', t).replace('{trade}', trade).replace('{trade_l}', trade.lower()).replace('{n}', r['name'])
@@ -224,8 +227,11 @@ def build(r):
 if __name__ == '__main__':
     site = sys.argv[1]
     n = 0
-    for l in open(D+'/prospects.jsonl'):
-        r = json.loads(l)
+    sys.path.insert(0, D)
+    from plib import all_prospects
+    only = set(sys.argv[2:])
+    for r in all_prospects():
+        if only and r['slug'] not in only: continue
         os.makedirs(f'{site}/{r["slug"]}', exist_ok=True)
         open(f'{site}/{r["slug"]}/index.html', 'w').write(build(r)); n += 1
     print('built', n)

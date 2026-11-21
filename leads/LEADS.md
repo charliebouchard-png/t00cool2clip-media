@@ -7,6 +7,26 @@
 - **Never Northamptonshire.** Charlie's rule: no leads anywhere in Northamptonshire (Northampton, Kettering, Corby, Wellingborough, Daventry, Rushden, Towcester, Brackley, Oundle and every village around them, and any NN postcode). Don't search there, and skip any business based there even if it turns up elsewhere. `add.py` also refuses them.
 - **No sending:** pitches only go out when Charlie presses "Send emails".
 
+## USA leads (when the message says "USA" / "America")
+
+Charlie lives in England and can work US hours, so he also wants small US businesses.
+- **Where:** the states/cities the message gives. Small independent businesses in towns and suburbs (not big-city chains).
+- **Every record gets `"country": "US"`**, a US-format `town` ("Austin, TX"), the phone as written on their site, and prices in `$`.
+- **Run the add step with your own file** so parallel runs don't clash: `LEADS_FILE=prospects_us_<region>.jsonl python3 leads/add.py`. `build.py` and `compose.py` read every prospects*.jsonl automatically. Build only your new slugs: `python3 leads/build.py ../pages <slugs...>`.
+- **Prices for US leads (USD):** website $250 to build + $30/month; short clips $6 each (10 for $50); YouTube edits $40 / $70 / $115 (up to 10 / 20 / 30 min). No Command Centre in the US.
+- **US pitches are written but HELD:** US law (CAN-SPAM) requires a real postal mailing address in every commercial email, and Charlie hasn't given one yet. The pitch body contains the placeholder `{mailing_address}`. Write `pitches/<slug>` with `status: "held"`, `holdReason: "Needs Charlie's mailing address (US law)"`, `batch: "us"`. Never set them to queued. Charlie releases them later.
+- **`leads/<slug>` for US leads:** same fields as below but `batch: "us"`, `country: "US"`, and `help` in this format (one item per line, labels in capitals):
+  ```
+  WHAT'S WRONG NOW: <obs>.
+  THEIR SERVICES: <services with prices>.
+  WEBSITE WE'D BUILD ($250 + $30/month): <5 must-haves for this trade>.
+  FREE CONCEPT ALREADY BUILT: <preview url>
+  VIDEO IDEAS (clips $6 each, 10 for $50): <3 ideas for this trade>.
+  BEST TIME TO CALL: <their local business hours converted to UK time, e.g. "2pm–10pm UK (9am–5pm Eastern)">.
+  CALL OPENER: "Hi <first name>, it's Charlie – I'm a web designer based in England. I emailed about your website. I noticed <obs short>. Have you had a chance to look at the free preview I made?"
+  ```
+- Add US leads to the Outreach and Call Tracker sheets the same way as UK ones (area as "City, ST", note "USA").
+
 ## Setup
 
 1. Run:

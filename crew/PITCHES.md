@@ -18,7 +18,7 @@ Charlie presses the **Send emails** button in Client Files. That run sends the n
    - **Edited contact details:** `get clients/<id>`. If it has a `contact` object with an email, send to that email instead. If `contact.email` is `""`, mark the pitch `skipped` and move on.
    - **Status:** if the client's status is anything other than "Not emailed yet" (or the doc is missing), mark the pitch `skipped`. They've already been contacted, archived or won.
    - **Duplicates:** search Gmail sent mail for `to:<email>` with the pitch subject. If it's already been sent, mark the pitch `sent` and move on, so nothing goes out twice.
-   - **Preview page:** confirm https://charliebouchard-png.github.io/t00cool2clip-media/<id>/ loads (WebFetch). If it fails, leave the pitch queued, note it, and move on.
+   - **Preview page:** the previews live on the **gh-pages** branch, not main. Check once at the start with `git fetch origin gh-pages && git ls-tree --name-only origin/gh-pages` and confirm `<id>/index.html` exists for each pitch (`git ls-tree origin/gh-pages <id>/index.html`). Don't use WebFetch for this – it's often blocked from the cloud even when the page is live. Only if the folder is missing: leave the pitch queued, note it, and move on.
 4. **Send it.** Set the pitch to `sending`, then send with Gmail `send_message` from charliebouchard208@gmail.com. Use the stored subject and body exactly (plain text). Leave about a minute between emails if your tools allow it.
 5. **Record it.** In one ArtifactData `batch`:
    - `update` the pitch to `{status: "sent", sentAt, messageId}`

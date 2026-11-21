@@ -14,7 +14,7 @@ Charlie lives in England and can work US hours, so he also wants small US busine
 - **Every record gets `"country": "US"`**, a US-format `town` ("Austin, TX"), the phone as written on their site, and prices in `$`.
 - **Run the add step with your own file** so parallel runs don't clash: `LEADS_FILE=prospects_us_<region>.jsonl python3 leads/add.py`. `build.py` and `compose.py` read every prospects*.jsonl automatically. Build only your new slugs: `python3 leads/build.py ../pages <slugs...>`.
 - **Prices for US leads (USD):** website $250 to build + $30/month; short clips $6 each (10 for $50); YouTube edits $40 / $70 / $115 (up to 10 / 20 / 30 min). No Command Centre in the US.
-- **US pitches are written but HELD:** US law (CAN-SPAM) requires a real postal mailing address in every commercial email, and Charlie hasn't given one yet. The pitch body contains the placeholder `{mailing_address}`. Write `pitches/<slug>` with `status: "held"`, `holdReason: "Needs Charlie's mailing address (US law)"`, `batch: "us"`. Never set them to queued. Charlie releases them later.
+- **US pitches:** US law (CAN-SPAM) requires a real postal mailing address in every commercial email. Keep the placeholder `{mailing_address}` in the body (the send run fills it in – the address is not stored in this repo). Write `pitches/<slug>` with `status: "queued"`, `batch: "us"`.
 - **`leads/<slug>` for US leads:** same fields as below but `batch: "us"`, `country: "US"`, and `help` in this format (one item per line, labels in capitals):
   ```
   WHAT'S WRONG NOW: <obs>.

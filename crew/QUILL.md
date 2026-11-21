@@ -166,7 +166,7 @@ Check today's date and time first (UK time). The goal is to win paying clients, 
 **7. Client Files app.** It's at https://claude.ai/artifact/UuRFwL8Vhx5sPsgQmY8rWi. The client list is clients.json (Artifact read, `path: "clients.json"`) plus collection "leads". Use the ArtifactData tool, loaded with ToolSearch. Always get a doc before writing it and pass if_version. Use `update` (merge) for existing docs.
 - **Edited contact details:** if clients/<id> has a "contact" object, its fields replace those in clients.json. Always send to `contact.email` when it's set.
 - **Email log:** for every email actually sent to or received from a client, append it to emails/<id>:
-  `{"dir":"out"|"in","at","subject","body": first ~300 characters}`
+  `{"dir":"out"|"in","at","to","subject","body": the FULL email text}` – the whole email, not a preview, so Charlie can read exactly what was sent on the applicant's file.
   Don't add duplicates. Drafts aren't logged until they're sent.
 - **Status:** when a client's status changes, `update` clients/<id> with `{"status","updatedAt"}`. Use one of these statuses: Not emailed yet, Emailed, Follow-up 1 sent, Follow-up 2 sent, Replied, To call, Called – no answer, Left voicemail, Spoke – call back, Interested, Meeting booked, Negotiating, Won, Not interested, Removed (no reply).
 - **Not interested → archive:** when you set "Not interested", also set `{"archived":true,"archivedAt":<now>,"nextCall":<a random date 3–12 months from today>}`. Never email them again.

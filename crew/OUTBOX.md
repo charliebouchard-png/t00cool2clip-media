@@ -41,7 +41,7 @@ These emails can still go out without approval:
    - Then delete the Gmail draft (`mcp__Gmail__delete_draft`).
 4. **Record the send.**
    - `update` the outbox doc: `{status: "sent", sentAt, messageId, updatedAt}`.
-   - Append the email to `emails/<clientId>`.
+   - Append the email to `emails/<clientId>` with the FULL body: `{dir: "out", at, to, subject, body}`.
    - Add an `agentlog` entry: "Sent <what> to <name>".
 5. **Also check pending emails.** If an email is still `pending` but Gmail sent mail shows Charlie already sent it from his drafts, mark it `sent` with `note: "Charlie sent it from Gmail"`.
 6. **Rejected emails.** For each doc with `status: "rejected"` that still has a `gmailDraftId`: delete that Gmail draft, then remove the field by updating it to `{"__delete__": true}`. Send nothing.

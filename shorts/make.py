@@ -57,6 +57,38 @@ def crop_expr(segs, ar):
     for k in range(len(segs) - 2, -1, -1):
         e = f"if(lt(t,{segs[k + 1][0]:.2f}),{cx(segs[k][1]):.0f},{e})"
     return e
+def find_cam(path, dur, off=0.0):
+    """Streamer facecam box (x,y,w,h in source pixels) from the median face across the clip; None if no steady face."""
+    try:
+        import cv2
+    except Exception:
+        return None
+    casc = cv2.CascadeClassifier(os.path.join(os.path.dirname(os.path.abspath(__file__)), "models", "haarcascade_frontalface_default.xml"))
+    cap = cv2.VideoCapture(path); W0 = cap.get(cv2.CAP_PROP_FRAME_WIDTH); H0 = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
+    boxes = []; t = off; n = 0
+    while t < dur + off:
+        cap.set(cv2.CAP_PROP_POS_MSEC, t * 1000); ok, fr = cap.read(); n += 1
+        if not ok: break
+        sc = 640 / W0; g = cv2.cvtColor(cv2.resize(fr, (640, int(H0 * sc))), cv2.COLOR_BGR2GRAY)
+        f = casc.detectMultiScale(g, 1.08, 5, minSize=(14, 14))
+        # a facecam face is small and sits away from the centre of the game picture
+        f = [r for r in f if r[2] < 0.10 * 640 and not (0.3 < (r[0] + r[2] / 2) / 640 < 0.7 and 0.25 < (r[1] + r[3] / 2) / g.shape[0] < 0.75)]
+        if len(f):
+            x, y, w, h = max(f, key=lambda r: r[2] * r[3]); boxes.append((x / sc, y / sc, w / sc, h / sc))
+        t += 1.0
+    cap.release()
+    if len(boxes) < max(2, 0.3 * n): return None
+    # keep the biggest cluster of positions (the facecam does not move)
+    best = max(boxes, key=lambda b: sum(abs(o[0] - b[0]) < W0 * .05 and abs(o[1] - b[1]) < H0 * .05 for o in boxes))
+    boxes = [o for o in boxes if abs(o[0] - best[0]) < W0 * .05 and abs(o[1] - best[1]) < H0 * .05]
+    if len(boxes) < max(2, 0.3 * n): return None
+    med = lambda k: sorted(b[k] for b in boxes)[len(boxes) // 2]
+    fx, fy, fw, fh = med(0), med(1), med(2), med(3)
+    cx, cy = fx + fw / 2, fy + fh / 2
+    bw = min(W0 * .45, fw * 3.6); bh = bw / (1080 / 760)
+    bx = max(0, min(W0 - bw, cx - bw / 2)); by = max(0, min(H0 - bh, cy - bh * 0.45))
+    return int(bx) // 2 * 2, int(by) // 2 * 2, int(bw) // 2 * 2, int(bh) // 2 * 2
+
 import re as _re
 _BAD = _re.compile(r"\b(f+u+c+k\w*|s+h+i+t\w*|b+i+t+c+h\w*|c+u+n+t\w*|motherf\w*|d+i+c+k\w*|n+i+g+g\w*|wank\w*|f\*+\w*|sh\*+\w*)", _re.I)
 def censor(t): return _BAD.sub(lambda m: m.group(0)[0] + '*' * (len(m.group(0)) - 1), t)
@@ -67,8 +99,8 @@ ONLY = [int(x) for x in os.environ.get('ONLY', '').split(',') if x]
 for i, c in enumerate(plan['clips'], 1):
     if ONLY and i not in ONLY: continue
     st, en = float(c['start']), float(c['end'])
-    _w = [w for w in words if w['s'] >= st - .3]; st = _w[0]['s'] - .15 if _w else st
-    _e = [w for w in words if w['e'] <= en + .3]; en = _e[-1]['e'] + .35 if _e else en
+    _w = [w for w in words if st - .3 <= w['s'] < en]; st = _w[0]['s'] - .15 if _w else st
+    _e = [w for w in words if st <= w['e'] <= en + .3]; en = _e[-1]['e'] + .35 if _e else en
     ws0 = [w for w in words if st <= w['s'] < en]
     # keep-intervals (source time): speech runs, dead air between them removed
     iv = [[st, en]]
@@ -115,6 +147,7 @@ for i, c in enumerate(plan['clips'], 1):
             ev.append(f"Dialogue: 0,{ts(max(0,a))},{ts(max(a+.05,b))},Cap,,0,0,0,,{txt}")
     credit = esc(f"via {plan['channel']}")
     ev.append(f"Dialogue: 0,{ts(0)},{ts(dur+2)},Credit,,0,0,0,,{credit}")
+    HOOKV = 700 if (plan.get("layout") == "stream" or c.get("layout") == "stream") else 250
     ass = f"""[Script Info]
 ScriptType: v4.00+
 PlayResX: 1080
@@ -122,7 +155,7 @@ PlayResY: 1920
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Hook,Archivo Black,66,&H00111111,&H00111111,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,3,18,0,8,70,70,250,1
+Style: Hook,Archivo Black,66,&H00111111,&H00111111,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,3,18,0,8,70,70,{HOOKV},1
 Style: Cap,Archivo Black,78,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,0,0,0,0,100,100,0,0,1,7,3,2,60,60,470,1
 Style: Credit,Archivo Black,34,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,0,2,60,60,330,1
 
@@ -133,8 +166,18 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     out = f"{W}/final_{i}.mp4"
     # Agent 3: mute every masked word in the audio too (swears + slurs), so Shorts stay ad-friendly
     mute = [(max(0, remap(w['s']) + pre - .04), remap(w['e']) + pre + .04) for w in ws0 if _BAD.search(w['w'])] if plan.get('bleep', True) else []
-    ft = face_track(raw, dur, pre) if os.environ.get('NOFACE') != '1' and not plan.get('noface') else None
-    if ft:
+    cam = None
+    if plan.get('layout') == 'stream' or c.get('layout') == 'stream':
+        cam = tuple(c.get('cam') or plan.get('cam') or ()) or find_cam(raw, dur, pre)
+    ft = None if cam else (face_track(raw, dur, pre) if os.environ.get('NOFACE') != '1' and not plan.get('noface') else None)
+    if cam:
+        x, y, w, h = cam
+        # facecam on top (1080x760), gameplay below (1080x1160) - the layout clipping guides recommend for stream clips
+        vf = (f"[0:v]split[a][b];[a]crop={w}:{h}:{x}:{y},scale=1080:760:force_original_aspect_ratio=increase,crop=1080:760[cam];"
+              f"[b]scale=-2:1160,crop=1080:1160[gp];[cam][gp]vstack,"
+              f"subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")
+        print(f"clip {i}: stream layout, cam {cam}")
+    elif ft:
         segs, ar = ft
         vf = (f"[0:v]scale=-2:1920,crop=1080:1920:'{crop_expr(segs, ar)}':0,"
               f"subtitles={W}/sub_{i}.ass:fontsdir={FONTS}[v]")

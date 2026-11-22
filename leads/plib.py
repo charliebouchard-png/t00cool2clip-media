@@ -10,7 +10,7 @@ def all_prospects():
 US_WORDS = [('colours','colors'),('colour','color'),('Colour','Color'),('favourite','favorite'),('organise','organize'),('personalised','personalized'),
   ('postcode','ZIP code'),('Pop in','Stop by'),('pop in','stop by'),('Book in','Book'),('mum','mom'),('Mum','Mom'),('enquir','inquir'),('Enquir','Inquir'),
   ('jewellery','jewelry'),('grey','gray'),('practise','practice'),('licence','license'),('programme','program'),('a proper consultation','a real consultation'),
-  ('proper ','real '),('Proper ','Real '),('in store','in the store'),('fortnight','two weeks'),('car park','parking lot'),('pupil','student'),('Pupil','Student'),('school holidays','school vacations'),('Their holiday, while you\'re on yours.','Their vacation, while you\'re on yours.')]
+  ('proper ','real '),('Proper ','Real '),('in store','in the store'),('fortnight','two weeks'),('car park','parking lot'),('pupil','student'),('Pupil','Student'),('school holidays','school vacations'),('exams and shows','recitals and shows'),('Ask us about exams and our shows','Ask us about recitals and shows'),('uniform details','dress code details'),('Their holiday, while you\'re on yours.','Their vacation, while you\'re on yours.')]
 def americanize(s):
     if not isinstance(s, str): return s
     for a, b in US_WORDS: s = s.replace(a, b)

@@ -52,7 +52,7 @@ Charlie lives in England and can work US hours, so he also wants small US busine
   - It has at least one real, checkable problem you can quote word for word, such as an old copyright year, template text, a dead link, a wrong phone link, a typo or an outdated notice.
 - **Skip** modern sites that already look good. Log each reject in `leads/rejected.txt`.
 - **The record for each keeper:** fields `name`, `short?`, `cat`, `trade`, `town`, `site`, `email`, `phone`, `address`, `hours`, `services`, `since`, `about`, `socials`, `obs`, `greet?`.
-  - `cat` must be one of: dog florist cafe hair beauty health cleaning garden trades fitness tutor stay shop cakes events riding dance boarding petcare
+  - `cat` must be one of: dog florist cafe hair beauty health cleaning garden trades fitness tutor stay shop cakes events riding dance boarding petcare music driving
   - `obs` is a lowercase clause that follows "Had a look at your website and noticed ...". It must be true and specific.
   - Never invent anything.
 - **Add the batch:** `python3 leads/add.py <<'EOF' [ ...records... ] EOF`. It removes duplicates and prints `NEW_SLUGS ...`.

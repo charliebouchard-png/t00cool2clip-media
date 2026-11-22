@@ -161,6 +161,20 @@ CAT['petcare'] = dict(font='bricolage', art='paws', theme=theme('#f7f9fb','#fff'
    faq=[('Are you insured?','Ask us and we\'ll send details.'),('Which areas do you cover?','{t} and nearby. Get in touch to check.'),('Do you look after cats and small pets too?','Ask us about your pets and we\'ll tell you what we can do.')],
    cta='Book a meet & greet.', visit='Contact', visit_title='Get in touch')
 
+CAT['music'] = dict(font='jakarta', art='waves', theme=theme('#f7f8fc','#fff','#141a2e','#5b6380','#e2e6f2','#4338ca','#fff','#facc15','#1f1a00','#1e1b4b','#fff','#eceefb'),
+   eyebrow='Music lessons · {t}', headline='Music lessons they look forward to.', sub='Friendly, experienced teachers for every age and level in {t}, from first notes to performances.',
+   svc='Lessons', svc_title='What we teach', svc_intro='Not sure where to start? Get in touch and we\'ll suggest the right teacher and lesson.',
+   how='Getting started', steps=[('Get in touch','Call or email with the instrument, age and experience.'),('First lesson','We match you with the right teacher and time.'),('Keep playing','Regular lessons and chances to perform.')],
+   faq=[('Do you teach complete beginners?','Yes. Get in touch and we\'ll find the right starting point.'),('How long are lessons?','Ask us about lesson lengths and times when you get in touch.'),('Do adults take lessons too?','Get in touch and we\'ll tell you what\'s available for adults.')],
+   cta='Book a first lesson.', visit='Contact', visit_title='Get in touch')
+
+CAT['driving'] = dict(font='grotesk', art='grid', theme=theme('#f5f7fa','#fff','#121a26','#566274','#dfe5ee','#0f766e','#fff','#fbbf24','#1f1600','#0f2f3a','#fff','#e8eff2'),
+   eyebrow='Driving school · {t}', headline='Calm lessons. Confident drivers.', sub='Patient, friendly driving instruction in {t} for teens and adults, from first lesson to road test.',
+   svc='Courses', svc_title='Courses & lessons', svc_intro='Not sure which course you need? Call or email and we\'ll point you to the right one.',
+   how='Getting started', steps=[('Get in touch','Call or email with your age and permit status.'),('Book your course','We\'ll find a class or lesson time that suits you.'),('Pass with confidence','Practice, prepare and take your road test.')],
+   faq=[('Do you teach adults?','Get in touch and we\'ll tell you about adult lessons.'),('Can I take the road test with you?','Ask us about road tests when you book.'),('Do you pick up from home?','Ask us when you book and we\'ll explain the options.')],
+   cta='Book your first lesson.', visit='Contact', visit_title='Get in touch')
+
 def tel(p):
     d = re.sub(r'[^\d+]', '', p or '')
     if d.startswith('0'): d = '+44' + d[1:]

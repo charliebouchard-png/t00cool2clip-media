@@ -164,6 +164,7 @@ CAT['petcare'] = dict(font='bricolage', art='paws', theme=theme('#f7f9fb','#fff'
 def tel(p):
     d = re.sub(r'[^\d+]', '', p or '')
     if d.startswith('0'): d = '+44' + d[1:]
+    elif len(d) == 10 and not d.startswith('+'): d = '+1' + d  # US numbers
     return d
 
 def build(r):
@@ -217,6 +218,7 @@ def build(r):
         'HOW_TITLE': E(c['how']), 'STEPS': steps, 'ABOUT_TITLE': E(f'About {name}'), 'ABOUT': E(r['about']),
         'AREA_LINE': E(f'Based in {t}, serving the surrounding area.'), 'FAQ': faq,
         'VISIT_TITLE': E(c['visit_title']), 'CONTACT': contact, 'HOURS_BLOCK': hours, 'CTA_TITLE': E(fill(c['cta'])),
+        'PRICE_LINE': ('A site like this is $250 to build, then $30 a month for hosting and changes.' if r.get('country') == 'US' else 'A site like this is £200 to build, then £25 a month for hosting and changes.'),
         'BAR': bar, 'HOURS_JSON': json.dumps(r.get('hours') or []),
     }
     out = TPL

@@ -1,0 +1,382 @@
+<title>Aether Watches</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#0A0A0A;--fg:#EAEAEA;--ac:#FF4D00;--hair:rgba(234,234,234,.14);--dim:rgba(234,234,234,.55);
+  --disp:"Anton","Impact","Arial Narrow",sans-serif;--mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;color-scheme:dark}
+*{box-sizing:border-box;border-radius:0}
+html{scroll-behavior:auto}
+body{background:var(--bg);color:var(--fg);font-family:var(--mono);font-size:13px;line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+::selection{background:var(--ac);color:var(--bg)}
+a{color:inherit;text-decoration:none}
+#gl{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block;pointer-events:none}
+.grain{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.06;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+.lbl{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.12em;font-weight:500}
+.dim{color:var(--dim)}.ac{color:var(--ac)}
+/* header */
+header{position:fixed;top:0;left:0;right:0;z-index:20;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;
+  padding:calc(14px + env(safe-area-inset-top,0px)) max(24px,env(safe-area-inset-right,0px)) 14px max(24px,env(safe-area-inset-left,0px));
+  border-bottom:1px solid var(--hair);background:rgba(10,10,10,.72);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px)}
+.mark{font-family:var(--disp);font-size:22px;letter-spacing:.04em;line-height:1;text-transform:uppercase}
+.mark sup{font-family:var(--mono);font-size:9px;letter-spacing:.12em;margin-left:6px;vertical-align:top;color:var(--dim)}
+.ind{display:flex;gap:14px;align-items:center;justify-content:center;white-space:nowrap}
+.ind .bar{width:90px;height:1px;background:var(--hair);position:relative;overflow:hidden}
+.ind .bar i{position:absolute;inset:0;background:var(--ac);transform-origin:left;transform:scaleX(0)}
+.cta{justify-self:end;display:inline-block;border:1px solid var(--fg);border-radius:999px;padding:10px 18px;transition:background .25s,color .25s,border-color .25s}
+.cta:hover,.cta:focus-visible{background:var(--ac);border-color:var(--ac);color:var(--bg);outline:none}
+/* layout */
+main{position:relative;z-index:2}
+section{position:relative;min-height:100vh;min-height:100svh;border-bottom:1px solid var(--hair);
+  padding:calc(96px + env(safe-area-inset-top,0px)) max(24px,env(safe-area-inset-right,0px)) 48px max(24px,env(safe-area-inset-left,0px))}
+.disp{font-family:var(--disp);font-weight:400;text-transform:uppercase;font-size:clamp(52px,10vw,170px);line-height:.88;letter-spacing:-.005em;margin:0}
+.line{display:block;overflow:hidden;padding:.12em 0 .16em;margin:-.12em 0 -.16em}
+.line>span{display:block;will-change:transform}
+p{max-width:58ch;margin:0}
+.body{font-size:14px;line-height:1.7;color:rgba(234,234,234,.82)}
+/* hero */
+#hero{display:grid;grid-template-rows:auto 1fr auto;padding-top:calc(110px + env(safe-area-inset-top,0px))}
+.hero-top{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+.hero-title{align-self:end;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:16px}
+.hero-title h1{grid-column:1/-1}
+.hero-title .r{text-align:right}
+.hero-foot{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--hair);margin-top:32px}
+.hero-foot>div{padding:16px 16px 0 0;border-right:1px solid var(--hair)}
+.hero-foot>div:last-child{border-right:0;text-align:right}
+.hero-foot b{display:block;font-weight:500;font-size:13px;margin-top:4px;letter-spacing:.04em}
+.scrollhint{display:inline-flex;gap:10px;align-items:center}
+.scrollhint i{width:1px;height:28px;background:var(--hair);position:relative;overflow:hidden}
+.scrollhint i::after{content:"";position:absolute;left:0;right:0;top:-40%;height:40%;background:var(--ac);animation:drip 1.8s cubic-bezier(.6,0,.2,1) infinite}
+@keyframes drip{to{top:100%}}
+/* philosophy */
+#philosophy{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:16px;align-content:center}
+#philosophy .idx{grid-column:1/3}
+#philosophy .txt{grid-column:1/8}
+#philosophy .side{grid-column:9/13;align-self:end;border-top:1px solid var(--hair);padding-top:16px}
+#philosophy .disp{font-size:clamp(44px,7.4vw,128px)}
+.quote{margin-top:40px;display:grid;grid-template-columns:auto 1fr;gap:20px;border-top:1px solid var(--hair);padding-top:20px;max-width:640px}
+/* specs */
+#specs{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:16px;align-content:center}
+#specs .head{grid-column:1/7}
+#specs .disp{font-size:clamp(48px,8vw,140px)}
+.specs{grid-column:1/7;margin-top:40px;border-top:1px solid var(--hair)}
+.spec{display:grid;grid-template-columns:44px 1fr auto;gap:16px;align-items:baseline;padding:14px 0;border-bottom:1px solid var(--hair)}
+.spec .v{font-family:var(--disp);font-size:clamp(22px,2.3vw,34px);letter-spacing:.02em;text-transform:uppercase;text-align:right;line-height:1}
+.spec:hover .v{color:var(--ac)}
+/* showcase */
+#showcase{display:grid;grid-template-rows:auto 1fr auto}
+.sc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:24px;flex-wrap:wrap}
+.sc-top .disp{font-size:clamp(44px,7vw,120px)}
+.views{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--hair);border-left:1px solid var(--hair)}
+.views button{appearance:none;background:rgba(10,10,10,.62);color:var(--fg);border:0;border-right:1px solid var(--hair);border-bottom:1px solid var(--hair);padding:18px 16px;text-align:left;cursor:pointer;font:inherit;display:flex;flex-direction:column;gap:6px;transition:background .25s,color .25s}
+.views button .t{font-family:var(--disp);font-size:clamp(22px,2.4vw,36px);text-transform:uppercase;line-height:1}
+.views button[aria-pressed="true"]{background:var(--fg);color:var(--bg)}
+.views button[aria-pressed="true"] .lbl{color:var(--bg)}
+.views button:hover:not([aria-pressed="true"]) .t{color:var(--ac)}
+.vnote{min-height:3.4em;margin:18px 0;max-width:46ch}
+.crosshair{position:absolute;left:50%;top:50%;width:84px;height:84px;margin:-42px 0 0 -42px;pointer-events:none;opacity:0}
+.crosshair::before,.crosshair::after{content:"";position:absolute;background:var(--ac)}
+.crosshair::before{left:50%;top:0;bottom:0;width:1px}.crosshair::after{top:50%;left:0;right:0;height:1px}
+/* contact */
+#contact{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));column-gap:16px;align-content:end}
+#contact .disp{grid-column:1/-1;font-size:clamp(56px,11vw,190px)}
+.cgrid{grid-column:1/-1;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--hair);margin-top:40px}
+.cgrid>div{padding:20px 20px 20px 0;border-right:1px solid var(--hair)}
+.cgrid>div+div{padding-left:20px}
+.cgrid>div:last-child{border-right:0}
+form{display:flex;gap:0;margin-top:12px;border-bottom:1px solid var(--fg)}
+form input{flex:1;min-width:0;background:transparent;border:0;color:var(--fg);font:inherit;font-size:14px;padding:10px 0;outline:none}
+form input::placeholder{color:var(--dim)}
+form button{appearance:none;background:transparent;color:var(--fg);border:0;font:inherit;cursor:pointer;padding:10px 0 10px 12px}
+form button:hover{color:var(--ac)}
+.fmsg{min-height:1.6em;margin-top:8px}
+footer{position:relative;z-index:2;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+  padding:18px max(24px,env(safe-area-inset-right,0px)) calc(18px + env(safe-area-inset-bottom,0px)) max(24px,env(safe-area-inset-left,0px))}
+.big-ac{color:var(--ac)}
+/* cursor */
+.cur{position:fixed;left:0;top:0;z-index:50;pointer-events:none;width:10px;height:10px;margin:-5px 0 0 -5px;background:var(--fg);mix-blend-mode:difference;transition:width .25s,height .25s,margin .25s,background .25s}
+.cur.hot{width:46px;height:46px;margin:-23px 0 0 -23px;background:var(--ac);mix-blend-mode:normal;opacity:.9}
+@media (hover:hover) and (pointer:fine){body.cc,body.cc a,body.cc button{cursor:none}}
+@media (hover:none),(pointer:coarse){.cur{display:none}}
+:focus-visible{outline:1px solid var(--ac);outline-offset:3px}
+/* responsive */
+@media (max-width:860px){
+  header{grid-template-columns:1fr auto}.ind{display:none}
+  .hero-foot{grid-template-columns:1fr 1fr}.hero-foot>div:nth-child(2){border-right:0}.hero-foot>div:nth-child(3){padding-top:16px;border-top:1px solid var(--hair)}.hero-foot>div:nth-child(4){padding-top:16px;border-top:1px solid var(--hair);text-align:left}
+  #philosophy .txt,#philosophy .side,#specs .head,.specs{grid-column:1/-1}
+  #philosophy .side{margin-top:40px}
+  .views{grid-template-columns:1fr 1fr}
+  .cgrid{grid-template-columns:1fr}.cgrid>div{border-right:0;border-bottom:1px solid var(--hair);padding-left:0!important}
+  section{padding-bottom:40px}
+  .hero-title .r{text-align:left}
+}
+@media (prefers-reduced-motion:reduce){.scrollhint i::after{animation:none}}
+</style>
+
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<div class="cur" id="cur" aria-hidden="true"></div>
+
+<header>
+  <a href="#hero" class="mark mag">Aether<sup>Est. 2019</sup></a>
+  <div class="ind lbl" aria-live="polite"><span id="secN" class="ac">01 / 05</span><span class="bar"><i id="secBar"></i></span><span id="secT">Hero</span></div>
+  <a href="#contact" class="cta lbl mag">Reserve AE-300</a>
+</header>
+
+<main>
+  <section id="hero" data-name="Hero">
+    <div class="hero-top lbl">
+      <span class="dim">Ref. AE-300 / Abyssal</span>
+      <span class="dim">46°11′N 6°08′E — Geneva</span>
+      <span class="scrollhint"><i></i>Scroll to descend</span>
+    </div>
+    <div></div>
+    <div>
+      <div class="hero-title">
+        <h1 class="disp reveal"><span class="line"><span>Pressure</span></span><span class="line r"><span>is a <span class="big-ac">material</span></span></span></h1>
+      </div>
+      <div class="hero-foot lbl">
+        <div><span class="dim">Depth rating</span><b>300 M / 984 FT</b></div>
+        <div><span class="dim">Case</span><b>Grade 5 titanium</b></div>
+        <div><span class="dim">Reserve</span><b>72 hours</b></div>
+        <div><span class="dim">Edition</span><b>300 pieces</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="philosophy" data-name="Philosophy">
+    <div class="idx lbl ac">01 — Philosophy</div>
+    <div class="txt">
+      <h2 class="disp reveal" style="margin-top:24px"><span class="line"><span>Built for</span></span><span class="line"><span>the dark</span></span><span class="line"><span>it lives in.</span></span></h2>
+      <div class="quote">
+        <span class="lbl ac">“</span>
+        <p class="body">Three hundred metres down, light gives up and the ocean pushes on every square centimetre with the weight of a small car. We don't decorate for that place. We machine for it — then remove everything that doesn't belong.</p>
+      </div>
+    </div>
+    <div class="side">
+      <p class="lbl dim" style="margin-bottom:14px">Principles</p>
+      <p class="body">One alloy. One movement. One job: tell the time when nothing else can. Every AE-300 is cut from a single billet, assembled by one watchmaker, and pressure-tested to 375 metres before it leaves the bench.</p>
+      <p class="lbl" style="margin-top:20px"><span class="dim">Bench time —</span> 41 hours per piece</p>
+    </div>
+  </section>
+
+  <section id="specs" data-name="Specs">
+    <div class="head">
+      <div class="lbl ac">02 — Technical specification</div>
+      <h2 class="disp reveal" style="margin-top:24px"><span class="line"><span>Measured,</span></span><span class="line"><span>not styled.</span></span></h2>
+    </div>
+    <div class="specs lbl">
+      <div class="spec"><span class="dim">01</span><span>Calibre</span><span class="v">AE-72 Automatic</span></div>
+      <div class="spec"><span class="dim">02</span><span>Frequency</span><span class="v">28,800 vph</span></div>
+      <div class="spec"><span class="dim">03</span><span>Case</span><span class="v">42 mm / 12.4 mm</span></div>
+      <div class="spec"><span class="dim">04</span><span>Water resistance</span><span class="v">30 bar</span></div>
+      <div class="spec"><span class="dim">05</span><span>Bezel</span><span class="v">120-click unidirectional</span></div>
+      <div class="spec"><span class="dim">06</span><span>Crystal</span><span class="v">Domed sapphire, AR ×2</span></div>
+      <div class="spec"><span class="dim">07</span><span>Lume</span><span class="v">Super-LumiNova C3</span></div>
+      <div class="spec"><span class="dim">08</span><span>Weight</span><span class="v">78 g on rubber</span></div>
+    </div>
+  </section>
+
+  <section id="showcase" data-name="Showcase">
+    <div class="sc-top">
+      <div>
+        <div class="lbl ac">03 — Interactive showcase</div>
+        <h2 class="disp reveal" style="margin-top:24px"><span class="line"><span>Look</span></span><span class="line"><span>closer.</span></span></h2>
+      </div>
+      <p class="lbl dim" style="max-width:28ch;text-align:right">Pick a detail. The camera goes to it. Move your cursor to tilt the case.</p>
+    </div>
+    <div class="crosshair" id="xh" aria-hidden="true"></div>
+    <div>
+      <p class="body vnote" id="vnote" aria-live="polite">The dial: matte black, sunk 0.4 mm below the chapter ring so the indices cast their own shadow. Lume is applied by hand, three coats.</p>
+      <div class="views" role="group" aria-label="Choose a detail">
+        <button aria-pressed="true" data-v="0"><span class="lbl dim">A — 01</span><span class="t">Dial</span></button>
+        <button aria-pressed="false" data-v="1"><span class="lbl dim">B — 02</span><span class="t">Bezel</span></button>
+        <button aria-pressed="false" data-v="2"><span class="lbl dim">C — 03</span><span class="t">Crown</span></button>
+        <button aria-pressed="false" data-v="3"><span class="lbl dim">D — 04</span><span class="t">Profile</span></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" data-name="Reserve">
+    <div class="lbl ac" style="grid-column:1/-1;margin-bottom:24px">04 — Reserve</div>
+    <h2 class="disp reveal"><span class="line"><span>300 pieces.</span></span><span class="line"><span class="big-ac">No reissue.</span></span></h2>
+    <div class="cgrid lbl">
+      <div><span class="dim">Allocation</span><p class="body" style="text-transform:none;letter-spacing:0;margin-top:8px">Pieces are allocated in order of request. You'll hear from us within 48 hours with a serial number and a fitting date.</p></div>
+      <div><span class="dim">Price</span><p style="font-family:var(--disp);font-size:clamp(34px,4vw,60px);line-height:1;margin-top:8px;letter-spacing:.01em">CHF 6,400</p><span class="dim">Incl. rubber + titanium bracelet</span></div>
+      <div><span class="dim">Join the list</span>
+        <form id="rf" novalidate><label for="em" style="position:absolute;left:-9999px">Email address</label><input id="em" type="email" placeholder="you@domain.com" autocomplete="email" required><button type="submit" class="lbl mag">Request →</button></form>
+        <div class="fmsg lbl dim" id="fmsg" role="status"></div></div>
+    </div>
+  </section>
+</main>
+<footer class="lbl dim"><span>Aether Watches SA — Rue du Rhône, Geneva</span><span>Concept site — design demo</span><span>© 2026</span></footer>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.147.0/examples/js/environments/RoomEnvironment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(()=>{
+const RM=matchMedia("(prefers-reduced-motion: reduce)").matches;
+const isMobile=()=>innerWidth<860;
+/* ---------- THREE ---------- */
+const canvas=document.getElementById("gl");
+let renderer;
+try{renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:false,powerPreference:"high-performance"})}catch(e){canvas.style.display="none"}
+const AC=0xFF4D00,BG=0x0A0A0A;
+const scene=new THREE.Scene();scene.background=new THREE.Color(BG);scene.fog=new THREE.Fog(BG,9,22);
+const camera=new THREE.PerspectiveCamera(32,innerWidth/innerHeight,.1,100);camera.position.set(0,0,9);
+if(renderer){renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);renderer.outputEncoding=THREE.sRGBEncoding;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.physicallyCorrectLights=true;
+  const pm=new THREE.PMREMGenerator(renderer);scene.environment=pm.fromScene(new THREE.RoomEnvironment(),.04).texture}
+// lights: dramatic key + two rims
+const key=new THREE.DirectionalLight(0xffffff,2.2);key.position.set(4,5,6);scene.add(key);
+const rim1=new THREE.DirectionalLight(0xffffff,4);rim1.position.set(-6,2,-4);scene.add(rim1);
+const rim2=new THREE.DirectionalLight(AC,3.2);rim2.position.set(6,-3,-5);scene.add(rim2);
+scene.add(new THREE.AmbientLight(0xffffff,.05));
+// materials
+const ti=new THREE.MeshPhysicalMaterial({color:0x9a9ea3,metalness:1,roughness:.32,clearcoat:.3,clearcoatRoughness:.4});
+const tiPol=new THREE.MeshPhysicalMaterial({color:0xd8dadc,metalness:1,roughness:.12});
+const black=new THREE.MeshStandardMaterial({color:0x090909,metalness:.1,roughness:.7,envMapIntensity:.25});
+const ceramic=new THREE.MeshPhysicalMaterial({color:0x111111,metalness:.1,roughness:.18,clearcoat:1,clearcoatRoughness:.08});
+const lume=new THREE.MeshStandardMaterial({color:0xEAEAEA,emissive:0x2a2a22,roughness:.4});
+const accent=new THREE.MeshStandardMaterial({color:AC,emissive:AC,emissiveIntensity:.35,roughness:.4});
+const rubber=new THREE.MeshStandardMaterial({color:0x0d0d0d,roughness:.9,metalness:0,envMapIntensity:.12});
+const glass=new THREE.MeshPhysicalMaterial({color:0xffffff,metalness:0,roughness:.04,transparent:true,opacity:.1,clearcoat:1,envMapIntensity:2.2,depthWrite:false});
+const watch=new THREE.Group();scene.add(watch);
+const face=new THREE.Group();watch.add(face); // dial points +Z
+// case body: lathe profile
+const prof=[[0,-.62],[1.42,-.62],[1.62,-.5],[1.7,-.25],[1.72,.2],[1.66,.38],[1.55,.44],[1.24,.44],[1.24,.29],[0,.29]].map(p=>new THREE.Vector2(p[0],p[1]));
+const caseG=new THREE.LatheGeometry(prof,128);caseG.rotateX(Math.PI/2);
+const caseM=new THREE.Mesh(caseG,ti);face.add(caseM);
+// bezel ring with 120 notches (as instanced teeth) + insert
+const bez=new THREE.Mesh(new THREE.TorusGeometry(1.6,.13,24,160),tiPol);bez.position.z=.5;face.add(bez);
+const insert=new THREE.Mesh(new THREE.RingGeometry(1.22,1.56,128),ceramic);insert.position.z=.6;face.add(insert);
+const teeth=new THREE.InstancedMesh(new THREE.BoxGeometry(.05,.07,.18),tiPol,120);
+const dm=new THREE.Object3D();for(let i=0;i<120;i++){const a=i/120*Math.PI*2;dm.position.set(Math.cos(a)*1.74,Math.sin(a)*1.74,.5);dm.rotation.z=a;dm.updateMatrix();teeth.setMatrixAt(i,dm.matrix)}face.add(teeth);
+// bezel markers
+for(let i=0;i<60;i++){const a=Math.PI/2-i/60*Math.PI*2,big=i%5===0;if(i===0)continue;
+  const m=new THREE.Mesh(new THREE.BoxGeometry(big?.045:.02,big?.16:.07,.01),i<15?lume:new THREE.MeshStandardMaterial({color:0x8a8a8a,roughness:.5}));
+  m.position.set(Math.cos(a)*(big?1.44:1.48),Math.sin(a)*(big?1.44:1.48),.611);m.rotation.z=a-Math.PI/2;face.add(m)}
+const pip=new THREE.Mesh(new THREE.ConeGeometry(.09,.18,3),accent);pip.position.set(0,1.42,.615);pip.rotation.z=Math.PI;pip.scale.z=.1;face.add(pip);
+// dial
+const dial=new THREE.Mesh(new THREE.CircleGeometry(1.22,128),black);dial.position.z=.3;face.add(dial);
+const chapter=new THREE.Mesh(new THREE.RingGeometry(1.08,1.22,128),new THREE.MeshStandardMaterial({color:0x1a1a1a,roughness:.35,metalness:.4}));chapter.position.z=.305;face.add(chapter);
+for(let i=0;i<60;i++){const a=Math.PI/2-i/60*Math.PI*2;const t=new THREE.Mesh(new THREE.BoxGeometry(.012,i%5?.05:.09,.004),new THREE.MeshStandardMaterial({color:0xbdbdbd}));t.position.set(Math.cos(a)*1.15,Math.sin(a)*1.15,.31);t.rotation.z=a-Math.PI/2;face.add(t)}
+// hour indices
+for(let h=0;h<12;h++){const a=Math.PI/2-h/12*Math.PI*2;let m;
+  if(h===0){m=new THREE.Mesh(new THREE.BoxGeometry(.2,.26,.04),lume);}
+  else if(h%3===0){m=new THREE.Mesh(new THREE.BoxGeometry(.09,.3,.04),lume)}
+  else{m=new THREE.Mesh(new THREE.CylinderGeometry(.07,.07,.04,32),lume);m.rotation.x=Math.PI/2}
+  const r=h===0?.9:.88;m.position.set(Math.cos(a)*r,Math.sin(a)*r,.33);if(h%3===0&&h)m.rotation.z=a-Math.PI/2;face.add(m)
+  const surround=new THREE.Mesh(new THREE.BoxGeometry(h===0?.24:h%3?.17:.13,h===0?.3:h%3?.17:.34,.03),tiPol);surround.position.copy(m.position);surround.position.z=.315;surround.rotation.z=m.rotation.z;if(h%3)surround.visible=false;face.add(surround)}
+// hands
+function hand(len,w,mat,z){const g=new THREE.Group();const b=new THREE.Mesh(new THREE.BoxGeometry(w,len,.025),mat);b.position.y=len/2-.12;g.add(b);g.position.z=z;face.add(g);return g}
+const hH=hand(.72,.09,lume,.36),mH=hand(1.02,.065,lume,.38),sH=hand(1.12,.018,accent,.40);
+const hubT=new THREE.Mesh(new THREE.CylinderGeometry(.06,.06,.06,32),accent);hubT.rotation.x=Math.PI/2;hubT.position.z=.42;face.add(hubT);
+const sTip=new THREE.Mesh(new THREE.CircleGeometry(.05,32),lume);sTip.position.set(0,.78,.012);sH.children[0].add(sTip);sTip.position.set(0,.3,.014);
+// crystal
+const glint=new THREE.Mesh(new THREE.RingGeometry(1.0,1.2,96,1,.3,.9),new THREE.MeshBasicMaterial({color:0xffffff,transparent:true,opacity:.06,depthWrite:false}));glint.position.z=.7;face.add(glint);
+// crown + guards
+const crown=new THREE.Group();crown.position.set(1.88,0,-.08);face.add(crown);
+const cr=new THREE.Mesh(new THREE.CylinderGeometry(.22,.22,.3,48),ti);cr.rotation.z=Math.PI/2;cr.position.x=.12;crown.add(cr);
+const ridges=new THREE.InstancedMesh(new THREE.BoxGeometry(.3,.03,.03),tiPol,36);for(let i=0;i<36;i++){const a=i/36*Math.PI*2;dm.position.set(.12,Math.cos(a)*.225,Math.sin(a)*.225);dm.rotation.set(a,0,0);dm.updateMatrix();ridges.setMatrixAt(i,dm.matrix)}crown.add(ridges);
+const crCap=new THREE.Mesh(new THREE.CircleGeometry(.2,48),accent);crCap.position.x=.271;crCap.rotation.y=Math.PI/2;crown.add(crCap);
+const stem=new THREE.Mesh(new THREE.CylinderGeometry(.09,.09,.2,24),ti);stem.rotation.z=Math.PI/2;stem.position.x=-.1;crown.add(stem);
+[.38,-.38].forEach(y=>{const g=new THREE.Mesh(new THREE.BoxGeometry(.32,.12,.5),ti);g.position.set(1.74,y,-.08);face.add(g)});
+// lugs
+[[1,1],[-1,1],[1,-1],[-1,-1]].forEach(([sx,sy])=>{const l=new THREE.Mesh(new THREE.BoxGeometry(.34,.85,.5),ti);l.position.set(sx*.92,sy*1.78,-.12);l.rotation.z=sx*sy*-.08;face.add(l);
+  const bevel=new THREE.Mesh(new THREE.BoxGeometry(.06,.85,.5),tiPol);bevel.position.set(sx*1.1,sy*1.78,-.12);face.add(bevel)});
+// strap: segmented rubber
+const strap=new THREE.Group();face.add(strap);
+for(const sy of [1,-1])for(let i=0;i<9;i++){const s=new THREE.Mesh(new THREE.BoxGeometry(1.58-i*.02,.36,.28),rubber);const y=sy*(2.25+i*.36),z=-.18-Math.pow(i,1.7)*.06;s.position.set(0,y,z);s.rotation.x=sy*-(i*.07);strap.add(s);
+  if(i%2===0){const groove=new THREE.Mesh(new THREE.BoxGeometry(1.2-i*.02,.025,.02),new THREE.MeshStandardMaterial({color:0x2a2a2a,roughness:.9}));groove.position.set(0,y,z+.15);groove.rotation.x=s.rotation.x;strap.add(groove)}}
+// caseback engraving ring
+const back=new THREE.Mesh(new THREE.CircleGeometry(1.3,96),tiPol);back.position.z=-.63;back.rotation.y=Math.PI;face.add(back);
+// floor reference: subtle grid lines (architectural)
+const grid=new THREE.GridHelper(40,40,0x2a2a2a,0x161616);grid.position.y=-3.2;grid.material.transparent=true;grid.material.opacity=.5;scene.add(grid);
+watch.rotation.set(-.25,.35,0);
+/* time */
+function setHands(){const d=new Date(),s=d.getSeconds()+d.getMilliseconds()/1000,m=d.getMinutes()+s/60,h=(d.getHours()%12)+m/60;
+  sH.rotation.z=-s/60*Math.PI*2;mH.rotation.z=-m/60*Math.PI*2;hH.rotation.z=-h/12*Math.PI*2}
+/* state driven by scroll + views */
+const st={x:0,y:0,z:0,rx:-.25,ry:.35,rz:0,camZ:9,camY:0,scale:1};
+const VIEWS=[
+ {name:"Dial",note:"The dial: matte black, sunk 0.4 mm below the chapter ring so the indices cast their own shadow. Lume is applied by hand, three coats.",to:{x:1.7,y:.1,rx:0,ry:0,rz:0,camZ:6.4,camY:0}},
+ {name:"Bezel",note:"120 clicks, one direction only. Each tooth is cut 0.6 mm deep so it grips through a 5 mm glove. The ceramic insert won't fade in 30 years of sun.",to:{x:2.3,y:-.5,rx:-.55,ry:.25,rz:.4,camZ:5.2,camY:-.2}},
+ {name:"Crown",note:"Screw-down, triple-gasketed, guarded on both sides. The orange cap is the only colour on the case — so you find it by feel and by sight.",to:{x:.6,y:0,rx:-.1,ry:-1.05,rz:0,camZ:4.8,camY:0}},
+ {name:"Profile",note:"12.4 mm thin for a 300-metre case. The domed sapphire rises 1.1 mm above the bezel and is the only curve we allowed ourselves.",to:{x:1.7,y:0,rx:-.05,ry:-1.57,rz:0,camZ:7,camY:.1}}];
+let viewIdx=0,inShowcase=false;const off={x:0,y:0,rx:0,ry:0,rz:0,camZ:0,camY:0,w:0};
+/* mouse parallax */
+const mouse={x:0,y:0,tx:0,ty:0};
+addEventListener("pointermove",e=>{mouse.tx=(e.clientX/innerWidth-.5)*2;mouse.ty=(e.clientY/innerHeight-.5)*2},{passive:true});
+function frame(t){
+  mouse.x+=(mouse.tx-mouse.x)*.06;mouse.y+=(mouse.ty-mouse.y)*.06;
+  setHands();
+  const idle=RM?0:Math.sin(t*.0004)*.04;
+  const w=off.w,X=st.x+off.x*w,Y=st.y+off.y*w;
+  watch.position.set(X,Y+idle,st.z);watch.scale.setScalar(st.scale*(isMobile()?.58:.74));
+  watch.rotation.set(st.rx+off.rx*w+mouse.y*.12,st.ry+off.ry*w+mouse.x*.18,st.rz+off.rz*w);
+  camera.position.set(mouse.x*.15,st.camY+off.camY*w-mouse.y*.1,st.camZ+off.camZ*w);camera.lookAt(X*.25,Y*.25,0);
+  rim2.intensity=3.2+Math.sin(t*.001)*.6;
+  if(renderer)renderer.render(scene,camera);
+  requestAnimationFrame(frame)}
+requestAnimationFrame(frame);
+addEventListener("resize",()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();if(renderer)renderer.setSize(innerWidth,innerHeight);ScrollTrigger.refresh()});
+/* ---------- GSAP ---------- */
+gsap.registerPlugin(ScrollTrigger);
+// text reveals
+document.querySelectorAll(".reveal").forEach(h=>{const spans=h.querySelectorAll(".line>span");
+  if(RM){return}
+  gsap.from(spans,{yPercent:115,duration:1.1,ease:"power4.out",stagger:.09,scrollTrigger:{trigger:h,start:"top 85%"}})});
+if(!RM){gsap.from(".hero-foot>div,.spec,.cgrid>div,.views button",{opacity:0,y:18,duration:.8,ease:"power3.out",stagger:.04,scrollTrigger:{trigger:"#hero",start:"top top"}})}
+// keyframes per section
+const P=()=>isMobile()?{
+ hero:{x:0,y:1,z:0,rx:-.3,ry:.4,rz:0,camZ:10.5,camY:0,scale:.95},
+ showcase:{x:0,y:.2,rx:0,ry:0,rz:0,camZ:8.6,camY:0,scale:1,z:0},
+ philosophy:{x:0,y:-1.6,z:-1,rx:-.9,ry:-.6,rz:.3,camZ:10,camY:0,scale:.9},
+ specs:{x:0,y:1.9,z:-1.2,rx:.2,ry:-1.2,rz:-.2,camZ:10,camY:0,scale:.85},
+ contact:{x:0,y:2.6,z:-3,rx:-.6,ry:2.6,rz:.2,camZ:12,camY:0,scale:.75}
+}:{
+ hero:{x:1.2,y:-.1,z:0,rx:-.25,ry:.35,rz:-.1,camZ:9,camY:0,scale:1},
+ showcase:Object.assign({scale:1,z:0},VIEWS[0].to),
+ philosophy:{x:2.4,y:-.2,z:-.5,rx:-1.1,ry:-.5,rz:.5,camZ:9.4,camY:0,scale:1.05},
+ specs:{x:2.5,y:0,z:0,rx:.15,ry:-1.05,rz:-.15,camZ:8.6,camY:0,scale:1.1},
+ contact:{x:3.9,y:1.1,z:-3,rx:-.5,ry:2.9,rz:.15,camZ:11,camY:0,scale:.8}};
+Object.assign(st,P().hero);
+const tl=gsap.timeline({scrollTrigger:{trigger:"main",start:"top top",end:"bottom bottom",scrub:RM?false:1.2,onUpdate:s=>document.getElementById("secBar").style.transform=`scaleX(${s.progress})`}});
+function buildTL(){tl.clear();const p=P();
+  tl.to(st,Object.assign({duration:1,ease:"none"},p.philosophy))
+    .to(st,Object.assign({duration:1,ease:"none"},p.specs))
+    .to(st,Object.assign({duration:1,ease:"none"},p.showcase))
+    .to(st,Object.assign({duration:1,ease:"none"},p.contact));}
+buildTL();
+ScrollTrigger.addEventListener("refreshInit",()=>{});
+// showcase: views override while in section
+ScrollTrigger.create({trigger:"#showcase",start:"top 55%",end:"bottom 45%",onToggle:s=>{inShowcase=s.isActive;gsap.to("#xh",{opacity:s.isActive?.85:0,duration:.4});gsap.to(off,{w:s.isActive?1:0,duration:RM?0:.9,ease:"power3.out",overwrite:"auto"})}});
+function goView(i,silent){viewIdx=i;
+  document.querySelectorAll(".views button").forEach((b,j)=>b.setAttribute("aria-pressed",String(j===i)));
+  const n=document.getElementById("vnote");n.textContent=VIEWS[i].note;
+  const a=VIEWS[i].to,b=VIEWS[0].to,d={};["x","y","rx","ry","rz","camZ","camY"].forEach(k=>d[k]=(a[k]||0)-(b[k]||0));
+  gsap.to(off,Object.assign({duration:RM?0:1.4,ease:"expo.inOut"},d));}
+document.querySelectorAll(".views button").forEach(b=>b.addEventListener("click",()=>goView(+b.dataset.v)));
+
+// section indicator
+const secs=[...document.querySelectorAll("main>section")];
+secs.forEach((s,i)=>ScrollTrigger.create({trigger:s,start:"top 50%",end:"bottom 50%",onToggle:x=>{if(x.isActive){document.getElementById("secN").textContent=String(i+1).padStart(2,"0")+" / "+String(secs.length).padStart(2,"0");document.getElementById("secT").textContent=s.dataset.name;gsap.to(canvas,{opacity:isMobile()&&/Philosophy|Specs|Reserve/.test(s.dataset.name)?.3:1,duration:.6})}}}));
+/* ---------- cursor + magnetic ---------- */
+const cur=document.getElementById("cur");
+if(matchMedia("(hover:hover) and (pointer:fine)").matches){document.body.classList.add("cc");
+  const xTo=gsap.quickTo(cur,"x",{duration:.18,ease:"power3"}),yTo=gsap.quickTo(cur,"y",{duration:.18,ease:"power3"});
+  addEventListener("pointermove",e=>{xTo(e.clientX);yTo(e.clientY)},{passive:true});
+  document.querySelectorAll("a,button,input").forEach(el=>{el.addEventListener("pointerenter",()=>cur.classList.add("hot"));el.addEventListener("pointerleave",()=>cur.classList.remove("hot"))});
+  document.querySelectorAll(".mag").forEach(el=>{el.addEventListener("pointermove",e=>{const r=el.getBoundingClientRect();gsap.to(el,{x:(e.clientX-r.left-r.width/2)*.3,y:(e.clientY-r.top-r.height/2)*.4,duration:.4,ease:"power3"})});
+    el.addEventListener("pointerleave",()=>gsap.to(el,{x:0,y:0,duration:.6,ease:"elastic.out(1,.4)"}))})}
+/* ---------- anchors with smooth scroll ---------- */
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener("click",e=>{const t=document.querySelector(a.getAttribute("href"));if(!t)return;e.preventDefault();t.scrollIntoView({behavior:RM?"auto":"smooth"})}));
+/* ---------- form (demo: nothing is sent) ---------- */
+document.getElementById("rf").addEventListener("submit",e=>{e.preventDefault();const v=document.getElementById("em").value.trim(),m=document.getElementById("fmsg");
+  if(!/^\S+@\S+\.\S+$/.test(v)){m.textContent="Enter a valid email address.";return}
+  m.innerHTML='<span class="ac">Noted.</span> This is a design demo, so nothing was sent.';document.getElementById("em").value=""});
+})();
+</script>

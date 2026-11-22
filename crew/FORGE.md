@@ -64,7 +64,8 @@ Forge never emails anyone, never makes clips, and never contacts clients. Charli
      git fetch origin gh-pages
      git worktree add ../pages origin/gh-pages -B gh-pages
      ```
-   - **Build in `../pages/drafts/<id>/`**, starting from the concept they said yes to (`../pages/<id>/index.html`). Remove the concept banner.
+   - **Style:** read `crew/WEBSITE_STYLE.md` and `crew/style-reference/aether.html` first. Every client site follows that art direction (cinematic, editorial, Three.js centrepiece, GSAP scroll motion, 2 fonts, 3 colours, hairline grid) while keeping all the practical requirements below.
+   - **Build in `../pages/drafts/<id>/`** as a single self-contained `index.html`. Use the concept they said yes to (`../pages/<id>/index.html`) for content and what they liked, not for layout. Remove the concept banner.
    - **Pages:**
      - Home, Services (with prices if they publish them), About, Gallery (if they have photos)
      - Reviews: only real reviews, credited ("Google review").

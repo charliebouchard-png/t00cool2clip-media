@@ -12,7 +12,8 @@ if [ ! -s $M/$ID.mp4 ]; then git -C $R fetch -q origin $BR; git -C $R show FETCH
 Q=$(python3 -c "
 import json,urllib.parse
 x=[i for i in json.load(open('$D/${QUEUE:-queue.json}'))['items'] if i['id']=='$ID'][0]
-p={'pipedream_upload_body':'1','title':x['title'][:100],'description':x['yt_description'],'tiktok_caption':x['tiktok_caption'],'filename':'$ID.mp4'}
+ad=lambda t:t if (not x.get('campaign') or t.lower().startswith('#ad')) else '#ad '+t  # paid campaign clips must start with #ad (guides: missing disclosure = rejection)
+p={'pipedream_upload_body':'1','title':ad(x['title'])[:100],'description':ad(x['yt_description']),'tiktok_caption':ad(x['tiktok_caption']),'paid':'1' if x.get('campaign') else '0','filename':'$ID.mp4'}
 import os
 if 'tiktok' not in x['platforms'] or os.environ.get('NO_TIKTOK')=='1': p['skip_tiktok']='1'
 if 'youtube' not in x['platforms']: p['skip_youtube']='1'

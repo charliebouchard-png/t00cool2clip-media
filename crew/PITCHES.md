@@ -14,7 +14,7 @@ Charlie presses the **Send emails** button in Client Files. That run sends the n
    - **Split runs:** a message may say "ONLY these ids: a, b, c" – then send only those pitches (still checking each one below), and ignore every other pitch, because other Quill runs are sending the rest at the same time.
    - **"Pitches only":** if the message says so, skip step 8 (the normal inbox run) – another run does it.
 2. **Pick the pitches.** `query` pitches where `status == "queued"`, oldest `createdAt` first (or the listed ids).
-   - **USA pitches** (`batch: "us"`) are released: send them too, including ones still marked `status: "held"` for the mailing address. Before sending, replace `{mailing_address}` in the body with the mailing address given in your task instructions (it is deliberately not stored in this repo). Never send a body that still contains `{mailing_address}` – if you don't have the address, skip it and say so.
+   - **USA pitches** (`batch: "us"`) are sent the same way as UK ones. Never add a postal address. If a body still contains `{mailing_address}`, delete that line before sending.
 3. **For each pitch, check it first:**
    - **Edited contact details:** `get clients/<id>`. If it has a `contact` object with an email, send to that email instead. If `contact.email` is `""`, mark the pitch `skipped` and move on.
    - **Status:** if the client's status is anything other than "Not emailed yet" (or the doc is missing), mark the pitch `skipped`. They've already been contacted, archived or won.

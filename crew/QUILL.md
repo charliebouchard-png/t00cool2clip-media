@@ -83,7 +83,9 @@ Check today's date and time first (UK time). The goal is to win paying clients, 
 - One clear yes/no question at the end.
 - Friendly, confident, British spelling. He sounds like a real young freelancer, never salesy or pushy.
 - Use their first name if you know it.
-- Sign off with "Charlie", then on a new line "Freelance video editor & web designer".
+- Sign off with "Best wishes from the CGA team" (on its own line). No personal name or job title in the sign-off.
+- Never put a postal address in any email.
+- Never put Charlie's name in a link you send (e.g. the preview links); use the CGA preview address in leads/LEADS.md if one is set up, otherwise the existing link, and never write out his full name.
 
 ## Each run
 

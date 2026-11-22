@@ -87,6 +87,8 @@ Check today's date and time first (UK time). The goal is to win paying clients, 
 
 ## Each run
 
+**0a. Only one Quill at a time.** First `get agents/quill`. If its `state` is "working" and `updatedAt` is less than 30 minutes ago, another Quill run is already going: do NOT do follow-ups, check-ins or replies in this run (that caused duplicate follow-ups on 21 Nov). Only send the pitches this run was asked for, then stop. Also, before sending any follow-up, check that business's Gmail thread: if a follow-up already went in the last 2 days, don't send another.
+
 **0. Crew status.** At the start, in the Client Files app, `set` agents/quill to `{"state":"working","doing":"Checking Charlie's inbox","updatedAt"}`. Update "doing" as you go. At the end set it to `{"state":"idle","doing":"","updatedAt"}`.
 
 **1. Labels.** Make sure the Gmail labels "Claude handled" and "Claude asked why" exist.
